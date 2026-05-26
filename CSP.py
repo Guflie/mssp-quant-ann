@@ -178,4 +178,46 @@ def prune_disjoint_constraints(csp: CSP, var: Var) ->int:
             pruned += 1
     return pruned
 
-# todo: add subproblem exploitation
+def split_connected_components(csp: CSP) -> list[CSP]:
+    """
+    Decompose a CSP into independent sub-CSPs, one per connected component
+    of the constraint graph. Variables with no constraints form singleton components.
+
+    Each sub-CSP gets deep-copied Var objects (same ids, copied domains) so
+    sub-problems can be solved independently without domain mutations leaking.
+    The constraint matrix size is preserved (max_vars) so variable ids remain
+    valid as matrix indices.
+    """
+    visited: set[int] = set()
+    components: list[list[Var]] = []
+
+    for v in csp.vars:
+        if v.id in visited:
+            continue
+        
+        component: list[Var] = []
+        queue = deque([v])
+        visited.add(v.id)
+        while queue:
+            var = queue.popleft()
+            component.append(var)
+            for neighbor in csp.neighbors(var):
+                if neighbor.id not in visited:
+                    visited.add(neighbor.id)
+                    queue.append(neighbor)
+        components.append(component)
+
+    result: list[CSP] = []
+    for component in components:
+        sub = CSP(max_vars=csp.max_vars)
+        for var in component:
+            new_var = Var(var.id)
+            new_var.domain = set(var.domain)
+            sub.add_var(new_var)
+        for u in sub.vars:
+            for v in sub.vars:
+                if u.id < v.id and csp.const[u.id][v.id]:
+                    sub.const[u.id][v.id] = True
+        result.append(sub)
+
+    return result
