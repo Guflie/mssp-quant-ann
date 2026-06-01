@@ -180,20 +180,15 @@ class CSP:
         """
         summ: dict[str, float] = dict()
         summ["num_vars"] = len(self.vars)
-        summ["avg_domain_size"] = (
-            sum([len(v.domain) for v in self.vars]) / len(self.vars)
-            if len(self.vars) > 0 else 0
-        )
-        summ["min_domain_size"] = (
-            min([len(v.domain) for v in self.vars])
-            if len(self.vars) > 0 else 0
-        )
-        summ["max_domain_size"] = (
-            max([len(v.domain) for v in self.vars])
-            if len(self.vars) > 0 else 0
-        )
+
+        summ["avg_domain_size"] = float(np.mean([len(v.domain) for v in self.vars]))
+        summ["sd_domain_size"] = float(np.std([len(v.domain) for v in self.vars]))
+        summ["min_domain_size"] = float(np.min([len(v.domain) for v in self.vars]))
+        summ["max_domain_size"] = float(np.max([len(v.domain) for v in self.vars]))
+        
         summ["num_const"] = self.num_constraints()
         summ["avg_degree"] = float(np.mean([self.degree(v) for v in self.vars]))
+        summ["sd_degree"] = float(np.std([self.degree(v) for v in self.vars]))
         summ["const_dens"] = (
             float(2 * np.sum(self.const) / (len(self.vars) ** 2 - len(self.vars)))
             if len(self.vars) > 1 else 0
