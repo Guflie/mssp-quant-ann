@@ -26,11 +26,11 @@ class RawVisibilityInterval:
     placed at different start times within the visibility window.
     """
 
-    # Identity fields
-    interval_id: str
+    # Identity fields   TODO turn this fields in integers
+    interval_id: str    
     satellite_id: str
     antenna_id: str
-    station_id: str
+    station_id: str     # TODO is this really useful or we can trim it out?
 
     # Visibility-window fields, expressed in hours from the horizon start
     visibility_start: float

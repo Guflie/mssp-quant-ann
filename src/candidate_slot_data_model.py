@@ -1,5 +1,8 @@
 from dataclasses import dataclass, field
 
+# TODO looks a little redudant, shoudl we merge it in the 
+#      raw_visibility_interval_data_model?
+
 @dataclass
 class GroundStation:
     """Represent one ground station."""
@@ -15,7 +18,10 @@ class Satellite:
 
 @dataclass
 class Antenna:
-    """Represent one ground-station antenna."""
+    """
+    Represent one ground-station antenna. Multiple antennas might be located in the 
+    same GroundStation. 
+    """
 
     id: str
     description: str

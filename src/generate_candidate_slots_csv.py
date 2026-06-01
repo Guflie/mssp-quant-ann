@@ -1,4 +1,5 @@
-"""Generate a reproducible CSV dataset of random raw visibility intervals.
+"""
+Generate a reproducible CSV dataset of random raw visibility intervals.
 
 The generated file is intended to be the shared input for the notebook
 pipeline. Phase 2 turns feasible raw intervals into `CandidateSlot` objects.
@@ -12,9 +13,9 @@ import random
 from pathlib import Path
 
 
-DEFAULT_OUTPUT_PATH = Path("raw_visibility_intervals.csv")
+DEFAULT_OUTPUT_PATH = Path("dataset/raw_visibility_intervals.csv")
 DEFAULT_RANDOM_SEED = 42
-DEFAULT_INTERVAL_COUNT = 100
+DEFAULT_INTERVAL_COUNT = 100000
 
 SATELLITE_IDS = [f"SAT-{index:03d}" for index in range(1, 31)]
 ANTENNA_TO_STATION = {
@@ -27,7 +28,7 @@ ANTENNA_TO_STATION = {
 }
 UNKNOWN_ANTENNA_ID = "ANT-UNKNOWN"
 
-
+# TODO what's the pourpose of this method?
 def build_interval_row(
     interval_id: str,
     satellite_id: str,
@@ -56,7 +57,9 @@ def generate_raw_visibility_interval_rows(
     interval_count: int,
     random_seed: int,
 ) -> list[dict[str, str | float]]:
-    """Generate random raw visibility interval rows.
+    """
+    Generate random raw visibility interval rows. Antenna and Satellite involved
+    in the visibility interval are sampled randomly.
 
     Rows are generated organically and may be accepted or rejected depending on
     the Phase 2 feasibility filters.
@@ -70,6 +73,7 @@ def generate_raw_visibility_interval_rows(
 
         # Visibility windows intentionally reach outside ideal bounds so the
         # discretization filters have realistic work to do.
+        # TODO make the following values less hard-coded
         visibility_start = round(rng.uniform(-0.75, 12.25), 2)
         visibility_duration = round(rng.uniform(0.10, 3.00), 2)
         visibility_end = round(visibility_start + visibility_duration, 2)

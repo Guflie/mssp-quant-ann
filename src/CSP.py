@@ -96,6 +96,7 @@ class CSP:
         min_var: Var = min(u, v, key=lambda v: v.id)
         max_var: Var = max(u, v, key=lambda v: v.id)
         return [min_var, max_var]
+    # TODO this might be improved
 
     def add_constraint(self, u: Var, v: Var) -> None:
         """Add a constraint between u and v if their domains overlap."""
