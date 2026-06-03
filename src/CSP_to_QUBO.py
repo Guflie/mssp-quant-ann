@@ -103,8 +103,6 @@ def csp_to_qubo(
 
     return Q, index_map
 
-
-# FIXME: I don't know if we're going to use this
 def decode_sample(
     sample :dict[int, int],
     csp :CSP,
