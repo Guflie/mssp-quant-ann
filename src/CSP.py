@@ -45,11 +45,13 @@ class CSP_Variable:
     id :int
     name :str
     domain :set[Timeslot]
+    weight :float
 
-    def __init__(self, id :int, name: str = "") ->None:
+    def __init__(self, id :int, weight: float = 1, name: str = "") ->None:
         self.id = id
         self.name = name
         self.domain = set()
+        self.weight = weight
 
     def add_value(self, val :Timeslot) ->None:
         """
@@ -288,7 +290,7 @@ def split_connected_components(csp :CSP) ->list[CSP]:
     for component in components:
         sub = CSP(max_vars=csp.max_vars)
         for var in component:
-            new_var = CSP_Variable(var.id, var.name)
+            new_var = CSP_Variable(var.id, var.weight, var.name)
             new_var.domain = set(var.domain)
             sub.add_var(new_var)
         result.append(sub)

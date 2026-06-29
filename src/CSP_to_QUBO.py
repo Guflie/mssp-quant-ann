@@ -45,7 +45,7 @@ def build_index_map(csp :CSP) ->dict[tuple[int, Timeslot], int]:
 
 def csp_to_qubo(
     csp :CSP,
-    penalty_onehot :float = 10.0,   # TODO: make this penalty dependent from the number of timelsots for that variable
+    penalty_onehot :float = 10.0,   
     penalty_conflict :float = 1.0,
     assignment_gain :float = 5.0,
 ) -> tuple[
@@ -76,11 +76,20 @@ def csp_to_qubo(
         key = (i, j)
         Q[key] = val
 
+    # normalize weights to [0, 1] so the reward stays comparable to the
+    # (fixed) one-hot/conflict penalties regardless of the raw weight scale;
+    # falls back to a uniform weight of 1 when no variable carries a weight
+    max_weight = max((v.weight for v in csp.vars), default=0)
+    normalized_weight = (
+        {v.id: v.weight / max_weight for v in csp.vars} if max_weight > 0
+        else {v.id: 1.0 for v in csp.vars}
+    )
+
     # adding reward for choosing the assignment
     for v in csp.vars:
         for t in v.domain:
             i = index_map[(v.id, t)]
-            _add(i, i, -assignment_gain)
+            _add(i, i, -assignment_gain*normalized_weight[v.id])
 
     # adding conflict penalty between same timeslot and different satellite
     for v in csp.vars:
