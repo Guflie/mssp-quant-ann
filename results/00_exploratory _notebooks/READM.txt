@@ -1,0 +1,4 @@
+This folder contains some notebooks used in the early stage of the project, used to explore
+methodologies, frameworks ecc ecc.
+This mean it doesn't containes any relevant code for the project and it can be skipped
+freely.
