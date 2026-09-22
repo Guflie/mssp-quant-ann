@@ -12,5 +12,9 @@
   "max_decomposition_nodes": 10000,
 
   "exact_enumeration_node_limit": 22,
-  "exact_clique_node_limit": 35
+  "exact_clique_node_limit": 35,
+
+  "qubo_input_run": "runs/mwis_pipeline/latest_mwis_run",
+  "num_reads": 500,
+  "base_seed": 42
 }
