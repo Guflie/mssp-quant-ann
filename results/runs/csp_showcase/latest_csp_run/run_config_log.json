@@ -1,0 +1,18 @@
+{
+  "candidate_slot_csv": "data/dataset/starlink/starlink_scheduling_instance_dense.csv",
+  "run_name_mwis": "latest_mwis_run",
+  "csp_slot_csv": "data/dataset/starlink/starlink_scheduling_slots_weighted.csv",
+  "run_name_csp": "latest_csp_run",
+  "max_qpu_terminal_nodes": 30,
+  "max_qpu_terminal_couplers": 200,
+  "max_separator_size": 3,
+  "max_separator_candidate_pool": 14,
+  "max_separator_states": 10000,
+  "max_recursion_depth": 12,
+  "max_decomposition_nodes": 10000,
+  "exact_enumeration_node_limit": 22,
+  "exact_clique_node_limit": 35,
+  "qubo_input_run": "runs/mwis_pipeline/latest_mwis_run",
+  "num_reads": 500,
+  "base_seed": 42
+}
