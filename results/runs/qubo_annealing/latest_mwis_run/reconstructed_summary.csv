@@ -1,0 +1,13 @@
+metric,value
+Producer run,latest_mwis_run
+Status,annealed_feasible
+Selected contacts,113
+Total feasible objective,8052.602
+Annealed terminal subgraphs available,75
+Annealed terminal subgraphs used,37
+Infeasible terminal annealing samples,0
+Heuristic fallback nodes,0
+Heuristic fallback feasible objective,0.0
+Heuristic fallback conservative upper bound,0.0
+Heuristic fallback gap bound,0.0
+Certification,feasible annealed MWIS reconstruction; not an exact optimality certificate
