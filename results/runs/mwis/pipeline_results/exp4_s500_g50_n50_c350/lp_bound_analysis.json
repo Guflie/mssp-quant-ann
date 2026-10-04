@@ -1,0 +1,46 @@
+{
+  "run": "exp4_s500_g50_n50_c350",
+  "input": "data/experiment_inputs/exp1_3_snapshot_2026-09-27/scenario_inputs/slots_s500_g50.csv",
+  "model": "same-satellite overlap conflicts included; graph identical across all QPU-size profiles",
+  "solver": "SciPy linprog / HiGHS",
+  "resource_limit_per_model_seconds": 30,
+  "threads_requested": 2,
+  "model_definition": "maximize sum(weight_i*x_i), x_i+x_j<=1 for every conflict edge, 0<=x_i<=1",
+  "incomplete_components_tested": [
+    {
+      "component_id": "component_001",
+      "nodes": 2419,
+      "edges": 10057,
+      "lp_upper_bound": 78191.05300000001,
+      "saved_feasible_component_score": 38628.069,
+      "selected_nodes": 574,
+      "selected_conflicts": 0,
+      "max_edge_constraint_violation": 0.0,
+      "lp_iterations": 2493,
+      "solve_seconds": 0.5446
+    }
+  ],
+  "comparison": {
+    "old_unresolved_upper_bound": 155378.941,
+    "sum_lp_upper_bounds": 78191.05300000001,
+    "bound_used": 78191.05300000001,
+    "old_global_upper_bound": 178706.419,
+    "refined_global_upper_bound": 101518.53100000002,
+    "feasible_global_objective": 61955.54699999998,
+    "old_gap": 116750.87200000002,
+    "refined_gap": 39562.98400000004,
+    "gap_reduction": 77187.88799999998,
+    "refined_relative_gap_percent": 38.97119433298344
+  },
+  "validation": {
+    "graph_nodes": 3220,
+    "graph_edges": 11457,
+    "natural_components": 150,
+    "selected_nodes": 914,
+    "selected_conflicts": 0,
+    "reconstruction_objective_matches_schedule_weights": true,
+    "lp_bound_at_least_saved_feasible_score": true,
+    "max_lp_edge_constraint_violation": 0.0
+  },
+  "interpretation": "LP relaxation provides a valid upper bound within solver tolerances. Refined global bound is the minimum of the existing conservative unresolved bound and the summed LP bounds; this does not change the feasible schedule or certify the integer optimum."
+}

@@ -1,0 +1,18 @@
+metric,value
+Producer run,exp4_qpu_s500_g50_n50_c350
+Status,annealed_feasible
+Selected contacts,1239
+Total feasible objective,87115.245
+Annealed terminal subgraphs available,443
+Annealed terminal subgraphs used,382
+Infeasible terminal annealing samples,0
+Fallback nodes used in selected schedule,0
+Selected-schedule fallback feasible objective,0.0
+Selected-schedule fallback upper bound,0.0
+Selected-schedule fallback gap bound,0.0
+Components with incomplete separator decomposition (all states),0
+Incomplete separator nodes (all states),0
+MWIS producer conservative objective upper bound,87115.245
+Annealed schedule absolute gap bound,0.0
+Annealed schedule relative gap bound (%),0.0
+Certification,annealed feasible objective matches MWIS upper bound

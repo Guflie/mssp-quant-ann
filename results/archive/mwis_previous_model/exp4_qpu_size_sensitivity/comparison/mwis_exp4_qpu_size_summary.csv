@@ -1,0 +1,4 @@
+QPU profile (nodes / couplers),Node limit,Coupler limit,Candidate slots,Conflict edges,Natural components,Direct QUBOs,Separator QUBOs,Terminal QUBOs,Terminal QUBOs used,Max terminal nodes,Max terminal couplers,Incomplete separator nodes,Selected contacts,Annealed objective,MWIS upper bound,Gap (%),Validation
+20 / 100,20,100,3220,6515,561,337,420,757,434,20,99,2,1239,87115.245000,89534.272000,2.701789,PASS
+30 / 200,30,200,3220,6515,561,349,209,558,401,30,119,0,1239,87115.245000,87115.245000,0.000000,PASS
+50 / 350,50,350,3220,6515,561,355,88,443,382,45,165,0,1239,87115.245000,87115.245000,0.000000,PASS

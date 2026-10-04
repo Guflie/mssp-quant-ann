@@ -1,0 +1,6 @@
+Scenario,Satellites,Gateways,Candidate slots,Conflict edges,Natural components,Direct QUBOs,Separator QUBOs,Incomplete components,Incomplete nodes,Terminal QUBOs,Annealed used,Selected contacts,Feasible objective,Upper bound,Gap (%),Max QUBO nodes,Max QUBO couplers
+Baseline 100/50,100,50,422,90,333,82,0,0,0,82,82,339,22807.666000,22807.666000,0.000000,3,3
+Satellites 200/50,200,50,764,350,471,180,0,0,0,180,180,524,36801.511000,36801.511000,0.000000,9,13
+Satellites 500/50,500,50,3220,6515,561,349,209,0,0,558,401,1239,87115.245000,87115.245000,0.000000,30,119
+Gateways 500/25,500,25,1685,3434,265,170,122,0,0,292,200,633,44965.184000,44965.184000,0.000000,30,119
+Gateways 500/100,500,100,6706,14226,1083,662,470,1,1,1132,782,2499,177096.722000,179089.212000,1.112568,30,126

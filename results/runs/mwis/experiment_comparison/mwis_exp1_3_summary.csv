@@ -1,0 +1,6 @@
+Scenario,Satellites,Gateways,Candidate slots,Conflict edges,Natural components,Direct QUBOs,Separator QUBOs,Incomplete components,Incomplete nodes,Terminal QUBOs,Annealed used,Selected contacts,Feasible objective,Pipeline upper bound,Pipeline gap (%),LP-refined upper bound,LP-refined gap (%),LP check,Max QUBO nodes,Max QUBO couplers
+Baseline 100/50,100,50,422,573,130,70,0,0,0,70,70,197,12965.474000,12965.474000,0.000000,,,not applicable (all components exact),19,50
+Satellites 200/50,200,50,764,1359,157,79,385,1,2,464,103,312,21199.404000,23529.196000,9.901707,23529.196000,9.901707,LP applied; no tighter bound,30,89
+Satellites 500/50,500,50,3220,11457,150,83,99,1,4983,182,113,914,61955.547000,178706.419000,65.331102,101518.531000,38.971194,LP-tightened,30,101
+Gateways 500/25,500,25,1685,4848,77,47,95,1,4994,142,71,519,36357.315000,87244.091000,58.326903,51919.673500,29.973914,LP-tightened,30,101
+Gateways 500/100,500,100,6706,42758,150,90,299,7,5054,389,120,1299,87208.874000,403047.130000,78.362611,217769.741500,59.953631,LP-tightened,30,128

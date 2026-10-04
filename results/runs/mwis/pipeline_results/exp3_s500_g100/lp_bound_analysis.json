@@ -1,0 +1,114 @@
+{
+  "purpose": "Isolated LP upper-bound refinement for the revised-model 500/100 gateway run; production pipeline unchanged.",
+  "input_run": "results/runs/mwis/pipeline_results/exp3_s500_g100",
+  "input_candidate_csv": "data/experiment_inputs/exp1_3_snapshot_2026-09-27/scenario_inputs/slots_s500_g100.csv",
+  "model": "For each incomplete natural component: maximize sum(weight_i*x_i), with x_i+x_j<=1 for every conflict edge and 0<=x_i<=1.",
+  "solver": "SciPy linprog / HiGHS",
+  "resource_limit_seconds_per_component": 30.0,
+  "incomplete_components_tested": [
+    {
+      "component_id": "component_001",
+      "variables": 5453,
+      "conflict_edge_constraints": 39920,
+      "saved_feasible_component_score": 55063.088,
+      "lp_upper_bound": 177122.30699999936,
+      "iterations": 5550,
+      "solve_seconds": 0.2695,
+      "max_edge_constraint_violation": 0.0
+    },
+    {
+      "component_id": "component_002",
+      "variables": 142,
+      "conflict_edge_constraints": 580,
+      "saved_feasible_component_score": 2417.55,
+      "lp_upper_bound": 5121.363500000002,
+      "iterations": 151,
+      "solve_seconds": 0.0059,
+      "max_edge_constraint_violation": 0.0
+    },
+    {
+      "component_id": "component_003",
+      "variables": 119,
+      "conflict_edge_constraints": 344,
+      "saved_feasible_component_score": 2458.879,
+      "lp_upper_bound": 4199.308000000001,
+      "iterations": 131,
+      "solve_seconds": 0.0042,
+      "max_edge_constraint_violation": 0.0
+    },
+    {
+      "component_id": "component_004",
+      "variables": 103,
+      "conflict_edge_constraints": 355,
+      "saved_feasible_component_score": 1982.9160000000002,
+      "lp_upper_bound": 3633.2479999999987,
+      "iterations": 107,
+      "solve_seconds": 0.0041,
+      "max_edge_constraint_violation": 0.0
+    },
+    {
+      "component_id": "component_005",
+      "variables": 88,
+      "conflict_edge_constraints": 263,
+      "saved_feasible_component_score": 1614.671,
+      "lp_upper_bound": 2678.6120000000005,
+      "iterations": 91,
+      "solve_seconds": 0.0037,
+      "max_edge_constraint_violation": 0.0
+    },
+    {
+      "component_id": "component_006",
+      "variables": 68,
+      "conflict_edge_constraints": 194,
+      "saved_feasible_component_score": 1262.9980000000003,
+      "lp_upper_bound": 2087.4165,
+      "iterations": 70,
+      "solve_seconds": 0.003,
+      "max_edge_constraint_violation": 0.0
+    },
+    {
+      "component_id": "component_007",
+      "variables": 52,
+      "conflict_edge_constraints": 154,
+      "saved_feasible_component_score": 930.989,
+      "lp_upper_bound": 1449.7035,
+      "iterations": 54,
+      "solve_seconds": 0.0031,
+      "max_edge_constraint_violation": 0.0
+    }
+  ],
+  "total_lp_wall_seconds": 0.5926,
+  "sum_of_lp_component_upper_bounds": 196291.95849999937,
+  "saved_incomplete_components_upper_bound": 381569.34700000007,
+  "incomplete_bound_used": 196291.95849999937,
+  "incomplete_bound_reduction": 185277.3885000007,
+  "exact_components_objective_sum": 21477.783,
+  "saved_global_upper_bound_before_lp": 403047.13000000006,
+  "refined_global_upper_bound": 217769.74149999936,
+  "saved_feasible_global_objective": 87208.874,
+  "absolute_gap_before_lp": 315838.25600000005,
+  "absolute_gap_after_lp": 130560.86749999937,
+  "gap_reduction": 185277.3885000007,
+  "gap_reduction_percent": 58.66211105851618,
+  "refined_gap_as_percent_of_upper_bound": 59.953631115459515,
+  "validation": {
+    "candidate_ids_and_weights_match_frozen_input": true,
+    "all_same_satellite_overlaps_are_graph_edges": true,
+    "mwis_and_reconstructed_schedules_match": true,
+    "schedule_conflicts": 0,
+    "schedule_objective_matches_summary": true,
+    "all_terminal_qubos_within_limits": true,
+    "all_terminal_annealing_samples_feasible": true,
+    "lp_bounds_at_least_component_feasible_scores": true,
+    "maximum_lp_edge_constraint_violation": 0.0
+  },
+  "annealing_reconstruction": {
+    "terminal_qubos": 389,
+    "annealed_terminal_subgraphs": 389,
+    "used_in_reconstruction": 120,
+    "infeasible_terminal_samples": 0,
+    "selected_contacts": 1299,
+    "objective": 87208.874
+  },
+  "interpretation": "LP relaxations tighten only the conservative reporting bound (using the tighter of the saved separator bound and sum of LP bounds). They do not change the feasible schedule or certify the integer optimum. Floating-point solver tolerances apply."
+}

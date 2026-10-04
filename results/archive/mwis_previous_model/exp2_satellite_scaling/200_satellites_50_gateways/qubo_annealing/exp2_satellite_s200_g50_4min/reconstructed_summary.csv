@@ -1,0 +1,18 @@
+metric,value
+Producer run,exp2_satellite_s200_g50_4min
+Status,annealed_feasible
+Selected contacts,524
+Total feasible objective,36801.511
+Annealed terminal subgraphs available,180
+Annealed terminal subgraphs used,180
+Infeasible terminal annealing samples,0
+Fallback nodes used in selected schedule,0
+Selected-schedule fallback feasible objective,0.0
+Selected-schedule fallback upper bound,0.0
+Selected-schedule fallback gap bound,0.0
+Components with incomplete separator decomposition (all states),0
+Incomplete separator nodes (all states),0
+MWIS producer conservative objective upper bound,36801.511
+Annealed schedule absolute gap bound,0.0
+Annealed schedule relative gap bound (%),0.0
+Certification,annealed feasible objective matches MWIS upper bound

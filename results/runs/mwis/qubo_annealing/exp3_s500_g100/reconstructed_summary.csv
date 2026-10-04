@@ -1,0 +1,18 @@
+metric,value
+Producer run,exp3_s500_g100
+Status,annealed_feasible
+Selected contacts,1299
+Total feasible objective,87208.874
+Annealed terminal subgraphs available,389
+Annealed terminal subgraphs used,120
+Infeasible terminal annealing samples,0
+Fallback nodes used in selected schedule,5
+Selected-schedule fallback feasible objective,57143.517
+Selected-schedule fallback upper bound,363608.23400000005
+Selected-schedule fallback gap bound,306464.71700000006
+Components with incomplete separator decomposition (all states),7
+Incomplete separator nodes (all states),5054
+MWIS producer conservative objective upper bound,403047.13000000006
+Annealed schedule absolute gap bound,315838.25600000005
+Annealed schedule relative gap bound (%),78.36261134026684
+Certification,feasible annealed MWIS schedule; optimality not certified

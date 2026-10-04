@@ -1,0 +1,20 @@
+{
+  "candidate_slot_csv": "data/experiment_inputs/exp1_3_snapshot_2026-09-27/scenario_inputs/slots_s500_g50.csv",
+  "run_name_mwis": "exp4_s500_g50_n20_c100",
+  "csp_slot_csv": "data/dataset/starlink/starlink_scheduling_slots_weighted.csv",
+  "run_name_csp": "latest_csp_run",
+  "max_qpu_terminal_nodes": 20,
+  "max_qpu_terminal_couplers": 100,
+  "max_separator_size": 3,
+  "max_separator_candidate_pool": 14,
+  "max_separator_states": 10000,
+  "max_recursion_depth": 12,
+  "max_decomposition_nodes": 10000,
+  "exact_enumeration_node_limit": 22,
+  "exact_clique_node_limit": 50,
+  "qubo_input_run": "runs/mwis/pipeline_results/exp4_s500_g50_n20_c100",
+  "qubo_reward_factor": 1.0,
+  "qubo_penalty_factor": 1.0,
+  "num_reads": 500,
+  "base_seed": 42
+}

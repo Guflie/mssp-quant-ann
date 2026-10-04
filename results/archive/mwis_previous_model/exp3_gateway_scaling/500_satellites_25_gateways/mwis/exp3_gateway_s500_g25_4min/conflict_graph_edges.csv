@@ -1,0 +1,3435 @@
+source,target,reason,reconfiguration_time
+SLOT_000001,SLOT_000043,same-antenna reconfiguration time,0.05
+SLOT_000002,SLOT_000039,same-antenna reconfiguration time,0.05
+SLOT_000002,SLOT_000040,same-antenna reconfiguration time,0.05
+SLOT_000002,SLOT_000044,same-antenna reconfiguration time,0.05
+SLOT_000003,SLOT_000012,same-antenna overlap,
+SLOT_000003,SLOT_000018,same-antenna overlap,
+SLOT_000003,SLOT_000041,same-antenna reconfiguration time,0.05
+SLOT_000004,SLOT_000026,same-antenna overlap,
+SLOT_000004,SLOT_000047,same-antenna reconfiguration time,0.05
+SLOT_000005,SLOT_000020,same-antenna overlap,
+SLOT_000005,SLOT_000027,same-antenna overlap,
+SLOT_000006,SLOT_000048,same-antenna reconfiguration time,0.05
+SLOT_000007,SLOT_000029,same-antenna overlap,
+SLOT_000008,SLOT_000030,same-antenna overlap,
+SLOT_000009,SLOT_000050,same-antenna reconfiguration time,0.05
+SLOT_000010,SLOT_000016,same-antenna overlap,
+SLOT_000010,SLOT_000024,same-antenna overlap,
+SLOT_000010,SLOT_000038,same-antenna reconfiguration time,0.05
+SLOT_000011,SLOT_000031,same-antenna overlap,
+SLOT_000012,SLOT_000018,same-antenna overlap,
+SLOT_000012,SLOT_000041,same-antenna reconfiguration time,0.05
+SLOT_000012,SLOT_000051,same-antenna reconfiguration time,0.05
+SLOT_000013,SLOT_000033,same-antenna overlap,
+SLOT_000014,SLOT_000023,same-antenna overlap,
+SLOT_000014,SLOT_000028,same-antenna overlap,
+SLOT_000014,SLOT_000036,same-antenna overlap,
+SLOT_000014,SLOT_000058,same-antenna reconfiguration time,0.05
+SLOT_000014,SLOT_000059,same-antenna reconfiguration time,0.05
+SLOT_000015,SLOT_000037,same-antenna overlap,
+SLOT_000016,SLOT_000024,same-antenna overlap,
+SLOT_000016,SLOT_000038,same-antenna overlap,
+SLOT_000016,SLOT_000061,same-antenna reconfiguration time,0.05
+SLOT_000016,SLOT_000062,same-antenna reconfiguration time,0.05
+SLOT_000018,SLOT_000041,same-antenna overlap,
+SLOT_000018,SLOT_000051,same-antenna reconfiguration time,0.05
+SLOT_000018,SLOT_000064,same-antenna reconfiguration time,0.05
+SLOT_000018,SLOT_000065,same-antenna reconfiguration time,0.05
+SLOT_000019,SLOT_000046,same-antenna reconfiguration time,0.05
+SLOT_000019,SLOT_000067,same-antenna reconfiguration time,0.05
+SLOT_000020,SLOT_000027,same-antenna overlap,
+SLOT_000020,SLOT_000053,same-antenna reconfiguration time,0.05
+SLOT_000020,SLOT_000069,same-antenna reconfiguration time,0.05
+SLOT_000021,SLOT_000022,same-antenna overlap,
+SLOT_000021,SLOT_000032,same-antenna overlap,
+SLOT_000021,SLOT_000042,same-antenna overlap,
+SLOT_000021,SLOT_000054,same-antenna reconfiguration time,0.05
+SLOT_000022,SLOT_000032,same-antenna overlap,
+SLOT_000022,SLOT_000042,same-antenna overlap,
+SLOT_000022,SLOT_000054,same-antenna reconfiguration time,0.05
+SLOT_000023,SLOT_000028,same-antenna overlap,
+SLOT_000023,SLOT_000036,same-antenna overlap,
+SLOT_000023,SLOT_000058,same-antenna reconfiguration time,0.05
+SLOT_000023,SLOT_000059,same-antenna reconfiguration time,0.05
+SLOT_000023,SLOT_000072,same-antenna reconfiguration time,0.05
+SLOT_000024,SLOT_000038,same-antenna overlap,
+SLOT_000024,SLOT_000061,same-antenna reconfiguration time,0.05
+SLOT_000024,SLOT_000062,same-antenna reconfiguration time,0.05
+SLOT_000025,SLOT_000052,same-antenna reconfiguration time,0.05
+SLOT_000025,SLOT_000077,same-antenna reconfiguration time,0.05
+SLOT_000026,SLOT_000047,same-antenna overlap,
+SLOT_000026,SLOT_000068,same-antenna reconfiguration time,0.05
+SLOT_000027,SLOT_000053,same-antenna reconfiguration time,0.05
+SLOT_000027,SLOT_000069,same-antenna reconfiguration time,0.05
+SLOT_000027,SLOT_000081,same-antenna reconfiguration time,0.05
+SLOT_000027,SLOT_000082,same-antenna reconfiguration time,0.05
+SLOT_000028,SLOT_000036,same-antenna overlap,
+SLOT_000028,SLOT_000058,same-antenna reconfiguration time,0.05
+SLOT_000028,SLOT_000059,same-antenna reconfiguration time,0.05
+SLOT_000028,SLOT_000072,same-antenna reconfiguration time,0.05
+SLOT_000028,SLOT_000086,same-antenna reconfiguration time,0.05
+SLOT_000030,SLOT_000073,same-antenna reconfiguration time,0.05
+SLOT_000031,SLOT_000063,same-antenna reconfiguration time,0.05
+SLOT_000032,SLOT_000042,same-antenna overlap,
+SLOT_000032,SLOT_000054,same-antenna overlap,
+SLOT_000032,SLOT_000083,same-antenna reconfiguration time,0.05
+SLOT_000032,SLOT_000084,same-antenna reconfiguration time,0.05
+SLOT_000033,SLOT_000071,same-antenna reconfiguration time,0.05
+SLOT_000034,SLOT_000035,same-antenna overlap,
+SLOT_000034,SLOT_000057,same-antenna overlap,
+SLOT_000035,SLOT_000057,same-antenna overlap,
+SLOT_000036,SLOT_000058,same-antenna overlap,
+SLOT_000036,SLOT_000059,same-antenna overlap,
+SLOT_000036,SLOT_000072,same-antenna reconfiguration time,0.05
+SLOT_000036,SLOT_000086,same-antenna reconfiguration time,0.05
+SLOT_000036,SLOT_000089,same-antenna reconfiguration time,0.05
+SLOT_000037,SLOT_000075,same-antenna reconfiguration time,0.05
+SLOT_000038,SLOT_000061,same-antenna overlap,
+SLOT_000038,SLOT_000062,same-antenna overlap,
+SLOT_000039,SLOT_000040,same-antenna overlap,
+SLOT_000039,SLOT_000044,same-antenna overlap,
+SLOT_000040,SLOT_000044,same-antenna overlap,
+SLOT_000041,SLOT_000051,same-antenna overlap,
+SLOT_000041,SLOT_000064,same-antenna overlap,
+SLOT_000041,SLOT_000065,same-antenna overlap,
+SLOT_000041,SLOT_000076,same-antenna reconfiguration time,0.05
+SLOT_000042,SLOT_000054,same-antenna overlap,
+SLOT_000042,SLOT_000083,same-antenna reconfiguration time,0.05
+SLOT_000042,SLOT_000084,same-antenna reconfiguration time,0.05
+SLOT_000043,SLOT_000074,same-antenna overlap,
+SLOT_000044,SLOT_000097,same-antenna reconfiguration time,0.05
+SLOT_000045,SLOT_000078,same-antenna overlap,
+SLOT_000046,SLOT_000067,same-antenna overlap,
+SLOT_000046,SLOT_000079,same-antenna overlap,
+SLOT_000046,SLOT_000080,same-antenna overlap,
+SLOT_000047,SLOT_000068,same-antenna overlap,
+SLOT_000048,SLOT_000056,same-antenna overlap,
+SLOT_000049,SLOT_000085,same-antenna overlap,
+SLOT_000050,SLOT_000087,same-antenna overlap,
+SLOT_000050,SLOT_000095,same-antenna reconfiguration time,0.05
+SLOT_000051,SLOT_000064,same-antenna overlap,
+SLOT_000051,SLOT_000065,same-antenna overlap,
+SLOT_000051,SLOT_000076,same-antenna overlap,
+SLOT_000051,SLOT_000099,same-antenna reconfiguration time,0.05
+SLOT_000052,SLOT_000077,same-antenna overlap,
+SLOT_000053,SLOT_000069,same-antenna overlap,
+SLOT_000053,SLOT_000081,same-antenna overlap,
+SLOT_000053,SLOT_000082,same-antenna overlap,
+SLOT_000053,SLOT_000088,same-antenna overlap,
+SLOT_000054,SLOT_000083,same-antenna overlap,
+SLOT_000054,SLOT_000084,same-antenna overlap,
+SLOT_000054,SLOT_000100,same-antenna reconfiguration time,0.05
+SLOT_000055,SLOT_000070,same-antenna overlap,
+SLOT_000055,SLOT_000101,same-antenna reconfiguration time,0.05
+SLOT_000057,SLOT_000094,same-antenna reconfiguration time,0.05
+SLOT_000057,SLOT_000102,same-antenna reconfiguration time,0.05
+SLOT_000057,SLOT_000103,same-antenna reconfiguration time,0.05
+SLOT_000058,SLOT_000059,same-antenna overlap,
+SLOT_000058,SLOT_000072,same-antenna overlap,
+SLOT_000058,SLOT_000086,same-antenna overlap,
+SLOT_000058,SLOT_000089,same-antenna overlap,
+SLOT_000058,SLOT_000107,same-antenna reconfiguration time,0.05
+SLOT_000059,SLOT_000072,same-antenna overlap,
+SLOT_000059,SLOT_000086,same-antenna overlap,
+SLOT_000059,SLOT_000089,same-antenna overlap,
+SLOT_000059,SLOT_000107,same-antenna reconfiguration time,0.05
+SLOT_000060,SLOT_000090,same-antenna overlap,
+SLOT_000060,SLOT_000104,same-antenna reconfiguration time,0.05
+SLOT_000061,SLOT_000062,same-antenna overlap,
+SLOT_000061,SLOT_000096,same-antenna reconfiguration time,0.05
+SLOT_000062,SLOT_000096,same-antenna reconfiguration time,0.05
+SLOT_000063,SLOT_000093,same-antenna overlap,
+SLOT_000064,SLOT_000065,same-antenna overlap,
+SLOT_000064,SLOT_000076,same-antenna overlap,
+SLOT_000064,SLOT_000099,same-antenna reconfiguration time,0.05
+SLOT_000064,SLOT_000108,same-antenna reconfiguration time,0.05
+SLOT_000064,SLOT_000109,same-antenna reconfiguration time,0.05
+SLOT_000065,SLOT_000076,same-antenna overlap,
+SLOT_000065,SLOT_000099,same-antenna reconfiguration time,0.05
+SLOT_000065,SLOT_000108,same-antenna reconfiguration time,0.05
+SLOT_000065,SLOT_000109,same-antenna reconfiguration time,0.05
+SLOT_000066,SLOT_000105,same-antenna reconfiguration time,0.05
+SLOT_000067,SLOT_000079,same-antenna overlap,
+SLOT_000067,SLOT_000080,same-antenna overlap,
+SLOT_000069,SLOT_000081,same-antenna overlap,
+SLOT_000069,SLOT_000082,same-antenna overlap,
+SLOT_000069,SLOT_000088,same-antenna overlap,
+SLOT_000069,SLOT_000110,same-antenna reconfiguration time,0.05
+SLOT_000070,SLOT_000101,same-antenna reconfiguration time,0.05
+SLOT_000070,SLOT_000111,same-antenna reconfiguration time,0.05
+SLOT_000072,SLOT_000086,same-antenna overlap,
+SLOT_000072,SLOT_000089,same-antenna overlap,
+SLOT_000072,SLOT_000107,same-antenna reconfiguration time,0.05
+SLOT_000072,SLOT_000113,same-antenna reconfiguration time,0.05
+SLOT_000073,SLOT_000092,same-antenna overlap,
+SLOT_000074,SLOT_000114,same-antenna reconfiguration time,0.05
+SLOT_000076,SLOT_000099,same-antenna overlap,
+SLOT_000076,SLOT_000108,same-antenna reconfiguration time,0.05
+SLOT_000076,SLOT_000109,same-antenna reconfiguration time,0.05
+SLOT_000076,SLOT_000118,same-antenna reconfiguration time,0.05
+SLOT_000078,SLOT_000106,same-antenna reconfiguration time,0.05
+SLOT_000078,SLOT_000120,same-antenna reconfiguration time,0.05
+SLOT_000079,SLOT_000080,same-antenna overlap,
+SLOT_000081,SLOT_000082,same-antenna overlap,
+SLOT_000081,SLOT_000088,same-antenna overlap,
+SLOT_000081,SLOT_000110,same-antenna reconfiguration time,0.05
+SLOT_000081,SLOT_000121,same-antenna reconfiguration time,0.05
+SLOT_000081,SLOT_000122,same-antenna reconfiguration time,0.05
+SLOT_000082,SLOT_000088,same-antenna overlap,
+SLOT_000082,SLOT_000110,same-antenna reconfiguration time,0.05
+SLOT_000082,SLOT_000121,same-antenna reconfiguration time,0.05
+SLOT_000082,SLOT_000122,same-antenna reconfiguration time,0.05
+SLOT_000083,SLOT_000084,same-antenna overlap,
+SLOT_000083,SLOT_000100,same-antenna overlap,
+SLOT_000083,SLOT_000123,same-antenna reconfiguration time,0.05
+SLOT_000084,SLOT_000100,same-antenna overlap,
+SLOT_000084,SLOT_000123,same-antenna reconfiguration time,0.05
+SLOT_000086,SLOT_000089,same-antenna overlap,
+SLOT_000086,SLOT_000107,same-antenna reconfiguration time,0.05
+SLOT_000086,SLOT_000113,same-antenna reconfiguration time,0.05
+SLOT_000087,SLOT_000095,same-antenna overlap,
+SLOT_000088,SLOT_000110,same-antenna reconfiguration time,0.05
+SLOT_000088,SLOT_000121,same-antenna reconfiguration time,0.05
+SLOT_000088,SLOT_000122,same-antenna reconfiguration time,0.05
+SLOT_000088,SLOT_000134,same-antenna reconfiguration time,0.05
+SLOT_000088,SLOT_000135,same-antenna reconfiguration time,0.05
+SLOT_000089,SLOT_000107,same-antenna overlap,
+SLOT_000089,SLOT_000113,same-antenna reconfiguration time,0.05
+SLOT_000090,SLOT_000104,same-antenna overlap,
+SLOT_000093,SLOT_000129,same-antenna reconfiguration time,0.05
+SLOT_000094,SLOT_000102,same-antenna overlap,
+SLOT_000094,SLOT_000103,same-antenna overlap,
+SLOT_000094,SLOT_000112,same-antenna overlap,
+SLOT_000096,SLOT_000115,same-antenna overlap,
+SLOT_000096,SLOT_000116,same-antenna overlap,
+SLOT_000096,SLOT_000117,same-antenna overlap,
+SLOT_000096,SLOT_000128,same-antenna reconfiguration time,0.05
+SLOT_000099,SLOT_000108,same-antenna overlap,
+SLOT_000099,SLOT_000109,same-antenna overlap,
+SLOT_000099,SLOT_000118,same-antenna overlap,
+SLOT_000099,SLOT_000130,same-antenna reconfiguration time,0.05
+SLOT_000100,SLOT_000123,same-antenna overlap,
+SLOT_000100,SLOT_000136,same-antenna reconfiguration time,0.05
+SLOT_000101,SLOT_000111,same-antenna overlap,
+SLOT_000101,SLOT_000137,same-antenna reconfiguration time,0.05
+SLOT_000102,SLOT_000103,same-antenna overlap,
+SLOT_000102,SLOT_000112,same-antenna overlap,
+SLOT_000102,SLOT_000145,same-antenna reconfiguration time,0.05
+SLOT_000102,SLOT_000146,same-antenna reconfiguration time,0.05
+SLOT_000103,SLOT_000112,same-antenna overlap,
+SLOT_000103,SLOT_000145,same-antenna reconfiguration time,0.05
+SLOT_000103,SLOT_000146,same-antenna reconfiguration time,0.05
+SLOT_000105,SLOT_000119,same-antenna overlap,
+SLOT_000105,SLOT_000151,same-antenna reconfiguration time,0.05
+SLOT_000106,SLOT_000120,same-antenna overlap,
+SLOT_000106,SLOT_000131,same-antenna overlap,
+SLOT_000107,SLOT_000113,same-antenna overlap,
+SLOT_000107,SLOT_000141,same-antenna reconfiguration time,0.05
+SLOT_000108,SLOT_000109,same-antenna overlap,
+SLOT_000108,SLOT_000118,same-antenna overlap,
+SLOT_000108,SLOT_000130,same-antenna overlap,
+SLOT_000108,SLOT_000150,same-antenna reconfiguration time,0.05
+SLOT_000108,SLOT_000156,same-antenna reconfiguration time,0.05
+SLOT_000109,SLOT_000118,same-antenna overlap,
+SLOT_000109,SLOT_000130,same-antenna overlap,
+SLOT_000109,SLOT_000150,same-antenna reconfiguration time,0.05
+SLOT_000109,SLOT_000156,same-antenna reconfiguration time,0.05
+SLOT_000110,SLOT_000121,same-antenna overlap,
+SLOT_000110,SLOT_000122,same-antenna overlap,
+SLOT_000110,SLOT_000134,same-antenna overlap,
+SLOT_000110,SLOT_000135,same-antenna overlap,
+SLOT_000111,SLOT_000137,same-antenna overlap,
+SLOT_000112,SLOT_000145,same-antenna reconfiguration time,0.05
+SLOT_000112,SLOT_000146,same-antenna reconfiguration time,0.05
+SLOT_000112,SLOT_000154,same-antenna reconfiguration time,0.05
+SLOT_000113,SLOT_000141,same-antenna overlap,
+SLOT_000114,SLOT_000127,same-antenna overlap,
+SLOT_000115,SLOT_000116,same-antenna overlap,
+SLOT_000115,SLOT_000117,same-antenna overlap,
+SLOT_000115,SLOT_000128,same-antenna overlap,
+SLOT_000115,SLOT_000148,same-antenna reconfiguration time,0.05
+SLOT_000115,SLOT_000159,same-antenna reconfiguration time,0.05
+SLOT_000116,SLOT_000117,same-antenna overlap,
+SLOT_000116,SLOT_000128,same-antenna overlap,
+SLOT_000116,SLOT_000148,same-antenna reconfiguration time,0.05
+SLOT_000116,SLOT_000159,same-antenna reconfiguration time,0.05
+SLOT_000117,SLOT_000128,same-antenna overlap,
+SLOT_000117,SLOT_000148,same-antenna reconfiguration time,0.05
+SLOT_000117,SLOT_000159,same-antenna reconfiguration time,0.05
+SLOT_000118,SLOT_000130,same-antenna overlap,
+SLOT_000118,SLOT_000150,same-antenna reconfiguration time,0.05
+SLOT_000118,SLOT_000156,same-antenna reconfiguration time,0.05
+SLOT_000118,SLOT_000161,same-antenna reconfiguration time,0.05
+SLOT_000119,SLOT_000151,same-antenna reconfiguration time,0.05
+SLOT_000120,SLOT_000131,same-antenna overlap,
+SLOT_000121,SLOT_000122,same-antenna overlap,
+SLOT_000121,SLOT_000134,same-antenna overlap,
+SLOT_000121,SLOT_000135,same-antenna overlap,
+SLOT_000122,SLOT_000134,same-antenna overlap,
+SLOT_000122,SLOT_000135,same-antenna overlap,
+SLOT_000123,SLOT_000136,same-antenna overlap,
+SLOT_000123,SLOT_000153,same-antenna reconfiguration time,0.05
+SLOT_000123,SLOT_000162,same-antenna reconfiguration time,0.05
+SLOT_000124,SLOT_000140,same-antenna overlap,
+SLOT_000125,SLOT_000126,same-antenna overlap,
+SLOT_000125,SLOT_000164,same-antenna reconfiguration time,0.05
+SLOT_000126,SLOT_000164,same-antenna reconfiguration time,0.05
+SLOT_000128,SLOT_000148,same-antenna overlap,
+SLOT_000128,SLOT_000159,same-antenna reconfiguration time,0.05
+SLOT_000128,SLOT_000168,same-antenna reconfiguration time,0.05
+SLOT_000129,SLOT_000144,same-antenna overlap,
+SLOT_000130,SLOT_000150,same-antenna overlap,
+SLOT_000130,SLOT_000156,same-antenna reconfiguration time,0.05
+SLOT_000130,SLOT_000161,same-antenna reconfiguration time,0.05
+SLOT_000132,SLOT_000133,same-antenna overlap,
+SLOT_000132,SLOT_000139,same-antenna overlap,
+SLOT_000132,SLOT_000157,same-antenna reconfiguration time,0.05
+SLOT_000132,SLOT_000171,same-antenna reconfiguration time,0.05
+SLOT_000133,SLOT_000139,same-antenna overlap,
+SLOT_000133,SLOT_000157,same-antenna reconfiguration time,0.05
+SLOT_000133,SLOT_000171,same-antenna reconfiguration time,0.05
+SLOT_000134,SLOT_000135,same-antenna overlap,
+SLOT_000136,SLOT_000153,same-antenna overlap,
+SLOT_000136,SLOT_000162,same-antenna reconfiguration time,0.05
+SLOT_000137,SLOT_000163,same-antenna reconfiguration time,0.05
+SLOT_000138,SLOT_000152,same-antenna overlap,
+SLOT_000139,SLOT_000157,same-antenna overlap,
+SLOT_000139,SLOT_000171,same-antenna reconfiguration time,0.05
+SLOT_000139,SLOT_000179,same-antenna reconfiguration time,0.05
+SLOT_000141,SLOT_000166,same-antenna reconfiguration time,0.05
+SLOT_000141,SLOT_000167,same-antenna reconfiguration time,0.05
+SLOT_000141,SLOT_000174,same-antenna reconfiguration time,0.05
+SLOT_000142,SLOT_000184,same-antenna reconfiguration time,0.05
+SLOT_000144,SLOT_000176,same-antenna reconfiguration time,0.05
+SLOT_000145,SLOT_000146,same-antenna overlap,
+SLOT_000145,SLOT_000154,same-antenna overlap,
+SLOT_000145,SLOT_000165,same-antenna overlap,
+SLOT_000146,SLOT_000154,same-antenna overlap,
+SLOT_000146,SLOT_000165,same-antenna overlap,
+SLOT_000147,SLOT_000185,same-antenna reconfiguration time,0.05
+SLOT_000148,SLOT_000159,same-antenna overlap,
+SLOT_000148,SLOT_000168,same-antenna overlap,
+SLOT_000150,SLOT_000156,same-antenna overlap,
+SLOT_000150,SLOT_000161,same-antenna overlap,
+SLOT_000150,SLOT_000186,same-antenna reconfiguration time,0.05
+SLOT_000150,SLOT_000196,same-antenna reconfiguration time,0.05
+SLOT_000151,SLOT_000170,same-antenna overlap,
+SLOT_000151,SLOT_000197,same-antenna reconfiguration time,0.05
+SLOT_000152,SLOT_000187,same-antenna reconfiguration time,0.05
+SLOT_000152,SLOT_000198,same-antenna reconfiguration time,0.05
+SLOT_000153,SLOT_000162,same-antenna overlap,
+SLOT_000153,SLOT_000181,same-antenna reconfiguration time,0.05
+SLOT_000153,SLOT_000182,same-antenna reconfiguration time,0.05
+SLOT_000153,SLOT_000189,same-antenna reconfiguration time,0.05
+SLOT_000154,SLOT_000165,same-antenna overlap,
+SLOT_000154,SLOT_000201,same-antenna reconfiguration time,0.05
+SLOT_000155,SLOT_000158,same-antenna overlap,
+SLOT_000156,SLOT_000161,same-antenna overlap,
+SLOT_000156,SLOT_000186,same-antenna reconfiguration time,0.05
+SLOT_000156,SLOT_000196,same-antenna reconfiguration time,0.05
+SLOT_000156,SLOT_000206,same-antenna reconfiguration time,0.05
+SLOT_000156,SLOT_000207,same-antenna reconfiguration time,0.05
+SLOT_000157,SLOT_000171,same-antenna overlap,
+SLOT_000157,SLOT_000179,same-antenna overlap,
+SLOT_000157,SLOT_000199,same-antenna reconfiguration time,0.05
+SLOT_000157,SLOT_000209,same-antenna reconfiguration time,0.05
+SLOT_000159,SLOT_000168,same-antenna overlap,
+SLOT_000159,SLOT_000204,same-antenna reconfiguration time,0.05
+SLOT_000159,SLOT_000205,same-antenna reconfiguration time,0.05
+SLOT_000160,SLOT_000169,same-antenna overlap,
+SLOT_000160,SLOT_000177,same-antenna overlap,
+SLOT_000160,SLOT_000195,same-antenna reconfiguration time,0.05
+SLOT_000161,SLOT_000186,same-antenna overlap,
+SLOT_000161,SLOT_000196,same-antenna reconfiguration time,0.05
+SLOT_000161,SLOT_000206,same-antenna reconfiguration time,0.05
+SLOT_000161,SLOT_000207,same-antenna reconfiguration time,0.05
+SLOT_000162,SLOT_000181,same-antenna overlap,
+SLOT_000162,SLOT_000182,same-antenna overlap,
+SLOT_000162,SLOT_000189,same-antenna overlap,
+SLOT_000162,SLOT_000210,same-antenna reconfiguration time,0.05
+SLOT_000163,SLOT_000200,same-antenna reconfiguration time,0.05
+SLOT_000164,SLOT_000172,same-antenna overlap,
+SLOT_000164,SLOT_000173,same-antenna overlap,
+SLOT_000165,SLOT_000201,same-antenna reconfiguration time,0.05
+SLOT_000165,SLOT_000211,same-antenna reconfiguration time,0.05
+SLOT_000165,SLOT_000218,same-antenna reconfiguration time,0.05
+SLOT_000166,SLOT_000167,same-antenna overlap,
+SLOT_000166,SLOT_000174,same-antenna overlap,
+SLOT_000166,SLOT_000191,same-antenna overlap,
+SLOT_000166,SLOT_000192,same-antenna overlap,
+SLOT_000167,SLOT_000174,same-antenna overlap,
+SLOT_000167,SLOT_000191,same-antenna overlap,
+SLOT_000167,SLOT_000192,same-antenna overlap,
+SLOT_000168,SLOT_000204,same-antenna reconfiguration time,0.05
+SLOT_000168,SLOT_000205,same-antenna reconfiguration time,0.05
+SLOT_000169,SLOT_000177,same-antenna overlap,
+SLOT_000169,SLOT_000195,same-antenna overlap,
+SLOT_000170,SLOT_000197,same-antenna overlap,
+SLOT_000171,SLOT_000179,same-antenna overlap,
+SLOT_000171,SLOT_000199,same-antenna overlap,
+SLOT_000171,SLOT_000209,same-antenna reconfiguration time,0.05
+SLOT_000171,SLOT_000215,same-antenna reconfiguration time,0.05
+SLOT_000172,SLOT_000173,same-antenna overlap,
+SLOT_000174,SLOT_000191,same-antenna overlap,
+SLOT_000174,SLOT_000192,same-antenna overlap,
+SLOT_000174,SLOT_000227,same-antenna reconfiguration time,0.05
+SLOT_000174,SLOT_000228,same-antenna reconfiguration time,0.05
+SLOT_000174,SLOT_000229,same-antenna reconfiguration time,0.05
+SLOT_000175,SLOT_000202,same-antenna overlap,
+SLOT_000176,SLOT_000214,same-antenna reconfiguration time,0.05
+SLOT_000176,SLOT_000222,same-antenna reconfiguration time,0.05
+SLOT_000177,SLOT_000195,same-antenna overlap,
+SLOT_000177,SLOT_000233,same-antenna reconfiguration time,0.05
+SLOT_000179,SLOT_000199,same-antenna overlap,
+SLOT_000179,SLOT_000209,same-antenna overlap,
+SLOT_000179,SLOT_000215,same-antenna reconfiguration time,0.05
+SLOT_000179,SLOT_000237,same-antenna reconfiguration time,0.05
+SLOT_000180,SLOT_000238,same-antenna reconfiguration time,0.05
+SLOT_000180,SLOT_000239,same-antenna reconfiguration time,0.05
+SLOT_000181,SLOT_000182,same-antenna overlap,
+SLOT_000181,SLOT_000189,same-antenna overlap,
+SLOT_000181,SLOT_000210,same-antenna overlap,
+SLOT_000181,SLOT_000240,same-antenna reconfiguration time,0.05
+SLOT_000182,SLOT_000189,same-antenna overlap,
+SLOT_000182,SLOT_000210,same-antenna overlap,
+SLOT_000182,SLOT_000240,same-antenna reconfiguration time,0.05
+SLOT_000183,SLOT_000217,same-antenna reconfiguration time,0.05
+SLOT_000184,SLOT_000193,same-antenna overlap,
+SLOT_000184,SLOT_000244,same-antenna reconfiguration time,0.05
+SLOT_000185,SLOT_000203,same-antenna overlap,
+SLOT_000185,SLOT_000212,same-antenna overlap,
+SLOT_000186,SLOT_000196,same-antenna overlap,
+SLOT_000186,SLOT_000206,same-antenna overlap,
+SLOT_000186,SLOT_000207,same-antenna overlap,
+SLOT_000186,SLOT_000223,same-antenna reconfiguration time,0.05
+SLOT_000186,SLOT_000224,same-antenna reconfiguration time,0.05
+SLOT_000186,SLOT_000234,same-antenna reconfiguration time,0.05
+SLOT_000187,SLOT_000198,same-antenna overlap,
+SLOT_000187,SLOT_000208,same-antenna overlap,
+SLOT_000187,SLOT_000236,same-antenna reconfiguration time,0.05
+SLOT_000188,SLOT_000216,same-antenna overlap,
+SLOT_000188,SLOT_000255,same-antenna reconfiguration time,0.05
+SLOT_000189,SLOT_000210,same-antenna overlap,
+SLOT_000189,SLOT_000240,same-antenna reconfiguration time,0.05
+SLOT_000189,SLOT_000258,same-antenna reconfiguration time,0.05
+SLOT_000191,SLOT_000192,same-antenna overlap,
+SLOT_000191,SLOT_000227,same-antenna reconfiguration time,0.05
+SLOT_000191,SLOT_000228,same-antenna reconfiguration time,0.05
+SLOT_000191,SLOT_000229,same-antenna reconfiguration time,0.05
+SLOT_000191,SLOT_000242,same-antenna reconfiguration time,0.05
+SLOT_000191,SLOT_000260,same-antenna reconfiguration time,0.05
+SLOT_000192,SLOT_000227,same-antenna reconfiguration time,0.05
+SLOT_000192,SLOT_000228,same-antenna reconfiguration time,0.05
+SLOT_000192,SLOT_000229,same-antenna reconfiguration time,0.05
+SLOT_000192,SLOT_000242,same-antenna reconfiguration time,0.05
+SLOT_000192,SLOT_000260,same-antenna reconfiguration time,0.05
+SLOT_000193,SLOT_000244,same-antenna reconfiguration time,0.05
+SLOT_000194,SLOT_000220,same-antenna overlap,
+SLOT_000194,SLOT_000245,same-antenna reconfiguration time,0.05
+SLOT_000195,SLOT_000233,same-antenna reconfiguration time,0.05
+SLOT_000195,SLOT_000252,same-antenna reconfiguration time,0.05
+SLOT_000196,SLOT_000206,same-antenna overlap,
+SLOT_000196,SLOT_000207,same-antenna overlap,
+SLOT_000196,SLOT_000223,same-antenna overlap,
+SLOT_000196,SLOT_000224,same-antenna overlap,
+SLOT_000196,SLOT_000234,same-antenna reconfiguration time,0.05
+SLOT_000196,SLOT_000263,same-antenna reconfiguration time,0.05
+SLOT_000197,SLOT_000235,same-antenna reconfiguration time,0.05
+SLOT_000197,SLOT_000264,same-antenna reconfiguration time,0.05
+SLOT_000198,SLOT_000208,same-antenna overlap,
+SLOT_000198,SLOT_000236,same-antenna reconfiguration time,0.05
+SLOT_000198,SLOT_000265,same-antenna reconfiguration time,0.05
+SLOT_000198,SLOT_000266,same-antenna reconfiguration time,0.05
+SLOT_000199,SLOT_000209,same-antenna overlap,
+SLOT_000199,SLOT_000215,same-antenna overlap,
+SLOT_000199,SLOT_000237,same-antenna reconfiguration time,0.05
+SLOT_000199,SLOT_000254,same-antenna reconfiguration time,0.05
+SLOT_000199,SLOT_000267,same-antenna reconfiguration time,0.05
+SLOT_000200,SLOT_000225,same-antenna overlap,
+SLOT_000200,SLOT_000269,same-antenna reconfiguration time,0.05
+SLOT_000200,SLOT_000270,same-antenna reconfiguration time,0.05
+SLOT_000201,SLOT_000211,same-antenna overlap,
+SLOT_000201,SLOT_000218,same-antenna overlap,
+SLOT_000201,SLOT_000226,same-antenna overlap,
+SLOT_000202,SLOT_000246,same-antenna reconfiguration time,0.05
+SLOT_000203,SLOT_000212,same-antenna overlap,
+SLOT_000203,SLOT_000261,same-antenna reconfiguration time,0.05
+SLOT_000204,SLOT_000205,same-antenna overlap,
+SLOT_000204,SLOT_000232,same-antenna overlap,
+SLOT_000204,SLOT_000249,same-antenna reconfiguration time,0.05
+SLOT_000204,SLOT_000275,same-antenna reconfiguration time,0.05
+SLOT_000205,SLOT_000232,same-antenna overlap,
+SLOT_000205,SLOT_000249,same-antenna reconfiguration time,0.05
+SLOT_000205,SLOT_000275,same-antenna reconfiguration time,0.05
+SLOT_000206,SLOT_000207,same-antenna overlap,
+SLOT_000206,SLOT_000223,same-antenna overlap,
+SLOT_000206,SLOT_000224,same-antenna overlap,
+SLOT_000206,SLOT_000234,same-antenna overlap,
+SLOT_000206,SLOT_000263,same-antenna reconfiguration time,0.05
+SLOT_000207,SLOT_000223,same-antenna overlap,
+SLOT_000207,SLOT_000224,same-antenna overlap,
+SLOT_000207,SLOT_000234,same-antenna overlap,
+SLOT_000207,SLOT_000263,same-antenna reconfiguration time,0.05
+SLOT_000208,SLOT_000236,same-antenna overlap,
+SLOT_000208,SLOT_000265,same-antenna reconfiguration time,0.05
+SLOT_000208,SLOT_000266,same-antenna reconfiguration time,0.05
+SLOT_000209,SLOT_000215,same-antenna overlap,
+SLOT_000209,SLOT_000237,same-antenna overlap,
+SLOT_000209,SLOT_000254,same-antenna reconfiguration time,0.05
+SLOT_000209,SLOT_000267,same-antenna reconfiguration time,0.05
+SLOT_000210,SLOT_000240,same-antenna overlap,
+SLOT_000210,SLOT_000258,same-antenna reconfiguration time,0.05
+SLOT_000210,SLOT_000268,same-antenna reconfiguration time,0.05
+SLOT_000211,SLOT_000218,same-antenna overlap,
+SLOT_000211,SLOT_000226,same-antenna overlap,
+SLOT_000212,SLOT_000261,same-antenna reconfiguration time,0.05
+SLOT_000212,SLOT_000278,same-antenna reconfiguration time,0.05
+SLOT_000213,SLOT_000230,same-antenna overlap,
+SLOT_000213,SLOT_000231,same-antenna overlap,
+SLOT_000213,SLOT_000247,same-antenna overlap,
+SLOT_000213,SLOT_000248,same-antenna overlap,
+SLOT_000213,SLOT_000262,same-antenna reconfiguration time,0.05
+SLOT_000213,SLOT_000279,same-antenna reconfiguration time,0.05
+SLOT_000214,SLOT_000222,same-antenna overlap,
+SLOT_000214,SLOT_000250,same-antenna overlap,
+SLOT_000214,SLOT_000251,same-antenna overlap,
+SLOT_000215,SLOT_000237,same-antenna overlap,
+SLOT_000215,SLOT_000254,same-antenna overlap,
+SLOT_000215,SLOT_000267,same-antenna reconfiguration time,0.05
+SLOT_000215,SLOT_000282,same-antenna reconfiguration time,0.05
+SLOT_000216,SLOT_000255,same-antenna overlap,
+SLOT_000216,SLOT_000283,same-antenna reconfiguration time,0.05
+SLOT_000217,SLOT_000259,same-antenna overlap,
+SLOT_000218,SLOT_000226,same-antenna overlap,
+SLOT_000219,SLOT_000243,same-antenna overlap,
+SLOT_000220,SLOT_000245,same-antenna overlap,
+SLOT_000220,SLOT_000274,same-antenna reconfiguration time,0.05
+SLOT_000220,SLOT_000286,same-antenna reconfiguration time,0.05
+SLOT_000222,SLOT_000250,same-antenna overlap,
+SLOT_000222,SLOT_000251,same-antenna overlap,
+SLOT_000223,SLOT_000224,same-antenna overlap,
+SLOT_000223,SLOT_000234,same-antenna overlap,
+SLOT_000223,SLOT_000263,same-antenna overlap,
+SLOT_000223,SLOT_000281,same-antenna reconfiguration time,0.05
+SLOT_000224,SLOT_000234,same-antenna overlap,
+SLOT_000224,SLOT_000263,same-antenna overlap,
+SLOT_000224,SLOT_000281,same-antenna reconfiguration time,0.05
+SLOT_000225,SLOT_000269,same-antenna overlap,
+SLOT_000225,SLOT_000270,same-antenna overlap,
+SLOT_000227,SLOT_000228,same-antenna overlap,
+SLOT_000227,SLOT_000229,same-antenna overlap,
+SLOT_000227,SLOT_000242,same-antenna overlap,
+SLOT_000227,SLOT_000260,same-antenna overlap,
+SLOT_000227,SLOT_000272,same-antenna overlap,
+SLOT_000228,SLOT_000229,same-antenna overlap,
+SLOT_000228,SLOT_000242,same-antenna overlap,
+SLOT_000228,SLOT_000260,same-antenna overlap,
+SLOT_000228,SLOT_000272,same-antenna overlap,
+SLOT_000229,SLOT_000242,same-antenna overlap,
+SLOT_000229,SLOT_000260,same-antenna overlap,
+SLOT_000229,SLOT_000272,same-antenna overlap,
+SLOT_000230,SLOT_000231,same-antenna overlap,
+SLOT_000230,SLOT_000247,same-antenna overlap,
+SLOT_000230,SLOT_000248,same-antenna overlap,
+SLOT_000230,SLOT_000262,same-antenna overlap,
+SLOT_000230,SLOT_000279,same-antenna reconfiguration time,0.05
+SLOT_000231,SLOT_000247,same-antenna overlap,
+SLOT_000231,SLOT_000248,same-antenna overlap,
+SLOT_000231,SLOT_000262,same-antenna overlap,
+SLOT_000231,SLOT_000279,same-antenna reconfiguration time,0.05
+SLOT_000232,SLOT_000249,same-antenna overlap,
+SLOT_000232,SLOT_000275,same-antenna overlap,
+SLOT_000232,SLOT_000280,same-antenna reconfiguration time,0.05
+SLOT_000233,SLOT_000252,same-antenna overlap,
+SLOT_000233,SLOT_000276,same-antenna overlap,
+SLOT_000233,SLOT_000287,same-antenna reconfiguration time,0.05
+SLOT_000233,SLOT_000288,same-antenna reconfiguration time,0.05
+SLOT_000234,SLOT_000263,same-antenna overlap,
+SLOT_000234,SLOT_000281,same-antenna reconfiguration time,0.05
+SLOT_000234,SLOT_000291,same-antenna reconfiguration time,0.05
+SLOT_000234,SLOT_000292,same-antenna reconfiguration time,0.05
+SLOT_000235,SLOT_000264,same-antenna overlap,
+SLOT_000236,SLOT_000265,same-antenna overlap,
+SLOT_000236,SLOT_000266,same-antenna overlap,
+SLOT_000237,SLOT_000254,same-antenna overlap,
+SLOT_000237,SLOT_000267,same-antenna overlap,
+SLOT_000237,SLOT_000282,same-antenna reconfiguration time,0.05
+SLOT_000238,SLOT_000239,same-antenna overlap,
+SLOT_000238,SLOT_000256,same-antenna overlap,
+SLOT_000238,SLOT_000257,same-antenna overlap,
+SLOT_000238,SLOT_000284,same-antenna reconfiguration time,0.05
+SLOT_000238,SLOT_000293,same-antenna reconfiguration time,0.05
+SLOT_000239,SLOT_000256,same-antenna overlap,
+SLOT_000239,SLOT_000257,same-antenna overlap,
+SLOT_000239,SLOT_000284,same-antenna reconfiguration time,0.05
+SLOT_000239,SLOT_000293,same-antenna reconfiguration time,0.05
+SLOT_000240,SLOT_000258,same-antenna overlap,
+SLOT_000240,SLOT_000268,same-antenna overlap,
+SLOT_000240,SLOT_000285,same-antenna reconfiguration time,0.05
+SLOT_000241,SLOT_000294,same-antenna reconfiguration time,0.05
+SLOT_000241,SLOT_000295,same-antenna reconfiguration time,0.05
+SLOT_000242,SLOT_000260,same-antenna overlap,
+SLOT_000242,SLOT_000272,same-antenna overlap,
+SLOT_000242,SLOT_000297,same-antenna reconfiguration time,0.05
+SLOT_000242,SLOT_000298,same-antenna reconfiguration time,0.05
+SLOT_000243,SLOT_000290,same-antenna reconfiguration time,0.05
+SLOT_000243,SLOT_000299,same-antenna reconfiguration time,0.05
+SLOT_000244,SLOT_000273,same-antenna overlap,
+SLOT_000244,SLOT_000277,same-antenna overlap,
+SLOT_000245,SLOT_000274,same-antenna overlap,
+SLOT_000245,SLOT_000286,same-antenna reconfiguration time,0.05
+SLOT_000247,SLOT_000248,same-antenna overlap,
+SLOT_000247,SLOT_000262,same-antenna overlap,
+SLOT_000247,SLOT_000279,same-antenna overlap,
+SLOT_000248,SLOT_000262,same-antenna overlap,
+SLOT_000248,SLOT_000279,same-antenna overlap,
+SLOT_000249,SLOT_000275,same-antenna overlap,
+SLOT_000249,SLOT_000280,same-antenna overlap,
+SLOT_000249,SLOT_000300,same-antenna reconfiguration time,0.05
+SLOT_000250,SLOT_000251,same-antenna overlap,
+SLOT_000252,SLOT_000276,same-antenna overlap,
+SLOT_000252,SLOT_000287,same-antenna reconfiguration time,0.05
+SLOT_000252,SLOT_000288,same-antenna reconfiguration time,0.05
+SLOT_000254,SLOT_000267,same-antenna overlap,
+SLOT_000254,SLOT_000282,same-antenna overlap,
+SLOT_000255,SLOT_000283,same-antenna overlap,
+SLOT_000255,SLOT_000301,same-antenna reconfiguration time,0.05
+SLOT_000256,SLOT_000257,same-antenna overlap,
+SLOT_000256,SLOT_000284,same-antenna overlap,
+SLOT_000256,SLOT_000293,same-antenna reconfiguration time,0.05
+SLOT_000256,SLOT_000302,same-antenna reconfiguration time,0.05
+SLOT_000257,SLOT_000284,same-antenna overlap,
+SLOT_000257,SLOT_000293,same-antenna reconfiguration time,0.05
+SLOT_000257,SLOT_000302,same-antenna reconfiguration time,0.05
+SLOT_000258,SLOT_000268,same-antenna overlap,
+SLOT_000258,SLOT_000285,same-antenna overlap,
+SLOT_000259,SLOT_000289,same-antenna reconfiguration time,0.05
+SLOT_000260,SLOT_000272,same-antenna overlap,
+SLOT_000260,SLOT_000297,same-antenna reconfiguration time,0.05
+SLOT_000260,SLOT_000298,same-antenna reconfiguration time,0.05
+SLOT_000261,SLOT_000278,same-antenna overlap,
+SLOT_000262,SLOT_000279,same-antenna overlap,
+SLOT_000263,SLOT_000281,same-antenna overlap,
+SLOT_000263,SLOT_000291,same-antenna reconfiguration time,0.05
+SLOT_000263,SLOT_000292,same-antenna reconfiguration time,0.05
+SLOT_000265,SLOT_000266,same-antenna overlap,
+SLOT_000265,SLOT_000309,same-antenna reconfiguration time,0.05
+SLOT_000266,SLOT_000309,same-antenna reconfiguration time,0.05
+SLOT_000267,SLOT_000282,same-antenna overlap,
+SLOT_000268,SLOT_000285,same-antenna overlap,
+SLOT_000269,SLOT_000270,same-antenna overlap,
+SLOT_000271,SLOT_000312,same-antenna reconfiguration time,0.05
+SLOT_000272,SLOT_000297,same-antenna reconfiguration time,0.05
+SLOT_000272,SLOT_000298,same-antenna reconfiguration time,0.05
+SLOT_000273,SLOT_000277,same-antenna overlap,
+SLOT_000273,SLOT_000304,same-antenna reconfiguration time,0.05
+SLOT_000274,SLOT_000286,same-antenna overlap,
+SLOT_000274,SLOT_000305,same-antenna reconfiguration time,0.05
+SLOT_000275,SLOT_000280,same-antenna overlap,
+SLOT_000275,SLOT_000300,same-antenna reconfiguration time,0.05
+SLOT_000276,SLOT_000287,same-antenna overlap,
+SLOT_000276,SLOT_000288,same-antenna overlap,
+SLOT_000276,SLOT_000316,same-antenna reconfiguration time,0.05
+SLOT_000277,SLOT_000304,same-antenna reconfiguration time,0.05
+SLOT_000277,SLOT_000323,same-antenna reconfiguration time,0.05
+SLOT_000279,SLOT_000315,same-antenna reconfiguration time,0.05
+SLOT_000280,SLOT_000300,same-antenna overlap,
+SLOT_000280,SLOT_000324,same-antenna reconfiguration time,0.05
+SLOT_000281,SLOT_000291,same-antenna overlap,
+SLOT_000281,SLOT_000292,same-antenna overlap,
+SLOT_000281,SLOT_000317,same-antenna reconfiguration time,0.05
+SLOT_000283,SLOT_000301,same-antenna overlap,
+SLOT_000283,SLOT_000310,same-antenna reconfiguration time,0.05
+SLOT_000284,SLOT_000293,same-antenna overlap,
+SLOT_000284,SLOT_000302,same-antenna overlap,
+SLOT_000284,SLOT_000311,same-antenna reconfiguration time,0.05
+SLOT_000285,SLOT_000319,same-antenna reconfiguration time,0.05
+SLOT_000285,SLOT_000320,same-antenna reconfiguration time,0.05
+SLOT_000285,SLOT_000327,same-antenna reconfiguration time,0.05
+SLOT_000285,SLOT_000328,same-antenna reconfiguration time,0.05
+SLOT_000286,SLOT_000305,same-antenna overlap,
+SLOT_000287,SLOT_000288,same-antenna overlap,
+SLOT_000287,SLOT_000316,same-antenna reconfiguration time,0.05
+SLOT_000288,SLOT_000316,same-antenna reconfiguration time,0.05
+SLOT_000289,SLOT_000314,same-antenna overlap,
+SLOT_000289,SLOT_000322,same-antenna reconfiguration time,0.05
+SLOT_000290,SLOT_000299,same-antenna overlap,
+SLOT_000290,SLOT_000330,same-antenna reconfiguration time,0.05
+SLOT_000290,SLOT_000342,same-antenna reconfiguration time,0.05
+SLOT_000291,SLOT_000292,same-antenna overlap,
+SLOT_000291,SLOT_000317,same-antenna overlap,
+SLOT_000291,SLOT_000334,same-antenna reconfiguration time,0.05
+SLOT_000292,SLOT_000317,same-antenna overlap,
+SLOT_000292,SLOT_000334,same-antenna reconfiguration time,0.05
+SLOT_000293,SLOT_000302,same-antenna overlap,
+SLOT_000293,SLOT_000311,same-antenna overlap,
+SLOT_000293,SLOT_000337,same-antenna reconfiguration time,0.05
+SLOT_000293,SLOT_000338,same-antenna reconfiguration time,0.05
+SLOT_000293,SLOT_000339,same-antenna reconfiguration time,0.05
+SLOT_000294,SLOT_000295,same-antenna overlap,
+SLOT_000294,SLOT_000303,same-antenna overlap,
+SLOT_000294,SLOT_000313,same-antenna overlap,
+SLOT_000295,SLOT_000303,same-antenna overlap,
+SLOT_000295,SLOT_000313,same-antenna overlap,
+SLOT_000297,SLOT_000298,same-antenna overlap,
+SLOT_000299,SLOT_000330,same-antenna reconfiguration time,0.05
+SLOT_000299,SLOT_000342,same-antenna reconfiguration time,0.05
+SLOT_000299,SLOT_000346,same-antenna reconfiguration time,0.05
+SLOT_000299,SLOT_000347,same-antenna reconfiguration time,0.05
+SLOT_000300,SLOT_000324,same-antenna overlap,
+SLOT_000300,SLOT_000333,same-antenna reconfiguration time,0.05
+SLOT_000301,SLOT_000310,same-antenna overlap,
+SLOT_000302,SLOT_000311,same-antenna overlap,
+SLOT_000302,SLOT_000337,same-antenna reconfiguration time,0.05
+SLOT_000302,SLOT_000338,same-antenna reconfiguration time,0.05
+SLOT_000302,SLOT_000339,same-antenna reconfiguration time,0.05
+SLOT_000303,SLOT_000313,same-antenna overlap,
+SLOT_000304,SLOT_000323,same-antenna overlap,
+SLOT_000306,SLOT_000348,same-antenna reconfiguration time,0.05
+SLOT_000306,SLOT_000361,same-antenna reconfiguration time,0.05
+SLOT_000307,SLOT_000308,same-antenna overlap,
+SLOT_000309,SLOT_000318,same-antenna overlap,
+SLOT_000309,SLOT_000335,same-antenna overlap,
+SLOT_000310,SLOT_000365,same-antenna reconfiguration time,0.05
+SLOT_000311,SLOT_000337,same-antenna overlap,
+SLOT_000311,SLOT_000338,same-antenna overlap,
+SLOT_000311,SLOT_000339,same-antenna overlap,
+SLOT_000312,SLOT_000356,same-antenna reconfiguration time,0.05
+SLOT_000314,SLOT_000322,same-antenna overlap,
+SLOT_000315,SLOT_000332,same-antenna overlap,
+SLOT_000315,SLOT_000343,same-antenna overlap,
+SLOT_000315,SLOT_000371,same-antenna reconfiguration time,0.05
+SLOT_000316,SLOT_000344,same-antenna overlap,
+SLOT_000317,SLOT_000334,same-antenna overlap,
+SLOT_000317,SLOT_000350,same-antenna reconfiguration time,0.05
+SLOT_000317,SLOT_000351,same-antenna reconfiguration time,0.05
+SLOT_000318,SLOT_000335,same-antenna overlap,
+SLOT_000319,SLOT_000320,same-antenna overlap,
+SLOT_000319,SLOT_000327,same-antenna overlap,
+SLOT_000319,SLOT_000328,same-antenna overlap,
+SLOT_000319,SLOT_000340,same-antenna overlap,
+SLOT_000319,SLOT_000341,same-antenna overlap,
+SLOT_000319,SLOT_000355,same-antenna reconfiguration time,0.05
+SLOT_000320,SLOT_000327,same-antenna overlap,
+SLOT_000320,SLOT_000328,same-antenna overlap,
+SLOT_000320,SLOT_000340,same-antenna overlap,
+SLOT_000320,SLOT_000341,same-antenna overlap,
+SLOT_000320,SLOT_000355,same-antenna reconfiguration time,0.05
+SLOT_000321,SLOT_000329,same-antenna overlap,
+SLOT_000321,SLOT_000345,same-antenna overlap,
+SLOT_000322,SLOT_000380,same-antenna reconfiguration time,0.05
+SLOT_000323,SLOT_000367,same-antenna reconfiguration time,0.05
+SLOT_000324,SLOT_000333,same-antenna overlap,
+SLOT_000324,SLOT_000362,same-antenna reconfiguration time,0.05
+SLOT_000325,SLOT_000326,same-antenna overlap,
+SLOT_000325,SLOT_000352,same-antenna overlap,
+SLOT_000325,SLOT_000353,same-antenna overlap,
+SLOT_000325,SLOT_000363,same-antenna reconfiguration time,0.05
+SLOT_000326,SLOT_000352,same-antenna overlap,
+SLOT_000326,SLOT_000353,same-antenna overlap,
+SLOT_000326,SLOT_000363,same-antenna reconfiguration time,0.05
+SLOT_000327,SLOT_000328,same-antenna overlap,
+SLOT_000327,SLOT_000340,same-antenna overlap,
+SLOT_000327,SLOT_000341,same-antenna overlap,
+SLOT_000327,SLOT_000355,same-antenna overlap,
+SLOT_000328,SLOT_000340,same-antenna overlap,
+SLOT_000328,SLOT_000341,same-antenna overlap,
+SLOT_000328,SLOT_000355,same-antenna overlap,
+SLOT_000329,SLOT_000345,same-antenna overlap,
+SLOT_000329,SLOT_000384,same-antenna reconfiguration time,0.05
+SLOT_000330,SLOT_000342,same-antenna overlap,
+SLOT_000330,SLOT_000346,same-antenna overlap,
+SLOT_000330,SLOT_000347,same-antenna overlap,
+SLOT_000331,SLOT_000349,same-antenna overlap,
+SLOT_000331,SLOT_000381,same-antenna reconfiguration time,0.05
+SLOT_000332,SLOT_000343,same-antenna overlap,
+SLOT_000332,SLOT_000371,same-antenna reconfiguration time,0.05
+SLOT_000332,SLOT_000386,same-antenna reconfiguration time,0.05
+SLOT_000333,SLOT_000362,same-antenna overlap,
+SLOT_000333,SLOT_000387,same-antenna reconfiguration time,0.05
+SLOT_000334,SLOT_000350,same-antenna overlap,
+SLOT_000334,SLOT_000351,same-antenna overlap,
+SLOT_000334,SLOT_000383,same-antenna reconfiguration time,0.05
+SLOT_000335,SLOT_000388,same-antenna reconfiguration time,0.05
+SLOT_000336,SLOT_000375,same-antenna reconfiguration time,0.05
+SLOT_000337,SLOT_000338,same-antenna overlap,
+SLOT_000337,SLOT_000339,same-antenna overlap,
+SLOT_000337,SLOT_000377,same-antenna reconfiguration time,0.05
+SLOT_000338,SLOT_000339,same-antenna overlap,
+SLOT_000338,SLOT_000377,same-antenna reconfiguration time,0.05
+SLOT_000339,SLOT_000377,same-antenna reconfiguration time,0.05
+SLOT_000340,SLOT_000341,same-antenna overlap,
+SLOT_000340,SLOT_000355,same-antenna overlap,
+SLOT_000341,SLOT_000355,same-antenna overlap,
+SLOT_000342,SLOT_000346,same-antenna overlap,
+SLOT_000342,SLOT_000347,same-antenna overlap,
+SLOT_000343,SLOT_000371,same-antenna overlap,
+SLOT_000343,SLOT_000386,same-antenna reconfiguration time,0.05
+SLOT_000345,SLOT_000384,same-antenna reconfiguration time,0.05
+SLOT_000345,SLOT_000389,same-antenna reconfiguration time,0.05
+SLOT_000345,SLOT_000398,same-antenna reconfiguration time,0.05
+SLOT_000346,SLOT_000347,same-antenna overlap,
+SLOT_000346,SLOT_000400,same-antenna reconfiguration time,0.05
+SLOT_000347,SLOT_000400,same-antenna reconfiguration time,0.05
+SLOT_000348,SLOT_000361,same-antenna overlap,
+SLOT_000348,SLOT_000369,same-antenna overlap,
+SLOT_000348,SLOT_000370,same-antenna overlap,
+SLOT_000349,SLOT_000381,same-antenna overlap,
+SLOT_000350,SLOT_000351,same-antenna overlap,
+SLOT_000350,SLOT_000383,same-antenna overlap,
+SLOT_000350,SLOT_000392,same-antenna reconfiguration time,0.05
+SLOT_000351,SLOT_000383,same-antenna overlap,
+SLOT_000351,SLOT_000392,same-antenna reconfiguration time,0.05
+SLOT_000352,SLOT_000353,same-antenna overlap,
+SLOT_000352,SLOT_000363,same-antenna overlap,
+SLOT_000353,SLOT_000363,same-antenna overlap,
+SLOT_000354,SLOT_000364,same-antenna overlap,
+SLOT_000354,SLOT_000374,same-antenna overlap,
+SLOT_000355,SLOT_000397,same-antenna reconfiguration time,0.05
+SLOT_000356,SLOT_000378,same-antenna overlap,
+SLOT_000356,SLOT_000379,same-antenna overlap,
+SLOT_000358,SLOT_000359,same-antenna overlap,
+SLOT_000358,SLOT_000360,same-antenna overlap,
+SLOT_000358,SLOT_000366,same-antenna overlap,
+SLOT_000358,SLOT_000390,same-antenna reconfiguration time,0.05
+SLOT_000358,SLOT_000399,same-antenna reconfiguration time,0.05
+SLOT_000359,SLOT_000360,same-antenna overlap,
+SLOT_000359,SLOT_000366,same-antenna overlap,
+SLOT_000359,SLOT_000390,same-antenna reconfiguration time,0.05
+SLOT_000359,SLOT_000399,same-antenna reconfiguration time,0.05
+SLOT_000360,SLOT_000366,same-antenna overlap,
+SLOT_000360,SLOT_000390,same-antenna reconfiguration time,0.05
+SLOT_000360,SLOT_000399,same-antenna reconfiguration time,0.05
+SLOT_000361,SLOT_000369,same-antenna overlap,
+SLOT_000361,SLOT_000370,same-antenna overlap,
+SLOT_000362,SLOT_000387,same-antenna overlap,
+SLOT_000362,SLOT_000391,same-antenna reconfiguration time,0.05
+SLOT_000363,SLOT_000406,same-antenna reconfiguration time,0.05
+SLOT_000364,SLOT_000374,same-antenna overlap,
+SLOT_000365,SLOT_000376,same-antenna overlap,
+SLOT_000366,SLOT_000390,same-antenna overlap,
+SLOT_000366,SLOT_000399,same-antenna reconfiguration time,0.05
+SLOT_000366,SLOT_000412,same-antenna reconfiguration time,0.05
+SLOT_000366,SLOT_000413,same-antenna reconfiguration time,0.05
+SLOT_000369,SLOT_000370,same-antenna overlap,
+SLOT_000371,SLOT_000386,same-antenna overlap,
+SLOT_000372,SLOT_000373,same-antenna overlap,
+SLOT_000375,SLOT_000394,same-antenna overlap,
+SLOT_000376,SLOT_000417,same-antenna reconfiguration time,0.05
+SLOT_000377,SLOT_000395,same-antenna overlap,
+SLOT_000377,SLOT_000396,same-antenna overlap,
+SLOT_000377,SLOT_000408,same-antenna reconfiguration time,0.05
+SLOT_000378,SLOT_000379,same-antenna overlap,
+SLOT_000380,SLOT_000385,same-antenna overlap,
+SLOT_000383,SLOT_000392,same-antenna overlap,
+SLOT_000383,SLOT_000405,same-antenna reconfiguration time,0.05
+SLOT_000383,SLOT_000415,same-antenna reconfiguration time,0.05
+SLOT_000384,SLOT_000389,same-antenna overlap,
+SLOT_000384,SLOT_000398,same-antenna overlap,
+SLOT_000384,SLOT_000403,same-antenna overlap,
+SLOT_000384,SLOT_000410,same-antenna reconfiguration time,0.05
+SLOT_000385,SLOT_000431,same-antenna reconfiguration time,0.05
+SLOT_000386,SLOT_000423,same-antenna reconfiguration time,0.05
+SLOT_000387,SLOT_000391,same-antenna overlap,
+SLOT_000387,SLOT_000414,same-antenna reconfiguration time,0.05
+SLOT_000388,SLOT_000393,same-antenna overlap,
+SLOT_000388,SLOT_000402,same-antenna overlap,
+SLOT_000388,SLOT_000407,same-antenna overlap,
+SLOT_000388,SLOT_000436,same-antenna reconfiguration time,0.05
+SLOT_000389,SLOT_000398,same-antenna overlap,
+SLOT_000389,SLOT_000403,same-antenna overlap,
+SLOT_000389,SLOT_000410,same-antenna overlap,
+SLOT_000389,SLOT_000437,same-antenna reconfiguration time,0.05
+SLOT_000390,SLOT_000399,same-antenna overlap,
+SLOT_000390,SLOT_000412,same-antenna overlap,
+SLOT_000390,SLOT_000413,same-antenna overlap,
+SLOT_000391,SLOT_000414,same-antenna overlap,
+SLOT_000391,SLOT_000443,same-antenna reconfiguration time,0.05
+SLOT_000392,SLOT_000405,same-antenna overlap,
+SLOT_000392,SLOT_000415,same-antenna overlap,
+SLOT_000392,SLOT_000435,same-antenna reconfiguration time,0.05
+SLOT_000393,SLOT_000402,same-antenna overlap,
+SLOT_000393,SLOT_000407,same-antenna overlap,
+SLOT_000393,SLOT_000436,same-antenna reconfiguration time,0.05
+SLOT_000395,SLOT_000396,same-antenna overlap,
+SLOT_000395,SLOT_000408,same-antenna overlap,
+SLOT_000395,SLOT_000428,same-antenna reconfiguration time,0.05
+SLOT_000395,SLOT_000429,same-antenna reconfiguration time,0.05
+SLOT_000395,SLOT_000447,same-antenna reconfiguration time,0.05
+SLOT_000396,SLOT_000408,same-antenna overlap,
+SLOT_000396,SLOT_000428,same-antenna reconfiguration time,0.05
+SLOT_000396,SLOT_000429,same-antenna reconfiguration time,0.05
+SLOT_000396,SLOT_000447,same-antenna reconfiguration time,0.05
+SLOT_000397,SLOT_000409,same-antenna overlap,
+SLOT_000397,SLOT_000418,same-antenna overlap,
+SLOT_000397,SLOT_000430,same-antenna reconfiguration time,0.05
+SLOT_000398,SLOT_000403,same-antenna overlap,
+SLOT_000398,SLOT_000410,same-antenna overlap,
+SLOT_000398,SLOT_000437,same-antenna reconfiguration time,0.05
+SLOT_000398,SLOT_000448,same-antenna reconfiguration time,0.05
+SLOT_000399,SLOT_000412,same-antenna overlap,
+SLOT_000399,SLOT_000413,same-antenna overlap,
+SLOT_000400,SLOT_000404,same-antenna overlap,
+SLOT_000402,SLOT_000407,same-antenna overlap,
+SLOT_000402,SLOT_000436,same-antenna reconfiguration time,0.05
+SLOT_000402,SLOT_000451,same-antenna reconfiguration time,0.05
+SLOT_000403,SLOT_000410,same-antenna overlap,
+SLOT_000403,SLOT_000437,same-antenna reconfiguration time,0.05
+SLOT_000403,SLOT_000448,same-antenna reconfiguration time,0.05
+SLOT_000403,SLOT_000456,same-antenna reconfiguration time,0.05
+SLOT_000404,SLOT_000459,same-antenna reconfiguration time,0.05
+SLOT_000405,SLOT_000415,same-antenna overlap,
+SLOT_000405,SLOT_000435,same-antenna overlap,
+SLOT_000406,SLOT_000416,same-antenna overlap,
+SLOT_000406,SLOT_000446,same-antenna reconfiguration time,0.05
+SLOT_000407,SLOT_000436,same-antenna overlap,
+SLOT_000407,SLOT_000451,same-antenna reconfiguration time,0.05
+SLOT_000407,SLOT_000460,same-antenna reconfiguration time,0.05
+SLOT_000408,SLOT_000428,same-antenna overlap,
+SLOT_000408,SLOT_000429,same-antenna overlap,
+SLOT_000408,SLOT_000447,same-antenna reconfiguration time,0.05
+SLOT_000408,SLOT_000454,same-antenna reconfiguration time,0.05
+SLOT_000408,SLOT_000455,same-antenna reconfiguration time,0.05
+SLOT_000408,SLOT_000461,same-antenna reconfiguration time,0.05
+SLOT_000409,SLOT_000418,same-antenna overlap,
+SLOT_000409,SLOT_000430,same-antenna overlap,
+SLOT_000410,SLOT_000437,same-antenna overlap,
+SLOT_000410,SLOT_000448,same-antenna reconfiguration time,0.05
+SLOT_000410,SLOT_000456,same-antenna reconfiguration time,0.05
+SLOT_000411,SLOT_000432,same-antenna overlap,
+SLOT_000412,SLOT_000413,same-antenna overlap,
+SLOT_000412,SLOT_000458,same-antenna reconfiguration time,0.05
+SLOT_000412,SLOT_000462,same-antenna reconfiguration time,0.05
+SLOT_000413,SLOT_000458,same-antenna reconfiguration time,0.05
+SLOT_000413,SLOT_000462,same-antenna reconfiguration time,0.05
+SLOT_000414,SLOT_000443,same-antenna overlap,
+SLOT_000415,SLOT_000435,same-antenna overlap,
+SLOT_000416,SLOT_000446,same-antenna overlap,
+SLOT_000417,SLOT_000427,same-antenna overlap,
+SLOT_000418,SLOT_000430,same-antenna overlap,
+SLOT_000419,SLOT_000420,same-antenna overlap,
+SLOT_000419,SLOT_000468,same-antenna reconfiguration time,0.05
+SLOT_000420,SLOT_000468,same-antenna reconfiguration time,0.05
+SLOT_000422,SLOT_000433,same-antenna overlap,
+SLOT_000423,SLOT_000442,same-antenna overlap,
+SLOT_000423,SLOT_000469,same-antenna reconfiguration time,0.05
+SLOT_000424,SLOT_000425,same-antenna overlap,
+SLOT_000424,SLOT_000450,same-antenna overlap,
+SLOT_000425,SLOT_000450,same-antenna overlap,
+SLOT_000426,SLOT_000452,same-antenna overlap,
+SLOT_000426,SLOT_000472,same-antenna reconfiguration time,0.05
+SLOT_000427,SLOT_000473,same-antenna reconfiguration time,0.05
+SLOT_000428,SLOT_000429,same-antenna overlap,
+SLOT_000428,SLOT_000447,same-antenna overlap,
+SLOT_000428,SLOT_000454,same-antenna overlap,
+SLOT_000428,SLOT_000455,same-antenna overlap,
+SLOT_000428,SLOT_000461,same-antenna reconfiguration time,0.05
+SLOT_000428,SLOT_000465,same-antenna reconfiguration time,0.05
+SLOT_000428,SLOT_000474,same-antenna reconfiguration time,0.05
+SLOT_000429,SLOT_000447,same-antenna overlap,
+SLOT_000429,SLOT_000454,same-antenna overlap,
+SLOT_000429,SLOT_000455,same-antenna overlap,
+SLOT_000429,SLOT_000461,same-antenna reconfiguration time,0.05
+SLOT_000429,SLOT_000465,same-antenna reconfiguration time,0.05
+SLOT_000429,SLOT_000474,same-antenna reconfiguration time,0.05
+SLOT_000431,SLOT_000440,same-antenna overlap,
+SLOT_000431,SLOT_000457,same-antenna overlap,
+SLOT_000431,SLOT_000476,same-antenna reconfiguration time,0.05
+SLOT_000433,SLOT_000480,same-antenna reconfiguration time,0.05
+SLOT_000433,SLOT_000481,same-antenna reconfiguration time,0.05
+SLOT_000434,SLOT_000441,same-antenna overlap,
+SLOT_000434,SLOT_000449,same-antenna overlap,
+SLOT_000436,SLOT_000451,same-antenna overlap,
+SLOT_000436,SLOT_000460,same-antenna overlap,
+SLOT_000436,SLOT_000485,same-antenna reconfiguration time,0.05
+SLOT_000437,SLOT_000448,same-antenna overlap,
+SLOT_000437,SLOT_000456,same-antenna overlap,
+SLOT_000437,SLOT_000466,same-antenna reconfiguration time,0.05
+SLOT_000437,SLOT_000489,same-antenna reconfiguration time,0.05
+SLOT_000438,SLOT_000439,same-antenna overlap,
+SLOT_000438,SLOT_000475,same-antenna reconfiguration time,0.05
+SLOT_000438,SLOT_000490,same-antenna reconfiguration time,0.05
+SLOT_000439,SLOT_000475,same-antenna reconfiguration time,0.05
+SLOT_000439,SLOT_000490,same-antenna reconfiguration time,0.05
+SLOT_000440,SLOT_000457,same-antenna overlap,
+SLOT_000440,SLOT_000476,same-antenna reconfiguration time,0.05
+SLOT_000440,SLOT_000491,same-antenna reconfiguration time,0.05
+SLOT_000441,SLOT_000449,same-antenna overlap,
+SLOT_000442,SLOT_000469,same-antenna reconfiguration time,0.05
+SLOT_000443,SLOT_000496,same-antenna reconfiguration time,0.05
+SLOT_000444,SLOT_000445,same-antenna overlap,
+SLOT_000444,SLOT_000470,same-antenna reconfiguration time,0.05
+SLOT_000444,SLOT_000482,same-antenna reconfiguration time,0.05
+SLOT_000444,SLOT_000497,same-antenna reconfiguration time,0.05
+SLOT_000445,SLOT_000470,same-antenna reconfiguration time,0.05
+SLOT_000445,SLOT_000482,same-antenna reconfiguration time,0.05
+SLOT_000445,SLOT_000497,same-antenna reconfiguration time,0.05
+SLOT_000446,SLOT_000471,same-antenna reconfiguration time,0.05
+SLOT_000446,SLOT_000499,same-antenna reconfiguration time,0.05
+SLOT_000447,SLOT_000454,same-antenna overlap,
+SLOT_000447,SLOT_000455,same-antenna overlap,
+SLOT_000447,SLOT_000461,same-antenna overlap,
+SLOT_000447,SLOT_000465,same-antenna overlap,
+SLOT_000447,SLOT_000474,same-antenna reconfiguration time,0.05
+SLOT_000447,SLOT_000488,same-antenna reconfiguration time,0.05
+SLOT_000448,SLOT_000456,same-antenna overlap,
+SLOT_000448,SLOT_000466,same-antenna overlap,
+SLOT_000448,SLOT_000489,same-antenna reconfiguration time,0.05
+SLOT_000450,SLOT_000483,same-antenna reconfiguration time,0.05
+SLOT_000450,SLOT_000484,same-antenna reconfiguration time,0.05
+SLOT_000451,SLOT_000460,same-antenna overlap,
+SLOT_000451,SLOT_000485,same-antenna reconfiguration time,0.05
+SLOT_000452,SLOT_000472,same-antenna overlap,
+SLOT_000452,SLOT_000486,same-antenna reconfiguration time,0.05
+SLOT_000453,SLOT_000464,same-antenna overlap,
+SLOT_000453,SLOT_000508,same-antenna reconfiguration time,0.05
+SLOT_000454,SLOT_000455,same-antenna overlap,
+SLOT_000454,SLOT_000461,same-antenna overlap,
+SLOT_000454,SLOT_000465,same-antenna overlap,
+SLOT_000454,SLOT_000474,same-antenna overlap,
+SLOT_000454,SLOT_000488,same-antenna reconfiguration time,0.05
+SLOT_000455,SLOT_000461,same-antenna overlap,
+SLOT_000455,SLOT_000465,same-antenna overlap,
+SLOT_000455,SLOT_000474,same-antenna overlap,
+SLOT_000455,SLOT_000488,same-antenna reconfiguration time,0.05
+SLOT_000456,SLOT_000466,same-antenna overlap,
+SLOT_000456,SLOT_000489,same-antenna reconfiguration time,0.05
+SLOT_000456,SLOT_000509,same-antenna reconfiguration time,0.05
+SLOT_000457,SLOT_000476,same-antenna overlap,
+SLOT_000457,SLOT_000491,same-antenna reconfiguration time,0.05
+SLOT_000457,SLOT_000503,same-antenna reconfiguration time,0.05
+SLOT_000458,SLOT_000462,same-antenna overlap,
+SLOT_000458,SLOT_000467,same-antenna overlap,
+SLOT_000458,SLOT_000477,same-antenna overlap,
+SLOT_000458,SLOT_000504,same-antenna reconfiguration time,0.05
+SLOT_000458,SLOT_000505,same-antenna reconfiguration time,0.05
+SLOT_000459,SLOT_000463,same-antenna overlap,
+SLOT_000459,SLOT_000492,same-antenna reconfiguration time,0.05
+SLOT_000460,SLOT_000485,same-antenna overlap,
+SLOT_000460,SLOT_000515,same-antenna reconfiguration time,0.05
+SLOT_000461,SLOT_000465,same-antenna overlap,
+SLOT_000461,SLOT_000474,same-antenna overlap,
+SLOT_000461,SLOT_000488,same-antenna overlap,
+SLOT_000461,SLOT_000518,same-antenna reconfiguration time,0.05
+SLOT_000462,SLOT_000467,same-antenna overlap,
+SLOT_000462,SLOT_000477,same-antenna overlap,
+SLOT_000462,SLOT_000504,same-antenna reconfiguration time,0.05
+SLOT_000462,SLOT_000505,same-antenna reconfiguration time,0.05
+SLOT_000462,SLOT_000520,same-antenna reconfiguration time,0.05
+SLOT_000462,SLOT_000521,same-antenna reconfiguration time,0.05
+SLOT_000463,SLOT_000492,same-antenna overlap,
+SLOT_000463,SLOT_000522,same-antenna reconfiguration time,0.05
+SLOT_000463,SLOT_000523,same-antenna reconfiguration time,0.05
+SLOT_000464,SLOT_000508,same-antenna reconfiguration time,0.05
+SLOT_000464,SLOT_000517,same-antenna reconfiguration time,0.05
+SLOT_000465,SLOT_000474,same-antenna overlap,
+SLOT_000465,SLOT_000488,same-antenna overlap,
+SLOT_000465,SLOT_000518,same-antenna reconfiguration time,0.05
+SLOT_000466,SLOT_000489,same-antenna overlap,
+SLOT_000466,SLOT_000509,same-antenna reconfiguration time,0.05
+SLOT_000467,SLOT_000477,same-antenna overlap,
+SLOT_000467,SLOT_000504,same-antenna overlap,
+SLOT_000467,SLOT_000505,same-antenna overlap,
+SLOT_000467,SLOT_000520,same-antenna reconfiguration time,0.05
+SLOT_000467,SLOT_000521,same-antenna reconfiguration time,0.05
+SLOT_000468,SLOT_000478,same-antenna overlap,
+SLOT_000469,SLOT_000513,same-antenna reconfiguration time,0.05
+SLOT_000470,SLOT_000482,same-antenna overlap,
+SLOT_000470,SLOT_000497,same-antenna overlap,
+SLOT_000470,SLOT_000507,same-antenna overlap,
+SLOT_000471,SLOT_000499,same-antenna overlap,
+SLOT_000472,SLOT_000486,same-antenna overlap,
+SLOT_000472,SLOT_000516,same-antenna reconfiguration time,0.05
+SLOT_000473,SLOT_000487,same-antenna overlap,
+SLOT_000474,SLOT_000488,same-antenna overlap,
+SLOT_000474,SLOT_000518,same-antenna reconfiguration time,0.05
+SLOT_000475,SLOT_000490,same-antenna overlap,
+SLOT_000475,SLOT_000501,same-antenna overlap,
+SLOT_000475,SLOT_000502,same-antenna overlap,
+SLOT_000475,SLOT_000519,same-antenna reconfiguration time,0.05
+SLOT_000475,SLOT_000527,same-antenna reconfiguration time,0.05
+SLOT_000476,SLOT_000491,same-antenna overlap,
+SLOT_000476,SLOT_000503,same-antenna overlap,
+SLOT_000477,SLOT_000504,same-antenna overlap,
+SLOT_000477,SLOT_000505,same-antenna overlap,
+SLOT_000477,SLOT_000520,same-antenna reconfiguration time,0.05
+SLOT_000477,SLOT_000521,same-antenna reconfiguration time,0.05
+SLOT_000477,SLOT_000529,same-antenna reconfiguration time,0.05
+SLOT_000477,SLOT_000530,same-antenna reconfiguration time,0.05
+SLOT_000479,SLOT_000493,same-antenna overlap,
+SLOT_000480,SLOT_000481,same-antenna overlap,
+SLOT_000480,SLOT_000494,same-antenna overlap,
+SLOT_000480,SLOT_000495,same-antenna overlap,
+SLOT_000480,SLOT_000510,same-antenna overlap,
+SLOT_000480,SLOT_000511,same-antenna overlap,
+SLOT_000481,SLOT_000494,same-antenna overlap,
+SLOT_000481,SLOT_000495,same-antenna overlap,
+SLOT_000481,SLOT_000510,same-antenna overlap,
+SLOT_000481,SLOT_000511,same-antenna overlap,
+SLOT_000482,SLOT_000497,same-antenna overlap,
+SLOT_000482,SLOT_000507,same-antenna overlap,
+SLOT_000483,SLOT_000484,same-antenna overlap,
+SLOT_000485,SLOT_000515,same-antenna overlap,
+SLOT_000485,SLOT_000532,same-antenna reconfiguration time,0.05
+SLOT_000485,SLOT_000533,same-antenna reconfiguration time,0.05
+SLOT_000486,SLOT_000516,same-antenna overlap,
+SLOT_000486,SLOT_000534,same-antenna reconfiguration time,0.05
+SLOT_000488,SLOT_000518,same-antenna overlap,
+SLOT_000488,SLOT_000535,same-antenna reconfiguration time,0.05
+SLOT_000488,SLOT_000536,same-antenna reconfiguration time,0.05
+SLOT_000489,SLOT_000509,same-antenna overlap,
+SLOT_000490,SLOT_000501,same-antenna overlap,
+SLOT_000490,SLOT_000502,same-antenna overlap,
+SLOT_000490,SLOT_000519,same-antenna overlap,
+SLOT_000490,SLOT_000527,same-antenna reconfiguration time,0.05
+SLOT_000491,SLOT_000503,same-antenna overlap,
+SLOT_000492,SLOT_000522,same-antenna overlap,
+SLOT_000492,SLOT_000523,same-antenna overlap,
+SLOT_000492,SLOT_000525,same-antenna reconfiguration time,0.05
+SLOT_000492,SLOT_000526,same-antenna reconfiguration time,0.05
+SLOT_000494,SLOT_000495,same-antenna overlap,
+SLOT_000494,SLOT_000510,same-antenna overlap,
+SLOT_000494,SLOT_000511,same-antenna overlap,
+SLOT_000494,SLOT_000540,same-antenna reconfiguration time,0.05
+SLOT_000494,SLOT_000541,same-antenna reconfiguration time,0.05
+SLOT_000495,SLOT_000510,same-antenna overlap,
+SLOT_000495,SLOT_000511,same-antenna overlap,
+SLOT_000495,SLOT_000540,same-antenna reconfiguration time,0.05
+SLOT_000495,SLOT_000541,same-antenna reconfiguration time,0.05
+SLOT_000496,SLOT_000506,same-antenna overlap,
+SLOT_000496,SLOT_000542,same-antenna reconfiguration time,0.05
+SLOT_000497,SLOT_000507,same-antenna overlap,
+SLOT_000497,SLOT_000543,same-antenna reconfiguration time,0.05
+SLOT_000498,SLOT_000514,same-antenna overlap,
+SLOT_000498,SLOT_000531,same-antenna reconfiguration time,0.05
+SLOT_000501,SLOT_000502,same-antenna overlap,
+SLOT_000501,SLOT_000519,same-antenna overlap,
+SLOT_000501,SLOT_000527,same-antenna reconfiguration time,0.05
+SLOT_000501,SLOT_000549,same-antenna reconfiguration time,0.05
+SLOT_000502,SLOT_000519,same-antenna overlap,
+SLOT_000502,SLOT_000527,same-antenna reconfiguration time,0.05
+SLOT_000502,SLOT_000549,same-antenna reconfiguration time,0.05
+SLOT_000504,SLOT_000505,same-antenna overlap,
+SLOT_000504,SLOT_000520,same-antenna overlap,
+SLOT_000504,SLOT_000521,same-antenna overlap,
+SLOT_000504,SLOT_000529,same-antenna reconfiguration time,0.05
+SLOT_000504,SLOT_000530,same-antenna reconfiguration time,0.05
+SLOT_000504,SLOT_000538,same-antenna reconfiguration time,0.05
+SLOT_000504,SLOT_000551,same-antenna reconfiguration time,0.05
+SLOT_000505,SLOT_000520,same-antenna overlap,
+SLOT_000505,SLOT_000521,same-antenna overlap,
+SLOT_000505,SLOT_000529,same-antenna reconfiguration time,0.05
+SLOT_000505,SLOT_000530,same-antenna reconfiguration time,0.05
+SLOT_000505,SLOT_000538,same-antenna reconfiguration time,0.05
+SLOT_000505,SLOT_000551,same-antenna reconfiguration time,0.05
+SLOT_000506,SLOT_000542,same-antenna reconfiguration time,0.05
+SLOT_000507,SLOT_000543,same-antenna reconfiguration time,0.05
+SLOT_000508,SLOT_000517,same-antenna overlap,
+SLOT_000509,SLOT_000548,same-antenna reconfiguration time,0.05
+SLOT_000510,SLOT_000511,same-antenna overlap,
+SLOT_000510,SLOT_000540,same-antenna reconfiguration time,0.05
+SLOT_000510,SLOT_000541,same-antenna reconfiguration time,0.05
+SLOT_000510,SLOT_000554,same-antenna reconfiguration time,0.05
+SLOT_000510,SLOT_000564,same-antenna reconfiguration time,0.05
+SLOT_000511,SLOT_000540,same-antenna reconfiguration time,0.05
+SLOT_000511,SLOT_000541,same-antenna reconfiguration time,0.05
+SLOT_000511,SLOT_000554,same-antenna reconfiguration time,0.05
+SLOT_000511,SLOT_000564,same-antenna reconfiguration time,0.05
+SLOT_000512,SLOT_000524,same-antenna overlap,
+SLOT_000513,SLOT_000555,same-antenna reconfiguration time,0.05
+SLOT_000514,SLOT_000531,same-antenna overlap,
+SLOT_000514,SLOT_000556,same-antenna reconfiguration time,0.05
+SLOT_000514,SLOT_000557,same-antenna reconfiguration time,0.05
+SLOT_000515,SLOT_000532,same-antenna overlap,
+SLOT_000515,SLOT_000533,same-antenna overlap,
+SLOT_000516,SLOT_000534,same-antenna overlap,
+SLOT_000516,SLOT_000545,same-antenna reconfiguration time,0.05
+SLOT_000516,SLOT_000559,same-antenna reconfiguration time,0.05
+SLOT_000516,SLOT_000568,same-antenna reconfiguration time,0.05
+SLOT_000518,SLOT_000535,same-antenna overlap,
+SLOT_000518,SLOT_000536,same-antenna overlap,
+SLOT_000518,SLOT_000547,same-antenna reconfiguration time,0.05
+SLOT_000519,SLOT_000527,same-antenna overlap,
+SLOT_000519,SLOT_000549,same-antenna reconfiguration time,0.05
+SLOT_000519,SLOT_000562,same-antenna reconfiguration time,0.05
+SLOT_000519,SLOT_000571,same-antenna reconfiguration time,0.05
+SLOT_000520,SLOT_000521,same-antenna overlap,
+SLOT_000520,SLOT_000529,same-antenna overlap,
+SLOT_000520,SLOT_000530,same-antenna overlap,
+SLOT_000520,SLOT_000538,same-antenna overlap,
+SLOT_000520,SLOT_000551,same-antenna reconfiguration time,0.05
+SLOT_000521,SLOT_000529,same-antenna overlap,
+SLOT_000521,SLOT_000530,same-antenna overlap,
+SLOT_000521,SLOT_000538,same-antenna overlap,
+SLOT_000521,SLOT_000551,same-antenna reconfiguration time,0.05
+SLOT_000522,SLOT_000523,same-antenna overlap,
+SLOT_000522,SLOT_000525,same-antenna overlap,
+SLOT_000522,SLOT_000526,same-antenna overlap,
+SLOT_000522,SLOT_000552,same-antenna reconfiguration time,0.05
+SLOT_000522,SLOT_000573,same-antenna reconfiguration time,0.05
+SLOT_000522,SLOT_000574,same-antenna reconfiguration time,0.05
+SLOT_000523,SLOT_000525,same-antenna overlap,
+SLOT_000523,SLOT_000526,same-antenna overlap,
+SLOT_000523,SLOT_000552,same-antenna reconfiguration time,0.05
+SLOT_000523,SLOT_000573,same-antenna reconfiguration time,0.05
+SLOT_000523,SLOT_000574,same-antenna reconfiguration time,0.05
+SLOT_000524,SLOT_000575,same-antenna reconfiguration time,0.05
+SLOT_000525,SLOT_000526,same-antenna overlap,
+SLOT_000525,SLOT_000552,same-antenna overlap,
+SLOT_000525,SLOT_000573,same-antenna reconfiguration time,0.05
+SLOT_000525,SLOT_000574,same-antenna reconfiguration time,0.05
+SLOT_000525,SLOT_000585,same-antenna reconfiguration time,0.05
+SLOT_000526,SLOT_000552,same-antenna overlap,
+SLOT_000526,SLOT_000573,same-antenna reconfiguration time,0.05
+SLOT_000526,SLOT_000574,same-antenna reconfiguration time,0.05
+SLOT_000526,SLOT_000585,same-antenna reconfiguration time,0.05
+SLOT_000527,SLOT_000549,same-antenna overlap,
+SLOT_000527,SLOT_000562,same-antenna overlap,
+SLOT_000527,SLOT_000571,same-antenna reconfiguration time,0.05
+SLOT_000528,SLOT_000572,same-antenna reconfiguration time,0.05
+SLOT_000528,SLOT_000590,same-antenna reconfiguration time,0.05
+SLOT_000529,SLOT_000530,same-antenna overlap,
+SLOT_000529,SLOT_000538,same-antenna overlap,
+SLOT_000529,SLOT_000551,same-antenna overlap,
+SLOT_000529,SLOT_000583,same-antenna reconfiguration time,0.05
+SLOT_000529,SLOT_000584,same-antenna reconfiguration time,0.05
+SLOT_000530,SLOT_000538,same-antenna overlap,
+SLOT_000530,SLOT_000551,same-antenna overlap,
+SLOT_000530,SLOT_000583,same-antenna reconfiguration time,0.05
+SLOT_000530,SLOT_000584,same-antenna reconfiguration time,0.05
+SLOT_000531,SLOT_000556,same-antenna overlap,
+SLOT_000531,SLOT_000557,same-antenna overlap,
+SLOT_000531,SLOT_000576,same-antenna reconfiguration time,0.05
+SLOT_000531,SLOT_000588,same-antenna reconfiguration time,0.05
+SLOT_000532,SLOT_000533,same-antenna overlap,
+SLOT_000532,SLOT_000577,same-antenna reconfiguration time,0.05
+SLOT_000532,SLOT_000578,same-antenna reconfiguration time,0.05
+SLOT_000533,SLOT_000577,same-antenna reconfiguration time,0.05
+SLOT_000533,SLOT_000578,same-antenna reconfiguration time,0.05
+SLOT_000534,SLOT_000545,same-antenna overlap,
+SLOT_000534,SLOT_000559,same-antenna overlap,
+SLOT_000534,SLOT_000568,same-antenna overlap,
+SLOT_000535,SLOT_000536,same-antenna overlap,
+SLOT_000535,SLOT_000547,same-antenna overlap,
+SLOT_000535,SLOT_000581,same-antenna reconfiguration time,0.05
+SLOT_000535,SLOT_000582,same-antenna reconfiguration time,0.05
+SLOT_000535,SLOT_000595,same-antenna reconfiguration time,0.05
+SLOT_000535,SLOT_000596,same-antenna reconfiguration time,0.05
+SLOT_000536,SLOT_000547,same-antenna overlap,
+SLOT_000536,SLOT_000581,same-antenna reconfiguration time,0.05
+SLOT_000536,SLOT_000582,same-antenna reconfiguration time,0.05
+SLOT_000536,SLOT_000595,same-antenna reconfiguration time,0.05
+SLOT_000536,SLOT_000596,same-antenna reconfiguration time,0.05
+SLOT_000537,SLOT_000550,same-antenna overlap,
+SLOT_000538,SLOT_000551,same-antenna overlap,
+SLOT_000538,SLOT_000583,same-antenna reconfiguration time,0.05
+SLOT_000538,SLOT_000584,same-antenna reconfiguration time,0.05
+SLOT_000538,SLOT_000597,same-antenna reconfiguration time,0.05
+SLOT_000538,SLOT_000598,same-antenna reconfiguration time,0.05
+SLOT_000539,SLOT_000586,same-antenna reconfiguration time,0.05
+SLOT_000539,SLOT_000599,same-antenna reconfiguration time,0.05
+SLOT_000540,SLOT_000541,same-antenna overlap,
+SLOT_000540,SLOT_000554,same-antenna overlap,
+SLOT_000540,SLOT_000564,same-antenna overlap,
+SLOT_000541,SLOT_000554,same-antenna overlap,
+SLOT_000541,SLOT_000564,same-antenna overlap,
+SLOT_000542,SLOT_000565,same-antenna overlap,
+SLOT_000542,SLOT_000566,same-antenna overlap,
+SLOT_000542,SLOT_000592,same-antenna reconfiguration time,0.05
+SLOT_000543,SLOT_000567,same-antenna overlap,
+SLOT_000545,SLOT_000559,same-antenna overlap,
+SLOT_000545,SLOT_000568,same-antenna overlap,
+SLOT_000546,SLOT_000601,same-antenna reconfiguration time,0.05
+SLOT_000547,SLOT_000581,same-antenna overlap,
+SLOT_000547,SLOT_000582,same-antenna overlap,
+SLOT_000547,SLOT_000595,same-antenna reconfiguration time,0.05
+SLOT_000547,SLOT_000596,same-antenna reconfiguration time,0.05
+SLOT_000548,SLOT_000569,same-antenna overlap,
+SLOT_000548,SLOT_000570,same-antenna overlap,
+SLOT_000549,SLOT_000562,same-antenna overlap,
+SLOT_000549,SLOT_000571,same-antenna overlap,
+SLOT_000551,SLOT_000583,same-antenna overlap,
+SLOT_000551,SLOT_000584,same-antenna overlap,
+SLOT_000551,SLOT_000597,same-antenna reconfiguration time,0.05
+SLOT_000551,SLOT_000598,same-antenna reconfiguration time,0.05
+SLOT_000552,SLOT_000573,same-antenna overlap,
+SLOT_000552,SLOT_000574,same-antenna overlap,
+SLOT_000552,SLOT_000585,same-antenna overlap,
+SLOT_000552,SLOT_000591,same-antenna reconfiguration time,0.05
+SLOT_000553,SLOT_000603,same-antenna reconfiguration time,0.05
+SLOT_000554,SLOT_000564,same-antenna overlap,
+SLOT_000556,SLOT_000557,same-antenna overlap,
+SLOT_000556,SLOT_000576,same-antenna overlap,
+SLOT_000556,SLOT_000588,same-antenna overlap,
+SLOT_000556,SLOT_000605,same-antenna reconfiguration time,0.05
+SLOT_000557,SLOT_000576,same-antenna overlap,
+SLOT_000557,SLOT_000588,same-antenna overlap,
+SLOT_000557,SLOT_000605,same-antenna reconfiguration time,0.05
+SLOT_000558,SLOT_000593,same-antenna reconfiguration time,0.05
+SLOT_000559,SLOT_000568,same-antenna overlap,
+SLOT_000560,SLOT_000561,same-antenna overlap,
+SLOT_000560,SLOT_000589,same-antenna overlap,
+SLOT_000561,SLOT_000589,same-antenna overlap,
+SLOT_000562,SLOT_000571,same-antenna overlap,
+SLOT_000563,SLOT_000609,same-antenna reconfiguration time,0.05
+SLOT_000564,SLOT_000614,same-antenna reconfiguration time,0.05
+SLOT_000565,SLOT_000566,same-antenna overlap,
+SLOT_000565,SLOT_000592,same-antenna overlap,
+SLOT_000565,SLOT_000616,same-antenna reconfiguration time,0.05
+SLOT_000566,SLOT_000592,same-antenna overlap,
+SLOT_000566,SLOT_000616,same-antenna reconfiguration time,0.05
+SLOT_000568,SLOT_000619,same-antenna reconfiguration time,0.05
+SLOT_000569,SLOT_000570,same-antenna overlap,
+SLOT_000569,SLOT_000608,same-antenna reconfiguration time,0.05
+SLOT_000570,SLOT_000608,same-antenna reconfiguration time,0.05
+SLOT_000571,SLOT_000621,same-antenna reconfiguration time,0.05
+SLOT_000572,SLOT_000590,same-antenna overlap,
+SLOT_000572,SLOT_000610,same-antenna reconfiguration time,0.05
+SLOT_000573,SLOT_000574,same-antenna overlap,
+SLOT_000573,SLOT_000585,same-antenna overlap,
+SLOT_000573,SLOT_000591,same-antenna overlap,
+SLOT_000573,SLOT_000611,same-antenna reconfiguration time,0.05
+SLOT_000573,SLOT_000612,same-antenna reconfiguration time,0.05
+SLOT_000574,SLOT_000585,same-antenna overlap,
+SLOT_000574,SLOT_000591,same-antenna overlap,
+SLOT_000574,SLOT_000611,same-antenna reconfiguration time,0.05
+SLOT_000574,SLOT_000612,same-antenna reconfiguration time,0.05
+SLOT_000575,SLOT_000587,same-antenna overlap,
+SLOT_000576,SLOT_000588,same-antenna overlap,
+SLOT_000576,SLOT_000605,same-antenna reconfiguration time,0.05
+SLOT_000576,SLOT_000617,same-antenna reconfiguration time,0.05
+SLOT_000577,SLOT_000578,same-antenna overlap,
+SLOT_000577,SLOT_000600,same-antenna overlap,
+SLOT_000578,SLOT_000600,same-antenna overlap,
+SLOT_000579,SLOT_000580,same-antenna overlap,
+SLOT_000579,SLOT_000594,same-antenna overlap,
+SLOT_000579,SLOT_000628,same-antenna reconfiguration time,0.05
+SLOT_000580,SLOT_000594,same-antenna overlap,
+SLOT_000580,SLOT_000628,same-antenna reconfiguration time,0.05
+SLOT_000581,SLOT_000582,same-antenna overlap,
+SLOT_000581,SLOT_000595,same-antenna overlap,
+SLOT_000581,SLOT_000596,same-antenna overlap,
+SLOT_000581,SLOT_000607,same-antenna reconfiguration time,0.05
+SLOT_000582,SLOT_000595,same-antenna overlap,
+SLOT_000582,SLOT_000596,same-antenna overlap,
+SLOT_000582,SLOT_000607,same-antenna reconfiguration time,0.05
+SLOT_000583,SLOT_000584,same-antenna overlap,
+SLOT_000583,SLOT_000597,same-antenna overlap,
+SLOT_000583,SLOT_000598,same-antenna overlap,
+SLOT_000584,SLOT_000597,same-antenna overlap,
+SLOT_000584,SLOT_000598,same-antenna overlap,
+SLOT_000585,SLOT_000591,same-antenna overlap,
+SLOT_000585,SLOT_000611,same-antenna reconfiguration time,0.05
+SLOT_000585,SLOT_000612,same-antenna reconfiguration time,0.05
+SLOT_000586,SLOT_000599,same-antenna overlap,
+SLOT_000586,SLOT_000602,same-antenna overlap,
+SLOT_000587,SLOT_000631,same-antenna reconfiguration time,0.05
+SLOT_000588,SLOT_000605,same-antenna overlap,
+SLOT_000588,SLOT_000617,same-antenna reconfiguration time,0.05
+SLOT_000588,SLOT_000632,same-antenna reconfiguration time,0.05
+SLOT_000588,SLOT_000633,same-antenna reconfiguration time,0.05
+SLOT_000589,SLOT_000620,same-antenna reconfiguration time,0.05
+SLOT_000590,SLOT_000610,same-antenna overlap,
+SLOT_000591,SLOT_000611,same-antenna overlap,
+SLOT_000591,SLOT_000612,same-antenna overlap,
+SLOT_000591,SLOT_000638,same-antenna reconfiguration time,0.05
+SLOT_000592,SLOT_000616,same-antenna overlap,
+SLOT_000593,SLOT_000618,same-antenna overlap,
+SLOT_000594,SLOT_000628,same-antenna reconfiguration time,0.05
+SLOT_000595,SLOT_000596,same-antenna overlap,
+SLOT_000595,SLOT_000607,same-antenna overlap,
+SLOT_000595,SLOT_000635,same-antenna reconfiguration time,0.05
+SLOT_000596,SLOT_000607,same-antenna overlap,
+SLOT_000596,SLOT_000635,same-antenna reconfiguration time,0.05
+SLOT_000597,SLOT_000598,same-antenna overlap,
+SLOT_000597,SLOT_000637,same-antenna reconfiguration time,0.05
+SLOT_000598,SLOT_000637,same-antenna reconfiguration time,0.05
+SLOT_000599,SLOT_000602,same-antenna overlap,
+SLOT_000600,SLOT_000634,same-antenna reconfiguration time,0.05
+SLOT_000600,SLOT_000642,same-antenna reconfiguration time,0.05
+SLOT_000601,SLOT_000606,same-antenna overlap,
+SLOT_000603,SLOT_000613,same-antenna overlap,
+SLOT_000604,SLOT_000626,same-antenna overlap,
+SLOT_000605,SLOT_000617,same-antenna overlap,
+SLOT_000605,SLOT_000632,same-antenna overlap,
+SLOT_000605,SLOT_000633,same-antenna overlap,
+SLOT_000606,SLOT_000648,same-antenna reconfiguration time,0.05
+SLOT_000607,SLOT_000635,same-antenna overlap,
+SLOT_000608,SLOT_000629,same-antenna overlap,
+SLOT_000608,SLOT_000641,same-antenna reconfiguration time,0.05
+SLOT_000609,SLOT_000622,same-antenna overlap,
+SLOT_000609,SLOT_000636,same-antenna overlap,
+SLOT_000609,SLOT_000649,same-antenna reconfiguration time,0.05
+SLOT_000611,SLOT_000612,same-antenna overlap,
+SLOT_000611,SLOT_000638,same-antenna overlap,
+SLOT_000612,SLOT_000638,same-antenna overlap,
+SLOT_000613,SLOT_000652,same-antenna reconfiguration time,0.05
+SLOT_000613,SLOT_000653,same-antenna reconfiguration time,0.05
+SLOT_000614,SLOT_000623,same-antenna overlap,
+SLOT_000614,SLOT_000654,same-antenna reconfiguration time,0.05
+SLOT_000615,SLOT_000624,same-antenna overlap,
+SLOT_000617,SLOT_000632,same-antenna overlap,
+SLOT_000617,SLOT_000633,same-antenna overlap,
+SLOT_000619,SLOT_000627,same-antenna overlap,
+SLOT_000619,SLOT_000657,same-antenna reconfiguration time,0.05
+SLOT_000620,SLOT_000640,same-antenna overlap,
+SLOT_000620,SLOT_000643,same-antenna reconfiguration time,0.05
+SLOT_000620,SLOT_000660,same-antenna reconfiguration time,0.05
+SLOT_000621,SLOT_000630,same-antenna overlap,
+SLOT_000621,SLOT_000661,same-antenna reconfiguration time,0.05
+SLOT_000622,SLOT_000636,same-antenna overlap,
+SLOT_000622,SLOT_000649,same-antenna reconfiguration time,0.05
+SLOT_000623,SLOT_000654,same-antenna reconfiguration time,0.05
+SLOT_000623,SLOT_000666,same-antenna reconfiguration time,0.05
+SLOT_000624,SLOT_000667,same-antenna reconfiguration time,0.05
+SLOT_000625,SLOT_000639,same-antenna overlap,
+SLOT_000625,SLOT_000668,same-antenna reconfiguration time,0.05
+SLOT_000625,SLOT_000669,same-antenna reconfiguration time,0.05
+SLOT_000626,SLOT_000656,same-antenna reconfiguration time,0.05
+SLOT_000627,SLOT_000657,same-antenna reconfiguration time,0.05
+SLOT_000627,SLOT_000671,same-antenna reconfiguration time,0.05
+SLOT_000628,SLOT_000672,same-antenna reconfiguration time,0.05
+SLOT_000629,SLOT_000641,same-antenna overlap,
+SLOT_000630,SLOT_000661,same-antenna reconfiguration time,0.05
+SLOT_000630,SLOT_000673,same-antenna reconfiguration time,0.05
+SLOT_000631,SLOT_000655,same-antenna reconfiguration time,0.05
+SLOT_000632,SLOT_000633,same-antenna overlap,
+SLOT_000632,SLOT_000670,same-antenna reconfiguration time,0.05
+SLOT_000633,SLOT_000670,same-antenna reconfiguration time,0.05
+SLOT_000634,SLOT_000642,same-antenna overlap,
+SLOT_000634,SLOT_000647,same-antenna overlap,
+SLOT_000635,SLOT_000659,same-antenna reconfiguration time,0.05
+SLOT_000636,SLOT_000649,same-antenna overlap,
+SLOT_000637,SLOT_000644,same-antenna overlap,
+SLOT_000637,SLOT_000645,same-antenna overlap,
+SLOT_000637,SLOT_000646,same-antenna overlap,
+SLOT_000637,SLOT_000674,same-antenna reconfiguration time,0.05
+SLOT_000638,SLOT_000664,same-antenna reconfiguration time,0.05
+SLOT_000638,SLOT_000665,same-antenna reconfiguration time,0.05
+SLOT_000638,SLOT_000679,same-antenna reconfiguration time,0.05
+SLOT_000639,SLOT_000668,same-antenna reconfiguration time,0.05
+SLOT_000639,SLOT_000669,same-antenna reconfiguration time,0.05
+SLOT_000639,SLOT_000675,same-antenna reconfiguration time,0.05
+SLOT_000640,SLOT_000643,same-antenna overlap,
+SLOT_000640,SLOT_000660,same-antenna overlap,
+SLOT_000641,SLOT_000678,same-antenna reconfiguration time,0.05
+SLOT_000642,SLOT_000647,same-antenna overlap,
+SLOT_000642,SLOT_000683,same-antenna reconfiguration time,0.05
+SLOT_000643,SLOT_000660,same-antenna overlap,
+SLOT_000643,SLOT_000692,same-antenna reconfiguration time,0.05
+SLOT_000644,SLOT_000645,same-antenna overlap,
+SLOT_000644,SLOT_000646,same-antenna overlap,
+SLOT_000644,SLOT_000674,same-antenna overlap,
+SLOT_000644,SLOT_000689,same-antenna reconfiguration time,0.05
+SLOT_000645,SLOT_000646,same-antenna overlap,
+SLOT_000645,SLOT_000674,same-antenna overlap,
+SLOT_000645,SLOT_000689,same-antenna reconfiguration time,0.05
+SLOT_000646,SLOT_000674,same-antenna overlap,
+SLOT_000646,SLOT_000689,same-antenna reconfiguration time,0.05
+SLOT_000647,SLOT_000683,same-antenna reconfiguration time,0.05
+SLOT_000648,SLOT_000658,same-antenna overlap,
+SLOT_000648,SLOT_000677,same-antenna overlap,
+SLOT_000649,SLOT_000687,same-antenna reconfiguration time,0.05
+SLOT_000650,SLOT_000651,same-antenna overlap,
+SLOT_000652,SLOT_000653,same-antenna overlap,
+SLOT_000652,SLOT_000680,same-antenna overlap,
+SLOT_000653,SLOT_000680,same-antenna overlap,
+SLOT_000654,SLOT_000666,same-antenna overlap,
+SLOT_000654,SLOT_000681,same-antenna overlap,
+SLOT_000655,SLOT_000682,same-antenna overlap,
+SLOT_000657,SLOT_000671,same-antenna overlap,
+SLOT_000657,SLOT_000684,same-antenna overlap,
+SLOT_000658,SLOT_000677,same-antenna overlap,
+SLOT_000658,SLOT_000694,same-antenna reconfiguration time,0.05
+SLOT_000659,SLOT_000685,same-antenna overlap,
+SLOT_000660,SLOT_000692,same-antenna reconfiguration time,0.05
+SLOT_000661,SLOT_000673,same-antenna overlap,
+SLOT_000661,SLOT_000686,same-antenna overlap,
+SLOT_000662,SLOT_000663,same-antenna overlap,
+SLOT_000662,SLOT_000688,same-antenna overlap,
+SLOT_000663,SLOT_000688,same-antenna overlap,
+SLOT_000664,SLOT_000665,same-antenna overlap,
+SLOT_000664,SLOT_000679,same-antenna overlap,
+SLOT_000664,SLOT_000690,same-antenna overlap,
+SLOT_000664,SLOT_000695,same-antenna reconfiguration time,0.05
+SLOT_000665,SLOT_000679,same-antenna overlap,
+SLOT_000665,SLOT_000690,same-antenna overlap,
+SLOT_000665,SLOT_000695,same-antenna reconfiguration time,0.05
+SLOT_000666,SLOT_000681,same-antenna overlap,
+SLOT_000668,SLOT_000669,same-antenna overlap,
+SLOT_000668,SLOT_000675,same-antenna overlap,
+SLOT_000668,SLOT_000691,same-antenna overlap,
+SLOT_000668,SLOT_000693,same-antenna reconfiguration time,0.05
+SLOT_000669,SLOT_000675,same-antenna overlap,
+SLOT_000669,SLOT_000691,same-antenna overlap,
+SLOT_000669,SLOT_000693,same-antenna reconfiguration time,0.05
+SLOT_000671,SLOT_000684,same-antenna overlap,
+SLOT_000673,SLOT_000686,same-antenna overlap,
+SLOT_000674,SLOT_000689,same-antenna overlap,
+SLOT_000675,SLOT_000691,same-antenna overlap,
+SLOT_000675,SLOT_000693,same-antenna reconfiguration time,0.05
+SLOT_000676,SLOT_000698,same-antenna reconfiguration time,0.05
+SLOT_000677,SLOT_000694,same-antenna reconfiguration time,0.05
+SLOT_000677,SLOT_000699,same-antenna reconfiguration time,0.05
+SLOT_000679,SLOT_000690,same-antenna overlap,
+SLOT_000679,SLOT_000695,same-antenna reconfiguration time,0.05
+SLOT_000679,SLOT_000702,same-antenna reconfiguration time,0.05
+SLOT_000680,SLOT_000697,same-antenna reconfiguration time,0.05
+SLOT_000681,SLOT_000703,same-antenna reconfiguration time,0.05
+SLOT_000681,SLOT_000704,same-antenna reconfiguration time,0.05
+SLOT_000684,SLOT_000706,same-antenna reconfiguration time,0.05
+SLOT_000684,SLOT_000707,same-antenna reconfiguration time,0.05
+SLOT_000685,SLOT_000700,same-antenna reconfiguration time,0.05
+SLOT_000685,SLOT_000714,same-antenna reconfiguration time,0.05
+SLOT_000686,SLOT_000708,same-antenna reconfiguration time,0.05
+SLOT_000686,SLOT_000715,same-antenna reconfiguration time,0.05
+SLOT_000687,SLOT_000701,same-antenna reconfiguration time,0.05
+SLOT_000689,SLOT_000710,same-antenna reconfiguration time,0.05
+SLOT_000690,SLOT_000695,same-antenna overlap,
+SLOT_000690,SLOT_000702,same-antenna reconfiguration time,0.05
+SLOT_000691,SLOT_000693,same-antenna overlap,
+SLOT_000691,SLOT_000711,same-antenna reconfiguration time,0.05
+SLOT_000692,SLOT_000718,same-antenna reconfiguration time,0.05
+SLOT_000693,SLOT_000711,same-antenna overlap,
+SLOT_000693,SLOT_000720,same-antenna reconfiguration time,0.05
+SLOT_000693,SLOT_000721,same-antenna reconfiguration time,0.05
+SLOT_000694,SLOT_000699,same-antenna overlap,
+SLOT_000694,SLOT_000713,same-antenna overlap,
+SLOT_000695,SLOT_000702,same-antenna overlap,
+SLOT_000697,SLOT_000716,same-antenna overlap,
+SLOT_000699,SLOT_000713,same-antenna overlap,
+SLOT_000699,SLOT_000728,same-antenna reconfiguration time,0.05
+SLOT_000700,SLOT_000714,same-antenna overlap,
+SLOT_000700,SLOT_000717,same-antenna overlap,
+SLOT_000700,SLOT_000724,same-antenna reconfiguration time,0.05
+SLOT_000701,SLOT_000719,same-antenna overlap,
+SLOT_000703,SLOT_000704,same-antenna overlap,
+SLOT_000705,SLOT_000723,same-antenna reconfiguration time,0.05
+SLOT_000706,SLOT_000707,same-antenna overlap,
+SLOT_000708,SLOT_000715,same-antenna overlap,
+SLOT_000710,SLOT_000725,same-antenna reconfiguration time,0.05
+SLOT_000711,SLOT_000720,same-antenna overlap,
+SLOT_000711,SLOT_000721,same-antenna overlap,
+SLOT_000713,SLOT_000728,same-antenna reconfiguration time,0.05
+SLOT_000714,SLOT_000717,same-antenna overlap,
+SLOT_000714,SLOT_000724,same-antenna overlap,
+SLOT_000714,SLOT_000730,same-antenna reconfiguration time,0.05
+SLOT_000717,SLOT_000724,same-antenna overlap,
+SLOT_000717,SLOT_000730,same-antenna reconfiguration time,0.05
+SLOT_000718,SLOT_000735,same-antenna reconfiguration time,0.05
+SLOT_000720,SLOT_000721,same-antenna overlap,
+SLOT_000723,SLOT_000732,same-antenna overlap,
+SLOT_000724,SLOT_000730,same-antenna overlap,
+SLOT_000724,SLOT_000746,same-antenna reconfiguration time,0.05
+SLOT_000725,SLOT_000736,same-antenna overlap,
+SLOT_000725,SLOT_000753,same-antenna reconfiguration time,0.05
+SLOT_000726,SLOT_000737,same-antenna overlap,
+SLOT_000726,SLOT_000738,same-antenna overlap,
+SLOT_000727,SLOT_000734,same-antenna overlap,
+SLOT_000727,SLOT_000756,same-antenna reconfiguration time,0.05
+SLOT_000727,SLOT_000757,same-antenna reconfiguration time,0.05
+SLOT_000728,SLOT_000740,same-antenna overlap,
+SLOT_000728,SLOT_000745,same-antenna reconfiguration time,0.05
+SLOT_000729,SLOT_000733,same-antenna overlap,
+SLOT_000730,SLOT_000746,same-antenna overlap,
+SLOT_000731,SLOT_000749,same-antenna overlap,
+SLOT_000731,SLOT_000750,same-antenna overlap,
+SLOT_000734,SLOT_000756,same-antenna reconfiguration time,0.05
+SLOT_000734,SLOT_000757,same-antenna reconfiguration time,0.05
+SLOT_000734,SLOT_000763,same-antenna reconfiguration time,0.05
+SLOT_000735,SLOT_000764,same-antenna reconfiguration time,0.05
+SLOT_000736,SLOT_000753,same-antenna overlap,
+SLOT_000736,SLOT_000761,same-antenna reconfiguration time,0.05
+SLOT_000736,SLOT_000762,same-antenna reconfiguration time,0.05
+SLOT_000737,SLOT_000738,same-antenna overlap,
+SLOT_000739,SLOT_000744,same-antenna overlap,
+SLOT_000740,SLOT_000745,same-antenna overlap,
+SLOT_000743,SLOT_000754,same-antenna overlap,
+SLOT_000745,SLOT_000777,same-antenna reconfiguration time,0.05
+SLOT_000747,SLOT_000760,same-antenna overlap,
+SLOT_000748,SLOT_000752,same-antenna overlap,
+SLOT_000749,SLOT_000750,same-antenna overlap,
+SLOT_000749,SLOT_000767,same-antenna reconfiguration time,0.05
+SLOT_000749,SLOT_000778,same-antenna reconfiguration time,0.05
+SLOT_000750,SLOT_000767,same-antenna reconfiguration time,0.05
+SLOT_000750,SLOT_000778,same-antenna reconfiguration time,0.05
+SLOT_000751,SLOT_000768,same-antenna reconfiguration time,0.05
+SLOT_000751,SLOT_000776,same-antenna reconfiguration time,0.05
+SLOT_000752,SLOT_000787,same-antenna reconfiguration time,0.05
+SLOT_000753,SLOT_000761,same-antenna overlap,
+SLOT_000753,SLOT_000762,same-antenna overlap,
+SLOT_000753,SLOT_000772,same-antenna reconfiguration time,0.05
+SLOT_000753,SLOT_000773,same-antenna reconfiguration time,0.05
+SLOT_000753,SLOT_000774,same-antenna reconfiguration time,0.05
+SLOT_000754,SLOT_000780,same-antenna reconfiguration time,0.05
+SLOT_000754,SLOT_000781,same-antenna reconfiguration time,0.05
+SLOT_000755,SLOT_000765,same-antenna overlap,
+SLOT_000756,SLOT_000757,same-antenna overlap,
+SLOT_000756,SLOT_000763,same-antenna overlap,
+SLOT_000757,SLOT_000763,same-antenna overlap,
+SLOT_000758,SLOT_000783,same-antenna reconfiguration time,0.05
+SLOT_000758,SLOT_000784,same-antenna reconfiguration time,0.05
+SLOT_000759,SLOT_000793,same-antenna reconfiguration time,0.05
+SLOT_000760,SLOT_000786,same-antenna reconfiguration time,0.05
+SLOT_000761,SLOT_000762,same-antenna overlap,
+SLOT_000761,SLOT_000772,same-antenna overlap,
+SLOT_000761,SLOT_000773,same-antenna overlap,
+SLOT_000761,SLOT_000774,same-antenna overlap,
+SLOT_000762,SLOT_000772,same-antenna overlap,
+SLOT_000762,SLOT_000773,same-antenna overlap,
+SLOT_000762,SLOT_000774,same-antenna overlap,
+SLOT_000763,SLOT_000796,same-antenna reconfiguration time,0.05
+SLOT_000763,SLOT_000797,same-antenna reconfiguration time,0.05
+SLOT_000764,SLOT_000792,same-antenna reconfiguration time,0.05
+SLOT_000764,SLOT_000798,same-antenna reconfiguration time,0.05
+SLOT_000765,SLOT_000794,same-antenna reconfiguration time,0.05
+SLOT_000767,SLOT_000778,same-antenna overlap,
+SLOT_000767,SLOT_000788,same-antenna overlap,
+SLOT_000767,SLOT_000809,same-antenna reconfiguration time,0.05
+SLOT_000768,SLOT_000776,same-antenna overlap,
+SLOT_000768,SLOT_000789,same-antenna overlap,
+SLOT_000768,SLOT_000790,same-antenna overlap,
+SLOT_000769,SLOT_000795,same-antenna reconfiguration time,0.05
+SLOT_000770,SLOT_000791,same-antenna overlap,
+SLOT_000770,SLOT_000804,same-antenna reconfiguration time,0.05
+SLOT_000771,SLOT_000800,same-antenna reconfiguration time,0.05
+SLOT_000772,SLOT_000773,same-antenna overlap,
+SLOT_000772,SLOT_000774,same-antenna overlap,
+SLOT_000772,SLOT_000801,same-antenna reconfiguration time,0.05
+SLOT_000772,SLOT_000802,same-antenna reconfiguration time,0.05
+SLOT_000772,SLOT_000808,same-antenna reconfiguration time,0.05
+SLOT_000773,SLOT_000774,same-antenna overlap,
+SLOT_000773,SLOT_000801,same-antenna reconfiguration time,0.05
+SLOT_000773,SLOT_000802,same-antenna reconfiguration time,0.05
+SLOT_000773,SLOT_000808,same-antenna reconfiguration time,0.05
+SLOT_000774,SLOT_000801,same-antenna reconfiguration time,0.05
+SLOT_000774,SLOT_000802,same-antenna reconfiguration time,0.05
+SLOT_000774,SLOT_000808,same-antenna reconfiguration time,0.05
+SLOT_000775,SLOT_000812,same-antenna reconfiguration time,0.05
+SLOT_000775,SLOT_000813,same-antenna reconfiguration time,0.05
+SLOT_000775,SLOT_000814,same-antenna reconfiguration time,0.05
+SLOT_000776,SLOT_000789,same-antenna overlap,
+SLOT_000776,SLOT_000790,same-antenna overlap,
+SLOT_000776,SLOT_000826,same-antenna reconfiguration time,0.05
+SLOT_000777,SLOT_000806,same-antenna reconfiguration time,0.05
+SLOT_000778,SLOT_000788,same-antenna overlap,
+SLOT_000778,SLOT_000809,same-antenna reconfiguration time,0.05
+SLOT_000778,SLOT_000822,same-antenna reconfiguration time,0.05
+SLOT_000779,SLOT_000811,same-antenna reconfiguration time,0.05
+SLOT_000780,SLOT_000781,same-antenna overlap,
+SLOT_000780,SLOT_000823,same-antenna reconfiguration time,0.05
+SLOT_000781,SLOT_000823,same-antenna reconfiguration time,0.05
+SLOT_000782,SLOT_000803,same-antenna overlap,
+SLOT_000782,SLOT_000816,same-antenna reconfiguration time,0.05
+SLOT_000782,SLOT_000837,same-antenna reconfiguration time,0.05
+SLOT_000783,SLOT_000784,same-antenna overlap,
+SLOT_000785,SLOT_000839,same-antenna reconfiguration time,0.05
+SLOT_000787,SLOT_000807,same-antenna overlap,
+SLOT_000788,SLOT_000809,same-antenna overlap,
+SLOT_000788,SLOT_000822,same-antenna reconfiguration time,0.05
+SLOT_000788,SLOT_000840,same-antenna reconfiguration time,0.05
+SLOT_000788,SLOT_000841,same-antenna reconfiguration time,0.05
+SLOT_000789,SLOT_000790,same-antenna overlap,
+SLOT_000789,SLOT_000826,same-antenna reconfiguration time,0.05
+SLOT_000790,SLOT_000826,same-antenna reconfiguration time,0.05
+SLOT_000791,SLOT_000804,same-antenna overlap,
+SLOT_000791,SLOT_000829,same-antenna reconfiguration time,0.05
+SLOT_000792,SLOT_000798,same-antenna overlap,
+SLOT_000792,SLOT_000820,same-antenna overlap,
+SLOT_000793,SLOT_000799,same-antenna overlap,
+SLOT_000793,SLOT_000821,same-antenna overlap,
+SLOT_000794,SLOT_000824,same-antenna overlap,
+SLOT_000794,SLOT_000835,same-antenna reconfiguration time,0.05
+SLOT_000795,SLOT_000827,same-antenna overlap,
+SLOT_000795,SLOT_000828,same-antenna overlap,
+SLOT_000796,SLOT_000797,same-antenna overlap,
+SLOT_000796,SLOT_000805,same-antenna overlap,
+SLOT_000796,SLOT_000819,same-antenna overlap,
+SLOT_000796,SLOT_000830,same-antenna overlap,
+SLOT_000796,SLOT_000858,same-antenna reconfiguration time,0.05
+SLOT_000797,SLOT_000805,same-antenna overlap,
+SLOT_000797,SLOT_000819,same-antenna overlap,
+SLOT_000797,SLOT_000830,same-antenna overlap,
+SLOT_000797,SLOT_000858,same-antenna reconfiguration time,0.05
+SLOT_000798,SLOT_000820,same-antenna overlap,
+SLOT_000799,SLOT_000821,same-antenna overlap,
+SLOT_000800,SLOT_000859,same-antenna reconfiguration time,0.05
+SLOT_000801,SLOT_000802,same-antenna overlap,
+SLOT_000801,SLOT_000808,same-antenna overlap,
+SLOT_000801,SLOT_000832,same-antenna overlap,
+SLOT_000801,SLOT_000833,same-antenna overlap,
+SLOT_000801,SLOT_000854,same-antenna reconfiguration time,0.05
+SLOT_000801,SLOT_000861,same-antenna reconfiguration time,0.05
+SLOT_000802,SLOT_000808,same-antenna overlap,
+SLOT_000802,SLOT_000832,same-antenna overlap,
+SLOT_000802,SLOT_000833,same-antenna overlap,
+SLOT_000802,SLOT_000854,same-antenna reconfiguration time,0.05
+SLOT_000802,SLOT_000861,same-antenna reconfiguration time,0.05
+SLOT_000803,SLOT_000816,same-antenna overlap,
+SLOT_000803,SLOT_000837,same-antenna overlap,
+SLOT_000803,SLOT_000847,same-antenna reconfiguration time,0.05
+SLOT_000803,SLOT_000848,same-antenna reconfiguration time,0.05
+SLOT_000804,SLOT_000829,same-antenna overlap,
+SLOT_000805,SLOT_000819,same-antenna overlap,
+SLOT_000805,SLOT_000830,same-antenna overlap,
+SLOT_000805,SLOT_000858,same-antenna reconfiguration time,0.05
+SLOT_000806,SLOT_000838,same-antenna overlap,
+SLOT_000806,SLOT_000849,same-antenna reconfiguration time,0.05
+SLOT_000807,SLOT_000852,same-antenna reconfiguration time,0.05
+SLOT_000807,SLOT_000860,same-antenna reconfiguration time,0.05
+SLOT_000808,SLOT_000832,same-antenna overlap,
+SLOT_000808,SLOT_000833,same-antenna overlap,
+SLOT_000808,SLOT_000854,same-antenna reconfiguration time,0.05
+SLOT_000808,SLOT_000861,same-antenna reconfiguration time,0.05
+SLOT_000808,SLOT_000864,same-antenna reconfiguration time,0.05
+SLOT_000809,SLOT_000822,same-antenna overlap,
+SLOT_000809,SLOT_000840,same-antenna overlap,
+SLOT_000809,SLOT_000841,same-antenna overlap,
+SLOT_000809,SLOT_000855,same-antenna reconfiguration time,0.05
+SLOT_000809,SLOT_000856,same-antenna reconfiguration time,0.05
+SLOT_000809,SLOT_000865,same-antenna reconfiguration time,0.05
+SLOT_000810,SLOT_000834,same-antenna overlap,
+SLOT_000810,SLOT_000842,same-antenna overlap,
+SLOT_000810,SLOT_000843,same-antenna overlap,
+SLOT_000810,SLOT_000866,same-antenna reconfiguration time,0.05
+SLOT_000811,SLOT_000844,same-antenna overlap,
+SLOT_000812,SLOT_000813,same-antenna overlap,
+SLOT_000812,SLOT_000814,same-antenna overlap,
+SLOT_000812,SLOT_000846,same-antenna overlap,
+SLOT_000813,SLOT_000814,same-antenna overlap,
+SLOT_000813,SLOT_000846,same-antenna overlap,
+SLOT_000814,SLOT_000846,same-antenna overlap,
+SLOT_000815,SLOT_000825,same-antenna overlap,
+SLOT_000815,SLOT_000836,same-antenna overlap,
+SLOT_000816,SLOT_000837,same-antenna overlap,
+SLOT_000816,SLOT_000847,same-antenna overlap,
+SLOT_000816,SLOT_000848,same-antenna overlap,
+SLOT_000816,SLOT_000867,same-antenna reconfiguration time,0.05
+SLOT_000817,SLOT_000818,same-antenna overlap,
+SLOT_000819,SLOT_000830,same-antenna overlap,
+SLOT_000819,SLOT_000858,same-antenna reconfiguration time,0.05
+SLOT_000819,SLOT_000869,same-antenna reconfiguration time,0.05
+SLOT_000822,SLOT_000840,same-antenna overlap,
+SLOT_000822,SLOT_000841,same-antenna overlap,
+SLOT_000822,SLOT_000855,same-antenna overlap,
+SLOT_000822,SLOT_000856,same-antenna overlap,
+SLOT_000822,SLOT_000865,same-antenna reconfiguration time,0.05
+SLOT_000822,SLOT_000874,same-antenna reconfiguration time,0.05
+SLOT_000823,SLOT_000845,same-antenna overlap,
+SLOT_000824,SLOT_000835,same-antenna overlap,
+SLOT_000825,SLOT_000836,same-antenna overlap,
+SLOT_000826,SLOT_000857,same-antenna overlap,
+SLOT_000826,SLOT_000878,same-antenna reconfiguration time,0.05
+SLOT_000827,SLOT_000828,same-antenna overlap,
+SLOT_000829,SLOT_000868,same-antenna reconfiguration time,0.05
+SLOT_000830,SLOT_000858,same-antenna overlap,
+SLOT_000830,SLOT_000869,same-antenna reconfiguration time,0.05
+SLOT_000832,SLOT_000833,same-antenna overlap,
+SLOT_000832,SLOT_000854,same-antenna overlap,
+SLOT_000832,SLOT_000861,same-antenna overlap,
+SLOT_000832,SLOT_000864,same-antenna reconfiguration time,0.05
+SLOT_000832,SLOT_000873,same-antenna reconfiguration time,0.05
+SLOT_000833,SLOT_000854,same-antenna overlap,
+SLOT_000833,SLOT_000861,same-antenna overlap,
+SLOT_000833,SLOT_000864,same-antenna reconfiguration time,0.05
+SLOT_000833,SLOT_000873,same-antenna reconfiguration time,0.05
+SLOT_000834,SLOT_000842,same-antenna overlap,
+SLOT_000834,SLOT_000843,same-antenna overlap,
+SLOT_000834,SLOT_000866,same-antenna reconfiguration time,0.05
+SLOT_000834,SLOT_000875,same-antenna reconfiguration time,0.05
+SLOT_000836,SLOT_000887,same-antenna reconfiguration time,0.05
+SLOT_000837,SLOT_000847,same-antenna overlap,
+SLOT_000837,SLOT_000848,same-antenna overlap,
+SLOT_000837,SLOT_000867,same-antenna reconfiguration time,0.05
+SLOT_000837,SLOT_000879,same-antenna reconfiguration time,0.05
+SLOT_000838,SLOT_000849,same-antenna overlap,
+SLOT_000838,SLOT_000870,same-antenna reconfiguration time,0.05
+SLOT_000838,SLOT_000871,same-antenna reconfiguration time,0.05
+SLOT_000839,SLOT_000850,same-antenna overlap,
+SLOT_000840,SLOT_000841,same-antenna overlap,
+SLOT_000840,SLOT_000855,same-antenna overlap,
+SLOT_000840,SLOT_000856,same-antenna overlap,
+SLOT_000840,SLOT_000865,same-antenna overlap,
+SLOT_000840,SLOT_000874,same-antenna reconfiguration time,0.05
+SLOT_000840,SLOT_000886,same-antenna reconfiguration time,0.05
+SLOT_000841,SLOT_000855,same-antenna overlap,
+SLOT_000841,SLOT_000856,same-antenna overlap,
+SLOT_000841,SLOT_000865,same-antenna overlap,
+SLOT_000841,SLOT_000874,same-antenna reconfiguration time,0.05
+SLOT_000841,SLOT_000886,same-antenna reconfiguration time,0.05
+SLOT_000842,SLOT_000843,same-antenna overlap,
+SLOT_000842,SLOT_000866,same-antenna overlap,
+SLOT_000842,SLOT_000875,same-antenna reconfiguration time,0.05
+SLOT_000842,SLOT_000895,same-antenna reconfiguration time,0.05
+SLOT_000843,SLOT_000866,same-antenna overlap,
+SLOT_000843,SLOT_000875,same-antenna reconfiguration time,0.05
+SLOT_000843,SLOT_000895,same-antenna reconfiguration time,0.05
+SLOT_000844,SLOT_000876,same-antenna reconfiguration time,0.05
+SLOT_000846,SLOT_000877,same-antenna reconfiguration time,0.05
+SLOT_000847,SLOT_000848,same-antenna overlap,
+SLOT_000847,SLOT_000867,same-antenna overlap,
+SLOT_000847,SLOT_000879,same-antenna reconfiguration time,0.05
+SLOT_000848,SLOT_000867,same-antenna overlap,
+SLOT_000848,SLOT_000879,same-antenna reconfiguration time,0.05
+SLOT_000849,SLOT_000870,same-antenna overlap,
+SLOT_000849,SLOT_000871,same-antenna overlap,
+SLOT_000849,SLOT_000897,same-antenna reconfiguration time,0.05
+SLOT_000852,SLOT_000860,same-antenna overlap,
+SLOT_000852,SLOT_000884,same-antenna reconfiguration time,0.05
+SLOT_000853,SLOT_000885,same-antenna reconfiguration time,0.05
+SLOT_000853,SLOT_000892,same-antenna reconfiguration time,0.05
+SLOT_000854,SLOT_000861,same-antenna overlap,
+SLOT_000854,SLOT_000864,same-antenna overlap,
+SLOT_000854,SLOT_000873,same-antenna overlap,
+SLOT_000854,SLOT_000893,same-antenna reconfiguration time,0.05
+SLOT_000854,SLOT_000894,same-antenna reconfiguration time,0.05
+SLOT_000855,SLOT_000856,same-antenna overlap,
+SLOT_000855,SLOT_000865,same-antenna overlap,
+SLOT_000855,SLOT_000874,same-antenna overlap,
+SLOT_000855,SLOT_000886,same-antenna reconfiguration time,0.05
+SLOT_000856,SLOT_000865,same-antenna overlap,
+SLOT_000856,SLOT_000874,same-antenna overlap,
+SLOT_000856,SLOT_000886,same-antenna reconfiguration time,0.05
+SLOT_000857,SLOT_000878,same-antenna overlap,
+SLOT_000858,SLOT_000869,same-antenna overlap,
+SLOT_000858,SLOT_000890,same-antenna reconfiguration time,0.05
+SLOT_000858,SLOT_000896,same-antenna reconfiguration time,0.05
+SLOT_000859,SLOT_000862,same-antenna overlap,
+SLOT_000859,SLOT_000863,same-antenna overlap,
+SLOT_000859,SLOT_000872,same-antenna overlap,
+SLOT_000859,SLOT_000910,same-antenna reconfiguration time,0.05
+SLOT_000860,SLOT_000884,same-antenna overlap,
+SLOT_000860,SLOT_000911,same-antenna reconfiguration time,0.05
+SLOT_000861,SLOT_000864,same-antenna overlap,
+SLOT_000861,SLOT_000873,same-antenna overlap,
+SLOT_000861,SLOT_000893,same-antenna reconfiguration time,0.05
+SLOT_000861,SLOT_000894,same-antenna reconfiguration time,0.05
+SLOT_000862,SLOT_000863,same-antenna overlap,
+SLOT_000862,SLOT_000872,same-antenna overlap,
+SLOT_000862,SLOT_000910,same-antenna reconfiguration time,0.05
+SLOT_000862,SLOT_000918,same-antenna reconfiguration time,0.05
+SLOT_000863,SLOT_000872,same-antenna overlap,
+SLOT_000863,SLOT_000910,same-antenna reconfiguration time,0.05
+SLOT_000863,SLOT_000918,same-antenna reconfiguration time,0.05
+SLOT_000864,SLOT_000873,same-antenna overlap,
+SLOT_000864,SLOT_000893,same-antenna overlap,
+SLOT_000864,SLOT_000894,same-antenna overlap,
+SLOT_000864,SLOT_000920,same-antenna reconfiguration time,0.05
+SLOT_000865,SLOT_000874,same-antenna overlap,
+SLOT_000865,SLOT_000886,same-antenna overlap,
+SLOT_000865,SLOT_000913,same-antenna reconfiguration time,0.05
+SLOT_000866,SLOT_000875,same-antenna overlap,
+SLOT_000866,SLOT_000895,same-antenna overlap,
+SLOT_000866,SLOT_000898,same-antenna reconfiguration time,0.05
+SLOT_000867,SLOT_000879,same-antenna overlap,
+SLOT_000867,SLOT_000905,same-antenna reconfiguration time,0.05
+SLOT_000868,SLOT_000889,same-antenna overlap,
+SLOT_000869,SLOT_000890,same-antenna overlap,
+SLOT_000869,SLOT_000896,same-antenna overlap,
+SLOT_000869,SLOT_000915,same-antenna reconfiguration time,0.05
+SLOT_000869,SLOT_000921,same-antenna reconfiguration time,0.05
+SLOT_000870,SLOT_000871,same-antenna overlap,
+SLOT_000870,SLOT_000897,same-antenna overlap,
+SLOT_000870,SLOT_000907,same-antenna reconfiguration time,0.05
+SLOT_000870,SLOT_000922,same-antenna reconfiguration time,0.05
+SLOT_000871,SLOT_000897,same-antenna overlap,
+SLOT_000871,SLOT_000907,same-antenna reconfiguration time,0.05
+SLOT_000871,SLOT_000922,same-antenna reconfiguration time,0.05
+SLOT_000872,SLOT_000910,same-antenna reconfiguration time,0.05
+SLOT_000872,SLOT_000918,same-antenna reconfiguration time,0.05
+SLOT_000872,SLOT_000925,same-antenna reconfiguration time,0.05
+SLOT_000873,SLOT_000893,same-antenna overlap,
+SLOT_000873,SLOT_000894,same-antenna overlap,
+SLOT_000873,SLOT_000920,same-antenna reconfiguration time,0.05
+SLOT_000873,SLOT_000926,same-antenna reconfiguration time,0.05
+SLOT_000873,SLOT_000927,same-antenna reconfiguration time,0.05
+SLOT_000874,SLOT_000886,same-antenna overlap,
+SLOT_000874,SLOT_000913,same-antenna reconfiguration time,0.05
+SLOT_000874,SLOT_000928,same-antenna reconfiguration time,0.05
+SLOT_000875,SLOT_000895,same-antenna overlap,
+SLOT_000875,SLOT_000898,same-antenna overlap,
+SLOT_000876,SLOT_000899,same-antenna overlap,
+SLOT_000876,SLOT_000900,same-antenna overlap,
+SLOT_000876,SLOT_000929,same-antenna reconfiguration time,0.05
+SLOT_000877,SLOT_000903,same-antenna overlap,
+SLOT_000877,SLOT_000930,same-antenna reconfiguration time,0.05
+SLOT_000878,SLOT_000914,same-antenna reconfiguration time,0.05
+SLOT_000879,SLOT_000905,same-antenna overlap,
+SLOT_000880,SLOT_000881,same-antenna overlap,
+SLOT_000882,SLOT_000917,same-antenna reconfiguration time,0.05
+SLOT_000882,SLOT_000923,same-antenna reconfiguration time,0.05
+SLOT_000883,SLOT_000891,same-antenna overlap,
+SLOT_000883,SLOT_000924,same-antenna reconfiguration time,0.05
+SLOT_000884,SLOT_000911,same-antenna overlap,
+SLOT_000884,SLOT_000919,same-antenna reconfiguration time,0.05
+SLOT_000884,SLOT_000933,same-antenna reconfiguration time,0.05
+SLOT_000885,SLOT_000892,same-antenna overlap,
+SLOT_000885,SLOT_000912,same-antenna overlap,
+SLOT_000886,SLOT_000913,same-antenna overlap,
+SLOT_000886,SLOT_000928,same-antenna reconfiguration time,0.05
+SLOT_000886,SLOT_000934,same-antenna reconfiguration time,0.05
+SLOT_000886,SLOT_000935,same-antenna reconfiguration time,0.05
+SLOT_000887,SLOT_000904,same-antenna overlap,
+SLOT_000889,SLOT_000942,same-antenna reconfiguration time,0.05
+SLOT_000890,SLOT_000896,same-antenna overlap,
+SLOT_000890,SLOT_000915,same-antenna overlap,
+SLOT_000890,SLOT_000921,same-antenna reconfiguration time,0.05
+SLOT_000890,SLOT_000931,same-antenna reconfiguration time,0.05
+SLOT_000890,SLOT_000932,same-antenna reconfiguration time,0.05
+SLOT_000891,SLOT_000924,same-antenna reconfiguration time,0.05
+SLOT_000892,SLOT_000912,same-antenna overlap,
+SLOT_000893,SLOT_000894,same-antenna overlap,
+SLOT_000893,SLOT_000920,same-antenna overlap,
+SLOT_000893,SLOT_000926,same-antenna reconfiguration time,0.05
+SLOT_000893,SLOT_000927,same-antenna reconfiguration time,0.05
+SLOT_000894,SLOT_000920,same-antenna overlap,
+SLOT_000894,SLOT_000926,same-antenna reconfiguration time,0.05
+SLOT_000894,SLOT_000927,same-antenna reconfiguration time,0.05
+SLOT_000895,SLOT_000898,same-antenna overlap,
+SLOT_000895,SLOT_000936,same-antenna reconfiguration time,0.05
+SLOT_000896,SLOT_000915,same-antenna overlap,
+SLOT_000896,SLOT_000921,same-antenna overlap,
+SLOT_000896,SLOT_000931,same-antenna reconfiguration time,0.05
+SLOT_000896,SLOT_000932,same-antenna reconfiguration time,0.05
+SLOT_000897,SLOT_000907,same-antenna overlap,
+SLOT_000897,SLOT_000922,same-antenna overlap,
+SLOT_000898,SLOT_000936,same-antenna reconfiguration time,0.05
+SLOT_000898,SLOT_000951,same-antenna reconfiguration time,0.05
+SLOT_000899,SLOT_000900,same-antenna overlap,
+SLOT_000899,SLOT_000929,same-antenna overlap,
+SLOT_000899,SLOT_000937,same-antenna reconfiguration time,0.05
+SLOT_000900,SLOT_000929,same-antenna overlap,
+SLOT_000900,SLOT_000937,same-antenna reconfiguration time,0.05
+SLOT_000901,SLOT_000902,same-antenna overlap,
+SLOT_000903,SLOT_000930,same-antenna overlap,
+SLOT_000903,SLOT_000938,same-antenna reconfiguration time,0.05
+SLOT_000904,SLOT_000947,same-antenna reconfiguration time,0.05
+SLOT_000907,SLOT_000922,same-antenna overlap,
+SLOT_000907,SLOT_000953,same-antenna reconfiguration time,0.05
+SLOT_000908,SLOT_000909,same-antenna overlap,
+SLOT_000910,SLOT_000918,same-antenna overlap,
+SLOT_000910,SLOT_000925,same-antenna overlap,
+SLOT_000911,SLOT_000919,same-antenna overlap,
+SLOT_000911,SLOT_000933,same-antenna overlap,
+SLOT_000913,SLOT_000928,same-antenna overlap,
+SLOT_000913,SLOT_000934,same-antenna overlap,
+SLOT_000913,SLOT_000935,same-antenna overlap,
+SLOT_000913,SLOT_000954,same-antenna reconfiguration time,0.05
+SLOT_000914,SLOT_000939,same-antenna overlap,
+SLOT_000915,SLOT_000921,same-antenna overlap,
+SLOT_000915,SLOT_000931,same-antenna overlap,
+SLOT_000915,SLOT_000932,same-antenna overlap,
+SLOT_000917,SLOT_000923,same-antenna overlap,
+SLOT_000917,SLOT_000943,same-antenna overlap,
+SLOT_000917,SLOT_000944,same-antenna overlap,
+SLOT_000918,SLOT_000925,same-antenna overlap,
+SLOT_000919,SLOT_000933,same-antenna overlap,
+SLOT_000919,SLOT_000964,same-antenna reconfiguration time,0.05
+SLOT_000920,SLOT_000926,same-antenna overlap,
+SLOT_000920,SLOT_000927,same-antenna overlap,
+SLOT_000920,SLOT_000950,same-antenna reconfiguration time,0.05
+SLOT_000920,SLOT_000967,same-antenna reconfiguration time,0.05
+SLOT_000921,SLOT_000931,same-antenna overlap,
+SLOT_000921,SLOT_000932,same-antenna overlap,
+SLOT_000922,SLOT_000953,same-antenna reconfiguration time,0.05
+SLOT_000922,SLOT_000961,same-antenna reconfiguration time,0.05
+SLOT_000923,SLOT_000943,same-antenna overlap,
+SLOT_000923,SLOT_000944,same-antenna overlap,
+SLOT_000924,SLOT_000962,same-antenna reconfiguration time,0.05
+SLOT_000926,SLOT_000927,same-antenna overlap,
+SLOT_000926,SLOT_000950,same-antenna overlap,
+SLOT_000926,SLOT_000967,same-antenna reconfiguration time,0.05
+SLOT_000927,SLOT_000950,same-antenna overlap,
+SLOT_000927,SLOT_000967,same-antenna reconfiguration time,0.05
+SLOT_000928,SLOT_000934,same-antenna overlap,
+SLOT_000928,SLOT_000935,same-antenna overlap,
+SLOT_000928,SLOT_000954,same-antenna reconfiguration time,0.05
+SLOT_000928,SLOT_000968,same-antenna reconfiguration time,0.05
+SLOT_000929,SLOT_000937,same-antenna overlap,
+SLOT_000929,SLOT_000956,same-antenna reconfiguration time,0.05
+SLOT_000930,SLOT_000938,same-antenna overlap,
+SLOT_000930,SLOT_000958,same-antenna reconfiguration time,0.05
+SLOT_000930,SLOT_000969,same-antenna reconfiguration time,0.05
+SLOT_000931,SLOT_000932,same-antenna overlap,
+SLOT_000931,SLOT_000974,same-antenna reconfiguration time,0.05
+SLOT_000932,SLOT_000974,same-antenna reconfiguration time,0.05
+SLOT_000933,SLOT_000964,same-antenna reconfiguration time,0.05
+SLOT_000933,SLOT_000972,same-antenna reconfiguration time,0.05
+SLOT_000934,SLOT_000935,same-antenna overlap,
+SLOT_000934,SLOT_000954,same-antenna overlap,
+SLOT_000934,SLOT_000968,same-antenna reconfiguration time,0.05
+SLOT_000934,SLOT_000982,same-antenna reconfiguration time,0.05
+SLOT_000935,SLOT_000954,same-antenna overlap,
+SLOT_000935,SLOT_000968,same-antenna reconfiguration time,0.05
+SLOT_000935,SLOT_000982,same-antenna reconfiguration time,0.05
+SLOT_000936,SLOT_000951,same-antenna overlap,
+SLOT_000936,SLOT_000955,same-antenna overlap,
+SLOT_000937,SLOT_000956,same-antenna overlap,
+SLOT_000938,SLOT_000958,same-antenna overlap,
+SLOT_000938,SLOT_000969,same-antenna reconfiguration time,0.05
+SLOT_000939,SLOT_000970,same-antenna reconfiguration time,0.05
+SLOT_000940,SLOT_000941,same-antenna overlap,
+SLOT_000942,SLOT_000949,same-antenna overlap,
+SLOT_000942,SLOT_000971,same-antenna reconfiguration time,0.05
+SLOT_000943,SLOT_000944,same-antenna overlap,
+SLOT_000943,SLOT_000977,same-antenna reconfiguration time,0.05
+SLOT_000944,SLOT_000977,same-antenna reconfiguration time,0.05
+SLOT_000945,SLOT_000946,same-antenna overlap,
+SLOT_000945,SLOT_000952,same-antenna overlap,
+SLOT_000946,SLOT_000952,same-antenna overlap,
+SLOT_000949,SLOT_000971,same-antenna overlap,
+SLOT_000950,SLOT_000967,same-antenna overlap,
+SLOT_000950,SLOT_000981,same-antenna reconfiguration time,0.05
+SLOT_000951,SLOT_000955,same-antenna overlap,
+SLOT_000951,SLOT_000986,same-antenna reconfiguration time,0.05
+SLOT_000952,SLOT_000995,same-antenna reconfiguration time,0.05
+SLOT_000953,SLOT_000961,same-antenna overlap,
+SLOT_000953,SLOT_000988,same-antenna reconfiguration time,0.05
+SLOT_000954,SLOT_000968,same-antenna overlap,
+SLOT_000954,SLOT_000982,same-antenna overlap,
+SLOT_000954,SLOT_000993,same-antenna reconfiguration time,0.05
+SLOT_000955,SLOT_000986,same-antenna reconfiguration time,0.05
+SLOT_000955,SLOT_001002,same-antenna reconfiguration time,0.05
+SLOT_000957,SLOT_000973,same-antenna overlap,
+SLOT_000958,SLOT_000969,same-antenna overlap,
+SLOT_000958,SLOT_000994,same-antenna reconfiguration time,0.05
+SLOT_000960,SLOT_000975,same-antenna overlap,
+SLOT_000961,SLOT_000988,same-antenna reconfiguration time,0.05
+SLOT_000961,SLOT_001007,same-antenna reconfiguration time,0.05
+SLOT_000962,SLOT_000978,same-antenna overlap,
+SLOT_000962,SLOT_000998,same-antenna reconfiguration time,0.05
+SLOT_000962,SLOT_000999,same-antenna reconfiguration time,0.05
+SLOT_000963,SLOT_000984,same-antenna overlap,
+SLOT_000963,SLOT_000991,same-antenna reconfiguration time,0.05
+SLOT_000964,SLOT_000972,same-antenna overlap,
+SLOT_000965,SLOT_000966,same-antenna overlap,
+SLOT_000965,SLOT_000985,same-antenna overlap,
+SLOT_000965,SLOT_000992,same-antenna reconfiguration time,0.05
+SLOT_000965,SLOT_001000,same-antenna reconfiguration time,0.05
+SLOT_000966,SLOT_000985,same-antenna overlap,
+SLOT_000966,SLOT_000992,same-antenna reconfiguration time,0.05
+SLOT_000966,SLOT_001000,same-antenna reconfiguration time,0.05
+SLOT_000967,SLOT_000981,same-antenna overlap,
+SLOT_000967,SLOT_001001,same-antenna reconfiguration time,0.05
+SLOT_000967,SLOT_001008,same-antenna reconfiguration time,0.05
+SLOT_000968,SLOT_000982,same-antenna overlap,
+SLOT_000968,SLOT_000993,same-antenna reconfiguration time,0.05
+SLOT_000969,SLOT_000994,same-antenna reconfiguration time,0.05
+SLOT_000971,SLOT_000996,same-antenna reconfiguration time,0.05
+SLOT_000971,SLOT_000997,same-antenna reconfiguration time,0.05
+SLOT_000972,SLOT_001014,same-antenna reconfiguration time,0.05
+SLOT_000973,SLOT_001010,same-antenna reconfiguration time,0.05
+SLOT_000973,SLOT_001016,same-antenna reconfiguration time,0.05
+SLOT_000974,SLOT_000983,same-antenna overlap,
+SLOT_000974,SLOT_001005,same-antenna reconfiguration time,0.05
+SLOT_000974,SLOT_001006,same-antenna reconfiguration time,0.05
+SLOT_000975,SLOT_001011,same-antenna reconfiguration time,0.05
+SLOT_000975,SLOT_001018,same-antenna reconfiguration time,0.05
+SLOT_000976,SLOT_000989,same-antenna overlap,
+SLOT_000976,SLOT_001019,same-antenna reconfiguration time,0.05
+SLOT_000977,SLOT_000990,same-antenna overlap,
+SLOT_000978,SLOT_000998,same-antenna overlap,
+SLOT_000978,SLOT_000999,same-antenna overlap,
+SLOT_000979,SLOT_000980,same-antenna overlap,
+SLOT_000979,SLOT_001013,same-antenna reconfiguration time,0.05
+SLOT_000980,SLOT_001013,same-antenna reconfiguration time,0.05
+SLOT_000981,SLOT_001001,same-antenna overlap,
+SLOT_000981,SLOT_001008,same-antenna reconfiguration time,0.05
+SLOT_000981,SLOT_001021,same-antenna reconfiguration time,0.05
+SLOT_000982,SLOT_000993,same-antenna overlap,
+SLOT_000983,SLOT_001005,same-antenna overlap,
+SLOT_000983,SLOT_001006,same-antenna overlap,
+SLOT_000983,SLOT_001022,same-antenna reconfiguration time,0.05
+SLOT_000983,SLOT_001023,same-antenna reconfiguration time,0.05
+SLOT_000984,SLOT_000991,same-antenna overlap,
+SLOT_000984,SLOT_001012,same-antenna reconfiguration time,0.05
+SLOT_000984,SLOT_001020,same-antenna reconfiguration time,0.05
+SLOT_000985,SLOT_000992,same-antenna overlap,
+SLOT_000985,SLOT_001000,same-antenna overlap,
+SLOT_000985,SLOT_001015,same-antenna reconfiguration time,0.05
+SLOT_000986,SLOT_001002,same-antenna overlap,
+SLOT_000986,SLOT_001029,same-antenna reconfiguration time,0.05
+SLOT_000988,SLOT_001007,same-antenna overlap,
+SLOT_000989,SLOT_001019,same-antenna reconfiguration time,0.05
+SLOT_000991,SLOT_001012,same-antenna overlap,
+SLOT_000991,SLOT_001020,same-antenna reconfiguration time,0.05
+SLOT_000992,SLOT_001000,same-antenna overlap,
+SLOT_000992,SLOT_001015,same-antenna overlap,
+SLOT_000993,SLOT_001028,same-antenna reconfiguration time,0.05
+SLOT_000995,SLOT_001003,same-antenna overlap,
+SLOT_000995,SLOT_001004,same-antenna overlap,
+SLOT_000996,SLOT_000997,same-antenna overlap,
+SLOT_000996,SLOT_001031,same-antenna reconfiguration time,0.05
+SLOT_000996,SLOT_001039,same-antenna reconfiguration time,0.05
+SLOT_000997,SLOT_001031,same-antenna reconfiguration time,0.05
+SLOT_000997,SLOT_001039,same-antenna reconfiguration time,0.05
+SLOT_000998,SLOT_000999,same-antenna overlap,
+SLOT_000998,SLOT_001024,same-antenna reconfiguration time,0.05
+SLOT_000998,SLOT_001033,same-antenna reconfiguration time,0.05
+SLOT_000998,SLOT_001034,same-antenna reconfiguration time,0.05
+SLOT_000998,SLOT_001043,same-antenna reconfiguration time,0.05
+SLOT_000998,SLOT_001044,same-antenna reconfiguration time,0.05
+SLOT_000999,SLOT_001024,same-antenna reconfiguration time,0.05
+SLOT_000999,SLOT_001033,same-antenna reconfiguration time,0.05
+SLOT_000999,SLOT_001034,same-antenna reconfiguration time,0.05
+SLOT_000999,SLOT_001043,same-antenna reconfiguration time,0.05
+SLOT_000999,SLOT_001044,same-antenna reconfiguration time,0.05
+SLOT_001000,SLOT_001015,same-antenna overlap,
+SLOT_001001,SLOT_001008,same-antenna overlap,
+SLOT_001001,SLOT_001021,same-antenna overlap,
+SLOT_001001,SLOT_001027,same-antenna reconfiguration time,0.05
+SLOT_001002,SLOT_001029,same-antenna reconfiguration time,0.05
+SLOT_001003,SLOT_001004,same-antenna overlap,
+SLOT_001003,SLOT_001046,same-antenna reconfiguration time,0.05
+SLOT_001004,SLOT_001046,same-antenna reconfiguration time,0.05
+SLOT_001005,SLOT_001006,same-antenna overlap,
+SLOT_001005,SLOT_001022,same-antenna overlap,
+SLOT_001005,SLOT_001023,same-antenna overlap,
+SLOT_001005,SLOT_001032,same-antenna reconfiguration time,0.05
+SLOT_001005,SLOT_001040,same-antenna reconfiguration time,0.05
+SLOT_001005,SLOT_001048,same-antenna reconfiguration time,0.05
+SLOT_001005,SLOT_001049,same-antenna reconfiguration time,0.05
+SLOT_001006,SLOT_001022,same-antenna overlap,
+SLOT_001006,SLOT_001023,same-antenna overlap,
+SLOT_001006,SLOT_001032,same-antenna reconfiguration time,0.05
+SLOT_001006,SLOT_001040,same-antenna reconfiguration time,0.05
+SLOT_001006,SLOT_001048,same-antenna reconfiguration time,0.05
+SLOT_001006,SLOT_001049,same-antenna reconfiguration time,0.05
+SLOT_001008,SLOT_001021,same-antenna overlap,
+SLOT_001008,SLOT_001027,same-antenna overlap,
+SLOT_001008,SLOT_001053,same-antenna reconfiguration time,0.05
+SLOT_001008,SLOT_001054,same-antenna reconfiguration time,0.05
+SLOT_001010,SLOT_001016,same-antenna overlap,
+SLOT_001011,SLOT_001018,same-antenna overlap,
+SLOT_001012,SLOT_001020,same-antenna overlap,
+SLOT_001013,SLOT_001025,same-antenna overlap,
+SLOT_001013,SLOT_001026,same-antenna overlap,
+SLOT_001015,SLOT_001052,same-antenna reconfiguration time,0.05
+SLOT_001015,SLOT_001058,same-antenna reconfiguration time,0.05
+SLOT_001016,SLOT_001061,same-antenna reconfiguration time,0.05
+SLOT_001017,SLOT_001063,same-antenna reconfiguration time,0.05
+SLOT_001017,SLOT_001064,same-antenna reconfiguration time,0.05
+SLOT_001018,SLOT_001066,same-antenna reconfiguration time,0.05
+SLOT_001019,SLOT_001067,same-antenna reconfiguration time,0.05
+SLOT_001020,SLOT_001068,same-antenna reconfiguration time,0.05
+SLOT_001021,SLOT_001027,same-antenna overlap,
+SLOT_001021,SLOT_001053,same-antenna reconfiguration time,0.05
+SLOT_001021,SLOT_001054,same-antenna reconfiguration time,0.05
+SLOT_001021,SLOT_001070,same-antenna reconfiguration time,0.05
+SLOT_001022,SLOT_001023,same-antenna overlap,
+SLOT_001022,SLOT_001032,same-antenna overlap,
+SLOT_001022,SLOT_001040,same-antenna overlap,
+SLOT_001022,SLOT_001048,same-antenna overlap,
+SLOT_001022,SLOT_001049,same-antenna overlap,
+SLOT_001022,SLOT_001056,same-antenna reconfiguration time,0.05
+SLOT_001023,SLOT_001032,same-antenna overlap,
+SLOT_001023,SLOT_001040,same-antenna overlap,
+SLOT_001023,SLOT_001048,same-antenna overlap,
+SLOT_001023,SLOT_001049,same-antenna overlap,
+SLOT_001023,SLOT_001056,same-antenna reconfiguration time,0.05
+SLOT_001024,SLOT_001033,same-antenna overlap,
+SLOT_001024,SLOT_001034,same-antenna overlap,
+SLOT_001024,SLOT_001043,same-antenna overlap,
+SLOT_001024,SLOT_001044,same-antenna overlap,
+SLOT_001024,SLOT_001051,same-antenna overlap,
+SLOT_001025,SLOT_001026,same-antenna overlap,
+SLOT_001027,SLOT_001053,same-antenna overlap,
+SLOT_001027,SLOT_001054,same-antenna overlap,
+SLOT_001027,SLOT_001070,same-antenna reconfiguration time,0.05
+SLOT_001028,SLOT_001059,same-antenna reconfiguration time,0.05
+SLOT_001030,SLOT_001037,same-antenna overlap,
+SLOT_001030,SLOT_001038,same-antenna overlap,
+SLOT_001031,SLOT_001039,same-antenna overlap,
+SLOT_001031,SLOT_001047,same-antenna overlap,
+SLOT_001031,SLOT_001065,same-antenna reconfiguration time,0.05
+SLOT_001031,SLOT_001078,same-antenna reconfiguration time,0.05
+SLOT_001032,SLOT_001040,same-antenna overlap,
+SLOT_001032,SLOT_001048,same-antenna overlap,
+SLOT_001032,SLOT_001049,same-antenna overlap,
+SLOT_001032,SLOT_001056,same-antenna overlap,
+SLOT_001032,SLOT_001079,same-antenna reconfiguration time,0.05
+SLOT_001033,SLOT_001034,same-antenna overlap,
+SLOT_001033,SLOT_001043,same-antenna overlap,
+SLOT_001033,SLOT_001044,same-antenna overlap,
+SLOT_001033,SLOT_001051,same-antenna overlap,
+SLOT_001033,SLOT_001082,same-antenna reconfiguration time,0.05
+SLOT_001034,SLOT_001043,same-antenna overlap,
+SLOT_001034,SLOT_001044,same-antenna overlap,
+SLOT_001034,SLOT_001051,same-antenna overlap,
+SLOT_001034,SLOT_001082,same-antenna reconfiguration time,0.05
+SLOT_001036,SLOT_001055,same-antenna overlap,
+SLOT_001037,SLOT_001038,same-antenna overlap,
+SLOT_001039,SLOT_001047,same-antenna overlap,
+SLOT_001039,SLOT_001065,same-antenna overlap,
+SLOT_001039,SLOT_001078,same-antenna reconfiguration time,0.05
+SLOT_001039,SLOT_001087,same-antenna reconfiguration time,0.05
+SLOT_001039,SLOT_001088,same-antenna reconfiguration time,0.05
+SLOT_001040,SLOT_001048,same-antenna overlap,
+SLOT_001040,SLOT_001049,same-antenna overlap,
+SLOT_001040,SLOT_001056,same-antenna overlap,
+SLOT_001040,SLOT_001079,same-antenna reconfiguration time,0.05
+SLOT_001040,SLOT_001089,same-antenna reconfiguration time,0.05
+SLOT_001041,SLOT_001042,same-antenna overlap,
+SLOT_001041,SLOT_001050,same-antenna overlap,
+SLOT_001041,SLOT_001081,same-antenna reconfiguration time,0.05
+SLOT_001042,SLOT_001050,same-antenna overlap,
+SLOT_001042,SLOT_001081,same-antenna reconfiguration time,0.05
+SLOT_001043,SLOT_001044,same-antenna overlap,
+SLOT_001043,SLOT_001051,same-antenna overlap,
+SLOT_001043,SLOT_001082,same-antenna reconfiguration time,0.05
+SLOT_001043,SLOT_001091,same-antenna reconfiguration time,0.05
+SLOT_001044,SLOT_001051,same-antenna overlap,
+SLOT_001044,SLOT_001082,same-antenna reconfiguration time,0.05
+SLOT_001044,SLOT_001091,same-antenna reconfiguration time,0.05
+SLOT_001045,SLOT_001062,same-antenna overlap,
+SLOT_001045,SLOT_001071,same-antenna overlap,
+SLOT_001045,SLOT_001072,same-antenna overlap,
+SLOT_001046,SLOT_001073,same-antenna overlap,
+SLOT_001047,SLOT_001065,same-antenna overlap,
+SLOT_001047,SLOT_001078,same-antenna reconfiguration time,0.05
+SLOT_001047,SLOT_001087,same-antenna reconfiguration time,0.05
+SLOT_001047,SLOT_001088,same-antenna reconfiguration time,0.05
+SLOT_001048,SLOT_001049,same-antenna overlap,
+SLOT_001048,SLOT_001056,same-antenna overlap,
+SLOT_001048,SLOT_001079,same-antenna reconfiguration time,0.05
+SLOT_001048,SLOT_001089,same-antenna reconfiguration time,0.05
+SLOT_001049,SLOT_001056,same-antenna overlap,
+SLOT_001049,SLOT_001079,same-antenna reconfiguration time,0.05
+SLOT_001049,SLOT_001089,same-antenna reconfiguration time,0.05
+SLOT_001050,SLOT_001081,same-antenna reconfiguration time,0.05
+SLOT_001051,SLOT_001082,same-antenna reconfiguration time,0.05
+SLOT_001051,SLOT_001091,same-antenna reconfiguration time,0.05
+SLOT_001051,SLOT_001095,same-antenna reconfiguration time,0.05
+SLOT_001052,SLOT_001058,same-antenna overlap,
+SLOT_001052,SLOT_001069,same-antenna overlap,
+SLOT_001053,SLOT_001054,same-antenna overlap,
+SLOT_001053,SLOT_001070,same-antenna overlap,
+SLOT_001053,SLOT_001085,same-antenna reconfiguration time,0.05
+SLOT_001053,SLOT_001092,same-antenna reconfiguration time,0.05
+SLOT_001054,SLOT_001070,same-antenna overlap,
+SLOT_001054,SLOT_001085,same-antenna reconfiguration time,0.05
+SLOT_001054,SLOT_001092,same-antenna reconfiguration time,0.05
+SLOT_001055,SLOT_001094,same-antenna reconfiguration time,0.05
+SLOT_001056,SLOT_001079,same-antenna overlap,
+SLOT_001056,SLOT_001089,same-antenna reconfiguration time,0.05
+SLOT_001056,SLOT_001102,same-antenna reconfiguration time,0.05
+SLOT_001056,SLOT_001103,same-antenna reconfiguration time,0.05
+SLOT_001058,SLOT_001069,same-antenna overlap,
+SLOT_001059,SLOT_001086,same-antenna overlap,
+SLOT_001061,SLOT_001077,same-antenna overlap,
+SLOT_001062,SLOT_001071,same-antenna overlap,
+SLOT_001062,SLOT_001072,same-antenna overlap,
+SLOT_001062,SLOT_001096,same-antenna reconfiguration time,0.05
+SLOT_001063,SLOT_001064,same-antenna overlap,
+SLOT_001063,SLOT_001074,same-antenna overlap,
+SLOT_001063,SLOT_001075,same-antenna overlap,
+SLOT_001064,SLOT_001074,same-antenna overlap,
+SLOT_001064,SLOT_001075,same-antenna overlap,
+SLOT_001065,SLOT_001078,same-antenna overlap,
+SLOT_001065,SLOT_001087,same-antenna overlap,
+SLOT_001065,SLOT_001088,same-antenna overlap,
+SLOT_001065,SLOT_001101,same-antenna reconfiguration time,0.05
+SLOT_001066,SLOT_001080,same-antenna overlap,
+SLOT_001066,SLOT_001090,same-antenna overlap,
+SLOT_001067,SLOT_001076,same-antenna overlap,
+SLOT_001070,SLOT_001085,same-antenna overlap,
+SLOT_001070,SLOT_001092,same-antenna overlap,
+SLOT_001070,SLOT_001105,same-antenna reconfiguration time,0.05
+SLOT_001070,SLOT_001106,same-antenna reconfiguration time,0.05
+SLOT_001071,SLOT_001072,same-antenna overlap,
+SLOT_001071,SLOT_001096,same-antenna reconfiguration time,0.05
+SLOT_001072,SLOT_001096,same-antenna reconfiguration time,0.05
+SLOT_001073,SLOT_001097,same-antenna reconfiguration time,0.05
+SLOT_001073,SLOT_001098,same-antenna reconfiguration time,0.05
+SLOT_001074,SLOT_001075,same-antenna overlap,
+SLOT_001076,SLOT_001108,same-antenna reconfiguration time,0.05
+SLOT_001078,SLOT_001087,same-antenna overlap,
+SLOT_001078,SLOT_001088,same-antenna overlap,
+SLOT_001078,SLOT_001101,same-antenna overlap,
+SLOT_001079,SLOT_001089,same-antenna overlap,
+SLOT_001079,SLOT_001102,same-antenna overlap,
+SLOT_001079,SLOT_001103,same-antenna overlap,
+SLOT_001079,SLOT_001107,same-antenna reconfiguration time,0.05
+SLOT_001080,SLOT_001090,same-antenna overlap,
+SLOT_001082,SLOT_001091,same-antenna overlap,
+SLOT_001082,SLOT_001095,same-antenna overlap,
+SLOT_001082,SLOT_001104,same-antenna overlap,
+SLOT_001083,SLOT_001084,same-antenna overlap,
+SLOT_001085,SLOT_001092,same-antenna overlap,
+SLOT_001085,SLOT_001105,same-antenna overlap,
+SLOT_001085,SLOT_001106,same-antenna overlap,
+SLOT_001085,SLOT_001110,same-antenna reconfiguration time,0.05
+SLOT_001087,SLOT_001088,same-antenna overlap,
+SLOT_001087,SLOT_001101,same-antenna overlap,
+SLOT_001088,SLOT_001101,same-antenna overlap,
+SLOT_001089,SLOT_001102,same-antenna overlap,
+SLOT_001089,SLOT_001103,same-antenna overlap,
+SLOT_001089,SLOT_001107,same-antenna overlap,
+SLOT_001089,SLOT_001113,same-antenna reconfiguration time,0.05
+SLOT_001091,SLOT_001095,same-antenna overlap,
+SLOT_001091,SLOT_001104,same-antenna overlap,
+SLOT_001091,SLOT_001115,same-antenna reconfiguration time,0.05
+SLOT_001092,SLOT_001105,same-antenna overlap,
+SLOT_001092,SLOT_001106,same-antenna overlap,
+SLOT_001092,SLOT_001110,same-antenna reconfiguration time,0.05
+SLOT_001092,SLOT_001118,same-antenna reconfiguration time,0.05
+SLOT_001095,SLOT_001104,same-antenna overlap,
+SLOT_001095,SLOT_001115,same-antenna reconfiguration time,0.05
+SLOT_001095,SLOT_001125,same-antenna reconfiguration time,0.05
+SLOT_001097,SLOT_001098,same-antenna overlap,
+SLOT_001097,SLOT_001112,same-antenna reconfiguration time,0.05
+SLOT_001098,SLOT_001112,same-antenna reconfiguration time,0.05
+SLOT_001099,SLOT_001121,same-antenna reconfiguration time,0.05
+SLOT_001100,SLOT_001122,same-antenna reconfiguration time,0.05
+SLOT_001100,SLOT_001128,same-antenna reconfiguration time,0.05
+SLOT_001101,SLOT_001123,same-antenna reconfiguration time,0.05
+SLOT_001102,SLOT_001103,same-antenna overlap,
+SLOT_001102,SLOT_001107,same-antenna overlap,
+SLOT_001102,SLOT_001113,same-antenna reconfiguration time,0.05
+SLOT_001102,SLOT_001124,same-antenna reconfiguration time,0.05
+SLOT_001103,SLOT_001107,same-antenna overlap,
+SLOT_001103,SLOT_001113,same-antenna reconfiguration time,0.05
+SLOT_001103,SLOT_001124,same-antenna reconfiguration time,0.05
+SLOT_001104,SLOT_001115,same-antenna reconfiguration time,0.05
+SLOT_001104,SLOT_001125,same-antenna reconfiguration time,0.05
+SLOT_001105,SLOT_001106,same-antenna overlap,
+SLOT_001105,SLOT_001110,same-antenna overlap,
+SLOT_001105,SLOT_001118,same-antenna reconfiguration time,0.05
+SLOT_001105,SLOT_001126,same-antenna reconfiguration time,0.05
+SLOT_001106,SLOT_001110,same-antenna overlap,
+SLOT_001106,SLOT_001118,same-antenna reconfiguration time,0.05
+SLOT_001106,SLOT_001126,same-antenna reconfiguration time,0.05
+SLOT_001107,SLOT_001113,same-antenna overlap,
+SLOT_001107,SLOT_001124,same-antenna reconfiguration time,0.05
+SLOT_001107,SLOT_001136,same-antenna reconfiguration time,0.05
+SLOT_001109,SLOT_001117,same-antenna overlap,
+SLOT_001110,SLOT_001118,same-antenna overlap,
+SLOT_001110,SLOT_001126,same-antenna overlap,
+SLOT_001110,SLOT_001140,same-antenna reconfiguration time,0.05
+SLOT_001110,SLOT_001144,same-antenna reconfiguration time,0.05
+SLOT_001111,SLOT_001146,same-antenna reconfiguration time,0.05
+SLOT_001112,SLOT_001131,same-antenna overlap,
+SLOT_001112,SLOT_001132,same-antenna overlap,
+SLOT_001113,SLOT_001124,same-antenna overlap,
+SLOT_001113,SLOT_001136,same-antenna overlap,
+SLOT_001113,SLOT_001142,same-antenna reconfiguration time,0.05
+SLOT_001115,SLOT_001125,same-antenna overlap,
+SLOT_001115,SLOT_001137,same-antenna overlap,
+SLOT_001116,SLOT_001138,same-antenna overlap,
+SLOT_001117,SLOT_001150,same-antenna reconfiguration time,0.05
+SLOT_001118,SLOT_001126,same-antenna overlap,
+SLOT_001118,SLOT_001140,same-antenna overlap,
+SLOT_001118,SLOT_001144,same-antenna reconfiguration time,0.05
+SLOT_001118,SLOT_001151,same-antenna reconfiguration time,0.05
+SLOT_001119,SLOT_001120,same-antenna overlap,
+SLOT_001119,SLOT_001153,same-antenna reconfiguration time,0.05
+SLOT_001120,SLOT_001153,same-antenna reconfiguration time,0.05
+SLOT_001121,SLOT_001133,same-antenna overlap,
+SLOT_001121,SLOT_001134,same-antenna overlap,
+SLOT_001122,SLOT_001128,same-antenna overlap,
+SLOT_001122,SLOT_001135,same-antenna overlap,
+SLOT_001123,SLOT_001147,same-antenna reconfiguration time,0.05
+SLOT_001124,SLOT_001136,same-antenna overlap,
+SLOT_001124,SLOT_001142,same-antenna overlap,
+SLOT_001125,SLOT_001137,same-antenna overlap,
+SLOT_001126,SLOT_001140,same-antenna overlap,
+SLOT_001126,SLOT_001144,same-antenna overlap,
+SLOT_001126,SLOT_001151,same-antenna reconfiguration time,0.05
+SLOT_001126,SLOT_001157,same-antenna reconfiguration time,0.05
+SLOT_001128,SLOT_001135,same-antenna overlap,
+SLOT_001129,SLOT_001143,same-antenna overlap,
+SLOT_001131,SLOT_001132,same-antenna overlap,
+SLOT_001133,SLOT_001134,same-antenna overlap,
+SLOT_001136,SLOT_001142,same-antenna overlap,
+SLOT_001136,SLOT_001159,same-antenna reconfiguration time,0.05
+SLOT_001137,SLOT_001160,same-antenna reconfiguration time,0.05
+SLOT_001137,SLOT_001162,same-antenna reconfiguration time,0.05
+SLOT_001137,SLOT_001163,same-antenna reconfiguration time,0.05
+SLOT_001140,SLOT_001144,same-antenna overlap,
+SLOT_001140,SLOT_001151,same-antenna overlap,
+SLOT_001140,SLOT_001157,same-antenna reconfiguration time,0.05
+SLOT_001142,SLOT_001159,same-antenna reconfiguration time,0.05
+SLOT_001142,SLOT_001169,same-antenna reconfiguration time,0.05
+SLOT_001142,SLOT_001170,same-antenna reconfiguration time,0.05
+SLOT_001142,SLOT_001171,same-antenna reconfiguration time,0.05
+SLOT_001144,SLOT_001151,same-antenna overlap,
+SLOT_001144,SLOT_001157,same-antenna overlap,
+SLOT_001144,SLOT_001176,same-antenna reconfiguration time,0.05
+SLOT_001144,SLOT_001177,same-antenna reconfiguration time,0.05
+SLOT_001144,SLOT_001178,same-antenna reconfiguration time,0.05
+SLOT_001144,SLOT_001179,same-antenna reconfiguration time,0.05
+SLOT_001145,SLOT_001164,same-antenna reconfiguration time,0.05
+SLOT_001146,SLOT_001152,same-antenna overlap,
+SLOT_001147,SLOT_001161,same-antenna reconfiguration time,0.05
+SLOT_001147,SLOT_001168,same-antenna reconfiguration time,0.05
+SLOT_001148,SLOT_001154,same-antenna overlap,
+SLOT_001148,SLOT_001172,same-antenna reconfiguration time,0.05
+SLOT_001149,SLOT_001155,same-antenna overlap,
+SLOT_001150,SLOT_001156,same-antenna overlap,
+SLOT_001151,SLOT_001157,same-antenna overlap,
+SLOT_001151,SLOT_001176,same-antenna reconfiguration time,0.05
+SLOT_001151,SLOT_001177,same-antenna reconfiguration time,0.05
+SLOT_001151,SLOT_001178,same-antenna reconfiguration time,0.05
+SLOT_001151,SLOT_001179,same-antenna reconfiguration time,0.05
+SLOT_001151,SLOT_001183,same-antenna reconfiguration time,0.05
+SLOT_001153,SLOT_001158,same-antenna overlap,
+SLOT_001154,SLOT_001172,same-antenna overlap,
+SLOT_001154,SLOT_001186,same-antenna reconfiguration time,0.05
+SLOT_001154,SLOT_001192,same-antenna reconfiguration time,0.05
+SLOT_001156,SLOT_001187,same-antenna reconfiguration time,0.05
+SLOT_001156,SLOT_001194,same-antenna reconfiguration time,0.05
+SLOT_001157,SLOT_001176,same-antenna overlap,
+SLOT_001157,SLOT_001177,same-antenna overlap,
+SLOT_001157,SLOT_001178,same-antenna overlap,
+SLOT_001157,SLOT_001179,same-antenna overlap,
+SLOT_001157,SLOT_001183,same-antenna reconfiguration time,0.05
+SLOT_001157,SLOT_001188,same-antenna reconfiguration time,0.05
+SLOT_001159,SLOT_001169,same-antenna overlap,
+SLOT_001159,SLOT_001170,same-antenna overlap,
+SLOT_001159,SLOT_001171,same-antenna overlap,
+SLOT_001159,SLOT_001180,same-antenna overlap,
+SLOT_001159,SLOT_001181,same-antenna overlap,
+SLOT_001160,SLOT_001162,same-antenna overlap,
+SLOT_001160,SLOT_001163,same-antenna overlap,
+SLOT_001160,SLOT_001173,same-antenna overlap,
+SLOT_001160,SLOT_001199,same-antenna reconfiguration time,0.05
+SLOT_001161,SLOT_001168,same-antenna overlap,
+SLOT_001161,SLOT_001185,same-antenna overlap,
+SLOT_001161,SLOT_001204,same-antenna reconfiguration time,0.05
+SLOT_001162,SLOT_001163,same-antenna overlap,
+SLOT_001162,SLOT_001173,same-antenna overlap,
+SLOT_001162,SLOT_001199,same-antenna reconfiguration time,0.05
+SLOT_001162,SLOT_001206,same-antenna reconfiguration time,0.05
+SLOT_001162,SLOT_001207,same-antenna reconfiguration time,0.05
+SLOT_001163,SLOT_001173,same-antenna overlap,
+SLOT_001163,SLOT_001199,same-antenna reconfiguration time,0.05
+SLOT_001163,SLOT_001206,same-antenna reconfiguration time,0.05
+SLOT_001163,SLOT_001207,same-antenna reconfiguration time,0.05
+SLOT_001164,SLOT_001189,same-antenna overlap,
+SLOT_001165,SLOT_001166,same-antenna overlap,
+SLOT_001165,SLOT_001209,same-antenna reconfiguration time,0.05
+SLOT_001166,SLOT_001209,same-antenna reconfiguration time,0.05
+SLOT_001167,SLOT_001190,same-antenna overlap,
+SLOT_001167,SLOT_001210,same-antenna reconfiguration time,0.05
+SLOT_001168,SLOT_001185,same-antenna overlap,
+SLOT_001168,SLOT_001204,same-antenna reconfiguration time,0.05
+SLOT_001168,SLOT_001211,same-antenna reconfiguration time,0.05
+SLOT_001169,SLOT_001170,same-antenna overlap,
+SLOT_001169,SLOT_001171,same-antenna overlap,
+SLOT_001169,SLOT_001180,same-antenna overlap,
+SLOT_001169,SLOT_001181,same-antenna overlap,
+SLOT_001169,SLOT_001205,same-antenna reconfiguration time,0.05
+SLOT_001169,SLOT_001212,same-antenna reconfiguration time,0.05
+SLOT_001170,SLOT_001171,same-antenna overlap,
+SLOT_001170,SLOT_001180,same-antenna overlap,
+SLOT_001170,SLOT_001181,same-antenna overlap,
+SLOT_001170,SLOT_001205,same-antenna reconfiguration time,0.05
+SLOT_001170,SLOT_001212,same-antenna reconfiguration time,0.05
+SLOT_001171,SLOT_001180,same-antenna overlap,
+SLOT_001171,SLOT_001181,same-antenna overlap,
+SLOT_001171,SLOT_001205,same-antenna reconfiguration time,0.05
+SLOT_001171,SLOT_001212,same-antenna reconfiguration time,0.05
+SLOT_001172,SLOT_001186,same-antenna overlap,
+SLOT_001172,SLOT_001192,same-antenna overlap,
+SLOT_001172,SLOT_001213,same-antenna reconfiguration time,0.05
+SLOT_001173,SLOT_001199,same-antenna reconfiguration time,0.05
+SLOT_001173,SLOT_001206,same-antenna reconfiguration time,0.05
+SLOT_001173,SLOT_001207,same-antenna reconfiguration time,0.05
+SLOT_001173,SLOT_001214,same-antenna reconfiguration time,0.05
+SLOT_001174,SLOT_001193,same-antenna overlap,
+SLOT_001176,SLOT_001177,same-antenna overlap,
+SLOT_001176,SLOT_001178,same-antenna overlap,
+SLOT_001176,SLOT_001179,same-antenna overlap,
+SLOT_001176,SLOT_001183,same-antenna overlap,
+SLOT_001176,SLOT_001188,same-antenna overlap,
+SLOT_001176,SLOT_001201,same-antenna reconfiguration time,0.05
+SLOT_001176,SLOT_001215,same-antenna reconfiguration time,0.05
+SLOT_001177,SLOT_001178,same-antenna overlap,
+SLOT_001177,SLOT_001179,same-antenna overlap,
+SLOT_001177,SLOT_001183,same-antenna overlap,
+SLOT_001177,SLOT_001188,same-antenna overlap,
+SLOT_001177,SLOT_001201,same-antenna reconfiguration time,0.05
+SLOT_001177,SLOT_001215,same-antenna reconfiguration time,0.05
+SLOT_001178,SLOT_001179,same-antenna overlap,
+SLOT_001178,SLOT_001183,same-antenna overlap,
+SLOT_001178,SLOT_001188,same-antenna overlap,
+SLOT_001178,SLOT_001201,same-antenna reconfiguration time,0.05
+SLOT_001178,SLOT_001215,same-antenna reconfiguration time,0.05
+SLOT_001179,SLOT_001183,same-antenna overlap,
+SLOT_001179,SLOT_001188,same-antenna overlap,
+SLOT_001179,SLOT_001201,same-antenna reconfiguration time,0.05
+SLOT_001179,SLOT_001215,same-antenna reconfiguration time,0.05
+SLOT_001180,SLOT_001181,same-antenna overlap,
+SLOT_001180,SLOT_001205,same-antenna reconfiguration time,0.05
+SLOT_001180,SLOT_001212,same-antenna reconfiguration time,0.05
+SLOT_001180,SLOT_001219,same-antenna reconfiguration time,0.05
+SLOT_001180,SLOT_001220,same-antenna reconfiguration time,0.05
+SLOT_001180,SLOT_001221,same-antenna reconfiguration time,0.05
+SLOT_001181,SLOT_001205,same-antenna reconfiguration time,0.05
+SLOT_001181,SLOT_001212,same-antenna reconfiguration time,0.05
+SLOT_001181,SLOT_001219,same-antenna reconfiguration time,0.05
+SLOT_001181,SLOT_001220,same-antenna reconfiguration time,0.05
+SLOT_001181,SLOT_001221,same-antenna reconfiguration time,0.05
+SLOT_001183,SLOT_001188,same-antenna overlap,
+SLOT_001183,SLOT_001201,same-antenna overlap,
+SLOT_001183,SLOT_001215,same-antenna reconfiguration time,0.05
+SLOT_001183,SLOT_001228,same-antenna reconfiguration time,0.05
+SLOT_001183,SLOT_001229,same-antenna reconfiguration time,0.05
+SLOT_001184,SLOT_001191,same-antenna overlap,
+SLOT_001185,SLOT_001204,same-antenna overlap,
+SLOT_001185,SLOT_001211,same-antenna reconfiguration time,0.05
+SLOT_001186,SLOT_001192,same-antenna overlap,
+SLOT_001186,SLOT_001213,same-antenna reconfiguration time,0.05
+SLOT_001186,SLOT_001222,same-antenna reconfiguration time,0.05
+SLOT_001187,SLOT_001194,same-antenna overlap,
+SLOT_001187,SLOT_001200,same-antenna overlap,
+SLOT_001188,SLOT_001201,same-antenna overlap,
+SLOT_001188,SLOT_001215,same-antenna reconfiguration time,0.05
+SLOT_001188,SLOT_001228,same-antenna reconfiguration time,0.05
+SLOT_001188,SLOT_001229,same-antenna reconfiguration time,0.05
+SLOT_001188,SLOT_001234,same-antenna reconfiguration time,0.05
+SLOT_001189,SLOT_001216,same-antenna reconfiguration time,0.05
+SLOT_001189,SLOT_001217,same-antenna reconfiguration time,0.05
+SLOT_001190,SLOT_001210,same-antenna overlap,
+SLOT_001190,SLOT_001231,same-antenna reconfiguration time,0.05
+SLOT_001191,SLOT_001235,same-antenna reconfiguration time,0.05
+SLOT_001192,SLOT_001213,same-antenna overlap,
+SLOT_001192,SLOT_001222,same-antenna reconfiguration time,0.05
+SLOT_001193,SLOT_001226,same-antenna reconfiguration time,0.05
+SLOT_001194,SLOT_001200,same-antenna overlap,
+SLOT_001194,SLOT_001240,same-antenna reconfiguration time,0.05
+SLOT_001198,SLOT_001223,same-antenna overlap,
+SLOT_001198,SLOT_001238,same-antenna reconfiguration time,0.05
+SLOT_001199,SLOT_001206,same-antenna overlap,
+SLOT_001199,SLOT_001207,same-antenna overlap,
+SLOT_001199,SLOT_001214,same-antenna overlap,
+SLOT_001199,SLOT_001224,same-antenna overlap,
+SLOT_001199,SLOT_001225,same-antenna overlap,
+SLOT_001200,SLOT_001240,same-antenna reconfiguration time,0.05
+SLOT_001201,SLOT_001215,same-antenna overlap,
+SLOT_001201,SLOT_001228,same-antenna overlap,
+SLOT_001201,SLOT_001229,same-antenna overlap,
+SLOT_001201,SLOT_001234,same-antenna reconfiguration time,0.05
+SLOT_001201,SLOT_001241,same-antenna reconfiguration time,0.05
+SLOT_001201,SLOT_001242,same-antenna reconfiguration time,0.05
+SLOT_001202,SLOT_001208,same-antenna overlap,
+SLOT_001202,SLOT_001230,same-antenna overlap,
+SLOT_001203,SLOT_001218,same-antenna overlap,
+SLOT_001203,SLOT_001244,same-antenna reconfiguration time,0.05
+SLOT_001204,SLOT_001211,same-antenna overlap,
+SLOT_001204,SLOT_001236,same-antenna reconfiguration time,0.05
+SLOT_001204,SLOT_001237,same-antenna reconfiguration time,0.05
+SLOT_001204,SLOT_001245,same-antenna reconfiguration time,0.05
+SLOT_001205,SLOT_001212,same-antenna overlap,
+SLOT_001205,SLOT_001219,same-antenna overlap,
+SLOT_001205,SLOT_001220,same-antenna overlap,
+SLOT_001205,SLOT_001221,same-antenna overlap,
+SLOT_001205,SLOT_001232,same-antenna overlap,
+SLOT_001206,SLOT_001207,same-antenna overlap,
+SLOT_001206,SLOT_001214,same-antenna overlap,
+SLOT_001206,SLOT_001224,same-antenna overlap,
+SLOT_001206,SLOT_001225,same-antenna overlap,
+SLOT_001207,SLOT_001214,same-antenna overlap,
+SLOT_001207,SLOT_001224,same-antenna overlap,
+SLOT_001207,SLOT_001225,same-antenna overlap,
+SLOT_001208,SLOT_001230,same-antenna overlap,
+SLOT_001208,SLOT_001250,same-antenna reconfiguration time,0.05
+SLOT_001209,SLOT_001243,same-antenna reconfiguration time,0.05
+SLOT_001209,SLOT_001251,same-antenna reconfiguration time,0.05
+SLOT_001210,SLOT_001231,same-antenna overlap,
+SLOT_001211,SLOT_001236,same-antenna overlap,
+SLOT_001211,SLOT_001237,same-antenna overlap,
+SLOT_001211,SLOT_001245,same-antenna reconfiguration time,0.05
+SLOT_001212,SLOT_001219,same-antenna overlap,
+SLOT_001212,SLOT_001220,same-antenna overlap,
+SLOT_001212,SLOT_001221,same-antenna overlap,
+SLOT_001212,SLOT_001232,same-antenna overlap,
+SLOT_001213,SLOT_001222,same-antenna overlap,
+SLOT_001214,SLOT_001224,same-antenna overlap,
+SLOT_001214,SLOT_001225,same-antenna overlap,
+SLOT_001214,SLOT_001252,same-antenna reconfiguration time,0.05
+SLOT_001215,SLOT_001228,same-antenna overlap,
+SLOT_001215,SLOT_001229,same-antenna overlap,
+SLOT_001215,SLOT_001234,same-antenna overlap,
+SLOT_001215,SLOT_001241,same-antenna overlap,
+SLOT_001215,SLOT_001242,same-antenna overlap,
+SLOT_001215,SLOT_001253,same-antenna reconfiguration time,0.05
+SLOT_001216,SLOT_001217,same-antenna overlap,
+SLOT_001218,SLOT_001244,same-antenna overlap,
+SLOT_001219,SLOT_001220,same-antenna overlap,
+SLOT_001219,SLOT_001221,same-antenna overlap,
+SLOT_001219,SLOT_001232,same-antenna overlap,
+SLOT_001220,SLOT_001221,same-antenna overlap,
+SLOT_001220,SLOT_001232,same-antenna overlap,
+SLOT_001221,SLOT_001232,same-antenna overlap,
+SLOT_001223,SLOT_001238,same-antenna overlap,
+SLOT_001224,SLOT_001225,same-antenna overlap,
+SLOT_001224,SLOT_001252,same-antenna reconfiguration time,0.05
+SLOT_001225,SLOT_001252,same-antenna reconfiguration time,0.05
+SLOT_001227,SLOT_001256,same-antenna reconfiguration time,0.05
+SLOT_001228,SLOT_001229,same-antenna overlap,
+SLOT_001228,SLOT_001234,same-antenna overlap,
+SLOT_001228,SLOT_001241,same-antenna overlap,
+SLOT_001228,SLOT_001242,same-antenna overlap,
+SLOT_001228,SLOT_001253,same-antenna reconfiguration time,0.05
+SLOT_001229,SLOT_001234,same-antenna overlap,
+SLOT_001229,SLOT_001241,same-antenna overlap,
+SLOT_001229,SLOT_001242,same-antenna overlap,
+SLOT_001229,SLOT_001253,same-antenna reconfiguration time,0.05
+SLOT_001230,SLOT_001250,same-antenna reconfiguration time,0.05
+SLOT_001232,SLOT_001260,same-antenna reconfiguration time,0.05
+SLOT_001233,SLOT_001239,same-antenna overlap,
+SLOT_001234,SLOT_001241,same-antenna overlap,
+SLOT_001234,SLOT_001242,same-antenna overlap,
+SLOT_001234,SLOT_001253,same-antenna reconfiguration time,0.05
+SLOT_001236,SLOT_001237,same-antenna overlap,
+SLOT_001236,SLOT_001245,same-antenna overlap,
+SLOT_001236,SLOT_001254,same-antenna reconfiguration time,0.05
+SLOT_001237,SLOT_001245,same-antenna overlap,
+SLOT_001237,SLOT_001254,same-antenna reconfiguration time,0.05
+SLOT_001240,SLOT_001248,same-antenna overlap,
+SLOT_001240,SLOT_001249,same-antenna overlap,
+SLOT_001241,SLOT_001242,same-antenna overlap,
+SLOT_001241,SLOT_001253,same-antenna overlap,
+SLOT_001241,SLOT_001267,same-antenna reconfiguration time,0.05
+SLOT_001242,SLOT_001253,same-antenna overlap,
+SLOT_001242,SLOT_001267,same-antenna reconfiguration time,0.05
+SLOT_001243,SLOT_001251,same-antenna overlap,
+SLOT_001243,SLOT_001259,same-antenna reconfiguration time,0.05
+SLOT_001245,SLOT_001254,same-antenna overlap,
+SLOT_001245,SLOT_001271,same-antenna reconfiguration time,0.05
+SLOT_001246,SLOT_001258,same-antenna overlap,
+SLOT_001247,SLOT_001255,same-antenna overlap,
+SLOT_001248,SLOT_001249,same-antenna overlap,
+SLOT_001251,SLOT_001259,same-antenna overlap,
+SLOT_001251,SLOT_001273,same-antenna reconfiguration time,0.05
+SLOT_001252,SLOT_001262,same-antenna overlap,
+SLOT_001252,SLOT_001263,same-antenna overlap,
+SLOT_001252,SLOT_001276,same-antenna reconfiguration time,0.05
+SLOT_001252,SLOT_001280,same-antenna reconfiguration time,0.05
+SLOT_001253,SLOT_001267,same-antenna overlap,
+SLOT_001253,SLOT_001272,same-antenna reconfiguration time,0.05
+SLOT_001253,SLOT_001277,same-antenna reconfiguration time,0.05
+SLOT_001254,SLOT_001271,same-antenna overlap,
+SLOT_001254,SLOT_001275,same-antenna reconfiguration time,0.05
+SLOT_001254,SLOT_001286,same-antenna reconfiguration time,0.05
+SLOT_001256,SLOT_001265,same-antenna overlap,
+SLOT_001259,SLOT_001273,same-antenna overlap,
+SLOT_001259,SLOT_001284,same-antenna reconfiguration time,0.05
+SLOT_001260,SLOT_001266,same-antenna overlap,
+SLOT_001260,SLOT_001279,same-antenna reconfiguration time,0.05
+SLOT_001261,SLOT_001291,same-antenna reconfiguration time,0.05
+SLOT_001262,SLOT_001263,same-antenna overlap,
+SLOT_001262,SLOT_001276,same-antenna overlap,
+SLOT_001262,SLOT_001280,same-antenna reconfiguration time,0.05
+SLOT_001262,SLOT_001288,same-antenna reconfiguration time,0.05
+SLOT_001262,SLOT_001293,same-antenna reconfiguration time,0.05
+SLOT_001263,SLOT_001276,same-antenna overlap,
+SLOT_001263,SLOT_001280,same-antenna reconfiguration time,0.05
+SLOT_001263,SLOT_001288,same-antenna reconfiguration time,0.05
+SLOT_001263,SLOT_001293,same-antenna reconfiguration time,0.05
+SLOT_001266,SLOT_001279,same-antenna overlap,
+SLOT_001266,SLOT_001298,same-antenna reconfiguration time,0.05
+SLOT_001266,SLOT_001299,same-antenna reconfiguration time,0.05
+SLOT_001267,SLOT_001272,same-antenna overlap,
+SLOT_001267,SLOT_001277,same-antenna overlap,
+SLOT_001267,SLOT_001289,same-antenna reconfiguration time,0.05
+SLOT_001267,SLOT_001306,same-antenna reconfiguration time,0.05
+SLOT_001269,SLOT_001270,same-antenna overlap,
+SLOT_001269,SLOT_001285,same-antenna overlap,
+SLOT_001270,SLOT_001285,same-antenna overlap,
+SLOT_001271,SLOT_001275,same-antenna overlap,
+SLOT_001271,SLOT_001286,same-antenna overlap,
+SLOT_001271,SLOT_001290,same-antenna reconfiguration time,0.05
+SLOT_001272,SLOT_001277,same-antenna overlap,
+SLOT_001272,SLOT_001289,same-antenna overlap,
+SLOT_001272,SLOT_001306,same-antenna reconfiguration time,0.05
+SLOT_001272,SLOT_001308,same-antenna reconfiguration time,0.05
+SLOT_001273,SLOT_001284,same-antenna overlap,
+SLOT_001273,SLOT_001297,same-antenna reconfiguration time,0.05
+SLOT_001275,SLOT_001286,same-antenna overlap,
+SLOT_001275,SLOT_001290,same-antenna overlap,
+SLOT_001275,SLOT_001311,same-antenna reconfiguration time,0.05
+SLOT_001275,SLOT_001312,same-antenna reconfiguration time,0.05
+SLOT_001276,SLOT_001280,same-antenna overlap,
+SLOT_001276,SLOT_001288,same-antenna overlap,
+SLOT_001276,SLOT_001293,same-antenna overlap,
+SLOT_001276,SLOT_001301,same-antenna reconfiguration time,0.05
+SLOT_001276,SLOT_001302,same-antenna reconfiguration time,0.05
+SLOT_001276,SLOT_001313,same-antenna reconfiguration time,0.05
+SLOT_001276,SLOT_001314,same-antenna reconfiguration time,0.05
+SLOT_001277,SLOT_001289,same-antenna overlap,
+SLOT_001277,SLOT_001306,same-antenna reconfiguration time,0.05
+SLOT_001277,SLOT_001308,same-antenna reconfiguration time,0.05
+SLOT_001277,SLOT_001315,same-antenna reconfiguration time,0.05
+SLOT_001279,SLOT_001298,same-antenna overlap,
+SLOT_001279,SLOT_001299,same-antenna overlap,
+SLOT_001279,SLOT_001307,same-antenna reconfiguration time,0.05
+SLOT_001279,SLOT_001318,same-antenna reconfiguration time,0.05
+SLOT_001280,SLOT_001288,same-antenna overlap,
+SLOT_001280,SLOT_001293,same-antenna overlap,
+SLOT_001280,SLOT_001301,same-antenna overlap,
+SLOT_001280,SLOT_001302,same-antenna overlap,
+SLOT_001280,SLOT_001313,same-antenna reconfiguration time,0.05
+SLOT_001280,SLOT_001314,same-antenna reconfiguration time,0.05
+SLOT_001281,SLOT_001282,same-antenna overlap,
+SLOT_001284,SLOT_001297,same-antenna overlap,
+SLOT_001284,SLOT_001316,same-antenna reconfiguration time,0.05
+SLOT_001284,SLOT_001317,same-antenna reconfiguration time,0.05
+SLOT_001285,SLOT_001309,same-antenna reconfiguration time,0.05
+SLOT_001285,SLOT_001310,same-antenna reconfiguration time,0.05
+SLOT_001286,SLOT_001290,same-antenna overlap,
+SLOT_001286,SLOT_001311,same-antenna reconfiguration time,0.05
+SLOT_001286,SLOT_001312,same-antenna reconfiguration time,0.05
+SLOT_001288,SLOT_001293,same-antenna overlap,
+SLOT_001288,SLOT_001301,same-antenna overlap,
+SLOT_001288,SLOT_001302,same-antenna overlap,
+SLOT_001288,SLOT_001313,same-antenna reconfiguration time,0.05
+SLOT_001288,SLOT_001314,same-antenna reconfiguration time,0.05
+SLOT_001289,SLOT_001306,same-antenna overlap,
+SLOT_001289,SLOT_001308,same-antenna overlap,
+SLOT_001289,SLOT_001315,same-antenna reconfiguration time,0.05
+SLOT_001290,SLOT_001311,same-antenna overlap,
+SLOT_001290,SLOT_001312,same-antenna overlap,
+SLOT_001291,SLOT_001300,same-antenna overlap,
+SLOT_001291,SLOT_001320,same-antenna reconfiguration time,0.05
+SLOT_001292,SLOT_001322,same-antenna reconfiguration time,0.05
+SLOT_001293,SLOT_001301,same-antenna overlap,
+SLOT_001293,SLOT_001302,same-antenna overlap,
+SLOT_001293,SLOT_001313,same-antenna overlap,
+SLOT_001293,SLOT_001314,same-antenna overlap,
+SLOT_001294,SLOT_001295,same-antenna overlap,
+SLOT_001297,SLOT_001316,same-antenna overlap,
+SLOT_001297,SLOT_001317,same-antenna overlap,
+SLOT_001297,SLOT_001323,same-antenna reconfiguration time,0.05
+SLOT_001298,SLOT_001299,same-antenna overlap,
+SLOT_001298,SLOT_001307,same-antenna overlap,
+SLOT_001298,SLOT_001318,same-antenna overlap,
+SLOT_001298,SLOT_001324,same-antenna reconfiguration time,0.05
+SLOT_001299,SLOT_001307,same-antenna overlap,
+SLOT_001299,SLOT_001318,same-antenna overlap,
+SLOT_001299,SLOT_001324,same-antenna reconfiguration time,0.05
+SLOT_001300,SLOT_001320,same-antenna reconfiguration time,0.05
+SLOT_001301,SLOT_001302,same-antenna overlap,
+SLOT_001301,SLOT_001313,same-antenna overlap,
+SLOT_001301,SLOT_001314,same-antenna overlap,
+SLOT_001302,SLOT_001313,same-antenna overlap,
+SLOT_001302,SLOT_001314,same-antenna overlap,
+SLOT_001303,SLOT_001304,same-antenna overlap,
+SLOT_001306,SLOT_001308,same-antenna overlap,
+SLOT_001306,SLOT_001315,same-antenna overlap,
+SLOT_001306,SLOT_001326,same-antenna reconfiguration time,0.05
+SLOT_001307,SLOT_001318,same-antenna overlap,
+SLOT_001307,SLOT_001324,same-antenna reconfiguration time,0.05
+SLOT_001307,SLOT_001329,same-antenna reconfiguration time,0.05
+SLOT_001308,SLOT_001315,same-antenna overlap,
+SLOT_001308,SLOT_001326,same-antenna reconfiguration time,0.05
+SLOT_001308,SLOT_001334,same-antenna reconfiguration time,0.05
+SLOT_001309,SLOT_001310,same-antenna overlap,
+SLOT_001311,SLOT_001312,same-antenna overlap,
+SLOT_001311,SLOT_001337,same-antenna reconfiguration time,0.05
+SLOT_001312,SLOT_001337,same-antenna reconfiguration time,0.05
+SLOT_001313,SLOT_001314,same-antenna overlap,
+SLOT_001313,SLOT_001330,same-antenna reconfiguration time,0.05
+SLOT_001313,SLOT_001331,same-antenna reconfiguration time,0.05
+SLOT_001314,SLOT_001330,same-antenna reconfiguration time,0.05
+SLOT_001314,SLOT_001331,same-antenna reconfiguration time,0.05
+SLOT_001315,SLOT_001326,same-antenna reconfiguration time,0.05
+SLOT_001315,SLOT_001334,same-antenna reconfiguration time,0.05
+SLOT_001315,SLOT_001340,same-antenna reconfiguration time,0.05
+SLOT_001316,SLOT_001317,same-antenna overlap,
+SLOT_001316,SLOT_001323,same-antenna overlap,
+SLOT_001316,SLOT_001327,same-antenna reconfiguration time,0.05
+SLOT_001316,SLOT_001335,same-antenna reconfiguration time,0.05
+SLOT_001317,SLOT_001323,same-antenna overlap,
+SLOT_001317,SLOT_001327,same-antenna reconfiguration time,0.05
+SLOT_001317,SLOT_001335,same-antenna reconfiguration time,0.05
+SLOT_001318,SLOT_001324,same-antenna overlap,
+SLOT_001318,SLOT_001329,same-antenna reconfiguration time,0.05
+SLOT_001318,SLOT_001338,same-antenna reconfiguration time,0.05
+SLOT_001318,SLOT_001339,same-antenna reconfiguration time,0.05
+SLOT_001319,SLOT_001348,same-antenna reconfiguration time,0.05
+SLOT_001321,SLOT_001333,same-antenna overlap,
+SLOT_001322,SLOT_001325,same-antenna overlap,
+SLOT_001322,SLOT_001344,same-antenna reconfiguration time,0.05
+SLOT_001323,SLOT_001327,same-antenna overlap,
+SLOT_001323,SLOT_001335,same-antenna overlap,
+SLOT_001323,SLOT_001346,same-antenna reconfiguration time,0.05
+SLOT_001323,SLOT_001347,same-antenna reconfiguration time,0.05
+SLOT_001324,SLOT_001329,same-antenna overlap,
+SLOT_001324,SLOT_001338,same-antenna overlap,
+SLOT_001324,SLOT_001339,same-antenna overlap,
+SLOT_001324,SLOT_001349,same-antenna reconfiguration time,0.05
+SLOT_001325,SLOT_001344,same-antenna overlap,
+SLOT_001326,SLOT_001334,same-antenna overlap,
+SLOT_001326,SLOT_001340,same-antenna overlap,
+SLOT_001327,SLOT_001335,same-antenna overlap,
+SLOT_001327,SLOT_001346,same-antenna overlap,
+SLOT_001327,SLOT_001347,same-antenna overlap,
+SLOT_001327,SLOT_001358,same-antenna reconfiguration time,0.05
+SLOT_001327,SLOT_001359,same-antenna reconfiguration time,0.05
+SLOT_001329,SLOT_001338,same-antenna overlap,
+SLOT_001329,SLOT_001339,same-antenna overlap,
+SLOT_001329,SLOT_001349,same-antenna overlap,
+SLOT_001329,SLOT_001360,same-antenna reconfiguration time,0.05
+SLOT_001330,SLOT_001331,same-antenna overlap,
+SLOT_001330,SLOT_001345,same-antenna overlap,
+SLOT_001330,SLOT_001357,same-antenna reconfiguration time,0.05
+SLOT_001331,SLOT_001345,same-antenna overlap,
+SLOT_001331,SLOT_001357,same-antenna reconfiguration time,0.05
+SLOT_001333,SLOT_001352,same-antenna reconfiguration time,0.05
+SLOT_001334,SLOT_001340,same-antenna overlap,
+SLOT_001335,SLOT_001346,same-antenna overlap,
+SLOT_001335,SLOT_001347,same-antenna overlap,
+SLOT_001335,SLOT_001358,same-antenna reconfiguration time,0.05
+SLOT_001335,SLOT_001359,same-antenna reconfiguration time,0.05
+SLOT_001337,SLOT_001342,same-antenna overlap,
+SLOT_001337,SLOT_001356,same-antenna reconfiguration time,0.05
+SLOT_001338,SLOT_001339,same-antenna overlap,
+SLOT_001338,SLOT_001349,same-antenna overlap,
+SLOT_001338,SLOT_001360,same-antenna reconfiguration time,0.05
+SLOT_001338,SLOT_001363,same-antenna reconfiguration time,0.05
+SLOT_001338,SLOT_001364,same-antenna reconfiguration time,0.05
+SLOT_001339,SLOT_001349,same-antenna overlap,
+SLOT_001339,SLOT_001360,same-antenna reconfiguration time,0.05
+SLOT_001339,SLOT_001363,same-antenna reconfiguration time,0.05
+SLOT_001339,SLOT_001364,same-antenna reconfiguration time,0.05
+SLOT_001340,SLOT_001370,same-antenna reconfiguration time,0.05
+SLOT_001341,SLOT_001355,same-antenna overlap,
+SLOT_001342,SLOT_001356,same-antenna overlap,
+SLOT_001343,SLOT_001361,same-antenna reconfiguration time,0.05
+SLOT_001345,SLOT_001357,same-antenna overlap,
+SLOT_001345,SLOT_001366,same-antenna reconfiguration time,0.05
+SLOT_001345,SLOT_001367,same-antenna reconfiguration time,0.05
+SLOT_001346,SLOT_001347,same-antenna overlap,
+SLOT_001346,SLOT_001358,same-antenna overlap,
+SLOT_001346,SLOT_001359,same-antenna overlap,
+SLOT_001347,SLOT_001358,same-antenna overlap,
+SLOT_001347,SLOT_001359,same-antenna overlap,
+SLOT_001348,SLOT_001371,same-antenna reconfiguration time,0.05
+SLOT_001349,SLOT_001360,same-antenna overlap,
+SLOT_001349,SLOT_001363,same-antenna reconfiguration time,0.05
+SLOT_001349,SLOT_001364,same-antenna reconfiguration time,0.05
+SLOT_001349,SLOT_001372,same-antenna reconfiguration time,0.05
+SLOT_001352,SLOT_001373,same-antenna reconfiguration time,0.05
+SLOT_001356,SLOT_001375,same-antenna reconfiguration time,0.05
+SLOT_001357,SLOT_001366,same-antenna overlap,
+SLOT_001357,SLOT_001367,same-antenna overlap,
+SLOT_001357,SLOT_001376,same-antenna reconfiguration time,0.05
+SLOT_001358,SLOT_001359,same-antenna overlap,
+SLOT_001358,SLOT_001377,same-antenna reconfiguration time,0.05
+SLOT_001358,SLOT_001378,same-antenna reconfiguration time,0.05
+SLOT_001358,SLOT_001386,same-antenna reconfiguration time,0.05
+SLOT_001359,SLOT_001377,same-antenna reconfiguration time,0.05
+SLOT_001359,SLOT_001378,same-antenna reconfiguration time,0.05
+SLOT_001359,SLOT_001386,same-antenna reconfiguration time,0.05
+SLOT_001360,SLOT_001363,same-antenna overlap,
+SLOT_001360,SLOT_001364,same-antenna overlap,
+SLOT_001360,SLOT_001372,same-antenna overlap,
+SLOT_001360,SLOT_001380,same-antenna reconfiguration time,0.05
+SLOT_001363,SLOT_001364,same-antenna overlap,
+SLOT_001363,SLOT_001372,same-antenna overlap,
+SLOT_001363,SLOT_001380,same-antenna overlap,
+SLOT_001364,SLOT_001372,same-antenna overlap,
+SLOT_001364,SLOT_001380,same-antenna overlap,
+SLOT_001365,SLOT_001381,same-antenna reconfiguration time,0.05
+SLOT_001365,SLOT_001393,same-antenna reconfiguration time,0.05
+SLOT_001366,SLOT_001367,same-antenna overlap,
+SLOT_001366,SLOT_001376,same-antenna overlap,
+SLOT_001367,SLOT_001376,same-antenna overlap,
+SLOT_001370,SLOT_001374,same-antenna overlap,
+SLOT_001371,SLOT_001379,same-antenna overlap,
+SLOT_001371,SLOT_001387,same-antenna reconfiguration time,0.05
+SLOT_001372,SLOT_001380,same-antenna overlap,
+SLOT_001372,SLOT_001400,same-antenna reconfiguration time,0.05
+SLOT_001374,SLOT_001410,same-antenna reconfiguration time,0.05
+SLOT_001374,SLOT_001411,same-antenna reconfiguration time,0.05
+SLOT_001375,SLOT_001389,same-antenna overlap,
+SLOT_001375,SLOT_001392,same-antenna reconfiguration time,0.05
+SLOT_001375,SLOT_001415,same-antenna reconfiguration time,0.05
+SLOT_001376,SLOT_001403,same-antenna reconfiguration time,0.05
+SLOT_001376,SLOT_001404,same-antenna reconfiguration time,0.05
+SLOT_001376,SLOT_001405,same-antenna reconfiguration time,0.05
+SLOT_001376,SLOT_001419,same-antenna reconfiguration time,0.05
+SLOT_001377,SLOT_001378,same-antenna overlap,
+SLOT_001377,SLOT_001386,same-antenna overlap,
+SLOT_001377,SLOT_001399,same-antenna reconfiguration time,0.05
+SLOT_001377,SLOT_001414,same-antenna reconfiguration time,0.05
+SLOT_001378,SLOT_001386,same-antenna overlap,
+SLOT_001378,SLOT_001399,same-antenna reconfiguration time,0.05
+SLOT_001378,SLOT_001414,same-antenna reconfiguration time,0.05
+SLOT_001379,SLOT_001387,same-antenna overlap,
+SLOT_001380,SLOT_001400,same-antenna reconfiguration time,0.05
+SLOT_001380,SLOT_001416,same-antenna reconfiguration time,0.05
+SLOT_001380,SLOT_001417,same-antenna reconfiguration time,0.05
+SLOT_001380,SLOT_001418,same-antenna reconfiguration time,0.05
+SLOT_001381,SLOT_001393,same-antenna overlap,
+SLOT_001381,SLOT_001401,same-antenna overlap,
+SLOT_001381,SLOT_001402,same-antenna overlap,
+SLOT_001383,SLOT_001390,same-antenna overlap,
+SLOT_001383,SLOT_001429,same-antenna reconfiguration time,0.05
+SLOT_001383,SLOT_001430,same-antenna reconfiguration time,0.05
+SLOT_001386,SLOT_001399,same-antenna overlap,
+SLOT_001386,SLOT_001414,same-antenna overlap,
+SLOT_001386,SLOT_001426,same-antenna reconfiguration time,0.05
+SLOT_001389,SLOT_001392,same-antenna overlap,
+SLOT_001389,SLOT_001415,same-antenna overlap,
+SLOT_001389,SLOT_001422,same-antenna reconfiguration time,0.05
+SLOT_001389,SLOT_001432,same-antenna reconfiguration time,0.05
+SLOT_001390,SLOT_001429,same-antenna reconfiguration time,0.05
+SLOT_001390,SLOT_001430,same-antenna reconfiguration time,0.05
+SLOT_001392,SLOT_001415,same-antenna overlap,
+SLOT_001392,SLOT_001422,same-antenna overlap,
+SLOT_001392,SLOT_001432,same-antenna reconfiguration time,0.05
+SLOT_001392,SLOT_001435,same-antenna reconfiguration time,0.05
+SLOT_001393,SLOT_001401,same-antenna overlap,
+SLOT_001393,SLOT_001402,same-antenna overlap,
+SLOT_001395,SLOT_001423,same-antenna overlap,
+SLOT_001396,SLOT_001397,same-antenna overlap,
+SLOT_001398,SLOT_001412,same-antenna overlap,
+SLOT_001398,SLOT_001413,same-antenna overlap,
+SLOT_001398,SLOT_001440,same-antenna reconfiguration time,0.05
+SLOT_001398,SLOT_001441,same-antenna reconfiguration time,0.05
+SLOT_001399,SLOT_001414,same-antenna overlap,
+SLOT_001399,SLOT_001426,same-antenna overlap,
+SLOT_001399,SLOT_001442,same-antenna reconfiguration time,0.05
+SLOT_001400,SLOT_001416,same-antenna overlap,
+SLOT_001400,SLOT_001417,same-antenna overlap,
+SLOT_001400,SLOT_001418,same-antenna overlap,
+SLOT_001400,SLOT_001427,same-antenna overlap,
+SLOT_001400,SLOT_001428,same-antenna overlap,
+SLOT_001401,SLOT_001402,same-antenna overlap,
+SLOT_001401,SLOT_001446,same-antenna reconfiguration time,0.05
+SLOT_001402,SLOT_001446,same-antenna reconfiguration time,0.05
+SLOT_001403,SLOT_001404,same-antenna overlap,
+SLOT_001403,SLOT_001405,same-antenna overlap,
+SLOT_001403,SLOT_001419,same-antenna overlap,
+SLOT_001403,SLOT_001424,same-antenna overlap,
+SLOT_001403,SLOT_001431,same-antenna overlap,
+SLOT_001403,SLOT_001437,same-antenna reconfiguration time,0.05
+SLOT_001404,SLOT_001405,same-antenna overlap,
+SLOT_001404,SLOT_001419,same-antenna overlap,
+SLOT_001404,SLOT_001424,same-antenna overlap,
+SLOT_001404,SLOT_001431,same-antenna overlap,
+SLOT_001404,SLOT_001437,same-antenna reconfiguration time,0.05
+SLOT_001405,SLOT_001419,same-antenna overlap,
+SLOT_001405,SLOT_001424,same-antenna overlap,
+SLOT_001405,SLOT_001431,same-antenna overlap,
+SLOT_001405,SLOT_001437,same-antenna reconfiguration time,0.05
+SLOT_001406,SLOT_001407,same-antenna overlap,
+SLOT_001406,SLOT_001408,same-antenna overlap,
+SLOT_001406,SLOT_001449,same-antenna reconfiguration time,0.05
+SLOT_001407,SLOT_001408,same-antenna overlap,
+SLOT_001407,SLOT_001449,same-antenna reconfiguration time,0.05
+SLOT_001408,SLOT_001449,same-antenna reconfiguration time,0.05
+SLOT_001410,SLOT_001411,same-antenna overlap,
+SLOT_001410,SLOT_001421,same-antenna overlap,
+SLOT_001410,SLOT_001433,same-antenna reconfiguration time,0.05
+SLOT_001410,SLOT_001450,same-antenna reconfiguration time,0.05
+SLOT_001411,SLOT_001421,same-antenna overlap,
+SLOT_001411,SLOT_001433,same-antenna reconfiguration time,0.05
+SLOT_001411,SLOT_001450,same-antenna reconfiguration time,0.05
+SLOT_001412,SLOT_001413,same-antenna overlap,
+SLOT_001412,SLOT_001440,same-antenna reconfiguration time,0.05
+SLOT_001412,SLOT_001441,same-antenna reconfiguration time,0.05
+SLOT_001413,SLOT_001440,same-antenna reconfiguration time,0.05
+SLOT_001413,SLOT_001441,same-antenna reconfiguration time,0.05
+SLOT_001414,SLOT_001426,same-antenna overlap,
+SLOT_001414,SLOT_001442,same-antenna reconfiguration time,0.05
+SLOT_001415,SLOT_001422,same-antenna overlap,
+SLOT_001415,SLOT_001432,same-antenna overlap,
+SLOT_001415,SLOT_001435,same-antenna reconfiguration time,0.05
+SLOT_001415,SLOT_001445,same-antenna reconfiguration time,0.05
+SLOT_001416,SLOT_001417,same-antenna overlap,
+SLOT_001416,SLOT_001418,same-antenna overlap,
+SLOT_001416,SLOT_001427,same-antenna overlap,
+SLOT_001416,SLOT_001428,same-antenna overlap,
+SLOT_001416,SLOT_001454,same-antenna reconfiguration time,0.05
+SLOT_001417,SLOT_001418,same-antenna overlap,
+SLOT_001417,SLOT_001427,same-antenna overlap,
+SLOT_001417,SLOT_001428,same-antenna overlap,
+SLOT_001417,SLOT_001454,same-antenna reconfiguration time,0.05
+SLOT_001418,SLOT_001427,same-antenna overlap,
+SLOT_001418,SLOT_001428,same-antenna overlap,
+SLOT_001418,SLOT_001454,same-antenna reconfiguration time,0.05
+SLOT_001419,SLOT_001424,same-antenna overlap,
+SLOT_001419,SLOT_001431,same-antenna overlap,
+SLOT_001419,SLOT_001437,same-antenna reconfiguration time,0.05
+SLOT_001419,SLOT_001459,same-antenna reconfiguration time,0.05
+SLOT_001421,SLOT_001433,same-antenna overlap,
+SLOT_001421,SLOT_001450,same-antenna reconfiguration time,0.05
+SLOT_001421,SLOT_001464,same-antenna reconfiguration time,0.05
+SLOT_001421,SLOT_001465,same-antenna reconfiguration time,0.05
+SLOT_001422,SLOT_001432,same-antenna overlap,
+SLOT_001422,SLOT_001435,same-antenna overlap,
+SLOT_001422,SLOT_001445,same-antenna reconfiguration time,0.05
+SLOT_001422,SLOT_001469,same-antenna reconfiguration time,0.05
+SLOT_001423,SLOT_001448,same-antenna reconfiguration time,0.05
+SLOT_001423,SLOT_001458,same-antenna reconfiguration time,0.05
+SLOT_001424,SLOT_001431,same-antenna overlap,
+SLOT_001424,SLOT_001437,same-antenna overlap,
+SLOT_001424,SLOT_001459,same-antenna reconfiguration time,0.05
+SLOT_001424,SLOT_001472,same-antenna reconfiguration time,0.05
+SLOT_001425,SLOT_001434,same-antenna overlap,
+SLOT_001425,SLOT_001438,same-antenna overlap,
+SLOT_001426,SLOT_001442,same-antenna overlap,
+SLOT_001426,SLOT_001467,same-antenna reconfiguration time,0.05
+SLOT_001427,SLOT_001428,same-antenna overlap,
+SLOT_001427,SLOT_001454,same-antenna reconfiguration time,0.05
+SLOT_001427,SLOT_001470,same-antenna reconfiguration time,0.05
+SLOT_001427,SLOT_001471,same-antenna reconfiguration time,0.05
+SLOT_001428,SLOT_001454,same-antenna reconfiguration time,0.05
+SLOT_001428,SLOT_001470,same-antenna reconfiguration time,0.05
+SLOT_001428,SLOT_001471,same-antenna reconfiguration time,0.05
+SLOT_001429,SLOT_001430,same-antenna overlap,
+SLOT_001429,SLOT_001436,same-antenna overlap,
+SLOT_001430,SLOT_001436,same-antenna overlap,
+SLOT_001431,SLOT_001437,same-antenna overlap,
+SLOT_001431,SLOT_001459,same-antenna reconfiguration time,0.05
+SLOT_001431,SLOT_001472,same-antenna reconfiguration time,0.05
+SLOT_001431,SLOT_001482,same-antenna reconfiguration time,0.05
+SLOT_001432,SLOT_001435,same-antenna overlap,
+SLOT_001432,SLOT_001445,same-antenna overlap,
+SLOT_001432,SLOT_001469,same-antenna reconfiguration time,0.05
+SLOT_001432,SLOT_001478,same-antenna reconfiguration time,0.05
+SLOT_001433,SLOT_001450,same-antenna overlap,
+SLOT_001433,SLOT_001464,same-antenna overlap,
+SLOT_001433,SLOT_001465,same-antenna overlap,
+SLOT_001433,SLOT_001475,same-antenna reconfiguration time,0.05
+SLOT_001434,SLOT_001438,same-antenna overlap,
+SLOT_001434,SLOT_001483,same-antenna reconfiguration time,0.05
+SLOT_001435,SLOT_001445,same-antenna overlap,
+SLOT_001435,SLOT_001469,same-antenna overlap,
+SLOT_001435,SLOT_001478,same-antenna reconfiguration time,0.05
+SLOT_001435,SLOT_001496,same-antenna reconfiguration time,0.05
+SLOT_001436,SLOT_001488,same-antenna reconfiguration time,0.05
+SLOT_001437,SLOT_001459,same-antenna overlap,
+SLOT_001437,SLOT_001472,same-antenna overlap,
+SLOT_001437,SLOT_001482,same-antenna reconfiguration time,0.05
+SLOT_001437,SLOT_001489,same-antenna reconfiguration time,0.05
+SLOT_001438,SLOT_001483,same-antenna reconfiguration time,0.05
+SLOT_001439,SLOT_001476,same-antenna overlap,
+SLOT_001439,SLOT_001492,same-antenna reconfiguration time,0.05
+SLOT_001440,SLOT_001441,same-antenna overlap,
+SLOT_001440,SLOT_001494,same-antenna reconfiguration time,0.05
+SLOT_001441,SLOT_001494,same-antenna reconfiguration time,0.05
+SLOT_001442,SLOT_001467,same-antenna overlap,
+SLOT_001442,SLOT_001485,same-antenna reconfiguration time,0.05
+SLOT_001443,SLOT_001498,same-antenna reconfiguration time,0.05
+SLOT_001445,SLOT_001469,same-antenna overlap,
+SLOT_001445,SLOT_001478,same-antenna overlap,
+SLOT_001445,SLOT_001496,same-antenna reconfiguration time,0.05
+SLOT_001446,SLOT_001455,same-antenna overlap,
+SLOT_001446,SLOT_001456,same-antenna overlap,
+SLOT_001446,SLOT_001457,same-antenna overlap,
+SLOT_001446,SLOT_001479,same-antenna overlap,
+SLOT_001446,SLOT_001499,same-antenna reconfiguration time,0.05
+SLOT_001447,SLOT_001480,same-antenna overlap,
+SLOT_001447,SLOT_001487,same-antenna reconfiguration time,0.05
+SLOT_001448,SLOT_001458,same-antenna overlap,
+SLOT_001448,SLOT_001481,same-antenna overlap,
+SLOT_001448,SLOT_001497,same-antenna reconfiguration time,0.05
+SLOT_001449,SLOT_001460,same-antenna overlap,
+SLOT_001449,SLOT_001461,same-antenna overlap,
+SLOT_001449,SLOT_001473,same-antenna overlap,
+SLOT_001449,SLOT_001490,same-antenna reconfiguration time,0.05
+SLOT_001450,SLOT_001464,same-antenna overlap,
+SLOT_001450,SLOT_001465,same-antenna overlap,
+SLOT_001450,SLOT_001475,same-antenna overlap,
+SLOT_001451,SLOT_001484,same-antenna overlap,
+SLOT_001451,SLOT_001493,same-antenna reconfiguration time,0.05
+SLOT_001452,SLOT_001453,same-antenna overlap,
+SLOT_001452,SLOT_001466,same-antenna overlap,
+SLOT_001453,SLOT_001466,same-antenna overlap,
+SLOT_001454,SLOT_001470,same-antenna overlap,
+SLOT_001454,SLOT_001471,same-antenna overlap,
+SLOT_001454,SLOT_001486,same-antenna overlap,
+SLOT_001455,SLOT_001456,same-antenna overlap,
+SLOT_001455,SLOT_001457,same-antenna overlap,
+SLOT_001455,SLOT_001479,same-antenna overlap,
+SLOT_001455,SLOT_001499,same-antenna reconfiguration time,0.05
+SLOT_001456,SLOT_001457,same-antenna overlap,
+SLOT_001456,SLOT_001479,same-antenna overlap,
+SLOT_001456,SLOT_001499,same-antenna reconfiguration time,0.05
+SLOT_001457,SLOT_001479,same-antenna overlap,
+SLOT_001457,SLOT_001499,same-antenna reconfiguration time,0.05
+SLOT_001458,SLOT_001481,same-antenna overlap,
+SLOT_001458,SLOT_001497,same-antenna reconfiguration time,0.05
+SLOT_001458,SLOT_001507,same-antenna reconfiguration time,0.05
+SLOT_001459,SLOT_001472,same-antenna overlap,
+SLOT_001459,SLOT_001482,same-antenna overlap,
+SLOT_001459,SLOT_001489,same-antenna overlap,
+SLOT_001460,SLOT_001461,same-antenna overlap,
+SLOT_001460,SLOT_001473,same-antenna overlap,
+SLOT_001460,SLOT_001490,same-antenna overlap,
+SLOT_001460,SLOT_001508,same-antenna reconfiguration time,0.05
+SLOT_001461,SLOT_001473,same-antenna overlap,
+SLOT_001461,SLOT_001490,same-antenna overlap,
+SLOT_001461,SLOT_001508,same-antenna reconfiguration time,0.05
+SLOT_001463,SLOT_001491,same-antenna overlap,
+SLOT_001464,SLOT_001465,same-antenna overlap,
+SLOT_001464,SLOT_001475,same-antenna overlap,
+SLOT_001465,SLOT_001475,same-antenna overlap,
+SLOT_001466,SLOT_001511,same-antenna reconfiguration time,0.05
+SLOT_001466,SLOT_001512,same-antenna reconfiguration time,0.05
+SLOT_001467,SLOT_001485,same-antenna overlap,
+SLOT_001467,SLOT_001503,same-antenna reconfiguration time,0.05
+SLOT_001468,SLOT_001477,same-antenna overlap,
+SLOT_001468,SLOT_001504,same-antenna reconfiguration time,0.05
+SLOT_001468,SLOT_001505,same-antenna reconfiguration time,0.05
+SLOT_001469,SLOT_001478,same-antenna overlap,
+SLOT_001469,SLOT_001496,same-antenna overlap,
+SLOT_001470,SLOT_001471,same-antenna overlap,
+SLOT_001470,SLOT_001486,same-antenna overlap,
+SLOT_001471,SLOT_001486,same-antenna overlap,
+SLOT_001472,SLOT_001482,same-antenna overlap,
+SLOT_001472,SLOT_001489,same-antenna overlap,
+SLOT_001472,SLOT_001514,same-antenna reconfiguration time,0.05
+SLOT_001472,SLOT_001515,same-antenna reconfiguration time,0.05
+SLOT_001473,SLOT_001490,same-antenna overlap,
+SLOT_001473,SLOT_001508,same-antenna reconfiguration time,0.05
+SLOT_001473,SLOT_001516,same-antenna reconfiguration time,0.05
+SLOT_001474,SLOT_001509,same-antenna reconfiguration time,0.05
+SLOT_001474,SLOT_001518,same-antenna reconfiguration time,0.05
+SLOT_001475,SLOT_001519,same-antenna reconfiguration time,0.05
+SLOT_001475,SLOT_001520,same-antenna reconfiguration time,0.05
+SLOT_001475,SLOT_001521,same-antenna reconfiguration time,0.05
+SLOT_001476,SLOT_001492,same-antenna overlap,
+SLOT_001476,SLOT_001501,same-antenna reconfiguration time,0.05
+SLOT_001477,SLOT_001504,same-antenna reconfiguration time,0.05
+SLOT_001477,SLOT_001505,same-antenna reconfiguration time,0.05
+SLOT_001478,SLOT_001496,same-antenna overlap,
+SLOT_001478,SLOT_001524,same-antenna reconfiguration time,0.05
+SLOT_001478,SLOT_001525,same-antenna reconfiguration time,0.05
+SLOT_001479,SLOT_001499,same-antenna overlap,
+SLOT_001479,SLOT_001513,same-antenna reconfiguration time,0.05
+SLOT_001480,SLOT_001487,same-antenna overlap,
+SLOT_001480,SLOT_001506,same-antenna reconfiguration time,0.05
+SLOT_001481,SLOT_001497,same-antenna overlap,
+SLOT_001481,SLOT_001507,same-antenna reconfiguration time,0.05
+SLOT_001481,SLOT_001527,same-antenna reconfiguration time,0.05
+SLOT_001482,SLOT_001489,same-antenna overlap,
+SLOT_001482,SLOT_001514,same-antenna reconfiguration time,0.05
+SLOT_001482,SLOT_001515,same-antenna reconfiguration time,0.05
+SLOT_001482,SLOT_001528,same-antenna reconfiguration time,0.05
+SLOT_001484,SLOT_001493,same-antenna overlap,
+SLOT_001484,SLOT_001510,same-antenna reconfiguration time,0.05
+SLOT_001485,SLOT_001503,same-antenna overlap,
+SLOT_001486,SLOT_001526,same-antenna reconfiguration time,0.05
+SLOT_001486,SLOT_001531,same-antenna reconfiguration time,0.05
+SLOT_001487,SLOT_001506,same-antenna overlap,
+SLOT_001489,SLOT_001514,same-antenna reconfiguration time,0.05
+SLOT_001489,SLOT_001515,same-antenna reconfiguration time,0.05
+SLOT_001489,SLOT_001528,same-antenna reconfiguration time,0.05
+SLOT_001489,SLOT_001535,same-antenna reconfiguration time,0.05
+SLOT_001489,SLOT_001536,same-antenna reconfiguration time,0.05
+SLOT_001490,SLOT_001508,same-antenna overlap,
+SLOT_001490,SLOT_001516,same-antenna reconfiguration time,0.05
+SLOT_001491,SLOT_001517,same-antenna reconfiguration time,0.05
+SLOT_001492,SLOT_001501,same-antenna overlap,
+SLOT_001493,SLOT_001510,same-antenna overlap,
+SLOT_001494,SLOT_001502,same-antenna overlap,
+SLOT_001494,SLOT_001522,same-antenna reconfiguration time,0.05
+SLOT_001494,SLOT_001523,same-antenna reconfiguration time,0.05
+SLOT_001496,SLOT_001524,same-antenna reconfiguration time,0.05
+SLOT_001496,SLOT_001525,same-antenna reconfiguration time,0.05
+SLOT_001497,SLOT_001507,same-antenna overlap,
+SLOT_001497,SLOT_001527,same-antenna reconfiguration time,0.05
+SLOT_001497,SLOT_001533,same-antenna reconfiguration time,0.05
+SLOT_001497,SLOT_001534,same-antenna reconfiguration time,0.05
+SLOT_001499,SLOT_001513,same-antenna overlap,
+SLOT_001499,SLOT_001532,same-antenna reconfiguration time,0.05
+SLOT_001502,SLOT_001522,same-antenna overlap,
+SLOT_001502,SLOT_001523,same-antenna overlap,
+SLOT_001503,SLOT_001539,same-antenna reconfiguration time,0.05
+SLOT_001503,SLOT_001549,same-antenna reconfiguration time,0.05
+SLOT_001504,SLOT_001505,same-antenna overlap,
+SLOT_001506,SLOT_001547,same-antenna reconfiguration time,0.05
+SLOT_001507,SLOT_001527,same-antenna overlap,
+SLOT_001507,SLOT_001533,same-antenna overlap,
+SLOT_001507,SLOT_001534,same-antenna overlap,
+SLOT_001508,SLOT_001516,same-antenna overlap,
+SLOT_001508,SLOT_001543,same-antenna reconfiguration time,0.05
+SLOT_001509,SLOT_001518,same-antenna overlap,
+SLOT_001510,SLOT_001548,same-antenna reconfiguration time,0.05
+SLOT_001511,SLOT_001512,same-antenna overlap,
+SLOT_001511,SLOT_001538,same-antenna overlap,
+SLOT_001512,SLOT_001538,same-antenna overlap,
+SLOT_001513,SLOT_001532,same-antenna overlap,
+SLOT_001514,SLOT_001515,same-antenna overlap,
+SLOT_001514,SLOT_001528,same-antenna overlap,
+SLOT_001514,SLOT_001535,same-antenna overlap,
+SLOT_001514,SLOT_001536,same-antenna overlap,
+SLOT_001514,SLOT_001552,same-antenna reconfiguration time,0.05
+SLOT_001515,SLOT_001528,same-antenna overlap,
+SLOT_001515,SLOT_001535,same-antenna overlap,
+SLOT_001515,SLOT_001536,same-antenna overlap,
+SLOT_001515,SLOT_001552,same-antenna reconfiguration time,0.05
+SLOT_001516,SLOT_001543,same-antenna overlap,
+SLOT_001517,SLOT_001553,same-antenna reconfiguration time,0.05
+SLOT_001519,SLOT_001520,same-antenna overlap,
+SLOT_001519,SLOT_001521,same-antenna overlap,
+SLOT_001519,SLOT_001530,same-antenna overlap,
+SLOT_001519,SLOT_001537,same-antenna overlap,
+SLOT_001519,SLOT_001545,same-antenna overlap,
+SLOT_001519,SLOT_001561,same-antenna reconfiguration time,0.05
+SLOT_001520,SLOT_001521,same-antenna overlap,
+SLOT_001520,SLOT_001530,same-antenna overlap,
+SLOT_001520,SLOT_001537,same-antenna overlap,
+SLOT_001520,SLOT_001545,same-antenna overlap,
+SLOT_001520,SLOT_001561,same-antenna reconfiguration time,0.05
+SLOT_001521,SLOT_001530,same-antenna overlap,
+SLOT_001521,SLOT_001537,same-antenna overlap,
+SLOT_001521,SLOT_001545,same-antenna overlap,
+SLOT_001521,SLOT_001561,same-antenna reconfiguration time,0.05
+SLOT_001522,SLOT_001523,same-antenna overlap,
+SLOT_001522,SLOT_001554,same-antenna reconfiguration time,0.05
+SLOT_001523,SLOT_001554,same-antenna reconfiguration time,0.05
+SLOT_001524,SLOT_001525,same-antenna overlap,
+SLOT_001524,SLOT_001546,same-antenna overlap,
+SLOT_001524,SLOT_001556,same-antenna reconfiguration time,0.05
+SLOT_001525,SLOT_001546,same-antenna overlap,
+SLOT_001525,SLOT_001556,same-antenna reconfiguration time,0.05
+SLOT_001526,SLOT_001531,same-antenna overlap,
+SLOT_001526,SLOT_001540,same-antenna overlap,
+SLOT_001526,SLOT_001541,same-antenna overlap,
+SLOT_001526,SLOT_001557,same-antenna reconfiguration time,0.05
+SLOT_001527,SLOT_001533,same-antenna overlap,
+SLOT_001527,SLOT_001534,same-antenna overlap,
+SLOT_001527,SLOT_001559,same-antenna reconfiguration time,0.05
+SLOT_001528,SLOT_001535,same-antenna overlap,
+SLOT_001528,SLOT_001536,same-antenna overlap,
+SLOT_001528,SLOT_001552,same-antenna reconfiguration time,0.05
+SLOT_001528,SLOT_001567,same-antenna reconfiguration time,0.05
+SLOT_001529,SLOT_001544,same-antenna overlap,
+SLOT_001529,SLOT_001569,same-antenna reconfiguration time,0.05
+SLOT_001530,SLOT_001537,same-antenna overlap,
+SLOT_001530,SLOT_001545,same-antenna overlap,
+SLOT_001530,SLOT_001561,same-antenna reconfiguration time,0.05
+SLOT_001530,SLOT_001570,same-antenna reconfiguration time,0.05
+SLOT_001530,SLOT_001571,same-antenna reconfiguration time,0.05
+SLOT_001531,SLOT_001540,same-antenna overlap,
+SLOT_001531,SLOT_001541,same-antenna overlap,
+SLOT_001531,SLOT_001557,same-antenna reconfiguration time,0.05
+SLOT_001531,SLOT_001578,same-antenna reconfiguration time,0.05
+SLOT_001532,SLOT_001566,same-antenna reconfiguration time,0.05
+SLOT_001533,SLOT_001534,same-antenna overlap,
+SLOT_001533,SLOT_001559,same-antenna reconfiguration time,0.05
+SLOT_001534,SLOT_001559,same-antenna reconfiguration time,0.05
+SLOT_001535,SLOT_001536,same-antenna overlap,
+SLOT_001535,SLOT_001552,same-antenna overlap,
+SLOT_001535,SLOT_001567,same-antenna reconfiguration time,0.05
+SLOT_001536,SLOT_001552,same-antenna overlap,
+SLOT_001536,SLOT_001567,same-antenna reconfiguration time,0.05
+SLOT_001537,SLOT_001545,same-antenna overlap,
+SLOT_001537,SLOT_001561,same-antenna reconfiguration time,0.05
+SLOT_001537,SLOT_001570,same-antenna reconfiguration time,0.05
+SLOT_001537,SLOT_001571,same-antenna reconfiguration time,0.05
+SLOT_001537,SLOT_001580,same-antenna reconfiguration time,0.05
+SLOT_001538,SLOT_001562,same-antenna reconfiguration time,0.05
+SLOT_001539,SLOT_001549,same-antenna overlap,
+SLOT_001539,SLOT_001555,same-antenna overlap,
+SLOT_001539,SLOT_001573,same-antenna reconfiguration time,0.05
+SLOT_001540,SLOT_001541,same-antenna overlap,
+SLOT_001540,SLOT_001557,same-antenna overlap,
+SLOT_001540,SLOT_001578,same-antenna reconfiguration time,0.05
+SLOT_001541,SLOT_001557,same-antenna overlap,
+SLOT_001541,SLOT_001578,same-antenna reconfiguration time,0.05
+SLOT_001542,SLOT_001560,same-antenna overlap,
+SLOT_001543,SLOT_001568,same-antenna reconfiguration time,0.05
+SLOT_001544,SLOT_001569,same-antenna reconfiguration time,0.05
+SLOT_001545,SLOT_001561,same-antenna overlap,
+SLOT_001545,SLOT_001570,same-antenna reconfiguration time,0.05
+SLOT_001545,SLOT_001571,same-antenna reconfiguration time,0.05
+SLOT_001545,SLOT_001580,same-antenna reconfiguration time,0.05
+SLOT_001546,SLOT_001556,same-antenna overlap,
+SLOT_001546,SLOT_001577,same-antenna reconfiguration time,0.05
+SLOT_001548,SLOT_001582,same-antenna reconfiguration time,0.05
+SLOT_001549,SLOT_001555,same-antenna overlap,
+SLOT_001549,SLOT_001573,same-antenna overlap,
+SLOT_001550,SLOT_001574,same-antenna overlap,
+SLOT_001550,SLOT_001575,same-antenna overlap,
+SLOT_001550,SLOT_001589,same-antenna reconfiguration time,0.05
+SLOT_001551,SLOT_001564,same-antenna overlap,
+SLOT_001551,SLOT_001565,same-antenna overlap,
+SLOT_001552,SLOT_001567,same-antenna overlap,
+SLOT_001552,SLOT_001587,same-antenna reconfiguration time,0.05
+SLOT_001554,SLOT_001572,same-antenna overlap,
+SLOT_001554,SLOT_001583,same-antenna overlap,
+SLOT_001554,SLOT_001596,same-antenna reconfiguration time,0.05
+SLOT_001555,SLOT_001573,same-antenna overlap,
+SLOT_001555,SLOT_001603,same-antenna reconfiguration time,0.05
+SLOT_001556,SLOT_001577,same-antenna overlap,
+SLOT_001557,SLOT_001578,same-antenna overlap,
+SLOT_001557,SLOT_001590,same-antenna reconfiguration time,0.05
+SLOT_001558,SLOT_001579,same-antenna overlap,
+SLOT_001558,SLOT_001586,same-antenna overlap,
+SLOT_001559,SLOT_001591,same-antenna reconfiguration time,0.05
+SLOT_001559,SLOT_001600,same-antenna reconfiguration time,0.05
+SLOT_001560,SLOT_001601,same-antenna reconfiguration time,0.05
+SLOT_001561,SLOT_001570,same-antenna overlap,
+SLOT_001561,SLOT_001571,same-antenna overlap,
+SLOT_001561,SLOT_001580,same-antenna overlap,
+SLOT_001561,SLOT_001593,same-antenna reconfiguration time,0.05
+SLOT_001562,SLOT_001588,same-antenna overlap,
+SLOT_001562,SLOT_001608,same-antenna reconfiguration time,0.05
+SLOT_001563,SLOT_001576,same-antenna overlap,
+SLOT_001563,SLOT_001604,same-antenna reconfiguration time,0.05
+SLOT_001564,SLOT_001565,same-antenna overlap,
+SLOT_001566,SLOT_001585,same-antenna overlap,
+SLOT_001566,SLOT_001612,same-antenna reconfiguration time,0.05
+SLOT_001567,SLOT_001587,same-antenna overlap,
+SLOT_001568,SLOT_001592,same-antenna overlap,
+SLOT_001568,SLOT_001613,same-antenna reconfiguration time,0.05
+SLOT_001570,SLOT_001571,same-antenna overlap,
+SLOT_001570,SLOT_001580,same-antenna overlap,
+SLOT_001570,SLOT_001593,same-antenna overlap,
+SLOT_001570,SLOT_001614,same-antenna reconfiguration time,0.05
+SLOT_001571,SLOT_001580,same-antenna overlap,
+SLOT_001571,SLOT_001593,same-antenna overlap,
+SLOT_001571,SLOT_001614,same-antenna reconfiguration time,0.05
+SLOT_001572,SLOT_001583,same-antenna overlap,
+SLOT_001572,SLOT_001596,same-antenna overlap,
+SLOT_001573,SLOT_001603,same-antenna reconfiguration time,0.05
+SLOT_001573,SLOT_001609,same-antenna reconfiguration time,0.05
+SLOT_001573,SLOT_001616,same-antenna reconfiguration time,0.05
+SLOT_001574,SLOT_001575,same-antenna overlap,
+SLOT_001574,SLOT_001589,same-antenna overlap,
+SLOT_001575,SLOT_001589,same-antenna overlap,
+SLOT_001576,SLOT_001604,same-antenna reconfiguration time,0.05
+SLOT_001577,SLOT_001611,same-antenna reconfiguration time,0.05
+SLOT_001578,SLOT_001590,same-antenna overlap,
+SLOT_001579,SLOT_001586,same-antenna overlap,
+SLOT_001580,SLOT_001593,same-antenna overlap,
+SLOT_001580,SLOT_001614,same-antenna reconfiguration time,0.05
+SLOT_001580,SLOT_001623,same-antenna reconfiguration time,0.05
+SLOT_001581,SLOT_001595,same-antenna overlap,
+SLOT_001581,SLOT_001615,same-antenna reconfiguration time,0.05
+SLOT_001582,SLOT_001602,same-antenna overlap,
+SLOT_001582,SLOT_001624,same-antenna reconfiguration time,0.05
+SLOT_001583,SLOT_001596,same-antenna overlap,
+SLOT_001584,SLOT_001597,same-antenna overlap,
+SLOT_001584,SLOT_001617,same-antenna reconfiguration time,0.05
+SLOT_001585,SLOT_001612,same-antenna reconfiguration time,0.05
+SLOT_001587,SLOT_001621,same-antenna reconfiguration time,0.05
+SLOT_001588,SLOT_001608,same-antenna overlap,
+SLOT_001589,SLOT_001625,same-antenna reconfiguration time,0.05
+SLOT_001590,SLOT_001628,same-antenna reconfiguration time,0.05
+SLOT_001591,SLOT_001600,same-antenna overlap,
+SLOT_001592,SLOT_001613,same-antenna overlap,
+SLOT_001593,SLOT_001614,same-antenna overlap,
+SLOT_001593,SLOT_001623,same-antenna reconfiguration time,0.05
+SLOT_001593,SLOT_001630,same-antenna reconfiguration time,0.05
+SLOT_001593,SLOT_001631,same-antenna reconfiguration time,0.05
+SLOT_001595,SLOT_001615,same-antenna overlap,
+SLOT_001597,SLOT_001617,same-antenna overlap,
+SLOT_001597,SLOT_001632,same-antenna reconfiguration time,0.05
+SLOT_001598,SLOT_001599,same-antenna overlap,
+SLOT_001598,SLOT_001620,same-antenna overlap,
+SLOT_001599,SLOT_001620,same-antenna overlap,
+SLOT_001602,SLOT_001624,same-antenna overlap,
+SLOT_001603,SLOT_001609,same-antenna overlap,
+SLOT_001603,SLOT_001616,same-antenna overlap,
+SLOT_001604,SLOT_001626,same-antenna overlap,
+SLOT_001604,SLOT_001643,same-antenna reconfiguration time,0.05
+SLOT_001605,SLOT_001629,same-antenna overlap,
+SLOT_001606,SLOT_001607,same-antenna overlap,
+SLOT_001606,SLOT_001639,same-antenna reconfiguration time,0.05
+SLOT_001606,SLOT_001647,same-antenna reconfiguration time,0.05
+SLOT_001607,SLOT_001639,same-antenna reconfiguration time,0.05
+SLOT_001607,SLOT_001647,same-antenna reconfiguration time,0.05
+SLOT_001608,SLOT_001635,same-antenna reconfiguration time,0.05
+SLOT_001609,SLOT_001616,same-antenna overlap,
+SLOT_001610,SLOT_001618,same-antenna overlap,
+SLOT_001611,SLOT_001627,same-antenna overlap,
+SLOT_001611,SLOT_001645,same-antenna reconfiguration time,0.05
+SLOT_001612,SLOT_001633,same-antenna overlap,
+SLOT_001613,SLOT_001638,same-antenna reconfiguration time,0.05
+SLOT_001614,SLOT_001623,same-antenna overlap,
+SLOT_001614,SLOT_001630,same-antenna overlap,
+SLOT_001614,SLOT_001631,same-antenna overlap,
+SLOT_001614,SLOT_001640,same-antenna reconfiguration time,0.05
+SLOT_001615,SLOT_001642,same-antenna reconfiguration time,0.05
+SLOT_001616,SLOT_001652,same-antenna reconfiguration time,0.05
+SLOT_001617,SLOT_001632,same-antenna overlap,
+SLOT_001619,SLOT_001644,same-antenna reconfiguration time,0.05
+SLOT_001621,SLOT_001634,same-antenna overlap,
+SLOT_001623,SLOT_001630,same-antenna overlap,
+SLOT_001623,SLOT_001631,same-antenna overlap,
+SLOT_001623,SLOT_001640,same-antenna overlap,
+SLOT_001623,SLOT_001656,same-antenna reconfiguration time,0.05
+SLOT_001623,SLOT_001657,same-antenna reconfiguration time,0.05
+SLOT_001625,SLOT_001636,same-antenna overlap,
+SLOT_001625,SLOT_001649,same-antenna reconfiguration time,0.05
+SLOT_001626,SLOT_001643,same-antenna overlap,
+SLOT_001627,SLOT_001645,same-antenna overlap,
+SLOT_001627,SLOT_001663,same-antenna reconfiguration time,0.05
+SLOT_001628,SLOT_001637,same-antenna overlap,
+SLOT_001630,SLOT_001631,same-antenna overlap,
+SLOT_001630,SLOT_001640,same-antenna overlap,
+SLOT_001630,SLOT_001656,same-antenna reconfiguration time,0.05
+SLOT_001630,SLOT_001657,same-antenna reconfiguration time,0.05
+SLOT_001630,SLOT_001670,same-antenna reconfiguration time,0.05
+SLOT_001630,SLOT_001671,same-antenna reconfiguration time,0.05
+SLOT_001631,SLOT_001640,same-antenna overlap,
+SLOT_001631,SLOT_001656,same-antenna reconfiguration time,0.05
+SLOT_001631,SLOT_001657,same-antenna reconfiguration time,0.05
+SLOT_001631,SLOT_001670,same-antenna reconfiguration time,0.05
+SLOT_001631,SLOT_001671,same-antenna reconfiguration time,0.05
+SLOT_001632,SLOT_001661,same-antenna reconfiguration time,0.05
+SLOT_001633,SLOT_001653,same-antenna reconfiguration time,0.05
+SLOT_001633,SLOT_001664,same-antenna reconfiguration time,0.05
+SLOT_001634,SLOT_001667,same-antenna reconfiguration time,0.05
+SLOT_001635,SLOT_001651,same-antenna overlap,
+SLOT_001635,SLOT_001660,same-antenna reconfiguration time,0.05
+SLOT_001636,SLOT_001649,same-antenna overlap,
+SLOT_001638,SLOT_001655,same-antenna overlap,
+SLOT_001638,SLOT_001668,same-antenna reconfiguration time,0.05
+SLOT_001639,SLOT_001647,same-antenna overlap,
+SLOT_001639,SLOT_001669,same-antenna reconfiguration time,0.05
+SLOT_001639,SLOT_001685,same-antenna reconfiguration time,0.05
+SLOT_001640,SLOT_001656,same-antenna overlap,
+SLOT_001640,SLOT_001657,same-antenna overlap,
+SLOT_001640,SLOT_001670,same-antenna reconfiguration time,0.05
+SLOT_001640,SLOT_001671,same-antenna reconfiguration time,0.05
+SLOT_001640,SLOT_001679,same-antenna reconfiguration time,0.05
+SLOT_001642,SLOT_001658,same-antenna overlap,
+SLOT_001642,SLOT_001659,same-antenna overlap,
+SLOT_001643,SLOT_001675,same-antenna reconfiguration time,0.05
+SLOT_001644,SLOT_001662,same-antenna overlap,
+SLOT_001644,SLOT_001676,same-antenna reconfiguration time,0.05
+SLOT_001645,SLOT_001663,same-antenna overlap,
+SLOT_001645,SLOT_001677,same-antenna reconfiguration time,0.05
+SLOT_001647,SLOT_001669,same-antenna overlap,
+SLOT_001647,SLOT_001685,same-antenna reconfiguration time,0.05
+SLOT_001648,SLOT_001680,same-antenna reconfiguration time,0.05
+SLOT_001648,SLOT_001681,same-antenna reconfiguration time,0.05
+SLOT_001650,SLOT_001654,same-antenna overlap,
+SLOT_001650,SLOT_001666,same-antenna overlap,
+SLOT_001651,SLOT_001660,same-antenna overlap,
+SLOT_001652,SLOT_001673,same-antenna overlap,
+SLOT_001652,SLOT_001674,same-antenna overlap,
+SLOT_001653,SLOT_001664,same-antenna overlap,
+SLOT_001653,SLOT_001683,same-antenna overlap,
+SLOT_001654,SLOT_001666,same-antenna overlap,
+SLOT_001655,SLOT_001668,same-antenna overlap,
+SLOT_001656,SLOT_001657,same-antenna overlap,
+SLOT_001656,SLOT_001670,same-antenna overlap,
+SLOT_001656,SLOT_001671,same-antenna overlap,
+SLOT_001656,SLOT_001679,same-antenna overlap,
+SLOT_001657,SLOT_001670,same-antenna overlap,
+SLOT_001657,SLOT_001671,same-antenna overlap,
+SLOT_001657,SLOT_001679,same-antenna overlap,
+SLOT_001658,SLOT_001659,same-antenna overlap,
+SLOT_001661,SLOT_001682,same-antenna overlap,
+SLOT_001662,SLOT_001676,same-antenna overlap,
+SLOT_001663,SLOT_001677,same-antenna overlap,
+SLOT_001664,SLOT_001683,same-antenna overlap,
+SLOT_001667,SLOT_001684,same-antenna overlap,
+SLOT_001669,SLOT_001685,same-antenna overlap,
+SLOT_001670,SLOT_001671,same-antenna overlap,
+SLOT_001670,SLOT_001679,same-antenna overlap,
+SLOT_001671,SLOT_001679,same-antenna overlap,
+SLOT_001673,SLOT_001674,same-antenna overlap,
+SLOT_001680,SLOT_001681,same-antenna overlap,

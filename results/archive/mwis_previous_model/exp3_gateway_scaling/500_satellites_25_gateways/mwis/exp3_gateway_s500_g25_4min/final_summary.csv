@@ -1,0 +1,17 @@
+metric,value,meaning
+Number of components (total),265.0,Natural connected components.
+Number of couplers (total),3434.0,Conflict edges in the full graph.
+Total number of solution subgraphs,292.0,Terminal subgraphs plus fallback nodes used in the selected solution.
+Subgraphs solved directly,170.0,Natural components that already fit the QPU limits.
+Subgraphs solved exactly with separator decomposition,122.0,Terminal subgraphs produced from oversized components.
+Subgraphs solved heuristically,0.0,Fallback nodes used in the selected feasible solution; unresolved alternative states are counted separately below.
+Components with incomplete separator decomposition,0.0,"Components with at least one unresolved separator state, including alternatives not selected in the feasible solution."
+Incomplete decomposition nodes (all states),0.0,Unresolved decomposition nodes across all separator states.
+Exact components objective sum,44965.184,Objective contribution from components whose decomposition and terminal solves are certified exact.
+Exact global objective,44965.184,Available only when the global optimum is certified.
+Incomplete/heuristic components feasible sum,0.0,"Feasible objective from uncertified components; includes their full selected solution, not only fallback-node weight."
+Incomplete/heuristic components conservative upper bound,0.0,"Conservative upper bound for uncertified components, including unresolved alternative separator states."
+Total feasible objective / lower bound,44965.184,Objective of the reconstructed feasible schedule.
+Total conservative upper bound,44965.184,Conservative upper bound on the true optimum.
+Absolute optimality-gap bound,0.0,Upper bound minus feasible objective.
+Relative optimality-gap bound (%),0.0,Gap as a percentage of the conservative upper bound.

@@ -1,0 +1,145 @@
+{
+  "campaign": "Experiments 1-3 MWIS final scenario inputs",
+  "snapshot": "data/experiment_inputs/exp1_3_snapshot_2026-09-27",
+  "python_kernel": "Python 3.13.14",
+  "common_data_settings": {
+    "horizon_start_utc": "2026-06-18T00:00:00Z",
+    "horizon_hours": 4,
+    "visibility_step_seconds": 60,
+    "elevation_mask_degrees": 25.0,
+    "minimum_contact_duration_minutes": 4,
+    "candidate_start_step_minutes": 2,
+    "minimum_visibility_window_seconds": 60,
+    "reconfiguration_seconds": 180,
+    "blackouts_per_station": 0,
+    "include_unavailable_windows": false,
+    "priority_mode": "satellite_stable_with_pass_quality",
+    "urgency_mode": "earlier_slots_more_urgent",
+    "priority_random_seed": 20260531,
+    "priority_weight": 0.45,
+    "duration_weight": 0.25,
+    "urgency_weight": 0.2,
+    "elevation_weight": 0.1
+  },
+  "common_mwis_settings": {
+    "max_qpu_terminal_nodes": 30,
+    "max_qpu_terminal_couplers": 200,
+    "max_separator_size": 3,
+    "max_separator_candidate_pool": 14,
+    "max_separator_states": 10000,
+    "max_recursion_depth": 12,
+    "max_decomposition_nodes": 10000,
+    "exact_enumeration_node_limit": 22,
+    "exact_clique_node_limit": 50,
+    "num_reads": 500,
+    "base_seed": 42
+  },
+  "settings_note": "The final MWIS runs standardized the exact-clique limit at 50 after the slot CSV snapshot was prepared. This solver guard does not affect candidate-slot generation; the frozen CSV files and their hashes are unchanged.",
+  "scenarios": [
+    {
+      "scenario": "exp1_baseline_s100_g50",
+      "experiments": "experiments_1_and_2",
+      "satellites_requested": 100,
+      "gateways_requested": 50,
+      "satellites_with_candidate_slots": 60,
+      "gateways_with_candidate_slots": 49,
+      "visibility_windows": 1814,
+      "operational_windows": 1814,
+      "candidate_slots": 422,
+      "candidate_slot_file": "data/experiment_inputs/exp1_3_snapshot_2026-09-27/scenario_inputs/slots_s100_g50.csv",
+      "sha256": "9815542db03d0a150acf256f4fe3d4527749d1e51177ea979f3ee5791cf64867",
+      "graph_preflight": {
+        "conflict_edges": 90,
+        "natural_components": 333,
+        "largest_component_nodes": 3,
+        "largest_component_edges": 2,
+        "components_within_direct_qpu_limits": 333,
+        "components_over_direct_qpu_limits": 0
+      }
+    },
+    {
+      "scenario": "exp2_satellite_s200_g50",
+      "experiments": "experiment_2",
+      "satellites_requested": 200,
+      "gateways_requested": 50,
+      "satellites_with_candidate_slots": 118,
+      "gateways_with_candidate_slots": 49,
+      "visibility_windows": 3291,
+      "operational_windows": 3291,
+      "candidate_slots": 764,
+      "candidate_slot_file": "data/experiment_inputs/exp1_3_snapshot_2026-09-27/scenario_inputs/slots_s200_g50.csv",
+      "sha256": "7fcfe7b9bd596edfa3a4d703125c3e49084f2bfb81acebcb40c00127fbf21f36",
+      "graph_preflight": {
+        "conflict_edges": 350,
+        "natural_components": 471,
+        "largest_component_nodes": 9,
+        "largest_component_edges": 11,
+        "components_within_direct_qpu_limits": 471,
+        "components_over_direct_qpu_limits": 0
+      }
+    },
+    {
+      "scenario": "shared_s500_g50",
+      "experiments": "experiments_2_and_3",
+      "satellites_requested": 500,
+      "gateways_requested": 50,
+      "satellites_with_candidate_slots": 327,
+      "gateways_with_candidate_slots": 49,
+      "visibility_windows": 10388,
+      "operational_windows": 10388,
+      "candidate_slots": 3220,
+      "candidate_slot_file": "data/experiment_inputs/exp1_3_snapshot_2026-09-27/scenario_inputs/slots_s500_g50.csv",
+      "sha256": "8cfe243b73ff3808fe90271569790002c692014a658be7571e9f59308e1ca617",
+      "graph_preflight": {
+        "conflict_edges": 6515,
+        "natural_components": 561,
+        "largest_component_nodes": 139,
+        "largest_component_edges": 495,
+        "components_within_direct_qpu_limits": 546,
+        "components_over_direct_qpu_limits": 15
+      }
+    },
+    {
+      "scenario": "exp3_gateway_s500_g25",
+      "experiments": "experiment_3",
+      "satellites_requested": 500,
+      "gateways_requested": 25,
+      "satellites_with_candidate_slots": 290,
+      "gateways_with_candidate_slots": 24,
+      "visibility_windows": 5321,
+      "operational_windows": 5321,
+      "candidate_slots": 1685,
+      "candidate_slot_file": "data/experiment_inputs/exp1_3_snapshot_2026-09-27/scenario_inputs/slots_s500_g25.csv",
+      "sha256": "b3e7b38025a441ba22c08a669b13c313d891fdb38d3273c1163e2aed89e897d3",
+      "graph_preflight": {
+        "conflict_edges": 3434,
+        "natural_components": 265,
+        "largest_component_nodes": 129,
+        "largest_component_edges": 482,
+        "components_within_direct_qpu_limits": 255,
+        "components_over_direct_qpu_limits": 10
+      }
+    },
+    {
+      "scenario": "exp3_gateway_s500_g100",
+      "experiments": "experiment_3",
+      "satellites_requested": 500,
+      "gateways_requested": 100,
+      "satellites_with_candidate_slots": 342,
+      "gateways_with_candidate_slots": 98,
+      "visibility_windows": 21610,
+      "operational_windows": 21610,
+      "candidate_slots": 6706,
+      "candidate_slot_file": "data/experiment_inputs/exp1_3_snapshot_2026-09-27/scenario_inputs/slots_s500_g100.csv",
+      "sha256": "9330ae5994e3d69db987abaf2d9b7d7abf90efb7f990b84048812538740aa692",
+      "graph_preflight": {
+        "conflict_edges": 14226,
+        "natural_components": 1083,
+        "largest_component_nodes": 157,
+        "largest_component_edges": 617,
+        "components_within_direct_qpu_limits": 1049,
+        "components_over_direct_qpu_limits": 34
+      }
+    }
+  ]
+}

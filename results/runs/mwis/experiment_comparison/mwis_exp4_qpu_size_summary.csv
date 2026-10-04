@@ -1,0 +1,4 @@
+Profile,Run,QPU node limit,QPU coupler limit,Candidate slots,Conflict edges,Natural components,Direct QUBOs,Separator QUBOs,Incomplete components,Incomplete nodes,Terminal QUBOs,Max QUBO nodes,Max QUBO couplers,Annealed used,Selected contacts,Feasible objective,Pipeline upper bound,Pipeline gap (%),LP-refined upper bound,LP-refined gap (%),LP check,Selected conflicts
+20 nodes / 100 couplers,exp4_s500_g50_n20_c100,20,100,3220,11457,150,81,229,2,4987,310,20,72,123,914,61955.547000,179759.123000,65.534129,102202.968000,39.379895,LP-tightened,0
+30 nodes / 200 couplers,exp2_s500_g50,30,200,3220,11457,150,83,99,1,4983,182,30,101,113,914,61955.547000,178706.419000,65.331102,101518.531000,38.971194,LP-tightened,0
+50 nodes / 350 couplers,exp4_s500_g50_n50_c350,50,350,3220,11457,150,89,31,1,4989,120,47,143,102,914,61955.547000,178706.419000,65.331102,101518.531000,38.971194,LP-tightened,0

@@ -1,0 +1,50 @@
+{
+  "run": "exp2_s500_g50",
+  "input": "data/experiment_inputs/exp1_3_snapshot_2026-09-27/scenario_inputs/slots_s500_g50.csv",
+  "model": "revised MWIS model with same-satellite overlapping-contact conflicts",
+  "graph": {
+    "nodes": 3220,
+    "edges": 11457,
+    "natural_components": 150,
+    "same_satellite_overlap_edges": 4942
+  },
+  "mwis": {
+    "complete_natural_components": 149,
+    "incomplete_natural_components": 1,
+    "incomplete_decomposition_nodes": 4983,
+    "terminal_subgraphs": 182,
+    "feasible_objective": 61955.547,
+    "conservative_upper_bound_before_lp": 178706.419,
+    "absolute_gap_before_lp": 116750.872,
+    "relative_gap_before_lp_percent": 65.3311
+  },
+  "annealing_reconstruction": {
+    "simulated_annealing": true,
+    "annealed_terminal_subgraphs": 182,
+    "annealed_subgraphs_used_in_reconstruction": 113,
+    "infeasible_terminal_samples": 0,
+    "selected_contacts": 914,
+    "reconstructed_objective": 61955.547,
+    "selected_conflict_edges": 0,
+    "certification": "feasible schedule; global optimum not certified"
+  },
+  "lp_refinement": {
+    "scope": "largest natural component, component_001",
+    "nodes": 2419,
+    "edges": 10057,
+    "solver": "SciPy linprog / HiGHS",
+    "status": "optimal",
+    "iterations": 2493,
+    "solve_seconds": 0.0765,
+    "lp_component_upper_bound": 78191.053,
+    "saved_component_feasible_score": 38628.069,
+    "max_edge_constraint_violation": 0.0,
+    "refined_global_upper_bound": 101518.531,
+    "refined_absolute_gap": 39562.984,
+    "refined_gap_as_percent_of_upper_bound": 38.9712,
+    "previous_gap_reduction": 77187.888,
+    "previous_gap_reduction_percent": 66.1133
+  },
+  "interpretation": "The LP relaxation gives a valid upper bound for this graph's MWIS optimum, subject to solver floating-point tolerances. It tightens the reporting bound; it does not change the feasible annealed schedule or certify the integer optimum.",
+  "execution_note": "Run-name and input overrides were applied in memory. The active notebooks, results/_config.json, archived previous-model files, and mixed legacy run folder were not edited."
+}

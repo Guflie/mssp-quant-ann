@@ -1,0 +1,1193 @@
+{
+  "title": "Archived MWIS results — previous model without satellite overlap conflicts",
+  "freeze_created_utc": "2026-09-30T12:09:31.1236582Z",
+  "freeze_directory": "results/archive/mwis_previous_model",
+  "repository": {
+    "commit": "564eae063bee54cc99348ef0c4ef4ad7c2a10188",
+    "working_tree_was_dirty": true,
+    "git_status_capture": "read-only; safe.directory set for this invocation only"
+  },
+  "input_snapshot": {
+    "source_directory": "data/experiment_inputs/exp1_3_snapshot_2026-09-27/scenario_inputs",
+    "files": {
+      "slots_s100_g50.csv": "9815542db03d0a150acf256f4fe3d4527749d1e51177ea979f3ee5791cf64867",
+      "slots_s200_g50.csv": "7fcfe7b9bd596edfa3a4d703125c3e49084f2bfb81acebcb40c00127fbf21f36",
+      "slots_s500_g50.csv": "8cfe243b73ff3808fe90271569790002c692014a658be7571e9f59308e1ca617",
+      "slots_s500_g25.csv": "b3e7b38025a441ba22c08a669b13c313d891fdb38d3273c1163e2aed89e897d3",
+      "slots_s500_g100.csv": "9330ae5994e3d69db987abaf2d9b7d7abf90efb7f990b84048812538740aa692"
+    }
+  },
+  "execution_environment": {
+    "python_version_current": "3.13.14",
+    "python_executable": "C:\\Users\\felip\\AppData\\Local\\Python\\pythoncore-3.13-64\\python.exe",
+    "jupyter_kernel": "python313",
+    "packages": {
+      "pandas": "3.0.3",
+      "networkx": "3.6.1",
+      "matplotlib": "3.11.0",
+      "dimod": "0.12.22",
+      "dwave-samplers": "1.8.0",
+      "nbclient": "0.11.0",
+      "nbformat": "5.10.4"
+    },
+    "runtime_note": "Python 3.13.14 was explicitly confirmed for Experiment 4 exact50 reruns. Runtime version was not separately persisted for Experiments 1–3; their notebook kernelspec currently indicates Python 3.13.14.",
+    "annealer": "dwave.samplers.SimulatedAnnealingSampler; classical simulated annealing, not physical QPU"
+  },
+  "validation": {
+    "mw_is_and_annealing_cases_passed": 8,
+    "all_cases_use_expected_saved_inputs": true,
+    "annealed_terminal_coverage_complete": true,
+    "all_terminal_qubos_within_saved_limits": true,
+    "all_terminal_samples_independent": true,
+    "all_recomputed_energies_match": true,
+    "all_reconstructed_schedules_conflict_free": true,
+    "objective_weights_and_bounds_consistent": true
+  },
+  "results_by_run": [
+    {
+      "run": "exp1_baseline_s100_g50_4min",
+      "candidate_input": "exp1_baseline/input/slots_s100_g50.csv",
+      "candidate_input_sha256": "9815542db03d0a150acf256f4fe3d4527749d1e51177ea979f3ee5791cf64867",
+      "candidate_slots": 422,
+      "conflict_edges": 90,
+      "natural_components": 333,
+      "qpu_terminal_node_limit": 30,
+      "qpu_terminal_coupler_limit": 200,
+      "exact_enumeration_node_limit": 22,
+      "exact_clique_node_limit": 35,
+      "qubo_reward_factor": 1.0,
+      "qubo_penalty_factor": 1.0,
+      "num_reads": 500,
+      "base_seed": 42,
+      "terminal_qubos": 82,
+      "annealing_rows": 82,
+      "terminal_qubos_used_in_reconstruction": 82,
+      "max_terminal_nodes": 3,
+      "max_terminal_couplers": 3,
+      "selected_contacts": 339,
+      "feasible_objective": 22807.665999999997,
+      "conservative_upper_bound": 22807.666,
+      "relative_gap_percent": 0.0,
+      "incomplete_separator_nodes_all_states": 0,
+      "schedule_conflicts": 0,
+      "all_samples_independent": true,
+      "energies_recomputed_consistently": true,
+      "validation": "PASS",
+      "runtime_version_confirmed": "Not separately recorded per run; current notebook kernelspec is Python 3.13.14",
+      "candidate_input_source": "data/experiment_inputs/exp1_3_snapshot_2026-09-27/scenario_inputs/slots_s100_g50.csv"
+    },
+    {
+      "run": "exp2_satellite_s200_g50_4min",
+      "candidate_input": "exp2_satellite_scaling/200_satellites_50_gateways/input/slots_s200_g50.csv",
+      "candidate_input_sha256": "7fcfe7b9bd596edfa3a4d703125c3e49084f2bfb81acebcb40c00127fbf21f36",
+      "candidate_slots": 764,
+      "conflict_edges": 350,
+      "natural_components": 471,
+      "qpu_terminal_node_limit": 30,
+      "qpu_terminal_coupler_limit": 200,
+      "exact_enumeration_node_limit": 22,
+      "exact_clique_node_limit": 35,
+      "qubo_reward_factor": 1.0,
+      "qubo_penalty_factor": 1.0,
+      "num_reads": 500,
+      "base_seed": 42,
+      "terminal_qubos": 180,
+      "annealing_rows": 180,
+      "terminal_qubos_used_in_reconstruction": 180,
+      "max_terminal_nodes": 9,
+      "max_terminal_couplers": 13,
+      "selected_contacts": 524,
+      "feasible_objective": 36801.511,
+      "conservative_upper_bound": 36801.511,
+      "relative_gap_percent": 0.0,
+      "incomplete_separator_nodes_all_states": 0,
+      "schedule_conflicts": 0,
+      "all_samples_independent": true,
+      "energies_recomputed_consistently": true,
+      "validation": "PASS",
+      "runtime_version_confirmed": "Not separately recorded per run; current notebook kernelspec is Python 3.13.14",
+      "candidate_input_source": "data/experiment_inputs/exp1_3_snapshot_2026-09-27/scenario_inputs/slots_s200_g50.csv"
+    },
+    {
+      "run": "exp2_satellite_s500_g50_4min",
+      "candidate_input": "exp4_qpu_size_sensitivity/input/slots_s500_g50.csv",
+      "candidate_input_sha256": "8cfe243b73ff3808fe90271569790002c692014a658be7571e9f59308e1ca617",
+      "candidate_slots": 3220,
+      "conflict_edges": 6515,
+      "natural_components": 561,
+      "qpu_terminal_node_limit": 30,
+      "qpu_terminal_coupler_limit": 200,
+      "exact_enumeration_node_limit": 22,
+      "exact_clique_node_limit": 35,
+      "qubo_reward_factor": 1.0,
+      "qubo_penalty_factor": 1.0,
+      "num_reads": 500,
+      "base_seed": 42,
+      "terminal_qubos": 558,
+      "annealing_rows": 558,
+      "terminal_qubos_used_in_reconstruction": 401,
+      "max_terminal_nodes": 30,
+      "max_terminal_couplers": 119,
+      "selected_contacts": 1239,
+      "feasible_objective": 87115.245,
+      "conservative_upper_bound": 87115.245,
+      "relative_gap_percent": 0.0,
+      "incomplete_separator_nodes_all_states": 0,
+      "schedule_conflicts": 0,
+      "all_samples_independent": true,
+      "energies_recomputed_consistently": true,
+      "validation": "PASS",
+      "runtime_version_confirmed": "Not separately recorded per run; current notebook kernelspec is Python 3.13.14",
+      "candidate_input_source": "data/experiment_inputs/exp1_3_snapshot_2026-09-27/scenario_inputs/slots_s500_g50.csv"
+    },
+    {
+      "run": "exp3_gateway_s500_g25_4min",
+      "candidate_input": "exp3_gateway_scaling/500_satellites_25_gateways/input/slots_s500_g25.csv",
+      "candidate_input_sha256": "b3e7b38025a441ba22c08a669b13c313d891fdb38d3273c1163e2aed89e897d3",
+      "candidate_slots": 1685,
+      "conflict_edges": 3434,
+      "natural_components": 265,
+      "qpu_terminal_node_limit": 30,
+      "qpu_terminal_coupler_limit": 200,
+      "exact_enumeration_node_limit": 22,
+      "exact_clique_node_limit": 35,
+      "qubo_reward_factor": 1.0,
+      "qubo_penalty_factor": 1.0,
+      "num_reads": 500,
+      "base_seed": 42,
+      "terminal_qubos": 292,
+      "annealing_rows": 292,
+      "terminal_qubos_used_in_reconstruction": 200,
+      "max_terminal_nodes": 30,
+      "max_terminal_couplers": 119,
+      "selected_contacts": 633,
+      "feasible_objective": 44965.18400000001,
+      "conservative_upper_bound": 44965.184,
+      "relative_gap_percent": 0.0,
+      "incomplete_separator_nodes_all_states": 0,
+      "schedule_conflicts": 0,
+      "all_samples_independent": true,
+      "energies_recomputed_consistently": true,
+      "validation": "PASS",
+      "runtime_version_confirmed": "Not separately recorded per run; current notebook kernelspec is Python 3.13.14",
+      "candidate_input_source": "data/experiment_inputs/exp1_3_snapshot_2026-09-27/scenario_inputs/slots_s500_g25.csv"
+    },
+    {
+      "run": "exp3_gateway_s500_g100_4min",
+      "candidate_input": "exp3_gateway_scaling/500_satellites_100_gateways/input/slots_s500_g100.csv",
+      "candidate_input_sha256": "9330ae5994e3d69db987abaf2d9b7d7abf90efb7f990b84048812538740aa692",
+      "candidate_slots": 6706,
+      "conflict_edges": 14226,
+      "natural_components": 1083,
+      "qpu_terminal_node_limit": 30,
+      "qpu_terminal_coupler_limit": 200,
+      "exact_enumeration_node_limit": 22,
+      "exact_clique_node_limit": 35,
+      "qubo_reward_factor": 1.0,
+      "qubo_penalty_factor": 1.0,
+      "num_reads": 500,
+      "base_seed": 42,
+      "terminal_qubos": 1132,
+      "annealing_rows": 1132,
+      "terminal_qubos_used_in_reconstruction": 782,
+      "max_terminal_nodes": 30,
+      "max_terminal_couplers": 126,
+      "selected_contacts": 2499,
+      "feasible_objective": 177096.722,
+      "conservative_upper_bound": 179089.212,
+      "relative_gap_percent": 1.1125684108766924,
+      "incomplete_separator_nodes_all_states": 1,
+      "schedule_conflicts": 0,
+      "all_samples_independent": true,
+      "energies_recomputed_consistently": true,
+      "validation": "PASS",
+      "runtime_version_confirmed": "Not separately recorded per run; current notebook kernelspec is Python 3.13.14",
+      "candidate_input_source": "data/experiment_inputs/exp1_3_snapshot_2026-09-27/scenario_inputs/slots_s500_g100.csv"
+    },
+    {
+      "run": "exp4_qpu_s500_g50_n20_c100",
+      "candidate_input": "exp4_qpu_size_sensitivity/input/slots_s500_g50.csv",
+      "candidate_input_sha256": "8cfe243b73ff3808fe90271569790002c692014a658be7571e9f59308e1ca617",
+      "candidate_slots": 3220,
+      "conflict_edges": 6515,
+      "natural_components": 561,
+      "qpu_terminal_node_limit": 20,
+      "qpu_terminal_coupler_limit": 100,
+      "exact_enumeration_node_limit": 22,
+      "exact_clique_node_limit": 50,
+      "qubo_reward_factor": 1.0,
+      "qubo_penalty_factor": 1.0,
+      "num_reads": 500,
+      "base_seed": 42,
+      "terminal_qubos": 757,
+      "annealing_rows": 757,
+      "terminal_qubos_used_in_reconstruction": 434,
+      "max_terminal_nodes": 20,
+      "max_terminal_couplers": 99,
+      "selected_contacts": 1239,
+      "feasible_objective": 87115.245,
+      "conservative_upper_bound": 89534.272,
+      "relative_gap_percent": 2.701788874767421,
+      "incomplete_separator_nodes_all_states": 2,
+      "schedule_conflicts": 0,
+      "all_samples_independent": true,
+      "energies_recomputed_consistently": true,
+      "validation": "PASS",
+      "runtime_version_confirmed": "Python 3.13.14, kernel python313",
+      "candidate_input_source": "data/experiment_inputs/exp1_3_snapshot_2026-09-27/scenario_inputs/slots_s500_g50.csv"
+    },
+    {
+      "run": "exp4_qpu_s500_g50_n30_c200",
+      "candidate_input": "exp4_qpu_size_sensitivity/input/slots_s500_g50.csv",
+      "candidate_input_sha256": "8cfe243b73ff3808fe90271569790002c692014a658be7571e9f59308e1ca617",
+      "candidate_slots": 3220,
+      "conflict_edges": 6515,
+      "natural_components": 561,
+      "qpu_terminal_node_limit": 30,
+      "qpu_terminal_coupler_limit": 200,
+      "exact_enumeration_node_limit": 22,
+      "exact_clique_node_limit": 50,
+      "qubo_reward_factor": 1.0,
+      "qubo_penalty_factor": 1.0,
+      "num_reads": 500,
+      "base_seed": 42,
+      "terminal_qubos": 558,
+      "annealing_rows": 558,
+      "terminal_qubos_used_in_reconstruction": 401,
+      "max_terminal_nodes": 30,
+      "max_terminal_couplers": 119,
+      "selected_contacts": 1239,
+      "feasible_objective": 87115.245,
+      "conservative_upper_bound": 87115.245,
+      "relative_gap_percent": 0.0,
+      "incomplete_separator_nodes_all_states": 0,
+      "schedule_conflicts": 0,
+      "all_samples_independent": true,
+      "energies_recomputed_consistently": true,
+      "validation": "PASS",
+      "runtime_version_confirmed": "Python 3.13.14, kernel python313",
+      "candidate_input_source": "data/experiment_inputs/exp1_3_snapshot_2026-09-27/scenario_inputs/slots_s500_g50.csv"
+    },
+    {
+      "run": "exp4_qpu_s500_g50_n50_c350",
+      "candidate_input": "exp4_qpu_size_sensitivity/input/slots_s500_g50.csv",
+      "candidate_input_sha256": "8cfe243b73ff3808fe90271569790002c692014a658be7571e9f59308e1ca617",
+      "candidate_slots": 3220,
+      "conflict_edges": 6515,
+      "natural_components": 561,
+      "qpu_terminal_node_limit": 50,
+      "qpu_terminal_coupler_limit": 350,
+      "exact_enumeration_node_limit": 22,
+      "exact_clique_node_limit": 50,
+      "qubo_reward_factor": 1.0,
+      "qubo_penalty_factor": 1.0,
+      "num_reads": 500,
+      "base_seed": 42,
+      "terminal_qubos": 443,
+      "annealing_rows": 443,
+      "terminal_qubos_used_in_reconstruction": 382,
+      "max_terminal_nodes": 45,
+      "max_terminal_couplers": 165,
+      "selected_contacts": 1239,
+      "feasible_objective": 87115.245,
+      "conservative_upper_bound": 87115.245,
+      "relative_gap_percent": 0.0,
+      "incomplete_separator_nodes_all_states": 0,
+      "schedule_conflicts": 0,
+      "all_samples_independent": true,
+      "energies_recomputed_consistently": true,
+      "validation": "PASS",
+      "runtime_version_confirmed": "Python 3.13.14, kernel python313",
+      "candidate_input_source": "data/experiment_inputs/exp1_3_snapshot_2026-09-27/scenario_inputs/slots_s500_g50.csv"
+    }
+  ],
+  "interpretation_note": "Two cases retain conservative optimality gaps: exp3_gateway_s500_g100_4min (1.1126%) and Experiment 4 20/100 (2.7018%). These are feasible schedules but not certified optimal. Other saved runs have zero reported gap.",
+  "source_note": "Organized from the validated consolidated snapshot and current active run outputs. Source run IDs are recorded in run logs; short archive profile names are used as folder names.",
+  "payload_files": [
+    {
+      "path": "README.md",
+      "size_bytes": 2055,
+      "sha256": "93e4200e83074e85174850532fd0b70f868ce069231ed3750ed5e6e08826468e"
+    },
+    {
+      "path": "comparison_experiments_1_3/figure_1_problem_size.png",
+      "size_bytes": 92702,
+      "sha256": "593c1e4c2b700a2ee4b94a2c87ce092fbefb9b8e0aada47f20b08cca10d18cbb"
+    },
+    {
+      "path": "comparison_experiments_1_3/figure_2_schedule_outcomes.png",
+      "size_bytes": 192413,
+      "sha256": "fa5c06bbe04a3c5e5028bbf4b18953285e3e1cd8b3f329270ebee8b4cad7da88"
+    },
+    {
+      "path": "comparison_experiments_1_3/figure_3_qubo_provenance_and_size.png",
+      "size_bytes": 214935,
+      "sha256": "b5fb64a77c2a46174abbdbd9aed95286b2a120c1199c04c64b83d015be3c77c8"
+    },
+    {
+      "path": "comparison_experiments_1_3/mwis_experiment_summary.csv",
+      "size_bytes": 783,
+      "sha256": "da53779b15cc0f808b7b172c56b54f6e3d37e40b6bf26883c52f73f55bbb4971"
+    },
+    {
+      "path": "exp1_baseline/input/slots_s100_g50.csv",
+      "size_bytes": 207522,
+      "sha256": "9815542db03d0a150acf256f4fe3d4527749d1e51177ea979f3ee5791cf64867"
+    },
+    {
+      "path": "exp1_baseline/mwis/exp1_baseline_s100_g50_4min/candidate_slots.csv",
+      "size_bytes": 51932,
+      "sha256": "6b681abd9d192c58abd29c740c3e6b10d11a316d3cebdfe8dd30ffc7355fb139"
+    },
+    {
+      "path": "exp1_baseline/mwis/exp1_baseline_s100_g50_4min/components_summary.csv",
+      "size_bytes": 14031,
+      "sha256": "4f0903eb6a9685c53e24892ef36c1ee649e306ebb3abebfc613c63195a79324d"
+    },
+    {
+      "path": "exp1_baseline/mwis/exp1_baseline_s100_g50_4min/conflict_graph_edges.csv",
+      "size_bytes": 5021,
+      "sha256": "cf19a1862bc9561f28940e70dc158682c0a25de112eca7ee0704373a4db01daa"
+    },
+    {
+      "path": "exp1_baseline/mwis/exp1_baseline_s100_g50_4min/conflict_graph_nodes.csv",
+      "size_bytes": 53596,
+      "sha256": "6b7e44eaf9f4a04070fcffe13ef27f77ee1e1ba29b7a5bdb6d9bad7d00406a0a"
+    },
+    {
+      "path": "exp1_baseline/mwis/exp1_baseline_s100_g50_4min/decomposition_summary.csv",
+      "size_bytes": 15777,
+      "sha256": "4389a9bd979e508d726ad07919d8331a08d61db74bf0545053ae6795ebfb0fc1"
+    },
+    {
+      "path": "exp1_baseline/mwis/exp1_baseline_s100_g50_4min/final_summary.csv",
+      "size_bytes": 1821,
+      "sha256": "42361fefcfa05bdefde7e0dd05e9ff3e09d8e9b1e17c16d08214ccbfafc9896f"
+    },
+    {
+      "path": "exp1_baseline/mwis/exp1_baseline_s100_g50_4min/heuristic_fallback_details.csv",
+      "size_bytes": 2,
+      "sha256": "7eb70257593da06f682a3ddda54a9d260d4fc514f645237f5ca74b08f8da61a6"
+    },
+    {
+      "path": "exp1_baseline/mwis/exp1_baseline_s100_g50_4min/mwis_solution.csv",
+      "size_bytes": 41730,
+      "sha256": "b9a7196f5814f75c0bc92cb45158965b8fb9c6e160cf53b3aa0e37a72b8db489"
+    },
+    {
+      "path": "exp1_baseline/mwis/exp1_baseline_s100_g50_4min/reconstruction_metadata.json",
+      "size_bytes": 193065,
+      "sha256": "b9f15d3479de4dc33a761ef181edebada3bb38dcf0b65b4c4a281fa72010dbc8"
+    },
+    {
+      "path": "exp1_baseline/mwis/exp1_baseline_s100_g50_4min/run_config_log.json",
+      "size_bytes": 771,
+      "sha256": "59957ebe5507cab74b4eb4e9261bd0040539f0da0aec4167c5af8378789b4346"
+    },
+    {
+      "path": "exp1_baseline/mwis/exp1_baseline_s100_g50_4min/terminal_subgraphs.json",
+      "size_bytes": 123188,
+      "sha256": "888ea778179e31eb92477c9adf362b865becae059ba14aa7e566c28629cdda18"
+    },
+    {
+      "path": "exp1_baseline/qubo_annealing/exp1_baseline_s100_g50_4min/annealing_results.csv",
+      "size_bytes": 8199,
+      "sha256": "b6872e29fad6f06409098ed4352bca84e4faab8f7020b8c834d82b652c0063dc"
+    },
+    {
+      "path": "exp1_baseline/qubo_annealing/exp1_baseline_s100_g50_4min/component_provenance_summary.csv",
+      "size_bytes": 21836,
+      "sha256": "d4c4ed8a92a5b54d174243b3400e51ec8d4906764dcf1a1b4302f548ac21e4c0"
+    },
+    {
+      "path": "exp1_baseline/qubo_annealing/exp1_baseline_s100_g50_4min/heuristic_fallback_details.csv",
+      "size_bytes": 116,
+      "sha256": "47f798f70911ca46702ca7533e8d59d6d23f8e1d6f48c99b9b8a87e7e8f96dfc"
+    },
+    {
+      "path": "exp1_baseline/qubo_annealing/exp1_baseline_s100_g50_4min/reconstructed_schedule.csv",
+      "size_bytes": 166359,
+      "sha256": "9f385d2777aef3180fa715dcd5145013232adaf53a0325058e68a90024763529"
+    },
+    {
+      "path": "exp1_baseline/qubo_annealing/exp1_baseline_s100_g50_4min/reconstructed_selected_nodes.json",
+      "size_bytes": 6811,
+      "sha256": "c086e046b27ea4fa5867a537e7bda9e4e8a3b5f53ae4d89e57313e030a9d1cf5"
+    },
+    {
+      "path": "exp1_baseline/qubo_annealing/exp1_baseline_s100_g50_4min/reconstructed_summary.csv",
+      "size_bytes": 768,
+      "sha256": "a39876e7145fcab61e01b2f150cb3e8c7977b67b3fe687fe7e9e73dba93fee7d"
+    },
+    {
+      "path": "exp1_baseline/qubo_annealing/exp1_baseline_s100_g50_4min/run_config_log.json",
+      "size_bytes": 771,
+      "sha256": "59957ebe5507cab74b4eb4e9261bd0040539f0da0aec4167c5af8378789b4346"
+    },
+    {
+      "path": "exp1_baseline/qubo_annealing/exp1_baseline_s100_g50_4min/terminal_qubo_summary.csv",
+      "size_bytes": 5206,
+      "sha256": "7140bfb6ba613f8952aadac464255ff824e72479da1681653a9d19fc6252a0fa"
+    },
+    {
+      "path": "exp1_baseline/qubo_annealing/exp1_baseline_s100_g50_4min/terminal_qubo_terms.csv",
+      "size_bytes": 15289,
+      "sha256": "438fd0ba25a4c27aa5ef83a8923de9bff1d38b629c47565dd5424c122dd5e2c7"
+    },
+    {
+      "path": "exp2_satellite_scaling/200_satellites_50_gateways/input/slots_s200_g50.csv",
+      "size_bytes": 375570,
+      "sha256": "7fcfe7b9bd596edfa3a4d703125c3e49084f2bfb81acebcb40c00127fbf21f36"
+    },
+    {
+      "path": "exp2_satellite_scaling/200_satellites_50_gateways/mwis/exp2_satellite_s200_g50_4min/candidate_slots.csv",
+      "size_bytes": 94221,
+      "sha256": "16b7baf9edd22dac3d2ac867aec6ef01bc2a9a199dc20496d42df06a46ded4cc"
+    },
+    {
+      "path": "exp2_satellite_scaling/200_satellites_50_gateways/mwis/exp2_satellite_s200_g50_4min/components_summary.csv",
+      "size_bytes": 20276,
+      "sha256": "b35db46d065fd12a1301dd272193f8c70e9c3c1bd0aeee1f798105ad9ad52ab1"
+    },
+    {
+      "path": "exp2_satellite_scaling/200_satellites_50_gateways/mwis/exp2_satellite_s200_g50_4min/conflict_graph_edges.csv",
+      "size_bytes": 19434,
+      "sha256": "11b902cd22d699fde1d4c0c425ceb6d5af1254ccf56de80190947a5650370157"
+    },
+    {
+      "path": "exp2_satellite_scaling/200_satellites_50_gateways/mwis/exp2_satellite_s200_g50_4min/conflict_graph_nodes.csv",
+      "size_bytes": 97253,
+      "sha256": "aedea4df66c6027a19afd3d5ceab4c742cf970d76ed5a57378c99f783060b076"
+    },
+    {
+      "path": "exp2_satellite_scaling/200_satellites_50_gateways/mwis/exp2_satellite_s200_g50_4min/decomposition_summary.csv",
+      "size_bytes": 22268,
+      "sha256": "272ad517bcbd4983505893bc0192df5ba7597c56d549dbcda7276544543cae9a"
+    },
+    {
+      "path": "exp2_satellite_scaling/200_satellites_50_gateways/mwis/exp2_satellite_s200_g50_4min/final_summary.csv",
+      "size_bytes": 1824,
+      "sha256": "94a0aeda9f48fd14ee8d15e1834a169974219e44c72ca6b8e0cf548c56f478b3"
+    },
+    {
+      "path": "exp2_satellite_scaling/200_satellites_50_gateways/mwis/exp2_satellite_s200_g50_4min/heuristic_fallback_details.csv",
+      "size_bytes": 2,
+      "sha256": "7eb70257593da06f682a3ddda54a9d260d4fc514f645237f5ca74b08f8da61a6"
+    },
+    {
+      "path": "exp2_satellite_scaling/200_satellites_50_gateways/mwis/exp2_satellite_s200_g50_4min/mwis_solution.csv",
+      "size_bytes": 64619,
+      "sha256": "56d475fbc58da32fa2faccab7a15b0401552cc5e86d01a5a695908a0c838c940"
+    },
+    {
+      "path": "exp2_satellite_scaling/200_satellites_50_gateways/mwis/exp2_satellite_s200_g50_4min/reconstruction_metadata.json",
+      "size_bytes": 271197,
+      "sha256": "69e795d2454ba5203740f815f5c4e7ca080223d6cc790f0d338d800d0248dcb0"
+    },
+    {
+      "path": "exp2_satellite_scaling/200_satellites_50_gateways/mwis/exp2_satellite_s200_g50_4min/run_config_log.json",
+      "size_bytes": 773,
+      "sha256": "fc19ea44c99de48eef301e5d4e739148fa9d78285730da659616f36d6c6c633d"
+    },
+    {
+      "path": "exp2_satellite_scaling/200_satellites_50_gateways/mwis/exp2_satellite_s200_g50_4min/terminal_subgraphs.json",
+      "size_bytes": 341678,
+      "sha256": "7bc1011d0a12ea9eb701278dddde19c9adee35696dd92418236155f6f5b2b86a"
+    },
+    {
+      "path": "exp2_satellite_scaling/200_satellites_50_gateways/qubo_annealing/exp2_satellite_s200_g50_4min/annealing_results.csv",
+      "size_bytes": 19464,
+      "sha256": "f391399530b4da510d396ef50deb26b77c59d47bf4348fd33587c8c7a802dc00"
+    },
+    {
+      "path": "exp2_satellite_scaling/200_satellites_50_gateways/qubo_annealing/exp2_satellite_s200_g50_4min/component_provenance_summary.csv",
+      "size_bytes": 30947,
+      "sha256": "d911f9c7a7cab1fdb6cc7924babb2187a13c90f3eee22918e7a75c900848d40c"
+    },
+    {
+      "path": "exp2_satellite_scaling/200_satellites_50_gateways/qubo_annealing/exp2_satellite_s200_g50_4min/heuristic_fallback_details.csv",
+      "size_bytes": 116,
+      "sha256": "47f798f70911ca46702ca7533e8d59d6d23f8e1d6f48c99b9b8a87e7e8f96dfc"
+    },
+    {
+      "path": "exp2_satellite_scaling/200_satellites_50_gateways/qubo_annealing/exp2_satellite_s200_g50_4min/reconstructed_schedule.csv",
+      "size_bytes": 257121,
+      "sha256": "a3a3def4e98b241df4b2d394cbf8e7d6def07a6db552d4ba98fe732eb988a893"
+    },
+    {
+      "path": "exp2_satellite_scaling/200_satellites_50_gateways/qubo_annealing/exp2_satellite_s200_g50_4min/reconstructed_selected_nodes.json",
+      "size_bytes": 10511,
+      "sha256": "8eff2dd8c7457e9596476bf5e0eb412e4907d445fa50c5a8e4e39fd35e1a8b4e"
+    },
+    {
+      "path": "exp2_satellite_scaling/200_satellites_50_gateways/qubo_annealing/exp2_satellite_s200_g50_4min/reconstructed_summary.csv",
+      "size_bytes": 771,
+      "sha256": "1318a23894e807baa2f8c14154c528a553c08a5245b91fa4acf7a3f0568458a1"
+    },
+    {
+      "path": "exp2_satellite_scaling/200_satellites_50_gateways/qubo_annealing/exp2_satellite_s200_g50_4min/run_config_log.json",
+      "size_bytes": 773,
+      "sha256": "fc19ea44c99de48eef301e5d4e739148fa9d78285730da659616f36d6c6c633d"
+    },
+    {
+      "path": "exp2_satellite_scaling/200_satellites_50_gateways/qubo_annealing/exp2_satellite_s200_g50_4min/terminal_qubo_summary.csv",
+      "size_bytes": 11218,
+      "sha256": "8a6a23a2ff3b57a09141afc857fbdebf01290caae951d316259c2e89579f02dd"
+    },
+    {
+      "path": "exp2_satellite_scaling/200_satellites_50_gateways/qubo_annealing/exp2_satellite_s200_g50_4min/terminal_qubo_terms.csv",
+      "size_bytes": 48949,
+      "sha256": "c0e5b6d542a7412d2958d004101fa79a0d0ee99209fd49d1a08c48e45de6e71d"
+    },
+    {
+      "path": "exp2_satellite_scaling/500_satellites_50_gateways/input/slots_s500_g50.csv",
+      "size_bytes": 1580420,
+      "sha256": "8cfe243b73ff3808fe90271569790002c692014a658be7571e9f59308e1ca617"
+    },
+    {
+      "path": "exp2_satellite_scaling/500_satellites_50_gateways/mwis/exp2_satellite_s500_g50_4min/candidate_slots.csv",
+      "size_bytes": 396120,
+      "sha256": "952b27c04954c4db69a69a3f28e152349497a72a39c52e7641d01e8f1419c2b1"
+    },
+    {
+      "path": "exp2_satellite_scaling/500_satellites_50_gateways/mwis/exp2_satellite_s500_g50_4min/components_summary.csv",
+      "size_bytes": 27199,
+      "sha256": "3672827678770e8b9b8088cef85782dc6fc61c92086ae814c06fb04108c74c9a"
+    },
+    {
+      "path": "exp2_satellite_scaling/500_satellites_50_gateways/mwis/exp2_satellite_s500_g50_4min/conflict_graph_edges.csv",
+      "size_bytes": 356585,
+      "sha256": "6a7c26b7bc5c3b56080609bd1607401c2633de1b26e27edab21f184231e029d4"
+    },
+    {
+      "path": "exp2_satellite_scaling/500_satellites_50_gateways/mwis/exp2_satellite_s500_g50_4min/conflict_graph_nodes.csv",
+      "size_bytes": 408976,
+      "sha256": "30137bd67fb09fe05f7a63a3f1525ea6ebb3c3b4c6256c215e0c1dfe52da5187"
+    },
+    {
+      "path": "exp2_satellite_scaling/500_satellites_50_gateways/mwis/exp2_satellite_s500_g50_4min/decomposition_summary.csv",
+      "size_bytes": 26705,
+      "sha256": "38cbdd8840fcd5235dc35f24c515cea7f58e3a8633df86487992b9b9d9401bf6"
+    },
+    {
+      "path": "exp2_satellite_scaling/500_satellites_50_gateways/mwis/exp2_satellite_s500_g50_4min/final_summary.csv",
+      "size_bytes": 1827,
+      "sha256": "270336d5c17ca87002841c72e74f6e7cb22a3689628b848f29df56e22063a651"
+    },
+    {
+      "path": "exp2_satellite_scaling/500_satellites_50_gateways/mwis/exp2_satellite_s500_g50_4min/heuristic_fallback_details.csv",
+      "size_bytes": 2,
+      "sha256": "7eb70257593da06f682a3ddda54a9d260d4fc514f645237f5ca74b08f8da61a6"
+    },
+    {
+      "path": "exp2_satellite_scaling/500_satellites_50_gateways/mwis/exp2_satellite_s500_g50_4min/mwis_solution.csv",
+      "size_bytes": 152282,
+      "sha256": "75f13350924cb379368563f8a167703848166534cb1398a806d7b4f14302787a"
+    },
+    {
+      "path": "exp2_satellite_scaling/500_satellites_50_gateways/mwis/exp2_satellite_s500_g50_4min/reconstruction_metadata.json",
+      "size_bytes": 482034,
+      "sha256": "4ea172fd4ee2a044d63ef3c205bbaea2b48c7d6a25f783b5bdff9f5f2c516225"
+    },
+    {
+      "path": "exp2_satellite_scaling/500_satellites_50_gateways/mwis/exp2_satellite_s500_g50_4min/run_config_log.json",
+      "size_bytes": 773,
+      "sha256": "36c275bfbfc67e147de226aefea8e0e302b7ad307db69c73c8de75309c807d7a"
+    },
+    {
+      "path": "exp2_satellite_scaling/500_satellites_50_gateways/mwis/exp2_satellite_s500_g50_4min/terminal_subgraphs.json",
+      "size_bytes": 4873400,
+      "sha256": "dc934c883d86e6c19536200847739f2ffa20abaa972cded7de4e20abd7258234"
+    },
+    {
+      "path": "exp2_satellite_scaling/500_satellites_50_gateways/qubo_annealing/exp2_satellite_s500_g50_4min/annealing_results.csv",
+      "size_bytes": 81406,
+      "sha256": "6e7cf2c82b1d8e9a73d3b2a89112e129e572f529e93aedc8ab6fd52a333282b6"
+    },
+    {
+      "path": "exp2_satellite_scaling/500_satellites_50_gateways/qubo_annealing/exp2_satellite_s500_g50_4min/component_provenance_summary.csv",
+      "size_bytes": 37380,
+      "sha256": "3faab35e301b8b3d60adea1da43dd4c6ac3964ef9f6dada11a490764fed19055"
+    },
+    {
+      "path": "exp2_satellite_scaling/500_satellites_50_gateways/qubo_annealing/exp2_satellite_s500_g50_4min/heuristic_fallback_details.csv",
+      "size_bytes": 116,
+      "sha256": "47f798f70911ca46702ca7533e8d59d6d23f8e1d6f48c99b9b8a87e7e8f96dfc"
+    },
+    {
+      "path": "exp2_satellite_scaling/500_satellites_50_gateways/qubo_annealing/exp2_satellite_s500_g50_4min/reconstructed_schedule.csv",
+      "size_bytes": 607173,
+      "sha256": "94b00cf1a29e1c867080531f2c56beee521c2e67962c4906d659debbb5e9d4be"
+    },
+    {
+      "path": "exp2_satellite_scaling/500_satellites_50_gateways/qubo_annealing/exp2_satellite_s500_g50_4min/reconstructed_selected_nodes.json",
+      "size_bytes": 24811,
+      "sha256": "35d0615dab11fef4965618ff4f2dd9dbbc5329b107ee6e4aa5f13729eeba0163"
+    },
+    {
+      "path": "exp2_satellite_scaling/500_satellites_50_gateways/qubo_annealing/exp2_satellite_s500_g50_4min/reconstructed_summary.csv",
+      "size_bytes": 772,
+      "sha256": "ac710f95dae5d33d6db8e69bdcf5ed350ac6bc42b41a87d53ce40ecf4581aa97"
+    },
+    {
+      "path": "exp2_satellite_scaling/500_satellites_50_gateways/qubo_annealing/exp2_satellite_s500_g50_4min/run_config_log.json",
+      "size_bytes": 773,
+      "sha256": "36c275bfbfc67e147de226aefea8e0e302b7ad307db69c73c8de75309c807d7a"
+    },
+    {
+      "path": "exp2_satellite_scaling/500_satellites_50_gateways/qubo_annealing/exp2_satellite_s500_g50_4min/terminal_qubo_summary.csv",
+      "size_bytes": 35092,
+      "sha256": "8a5f57d513de0724e785c3282cb4da76c79f95e9bad8f42f39ede1c586e97a81"
+    },
+    {
+      "path": "exp2_satellite_scaling/500_satellites_50_gateways/qubo_annealing/exp2_satellite_s500_g50_4min/terminal_qubo_terms.csv",
+      "size_bytes": 1195491,
+      "sha256": "e090944d19b9c6c0bdc61b2764f561596a1caf01e95cb5f3058d8daff5049ef8"
+    },
+    {
+      "path": "exp3_gateway_scaling/500_satellites_100_gateways/input/slots_s500_g100.csv",
+      "size_bytes": 3285859,
+      "sha256": "9330ae5994e3d69db987abaf2d9b7d7abf90efb7f990b84048812538740aa692"
+    },
+    {
+      "path": "exp3_gateway_scaling/500_satellites_100_gateways/mwis/exp3_gateway_s500_g100_4min/candidate_slots.csv",
+      "size_bytes": 824038,
+      "sha256": "d11b34f1c959a9791c74b68bb6eaabb6b826d6420822cc98e27005d0ea054983"
+    },
+    {
+      "path": "exp3_gateway_scaling/500_satellites_100_gateways/mwis/exp3_gateway_s500_g100_4min/components_summary.csv",
+      "size_bytes": 52396,
+      "sha256": "c3e109266c9ab196a56d0a8614a862033bacbb348a51001bb03ef13657363aa6"
+    },
+    {
+      "path": "exp3_gateway_scaling/500_satellites_100_gateways/mwis/exp3_gateway_s500_g100_4min/conflict_graph_edges.csv",
+      "size_bytes": 779131,
+      "sha256": "9bcd011b436be5541cb9ac166e4f9499d6c1d323088bcba5783404e6cdddc031"
+    },
+    {
+      "path": "exp3_gateway_scaling/500_satellites_100_gateways/mwis/exp3_gateway_s500_g100_4min/conflict_graph_nodes.csv",
+      "size_bytes": 850838,
+      "sha256": "c31b8ad273bf828ac92db8c0e603a0b14938c15f779b025adfbfdc7afc2f94e0"
+    },
+    {
+      "path": "exp3_gateway_scaling/500_satellites_100_gateways/mwis/exp3_gateway_s500_g100_4min/decomposition_summary.csv",
+      "size_bytes": 51590,
+      "sha256": "fd4e4eb39e60a6cc11a5d350721fe852b0ad405799e2e8f435771a93363fd27a"
+    },
+    {
+      "path": "exp3_gateway_scaling/500_satellites_100_gateways/mwis/exp3_gateway_s500_g100_4min/final_summary.csv",
+      "size_bytes": 1861,
+      "sha256": "99c3d0c72568a9107bdfba3701bb0df6e578531e9fc13865ac2cd8ce274052e0"
+    },
+    {
+      "path": "exp3_gateway_scaling/500_satellites_100_gateways/mwis/exp3_gateway_s500_g100_4min/heuristic_fallback_details.csv",
+      "size_bytes": 2,
+      "sha256": "7eb70257593da06f682a3ddda54a9d260d4fc514f645237f5ca74b08f8da61a6"
+    },
+    {
+      "path": "exp3_gateway_scaling/500_satellites_100_gateways/mwis/exp3_gateway_s500_g100_4min/mwis_solution.csv",
+      "size_bytes": 306827,
+      "sha256": "569ac0f1af42996604f994eb836ee42be5b421bb54175971bfce081997423d78"
+    },
+    {
+      "path": "exp3_gateway_scaling/500_satellites_100_gateways/mwis/exp3_gateway_s500_g100_4min/reconstruction_metadata.json",
+      "size_bytes": 967511,
+      "sha256": "334447a984f8b4b6af93e3524f075165dff84defd503ac9fdab7b43f7905c454"
+    },
+    {
+      "path": "exp3_gateway_scaling/500_satellites_100_gateways/mwis/exp3_gateway_s500_g100_4min/run_config_log.json",
+      "size_bytes": 772,
+      "sha256": "b691ad02c0bb8f7a4c3c60002c135623310b90e89e7c08864a333a21fed5a32c"
+    },
+    {
+      "path": "exp3_gateway_scaling/500_satellites_100_gateways/mwis/exp3_gateway_s500_g100_4min/terminal_subgraphs.json",
+      "size_bytes": 10782790,
+      "sha256": "9110cbc706be2cf6ef65d3e2c212ec47abcbffae88b9de968cd58c9338cfccae"
+    },
+    {
+      "path": "exp3_gateway_scaling/500_satellites_100_gateways/qubo_annealing/exp3_gateway_s500_g100_4min/annealing_results.csv",
+      "size_bytes": 167725,
+      "sha256": "20d25aede420f230bd9c225944790d7c9203f821ba0ffe531a36ed240e34d5e4"
+    },
+    {
+      "path": "exp3_gateway_scaling/500_satellites_100_gateways/qubo_annealing/exp3_gateway_s500_g100_4min/component_provenance_summary.csv",
+      "size_bytes": 71925,
+      "sha256": "2e7f830b36443b328f49b46fc7069cfa16044a2e0077aa1fc9bd98ab6ec0fdbc"
+    },
+    {
+      "path": "exp3_gateway_scaling/500_satellites_100_gateways/qubo_annealing/exp3_gateway_s500_g100_4min/heuristic_fallback_details.csv",
+      "size_bytes": 116,
+      "sha256": "47f798f70911ca46702ca7533e8d59d6d23f8e1d6f48c99b9b8a87e7e8f96dfc"
+    },
+    {
+      "path": "exp3_gateway_scaling/500_satellites_100_gateways/qubo_annealing/exp3_gateway_s500_g100_4min/reconstructed_schedule.csv",
+      "size_bytes": 1222264,
+      "sha256": "25663242a4ea5956d54f08b4433364efb32878a1f25e6a71dd5468a12351cef2"
+    },
+    {
+      "path": "exp3_gateway_scaling/500_satellites_100_gateways/qubo_annealing/exp3_gateway_s500_g100_4min/reconstructed_selected_nodes.json",
+      "size_bytes": 50011,
+      "sha256": "50bceb122947f5ed5b4484afd740e75f4122e0168f6dc7cdcc7e6b8a994c7a24"
+    },
+    {
+      "path": "exp3_gateway_scaling/500_satellites_100_gateways/qubo_annealing/exp3_gateway_s500_g100_4min/reconstructed_summary.csv",
+      "size_bytes": 809,
+      "sha256": "7624fe30698ad8d839e24388fd1336c75037d8a5b9137d159c1a260605c04039"
+    },
+    {
+      "path": "exp3_gateway_scaling/500_satellites_100_gateways/qubo_annealing/exp3_gateway_s500_g100_4min/run_config_log.json",
+      "size_bytes": 772,
+      "sha256": "b691ad02c0bb8f7a4c3c60002c135623310b90e89e7c08864a333a21fed5a32c"
+    },
+    {
+      "path": "exp3_gateway_scaling/500_satellites_100_gateways/qubo_annealing/exp3_gateway_s500_g100_4min/terminal_qubo_summary.csv",
+      "size_bytes": 71211,
+      "sha256": "5919f829835dacbbf39dbbb21e0075b59af733b91bab045d91c57a98c7f23a0b"
+    },
+    {
+      "path": "exp3_gateway_scaling/500_satellites_100_gateways/qubo_annealing/exp3_gateway_s500_g100_4min/terminal_qubo_terms.csv",
+      "size_bytes": 2671767,
+      "sha256": "7e8aedd6e547685f8576eed6f019db45aff61eb5047bff1ee8350256a531221a"
+    },
+    {
+      "path": "exp3_gateway_scaling/500_satellites_25_gateways/input/slots_s500_g25.csv",
+      "size_bytes": 826094,
+      "sha256": "b3e7b38025a441ba22c08a669b13c313d891fdb38d3273c1163e2aed89e897d3"
+    },
+    {
+      "path": "exp3_gateway_scaling/500_satellites_25_gateways/mwis/exp3_gateway_s500_g25_4min/candidate_slots.csv",
+      "size_bytes": 207309,
+      "sha256": "8f72001d32f1c2f30a57982719bcc81e77fa7f717cadfc28719af6d9bd75015e"
+    },
+    {
+      "path": "exp3_gateway_scaling/500_satellites_25_gateways/mwis/exp3_gateway_s500_g25_4min/components_summary.csv",
+      "size_bytes": 13139,
+      "sha256": "2abd0097fdd503b597fa2f3f51ce25c2682d10a094c30d1198ef92f8c66740c5"
+    },
+    {
+      "path": "exp3_gateway_scaling/500_satellites_25_gateways/mwis/exp3_gateway_s500_g25_4min/conflict_graph_edges.csv",
+      "size_bytes": 188063,
+      "sha256": "9d26814b3e6a4b0a210e8fd962d79b66d6d2a35e76e8ff5899822cf2683f6388"
+    },
+    {
+      "path": "exp3_gateway_scaling/500_satellites_25_gateways/mwis/exp3_gateway_s500_g25_4min/conflict_graph_nodes.csv",
+      "size_bytes": 214025,
+      "sha256": "80b58826be9ab602dfc8eaa33d2de3f7cad2e1f44c4da91ce33e4103e0e1ddea"
+    },
+    {
+      "path": "exp3_gateway_scaling/500_satellites_25_gateways/mwis/exp3_gateway_s500_g25_4min/decomposition_summary.csv",
+      "size_bytes": 12702,
+      "sha256": "6485c7cecee840f676ae1ab0fe00d260aac0a507bffad5dc8e4b35945abb9d1a"
+    },
+    {
+      "path": "exp3_gateway_scaling/500_satellites_25_gateways/mwis/exp3_gateway_s500_g25_4min/final_summary.csv",
+      "size_bytes": 1827,
+      "sha256": "0f1ef4703f780c89757adabef7beddcc1526c4f7d4622e6f55fbb760b0b12448"
+    },
+    {
+      "path": "exp3_gateway_scaling/500_satellites_25_gateways/mwis/exp3_gateway_s500_g25_4min/heuristic_fallback_details.csv",
+      "size_bytes": 2,
+      "sha256": "7eb70257593da06f682a3ddda54a9d260d4fc514f645237f5ca74b08f8da61a6"
+    },
+    {
+      "path": "exp3_gateway_scaling/500_satellites_25_gateways/mwis/exp3_gateway_s500_g25_4min/mwis_solution.csv",
+      "size_bytes": 77928,
+      "sha256": "4e1a637af8df12ddcf6325cb52cd2b61fa1054e89393a2b5d185ad41aa36bba0"
+    },
+    {
+      "path": "exp3_gateway_scaling/500_satellites_25_gateways/mwis/exp3_gateway_s500_g25_4min/reconstruction_metadata.json",
+      "size_bytes": 245575,
+      "sha256": "61a66fdac958640d68fbe63a8fa411af80c8dc218da74ba8de7c777d496fb3cc"
+    },
+    {
+      "path": "exp3_gateway_scaling/500_satellites_25_gateways/mwis/exp3_gateway_s500_g25_4min/run_config_log.json",
+      "size_bytes": 769,
+      "sha256": "a7f5a7f49b52cf39e25d9617dd938239c98c7c3311fdce48feed3549bdd9d12e"
+    },
+    {
+      "path": "exp3_gateway_scaling/500_satellites_25_gateways/mwis/exp3_gateway_s500_g25_4min/terminal_subgraphs.json",
+      "size_bytes": 2605640,
+      "sha256": "a4d21e1c9353f5926c467564fafa857fad5bbf2817a5e29061884a05f55f6ed9"
+    },
+    {
+      "path": "exp3_gateway_scaling/500_satellites_25_gateways/qubo_annealing/exp3_gateway_s500_g25_4min/annealing_results.csv",
+      "size_bytes": 43589,
+      "sha256": "ff954cae0a2727d4ffe3a24e48b7abf65c7f3b4915ef247928ee88de6be2ab04"
+    },
+    {
+      "path": "exp3_gateway_scaling/500_satellites_25_gateways/qubo_annealing/exp3_gateway_s500_g25_4min/component_provenance_summary.csv",
+      "size_bytes": 17811,
+      "sha256": "0d0ece572c4f7560109aaad92cf31e6e7118bc74c8b6796515098410707bac08"
+    },
+    {
+      "path": "exp3_gateway_scaling/500_satellites_25_gateways/qubo_annealing/exp3_gateway_s500_g25_4min/heuristic_fallback_details.csv",
+      "size_bytes": 116,
+      "sha256": "47f798f70911ca46702ca7533e8d59d6d23f8e1d6f48c99b9b8a87e7e8f96dfc"
+    },
+    {
+      "path": "exp3_gateway_scaling/500_satellites_25_gateways/qubo_annealing/exp3_gateway_s500_g25_4min/reconstructed_schedule.csv",
+      "size_bytes": 309891,
+      "sha256": "4febe355af47f8f6a31f6b12c0b5e0ffc357b0dedf7ca8744f4258e3724cac46"
+    },
+    {
+      "path": "exp3_gateway_scaling/500_satellites_25_gateways/qubo_annealing/exp3_gateway_s500_g25_4min/reconstructed_selected_nodes.json",
+      "size_bytes": 12691,
+      "sha256": "b96675f26fec3039af9a3c515d0f1926defdc873fa838450bf9fcf6468fd1ae5"
+    },
+    {
+      "path": "exp3_gateway_scaling/500_satellites_25_gateways/qubo_annealing/exp3_gateway_s500_g25_4min/reconstructed_summary.csv",
+      "size_bytes": 769,
+      "sha256": "46155b9d67ecbe1463592f6596190a65a38d3d647a3aebd8e799f368980d0289"
+    },
+    {
+      "path": "exp3_gateway_scaling/500_satellites_25_gateways/qubo_annealing/exp3_gateway_s500_g25_4min/run_config_log.json",
+      "size_bytes": 769,
+      "sha256": "a7f5a7f49b52cf39e25d9617dd938239c98c7c3311fdce48feed3549bdd9d12e"
+    },
+    {
+      "path": "exp3_gateway_scaling/500_satellites_25_gateways/qubo_annealing/exp3_gateway_s500_g25_4min/terminal_qubo_summary.csv",
+      "size_bytes": 18442,
+      "sha256": "7b9a42b01304c4ba035feb9e1a661bbe5729e6878f9522d05281d67336dc7b00"
+    },
+    {
+      "path": "exp3_gateway_scaling/500_satellites_25_gateways/qubo_annealing/exp3_gateway_s500_g25_4min/terminal_qubo_terms.csv",
+      "size_bytes": 633195,
+      "sha256": "7d78f97b8b1d781a79eaedcca57c4143998c050a3a29bd9ad1257d18ee24192c"
+    },
+    {
+      "path": "exp4_qpu_size_sensitivity/comparison/figure_4_qpu_size_sensitivity.png",
+      "size_bytes": 69182,
+      "sha256": "bcd1332cb19dd0696d8522aee83c8d47a6dc6d85fff4a975a549d16e66b249b0"
+    },
+    {
+      "path": "exp4_qpu_size_sensitivity/comparison/mwis_exp4_qpu_size_summary.csv",
+      "size_bytes": 613,
+      "sha256": "77e929af88f8ef23f88237710cc781b17befd2151edaf566d6ac52d20b47e975"
+    },
+    {
+      "path": "exp4_qpu_size_sensitivity/input/slots_s500_g50.csv",
+      "size_bytes": 1580420,
+      "sha256": "8cfe243b73ff3808fe90271569790002c692014a658be7571e9f59308e1ca617"
+    },
+    {
+      "path": "exp4_qpu_size_sensitivity/profiles/20_nodes_100_couplers/mwis/exp4_qpu_s500_g50_n20_c100/candidate_slots.csv",
+      "size_bytes": 396120,
+      "sha256": "952b27c04954c4db69a69a3f28e152349497a72a39c52e7641d01e8f1419c2b1"
+    },
+    {
+      "path": "exp4_qpu_size_sensitivity/profiles/20_nodes_100_couplers/mwis/exp4_qpu_s500_g50_n20_c100/components_summary.csv",
+      "size_bytes": 27199,
+      "sha256": "3672827678770e8b9b8088cef85782dc6fc61c92086ae814c06fb04108c74c9a"
+    },
+    {
+      "path": "exp4_qpu_size_sensitivity/profiles/20_nodes_100_couplers/mwis/exp4_qpu_s500_g50_n20_c100/conflict_graph_edges.csv",
+      "size_bytes": 356585,
+      "sha256": "6a7c26b7bc5c3b56080609bd1607401c2633de1b26e27edab21f184231e029d4"
+    },
+    {
+      "path": "exp4_qpu_size_sensitivity/profiles/20_nodes_100_couplers/mwis/exp4_qpu_s500_g50_n20_c100/conflict_graph_nodes.csv",
+      "size_bytes": 408976,
+      "sha256": "30137bd67fb09fe05f7a63a3f1525ea6ebb3c3b4c6256c215e0c1dfe52da5187"
+    },
+    {
+      "path": "exp4_qpu_size_sensitivity/profiles/20_nodes_100_couplers/mwis/exp4_qpu_s500_g50_n20_c100/decomposition_summary.csv",
+      "size_bytes": 26732,
+      "sha256": "17119388fdc7070ef9a896276251db8a79db15604fb79424215fedcfa3bc7ca0"
+    },
+    {
+      "path": "exp4_qpu_size_sensitivity/profiles/20_nodes_100_couplers/mwis/exp4_qpu_s500_g50_n20_c100/final_summary.csv",
+      "size_bytes": 1852,
+      "sha256": "b0b1d18fade3761c1cb2c7e7ec46c35127d3ecc2031ea7a2b037c3a52bf4436e"
+    },
+    {
+      "path": "exp4_qpu_size_sensitivity/profiles/20_nodes_100_couplers/mwis/exp4_qpu_s500_g50_n20_c100/heuristic_fallback_details.csv",
+      "size_bytes": 443,
+      "sha256": "f35c2c73cac584774e70e3ad8cec0bea12b4a22d9f169471670968b705dd400a"
+    },
+    {
+      "path": "exp4_qpu_size_sensitivity/profiles/20_nodes_100_couplers/mwis/exp4_qpu_s500_g50_n20_c100/mwis_solution.csv",
+      "size_bytes": 152282,
+      "sha256": "75f13350924cb379368563f8a167703848166534cb1398a806d7b4f14302787a"
+    },
+    {
+      "path": "exp4_qpu_size_sensitivity/profiles/20_nodes_100_couplers/mwis/exp4_qpu_s500_g50_n20_c100/reconstruction_metadata.json",
+      "size_bytes": 652615,
+      "sha256": "1909557209005a1ab002fc5777b3ee69e8007dfbeb44bc4d16241a66628f121a"
+    },
+    {
+      "path": "exp4_qpu_size_sensitivity/profiles/20_nodes_100_couplers/mwis/exp4_qpu_s500_g50_n20_c100/run_config_log.json",
+      "size_bytes": 769,
+      "sha256": "d58beab571e2145d9fa31dca02086027e6d710abe6bb51e014edcd1c1697f80c"
+    },
+    {
+      "path": "exp4_qpu_size_sensitivity/profiles/20_nodes_100_couplers/mwis/exp4_qpu_s500_g50_n20_c100/terminal_subgraphs.json",
+      "size_bytes": 5485238,
+      "sha256": "6f16e38c948ecaa742ad1a34240131c6c86a6cda3bbce12f882f375ad75ce8bf"
+    },
+    {
+      "path": "exp4_qpu_size_sensitivity/profiles/20_nodes_100_couplers/qubo_annealing/exp4_qpu_s500_g50_n20_c100/annealing_results.csv",
+      "size_bytes": 105825,
+      "sha256": "78b6bbf3d82003e033e824e6b6527558953c0e779092ef7dce4869f81f161220"
+    },
+    {
+      "path": "exp4_qpu_size_sensitivity/profiles/20_nodes_100_couplers/qubo_annealing/exp4_qpu_s500_g50_n20_c100/component_provenance_summary.csv",
+      "size_bytes": 37440,
+      "sha256": "f6b10e8f62ca85ad2ec44ebc44b29a59b5076b88bad4ebc4a6121183dfde5bad"
+    },
+    {
+      "path": "exp4_qpu_size_sensitivity/profiles/20_nodes_100_couplers/qubo_annealing/exp4_qpu_s500_g50_n20_c100/heuristic_fallback_details.csv",
+      "size_bytes": 347,
+      "sha256": "f0294cdf7c6fc3c36373504247b32ea5b4157308dfcf50848e9275ae17727573"
+    },
+    {
+      "path": "exp4_qpu_size_sensitivity/profiles/20_nodes_100_couplers/qubo_annealing/exp4_qpu_s500_g50_n20_c100/reconstructed_schedule.csv",
+      "size_bytes": 607173,
+      "sha256": "94b00cf1a29e1c867080531f2c56beee521c2e67962c4906d659debbb5e9d4be"
+    },
+    {
+      "path": "exp4_qpu_size_sensitivity/profiles/20_nodes_100_couplers/qubo_annealing/exp4_qpu_s500_g50_n20_c100/reconstructed_selected_nodes.json",
+      "size_bytes": 24811,
+      "sha256": "35d0615dab11fef4965618ff4f2dd9dbbc5329b107ee6e4aa5f13729eeba0163"
+    },
+    {
+      "path": "exp4_qpu_size_sensitivity/profiles/20_nodes_100_couplers/qubo_annealing/exp4_qpu_s500_g50_n20_c100/reconstructed_summary.csv",
+      "size_bytes": 817,
+      "sha256": "5de4f36cbd880b0aa342c5d6cb9270863f2948b07d26ac1c8726fa8287a6e726"
+    },
+    {
+      "path": "exp4_qpu_size_sensitivity/profiles/20_nodes_100_couplers/qubo_annealing/exp4_qpu_s500_g50_n20_c100/run_config_log.json",
+      "size_bytes": 480,
+      "sha256": "6ddabdb9a772e1bf5086341fc0e05c940e21144c087c379624ccd56f989d4e93"
+    },
+    {
+      "path": "exp4_qpu_size_sensitivity/profiles/20_nodes_100_couplers/qubo_annealing/exp4_qpu_s500_g50_n20_c100/terminal_qubo_summary.csv",
+      "size_bytes": 47552,
+      "sha256": "24647bfc555a1e3d611a86a3de1a59279c9924371ecb8aa06f1256ed8912c7c7"
+    },
+    {
+      "path": "exp4_qpu_size_sensitivity/profiles/20_nodes_100_couplers/qubo_annealing/exp4_qpu_s500_g50_n20_c100/terminal_qubo_terms.csv",
+      "size_bytes": 1314451,
+      "sha256": "8b2a1b1ffd409b1506b10f747dfcc7d9f5fa9d1cd9cef4da8c113d7d543889fa"
+    },
+    {
+      "path": "exp4_qpu_size_sensitivity/profiles/30_nodes_200_couplers/mwis/exp4_qpu_s500_g50_n30_c200/candidate_slots.csv",
+      "size_bytes": 396120,
+      "sha256": "952b27c04954c4db69a69a3f28e152349497a72a39c52e7641d01e8f1419c2b1"
+    },
+    {
+      "path": "exp4_qpu_size_sensitivity/profiles/30_nodes_200_couplers/mwis/exp4_qpu_s500_g50_n30_c200/components_summary.csv",
+      "size_bytes": 27199,
+      "sha256": "3672827678770e8b9b8088cef85782dc6fc61c92086ae814c06fb04108c74c9a"
+    },
+    {
+      "path": "exp4_qpu_size_sensitivity/profiles/30_nodes_200_couplers/mwis/exp4_qpu_s500_g50_n30_c200/conflict_graph_edges.csv",
+      "size_bytes": 356585,
+      "sha256": "6a7c26b7bc5c3b56080609bd1607401c2633de1b26e27edab21f184231e029d4"
+    },
+    {
+      "path": "exp4_qpu_size_sensitivity/profiles/30_nodes_200_couplers/mwis/exp4_qpu_s500_g50_n30_c200/conflict_graph_nodes.csv",
+      "size_bytes": 408976,
+      "sha256": "30137bd67fb09fe05f7a63a3f1525ea6ebb3c3b4c6256c215e0c1dfe52da5187"
+    },
+    {
+      "path": "exp4_qpu_size_sensitivity/profiles/30_nodes_200_couplers/mwis/exp4_qpu_s500_g50_n30_c200/decomposition_summary.csv",
+      "size_bytes": 26705,
+      "sha256": "38cbdd8840fcd5235dc35f24c515cea7f58e3a8633df86487992b9b9d9401bf6"
+    },
+    {
+      "path": "exp4_qpu_size_sensitivity/profiles/30_nodes_200_couplers/mwis/exp4_qpu_s500_g50_n30_c200/final_summary.csv",
+      "size_bytes": 1827,
+      "sha256": "270336d5c17ca87002841c72e74f6e7cb22a3689628b848f29df56e22063a651"
+    },
+    {
+      "path": "exp4_qpu_size_sensitivity/profiles/30_nodes_200_couplers/mwis/exp4_qpu_s500_g50_n30_c200/heuristic_fallback_details.csv",
+      "size_bytes": 2,
+      "sha256": "7eb70257593da06f682a3ddda54a9d260d4fc514f645237f5ca74b08f8da61a6"
+    },
+    {
+      "path": "exp4_qpu_size_sensitivity/profiles/30_nodes_200_couplers/mwis/exp4_qpu_s500_g50_n30_c200/mwis_solution.csv",
+      "size_bytes": 152282,
+      "sha256": "75f13350924cb379368563f8a167703848166534cb1398a806d7b4f14302787a"
+    },
+    {
+      "path": "exp4_qpu_size_sensitivity/profiles/30_nodes_200_couplers/mwis/exp4_qpu_s500_g50_n30_c200/reconstruction_metadata.json",
+      "size_bytes": 482032,
+      "sha256": "48392e556c799caf0329ac5557f83f34cfc2f7645c275578159b0fdea906b546"
+    },
+    {
+      "path": "exp4_qpu_size_sensitivity/profiles/30_nodes_200_couplers/mwis/exp4_qpu_s500_g50_n30_c200/run_config_log.json",
+      "size_bytes": 769,
+      "sha256": "09b30c02f90a1bed161f43c88b0e17a4eb0bd244051d6a370ecd79146f8b7ae3"
+    },
+    {
+      "path": "exp4_qpu_size_sensitivity/profiles/30_nodes_200_couplers/mwis/exp4_qpu_s500_g50_n30_c200/terminal_subgraphs.json",
+      "size_bytes": 4873400,
+      "sha256": "ea9f2f2c00cd667ef2f9effe7523e6d7576b9bfae79b9b075b0f41eda4354107"
+    },
+    {
+      "path": "exp4_qpu_size_sensitivity/profiles/30_nodes_200_couplers/qubo_annealing/exp4_qpu_s500_g50_n30_c200/annealing_results.csv",
+      "size_bytes": 81336,
+      "sha256": "c540b48d6ab46303f1c8000d309b9b97b7c36ae0b6c1c8bd3de1c1dbb6eb5c43"
+    },
+    {
+      "path": "exp4_qpu_size_sensitivity/profiles/30_nodes_200_couplers/qubo_annealing/exp4_qpu_s500_g50_n30_c200/component_provenance_summary.csv",
+      "size_bytes": 37380,
+      "sha256": "3faab35e301b8b3d60adea1da43dd4c6ac3964ef9f6dada11a490764fed19055"
+    },
+    {
+      "path": "exp4_qpu_size_sensitivity/profiles/30_nodes_200_couplers/qubo_annealing/exp4_qpu_s500_g50_n30_c200/heuristic_fallback_details.csv",
+      "size_bytes": 116,
+      "sha256": "47f798f70911ca46702ca7533e8d59d6d23f8e1d6f48c99b9b8a87e7e8f96dfc"
+    },
+    {
+      "path": "exp4_qpu_size_sensitivity/profiles/30_nodes_200_couplers/qubo_annealing/exp4_qpu_s500_g50_n30_c200/reconstructed_schedule.csv",
+      "size_bytes": 607173,
+      "sha256": "94b00cf1a29e1c867080531f2c56beee521c2e67962c4906d659debbb5e9d4be"
+    },
+    {
+      "path": "exp4_qpu_size_sensitivity/profiles/30_nodes_200_couplers/qubo_annealing/exp4_qpu_s500_g50_n30_c200/reconstructed_selected_nodes.json",
+      "size_bytes": 24811,
+      "sha256": "35d0615dab11fef4965618ff4f2dd9dbbc5329b107ee6e4aa5f13729eeba0163"
+    },
+    {
+      "path": "exp4_qpu_size_sensitivity/profiles/30_nodes_200_couplers/qubo_annealing/exp4_qpu_s500_g50_n30_c200/reconstructed_summary.csv",
+      "size_bytes": 770,
+      "sha256": "a5ac7202831ef211714b2ac4067efdd8c8eb06495aa069e57bc2d66dca5f09f7"
+    },
+    {
+      "path": "exp4_qpu_size_sensitivity/profiles/30_nodes_200_couplers/qubo_annealing/exp4_qpu_s500_g50_n30_c200/run_config_log.json",
+      "size_bytes": 480,
+      "sha256": "c02e5c1ccfd6236603d6e5aa327fe304aa287fd632cca7f0695ee51952558100"
+    },
+    {
+      "path": "exp4_qpu_size_sensitivity/profiles/30_nodes_200_couplers/qubo_annealing/exp4_qpu_s500_g50_n30_c200/terminal_qubo_summary.csv",
+      "size_bytes": 35092,
+      "sha256": "8a5f57d513de0724e785c3282cb4da76c79f95e9bad8f42f39ede1c586e97a81"
+    },
+    {
+      "path": "exp4_qpu_size_sensitivity/profiles/30_nodes_200_couplers/qubo_annealing/exp4_qpu_s500_g50_n30_c200/terminal_qubo_terms.csv",
+      "size_bytes": 1195491,
+      "sha256": "d68acd44770d3c637f650641b968ad7a17218f8771c65ca8281515d62895f578"
+    },
+    {
+      "path": "exp4_qpu_size_sensitivity/profiles/50_nodes_350_couplers/mwis/exp4_qpu_s500_g50_n50_c350/candidate_slots.csv",
+      "size_bytes": 396120,
+      "sha256": "952b27c04954c4db69a69a3f28e152349497a72a39c52e7641d01e8f1419c2b1"
+    },
+    {
+      "path": "exp4_qpu_size_sensitivity/profiles/50_nodes_350_couplers/mwis/exp4_qpu_s500_g50_n50_c350/components_summary.csv",
+      "size_bytes": 27199,
+      "sha256": "3672827678770e8b9b8088cef85782dc6fc61c92086ae814c06fb04108c74c9a"
+    },
+    {
+      "path": "exp4_qpu_size_sensitivity/profiles/50_nodes_350_couplers/mwis/exp4_qpu_s500_g50_n50_c350/conflict_graph_edges.csv",
+      "size_bytes": 356585,
+      "sha256": "6a7c26b7bc5c3b56080609bd1607401c2633de1b26e27edab21f184231e029d4"
+    },
+    {
+      "path": "exp4_qpu_size_sensitivity/profiles/50_nodes_350_couplers/mwis/exp4_qpu_s500_g50_n50_c350/conflict_graph_nodes.csv",
+      "size_bytes": 408976,
+      "sha256": "30137bd67fb09fe05f7a63a3f1525ea6ebb3c3b4c6256c215e0c1dfe52da5187"
+    },
+    {
+      "path": "exp4_qpu_size_sensitivity/profiles/50_nodes_350_couplers/mwis/exp4_qpu_s500_g50_n50_c350/decomposition_summary.csv",
+      "size_bytes": 26688,
+      "sha256": "511888237b4f12b07fee85ec97cd14c001061ffbb78f50729d5ea36fb6eaef44"
+    },
+    {
+      "path": "exp4_qpu_size_sensitivity/profiles/50_nodes_350_couplers/mwis/exp4_qpu_s500_g50_n50_c350/final_summary.csv",
+      "size_bytes": 1826,
+      "sha256": "8b7c678720b8827482ff06402c99af1c1f72bf055fd105c0fa81063ff941f500"
+    },
+    {
+      "path": "exp4_qpu_size_sensitivity/profiles/50_nodes_350_couplers/mwis/exp4_qpu_s500_g50_n50_c350/heuristic_fallback_details.csv",
+      "size_bytes": 2,
+      "sha256": "7eb70257593da06f682a3ddda54a9d260d4fc514f645237f5ca74b08f8da61a6"
+    },
+    {
+      "path": "exp4_qpu_size_sensitivity/profiles/50_nodes_350_couplers/mwis/exp4_qpu_s500_g50_n50_c350/mwis_solution.csv",
+      "size_bytes": 152282,
+      "sha256": "75f13350924cb379368563f8a167703848166534cb1398a806d7b4f14302787a"
+    },
+    {
+      "path": "exp4_qpu_size_sensitivity/profiles/50_nodes_350_couplers/mwis/exp4_qpu_s500_g50_n50_c350/reconstruction_metadata.json",
+      "size_bytes": 377042,
+      "sha256": "35cb4c9723297b888d22307d4bdd31c18f241c510a70701443f33d1d54125e9e"
+    },
+    {
+      "path": "exp4_qpu_size_sensitivity/profiles/50_nodes_350_couplers/mwis/exp4_qpu_s500_g50_n50_c350/run_config_log.json",
+      "size_bytes": 769,
+      "sha256": "942f2f51b6d908d48726aacf91f5f9116d7d4e386f603add9e862679fb270d6d"
+    },
+    {
+      "path": "exp4_qpu_size_sensitivity/profiles/50_nodes_350_couplers/mwis/exp4_qpu_s500_g50_n50_c350/terminal_subgraphs.json",
+      "size_bytes": 4183310,
+      "sha256": "97778b2c20b887851e11e158d3618600852c0dbf893e5e0dec90f4acf1793cd0"
+    },
+    {
+      "path": "exp4_qpu_size_sensitivity/profiles/50_nodes_350_couplers/qubo_annealing/exp4_qpu_s500_g50_n50_c350/annealing_results.csv",
+      "size_bytes": 66132,
+      "sha256": "c23237a1568f2f4602470c93cfe7352894969288e47e1372cca879455e2d747a"
+    },
+    {
+      "path": "exp4_qpu_size_sensitivity/profiles/50_nodes_350_couplers/qubo_annealing/exp4_qpu_s500_g50_n50_c350/component_provenance_summary.csv",
+      "size_bytes": 37359,
+      "sha256": "cbdafa7906b07da92fdf1ef3d419ac8a7c418a7f8939bd5843bcd6330a6fb40b"
+    },
+    {
+      "path": "exp4_qpu_size_sensitivity/profiles/50_nodes_350_couplers/qubo_annealing/exp4_qpu_s500_g50_n50_c350/heuristic_fallback_details.csv",
+      "size_bytes": 116,
+      "sha256": "47f798f70911ca46702ca7533e8d59d6d23f8e1d6f48c99b9b8a87e7e8f96dfc"
+    },
+    {
+      "path": "exp4_qpu_size_sensitivity/profiles/50_nodes_350_couplers/qubo_annealing/exp4_qpu_s500_g50_n50_c350/reconstructed_schedule.csv",
+      "size_bytes": 607173,
+      "sha256": "94b00cf1a29e1c867080531f2c56beee521c2e67962c4906d659debbb5e9d4be"
+    },
+    {
+      "path": "exp4_qpu_size_sensitivity/profiles/50_nodes_350_couplers/qubo_annealing/exp4_qpu_s500_g50_n50_c350/reconstructed_selected_nodes.json",
+      "size_bytes": 24811,
+      "sha256": "35d0615dab11fef4965618ff4f2dd9dbbc5329b107ee6e4aa5f13729eeba0163"
+    },
+    {
+      "path": "exp4_qpu_size_sensitivity/profiles/50_nodes_350_couplers/qubo_annealing/exp4_qpu_s500_g50_n50_c350/reconstructed_summary.csv",
+      "size_bytes": 770,
+      "sha256": "20b95daf86a8a7b480fe13f1d4ebe6814a4ffda20812db90e5bd432c50f2e71b"
+    },
+    {
+      "path": "exp4_qpu_size_sensitivity/profiles/50_nodes_350_couplers/qubo_annealing/exp4_qpu_s500_g50_n50_c350/run_config_log.json",
+      "size_bytes": 480,
+      "sha256": "7471fb30d3f3d799aae57614cc7c5be32d095ff8b1412c54894563abe41ab738"
+    },
+    {
+      "path": "exp4_qpu_size_sensitivity/profiles/50_nodes_350_couplers/qubo_annealing/exp4_qpu_s500_g50_n50_c350/terminal_qubo_summary.csv",
+      "size_bytes": 27843,
+      "sha256": "c74e203008a8874a55259de5eef931e8660cb7d12f6e4a57e21add5b4cb0d55f"
+    },
+    {
+      "path": "exp4_qpu_size_sensitivity/profiles/50_nodes_350_couplers/qubo_annealing/exp4_qpu_s500_g50_n50_c350/terminal_qubo_terms.csv",
+      "size_bytes": 1025428,
+      "sha256": "cfa3e49a576406228adadff4cb5999e346853e654dffed292740a12be35c7e01"
+    },
+    {
+      "path": "notebooks/02.A_mwis_pipeline.ipynb",
+      "size_bytes": 68601,
+      "sha256": "60e86f78b216933258e51852b051fe63433a95d1b0af782a94f81c01138c4be4"
+    },
+    {
+      "path": "notebooks/3_qubo_annealing_reconstruction.ipynb",
+      "size_bytes": 45590,
+      "sha256": "6d6483216e78279fbfc6c6d9623436a41adcab05a4d0d2628d4814fae28dd9e9"
+    },
+    {
+      "path": "notebooks/4_mwis_experiment_comparison.ipynb",
+      "size_bytes": 333603,
+      "sha256": "0c7efe5bde54cd47fdfa0d76a61dd17626967194dab28aa4894b18513cd2e50b"
+    },
+    {
+      "path": "notebooks/README.md",
+      "size_bytes": 541,
+      "sha256": "47f9f9ab52f7cb50c5b7552e14dbf962c0ded68173d0a690c1ecd13d1844ddf6"
+    }
+  ]
+}

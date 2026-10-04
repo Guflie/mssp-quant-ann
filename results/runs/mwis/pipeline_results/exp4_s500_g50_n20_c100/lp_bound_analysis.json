@@ -1,0 +1,58 @@
+{
+  "run": "exp4_s500_g50_n20_c100",
+  "input": "data/experiment_inputs/exp1_3_snapshot_2026-09-27/scenario_inputs/slots_s500_g50.csv",
+  "model": "same-satellite overlap conflicts included; graph identical across all QPU-size profiles",
+  "solver": "SciPy linprog / HiGHS",
+  "resource_limit_per_model_seconds": 30,
+  "threads_requested": 2,
+  "model_definition": "maximize sum(weight_i*x_i), x_i+x_j<=1 for every conflict edge, 0<=x_i<=1",
+  "incomplete_components_tested": [
+    {
+      "component_id": "component_001",
+      "nodes": 2419,
+      "edges": 10057,
+      "lp_upper_bound": 78191.05300000001,
+      "saved_feasible_component_score": 38628.069,
+      "selected_nodes": 574,
+      "selected_conflicts": 0,
+      "max_edge_constraint_violation": 0.0,
+      "lp_iterations": 2493,
+      "solve_seconds": 0.4539
+    },
+    {
+      "component_id": "component_002",
+      "nodes": 68,
+      "edges": 181,
+      "lp_upper_bound": 2037.4180000000006,
+      "saved_feasible_component_score": 1352.9810000000002,
+      "selected_nodes": 22,
+      "selected_conflicts": 0,
+      "max_edge_constraint_violation": 0.0,
+      "lp_iterations": 69,
+      "solve_seconds": 0.0036
+    }
+  ],
+  "comparison": {
+    "old_unresolved_upper_bound": 157784.626,
+    "sum_lp_upper_bounds": 80228.47100000002,
+    "bound_used": 80228.47100000002,
+    "old_global_upper_bound": 179759.123,
+    "refined_global_upper_bound": 102202.96800000002,
+    "feasible_global_objective": 61955.54699999998,
+    "old_gap": 117803.57600000002,
+    "refined_gap": 40247.421000000046,
+    "gap_reduction": 77556.15499999997,
+    "refined_relative_gap_percent": 39.379894525176645
+  },
+  "validation": {
+    "graph_nodes": 3220,
+    "graph_edges": 11457,
+    "natural_components": 150,
+    "selected_nodes": 914,
+    "selected_conflicts": 0,
+    "reconstruction_objective_matches_schedule_weights": true,
+    "lp_bound_at_least_saved_feasible_score": true,
+    "max_lp_edge_constraint_violation": 0.0
+  },
+  "interpretation": "LP relaxation provides a valid upper bound within solver tolerances. Refined global bound is the minimum of the existing conservative unresolved bound and the summed LP bounds; this does not change the feasible schedule or certify the integer optimum."
+}

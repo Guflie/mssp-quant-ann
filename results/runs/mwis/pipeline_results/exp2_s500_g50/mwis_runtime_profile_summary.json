@@ -1,0 +1,33 @@
+{
+  "run_name": "exp2_s500_g50",
+  "evaluation_wall_seconds": 430.521,
+  "evaluation_calls": 10240,
+  "evaluation_completed": 10240,
+  "evaluation_memo_hits": 8930,
+  "evaluation_calls_by_type": {
+    "separator": 5000,
+    "incomplete": 4983,
+    "terminal": 257
+  },
+  "evaluation_inclusive_seconds_by_type": {
+    "incomplete": 170.699,
+    "separator": 2893.17,
+    "terminal": 257.534
+  },
+  "terminal_solver_calls": {
+    "exact enumeration": 157,
+    "empty graph": 75,
+    "complement max-weight clique": 25
+  },
+  "terminal_solver_seconds": {
+    "exact enumeration": 257.235,
+    "empty graph": 0.032,
+    "complement max-weight clique": 0.118
+  },
+  "terminal_solver_max_seconds": {
+    "exact enumeration": 36.41,
+    "empty graph": 0.001,
+    "complement max-weight clique": 0.012
+  },
+  "trace_file": "mwis_runtime_profile.jsonl"
+}
