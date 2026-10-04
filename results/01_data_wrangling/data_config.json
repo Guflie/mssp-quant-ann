@@ -1,0 +1,4 @@
+{
+  "celestrak_starlink_tle_url": "https://celestrak.org/NORAD/elements/gp.php?GROUP=starlink&FORMAT=tle",
+  "satellite_subset_size": 1000
+}
