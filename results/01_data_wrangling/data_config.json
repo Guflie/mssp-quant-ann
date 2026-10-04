@@ -1,4 +1,10 @@
 {
   "celestrak_starlink_tle_url": "https://celestrak.org/NORAD/elements/gp.php?GROUP=starlink&FORMAT=tle",
-  "satellite_subset_size": 1000
+  "satellite_subset_size": 1000,
+
+  "gateway_dataset_id": "28hery/starlink-ground-stations",
+  "gateway_dataset_config": "gateways",
+  "gateway_dataset_split": "train",
+  "gateway_rows_api_url": "https://datasets-server.huggingface.co/rows",
+  "gateway_rows_per_request": 100
 }
