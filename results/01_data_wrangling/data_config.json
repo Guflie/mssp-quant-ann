@@ -11,7 +11,7 @@
   "visibility_horizon_start_utc": "2026-05-31T00:00:00Z",
   "visibility_horizon_hours": 4,
   "visibility_time_step_seconds": 60,
-  "elevation_mask_deg": 25.0,
+  "visibility_elevation_mask_deg": 25.0,
   "visibility_satellite_subset_size": 100,
   "visibility_gateway_subset_size": 50,
   "visibility_min_window_duration_seconds": 60,
