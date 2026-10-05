@@ -22,5 +22,19 @@
   "operational_blackouts_per_station": 0,
   "operational_blackout_duration_minutes": 30,
   "operational_blackout_random_seed": 20260531,
-  "operational_blackout_reason": "synthetic_maintenance"
+  "operational_blackout_reason": "synthetic_maintenance",
+
+  "scheduling_min_contact_duration_minutes": 5,
+  "scheduling_step_size_minutes": 2,
+  "scheduling_priority_mode": "satellite_stable_with_pass_quality",
+  "scheduling_urgency_mode": "earlier_slots_more_urgent",
+  "scheduling_priority_random_seed": 20260531,
+  "scheduling_small_instance_size": 100,
+  "scheduling_medium_instance_size": 500,
+  "scheduling_dense_instance_size": 700,
+  "scheduling_dense_station_count": 6,
+  "scheduling_priority_weight": 0.45,
+  "scheduling_duration_weight": 0.25,
+  "scheduling_urgency_weight": 0.20,
+  "scheduling_elevation_weight": 0.10
 }
