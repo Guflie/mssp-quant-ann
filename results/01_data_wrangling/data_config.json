@@ -14,5 +14,13 @@
   "elevation_mask_deg": 25.0,
   "visibility_satellite_subset_size": 100,
   "visibility_gateway_subset_size": 50,
-  "visibility_min_window_duration_seconds": 60
+  "visibility_min_window_duration_seconds": 60,
+
+  "operational_antenna_type": "dish",
+  "operational_station_capacity": 1,
+  "operational_reconfiguration_time_seconds": 180,
+  "operational_blackouts_per_station": 0,
+  "operational_blackout_duration_minutes": 30,
+  "operational_blackout_random_seed": 20260531,
+  "operational_blackout_reason": "synthetic_maintenance"
 }
