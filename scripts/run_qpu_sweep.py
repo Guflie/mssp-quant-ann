@@ -126,7 +126,8 @@ def collect_metrics(config: dict[str, Any]) -> dict[str, dict[str, Any]]:
     """Read the outputs written by the current MWIS and reconstruction notebooks."""
     run_name = Path(config["run_name_mwis"])
     mwis_dir = RESULTS_DIR / "runs" / "mwis" / "pipeline_results" / run_name
-    qubo_dir = RESULTS_DIR / "runs" / "mwis" / "qubo_annealing" / run_name
+    qubo_name = config.get("qubo_output_run_name", run_name.name)
+    qubo_dir = RESULTS_DIR / "runs" / "mwis" / "qubo_annealing" / qubo_name
 
     mwis = read_metric_table(mwis_dir / "final_summary.csv")
     qubo = read_metric_table(qubo_dir / "reconstructed_summary.csv")
@@ -165,6 +166,7 @@ def run_point(
     stages: list[str],
     timeout: int | None,
     prefix: str,
+    qubo_input_run: str | None = None,
 ) -> dict[str, Any]:
     run_name = f"{prefix}_n{nodes}_c{couplers}"
     point_dir = SWEEP_ROOT / run_name
@@ -179,7 +181,8 @@ def run_point(
         "max_qpu_terminal_couplers": couplers,
         "exact_clique_node_limit": EXACT_CLIQUE_NODE_LIMIT,
         "run_name_mwis": stage_run_name,
-        "qubo_input_run": f"runs/mwis/pipeline_results/{stage_run_name}",
+        "qubo_input_run": qubo_input_run or f"runs/mwis/pipeline_results/{stage_run_name}",
+        "qubo_output_run_name": stage_run_name,
     })
     config_path = point_dir / "config.json"
     config_path.write_text(json.dumps(config, indent=2), encoding="utf-8")
@@ -251,6 +254,8 @@ def main() -> None:
                         help="notebooks to run for each point (default: both)")
     parser.add_argument("--timeout", type=int, default=None,
                         help="per-cell timeout in seconds (default: none)")
+    parser.add_argument("--qubo-input-run", default=None,
+                        help="run QUBO stage only from this existing path relative to results/")
     parser.add_argument("--prefix", default="qpu", help="run-name prefix")
     parser.add_argument("--overwrite", action="store_true",
                         help="replace existing outputs for these sweep points and summary")
@@ -262,6 +267,8 @@ def main() -> None:
         parser.error("node and coupler limits must be positive integers")
     if len(set(args.nodes)) != len(args.nodes) or len(set(args.couplers)) != len(args.couplers):
         parser.error("node and coupler values must not contain duplicates")
+    if args.qubo_input_run and args.stages != ["qubo"]:
+        parser.error("--qubo-input-run can only be used with --stages qubo")
 
     base_config = json.loads(BASE_CONFIG_PATH.read_text(encoding="utf-8"))
     candidate_slot_csv = PROJECT_ROOT / FROZEN_CANDIDATE_SLOT_CSV
@@ -276,7 +283,10 @@ def main() -> None:
 
     rows = []
     for nodes, couplers in itertools.product(args.nodes, args.couplers):
-        rows.append(run_point(base_config, nodes, couplers, args.stages, args.timeout, args.prefix))
+        rows.append(run_point(
+            base_config, nodes, couplers, args.stages, args.timeout, args.prefix,
+            qubo_input_run=args.qubo_input_run,
+        ))
         # Save after each point so completed results survive an interrupted sweep.
         summary_path.write_text(json.dumps(rows, indent=2), encoding="utf-8")
 

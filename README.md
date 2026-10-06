@@ -1,13 +1,11 @@
-
-
 ## Project stucture
 
-File | Description
------ | -----
-`├── dataset` | Collection of dataset used to run experiments.
-`├── docs` | Collection of documentation about the project.
-`├── results` | Collection of eperimental results (mainly Jupyter notebooks).
-`└── src` | Python module implementation.
+| File          | Description                                                   |
+| ------------- | ------------------------------------------------------------- |
+| `├── dataset` | Collection of dataset used to run experiments.                |
+| `├── docs`    | Collection of documentation about the project.                |
+| `├── results` | Collection of eperimental results (mainly Jupyter notebooks). |
+| `└── src`     | Python module implementation.                                 |
 
 ## MWIS improvements branch handoff
 
@@ -37,6 +35,26 @@ there is no formal Git merge commit from either source branch.
   from the original graph. Separator search avoids rescanning the graph for
   each articulation candidate; memoization reuses recursive results. Runtime
   and operation profiling are saved with each MWIS run.
+
+- **Bounded MILP fallback after annealing:** `02.A_mwis_pipeline.ipynb` saves
+  per-component objectives and bounds. After simulated annealing and schedule
+  reconstruction, `3_qubo_annealing_reconstruction.ipynb` sends only natural
+  components whose separator decomposition was incomplete to a classical
+  binary MWIS solver (MILP). It has a 5-second per-component and 30-second total
+  solver-time budget. A proven optimum replaces that component's contribution;
+  if the time limit is reached, a valid better schedule may still be kept and
+  the best valid MILP/triangle-LP bound is reported, falling back to the saved
+  conservative bound if needed. All other components keep their annealing
+  results. The comparison reports which method supplied each
+  result, proof counts, timing, and the final objective and gap. This fallback
+  complements simulated annealing; it is not a QPU run.
+- **Why the fallback was chosen:** Isolated tests showed that triangle-LP cuts
+  can tighten an upper bound but do not by themselves prove an MWIS optimum.
+  The bounded MILP proved all unresolved components in the tested saved runs,
+  so it is used only for separator-incomplete components. The tests and
+  rationale are summarized in
+  `results/archive/mwis_gap_reduction_findings.md`.
+
 - **QPU-size-limit sweeps:** `scripts/run_qpu_sweep.py` runs the MWIS and QUBO/
   reconstruction notebooks at selected node/coupler limits, using the project's
   simulated annealer rather than a physical QPU. It supplies a
@@ -56,6 +74,14 @@ run outputs and temporary sweep configs were removed after testing; the
 reusable runner remains. The data-wrangling notebooks were checked for valid
 notebook/config structure and consistent paths, but Layers A–E were not rerun,
 so no source data was downloaded or regenerated.
+
+The integrated simulated-annealing and reconstruction notebook was also run
+end-to-end on the saved `exp2_s500_g50` producer input. It annealed 182 terminal
+subgraphs (100 contributed to the schedule), then proved the one
+separator-incomplete 2,419-node component optimal with MILP in 0.76 seconds.
+The final 953-contact schedule had no graph conflicts, and its objective and
+upper bound both equaled 64,329.426. The temporary smoke-test outputs and
+config override were removed; frozen experiment results were not overwritten.
 
 From the project root, a small sweep can be run with:
 
