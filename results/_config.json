@@ -16,5 +16,9 @@
   "qubo_reward_factor": 1.0,
   "qubo_penalty_factor": 1.0,
   "num_reads": 500,
-  "base_seed": 42
+  "base_seed": 42,
+  "milp_per_component_seconds": 5.0,
+  "milp_total_solver_seconds": 30.0,
+  "triangle_lp_per_component_seconds": 5.0,
+  "triangle_lp_total_solver_seconds": 30.0
 }
