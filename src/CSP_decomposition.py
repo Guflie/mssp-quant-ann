@@ -13,8 +13,12 @@ dominance_reduction         := remove the timeslots dominated by another timeslo
                                satellite (exact, modifies the domains in-place)
 split_connected_components  := decompose a CSP into independent sub-problems
 decompose_csp               := exact decomposition tree into QPU-sized terminal sub-problems
-                               (CSP counterpart of the MWIS separator decomposition), with budgets
-ac3                         := arc-consistency preprocessing; no longer used in the pipeline,
+                               (CSP counterpart of the MWIS separator decomposition), with budgets;
+                               incomplete leaves carry a heuristic_solution
+greedy_schedule             := deterministic greedy schedule (always feasible, not optimal)
+conservative_upper_bound    := upper bound on the optimum (heaviest timeslot of each satellite)
+heuristic_solution          := fallback of an incomplete leaf: greedy + forced choices + upper bound
+ac3                        := arc-consistency preprocessing; no longer used in the pipeline,
                                since it is not exact when satellites may stay unscheduled
 """
 
@@ -200,6 +204,66 @@ def split_connected_components(csp :CSP) ->list[CSP]:
 
 
 # ------------------------------------------------------------------------------------------------
+# Heuristic fallback for incomplete leaves (CSP counterpart of the MWIS greedy + conservative bound)
+# ------------------------------------------------------------------------------------------------
+
+def greedy_schedule(csp :CSP, slot_weight :dict[str, float]) ->dict[str, Timeslot]:
+    """
+    Deterministic greedy schedule, the CSP counterpart of the MWIS weighted greedy: timeslots are
+    visited by weight / (1 + degree), where the degree counts the conflicting timeslots of other
+    satellites plus the other timeslots of the same satellite (its degree in the conflict graph).
+    A timeslot is taken when its satellite is still unscheduled and it conflicts with nothing
+    already taken. The schedule is always feasible, but not necessarily optimal.
+    Returns {satellite name: chosen timeslot} (unscheduled satellites are absent).
+    """
+    degree = {t: len(csp.conflicting_values(v, t)) + len(v.domain) - 1 for v in csp.vars for t in v.domain}
+    owner = {t: v.name for v in csp.vars for t in v.domain}
+    # priority is static, so a single sort gives the greedy order (ties as in the MWIS greedy)
+    order = sorted(
+        degree,
+        key=lambda t: (slot_weight[t.slot_id] / (1 + degree[t]), slot_weight[t.slot_id], -degree[t], t.slot_id),
+        reverse=True,
+    )
+    chosen :dict[str, Timeslot] = {}
+    blocked :set[Timeslot] = set()
+    for t in order:
+        if owner[t] in chosen or t in blocked:
+            continue
+        chosen[owner[t]] = t
+        blocked |= csp.index.conflicts[t]
+    return chosen
+
+
+def conservative_upper_bound(csp :CSP, slot_weight :dict[str, float]) ->float:
+    """
+    Upper bound on the best schedule of csp: every satellite takes at most one timeslot, so no
+    schedule can exceed the sum of the heaviest timeslot of each satellite (conflicts ignored).
+    Tighter than the MWIS bound (sum of all node weights), and still valid for non-negative weights.
+    """
+    return sum(max((slot_weight[t.slot_id] for t in v.domain), default=0.0) for v in csp.vars)
+
+
+def heuristic_solution(csp :CSP, slot_weight :dict[str, float], forced_selected :dict[str, str]) ->dict[str, Any]:
+    """
+    Fallback solution of an incomplete leaf, in the format the MWIS reconstruction reads:
+    the greedy schedule of the remaining sub-problem plus the leaf's forced choices, its objective
+    and an upper bound on the leaf's optimum (forced choices are exact, so they count in both).
+    """
+    greedy = greedy_schedule(csp, slot_weight)
+    forced_objective = sum(slot_weight[slot_id] for slot_id in forced_selected.values())
+    selected = {**forced_selected, **{s: t.slot_id for s, t in greedy.items()}}
+    objective = forced_objective + sum(slot_weight[t.slot_id] for t in greedy.values())
+    return {
+        "status": "heuristic_feasible",
+        "forced_selected": dict(forced_selected),
+        "heuristic_selected": {s: t.slot_id for s, t in greedy.items()},
+        "selected": selected,                      # {satellite: slot_id}
+        "objective": objective,
+        "upper_bound": forced_objective + conservative_upper_bound(csp, slot_weight),
+    }
+
+
+# ------------------------------------------------------------------------------------------------
 # Exact decomposition tree (CSP counterpart of the MWIS separator decomposition)
 # ------------------------------------------------------------------------------------------------
 
@@ -347,10 +411,13 @@ def _build_node(csp :CSP, component_id :str, context :dict[str, Any], depth :int
     context["cache"][cache_key] = node
     context["nodes"].append(node)
 
-    # close the node as a leaf, keeping its remaining domains for the solver (or the fallback)
+    # close the node as a leaf, keeping its remaining domains for the solver (or the fallback);
+    # an incomplete leaf also gets its heuristic fallback: greedy schedule + conservative upper bound
     def _leaf(node_type :str, reason :str) ->dict[str, Any]:
         node.update({"node_type": node_type, "reason": reason,
                      "domains": {v.name: sorted(t.slot_id for t in v.domain) for v in reduced.vars}})
+        if node_type == "incomplete":
+            node["heuristic_solution"] = heuristic_solution(reduced, context["slot_weight"], node["forced_selected"])
         return node
 
     # ---------- nothing left after preprocessing: the forced choices are the optimum of this node
