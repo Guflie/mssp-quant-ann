@@ -14,7 +14,9 @@ Public API
 Timeslot                    := immutable (antenna_id, timeframe) value
 CSP_Variable                := CSP variable with a Timeslot domain
 CSP                         := constraint graph over CSP_Variable objects
-ac3                         := arc-consistency preprocessing (modifies domains in-place,
+forward_check               := fix one variable and prune the conflicting values of its neighbors
+                               (exact, modifies domains and constraints in-place)
+ac3                        := arc-consistency preprocessing (modifies domains in-place,
                                optionally tolerating wiped-out variables)
 split_connected_components  := decompose a CSP into independent sub-problems
 """
@@ -252,6 +254,38 @@ class CSP:
         return summ
 
 
+def forward_check(csp :CSP, var :CSP_Variable, value :Timeslot | None) ->int:
+    """
+    Fix var to value (None = satellite left unscheduled) and propagate the choice.
+
+    Every neighbor loses the timeslots that conflict with value; then the constraints
+    left without any conflicting pair of values are removed, so the sub-problem can split
+    further. Unlike AC-3, this pruning is exact even when satellites may stay unscheduled:
+    the removed timeslots are infeasible given the fixed choice.
+    Modifies domains and constraints in-place. Returns the number of pruned timeslots.
+    """
+    if value is not None and value not in var.domain:
+        raise ValueError(f"{value.slot_id} is not in the domain of {var.name}")
+
+    affected = csp.neighbors(var)
+    var.domain = set() if value is None else {value}
+
+    pruned = 0
+    if value is not None:
+        for w in affected:
+            for t in [t for t in w.domain if Timeslot.overlap(value, t)]:
+                w.trim_value(t)
+                pruned += 1
+
+    # remove_constraint drops an edge only when no conflicting pair is left
+    for w in affected:
+        csp.remove_constraint(var, w)
+        for x in csp.neighbors(w):
+            csp.remove_constraint(w, x)
+    return pruned
+
+
+# no longer used
 def ac3(csp :CSP, debug=False, allow_wipeout=False) ->bool:
     """
     Enforce arc consistency (AC-3) on the CSP.
