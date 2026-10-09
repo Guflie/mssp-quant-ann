@@ -1,18 +1,22 @@
 """
 CSP model for satellite scheduling problem.
 
-Each variable represents a satellite in orbit, and the values that can be
-assigned are a contact slots, which is a disrcetized temporal interval
-in which some ground antena can serve the satellites.
-A constraint between two variables means they share at least one contact slot in
-their domains, i.e. they conflict and that timeslot cannot be assigned to both.
-The constraint graph is stored as a boolean upper-triangular numpy matrix
-indexed by variable/satellite id.
+Each variable represents a satellite in orbit, and the values that can be assigned are its
+contact slots: discretized temporal intervals in which some ground antenna can serve the satellite.
+A satellite takes at most one of its slots (or stays unscheduled). Two satellites are constrained
+when some pair of their slots conflicts: same antenna, and the slots overlap or leave less than
+the reconfiguration time between them (Timeslot.overlap).
+
+The conflicts are stored once, slot by slot, in a ConflictIndex shared by a CSP and by every
+sub-problem derived from it (copy, subproblem): the constraints are read from the index and the
+current domains, so removing values never requires recomputing overlaps, and sub-problems are
+cheap to create.
 
 Public API
 ----------
-Timeslot                    := immutable (antenna_id, timeframe) value
+Timeslot                    := immutable contact slot value (slot_id, antenna, times in seconds)
 CSP_Variable                := CSP variable with a Timeslot domain
+ConflictIndex               := shared index of the conflicts between slots of different satellites
 CSP                         := constraint graph over CSP_Variable objects
 
 The reduction and decomposition algorithms working on this model are in CSP_decomposition.py.
@@ -71,7 +75,7 @@ class CSP_Variable:
 
     Attributes
     ----------
-    id        : int              := unique identifier, used as matrix index in CSP
+    id        : int              := identifier assigned by CSP.add_var, kept by copies and sub-problems
     name      : str              := name assigned to the satellite, for better interpretability
     domain    : set[Timeslot]    := set of Timeslots the satellite can be scheduled at
     """
@@ -86,13 +90,13 @@ class CSP_Variable:
 
     def add_value(self, val :Timeslot) ->None:
         """
-        Add val Timeslot to the variable's domain.
+        Add val Timeslot to the variable's domain (before the variable is added to a CSP).
         """
         self.domain.add(val)
 
     def load_values(self, vals :set[Timeslot]) ->None:
         """
-        Add the set of values to variable's domain (used for bulk loads), with the default weight.
+        Add the set of values to variable's domain (used for bulk loads).
         """
         for val in vals:
             self.add_value(val)
@@ -107,126 +111,165 @@ class CSP_Variable:
         """
         Returns whether the variable conflict with some value in the domain or not
         """
-        for d_val in list(self.domain): 
+        for d_val in list(self.domain):
             if Timeslot.overlap(d_val, val): return True
         return False
 
 
-class CSP:
+class ConflictIndex:
     """
-    Constraint Satisfaction Problem over satellite scheduling variables (Diff formulation).
-
-    Two variables are constrained when their domains share at least one overlapping Timeslot,
-    meaning they conflict and cannot both be assigned that slot. The constraint
-    graph is encoded as a boolean upper-triangular numpy matrix (const[i][j], i < j).
+    Grow-only index of the conflicts between slots of different satellites, shared by a CSP and
+    by every sub-problem derived from it. Overlaps are computed once, when a satellite's slots are
+    registered, and only against slots on the same antenna (the only ones that can overlap).
 
     Attributes
     ----------
-    max_vars   : int                    := capacity of the constraint matrix (fixed at construction)
-    vars       : list[CSP_Variable]     := registered variables
-    const      : np.ndarray             := upper-triangular bool matrix; const[i][j] is True iff
-                                           vars i and j overlap on at least one Timeslot in their domains
-    _var_by_id : dict[int,CSP_Variable] := O(1) lookup index kept in sync with vars
+    conflicts : dict[Timeslot, set[Timeslot]] := slot -> slots of other satellites conflicting with it
+    owner     : dict[Timeslot, str]           := slot -> name of the satellite it belongs to
     """
 
-    def __init__(self, max_vars :int):
-        self.max_vars = max_vars    # used for initialize the NumPy matrix
+    def __init__(self) ->None:
+        self.conflicts :dict[Timeslot, set[Timeslot]] = {}
+        self.owner :dict[Timeslot, str] = {}
+        self._by_antenna :dict[str, list[Timeslot]] = {}
+
+    def register(self, name :str, slots :set[Timeslot]) ->None:
+        """
+        Add the slots of satellite name, computing their conflicts with the slots already
+        registered. Slots already registered (e.g. by a sub-problem sharing the index) are skipped.
+        """
+        for t in slots:
+            if t in self.owner:
+                if self.owner[t] != name:
+                    raise ValueError(f"{t.slot_id} already belongs to {self.owner[t]}, not {name}")
+                continue
+            self.owner[t] = name
+            self.conflicts[t] = set()
+            same_antenna = self._by_antenna.setdefault(t.antenna_id, [])
+            for u in same_antenna:
+                if self.owner[u] != name and Timeslot.overlap(t, u):
+                    self.conflicts[t].add(u)
+                    self.conflicts[u].add(t)
+            same_antenna.append(t)
+
+
+class CSP:
+    """
+    Constraint Satisfaction Problem over satellite scheduling variables.
+
+    Two variables are constrained when some slot of one conflicts with some slot of the other.
+    Constraints are not stored: they are read from the shared ConflictIndex, restricted to the
+    slots still in the current domains, so they always reflect the domains (removing a value can
+    only remove constraints) and need no update.
+    Values must be loaded into a variable before add_var registers it; afterwards they can only be
+    removed (trim_value, domain set operations).
+
+    Attributes
+    ----------
+    vars         : list[CSP_Variable]      := registered variables
+    index        : ConflictIndex           := conflicts between slots, shared with copies and sub-problems
+    _var_by_name : dict[str, CSP_Variable] := O(1) lookup index kept in sync with vars
+    _next_id     : int                     := id given to the next variable added without one
+    """
+
+    def __init__(self, index :ConflictIndex | None = None) ->None:
         self.vars :list[CSP_Variable] = []
         self._var_by_name :dict[str, CSP_Variable] = {}
-        self.const = np.zeros([max_vars, max_vars], dtype=bool)
-        self._var_count = 0 # use to assing to each variable the correct index
+        self.index = index if index is not None else ConflictIndex()
+        self._next_id = 0
 
     def add_var(self, var :CSP_Variable) ->None:
         """
-        Add var to the problem; raises ValueError if max_vars capacity is already reached.
+        Add var to the problem and register its slots in the conflict index; raises ValueError
+        if a variable with the same name is already present. A variable without an id gets the
+        next free one; copies keep the id of the original.
         """
-        if self._var_count >= self.max_vars:
-            raise ValueError(f"CSP capacity exceeded: max_vars={self.max_vars}")
-        
-        var.id = self._var_count
-        self._var_count += 1
-        
+        if var.name in self._var_by_name:
+            raise ValueError(f"variable {var.name!r} is already in the CSP")
+        if var.id < 0:
+            var.id = self._next_id
+        self._next_id = max(self._next_id, var.id + 1)
         self.vars.append(var)
         self._var_by_name[var.name] = var
-        # automatically enforce constraints with old variables as the new one is added
-        for v in (v for v in self.vars if v.id != var.id):
-            self.add_constraint(v, var)
+        self.index.register(var.name, var.domain)
 
     def get_var_by_name(self, name :str) ->CSP_Variable | None:
         """
-        Return the CSP_Variable with the given id, or None if not found.
+        Return the CSP_Variable with the given name, or None if not found.
         """
         return self._var_by_name.get(name)
 
-    @staticmethod
-    def _order_params(u :CSP_Variable, v :CSP_Variable) ->tuple[CSP_Variable, CSP_Variable]:
+    def conflicting_values(self, u :CSP_Variable, t :Timeslot) ->set[Timeslot]:
         """
-        Return (min_var_by_id, max_var_by_id) to enforce upper-triangular matrix access to the
-        constraint matrix.
-        """        
-        return min(u, v, key=lambda v: v.id), max(u, v, key=lambda v: v.id)
+        Return the values still in the other variables' domains that conflict with value t of u.
+        """
+        found = set()
+        for c in self.index.conflicts[t]:
+            v = self._var_by_name.get(self.index.owner[c])
+            if v is not None and v is not u and c in v.domain:
+                found.add(c)
+        return found
 
-    def add_constraint(self, u :CSP_Variable, v :CSP_Variable) ->bool:
+    def neighbors(self, u :CSP_Variable) ->list[CSP_Variable]:
         """
-        Check whether the two variables overlap, and in case set the conflicting edge.
-        Returns whether the edge has been added or not.
+        Return all variables that share a constraint with u (sorted by id).
         """
-        if u.id == v.id: return False
-        for t1 in u.domain:
-            for t2 in v.domain:
-                if Timeslot.overlap(t1, t2):
-                    min_v, max_v = self._order_params(u,v)
-                    self.const[min_v.id, max_v.id] = True
-                    return True
-        return False
-        
-    def remove_constraint(self, u :CSP_Variable, v :CSP_Variable) ->bool:
-        """
-        Remove the constraint between u and v (check before that this is true).
-        Returns whether the constraint has been removed or not.
-        """
-        if u.id == v.id: return False # no-op if the two parameters are the same variable
-        min_v, max_v = self._order_params(u, v)
-        for t1 in u.domain:
-                    for t2 in v.domain:
-                        if Timeslot.overlap(t1, t2): return False
-        self.const[min_v.id][max_v.id] = False
-        return True
-
-    def update_constraints(self) ->None:
-        """
-        Rebuild the full constraint matrix by scanning all variable pairs.
-        """
-        self.const[:] = False # resets stale constraints before rebuilding
-        for v in self.vars:
-            for u in self.vars:
-                if v.id < u.id: self.add_constraint(u, v)
+        names = set()
+        for t in u.domain:
+            for c in self.index.conflicts[t]:
+                o = self.index.owner[c]
+                v = self._var_by_name.get(o)
+                if v is not None and v is not u and c in v.domain:
+                    names.add(o)
+        return sorted((self._var_by_name[n] for n in names), key=lambda v: v.id)
 
     def constraint_exists(self, u :CSP_Variable, v :CSP_Variable) ->bool:
         """
         Return True if a constraint exists between u and v, otherwise False.
         """
-        if u.id == v.id: return False
-        min_v, max_v = self._order_params(u, v)
-        return self.const[min_v.id][max_v.id]
-
-    def neighbors(self, u :CSP_Variable) ->list[CSP_Variable]:
-        """
-        Return all variables that share a constraint with u.
-        """
-        return [v for v in self.vars if u.id != v.id and self.constraint_exists(u, v)]
+        if u is v:
+            return False
+        return any(c in v.domain for t in u.domain for c in self.index.conflicts[t])
 
     def degree(self, v :CSP_Variable) ->int:
         """
-        Return the number of constraints involving v (row + column of the matrix).
+        Return the number of constraints involving v.
         """
-        return int(self.const[v.id].sum() + self.const[:, v.id].sum())
+        return len(self.neighbors(v))
 
     def num_constraints(self) ->int:
         """
         Return the total number of constraints in the CSP.
         """
-        return int(self.const.sum())
+        return sum(self.degree(v) for v in self.vars) // 2
+
+    def copy(self) ->CSP:
+        """
+        Return an independent copy: new variables (same names and ids, copied domains) sharing
+        the conflict index, so nothing is recomputed.
+        """
+        return self.subproblem(v.name for v in self.vars)
+
+    def subproblem(self, names) ->CSP:
+        """
+        Return a copy restricted to the variables with the given names (in this CSP's order),
+        sharing the conflict index.
+        """
+        keep = set(names)
+        sub = CSP(self.index)
+        for v in self.vars:
+            if v.name in keep:
+                new_var = CSP_Variable(v.name)
+                new_var.id = v.id
+                new_var.domain = set(v.domain)
+                sub.add_var(new_var)
+        return sub
+
+    def key(self) ->frozenset:
+        """
+        Hashable identity of the sub-problem (variable names and domains), e.g. for caching.
+        """
+        return frozenset((v.name, frozenset(v.domain)) for v in self.vars)
 
     def compute_summary(self) ->dict[str, float]:
         """
@@ -240,11 +283,12 @@ class CSP:
         summ["min_domain_size"] = float(np.min([len(v.domain) for v in self.vars]))
         summ["max_domain_size"] = float(np.max([len(v.domain) for v in self.vars]))
 
-        summ["num_const"] = self.num_constraints()
-        summ["avg_degree"] = float(np.mean([self.degree(v) for v in self.vars]))
-        summ["sd_degree"] = float(np.std([self.degree(v) for v in self.vars]))
+        degrees = [self.degree(v) for v in self.vars]
+        summ["num_const"] = sum(degrees) // 2
+        summ["avg_degree"] = float(np.mean(degrees))
+        summ["sd_degree"] = float(np.std(degrees))
         summ["const_dens"] = (
-            float(2 * np.sum(self.const) / (len(self.vars) ** 2 - len(self.vars)))
+            float(2 * summ["num_const"] / (len(self.vars) ** 2 - len(self.vars)))
             if len(self.vars) > 1 else 0
         )
         return summ

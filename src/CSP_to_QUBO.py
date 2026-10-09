@@ -102,17 +102,15 @@ def _normalized_weights(csp :CSP, slot_weight :dict[str, float] | None) ->dict[s
 
 def _conflict_pairs(csp :CSP) ->list[tuple[Timeslot, Timeslot]]:
     """
-    All pairs of timeslots of different satellites that overlap on the same antenna.
+    All pairs of timeslots of different satellites that overlap on the same antenna, read from
+    the CSP conflict index (restricted to the current domains), each pair once.
     """
     pairs = []
     for v in csp.vars:
-        for u in csp.neighbors(v):
-            if u.id <= v.id:
-                continue
-            for t1 in v.domain:
-                for t2 in u.domain:
-                    if Timeslot.overlap(t1, t2):
-                        pairs.append((t1, t2))
+        for t1 in v.domain:
+            for t2 in csp.conflicting_values(v, t1):
+                if t1.slot_id < t2.slot_id:
+                    pairs.append((t1, t2))
     return pairs
 
 
