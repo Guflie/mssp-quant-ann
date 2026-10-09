@@ -16,7 +16,9 @@ CSP_Variable                := CSP variable with a Timeslot domain
 CSP                         := constraint graph over CSP_Variable objects
 forward_check               := fix one variable and prune the conflicting values of its neighbors
                                (exact, modifies domains and constraints in-place)
-ac3                        := arc-consistency preprocessing (modifies domains in-place,
+dominance_reduction         := remove the timeslots dominated by another timeslot of the same
+                               satellite (exact, modifies domains and constraints in-place)
+ac3                       := arc-consistency preprocessing (modifies domains in-place,
                                optionally tolerating wiped-out variables)
 split_connected_components  := decompose a CSP into independent sub-problems
 """
@@ -283,6 +285,62 @@ def forward_check(csp :CSP, var :CSP_Variable, value :Timeslot | None) ->int:
         for x in csp.neighbors(w):
             csp.remove_constraint(w, x)
     return pruned
+
+
+def dominance_reduction(csp :CSP, slot_weight :dict[str, float]) ->int:
+    """
+    Remove dominated timeslots (neighbourhood substitutability), repeating until none is left.
+
+    A timeslot a of a satellite is dominated by another timeslot b of the same satellite when
+    weight(b) >= weight(a) and every timeslot of other satellites conflicting with b also conflicts
+    with a: any schedule using a stays feasible, and is not worse, using b instead.
+    Removing a is therefore exact, also when satellites may stay unscheduled.
+    Ties (same weight, same conflicts) keep the timeslot with the smallest slot_id.
+    Removing timeslots shrinks the conflicts of the other satellites, so new dominations can
+    appear: the check is repeated until a full pass removes nothing.
+    Modifies domains and constraints in-place. Returns the number of removed timeslots.
+    """
+    # conflicts[t] := timeslots of other satellites that overlap t
+    conflicts :dict[Timeslot, set[Timeslot]] = {t: set() for v in csp.vars for t in v.domain}
+    for v in csp.vars:
+        for u in csp.neighbors(v):
+            if u.id <= v.id:
+                continue
+            for a in v.domain:
+                for b in u.domain:
+                    if Timeslot.overlap(a, b):
+                        conflicts[a].add(b)
+                        conflicts[b].add(a)
+
+    def _dominates(b :Timeslot, a :Timeslot) ->bool:
+        wa, wb = slot_weight[a.slot_id], slot_weight[b.slot_id]
+        if wb < wa or not conflicts[b] <= conflicts[a]:
+            return False
+        # on a tie only one of the two is removed
+        return wb > wa or conflicts[b] < conflicts[a] or b.slot_id < a.slot_id
+
+    removed_total = 0
+    while True:
+        removed :set[Timeslot] = set()
+        for v in csp.vars:
+            for a in v.domain:
+                # a dominator removed in this same pass is skipped: whatever removed it also dominates a
+                if any(b != a and b not in removed and _dominates(b, a) for b in v.domain):
+                    removed.add(a)
+        if not removed:
+            break
+        for v in csp.vars:
+            v.domain -= removed
+        for t in removed:
+            for c in conflicts.pop(t):
+                conflicts[c].discard(t)
+        removed_total += len(removed)
+
+    # remove_constraint drops an edge only when no conflicting pair is left
+    for v in csp.vars:
+        for u in csp.neighbors(v):
+            csp.remove_constraint(v, u)
+    return removed_total
 
 
 # no longer used
