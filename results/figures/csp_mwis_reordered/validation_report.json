@@ -1,0 +1,43 @@
+{
+  "passed": true,
+  "matched_configurations": 7,
+  "method_configuration_records": 14,
+  "exported_terminal_records": 1833,
+  "figures_png_and_pdf": 26,
+  "exported_leaf_records": 33753,
+  "exported_selected_contact_records": 2940,
+  "operational_plot_scenarios": [
+    "s100_g50",
+    "baseline",
+    "s500_g50",
+    "s200_g25",
+    "s200_g100",
+    "n20_c100",
+    "n50_c350"
+  ],
+  "source_hashes_checked_unchanged": 197,
+  "dominance_variant_included": false,
+  "missing_full_runtime_records": [
+    {
+      "scenario": "s100_g50",
+      "method": "CSP"
+    }
+  ],
+  "checks": [
+    "matching input hashes and requested active satellite/gateway counts",
+    "terminal caps and read budgets",
+    "sample feasibility flags",
+    "independent pre-MILP reconstruction",
+    "original schedule constraints and objective totals",
+    "final objective/upper-bound certificates",
+    "component-level MILP provenance and retained terminal counts",
+    "matching final optima across formulations",
+    "classical reference schedules and objective totals",
+    "leaf-size units and terminal/incomplete counts",
+    "gateway counts/weights and four-hour service occupancy",
+    "single-antenna resources and required setup intervals",
+    "disjoint phase clocks",
+    "one shared baseline",
+    "unchanged source hashes"
+  ]
+}
