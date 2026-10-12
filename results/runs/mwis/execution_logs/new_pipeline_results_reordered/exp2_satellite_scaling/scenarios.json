@@ -1,0 +1,50 @@
+[
+  {
+    "run": "new_pipeline_results_reordered/exp2_s100_g50",
+    "satellites": 100,
+    "gateways": 50,
+    "reused": false,
+    "candidate_slot_file": "data/experiment_inputs/exp_snapshot_2026-10-12/slots_s100_g50.csv",
+    "sha256": "39a14509b0409487aa3754dd548c5fe4fe8e33518227da79f19474a1a4f39638",
+    "candidate_slots": 656,
+    "graph_preflight": {
+      "nodes": 656,
+      "edges": 3933,
+      "natural_components": 21,
+      "largest_component_nodes": 454,
+      "largest_component_edges": 2847
+    }
+  },
+  {
+    "run": "new_pipeline_results_reordered/exp1_s200_g50",
+    "satellites": 200,
+    "gateways": 50,
+    "reused": true,
+    "candidate_slot_file": "data/experiment_inputs/exp_snapshot_2026-10-12/slots_s200_g50.csv",
+    "sha256": "8c7f74c2e3b02e7c8158429b0fa9f21df7bbdc3445de913fdf563f8c3e560c8e",
+    "candidate_slots": 1228,
+    "graph_preflight": {
+      "nodes": 1228,
+      "edges": 7647,
+      "natural_components": 20,
+      "largest_component_nodes": 1189,
+      "largest_component_edges": 7615
+    }
+  },
+  {
+    "run": "new_pipeline_results_reordered/exp2_s500_g50",
+    "satellites": 500,
+    "gateways": 50,
+    "reused": false,
+    "candidate_slot_file": "data/experiment_inputs/exp_snapshot_2026-10-12/slots_s500_g50.csv",
+    "sha256": "7ea415e1218beaf754c84aa40d4d4df6c23a768eca895ee8b97fa9fb40ea4396",
+    "candidate_slots": 5224,
+    "graph_preflight": {
+      "nodes": 5224,
+      "edges": 53998,
+      "natural_components": 4,
+      "largest_component_nodes": 5215,
+      "largest_component_edges": 53985
+    }
+  }
+]

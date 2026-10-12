@@ -1,0 +1,5 @@
+component_id,node_count,edge_count,density,total_weight,max_weight,satellite_count,antenna_count
+component_001,5215,53985,0.003970797701151962,340064.645,99.809,491,50
+component_002,7,13,0.6190476190476191,489.368,84.813,7,1
+component_003,1,0,0.0,76.27,76.27,1,1
+component_004,1,0,0.0,46.681,46.681,1,1

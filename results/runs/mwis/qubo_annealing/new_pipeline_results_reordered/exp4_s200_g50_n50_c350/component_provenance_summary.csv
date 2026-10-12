@@ -1,0 +1,21 @@
+component_id,status,selected_contacts,objective,terminal_subgraphs_used,heuristic_fallback_nodes,heuristic_objective,heuristic_upper_bound,decomposition_status,incomplete_decomposition_nodes_all_states,solution_source,component_upper_bound,exact_after_hybrid,milp_optimality_proved
+component_001,optimal,157,11079.888,0,0,0.0,0.0,incomplete,4986,MILP optimal,11079.888,True,True
+component_002,annealed_feasible,3,172.636,1,0,0.0,0.0,complete,0,annealing reconstruction,172.636,True,False
+component_003,annealed_feasible,2,145.761,1,0,0.0,0.0,complete,0,annealing reconstruction,145.761,True,False
+component_004,annealed_feasible,1,66.306,1,0,0.0,0.0,complete,0,annealing reconstruction,66.306,True,False
+component_005,annealed_feasible,2,103.648,1,0,0.0,0.0,complete,0,annealing reconstruction,103.648,True,False
+component_006,annealed_feasible,1,80.866,1,0,0.0,0.0,complete,0,annealing reconstruction,80.866,True,False
+component_007,annealed_feasible,1,57.845,1,0,0.0,0.0,complete,0,annealing reconstruction,57.845,True,False
+component_008,annealed_feasible,1,59.709,1,0,0.0,0.0,complete,0,annealing reconstruction,59.709,True,False
+component_009,annealed_feasible,1,83.611,1,0,0.0,0.0,complete,0,annealing reconstruction,83.611,True,False
+component_010,annealed_feasible,1,80.272,0,0,0.0,0.0,complete,0,annealing reconstruction,80.272,True,False
+component_011,annealed_feasible,1,74.543,0,0,0.0,0.0,complete,0,annealing reconstruction,74.543,True,False
+component_012,annealed_feasible,1,81.305,0,0,0.0,0.0,complete,0,annealing reconstruction,81.305,True,False
+component_013,annealed_feasible,1,70.411,0,0,0.0,0.0,complete,0,annealing reconstruction,70.411,True,False
+component_014,annealed_feasible,1,58.188,0,0,0.0,0.0,complete,0,annealing reconstruction,58.188,True,False
+component_015,annealed_feasible,1,60.613,0,0,0.0,0.0,complete,0,annealing reconstruction,60.613,True,False
+component_016,annealed_feasible,1,76.028,0,0,0.0,0.0,complete,0,annealing reconstruction,76.028,True,False
+component_017,annealed_feasible,1,53.436,0,0,0.0,0.0,complete,0,annealing reconstruction,53.436,True,False
+component_018,annealed_feasible,1,53.433,0,0,0.0,0.0,complete,0,annealing reconstruction,53.433,True,False
+component_019,annealed_feasible,1,76.27,0,0,0.0,0.0,complete,0,annealing reconstruction,76.27,True,False
+component_020,annealed_feasible,1,46.681,0,0,0.0,0.0,complete,0,annealing reconstruction,46.681,True,False

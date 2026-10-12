@@ -1,0 +1,21 @@
+{
+  "run": "new_pipeline_results_reordered/exp2_s500_g50",
+  "satellites": 500,
+  "gateways": 50,
+  "reused": false,
+  "candidate_slot_file": "data/experiment_inputs/exp_snapshot_2026-10-12/slots_s500_g50.csv",
+  "sha256": "7ea415e1218beaf754c84aa40d4d4df6c23a768eca895ee8b97fa9fb40ea4396",
+  "candidate_slots": 5224,
+  "graph_preflight": {
+    "nodes": 5224,
+    "edges": 53998,
+    "natural_components": 4,
+    "largest_component_nodes": 5215,
+    "largest_component_edges": 53985
+  },
+  "satellites_requested": 500,
+  "gateways_requested": 50,
+  "satellites_with_candidate_slots": 500,
+  "gateways_with_candidate_slots": 50,
+  "selection_policy": "Accepted scenario-dependent active-resource selection; actual resource identities need not be nested."
+}

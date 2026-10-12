@@ -1,0 +1,5 @@
+component_id,status,selected_contacts,objective,terminal_subgraphs_used,heuristic_fallback_nodes,heuristic_objective,heuristic_upper_bound,decomposition_status,incomplete_decomposition_nodes_all_states,solution_source,component_upper_bound,exact_after_hybrid,milp_optimality_proved
+component_001,optimal,459,33677.221,0,0,0.0,0.0,incomplete,16,MILP optimal,33677.221,True,True
+component_002,annealed_feasible,3,172.636,1,0,0.0,0.0,complete,0,annealing reconstruction,172.636,True,False
+component_003,annealed_feasible,1,76.27,0,0,0.0,0.0,complete,0,annealing reconstruction,76.27,True,False
+component_004,annealed_feasible,1,46.681,0,0,0.0,0.0,complete,0,annealing reconstruction,46.681,True,False

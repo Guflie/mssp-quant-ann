@@ -1,0 +1,13 @@
+component_id,status,root_type,input_nodes,input_edges,terminal_graphs,incomplete_nodes,separator_states,cache_hits,max_depth
+component_001,incomplete,separator,897,3934,21,4986,9970,7031,13
+component_002,complete,terminal,3,2,1,0,0,0,0
+component_003,complete,terminal,3,3,1,0,0,0,0
+component_004,complete,terminal,2,1,1,0,0,0,0
+component_005,complete,terminal,2,1,1,0,0,0,0
+component_006,complete,terminal,2,1,1,0,0,0,0
+component_007,complete,terminal,1,0,0,0,0,0,0
+component_008,complete,terminal,1,0,0,0,0,0,0
+component_009,complete,terminal,1,0,0,0,0,0,0
+component_010,complete,terminal,1,0,0,0,0,0,0
+component_011,complete,terminal,1,0,0,0,0,0,0
+component_012,complete,terminal,1,0,0,0,0,0,0

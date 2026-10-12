@@ -1,0 +1,15 @@
+{
+  "status": "completed_and_validated",
+  "completed_runs": [
+    "new_pipeline_results_reordered/exp3_s200_g25",
+    "new_pipeline_results_reordered/exp3_s200_g100"
+  ],
+  "reused_run": "new_pipeline_results_reordered/exp1_s200_g50",
+  "started_utc": "2026-10-12T14:24:28.210556+00:00",
+  "updated_utc": "2026-10-12T14:52:38.501057+00:00",
+  "current_run": null,
+  "wall_seconds": 1690.290206500009,
+  "previous_artifacts_checked": 1492,
+  "previous_artifacts_unchanged": true,
+  "report": "C:\\Users\\felip\\Documents\\Polimi\\Semester 3\\SE2 Quantum Satisfiability Project\\satelite-optimization-quantum-annealing\\PoliMi-SWE2-research-project\\results\\runs\\mwis\\experiment_comparison\\new_pipeline_results_reordered\\exp3_gateway_scaling\\gateway_scaling_report.md"
+}

@@ -1,0 +1,36 @@
+{
+  "validation_passed": true,
+  "input_sha256": "8c7f74c2e3b02e7c8158429b0fa9f21df7bbdc3445de913fdf563f8c3e560c8e",
+  "comparisons": [
+    {
+      "from_profile": "20/100",
+      "to_profile": "30/200",
+      "unchanged_tree_nodes": 10024,
+      "changed_nodes": [
+        {
+          "node_id": "component_001_dnode_10006",
+          "variables": 28,
+          "couplers": 199,
+          "smaller_profile_reason": "decomposition node budget exceeded"
+        }
+      ],
+      "previous_qubos": 29,
+      "next_qubos": 30
+    },
+    {
+      "from_profile": "30/200",
+      "to_profile": "50/350",
+      "unchanged_tree_nodes": 10024,
+      "changed_nodes": [
+        {
+          "node_id": "component_001_dnode_8226",
+          "variables": 30,
+          "couplers": 228,
+          "smaller_profile_reason": "no separator found within configured search limits"
+        }
+      ],
+      "previous_qubos": 30,
+      "next_qubos": 31
+    }
+  ]
+}

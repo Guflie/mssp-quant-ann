@@ -1,0 +1,20 @@
+{
+  "scenario": "new_pipeline_results_reordered/exp4_s200_g50_n20_c100",
+  "satellites_requested": 200,
+  "gateways_requested": 50,
+  "candidate_slots": 1228,
+  "candidate_slot_file": "data/experiment_inputs/exp_snapshot_2026-10-12/slots_s200_g50.csv",
+  "sha256": "8c7f74c2e3b02e7c8158429b0fa9f21df7bbdc3445de913fdf563f8c3e560c8e",
+  "satellites_with_candidate_slots": 200,
+  "gateways_with_candidate_slots": 50,
+  "selection_policy": "Scenario-dependent active-resource selection from the shared full candidate pool; resource sets are not guaranteed nested.",
+  "graph_preflight": {
+    "nodes": 1228,
+    "edges": 7647,
+    "natural_components": 20,
+    "largest_component_nodes": 1189,
+    "largest_component_edges": 7615
+  },
+  "nodes": 20,
+  "couplers": 100
+}

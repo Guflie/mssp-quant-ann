@@ -1,0 +1,19 @@
+{"event": "evaluation_start", "decomposition_nodes": 39, "terminal_subgraphs": 4}
+{"event": "terminal_solver_start", "terminal_id": "component_001_dnode_0006", "solver": "empty graph", "nodes": 0, "edges": 0}
+{"event": "terminal_solver_finish", "terminal_id": "component_001_dnode_0006", "solver": "empty graph", "nodes": 0, "edges": 0, "elapsed_seconds": 0.001}
+{"event": "terminal_solver_start", "terminal_id": "component_001_dnode_0008", "solver": "empty graph", "nodes": 0, "edges": 0}
+{"event": "terminal_solver_finish", "terminal_id": "component_001_dnode_0008", "solver": "empty graph", "nodes": 0, "edges": 0, "elapsed_seconds": 0.001}
+{"event": "terminal_solver_start", "terminal_id": "component_001_dnode_0012", "solver": "exact enumeration", "nodes": 2, "edges": 1}
+{"event": "terminal_solver_finish", "terminal_id": "component_001_dnode_0012", "solver": "exact enumeration", "nodes": 2, "edges": 1, "elapsed_seconds": 0.001}
+{"event": "terminal_solver_start", "terminal_id": "component_001_dnode_0020", "solver": "exact enumeration", "nodes": 3, "edges": 3}
+{"event": "terminal_solver_finish", "terminal_id": "component_001_dnode_0020", "solver": "exact enumeration", "nodes": 3, "edges": 3, "elapsed_seconds": 0.001}
+{"event": "evaluation_progress", "completed": 25, "calls": 28, "memo_hits": 7, "node_type": "separator", "elapsed_seconds": 0.214}
+{"event": "terminal_solver_start", "terminal_id": "component_001_dnode_0036", "solver": "exact enumeration", "nodes": 2, "edges": 1}
+{"event": "terminal_solver_finish", "terminal_id": "component_001_dnode_0036", "solver": "exact enumeration", "nodes": 2, "edges": 1, "elapsed_seconds": 0.001}
+{"event": "terminal_solver_start", "terminal_id": "component_002_dnode_0001", "solver": "exact enumeration", "nodes": 7, "edges": 13}
+{"event": "terminal_solver_finish", "terminal_id": "component_002_dnode_0001", "solver": "exact enumeration", "nodes": 7, "edges": 13, "elapsed_seconds": 0.001}
+{"event": "terminal_solver_start", "terminal_id": "component_003_dnode_0001", "solver": "empty graph", "nodes": 0, "edges": 0}
+{"event": "terminal_solver_finish", "terminal_id": "component_003_dnode_0001", "solver": "empty graph", "nodes": 0, "edges": 0, "elapsed_seconds": 0.001}
+{"event": "terminal_solver_start", "terminal_id": "component_004_dnode_0001", "solver": "empty graph", "nodes": 0, "edges": 0}
+{"event": "terminal_solver_finish", "terminal_id": "component_004_dnode_0001", "solver": "empty graph", "nodes": 0, "edges": 0, "elapsed_seconds": 0.002}
+{"event": "evaluation_finish", "wall_seconds": 1.772, "calls": 39, "completed": 39, "memo_hits": 11}

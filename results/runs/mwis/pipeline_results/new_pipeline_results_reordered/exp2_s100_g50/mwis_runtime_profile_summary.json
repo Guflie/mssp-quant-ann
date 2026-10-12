@@ -1,0 +1,33 @@
+{
+  "run_name": "new_pipeline_results_reordered/exp2_s100_g50",
+  "evaluation_wall_seconds": 223.753,
+  "evaluation_calls": 2706,
+  "evaluation_completed": 2706,
+  "evaluation_memo_hits": 3435,
+  "evaluation_calls_by_type": {
+    "separator": 1559,
+    "incomplete": 927,
+    "terminal": 220
+  },
+  "evaluation_inclusive_seconds_by_type": {
+    "incomplete": 2.769,
+    "terminal": 220.846,
+    "separator": 1671.159
+  },
+  "terminal_solver_calls": {
+    "empty graph": 26,
+    "exact enumeration": 161,
+    "complement max-weight clique": 33
+  },
+  "terminal_solver_seconds": {
+    "empty graph": 0.019,
+    "exact enumeration": 220.557,
+    "complement max-weight clique": 0.103
+  },
+  "terminal_solver_max_seconds": {
+    "empty graph": 0.002,
+    "exact enumeration": 29.861,
+    "complement max-weight clique": 0.004
+  },
+  "trace_file": "mwis_runtime_profile_20261012_161121.jsonl"
+}

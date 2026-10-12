@@ -1,0 +1,511 @@
+{"event": "evaluation_start", "decomposition_nodes": 10025, "terminal_subgraphs": 31}
+{"event": "terminal_solver_start", "terminal_id": "component_001_dnode_0015", "solver": "empty graph", "nodes": 0, "edges": 0}
+{"event": "terminal_solver_finish", "terminal_id": "component_001_dnode_0015", "solver": "empty graph", "nodes": 0, "edges": 0, "elapsed_seconds": 0.001}
+{"event": "terminal_solver_start", "terminal_id": "component_001_dnode_0017", "solver": "exact enumeration", "nodes": 2, "edges": 1}
+{"event": "terminal_solver_finish", "terminal_id": "component_001_dnode_0017", "solver": "exact enumeration", "nodes": 2, "edges": 1, "elapsed_seconds": 0.001}
+{"event": "terminal_solver_start", "terminal_id": "component_001_dnode_0020", "solver": "exact enumeration", "nodes": 3, "edges": 3}
+{"event": "terminal_solver_finish", "terminal_id": "component_001_dnode_0020", "solver": "exact enumeration", "nodes": 3, "edges": 3, "elapsed_seconds": 0.001}
+{"event": "terminal_solver_start", "terminal_id": "component_001_dnode_0022", "solver": "exact enumeration", "nodes": 2, "edges": 1}
+{"event": "terminal_solver_finish", "terminal_id": "component_001_dnode_0022", "solver": "exact enumeration", "nodes": 2, "edges": 1, "elapsed_seconds": 0.001}
+{"event": "terminal_solver_start", "terminal_id": "component_001_dnode_0023", "solver": "empty graph", "nodes": 0, "edges": 0}
+{"event": "terminal_solver_finish", "terminal_id": "component_001_dnode_0023", "solver": "empty graph", "nodes": 0, "edges": 0, "elapsed_seconds": 0.001}
+{"event": "terminal_solver_start", "terminal_id": "component_001_dnode_0024", "solver": "exact enumeration", "nodes": 2, "edges": 1}
+{"event": "terminal_solver_finish", "terminal_id": "component_001_dnode_0024", "solver": "exact enumeration", "nodes": 2, "edges": 1, "elapsed_seconds": 0.001}
+{"event": "terminal_solver_start", "terminal_id": "component_001_dnode_0029", "solver": "exact enumeration", "nodes": 2, "edges": 1}
+{"event": "terminal_solver_finish", "terminal_id": "component_001_dnode_0029", "solver": "exact enumeration", "nodes": 2, "edges": 1, "elapsed_seconds": 0.001}
+{"event": "terminal_solver_start", "terminal_id": "component_001_dnode_0033", "solver": "empty graph", "nodes": 0, "edges": 0}
+{"event": "terminal_solver_finish", "terminal_id": "component_001_dnode_0033", "solver": "empty graph", "nodes": 0, "edges": 0, "elapsed_seconds": 0.001}
+{"event": "terminal_solver_start", "terminal_id": "component_001_dnode_0034", "solver": "empty graph", "nodes": 0, "edges": 0}
+{"event": "terminal_solver_finish", "terminal_id": "component_001_dnode_0034", "solver": "empty graph", "nodes": 0, "edges": 0, "elapsed_seconds": 0.0}
+{"event": "terminal_solver_start", "terminal_id": "component_001_dnode_0035", "solver": "exact enumeration", "nodes": 2, "edges": 1}
+{"event": "terminal_solver_finish", "terminal_id": "component_001_dnode_0035", "solver": "exact enumeration", "nodes": 2, "edges": 1, "elapsed_seconds": 0.001}
+{"event": "evaluation_progress", "completed": 25, "calls": 35, "memo_hits": 4, "node_type": "terminal", "elapsed_seconds": 0.001}
+{"event": "terminal_solver_start", "terminal_id": "component_001_dnode_0051", "solver": "empty graph", "nodes": 0, "edges": 0}
+{"event": "terminal_solver_finish", "terminal_id": "component_001_dnode_0051", "solver": "empty graph", "nodes": 0, "edges": 0, "elapsed_seconds": 0.001}
+{"event": "terminal_solver_start", "terminal_id": "component_001_dnode_0052", "solver": "exact enumeration", "nodes": 2, "edges": 1}
+{"event": "terminal_solver_finish", "terminal_id": "component_001_dnode_0052", "solver": "exact enumeration", "nodes": 2, "edges": 1, "elapsed_seconds": 0.0}
+{"event": "evaluation_progress", "completed": 50, "calls": 61, "memo_hits": 22, "node_type": "separator", "elapsed_seconds": 0.07}
+{"event": "evaluation_progress", "completed": 75, "calls": 83, "memo_hits": 45, "node_type": "separator", "elapsed_seconds": 0.617}
+{"event": "terminal_solver_start", "terminal_id": "component_001_dnode_0084", "solver": "exact enumeration", "nodes": 2, "edges": 1}
+{"event": "terminal_solver_finish", "terminal_id": "component_001_dnode_0084", "solver": "exact enumeration", "nodes": 2, "edges": 1, "elapsed_seconds": 0.001}
+{"event": "evaluation_progress", "completed": 100, "calls": 113, "memo_hits": 66, "node_type": "incomplete", "elapsed_seconds": 0.017}
+{"event": "evaluation_progress", "completed": 125, "calls": 137, "memo_hits": 89, "node_type": "separator", "elapsed_seconds": 0.036}
+{"event": "terminal_solver_start", "terminal_id": "component_001_dnode_0148", "solver": "empty graph", "nodes": 0, "edges": 0}
+{"event": "terminal_solver_finish", "terminal_id": "component_001_dnode_0148", "solver": "empty graph", "nodes": 0, "edges": 0, "elapsed_seconds": 0.001}
+{"event": "terminal_solver_start", "terminal_id": "component_001_dnode_0149", "solver": "exact enumeration", "nodes": 3, "edges": 2}
+{"event": "terminal_solver_finish", "terminal_id": "component_001_dnode_0149", "solver": "exact enumeration", "nodes": 3, "edges": 2, "elapsed_seconds": 0.001}
+{"event": "evaluation_progress", "completed": 150, "calls": 163, "memo_hits": 108, "node_type": "incomplete", "elapsed_seconds": 0.02}
+{"event": "evaluation_progress", "completed": 175, "calls": 188, "memo_hits": 132, "node_type": "incomplete", "elapsed_seconds": 0.017}
+{"event": "evaluation_progress", "completed": 200, "calls": 213, "memo_hits": 155, "node_type": "incomplete", "elapsed_seconds": 0.017}
+{"event": "evaluation_progress", "completed": 225, "calls": 238, "memo_hits": 177, "node_type": "incomplete", "elapsed_seconds": 0.017}
+{"event": "evaluation_progress", "completed": 250, "calls": 261, "memo_hits": 201, "node_type": "separator", "elapsed_seconds": 0.068}
+{"event": "terminal_solver_start", "terminal_id": "component_001_dnode_0277", "solver": "empty graph", "nodes": 0, "edges": 0}
+{"event": "terminal_solver_finish", "terminal_id": "component_001_dnode_0277", "solver": "empty graph", "nodes": 0, "edges": 0, "elapsed_seconds": 0.001}
+{"event": "terminal_solver_start", "terminal_id": "component_001_dnode_0278", "solver": "exact enumeration", "nodes": 3, "edges": 3}
+{"event": "terminal_solver_finish", "terminal_id": "component_001_dnode_0278", "solver": "exact enumeration", "nodes": 3, "edges": 3, "elapsed_seconds": 0.001}
+{"event": "evaluation_progress", "completed": 275, "calls": 287, "memo_hits": 219, "node_type": "separator", "elapsed_seconds": 0.04}
+{"event": "evaluation_progress", "completed": 300, "calls": 312, "memo_hits": 243, "node_type": "separator", "elapsed_seconds": 0.034}
+{"event": "evaluation_progress", "completed": 325, "calls": 336, "memo_hits": 266, "node_type": "separator", "elapsed_seconds": 0.068}
+{"event": "evaluation_progress", "completed": 350, "calls": 360, "memo_hits": 289, "node_type": "separator", "elapsed_seconds": 0.142}
+{"event": "evaluation_progress", "completed": 375, "calls": 388, "memo_hits": 312, "node_type": "incomplete", "elapsed_seconds": 0.019}
+{"event": "evaluation_progress", "completed": 400, "calls": 413, "memo_hits": 335, "node_type": "incomplete", "elapsed_seconds": 0.017}
+{"event": "evaluation_progress", "completed": 425, "calls": 438, "memo_hits": 358, "node_type": "incomplete", "elapsed_seconds": 0.017}
+{"event": "evaluation_progress", "completed": 450, "calls": 463, "memo_hits": 381, "node_type": "incomplete", "elapsed_seconds": 0.017}
+{"event": "evaluation_progress", "completed": 475, "calls": 487, "memo_hits": 404, "node_type": "separator", "elapsed_seconds": 0.034}
+{"event": "evaluation_progress", "completed": 500, "calls": 511, "memo_hits": 427, "node_type": "separator", "elapsed_seconds": 0.069}
+{"event": "evaluation_progress", "completed": 525, "calls": 533, "memo_hits": 450, "node_type": "separator", "elapsed_seconds": 0.547}
+{"event": "terminal_solver_start", "terminal_id": "component_001_dnode_0534", "solver": "exact enumeration", "nodes": 4, "edges": 4}
+{"event": "terminal_solver_finish", "terminal_id": "component_001_dnode_0534", "solver": "exact enumeration", "nodes": 4, "edges": 4, "elapsed_seconds": 0.001}
+{"event": "evaluation_progress", "completed": 550, "calls": 562, "memo_hits": 470, "node_type": "separator", "elapsed_seconds": 0.034}
+{"event": "evaluation_progress", "completed": 575, "calls": 585, "memo_hits": 494, "node_type": "separator", "elapsed_seconds": 0.137}
+{"event": "evaluation_progress", "completed": 600, "calls": 613, "memo_hits": 516, "node_type": "incomplete", "elapsed_seconds": 0.017}
+{"event": "evaluation_progress", "completed": 625, "calls": 638, "memo_hits": 540, "node_type": "incomplete", "elapsed_seconds": 0.017}
+{"event": "evaluation_progress", "completed": 650, "calls": 663, "memo_hits": 563, "node_type": "incomplete", "elapsed_seconds": 0.016}
+{"event": "evaluation_progress", "completed": 675, "calls": 688, "memo_hits": 585, "node_type": "incomplete", "elapsed_seconds": 0.016}
+{"event": "evaluation_progress", "completed": 700, "calls": 712, "memo_hits": 609, "node_type": "separator", "elapsed_seconds": 0.032}
+{"event": "evaluation_progress", "completed": 725, "calls": 737, "memo_hits": 631, "node_type": "separator", "elapsed_seconds": 0.034}
+{"event": "evaluation_progress", "completed": 750, "calls": 759, "memo_hits": 655, "node_type": "separator", "elapsed_seconds": 0.276}
+{"event": "evaluation_progress", "completed": 775, "calls": 787, "memo_hits": 678, "node_type": "separator", "elapsed_seconds": 0.034}
+{"event": "terminal_solver_start", "terminal_id": "component_001_dnode_0791", "solver": "exact enumeration", "nodes": 4, "edges": 6}
+{"event": "terminal_solver_finish", "terminal_id": "component_001_dnode_0791", "solver": "exact enumeration", "nodes": 4, "edges": 6, "elapsed_seconds": 0.001}
+{"event": "terminal_solver_start", "terminal_id": "component_001_dnode_0800", "solver": "empty graph", "nodes": 0, "edges": 0}
+{"event": "terminal_solver_finish", "terminal_id": "component_001_dnode_0800", "solver": "empty graph", "nodes": 0, "edges": 0, "elapsed_seconds": 0.001}
+{"event": "evaluation_progress", "completed": 800, "calls": 811, "memo_hits": 693, "node_type": "separator", "elapsed_seconds": 0.067}
+{"event": "evaluation_progress", "completed": 825, "calls": 838, "memo_hits": 713, "node_type": "incomplete", "elapsed_seconds": 0.017}
+{"event": "evaluation_progress", "completed": 850, "calls": 863, "memo_hits": 734, "node_type": "incomplete", "elapsed_seconds": 0.017}
+{"event": "evaluation_progress", "completed": 875, "calls": 888, "memo_hits": 752, "node_type": "incomplete", "elapsed_seconds": 0.016}
+{"event": "evaluation_progress", "completed": 900, "calls": 913, "memo_hits": 771, "node_type": "incomplete", "elapsed_seconds": 0.016}
+{"event": "evaluation_progress", "completed": 925, "calls": 938, "memo_hits": 790, "node_type": "incomplete", "elapsed_seconds": 0.016}
+{"event": "evaluation_progress", "completed": 950, "calls": 962, "memo_hits": 810, "node_type": "separator", "elapsed_seconds": 0.032}
+{"event": "evaluation_progress", "completed": 975, "calls": 984, "memo_hits": 830, "node_type": "separator", "elapsed_seconds": 0.263}
+{"event": "evaluation_progress", "completed": 1000, "calls": 1013, "memo_hits": 849, "node_type": "incomplete", "elapsed_seconds": 0.016}
+{"event": "evaluation_progress", "completed": 1025, "calls": 1037, "memo_hits": 867, "node_type": "separator", "elapsed_seconds": 0.033}
+{"event": "terminal_solver_start", "terminal_id": "component_001_dnode_1048", "solver": "exact enumeration", "nodes": 7, "edges": 12}
+{"event": "terminal_solver_finish", "terminal_id": "component_001_dnode_1048", "solver": "exact enumeration", "nodes": 7, "edges": 12, "elapsed_seconds": 0.001}
+{"event": "terminal_solver_start", "terminal_id": "component_001_dnode_1049", "solver": "exact enumeration", "nodes": 4, "edges": 6}
+{"event": "terminal_solver_finish", "terminal_id": "component_001_dnode_1049", "solver": "exact enumeration", "nodes": 4, "edges": 6, "elapsed_seconds": 0.001}
+{"event": "terminal_solver_start", "terminal_id": "component_001_dnode_1050", "solver": "exact enumeration", "nodes": 2, "edges": 1}
+{"event": "terminal_solver_finish", "terminal_id": "component_001_dnode_1050", "solver": "exact enumeration", "nodes": 2, "edges": 1, "elapsed_seconds": 0.001}
+{"event": "terminal_solver_start", "terminal_id": "component_001_dnode_1051", "solver": "exact enumeration", "nodes": 2, "edges": 1}
+{"event": "terminal_solver_finish", "terminal_id": "component_001_dnode_1051", "solver": "exact enumeration", "nodes": 2, "edges": 1, "elapsed_seconds": 0.001}
+{"event": "terminal_solver_start", "terminal_id": "component_001_dnode_1052", "solver": "exact enumeration", "nodes": 2, "edges": 1}
+{"event": "terminal_solver_finish", "terminal_id": "component_001_dnode_1052", "solver": "exact enumeration", "nodes": 2, "edges": 1, "elapsed_seconds": 0.001}
+{"event": "evaluation_progress", "completed": 1050, "calls": 1063, "memo_hits": 883, "node_type": "incomplete", "elapsed_seconds": 0.018}
+{"event": "terminal_solver_start", "terminal_id": "component_001_dnode_1067", "solver": "exact enumeration", "nodes": 2, "edges": 1}
+{"event": "terminal_solver_finish", "terminal_id": "component_001_dnode_1067", "solver": "exact enumeration", "nodes": 2, "edges": 1, "elapsed_seconds": 0.001}
+{"event": "terminal_solver_start", "terminal_id": "component_001_dnode_1075", "solver": "empty graph", "nodes": 0, "edges": 0}
+{"event": "terminal_solver_finish", "terminal_id": "component_001_dnode_1075", "solver": "empty graph", "nodes": 0, "edges": 0, "elapsed_seconds": 0.001}
+{"event": "evaluation_progress", "completed": 1075, "calls": 1087, "memo_hits": 904, "node_type": "separator", "elapsed_seconds": 0.035}
+{"event": "evaluation_progress", "completed": 1100, "calls": 1113, "memo_hits": 929, "node_type": "incomplete", "elapsed_seconds": 0.017}
+{"event": "evaluation_progress", "completed": 1125, "calls": 1138, "memo_hits": 953, "node_type": "incomplete", "elapsed_seconds": 0.017}
+{"event": "evaluation_progress", "completed": 1150, "calls": 1162, "memo_hits": 978, "node_type": "separator", "elapsed_seconds": 0.033}
+{"event": "evaluation_progress", "completed": 1175, "calls": 1184, "memo_hits": 1003, "node_type": "separator", "elapsed_seconds": 0.274}
+{"event": "evaluation_progress", "completed": 1200, "calls": 1213, "memo_hits": 1027, "node_type": "incomplete", "elapsed_seconds": 0.017}
+{"event": "evaluation_progress", "completed": 1225, "calls": 1238, "memo_hits": 1052, "node_type": "incomplete", "elapsed_seconds": 0.016}
+{"event": "evaluation_progress", "completed": 1250, "calls": 1262, "memo_hits": 1076, "node_type": "separator", "elapsed_seconds": 0.034}
+{"event": "evaluation_progress", "completed": 1275, "calls": 1288, "memo_hits": 1101, "node_type": "incomplete", "elapsed_seconds": 0.017}
+{"event": "evaluation_progress", "completed": 1300, "calls": 1311, "memo_hits": 1126, "node_type": "separator", "elapsed_seconds": 0.065}
+{"event": "evaluation_progress", "completed": 1325, "calls": 1338, "memo_hits": 1150, "node_type": "incomplete", "elapsed_seconds": 0.016}
+{"event": "evaluation_progress", "completed": 1350, "calls": 1361, "memo_hits": 1175, "node_type": "separator", "elapsed_seconds": 0.067}
+{"event": "evaluation_progress", "completed": 1375, "calls": 1386, "memo_hits": 1199, "node_type": "separator", "elapsed_seconds": 0.068}
+{"event": "evaluation_progress", "completed": 1400, "calls": 1413, "memo_hits": 1224, "node_type": "incomplete", "elapsed_seconds": 0.019}
+{"event": "evaluation_progress", "completed": 1425, "calls": 1438, "memo_hits": 1249, "node_type": "incomplete", "elapsed_seconds": 0.016}
+{"event": "evaluation_progress", "completed": 1450, "calls": 1462, "memo_hits": 1273, "node_type": "separator", "elapsed_seconds": 0.033}
+{"event": "evaluation_progress", "completed": 1475, "calls": 1488, "memo_hits": 1298, "node_type": "incomplete", "elapsed_seconds": 0.016}
+{"event": "evaluation_progress", "completed": 1500, "calls": 1513, "memo_hits": 1322, "node_type": "incomplete", "elapsed_seconds": 0.016}
+{"event": "evaluation_progress", "completed": 1525, "calls": 1535, "memo_hits": 1347, "node_type": "separator", "elapsed_seconds": 0.133}
+{"event": "evaluation_progress", "completed": 1550, "calls": 1563, "memo_hits": 1372, "node_type": "incomplete", "elapsed_seconds": 0.017}
+{"event": "evaluation_progress", "completed": 1575, "calls": 1586, "memo_hits": 1395, "node_type": "separator", "elapsed_seconds": 0.068}
+{"event": "evaluation_progress", "completed": 1600, "calls": 1613, "memo_hits": 1420, "node_type": "incomplete", "elapsed_seconds": 0.016}
+{"event": "evaluation_progress", "completed": 1625, "calls": 1638, "memo_hits": 1444, "node_type": "incomplete", "elapsed_seconds": 0.016}
+{"event": "evaluation_progress", "completed": 1650, "calls": 1663, "memo_hits": 1469, "node_type": "incomplete", "elapsed_seconds": 0.016}
+{"event": "evaluation_progress", "completed": 1675, "calls": 1688, "memo_hits": 1494, "node_type": "incomplete", "elapsed_seconds": 0.016}
+{"event": "evaluation_progress", "completed": 1700, "calls": 1713, "memo_hits": 1518, "node_type": "incomplete", "elapsed_seconds": 0.016}
+{"event": "evaluation_progress", "completed": 1725, "calls": 1737, "memo_hits": 1543, "node_type": "separator", "elapsed_seconds": 0.032}
+{"event": "evaluation_progress", "completed": 1750, "calls": 1759, "memo_hits": 1568, "node_type": "separator", "elapsed_seconds": 0.259}
+{"event": "evaluation_progress", "completed": 1775, "calls": 1788, "memo_hits": 1592, "node_type": "incomplete", "elapsed_seconds": 0.016}
+{"event": "evaluation_progress", "completed": 1800, "calls": 1812, "memo_hits": 1617, "node_type": "separator", "elapsed_seconds": 0.032}
+{"event": "evaluation_progress", "completed": 1825, "calls": 1838, "memo_hits": 1640, "node_type": "incomplete", "elapsed_seconds": 0.016}
+{"event": "evaluation_progress", "completed": 1850, "calls": 1862, "memo_hits": 1663, "node_type": "separator", "elapsed_seconds": 0.033}
+{"event": "evaluation_progress", "completed": 1875, "calls": 1887, "memo_hits": 1687, "node_type": "separator", "elapsed_seconds": 0.03}
+{"event": "evaluation_progress", "completed": 1900, "calls": 1912, "memo_hits": 1710, "node_type": "separator", "elapsed_seconds": 0.032}
+{"event": "evaluation_progress", "completed": 1925, "calls": 1935, "memo_hits": 1734, "node_type": "separator", "elapsed_seconds": 0.125}
+{"event": "evaluation_progress", "completed": 1950, "calls": 1961, "memo_hits": 1756, "node_type": "separator", "elapsed_seconds": 0.065}
+{"event": "evaluation_progress", "completed": 1975, "calls": 1988, "memo_hits": 1780, "node_type": "incomplete", "elapsed_seconds": 0.016}
+{"event": "evaluation_progress", "completed": 2000, "calls": 2013, "memo_hits": 1803, "node_type": "incomplete", "elapsed_seconds": 0.015}
+{"event": "evaluation_progress", "completed": 2025, "calls": 2038, "memo_hits": 1826, "node_type": "incomplete", "elapsed_seconds": 0.016}
+{"event": "evaluation_progress", "completed": 2050, "calls": 2062, "memo_hits": 1850, "node_type": "separator", "elapsed_seconds": 0.03}
+{"event": "terminal_solver_start", "terminal_id": "component_001_dnode_2078", "solver": "empty graph", "nodes": 0, "edges": 0}
+{"event": "terminal_solver_finish", "terminal_id": "component_001_dnode_2078", "solver": "empty graph", "nodes": 0, "edges": 0, "elapsed_seconds": 0.001}
+{"event": "evaluation_progress", "completed": 2075, "calls": 2078, "memo_hits": 1873, "node_type": "separator", "elapsed_seconds": 17.459}
+{"event": "terminal_solver_start", "terminal_id": "component_001_dnode_2079", "solver": "exact enumeration", "nodes": 8, "edges": 22}
+{"event": "terminal_solver_finish", "terminal_id": "component_001_dnode_2079", "solver": "exact enumeration", "nodes": 8, "edges": 22, "elapsed_seconds": 0.001}
+{"event": "evaluation_progress", "completed": 2100, "calls": 2113, "memo_hits": 1894, "node_type": "incomplete", "elapsed_seconds": 0.017}
+{"event": "evaluation_progress", "completed": 2125, "calls": 2137, "memo_hits": 1917, "node_type": "separator", "elapsed_seconds": 0.039}
+{"event": "evaluation_progress", "completed": 2150, "calls": 2163, "memo_hits": 1940, "node_type": "incomplete", "elapsed_seconds": 0.017}
+{"event": "evaluation_progress", "completed": 2175, "calls": 2188, "memo_hits": 1963, "node_type": "incomplete", "elapsed_seconds": 0.017}
+{"event": "evaluation_progress", "completed": 2200, "calls": 2210, "memo_hits": 1987, "node_type": "separator", "elapsed_seconds": 0.136}
+{"event": "evaluation_progress", "completed": 2225, "calls": 2236, "memo_hits": 2009, "node_type": "separator", "elapsed_seconds": 0.067}
+{"event": "evaluation_progress", "completed": 2250, "calls": 2263, "memo_hits": 2033, "node_type": "incomplete", "elapsed_seconds": 0.017}
+{"event": "evaluation_progress", "completed": 2275, "calls": 2288, "memo_hits": 2055, "node_type": "incomplete", "elapsed_seconds": 0.017}
+{"event": "evaluation_progress", "completed": 2300, "calls": 2312, "memo_hits": 2078, "node_type": "separator", "elapsed_seconds": 0.034}
+{"event": "evaluation_progress", "completed": 2325, "calls": 2337, "memo_hits": 2102, "node_type": "separator", "elapsed_seconds": 0.035}
+{"event": "evaluation_progress", "completed": 2350, "calls": 2363, "memo_hits": 2124, "node_type": "incomplete", "elapsed_seconds": 0.017}
+{"event": "evaluation_progress", "completed": 2375, "calls": 2387, "memo_hits": 2148, "node_type": "separator", "elapsed_seconds": 0.035}
+{"event": "evaluation_progress", "completed": 2400, "calls": 2412, "memo_hits": 2170, "node_type": "separator", "elapsed_seconds": 0.035}
+{"event": "evaluation_progress", "completed": 2425, "calls": 2434, "memo_hits": 2194, "node_type": "separator", "elapsed_seconds": 0.284}
+{"event": "evaluation_progress", "completed": 2450, "calls": 2462, "memo_hits": 2217, "node_type": "separator", "elapsed_seconds": 0.037}
+{"event": "evaluation_progress", "completed": 2475, "calls": 2488, "memo_hits": 2240, "node_type": "incomplete", "elapsed_seconds": 0.017}
+{"event": "evaluation_progress", "completed": 2500, "calls": 2513, "memo_hits": 2263, "node_type": "incomplete", "elapsed_seconds": 0.017}
+{"event": "evaluation_progress", "completed": 2525, "calls": 2538, "memo_hits": 2285, "node_type": "incomplete", "elapsed_seconds": 0.017}
+{"event": "evaluation_progress", "completed": 2550, "calls": 2561, "memo_hits": 2309, "node_type": "separator", "elapsed_seconds": 0.081}
+{"event": "evaluation_progress", "completed": 2575, "calls": 2588, "memo_hits": 2332, "node_type": "incomplete", "elapsed_seconds": 0.017}
+{"event": "evaluation_progress", "completed": 2600, "calls": 2612, "memo_hits": 2354, "node_type": "separator", "elapsed_seconds": 0.033}
+{"event": "evaluation_progress", "completed": 2625, "calls": 2636, "memo_hits": 2377, "node_type": "separator", "elapsed_seconds": 0.07}
+{"event": "evaluation_progress", "completed": 2650, "calls": 2658, "memo_hits": 2400, "node_type": "separator", "elapsed_seconds": 0.547}
+{"event": "evaluation_progress", "completed": 2675, "calls": 2687, "memo_hits": 2423, "node_type": "separator", "elapsed_seconds": 0.034}
+{"event": "evaluation_progress", "completed": 2700, "calls": 2713, "memo_hits": 2446, "node_type": "incomplete", "elapsed_seconds": 0.016}
+{"event": "evaluation_progress", "completed": 2725, "calls": 2738, "memo_hits": 2469, "node_type": "incomplete", "elapsed_seconds": 0.016}
+{"event": "evaluation_progress", "completed": 2750, "calls": 2763, "memo_hits": 2492, "node_type": "incomplete", "elapsed_seconds": 0.016}
+{"event": "evaluation_progress", "completed": 2775, "calls": 2785, "memo_hits": 2516, "node_type": "separator", "elapsed_seconds": 0.13}
+{"event": "evaluation_progress", "completed": 2800, "calls": 2813, "memo_hits": 2538, "node_type": "incomplete", "elapsed_seconds": 0.016}
+{"event": "evaluation_progress", "completed": 2825, "calls": 2838, "memo_hits": 2562, "node_type": "incomplete", "elapsed_seconds": 0.016}
+{"event": "evaluation_progress", "completed": 2850, "calls": 2863, "memo_hits": 2582, "node_type": "incomplete", "elapsed_seconds": 0.016}
+{"event": "evaluation_progress", "completed": 2875, "calls": 2888, "memo_hits": 2603, "node_type": "incomplete", "elapsed_seconds": 0.016}
+{"event": "evaluation_progress", "completed": 2900, "calls": 2913, "memo_hits": 2621, "node_type": "incomplete", "elapsed_seconds": 0.016}
+{"event": "evaluation_progress", "completed": 2925, "calls": 2938, "memo_hits": 2640, "node_type": "incomplete", "elapsed_seconds": 0.016}
+{"event": "evaluation_progress", "completed": 2950, "calls": 2961, "memo_hits": 2659, "node_type": "separator", "elapsed_seconds": 0.064}
+{"event": "evaluation_progress", "completed": 2975, "calls": 2987, "memo_hits": 2679, "node_type": "separator", "elapsed_seconds": 0.032}
+{"event": "evaluation_progress", "completed": 3000, "calls": 3009, "memo_hits": 2699, "node_type": "separator", "elapsed_seconds": 0.255}
+{"event": "evaluation_progress", "completed": 3025, "calls": 3037, "memo_hits": 2717, "node_type": "separator", "elapsed_seconds": 0.03}
+{"event": "evaluation_progress", "completed": 3050, "calls": 3062, "memo_hits": 2736, "node_type": "separator", "elapsed_seconds": 0.032}
+{"event": "evaluation_progress", "completed": 3075, "calls": 3088, "memo_hits": 2756, "node_type": "incomplete", "elapsed_seconds": 0.016}
+{"event": "evaluation_progress", "completed": 3100, "calls": 3113, "memo_hits": 2780, "node_type": "incomplete", "elapsed_seconds": 0.017}
+{"event": "evaluation_progress", "completed": 3125, "calls": 3138, "memo_hits": 2805, "node_type": "incomplete", "elapsed_seconds": 0.017}
+{"event": "evaluation_progress", "completed": 3150, "calls": 3163, "memo_hits": 2830, "node_type": "incomplete", "elapsed_seconds": 0.016}
+{"event": "evaluation_progress", "completed": 3175, "calls": 3187, "memo_hits": 2854, "node_type": "separator", "elapsed_seconds": 0.034}
+{"event": "evaluation_progress", "completed": 3200, "calls": 3211, "memo_hits": 2879, "node_type": "separator", "elapsed_seconds": 0.071}
+{"event": "evaluation_progress", "completed": 3225, "calls": 3233, "memo_hits": 2903, "node_type": "separator", "elapsed_seconds": 0.55}
+{"event": "evaluation_progress", "completed": 3250, "calls": 3263, "memo_hits": 2928, "node_type": "incomplete", "elapsed_seconds": 0.016}
+{"event": "evaluation_progress", "completed": 3275, "calls": 3287, "memo_hits": 2953, "node_type": "separator", "elapsed_seconds": 0.036}
+{"event": "evaluation_progress", "completed": 3300, "calls": 3313, "memo_hits": 2977, "node_type": "incomplete", "elapsed_seconds": 0.017}
+{"event": "evaluation_progress", "completed": 3325, "calls": 3338, "memo_hits": 3002, "node_type": "incomplete", "elapsed_seconds": 0.016}
+{"event": "evaluation_progress", "completed": 3350, "calls": 3360, "memo_hits": 3027, "node_type": "separator", "elapsed_seconds": 0.132}
+{"event": "evaluation_progress", "completed": 3375, "calls": 3387, "memo_hits": 3051, "node_type": "separator", "elapsed_seconds": 0.035}
+{"event": "evaluation_progress", "completed": 3400, "calls": 3410, "memo_hits": 3076, "node_type": "separator", "elapsed_seconds": 0.14}
+{"event": "evaluation_progress", "completed": 3425, "calls": 3438, "memo_hits": 3100, "node_type": "incomplete", "elapsed_seconds": 0.018}
+{"event": "evaluation_progress", "completed": 3450, "calls": 3463, "memo_hits": 3125, "node_type": "incomplete", "elapsed_seconds": 0.017}
+{"event": "evaluation_progress", "completed": 3475, "calls": 3488, "memo_hits": 3150, "node_type": "incomplete", "elapsed_seconds": 0.016}
+{"event": "evaluation_progress", "completed": 3500, "calls": 3513, "memo_hits": 3174, "node_type": "incomplete", "elapsed_seconds": 0.016}
+{"event": "evaluation_progress", "completed": 3525, "calls": 3537, "memo_hits": 3199, "node_type": "separator", "elapsed_seconds": 0.034}
+{"event": "evaluation_progress", "completed": 3550, "calls": 3562, "memo_hits": 3223, "node_type": "separator", "elapsed_seconds": 0.033}
+{"event": "evaluation_progress", "completed": 3575, "calls": 3584, "memo_hits": 3248, "node_type": "separator", "elapsed_seconds": 0.268}
+{"event": "evaluation_progress", "completed": 3600, "calls": 3612, "memo_hits": 3273, "node_type": "separator", "elapsed_seconds": 0.033}
+{"event": "evaluation_progress", "completed": 3625, "calls": 3635, "memo_hits": 3296, "node_type": "separator", "elapsed_seconds": 0.133}
+{"event": "evaluation_progress", "completed": 3650, "calls": 3663, "memo_hits": 3321, "node_type": "incomplete", "elapsed_seconds": 0.016}
+{"event": "evaluation_progress", "completed": 3675, "calls": 3688, "memo_hits": 3345, "node_type": "incomplete", "elapsed_seconds": 0.016}
+{"event": "evaluation_progress", "completed": 3700, "calls": 3713, "memo_hits": 3370, "node_type": "incomplete", "elapsed_seconds": 0.016}
+{"event": "evaluation_progress", "completed": 3725, "calls": 3737, "memo_hits": 3395, "node_type": "separator", "elapsed_seconds": 0.032}
+{"event": "evaluation_progress", "completed": 3750, "calls": 3762, "memo_hits": 3419, "node_type": "separator", "elapsed_seconds": 0.031}
+{"event": "evaluation_progress", "completed": 3775, "calls": 3786, "memo_hits": 3444, "node_type": "separator", "elapsed_seconds": 0.065}
+{"event": "evaluation_progress", "completed": 3800, "calls": 3808, "memo_hits": 3468, "node_type": "separator", "elapsed_seconds": 0.516}
+{"event": "evaluation_progress", "completed": 3825, "calls": 3837, "memo_hits": 3493, "node_type": "separator", "elapsed_seconds": 0.035}
+{"event": "evaluation_progress", "completed": 3850, "calls": 3863, "memo_hits": 3518, "node_type": "incomplete", "elapsed_seconds": 0.016}
+{"event": "evaluation_progress", "completed": 3875, "calls": 3887, "memo_hits": 3541, "node_type": "separator", "elapsed_seconds": 0.032}
+{"event": "evaluation_progress", "completed": 3900, "calls": 3913, "memo_hits": 3564, "node_type": "incomplete", "elapsed_seconds": 0.015}
+{"event": "evaluation_progress", "completed": 3925, "calls": 3936, "memo_hits": 3588, "node_type": "separator", "elapsed_seconds": 0.061}
+{"event": "evaluation_progress", "completed": 3950, "calls": 3961, "memo_hits": 3611, "node_type": "separator", "elapsed_seconds": 0.064}
+{"event": "evaluation_progress", "completed": 3975, "calls": 3988, "memo_hits": 3635, "node_type": "incomplete", "elapsed_seconds": 0.016}
+{"event": "evaluation_progress", "completed": 4000, "calls": 4013, "memo_hits": 3657, "node_type": "incomplete", "elapsed_seconds": 0.016}
+{"event": "evaluation_progress", "completed": 4025, "calls": 4038, "memo_hits": 3681, "node_type": "incomplete", "elapsed_seconds": 0.016}
+{"event": "evaluation_progress", "completed": 4050, "calls": 4063, "memo_hits": 3704, "node_type": "incomplete", "elapsed_seconds": 0.017}
+{"event": "evaluation_progress", "completed": 4075, "calls": 4088, "memo_hits": 3727, "node_type": "incomplete", "elapsed_seconds": 0.015}
+{"event": "evaluation_progress", "completed": 4100, "calls": 4111, "memo_hits": 3751, "node_type": "separator", "elapsed_seconds": 0.06}
+{"event": "terminal_solver_start", "terminal_id": "component_001_dnode_4127", "solver": "empty graph", "nodes": 0, "edges": 0}
+{"event": "terminal_solver_finish", "terminal_id": "component_001_dnode_4127", "solver": "empty graph", "nodes": 0, "edges": 0, "elapsed_seconds": 0.001}
+{"event": "evaluation_progress", "completed": 4125, "calls": 4127, "memo_hits": 3774, "node_type": "separator", "elapsed_seconds": 34.741}
+{"event": "terminal_solver_start", "terminal_id": "component_001_dnode_4128", "solver": "exact enumeration", "nodes": 13, "edges": 78}
+{"event": "terminal_solver_finish", "terminal_id": "component_001_dnode_4128", "solver": "exact enumeration", "nodes": 13, "edges": 78, "elapsed_seconds": 0.021}
+{"event": "terminal_solver_start", "terminal_id": "component_001_dnode_4129", "solver": "empty graph", "nodes": 0, "edges": 0}
+{"event": "terminal_solver_finish", "terminal_id": "component_001_dnode_4129", "solver": "empty graph", "nodes": 0, "edges": 0, "elapsed_seconds": 0.0}
+{"event": "evaluation_progress", "completed": 4150, "calls": 4163, "memo_hits": 3794, "node_type": "incomplete", "elapsed_seconds": 0.017}
+{"event": "evaluation_progress", "completed": 4175, "calls": 4188, "memo_hits": 3818, "node_type": "incomplete", "elapsed_seconds": 0.017}
+{"event": "evaluation_progress", "completed": 4200, "calls": 4212, "memo_hits": 3840, "node_type": "separator", "elapsed_seconds": 0.036}
+{"event": "evaluation_progress", "completed": 4225, "calls": 4238, "memo_hits": 3863, "node_type": "incomplete", "elapsed_seconds": 0.018}
+{"event": "evaluation_progress", "completed": 4250, "calls": 4261, "memo_hits": 3887, "node_type": "separator", "elapsed_seconds": 0.068}
+{"event": "evaluation_progress", "completed": 4275, "calls": 4287, "memo_hits": 3909, "node_type": "separator", "elapsed_seconds": 0.034}
+{"event": "evaluation_progress", "completed": 4300, "calls": 4310, "memo_hits": 3933, "node_type": "separator", "elapsed_seconds": 0.14}
+{"event": "evaluation_progress", "completed": 4325, "calls": 4338, "memo_hits": 3955, "node_type": "incomplete", "elapsed_seconds": 0.017}
+{"event": "evaluation_progress", "completed": 4350, "calls": 4363, "memo_hits": 3979, "node_type": "incomplete", "elapsed_seconds": 0.017}
+{"event": "evaluation_progress", "completed": 4375, "calls": 4388, "memo_hits": 4002, "node_type": "incomplete", "elapsed_seconds": 0.016}
+{"event": "evaluation_progress", "completed": 4400, "calls": 4412, "memo_hits": 4024, "node_type": "separator", "elapsed_seconds": 0.035}
+{"event": "evaluation_progress", "completed": 4425, "calls": 4438, "memo_hits": 4048, "node_type": "incomplete", "elapsed_seconds": 0.017}
+{"event": "evaluation_progress", "completed": 4450, "calls": 4463, "memo_hits": 4070, "node_type": "incomplete", "elapsed_seconds": 0.017}
+{"event": "evaluation_progress", "completed": 4475, "calls": 4485, "memo_hits": 4094, "node_type": "separator", "elapsed_seconds": 0.138}
+{"event": "evaluation_progress", "completed": 4500, "calls": 4513, "memo_hits": 4117, "node_type": "incomplete", "elapsed_seconds": 0.017}
+{"event": "evaluation_progress", "completed": 4525, "calls": 4538, "memo_hits": 4140, "node_type": "incomplete", "elapsed_seconds": 0.017}
+{"event": "evaluation_progress", "completed": 4550, "calls": 4562, "memo_hits": 4163, "node_type": "separator", "elapsed_seconds": 0.034}
+{"event": "evaluation_progress", "completed": 4575, "calls": 4587, "memo_hits": 4185, "node_type": "separator", "elapsed_seconds": 0.034}
+{"event": "evaluation_progress", "completed": 4600, "calls": 4612, "memo_hits": 4209, "node_type": "separator", "elapsed_seconds": 0.033}
+{"event": "evaluation_progress", "completed": 4625, "calls": 4636, "memo_hits": 4232, "node_type": "separator", "elapsed_seconds": 0.068}
+{"event": "evaluation_progress", "completed": 4650, "calls": 4663, "memo_hits": 4254, "node_type": "incomplete", "elapsed_seconds": 0.017}
+{"event": "evaluation_progress", "completed": 4675, "calls": 4687, "memo_hits": 4277, "node_type": "separator", "elapsed_seconds": 0.034}
+{"event": "evaluation_progress", "completed": 4700, "calls": 4709, "memo_hits": 4301, "node_type": "separator", "elapsed_seconds": 0.274}
+{"event": "evaluation_progress", "completed": 4725, "calls": 4738, "memo_hits": 4323, "node_type": "incomplete", "elapsed_seconds": 0.016}
+{"event": "evaluation_progress", "completed": 4750, "calls": 4762, "memo_hits": 4346, "node_type": "separator", "elapsed_seconds": 0.033}
+{"event": "evaluation_progress", "completed": 4775, "calls": 4787, "memo_hits": 4369, "node_type": "separator", "elapsed_seconds": 0.034}
+{"event": "evaluation_progress", "completed": 4800, "calls": 4813, "memo_hits": 4392, "node_type": "incomplete", "elapsed_seconds": 0.017}
+{"event": "evaluation_progress", "completed": 4825, "calls": 4836, "memo_hits": 4416, "node_type": "separator", "elapsed_seconds": 0.063}
+{"event": "evaluation_progress", "completed": 4850, "calls": 4861, "memo_hits": 4438, "node_type": "separator", "elapsed_seconds": 0.065}
+{"event": "evaluation_progress", "completed": 4875, "calls": 4888, "memo_hits": 4462, "node_type": "incomplete", "elapsed_seconds": 0.017}
+{"event": "evaluation_progress", "completed": 4900, "calls": 4911, "memo_hits": 4482, "node_type": "separator", "elapsed_seconds": 0.065}
+{"event": "evaluation_progress", "completed": 4925, "calls": 4938, "memo_hits": 4503, "node_type": "incomplete", "elapsed_seconds": 0.017}
+{"event": "evaluation_progress", "completed": 4950, "calls": 4963, "memo_hits": 4521, "node_type": "incomplete", "elapsed_seconds": 0.016}
+{"event": "evaluation_progress", "completed": 4975, "calls": 4988, "memo_hits": 4540, "node_type": "incomplete", "elapsed_seconds": 0.016}
+{"event": "evaluation_progress", "completed": 5000, "calls": 5012, "memo_hits": 4559, "node_type": "separator", "elapsed_seconds": 0.031}
+{"event": "evaluation_progress", "completed": 5025, "calls": 5038, "memo_hits": 4580, "node_type": "incomplete", "elapsed_seconds": 0.016}
+{"event": "evaluation_progress", "completed": 5050, "calls": 5060, "memo_hits": 4599, "node_type": "separator", "elapsed_seconds": 0.128}
+{"event": "evaluation_progress", "completed": 5075, "calls": 5088, "memo_hits": 4618, "node_type": "incomplete", "elapsed_seconds": 0.015}
+{"event": "evaluation_progress", "completed": 5100, "calls": 5113, "memo_hits": 4637, "node_type": "incomplete", "elapsed_seconds": 0.016}
+{"event": "evaluation_progress", "completed": 5125, "calls": 5138, "memo_hits": 4656, "node_type": "incomplete", "elapsed_seconds": 0.015}
+{"event": "evaluation_progress", "completed": 5150, "calls": 5154, "memo_hits": 4679, "node_type": "separator", "elapsed_seconds": 8.718}
+{"event": "evaluation_progress", "completed": 5175, "calls": 5187, "memo_hits": 4705, "node_type": "separator", "elapsed_seconds": 0.033}
+{"event": "evaluation_progress", "completed": 5200, "calls": 5213, "memo_hits": 4730, "node_type": "incomplete", "elapsed_seconds": 0.017}
+{"event": "evaluation_progress", "completed": 5225, "calls": 5238, "memo_hits": 4754, "node_type": "incomplete", "elapsed_seconds": 0.017}
+{"event": "evaluation_progress", "completed": 5250, "calls": 5262, "memo_hits": 4779, "node_type": "separator", "elapsed_seconds": 0.038}
+{"event": "evaluation_progress", "completed": 5275, "calls": 5284, "memo_hits": 4804, "node_type": "separator", "elapsed_seconds": 0.285}
+{"event": "evaluation_progress", "completed": 5300, "calls": 5313, "memo_hits": 4828, "node_type": "incomplete", "elapsed_seconds": 0.017}
+{"event": "evaluation_progress", "completed": 5325, "calls": 5338, "memo_hits": 4853, "node_type": "incomplete", "elapsed_seconds": 0.016}
+{"event": "evaluation_progress", "completed": 5350, "calls": 5362, "memo_hits": 4877, "node_type": "separator", "elapsed_seconds": 0.034}
+{"event": "evaluation_progress", "completed": 5375, "calls": 5388, "memo_hits": 4902, "node_type": "incomplete", "elapsed_seconds": 0.017}
+{"event": "evaluation_progress", "completed": 5400, "calls": 5411, "memo_hits": 4927, "node_type": "separator", "elapsed_seconds": 0.068}
+{"event": "evaluation_progress", "completed": 5425, "calls": 5438, "memo_hits": 4951, "node_type": "incomplete", "elapsed_seconds": 0.017}
+{"event": "evaluation_progress", "completed": 5450, "calls": 5461, "memo_hits": 4976, "node_type": "separator", "elapsed_seconds": 0.068}
+{"event": "evaluation_progress", "completed": 5475, "calls": 5486, "memo_hits": 5000, "node_type": "separator", "elapsed_seconds": 0.068}
+{"event": "evaluation_progress", "completed": 5500, "calls": 5513, "memo_hits": 5025, "node_type": "incomplete", "elapsed_seconds": 0.021}
+{"event": "evaluation_progress", "completed": 5525, "calls": 5538, "memo_hits": 5050, "node_type": "incomplete", "elapsed_seconds": 0.017}
+{"event": "evaluation_progress", "completed": 5550, "calls": 5562, "memo_hits": 5074, "node_type": "separator", "elapsed_seconds": 0.035}
+{"event": "evaluation_progress", "completed": 5575, "calls": 5588, "memo_hits": 5099, "node_type": "incomplete", "elapsed_seconds": 0.016}
+{"event": "evaluation_progress", "completed": 5600, "calls": 5613, "memo_hits": 5123, "node_type": "incomplete", "elapsed_seconds": 0.016}
+{"event": "evaluation_progress", "completed": 5625, "calls": 5635, "memo_hits": 5148, "node_type": "separator", "elapsed_seconds": 0.131}
+{"event": "evaluation_progress", "completed": 5650, "calls": 5663, "memo_hits": 5173, "node_type": "incomplete", "elapsed_seconds": 0.016}
+{"event": "evaluation_progress", "completed": 5675, "calls": 5686, "memo_hits": 5196, "node_type": "separator", "elapsed_seconds": 0.068}
+{"event": "evaluation_progress", "completed": 5700, "calls": 5713, "memo_hits": 5221, "node_type": "incomplete", "elapsed_seconds": 0.017}
+{"event": "evaluation_progress", "completed": 5725, "calls": 5738, "memo_hits": 5245, "node_type": "incomplete", "elapsed_seconds": 0.017}
+{"event": "evaluation_progress", "completed": 5750, "calls": 5763, "memo_hits": 5270, "node_type": "incomplete", "elapsed_seconds": 0.016}
+{"event": "evaluation_progress", "completed": 5775, "calls": 5788, "memo_hits": 5295, "node_type": "incomplete", "elapsed_seconds": 0.016}
+{"event": "evaluation_progress", "completed": 5800, "calls": 5813, "memo_hits": 5319, "node_type": "incomplete", "elapsed_seconds": 0.016}
+{"event": "evaluation_progress", "completed": 5825, "calls": 5837, "memo_hits": 5344, "node_type": "separator", "elapsed_seconds": 0.035}
+{"event": "evaluation_progress", "completed": 5850, "calls": 5859, "memo_hits": 5369, "node_type": "separator", "elapsed_seconds": 0.271}
+{"event": "evaluation_progress", "completed": 5875, "calls": 5888, "memo_hits": 5393, "node_type": "incomplete", "elapsed_seconds": 0.016}
+{"event": "evaluation_progress", "completed": 5900, "calls": 5912, "memo_hits": 5418, "node_type": "separator", "elapsed_seconds": 0.032}
+{"event": "evaluation_progress", "completed": 5925, "calls": 5938, "memo_hits": 5441, "node_type": "incomplete", "elapsed_seconds": 0.016}
+{"event": "evaluation_progress", "completed": 5950, "calls": 5962, "memo_hits": 5464, "node_type": "separator", "elapsed_seconds": 0.036}
+{"event": "evaluation_progress", "completed": 5975, "calls": 5987, "memo_hits": 5488, "node_type": "separator", "elapsed_seconds": 0.03}
+{"event": "evaluation_progress", "completed": 6000, "calls": 6012, "memo_hits": 5511, "node_type": "separator", "elapsed_seconds": 0.032}
+{"event": "evaluation_progress", "completed": 6025, "calls": 6035, "memo_hits": 5535, "node_type": "separator", "elapsed_seconds": 0.127}
+{"event": "evaluation_progress", "completed": 6050, "calls": 6061, "memo_hits": 5557, "node_type": "separator", "elapsed_seconds": 0.063}
+{"event": "evaluation_progress", "completed": 6075, "calls": 6088, "memo_hits": 5581, "node_type": "incomplete", "elapsed_seconds": 0.015}
+{"event": "evaluation_progress", "completed": 6100, "calls": 6113, "memo_hits": 5604, "node_type": "incomplete", "elapsed_seconds": 0.015}
+{"event": "evaluation_progress", "completed": 6125, "calls": 6138, "memo_hits": 5627, "node_type": "incomplete", "elapsed_seconds": 0.016}
+{"event": "evaluation_progress", "completed": 6150, "calls": 6162, "memo_hits": 5651, "node_type": "separator", "elapsed_seconds": 0.03}
+{"event": "evaluation_progress", "completed": 6175, "calls": 6188, "memo_hits": 5676, "node_type": "incomplete", "elapsed_seconds": 0.018}
+{"event": "evaluation_progress", "completed": 6200, "calls": 6213, "memo_hits": 5699, "node_type": "incomplete", "elapsed_seconds": 0.017}
+{"event": "evaluation_progress", "completed": 6225, "calls": 6238, "memo_hits": 5722, "node_type": "incomplete", "elapsed_seconds": 0.017}
+{"event": "evaluation_progress", "completed": 6250, "calls": 6262, "memo_hits": 5745, "node_type": "separator", "elapsed_seconds": 0.034}
+{"event": "evaluation_progress", "completed": 6275, "calls": 6286, "memo_hits": 5768, "node_type": "separator", "elapsed_seconds": 0.072}
+{"event": "evaluation_progress", "completed": 6300, "calls": 6308, "memo_hits": 5791, "node_type": "separator", "elapsed_seconds": 0.563}
+{"event": "evaluation_progress", "completed": 6325, "calls": 6338, "memo_hits": 5814, "node_type": "incomplete", "elapsed_seconds": 0.018}
+{"event": "evaluation_progress", "completed": 6350, "calls": 6362, "memo_hits": 5837, "node_type": "separator", "elapsed_seconds": 0.034}
+{"event": "evaluation_progress", "completed": 6375, "calls": 6388, "memo_hits": 5860, "node_type": "incomplete", "elapsed_seconds": 0.017}
+{"event": "evaluation_progress", "completed": 6400, "calls": 6413, "memo_hits": 5883, "node_type": "incomplete", "elapsed_seconds": 0.017}
+{"event": "evaluation_progress", "completed": 6425, "calls": 6435, "memo_hits": 5907, "node_type": "separator", "elapsed_seconds": 0.137}
+{"event": "evaluation_progress", "completed": 6450, "calls": 6462, "memo_hits": 5929, "node_type": "separator", "elapsed_seconds": 0.035}
+{"event": "evaluation_progress", "completed": 6475, "calls": 6485, "memo_hits": 5953, "node_type": "separator", "elapsed_seconds": 0.144}
+{"event": "evaluation_progress", "completed": 6500, "calls": 6513, "memo_hits": 5975, "node_type": "incomplete", "elapsed_seconds": 0.017}
+{"event": "evaluation_progress", "completed": 6525, "calls": 6538, "memo_hits": 5999, "node_type": "incomplete", "elapsed_seconds": 0.017}
+{"event": "evaluation_progress", "completed": 6550, "calls": 6563, "memo_hits": 6022, "node_type": "incomplete", "elapsed_seconds": 0.017}
+{"event": "evaluation_progress", "completed": 6575, "calls": 6588, "memo_hits": 6044, "node_type": "incomplete", "elapsed_seconds": 0.017}
+{"event": "evaluation_progress", "completed": 6600, "calls": 6612, "memo_hits": 6068, "node_type": "separator", "elapsed_seconds": 0.034}
+{"event": "evaluation_progress", "completed": 6625, "calls": 6637, "memo_hits": 6090, "node_type": "separator", "elapsed_seconds": 0.034}
+{"event": "evaluation_progress", "completed": 6650, "calls": 6659, "memo_hits": 6114, "node_type": "separator", "elapsed_seconds": 0.273}
+{"event": "evaluation_progress", "completed": 6675, "calls": 6687, "memo_hits": 6137, "node_type": "separator", "elapsed_seconds": 0.033}
+{"event": "evaluation_progress", "completed": 6700, "calls": 6710, "memo_hits": 6159, "node_type": "separator", "elapsed_seconds": 0.135}
+{"event": "evaluation_progress", "completed": 6725, "calls": 6738, "memo_hits": 6182, "node_type": "incomplete", "elapsed_seconds": 0.017}
+{"event": "evaluation_progress", "completed": 6750, "calls": 6763, "memo_hits": 6205, "node_type": "incomplete", "elapsed_seconds": 0.017}
+{"event": "evaluation_progress", "completed": 6775, "calls": 6788, "memo_hits": 6228, "node_type": "incomplete", "elapsed_seconds": 0.016}
+{"event": "evaluation_progress", "completed": 6800, "calls": 6812, "memo_hits": 6251, "node_type": "separator", "elapsed_seconds": 0.033}
+{"event": "evaluation_progress", "completed": 6825, "calls": 6837, "memo_hits": 6274, "node_type": "separator", "elapsed_seconds": 0.032}
+{"event": "evaluation_progress", "completed": 6850, "calls": 6861, "memo_hits": 6297, "node_type": "separator", "elapsed_seconds": 0.066}
+{"event": "evaluation_progress", "completed": 6875, "calls": 6883, "memo_hits": 6320, "node_type": "separator", "elapsed_seconds": 0.535}
+{"event": "evaluation_progress", "completed": 6900, "calls": 6912, "memo_hits": 6343, "node_type": "separator", "elapsed_seconds": 0.033}
+{"event": "evaluation_progress", "completed": 6925, "calls": 6938, "memo_hits": 6366, "node_type": "incomplete", "elapsed_seconds": 0.016}
+{"event": "evaluation_progress", "completed": 6950, "calls": 6962, "memo_hits": 6386, "node_type": "separator", "elapsed_seconds": 0.033}
+{"event": "evaluation_progress", "completed": 6975, "calls": 6988, "memo_hits": 6407, "node_type": "incomplete", "elapsed_seconds": 0.016}
+{"event": "evaluation_progress", "completed": 7000, "calls": 7011, "memo_hits": 6426, "node_type": "separator", "elapsed_seconds": 0.063}
+{"event": "evaluation_progress", "completed": 7025, "calls": 7036, "memo_hits": 6445, "node_type": "separator", "elapsed_seconds": 0.067}
+{"event": "evaluation_progress", "completed": 7050, "calls": 7063, "memo_hits": 6464, "node_type": "incomplete", "elapsed_seconds": 0.017}
+{"event": "evaluation_progress", "completed": 7075, "calls": 7088, "memo_hits": 6483, "node_type": "incomplete", "elapsed_seconds": 0.016}
+{"event": "evaluation_progress", "completed": 7100, "calls": 7113, "memo_hits": 6504, "node_type": "incomplete", "elapsed_seconds": 0.015}
+{"event": "evaluation_progress", "completed": 7125, "calls": 7138, "memo_hits": 6522, "node_type": "incomplete", "elapsed_seconds": 0.015}
+{"event": "evaluation_progress", "completed": 7150, "calls": 7163, "memo_hits": 6541, "node_type": "incomplete", "elapsed_seconds": 0.016}
+{"event": "evaluation_progress", "completed": 7175, "calls": 7186, "memo_hits": 6560, "node_type": "separator", "elapsed_seconds": 0.064}
+{"event": "evaluation_progress", "completed": 7200, "calls": 7212, "memo_hits": 6585, "node_type": "separator", "elapsed_seconds": 0.034}
+{"event": "evaluation_progress", "completed": 7225, "calls": 7237, "memo_hits": 6610, "node_type": "separator", "elapsed_seconds": 0.034}
+{"event": "evaluation_progress", "completed": 7250, "calls": 7261, "memo_hits": 6635, "node_type": "separator", "elapsed_seconds": 0.068}
+{"event": "evaluation_progress", "completed": 7275, "calls": 7285, "memo_hits": 6659, "node_type": "separator", "elapsed_seconds": 0.136}
+{"event": "evaluation_progress", "completed": 7300, "calls": 7313, "memo_hits": 6684, "node_type": "incomplete", "elapsed_seconds": 0.017}
+{"event": "evaluation_progress", "completed": 7325, "calls": 7338, "memo_hits": 6708, "node_type": "incomplete", "elapsed_seconds": 0.019}
+{"event": "evaluation_progress", "completed": 7350, "calls": 7363, "memo_hits": 6733, "node_type": "incomplete", "elapsed_seconds": 0.017}
+{"event": "evaluation_progress", "completed": 7375, "calls": 7388, "memo_hits": 6758, "node_type": "incomplete", "elapsed_seconds": 0.016}
+{"event": "evaluation_progress", "completed": 7400, "calls": 7412, "memo_hits": 6782, "node_type": "separator", "elapsed_seconds": 0.033}
+{"event": "evaluation_progress", "completed": 7425, "calls": 7436, "memo_hits": 6807, "node_type": "separator", "elapsed_seconds": 0.068}
+{"event": "evaluation_progress", "completed": 7450, "calls": 7458, "memo_hits": 6831, "node_type": "separator", "elapsed_seconds": 0.533}
+{"event": "evaluation_progress", "completed": 7475, "calls": 7488, "memo_hits": 6856, "node_type": "incomplete", "elapsed_seconds": 0.017}
+{"event": "evaluation_progress", "completed": 7500, "calls": 7513, "memo_hits": 6881, "node_type": "incomplete", "elapsed_seconds": 0.017}
+{"event": "evaluation_progress", "completed": 7525, "calls": 7537, "memo_hits": 6905, "node_type": "separator", "elapsed_seconds": 0.035}
+{"event": "evaluation_progress", "completed": 7550, "calls": 7563, "memo_hits": 6930, "node_type": "incomplete", "elapsed_seconds": 0.017}
+{"event": "evaluation_progress", "completed": 7575, "calls": 7586, "memo_hits": 6955, "node_type": "separator", "elapsed_seconds": 0.068}
+{"event": "evaluation_progress", "completed": 7600, "calls": 7612, "memo_hits": 6979, "node_type": "separator", "elapsed_seconds": 0.033}
+{"event": "evaluation_progress", "completed": 7625, "calls": 7635, "memo_hits": 7004, "node_type": "separator", "elapsed_seconds": 0.172}
+{"event": "evaluation_progress", "completed": 7650, "calls": 7663, "memo_hits": 7028, "node_type": "incomplete", "elapsed_seconds": 0.017}
+{"event": "evaluation_progress", "completed": 7675, "calls": 7688, "memo_hits": 7053, "node_type": "incomplete", "elapsed_seconds": 0.017}
+{"event": "evaluation_progress", "completed": 7700, "calls": 7713, "memo_hits": 7078, "node_type": "incomplete", "elapsed_seconds": 0.016}
+{"event": "evaluation_progress", "completed": 7725, "calls": 7738, "memo_hits": 7101, "node_type": "incomplete", "elapsed_seconds": 0.016}
+{"event": "evaluation_progress", "completed": 7750, "calls": 7763, "memo_hits": 7126, "node_type": "incomplete", "elapsed_seconds": 0.016}
+{"event": "evaluation_progress", "completed": 7775, "calls": 7788, "memo_hits": 7150, "node_type": "incomplete", "elapsed_seconds": 0.017}
+{"event": "evaluation_progress", "completed": 7800, "calls": 7811, "memo_hits": 7175, "node_type": "separator", "elapsed_seconds": 0.064}
+{"event": "evaluation_progress", "completed": 7825, "calls": 7838, "memo_hits": 7200, "node_type": "incomplete", "elapsed_seconds": 0.016}
+{"event": "evaluation_progress", "completed": 7850, "calls": 7860, "memo_hits": 7224, "node_type": "separator", "elapsed_seconds": 0.133}
+{"event": "evaluation_progress", "completed": 7875, "calls": 7888, "memo_hits": 7249, "node_type": "incomplete", "elapsed_seconds": 0.016}
+{"event": "evaluation_progress", "completed": 7900, "calls": 7913, "memo_hits": 7273, "node_type": "incomplete", "elapsed_seconds": 0.016}
+{"event": "evaluation_progress", "completed": 7925, "calls": 7938, "memo_hits": 7298, "node_type": "incomplete", "elapsed_seconds": 0.015}
+{"event": "evaluation_progress", "completed": 7950, "calls": 7962, "memo_hits": 7323, "node_type": "separator", "elapsed_seconds": 0.031}
+{"event": "evaluation_progress", "completed": 7975, "calls": 7988, "memo_hits": 7346, "node_type": "incomplete", "elapsed_seconds": 0.015}
+{"event": "evaluation_progress", "completed": 8000, "calls": 8012, "memo_hits": 7369, "node_type": "separator", "elapsed_seconds": 0.031}
+{"event": "evaluation_progress", "completed": 8025, "calls": 8034, "memo_hits": 7393, "node_type": "separator", "elapsed_seconds": 0.255}
+{"event": "evaluation_progress", "completed": 8050, "calls": 8063, "memo_hits": 7416, "node_type": "incomplete", "elapsed_seconds": 0.016}
+{"event": "evaluation_progress", "completed": 8075, "calls": 8087, "memo_hits": 7439, "node_type": "separator", "elapsed_seconds": 0.031}
+{"event": "evaluation_progress", "completed": 8100, "calls": 8112, "memo_hits": 7462, "node_type": "separator", "elapsed_seconds": 0.031}
+{"event": "evaluation_progress", "completed": 8125, "calls": 8138, "memo_hits": 7485, "node_type": "incomplete", "elapsed_seconds": 0.015}
+{"event": "evaluation_progress", "completed": 8150, "calls": 8161, "memo_hits": 7509, "node_type": "separator", "elapsed_seconds": 0.062}
+{"event": "evaluation_progress", "completed": 8175, "calls": 8186, "memo_hits": 7532, "node_type": "separator", "elapsed_seconds": 0.064}
+{"event": "evaluation_progress", "completed": 8200, "calls": 8213, "memo_hits": 7556, "node_type": "incomplete", "elapsed_seconds": 0.015}
+{"event": "terminal_solver_start", "terminal_id": "component_001_dnode_8225", "solver": "exact enumeration", "nodes": 12, "edges": 66}
+{"event": "terminal_solver_finish", "terminal_id": "component_001_dnode_8225", "solver": "exact enumeration", "nodes": 12, "edges": 66, "elapsed_seconds": 0.01}
+{"event": "terminal_solver_start", "terminal_id": "component_001_dnode_8226", "solver": "complement max-weight clique", "nodes": 30, "edges": 228}
+{"event": "terminal_solver_finish", "terminal_id": "component_001_dnode_8226", "solver": "complement max-weight clique", "nodes": 30, "edges": 228, "elapsed_seconds": 0.006}
+{"event": "evaluation_progress", "completed": 8225, "calls": 8226, "memo_hits": 7578, "node_type": "terminal", "elapsed_seconds": 0.007}
+{"event": "evaluation_progress", "completed": 8250, "calls": 8262, "memo_hits": 7600, "node_type": "separator", "elapsed_seconds": 0.035}
+{"event": "evaluation_progress", "completed": 8275, "calls": 8288, "memo_hits": 7623, "node_type": "incomplete", "elapsed_seconds": 0.019}
+{"event": "evaluation_progress", "completed": 8300, "calls": 8313, "memo_hits": 7646, "node_type": "incomplete", "elapsed_seconds": 0.017}
+{"event": "evaluation_progress", "completed": 8325, "calls": 8337, "memo_hits": 7669, "node_type": "separator", "elapsed_seconds": 0.035}
+{"event": "evaluation_progress", "completed": 8350, "calls": 8359, "memo_hits": 7693, "node_type": "separator", "elapsed_seconds": 0.279}
+{"event": "evaluation_progress", "completed": 8375, "calls": 8388, "memo_hits": 7715, "node_type": "incomplete", "elapsed_seconds": 0.017}
+{"event": "evaluation_progress", "completed": 8400, "calls": 8413, "memo_hits": 7739, "node_type": "incomplete", "elapsed_seconds": 0.017}
+{"event": "evaluation_progress", "completed": 8425, "calls": 8437, "memo_hits": 7761, "node_type": "separator", "elapsed_seconds": 0.04}
+{"event": "evaluation_progress", "completed": 8450, "calls": 8463, "memo_hits": 7784, "node_type": "incomplete", "elapsed_seconds": 0.017}
+{"event": "evaluation_progress", "completed": 8475, "calls": 8486, "memo_hits": 7808, "node_type": "separator", "elapsed_seconds": 0.066}
+{"event": "evaluation_progress", "completed": 8500, "calls": 8513, "memo_hits": 7830, "node_type": "incomplete", "elapsed_seconds": 0.019}
+{"event": "evaluation_progress", "completed": 8525, "calls": 8536, "memo_hits": 7854, "node_type": "separator", "elapsed_seconds": 0.071}
+{"event": "evaluation_progress", "completed": 8550, "calls": 8561, "memo_hits": 7876, "node_type": "separator", "elapsed_seconds": 0.07}
+{"event": "evaluation_progress", "completed": 8575, "calls": 8588, "memo_hits": 7900, "node_type": "incomplete", "elapsed_seconds": 0.018}
+{"event": "evaluation_progress", "completed": 8600, "calls": 8613, "memo_hits": 7923, "node_type": "incomplete", "elapsed_seconds": 0.019}
+{"event": "evaluation_progress", "completed": 8625, "calls": 8637, "memo_hits": 7945, "node_type": "separator", "elapsed_seconds": 0.034}
+{"event": "evaluation_progress", "completed": 8650, "calls": 8663, "memo_hits": 7969, "node_type": "incomplete", "elapsed_seconds": 0.017}
+{"event": "evaluation_progress", "completed": 8675, "calls": 8688, "memo_hits": 7991, "node_type": "incomplete", "elapsed_seconds": 0.017}
+{"event": "evaluation_progress", "completed": 8700, "calls": 8710, "memo_hits": 8015, "node_type": "separator", "elapsed_seconds": 0.133}
+{"event": "evaluation_progress", "completed": 8725, "calls": 8738, "memo_hits": 8038, "node_type": "incomplete", "elapsed_seconds": 0.017}
+{"event": "evaluation_progress", "completed": 8750, "calls": 8761, "memo_hits": 8060, "node_type": "separator", "elapsed_seconds": 0.067}
+{"event": "evaluation_progress", "completed": 8775, "calls": 8788, "memo_hits": 8083, "node_type": "incomplete", "elapsed_seconds": 0.017}
+{"event": "evaluation_progress", "completed": 8800, "calls": 8813, "memo_hits": 8106, "node_type": "incomplete", "elapsed_seconds": 0.017}
+{"event": "evaluation_progress", "completed": 8825, "calls": 8838, "memo_hits": 8129, "node_type": "incomplete", "elapsed_seconds": 0.016}
+{"event": "evaluation_progress", "completed": 8850, "calls": 8863, "memo_hits": 8152, "node_type": "incomplete", "elapsed_seconds": 0.017}
+{"event": "evaluation_progress", "completed": 8875, "calls": 8888, "memo_hits": 8175, "node_type": "incomplete", "elapsed_seconds": 0.016}
+{"event": "evaluation_progress", "completed": 8900, "calls": 8912, "memo_hits": 8198, "node_type": "separator", "elapsed_seconds": 0.033}
+{"event": "evaluation_progress", "completed": 8925, "calls": 8934, "memo_hits": 8222, "node_type": "separator", "elapsed_seconds": 0.267}
+{"event": "evaluation_progress", "completed": 8950, "calls": 8963, "memo_hits": 8244, "node_type": "incomplete", "elapsed_seconds": 0.016}
+{"event": "evaluation_progress", "completed": 8975, "calls": 8987, "memo_hits": 8267, "node_type": "separator", "elapsed_seconds": 0.036}
+{"event": "evaluation_progress", "completed": 9000, "calls": 9013, "memo_hits": 8288, "node_type": "incomplete", "elapsed_seconds": 0.017}
+{"event": "evaluation_progress", "completed": 9025, "calls": 9037, "memo_hits": 8308, "node_type": "separator", "elapsed_seconds": 0.033}
+{"event": "evaluation_progress", "completed": 9050, "calls": 9062, "memo_hits": 8327, "node_type": "separator", "elapsed_seconds": 0.031}
+{"event": "evaluation_progress", "completed": 9075, "calls": 9087, "memo_hits": 8346, "node_type": "separator", "elapsed_seconds": 0.032}
+{"event": "evaluation_progress", "completed": 9100, "calls": 9110, "memo_hits": 8365, "node_type": "separator", "elapsed_seconds": 0.134}
+{"event": "evaluation_progress", "completed": 9125, "calls": 9136, "memo_hits": 8384, "node_type": "separator", "elapsed_seconds": 0.064}
+{"event": "evaluation_progress", "completed": 9150, "calls": 9163, "memo_hits": 8405, "node_type": "incomplete", "elapsed_seconds": 0.016}
+{"event": "evaluation_progress", "completed": 9175, "calls": 9188, "memo_hits": 8423, "node_type": "incomplete", "elapsed_seconds": 0.015}
+{"event": "evaluation_progress", "completed": 9200, "calls": 9213, "memo_hits": 8442, "node_type": "incomplete", "elapsed_seconds": 0.016}
+{"event": "evaluation_progress", "completed": 9225, "calls": 9237, "memo_hits": 8461, "node_type": "separator", "elapsed_seconds": 0.031}
+{"event": "evaluation_progress", "completed": 9250, "calls": 9263, "memo_hits": 8486, "node_type": "incomplete", "elapsed_seconds": 0.018}
+{"event": "evaluation_progress", "completed": 9275, "calls": 9288, "memo_hits": 8511, "node_type": "incomplete", "elapsed_seconds": 0.017}
+{"event": "evaluation_progress", "completed": 9300, "calls": 9312, "memo_hits": 8536, "node_type": "separator", "elapsed_seconds": 0.033}
+{"event": "evaluation_progress", "completed": 9325, "calls": 9336, "memo_hits": 8560, "node_type": "separator", "elapsed_seconds": 0.072}
+{"event": "evaluation_progress", "completed": 9350, "calls": 9363, "memo_hits": 8585, "node_type": "incomplete", "elapsed_seconds": 0.018}
+{"event": "evaluation_progress", "completed": 9375, "calls": 9382, "memo_hits": 8609, "node_type": "separator", "elapsed_seconds": 1.108}
+{"event": "evaluation_progress", "completed": 9400, "calls": 9412, "memo_hits": 8634, "node_type": "separator", "elapsed_seconds": 0.034}
+{"event": "evaluation_progress", "completed": 9425, "calls": 9438, "memo_hits": 8659, "node_type": "incomplete", "elapsed_seconds": 0.017}
+{"event": "evaluation_progress", "completed": 9450, "calls": 9463, "memo_hits": 8683, "node_type": "incomplete", "elapsed_seconds": 0.016}
+{"event": "evaluation_progress", "completed": 9475, "calls": 9487, "memo_hits": 8708, "node_type": "separator", "elapsed_seconds": 0.033}
+{"event": "evaluation_progress", "completed": 9500, "calls": 9509, "memo_hits": 8733, "node_type": "separator", "elapsed_seconds": 0.265}
+{"event": "evaluation_progress", "completed": 9525, "calls": 9536, "memo_hits": 8757, "node_type": "separator", "elapsed_seconds": 0.069}
+{"event": "evaluation_progress", "completed": 9550, "calls": 9563, "memo_hits": 8782, "node_type": "incomplete", "elapsed_seconds": 0.017}
+{"event": "evaluation_progress", "completed": 9575, "calls": 9588, "memo_hits": 8806, "node_type": "incomplete", "elapsed_seconds": 0.017}
+{"event": "evaluation_progress", "completed": 9600, "calls": 9612, "memo_hits": 8831, "node_type": "separator", "elapsed_seconds": 0.034}
+{"event": "evaluation_progress", "completed": 9625, "calls": 9637, "memo_hits": 8856, "node_type": "separator", "elapsed_seconds": 0.033}
+{"event": "evaluation_progress", "completed": 9650, "calls": 9663, "memo_hits": 8880, "node_type": "incomplete", "elapsed_seconds": 0.016}
+{"event": "evaluation_progress", "completed": 9675, "calls": 9686, "memo_hits": 8905, "node_type": "separator", "elapsed_seconds": 0.071}
+{"event": "evaluation_progress", "completed": 9700, "calls": 9711, "memo_hits": 8929, "node_type": "separator", "elapsed_seconds": 0.067}
+{"event": "evaluation_progress", "completed": 9725, "calls": 9738, "memo_hits": 8954, "node_type": "incomplete", "elapsed_seconds": 0.018}
+{"event": "evaluation_progress", "completed": 9750, "calls": 9763, "memo_hits": 8979, "node_type": "incomplete", "elapsed_seconds": 0.016}
+{"event": "evaluation_progress", "completed": 9775, "calls": 9788, "memo_hits": 9002, "node_type": "incomplete", "elapsed_seconds": 0.016}
+{"event": "evaluation_progress", "completed": 9800, "calls": 9812, "memo_hits": 9027, "node_type": "separator", "elapsed_seconds": 0.035}
+{"event": "evaluation_progress", "completed": 9825, "calls": 9837, "memo_hits": 9051, "node_type": "separator", "elapsed_seconds": 0.034}
+{"event": "evaluation_progress", "completed": 9850, "calls": 9862, "memo_hits": 9076, "node_type": "separator", "elapsed_seconds": 0.032}
+{"event": "evaluation_progress", "completed": 9875, "calls": 9886, "memo_hits": 9101, "node_type": "separator", "elapsed_seconds": 0.067}
+{"event": "evaluation_progress", "completed": 9900, "calls": 9911, "memo_hits": 9125, "node_type": "separator", "elapsed_seconds": 0.067}
+{"event": "evaluation_progress", "completed": 9925, "calls": 9938, "memo_hits": 9150, "node_type": "incomplete", "elapsed_seconds": 0.017}
+{"event": "evaluation_progress", "completed": 9950, "calls": 9963, "memo_hits": 9174, "node_type": "incomplete", "elapsed_seconds": 0.017}
+{"event": "evaluation_progress", "completed": 9975, "calls": 9988, "memo_hits": 9199, "node_type": "incomplete", "elapsed_seconds": 0.016}
+{"event": "evaluation_progress", "completed": 10000, "calls": 10003, "memo_hits": 9225, "node_type": "separator", "elapsed_seconds": 15.06}
+{"event": "terminal_solver_start", "terminal_id": "component_001_dnode_10006", "solver": "complement max-weight clique", "nodes": 28, "edges": 199}
+{"event": "terminal_solver_finish", "terminal_id": "component_001_dnode_10006", "solver": "complement max-weight clique", "nodes": 28, "edges": 199, "elapsed_seconds": 0.003}
+{"event": "terminal_solver_start", "terminal_id": "component_002_dnode_0001", "solver": "exact enumeration", "nodes": 7, "edges": 13}
+{"event": "terminal_solver_finish", "terminal_id": "component_002_dnode_0001", "solver": "exact enumeration", "nodes": 7, "edges": 13, "elapsed_seconds": 0.001}
+{"event": "terminal_solver_start", "terminal_id": "component_003_dnode_0001", "solver": "exact enumeration", "nodes": 6, "edges": 7}
+{"event": "terminal_solver_finish", "terminal_id": "component_003_dnode_0001", "solver": "exact enumeration", "nodes": 6, "edges": 7, "elapsed_seconds": 0.001}
+{"event": "terminal_solver_start", "terminal_id": "component_004_dnode_0001", "solver": "exact enumeration", "nodes": 4, "edges": 6}
+{"event": "terminal_solver_finish", "terminal_id": "component_004_dnode_0001", "solver": "exact enumeration", "nodes": 4, "edges": 6, "elapsed_seconds": 0.001}
+{"event": "terminal_solver_start", "terminal_id": "component_005_dnode_0001", "solver": "exact enumeration", "nodes": 3, "edges": 2}
+{"event": "terminal_solver_finish", "terminal_id": "component_005_dnode_0001", "solver": "exact enumeration", "nodes": 3, "edges": 2, "elapsed_seconds": 0.001}
+{"event": "terminal_solver_start", "terminal_id": "component_006_dnode_0001", "solver": "exact enumeration", "nodes": 2, "edges": 1}
+{"event": "terminal_solver_finish", "terminal_id": "component_006_dnode_0001", "solver": "exact enumeration", "nodes": 2, "edges": 1, "elapsed_seconds": 0.001}
+{"event": "terminal_solver_start", "terminal_id": "component_007_dnode_0001", "solver": "exact enumeration", "nodes": 2, "edges": 1}
+{"event": "terminal_solver_finish", "terminal_id": "component_007_dnode_0001", "solver": "exact enumeration", "nodes": 2, "edges": 1, "elapsed_seconds": 0.001}
+{"event": "terminal_solver_start", "terminal_id": "component_008_dnode_0001", "solver": "exact enumeration", "nodes": 2, "edges": 1}
+{"event": "terminal_solver_finish", "terminal_id": "component_008_dnode_0001", "solver": "exact enumeration", "nodes": 2, "edges": 1, "elapsed_seconds": 0.001}
+{"event": "terminal_solver_start", "terminal_id": "component_009_dnode_0001", "solver": "exact enumeration", "nodes": 2, "edges": 1}
+{"event": "terminal_solver_finish", "terminal_id": "component_009_dnode_0001", "solver": "exact enumeration", "nodes": 2, "edges": 1, "elapsed_seconds": 0.0}
+{"event": "terminal_solver_start", "terminal_id": "component_010_dnode_0001", "solver": "empty graph", "nodes": 0, "edges": 0}
+{"event": "terminal_solver_finish", "terminal_id": "component_010_dnode_0001", "solver": "empty graph", "nodes": 0, "edges": 0, "elapsed_seconds": 0.0}
+{"event": "terminal_solver_start", "terminal_id": "component_011_dnode_0001", "solver": "empty graph", "nodes": 0, "edges": 0}
+{"event": "terminal_solver_finish", "terminal_id": "component_011_dnode_0001", "solver": "empty graph", "nodes": 0, "edges": 0, "elapsed_seconds": 0.001}
+{"event": "terminal_solver_start", "terminal_id": "component_012_dnode_0001", "solver": "empty graph", "nodes": 0, "edges": 0}
+{"event": "terminal_solver_finish", "terminal_id": "component_012_dnode_0001", "solver": "empty graph", "nodes": 0, "edges": 0, "elapsed_seconds": 0.0}
+{"event": "terminal_solver_start", "terminal_id": "component_013_dnode_0001", "solver": "empty graph", "nodes": 0, "edges": 0}
+{"event": "terminal_solver_finish", "terminal_id": "component_013_dnode_0001", "solver": "empty graph", "nodes": 0, "edges": 0, "elapsed_seconds": 0.0}
+{"event": "terminal_solver_start", "terminal_id": "component_014_dnode_0001", "solver": "empty graph", "nodes": 0, "edges": 0}
+{"event": "terminal_solver_finish", "terminal_id": "component_014_dnode_0001", "solver": "empty graph", "nodes": 0, "edges": 0, "elapsed_seconds": 0.001}
+{"event": "terminal_solver_start", "terminal_id": "component_015_dnode_0001", "solver": "empty graph", "nodes": 0, "edges": 0}
+{"event": "terminal_solver_finish", "terminal_id": "component_015_dnode_0001", "solver": "empty graph", "nodes": 0, "edges": 0, "elapsed_seconds": 0.001}
+{"event": "terminal_solver_start", "terminal_id": "component_016_dnode_0001", "solver": "empty graph", "nodes": 0, "edges": 0}
+{"event": "terminal_solver_finish", "terminal_id": "component_016_dnode_0001", "solver": "empty graph", "nodes": 0, "edges": 0, "elapsed_seconds": 0.0}
+{"event": "terminal_solver_start", "terminal_id": "component_017_dnode_0001", "solver": "empty graph", "nodes": 0, "edges": 0}
+{"event": "terminal_solver_finish", "terminal_id": "component_017_dnode_0001", "solver": "empty graph", "nodes": 0, "edges": 0, "elapsed_seconds": 0.0}
+{"event": "terminal_solver_start", "terminal_id": "component_018_dnode_0001", "solver": "empty graph", "nodes": 0, "edges": 0}
+{"event": "terminal_solver_finish", "terminal_id": "component_018_dnode_0001", "solver": "empty graph", "nodes": 0, "edges": 0, "elapsed_seconds": 0.0}
+{"event": "terminal_solver_start", "terminal_id": "component_019_dnode_0001", "solver": "empty graph", "nodes": 0, "edges": 0}
+{"event": "terminal_solver_finish", "terminal_id": "component_019_dnode_0001", "solver": "empty graph", "nodes": 0, "edges": 0, "elapsed_seconds": 0.001}
+{"event": "terminal_solver_start", "terminal_id": "component_020_dnode_0001", "solver": "empty graph", "nodes": 0, "edges": 0}
+{"event": "terminal_solver_finish", "terminal_id": "component_020_dnode_0001", "solver": "empty graph", "nodes": 0, "edges": 0, "elapsed_seconds": 0.0}
+{"event": "evaluation_progress", "completed": 10025, "calls": 10025, "memo_hits": 9230, "node_type": "terminal", "elapsed_seconds": 0.001}
+{"event": "evaluation_finish", "wall_seconds": 84.517, "calls": 10025, "completed": 10025, "memo_hits": 9230}

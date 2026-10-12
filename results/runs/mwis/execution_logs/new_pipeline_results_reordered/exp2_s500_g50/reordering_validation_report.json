@@ -1,0 +1,22 @@
+{
+  "validation_passed": true,
+  "previous_run": "new_pipeline_results/exp2_s500_g50",
+  "run": "new_pipeline_results_reordered/exp2_s500_g50",
+  "previous_terminal_qubos": 4,
+  "reordered_terminal_qubos": 4,
+  "reclassified_leaves": 0,
+  "newly_sampled_terminals": 0,
+  "newly_resolved_empty_leaves": 0,
+  "changes": [],
+  "remaining_budget_blocked_fitting_leaves": [],
+  "checks": [
+    "same frozen input and conflict graph",
+    "matched settings, packages and execution method",
+    "expected source revision",
+    "unchanged tree nodes, branches and separators",
+    "only predicted leaf reclassifications",
+    "existing QUBOs unchanged",
+    "all added terminals sampled",
+    "no fitting leaves rejected by recursion budgets"
+  ]
+}

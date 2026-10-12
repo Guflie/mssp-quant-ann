@@ -1,0 +1,105 @@
+{"utc": "2026-10-12T14:30:11.418169+00:00", "event": "stage_start", "stage": "mwis", "notebook": "02.A_mwis_pipeline.ipynb"}
+{"utc": "2026-10-12T14:30:11.456282+00:00", "event": "cell_start", "stage": "mwis", "executed_cell": 0, "original_cell": -1, "first_line": "import sys, json, platform, importlib.metadata"}
+{"utc": "2026-10-12T14:30:11.487799+00:00", "event": "cell_complete", "stage": "mwis", "executed_cell": 0, "seconds": 0.032}
+{"utc": "2026-10-12T14:30:11.488613+00:00", "event": "cell_start", "stage": "mwis", "executed_cell": 3, "original_cell": 2, "first_line": "from __future__ import annotations"}
+{"utc": "2026-10-12T14:30:12.687107+00:00", "event": "cell_complete", "stage": "mwis", "executed_cell": 3, "seconds": 1.199}
+{"utc": "2026-10-12T14:30:12.687944+00:00", "event": "cell_start", "stage": "mwis", "executed_cell": 5, "original_cell": 4, "first_line": "REQUIRED_COLUMNS = ["}
+{"utc": "2026-10-12T14:30:12.732896+00:00", "event": "cell_complete", "stage": "mwis", "executed_cell": 5, "seconds": 0.045}
+{"utc": "2026-10-12T14:30:12.733526+00:00", "event": "cell_start", "stage": "mwis", "executed_cell": 7, "original_cell": 6, "first_line": "# ----------------------------------------------------------"}
+{"utc": "2026-10-12T14:30:13.417953+00:00", "event": "cell_complete", "stage": "mwis", "executed_cell": 7, "seconds": 0.684}
+{"utc": "2026-10-12T14:30:13.418599+00:00", "event": "cell_start", "stage": "mwis", "executed_cell": 9, "original_cell": 8, "first_line": "# ----------------------------------------------------------"}
+{"utc": "2026-10-12T14:30:13.521168+00:00", "event": "cell_complete", "stage": "mwis", "executed_cell": 9, "seconds": 0.103}
+{"utc": "2026-10-12T14:30:13.521985+00:00", "event": "cell_start", "stage": "mwis", "executed_cell": 11, "original_cell": 10, "first_line": "def materialize_node_graph(node: dict[str, Any]) -> nx.Graph:"}
+{"utc": "2026-10-12T14:30:13.540892+00:00", "event": "cell_complete", "stage": "mwis", "executed_cell": 11, "seconds": 0.019}
+{"utc": "2026-10-12T14:30:13.541523+00:00", "event": "cell_start", "stage": "mwis", "executed_cell": 12, "original_cell": 11, "first_line": "# Decompose every natural component"}
+{"utc": "2026-10-12T14:30:31.394765+00:00", "event": "heartbeat", "stage": "mwis", "original_cell": 11, "elapsed_seconds": 20.204, "cpu_seconds": 22.578, "resident_mb": 186.15}
+{"utc": "2026-10-12T14:30:51.542095+00:00", "event": "heartbeat", "stage": "mwis", "original_cell": 11, "elapsed_seconds": 40.351, "cpu_seconds": 42.562, "resident_mb": 209.81}
+{"utc": "2026-10-12T14:31:11.677864+00:00", "event": "heartbeat", "stage": "mwis", "original_cell": 11, "elapsed_seconds": 60.487, "cpu_seconds": 62.578, "resident_mb": 232.49}
+{"utc": "2026-10-12T14:31:31.779471+00:00", "event": "heartbeat", "stage": "mwis", "original_cell": 11, "elapsed_seconds": 80.588, "cpu_seconds": 82.562, "resident_mb": 260.09}
+{"utc": "2026-10-12T14:31:51.930265+00:00", "event": "heartbeat", "stage": "mwis", "original_cell": 11, "elapsed_seconds": 100.739, "cpu_seconds": 102.5, "resident_mb": 284.14}
+{"utc": "2026-10-12T14:32:12.053257+00:00", "event": "heartbeat", "stage": "mwis", "original_cell": 11, "elapsed_seconds": 120.862, "cpu_seconds": 122.344, "resident_mb": 307.11}
+{"utc": "2026-10-12T14:32:32.195687+00:00", "event": "heartbeat", "stage": "mwis", "original_cell": 11, "elapsed_seconds": 141.005, "cpu_seconds": 142.344, "resident_mb": 330.73}
+{"utc": "2026-10-12T14:32:52.287377+00:00", "event": "heartbeat", "stage": "mwis", "original_cell": 11, "elapsed_seconds": 161.096, "cpu_seconds": 162.219, "resident_mb": 352.7}
+{"utc": "2026-10-12T14:33:12.416236+00:00", "event": "heartbeat", "stage": "mwis", "original_cell": 11, "elapsed_seconds": 181.225, "cpu_seconds": 182.234, "resident_mb": 379.45}
+{"utc": "2026-10-12T14:33:32.524122+00:00", "event": "heartbeat", "stage": "mwis", "original_cell": 11, "elapsed_seconds": 201.333, "cpu_seconds": 202.234, "resident_mb": 402.58}
+{"utc": "2026-10-12T14:33:52.614970+00:00", "event": "heartbeat", "stage": "mwis", "original_cell": 11, "elapsed_seconds": 221.424, "cpu_seconds": 222.125, "resident_mb": 426.54}
+{"utc": "2026-10-12T14:34:12.714749+00:00", "event": "heartbeat", "stage": "mwis", "original_cell": 11, "elapsed_seconds": 241.524, "cpu_seconds": 241.922, "resident_mb": 452.46}
+{"utc": "2026-10-12T14:34:32.771901+00:00", "event": "heartbeat", "stage": "mwis", "original_cell": 11, "elapsed_seconds": 261.581, "cpu_seconds": 261.859, "resident_mb": 476.96}
+{"utc": "2026-10-12T14:34:52.883525+00:00", "event": "heartbeat", "stage": "mwis", "original_cell": 11, "elapsed_seconds": 281.692, "cpu_seconds": 281.812, "resident_mb": 500.71}
+{"utc": "2026-10-12T14:35:13.018878+00:00", "event": "heartbeat", "stage": "mwis", "original_cell": 11, "elapsed_seconds": 301.828, "cpu_seconds": 301.781, "resident_mb": 524.19}
+{"utc": "2026-10-12T14:35:33.048572+00:00", "event": "heartbeat", "stage": "mwis", "original_cell": 11, "elapsed_seconds": 321.857, "cpu_seconds": 321.672, "resident_mb": 550.78}
+{"utc": "2026-10-12T14:35:53.181659+00:00", "event": "heartbeat", "stage": "mwis", "original_cell": 11, "elapsed_seconds": 341.991, "cpu_seconds": 341.688, "resident_mb": 574.05}
+{"utc": "2026-10-12T14:36:13.296199+00:00", "event": "heartbeat", "stage": "mwis", "original_cell": 11, "elapsed_seconds": 362.105, "cpu_seconds": 361.547, "resident_mb": 601.06}
+{"utc": "2026-10-12T14:36:33.411855+00:00", "event": "heartbeat", "stage": "mwis", "original_cell": 11, "elapsed_seconds": 382.221, "cpu_seconds": 381.484, "resident_mb": 623.62}
+{"utc": "2026-10-12T14:36:53.526976+00:00", "event": "heartbeat", "stage": "mwis", "original_cell": 11, "elapsed_seconds": 402.336, "cpu_seconds": 401.469, "resident_mb": 649.42}
+{"utc": "2026-10-12T14:37:13.642931+00:00", "event": "heartbeat", "stage": "mwis", "original_cell": 11, "elapsed_seconds": 422.452, "cpu_seconds": 421.328, "resident_mb": 676.14}
+{"utc": "2026-10-12T14:37:33.774925+00:00", "event": "heartbeat", "stage": "mwis", "original_cell": 11, "elapsed_seconds": 442.584, "cpu_seconds": 441.375, "resident_mb": 700.34}
+{"utc": "2026-10-12T14:37:53.905139+00:00", "event": "heartbeat", "stage": "mwis", "original_cell": 11, "elapsed_seconds": 462.714, "cpu_seconds": 461.344, "resident_mb": 722.8}
+{"utc": "2026-10-12T14:38:14.000370+00:00", "event": "heartbeat", "stage": "mwis", "original_cell": 11, "elapsed_seconds": 482.809, "cpu_seconds": 481.312, "resident_mb": 747.0}
+{"utc": "2026-10-12T14:38:34.158499+00:00", "event": "heartbeat", "stage": "mwis", "original_cell": 11, "elapsed_seconds": 502.967, "cpu_seconds": 501.344, "resident_mb": 771.59}
+{"utc": "2026-10-12T14:38:54.313884+00:00", "event": "heartbeat", "stage": "mwis", "original_cell": 11, "elapsed_seconds": 523.123, "cpu_seconds": 521.391, "resident_mb": 793.79}
+{"utc": "2026-10-12T14:39:14.724329+00:00", "event": "heartbeat", "stage": "mwis", "original_cell": 11, "elapsed_seconds": 543.533, "cpu_seconds": 541.672, "resident_mb": 820.11}
+{"utc": "2026-10-12T14:39:34.850717+00:00", "event": "heartbeat", "stage": "mwis", "original_cell": 11, "elapsed_seconds": 563.659, "cpu_seconds": 561.609, "resident_mb": 843.21}
+{"utc": "2026-10-12T14:39:54.910498+00:00", "event": "heartbeat", "stage": "mwis", "original_cell": 11, "elapsed_seconds": 583.719, "cpu_seconds": 581.453, "resident_mb": 866.77}
+{"utc": "2026-10-12T14:40:15.013847+00:00", "event": "heartbeat", "stage": "mwis", "original_cell": 11, "elapsed_seconds": 603.823, "cpu_seconds": 601.266, "resident_mb": 889.02}
+{"utc": "2026-10-12T14:40:35.137487+00:00", "event": "heartbeat", "stage": "mwis", "original_cell": 11, "elapsed_seconds": 623.946, "cpu_seconds": 621.281, "resident_mb": 911.4}
+{"utc": "2026-10-12T14:40:55.168228+00:00", "event": "heartbeat", "stage": "mwis", "original_cell": 11, "elapsed_seconds": 643.977, "cpu_seconds": 641.188, "resident_mb": 936.34}
+{"utc": "2026-10-12T14:41:15.257480+00:00", "event": "heartbeat", "stage": "mwis", "original_cell": 11, "elapsed_seconds": 664.066, "cpu_seconds": 661.078, "resident_mb": 958.61}
+{"utc": "2026-10-12T14:41:35.378748+00:00", "event": "heartbeat", "stage": "mwis", "original_cell": 11, "elapsed_seconds": 684.188, "cpu_seconds": 681.016, "resident_mb": 984.26}
+{"utc": "2026-10-12T14:41:55.489932+00:00", "event": "heartbeat", "stage": "mwis", "original_cell": 11, "elapsed_seconds": 704.299, "cpu_seconds": 701.0, "resident_mb": 1007.73}
+{"utc": "2026-10-12T14:42:15.621523+00:00", "event": "heartbeat", "stage": "mwis", "original_cell": 11, "elapsed_seconds": 724.43, "cpu_seconds": 721.031, "resident_mb": 1032.16}
+{"utc": "2026-10-12T14:42:35.731224+00:00", "event": "heartbeat", "stage": "mwis", "original_cell": 11, "elapsed_seconds": 744.54, "cpu_seconds": 741.0, "resident_mb": 1057.14}
+{"utc": "2026-10-12T14:42:55.834972+00:00", "event": "heartbeat", "stage": "mwis", "original_cell": 11, "elapsed_seconds": 764.644, "cpu_seconds": 760.906, "resident_mb": 1079.06}
+{"utc": "2026-10-12T14:43:15.991538+00:00", "event": "heartbeat", "stage": "mwis", "original_cell": 11, "elapsed_seconds": 784.8, "cpu_seconds": 780.906, "resident_mb": 1104.68}
+{"utc": "2026-10-12T14:43:36.138888+00:00", "event": "heartbeat", "stage": "mwis", "original_cell": 11, "elapsed_seconds": 804.948, "cpu_seconds": 800.812, "resident_mb": 1128.66}
+{"utc": "2026-10-12T14:43:56.273957+00:00", "event": "heartbeat", "stage": "mwis", "original_cell": 11, "elapsed_seconds": 825.083, "cpu_seconds": 820.734, "resident_mb": 1151.9}
+{"utc": "2026-10-12T14:44:16.374631+00:00", "event": "heartbeat", "stage": "mwis", "original_cell": 11, "elapsed_seconds": 845.184, "cpu_seconds": 840.656, "resident_mb": 1177.23}
+{"utc": "2026-10-12T14:44:36.483678+00:00", "event": "heartbeat", "stage": "mwis", "original_cell": 11, "elapsed_seconds": 865.293, "cpu_seconds": 860.547, "resident_mb": 1200.52}
+{"utc": "2026-10-12T14:44:56.791177+00:00", "event": "heartbeat", "stage": "mwis", "original_cell": 11, "elapsed_seconds": 885.6, "cpu_seconds": 880.578, "resident_mb": 1224.44}
+{"utc": "2026-10-12T14:45:16.884417+00:00", "event": "heartbeat", "stage": "mwis", "original_cell": 11, "elapsed_seconds": 905.693, "cpu_seconds": 900.562, "resident_mb": 1248.77}
+{"utc": "2026-10-12T14:45:37.004562+00:00", "event": "heartbeat", "stage": "mwis", "original_cell": 11, "elapsed_seconds": 925.813, "cpu_seconds": 920.594, "resident_mb": 1273.11}
+{"utc": "2026-10-12T14:45:57.509797+00:00", "event": "heartbeat", "stage": "mwis", "original_cell": 11, "elapsed_seconds": 946.319, "cpu_seconds": 940.906, "resident_mb": 1295.53}
+{"utc": "2026-10-12T14:46:17.622589+00:00", "event": "heartbeat", "stage": "mwis", "original_cell": 11, "elapsed_seconds": 966.431, "cpu_seconds": 960.906, "resident_mb": 1320.08}
+{"utc": "2026-10-12T14:46:37.712848+00:00", "event": "heartbeat", "stage": "mwis", "original_cell": 11, "elapsed_seconds": 986.522, "cpu_seconds": 980.859, "resident_mb": 1341.38}
+{"utc": "2026-10-12T14:46:57.822965+00:00", "event": "heartbeat", "stage": "mwis", "original_cell": 11, "elapsed_seconds": 1006.632, "cpu_seconds": 1000.797, "resident_mb": 1367.2}
+{"utc": "2026-10-12T14:47:17.947455+00:00", "event": "heartbeat", "stage": "mwis", "original_cell": 11, "elapsed_seconds": 1026.756, "cpu_seconds": 1020.781, "resident_mb": 1389.81}
+{"utc": "2026-10-12T14:47:38.565685+00:00", "event": "heartbeat", "stage": "mwis", "original_cell": 11, "elapsed_seconds": 1047.375, "cpu_seconds": 1041.203, "resident_mb": 1411.6}
+{"utc": "2026-10-12T14:47:58.613856+00:00", "event": "heartbeat", "stage": "mwis", "original_cell": 11, "elapsed_seconds": 1067.423, "cpu_seconds": 1061.0, "resident_mb": 1434.29}
+{"utc": "2026-10-12T14:48:19.002414+00:00", "event": "heartbeat", "stage": "mwis", "original_cell": 11, "elapsed_seconds": 1087.811, "cpu_seconds": 1081.281, "resident_mb": 1459.18}
+{"utc": "2026-10-12T14:48:39.098651+00:00", "event": "heartbeat", "stage": "mwis", "original_cell": 11, "elapsed_seconds": 1107.908, "cpu_seconds": 1101.047, "resident_mb": 1481.66}
+{"utc": "2026-10-12T14:48:59.214384+00:00", "event": "heartbeat", "stage": "mwis", "original_cell": 11, "elapsed_seconds": 1128.023, "cpu_seconds": 1120.922, "resident_mb": 1502.74}
+{"utc": "2026-10-12T14:49:00.221592+00:00", "event": "cell_complete", "stage": "mwis", "executed_cell": 12, "seconds": 1126.68}
+{"utc": "2026-10-12T14:49:00.222300+00:00", "event": "cell_start", "stage": "mwis", "executed_cell": 14, "original_cell": 13, "first_line": "phase_started = time.perf_counter()"}
+{"utc": "2026-10-12T14:49:00.255168+00:00", "event": "cell_complete", "stage": "mwis", "executed_cell": 14, "seconds": 0.033}
+{"utc": "2026-10-12T14:49:00.255812+00:00", "event": "cell_start", "stage": "mwis", "executed_cell": 16, "original_cell": 15, "first_line": "# Total weight of a set of slots"}
+{"utc": "2026-10-12T14:49:00.264710+00:00", "event": "cell_complete", "stage": "mwis", "executed_cell": 16, "seconds": 0.009}
+{"utc": "2026-10-12T14:49:00.265383+00:00", "event": "cell_start", "stage": "mwis", "executed_cell": 17, "original_cell": 16, "first_line": "# Solve one decomposition-tree node bottom-up"}
+{"utc": "2026-10-12T14:49:19.291827+00:00", "event": "heartbeat", "stage": "mwis", "original_cell": 16, "elapsed_seconds": 1148.101, "cpu_seconds": 1140.859, "resident_mb": 271.98}
+{"utc": "2026-10-12T14:49:39.396035+00:00", "event": "heartbeat", "stage": "mwis", "original_cell": 16, "elapsed_seconds": 1168.205, "cpu_seconds": 1160.828, "resident_mb": 287.71}
+{"utc": "2026-10-12T14:49:59.551851+00:00", "event": "heartbeat", "stage": "mwis", "original_cell": 16, "elapsed_seconds": 1188.361, "cpu_seconds": 1180.922, "resident_mb": 299.79}
+{"utc": "2026-10-12T14:50:19.699778+00:00", "event": "heartbeat", "stage": "mwis", "original_cell": 16, "elapsed_seconds": 1208.509, "cpu_seconds": 1200.953, "resident_mb": 312.34}
+{"utc": "2026-10-12T14:50:39.801319+00:00", "event": "heartbeat", "stage": "mwis", "original_cell": 16, "elapsed_seconds": 1228.61, "cpu_seconds": 1220.953, "resident_mb": 324.56}
+{"utc": "2026-10-12T14:50:59.940471+00:00", "event": "heartbeat", "stage": "mwis", "original_cell": 16, "elapsed_seconds": 1248.749, "cpu_seconds": 1241.047, "resident_mb": 337.3}
+{"utc": "2026-10-12T14:51:20.040050+00:00", "event": "heartbeat", "stage": "mwis", "original_cell": 16, "elapsed_seconds": 1268.849, "cpu_seconds": 1261.016, "resident_mb": 349.58}
+{"utc": "2026-10-12T14:51:40.180089+00:00", "event": "heartbeat", "stage": "mwis", "original_cell": 16, "elapsed_seconds": 1288.989, "cpu_seconds": 1281.047, "resident_mb": 361.45}
+{"utc": "2026-10-12T14:52:00.286748+00:00", "event": "heartbeat", "stage": "mwis", "original_cell": 16, "elapsed_seconds": 1309.096, "cpu_seconds": 1301.016, "resident_mb": 373.6}
+{"utc": "2026-10-12T14:52:20.375446+00:00", "event": "heartbeat", "stage": "mwis", "original_cell": 16, "elapsed_seconds": 1329.184, "cpu_seconds": 1320.953, "resident_mb": 385.56}
+{"utc": "2026-10-12T14:52:22.278535+00:00", "event": "cell_complete", "stage": "mwis", "executed_cell": 17, "seconds": 202.013}
+{"utc": "2026-10-12T14:52:22.279257+00:00", "event": "cell_start", "stage": "mwis", "executed_cell": 19, "original_cell": 18, "first_line": "# Components that already fit the QPU (their root is a terminal)"}
+{"utc": "2026-10-12T14:52:22.314088+00:00", "event": "cell_complete", "stage": "mwis", "executed_cell": 19, "seconds": 0.035}
+{"utc": "2026-10-12T14:52:22.321094+00:00", "event": "stage_end", "stage": "mwis", "status": "completed", "seconds": 1330.901}
+{"utc": "2026-10-12T14:52:22.323969+00:00", "event": "stage_start", "stage": "annealing", "notebook": "3_qubo_annealing.ipynb"}
+{"utc": "2026-10-12T14:52:22.347339+00:00", "event": "cell_start", "stage": "annealing", "executed_cell": 0, "original_cell": -1, "first_line": "import sys, json, platform, importlib.metadata"}
+{"utc": "2026-10-12T14:52:22.381354+00:00", "event": "cell_complete", "stage": "annealing", "executed_cell": 0, "seconds": 0.034}
+{"utc": "2026-10-12T14:52:22.382086+00:00", "event": "cell_start", "stage": "annealing", "executed_cell": 2, "original_cell": 1, "first_line": "from __future__ import annotations"}
+{"utc": "2026-10-12T14:52:22.663533+00:00", "event": "cell_complete", "stage": "annealing", "executed_cell": 2, "seconds": 0.281}
+{"utc": "2026-10-12T14:52:22.664139+00:00", "event": "cell_start", "stage": "annealing", "executed_cell": 4, "original_cell": 3, "first_line": "def load_terminal_qubo(record: dict[str, Any]) -> dict[str, Any]:"}
+{"utc": "2026-10-12T14:52:22.683816+00:00", "event": "cell_complete", "stage": "annealing", "executed_cell": 4, "seconds": 0.02}
+{"utc": "2026-10-12T14:52:22.684478+00:00", "event": "cell_start", "stage": "annealing", "executed_cell": 6, "original_cell": 5, "first_line": "def is_independent(conflicts: set[frozenset[str]], selected: set[str]) -> bool:"}
+{"utc": "2026-10-12T14:52:24.389430+00:00", "event": "cell_complete", "stage": "annealing", "executed_cell": 6, "seconds": 1.705}
+{"utc": "2026-10-12T14:52:24.390063+00:00", "event": "cell_start", "stage": "annealing", "executed_cell": 8, "original_cell": 7, "first_line": "\"\"\"MILP fallback for separator-incomplete components.\"\"\""}
+{"utc": "2026-10-12T14:52:25.129642+00:00", "event": "cell_complete", "stage": "annealing", "executed_cell": 8, "seconds": 0.74}
+{"utc": "2026-10-12T14:52:25.130370+00:00", "event": "cell_start", "stage": "annealing", "executed_cell": 10, "original_cell": 9, "first_line": "# The reconstruction metadata (MWIS or CSP producer) is loaded in the configuration cell."}
+{"utc": "2026-10-12T14:52:28.512979+00:00", "event": "cell_complete", "stage": "annealing", "executed_cell": 10, "seconds": 3.383}
+{"utc": "2026-10-12T14:52:28.517749+00:00", "event": "stage_end", "stage": "annealing", "status": "completed", "seconds": 6.192}
+{"utc": "2026-10-12T14:52:28.519214+00:00", "event": "execution_complete", "seconds": 1337.326}

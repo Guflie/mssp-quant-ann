@@ -1,0 +1,17 @@
+{
+  "status": "completed_and_validated",
+  "completed_runs": [
+    "new_pipeline_results_reordered/exp4_s200_g50_n20_c100",
+    "new_pipeline_results_reordered/exp4_s200_g50_n50_c350"
+  ],
+  "reused_run": "new_pipeline_results_reordered/exp1_s200_g50",
+  "started_utc": "2026-10-12T14:55:57.659079+00:00",
+  "satellites": 200,
+  "gateways": 50,
+  "updated_utc": "2026-10-12T15:13:43.898933+00:00",
+  "current_run": null,
+  "wall_seconds": 1066.2397957000067,
+  "previous_artifacts_checked": 1596,
+  "previous_artifacts_unchanged": true,
+  "report": "C:\\Users\\felip\\Documents\\Polimi\\Semester 3\\SE2 Quantum Satisfiability Project\\satelite-optimization-quantum-annealing\\PoliMi-SWE2-research-project\\results\\runs\\mwis\\experiment_comparison\\new_pipeline_results_reordered\\exp4_terminal_sensitivity\\mwis_exp4_terminal_sensitivity_report.md"
+}

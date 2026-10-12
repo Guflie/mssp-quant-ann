@@ -1,0 +1,33 @@
+{
+  "run_name": "new_pipeline_results_reordered/exp4_s200_g50_n50_c350",
+  "evaluation_wall_seconds": 84.517,
+  "evaluation_calls": 10025,
+  "evaluation_completed": 10025,
+  "evaluation_memo_hits": 9230,
+  "evaluation_calls_by_type": {
+    "separator": 4985,
+    "incomplete": 4986,
+    "terminal": 54
+  },
+  "evaluation_inclusive_seconds_by_type": {
+    "incomplete": 83.653,
+    "terminal": 0.121,
+    "separator": 1095.947
+  },
+  "terminal_solver_calls": {
+    "empty graph": 23,
+    "exact enumeration": 29,
+    "complement max-weight clique": 2
+  },
+  "terminal_solver_seconds": {
+    "empty graph": 0.013,
+    "exact enumeration": 0.058,
+    "complement max-weight clique": 0.009
+  },
+  "terminal_solver_max_seconds": {
+    "empty graph": 0.001,
+    "exact enumeration": 0.021,
+    "complement max-weight clique": 0.006
+  },
+  "trace_file": "mwis_runtime_profile_20261012_171204.jsonl"
+}

@@ -1,0 +1,329 @@
+{
+  "validation_passed": true,
+  "previous_run": "new_pipeline_results/exp2_s100_g50",
+  "run": "new_pipeline_results_reordered/exp2_s100_g50",
+  "previous_terminal_qubos": 145,
+  "reordered_terminal_qubos": 194,
+  "reclassified_leaves": 51,
+  "newly_sampled_terminals": 49,
+  "newly_resolved_empty_leaves": 2,
+  "changes": [
+    {
+      "node_id": "component_001_dnode_0034",
+      "variables": 6,
+      "couplers": 15,
+      "old_reason": "recursion depth exceeded"
+    },
+    {
+      "node_id": "component_001_dnode_0037",
+      "variables": 5,
+      "couplers": 10,
+      "old_reason": "recursion depth exceeded"
+    },
+    {
+      "node_id": "component_001_dnode_0048",
+      "variables": 4,
+      "couplers": 6,
+      "old_reason": "recursion depth exceeded"
+    },
+    {
+      "node_id": "component_001_dnode_0050",
+      "variables": 3,
+      "couplers": 3,
+      "old_reason": "recursion depth exceeded"
+    },
+    {
+      "node_id": "component_001_dnode_0052",
+      "variables": 3,
+      "couplers": 3,
+      "old_reason": "recursion depth exceeded"
+    },
+    {
+      "node_id": "component_001_dnode_0054",
+      "variables": 2,
+      "couplers": 1,
+      "old_reason": "recursion depth exceeded"
+    },
+    {
+      "node_id": "component_001_dnode_0065",
+      "variables": 6,
+      "couplers": 15,
+      "old_reason": "recursion depth exceeded"
+    },
+    {
+      "node_id": "component_001_dnode_0066",
+      "variables": 19,
+      "couplers": 112,
+      "old_reason": "recursion depth exceeded"
+    },
+    {
+      "node_id": "component_001_dnode_0067",
+      "variables": 11,
+      "couplers": 29,
+      "old_reason": "recursion depth exceeded"
+    },
+    {
+      "node_id": "component_001_dnode_0068",
+      "variables": 5,
+      "couplers": 10,
+      "old_reason": "recursion depth exceeded"
+    },
+    {
+      "node_id": "component_001_dnode_0084",
+      "variables": 14,
+      "couplers": 91,
+      "old_reason": "recursion depth exceeded"
+    },
+    {
+      "node_id": "component_001_dnode_0102",
+      "variables": 0,
+      "couplers": 0,
+      "old_reason": "recursion depth exceeded"
+    },
+    {
+      "node_id": "component_001_dnode_0108",
+      "variables": 2,
+      "couplers": 1,
+      "old_reason": "recursion depth exceeded"
+    },
+    {
+      "node_id": "component_001_dnode_0109",
+      "variables": 20,
+      "couplers": 172,
+      "old_reason": "recursion depth exceeded"
+    },
+    {
+      "node_id": "component_001_dnode_0110",
+      "variables": 20,
+      "couplers": 172,
+      "old_reason": "recursion depth exceeded"
+    },
+    {
+      "node_id": "component_001_dnode_0111",
+      "variables": 0,
+      "couplers": 0,
+      "old_reason": "recursion depth exceeded"
+    },
+    {
+      "node_id": "component_001_dnode_0150",
+      "variables": 18,
+      "couplers": 97,
+      "old_reason": "recursion depth exceeded"
+    },
+    {
+      "node_id": "component_001_dnode_0153",
+      "variables": 11,
+      "couplers": 26,
+      "old_reason": "recursion depth exceeded"
+    },
+    {
+      "node_id": "component_001_dnode_0156",
+      "variables": 10,
+      "couplers": 21,
+      "old_reason": "recursion depth exceeded"
+    },
+    {
+      "node_id": "component_001_dnode_0227",
+      "variables": 17,
+      "couplers": 71,
+      "old_reason": "recursion depth exceeded"
+    },
+    {
+      "node_id": "component_001_dnode_0331",
+      "variables": 26,
+      "couplers": 136,
+      "old_reason": "recursion depth exceeded"
+    },
+    {
+      "node_id": "component_001_dnode_0332",
+      "variables": 11,
+      "couplers": 29,
+      "old_reason": "recursion depth exceeded"
+    },
+    {
+      "node_id": "component_001_dnode_0424",
+      "variables": 25,
+      "couplers": 198,
+      "old_reason": "recursion depth exceeded"
+    },
+    {
+      "node_id": "component_001_dnode_0472",
+      "variables": 27,
+      "couplers": 97,
+      "old_reason": "recursion depth exceeded"
+    },
+    {
+      "node_id": "component_001_dnode_0490",
+      "variables": 19,
+      "couplers": 64,
+      "old_reason": "recursion depth exceeded"
+    },
+    {
+      "node_id": "component_001_dnode_0530",
+      "variables": 27,
+      "couplers": 151,
+      "old_reason": "recursion depth exceeded"
+    },
+    {
+      "node_id": "component_001_dnode_0563",
+      "variables": 5,
+      "couplers": 10,
+      "old_reason": "recursion depth exceeded"
+    },
+    {
+      "node_id": "component_001_dnode_0564",
+      "variables": 4,
+      "couplers": 6,
+      "old_reason": "recursion depth exceeded"
+    },
+    {
+      "node_id": "component_001_dnode_0624",
+      "variables": 30,
+      "couplers": 142,
+      "old_reason": "recursion depth exceeded"
+    },
+    {
+      "node_id": "component_001_dnode_0894",
+      "variables": 26,
+      "couplers": 145,
+      "old_reason": "recursion depth exceeded"
+    },
+    {
+      "node_id": "component_001_dnode_0895",
+      "variables": 10,
+      "couplers": 23,
+      "old_reason": "recursion depth exceeded"
+    },
+    {
+      "node_id": "component_001_dnode_0928",
+      "variables": 10,
+      "couplers": 23,
+      "old_reason": "recursion depth exceeded"
+    },
+    {
+      "node_id": "component_001_dnode_1591",
+      "variables": 10,
+      "couplers": 26,
+      "old_reason": "recursion depth exceeded"
+    },
+    {
+      "node_id": "component_001_dnode_1592",
+      "variables": 10,
+      "couplers": 23,
+      "old_reason": "recursion depth exceeded"
+    },
+    {
+      "node_id": "component_001_dnode_1596",
+      "variables": 24,
+      "couplers": 77,
+      "old_reason": "recursion depth exceeded"
+    },
+    {
+      "node_id": "component_001_dnode_1598",
+      "variables": 25,
+      "couplers": 84,
+      "old_reason": "recursion depth exceeded"
+    },
+    {
+      "node_id": "component_001_dnode_1612",
+      "variables": 11,
+      "couplers": 34,
+      "old_reason": "recursion depth exceeded"
+    },
+    {
+      "node_id": "component_001_dnode_1614",
+      "variables": 10,
+      "couplers": 31,
+      "old_reason": "recursion depth exceeded"
+    },
+    {
+      "node_id": "component_001_dnode_1616",
+      "variables": 10,
+      "couplers": 31,
+      "old_reason": "recursion depth exceeded"
+    },
+    {
+      "node_id": "component_001_dnode_1619",
+      "variables": 17,
+      "couplers": 51,
+      "old_reason": "recursion depth exceeded"
+    },
+    {
+      "node_id": "component_001_dnode_1620",
+      "variables": 17,
+      "couplers": 51,
+      "old_reason": "recursion depth exceeded"
+    },
+    {
+      "node_id": "component_001_dnode_1654",
+      "variables": 13,
+      "couplers": 37,
+      "old_reason": "recursion depth exceeded"
+    },
+    {
+      "node_id": "component_001_dnode_1656",
+      "variables": 12,
+      "couplers": 32,
+      "old_reason": "recursion depth exceeded"
+    },
+    {
+      "node_id": "component_001_dnode_1658",
+      "variables": 12,
+      "couplers": 31,
+      "old_reason": "recursion depth exceeded"
+    },
+    {
+      "node_id": "component_001_dnode_1660",
+      "variables": 11,
+      "couplers": 26,
+      "old_reason": "recursion depth exceeded"
+    },
+    {
+      "node_id": "component_001_dnode_2097",
+      "variables": 12,
+      "couplers": 31,
+      "old_reason": "recursion depth exceeded"
+    },
+    {
+      "node_id": "component_001_dnode_2098",
+      "variables": 11,
+      "couplers": 26,
+      "old_reason": "recursion depth exceeded"
+    },
+    {
+      "node_id": "component_001_dnode_2099",
+      "variables": 11,
+      "couplers": 26,
+      "old_reason": "recursion depth exceeded"
+    },
+    {
+      "node_id": "component_001_dnode_2100",
+      "variables": 10,
+      "couplers": 21,
+      "old_reason": "recursion depth exceeded"
+    },
+    {
+      "node_id": "component_001_dnode_2102",
+      "variables": 30,
+      "couplers": 152,
+      "old_reason": "recursion depth exceeded"
+    },
+    {
+      "node_id": "component_001_dnode_2103",
+      "variables": 30,
+      "couplers": 142,
+      "old_reason": "recursion depth exceeded"
+    }
+  ],
+  "remaining_budget_blocked_fitting_leaves": [],
+  "checks": [
+    "same frozen input and conflict graph",
+    "matched settings, packages and execution method",
+    "expected source revision",
+    "unchanged tree nodes, branches and separators",
+    "only predicted leaf reclassifications",
+    "existing QUBOs unchanged",
+    "all added terminals sampled",
+    "no fitting leaves rejected by recursion budgets"
+  ]
+}

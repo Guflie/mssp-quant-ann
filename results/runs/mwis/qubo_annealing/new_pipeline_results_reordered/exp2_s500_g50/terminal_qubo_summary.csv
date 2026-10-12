@@ -1,0 +1,5 @@
+terminal_id,original_component_id,encoding,variables,couplers,slots,forced_selected
+component_001_dnode_0012,component_001,one_hot,2,1,2,0
+component_001_dnode_0020,component_001,one_hot,3,3,3,0
+component_001_dnode_0036,component_001,one_hot,2,1,2,0
+component_002_dnode_0001,component_002,one_hot,7,13,7,0

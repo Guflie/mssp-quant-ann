@@ -1,0 +1,43 @@
+{"utc": "2026-10-12T14:15:47.344592+00:00", "event": "stage_start", "stage": "mwis", "notebook": "02.A_mwis_pipeline.ipynb"}
+{"utc": "2026-10-12T14:15:47.375597+00:00", "event": "cell_start", "stage": "mwis", "executed_cell": 0, "original_cell": -1, "first_line": "import sys, json, platform, importlib.metadata"}
+{"utc": "2026-10-12T14:15:47.406645+00:00", "event": "cell_complete", "stage": "mwis", "executed_cell": 0, "seconds": 0.031}
+{"utc": "2026-10-12T14:15:47.407275+00:00", "event": "cell_start", "stage": "mwis", "executed_cell": 3, "original_cell": 2, "first_line": "from __future__ import annotations"}
+{"utc": "2026-10-12T14:15:48.639734+00:00", "event": "cell_complete", "stage": "mwis", "executed_cell": 3, "seconds": 1.232}
+{"utc": "2026-10-12T14:15:48.640747+00:00", "event": "cell_start", "stage": "mwis", "executed_cell": 5, "original_cell": 4, "first_line": "REQUIRED_COLUMNS = ["}
+{"utc": "2026-10-12T14:15:48.729348+00:00", "event": "cell_complete", "stage": "mwis", "executed_cell": 5, "seconds": 0.089}
+{"utc": "2026-10-12T14:15:48.730064+00:00", "event": "cell_start", "stage": "mwis", "executed_cell": 7, "original_cell": 6, "first_line": "# ----------------------------------------------------------"}
+{"utc": "2026-10-12T14:15:53.826438+00:00", "event": "cell_complete", "stage": "mwis", "executed_cell": 7, "seconds": 5.096}
+{"utc": "2026-10-12T14:15:53.827407+00:00", "event": "cell_start", "stage": "mwis", "executed_cell": 9, "original_cell": 8, "first_line": "# ----------------------------------------------------------"}
+{"utc": "2026-10-12T14:15:54.072561+00:00", "event": "cell_complete", "stage": "mwis", "executed_cell": 9, "seconds": 0.245}
+{"utc": "2026-10-12T14:15:54.073290+00:00", "event": "cell_start", "stage": "mwis", "executed_cell": 11, "original_cell": 10, "first_line": "def materialize_node_graph(node: dict[str, Any]) -> nx.Graph:"}
+{"utc": "2026-10-12T14:15:54.092425+00:00", "event": "cell_complete", "stage": "mwis", "executed_cell": 11, "seconds": 0.019}
+{"utc": "2026-10-12T14:15:54.093147+00:00", "event": "cell_start", "stage": "mwis", "executed_cell": 12, "original_cell": 11, "first_line": "# Decompose every natural component"}
+{"utc": "2026-10-12T14:16:07.333881+00:00", "event": "heartbeat", "stage": "mwis", "original_cell": 11, "elapsed_seconds": 20.2, "cpu_seconds": 22.609, "resident_mb": 206.34}
+{"utc": "2026-10-12T14:16:27.443665+00:00", "event": "heartbeat", "stage": "mwis", "original_cell": 11, "elapsed_seconds": 40.309, "cpu_seconds": 42.562, "resident_mb": 213.91}
+{"utc": "2026-10-12T14:16:47.573493+00:00", "event": "heartbeat", "stage": "mwis", "original_cell": 11, "elapsed_seconds": 60.439, "cpu_seconds": 62.422, "resident_mb": 215.92}
+{"utc": "2026-10-12T14:17:07.292460+00:00", "event": "cell_complete", "stage": "mwis", "executed_cell": 12, "seconds": 73.199}
+{"utc": "2026-10-12T14:17:07.293092+00:00", "event": "cell_start", "stage": "mwis", "executed_cell": 14, "original_cell": 13, "first_line": "phase_started = time.perf_counter()"}
+{"utc": "2026-10-12T14:17:07.318198+00:00", "event": "cell_complete", "stage": "mwis", "executed_cell": 14, "seconds": 0.025}
+{"utc": "2026-10-12T14:17:07.318873+00:00", "event": "cell_start", "stage": "mwis", "executed_cell": 16, "original_cell": 15, "first_line": "# Total weight of a set of slots"}
+{"utc": "2026-10-12T14:17:07.327042+00:00", "event": "cell_complete", "stage": "mwis", "executed_cell": 16, "seconds": 0.008}
+{"utc": "2026-10-12T14:17:07.327692+00:00", "event": "cell_start", "stage": "mwis", "executed_cell": 17, "original_cell": 16, "first_line": "# Solve one decomposition-tree node bottom-up"}
+{"utc": "2026-10-12T14:17:07.643024+00:00", "event": "heartbeat", "stage": "mwis", "original_cell": 16, "elapsed_seconds": 80.509, "cpu_seconds": 82.281, "resident_mb": 193.62}
+{"utc": "2026-10-12T14:17:09.160332+00:00", "event": "cell_complete", "stage": "mwis", "executed_cell": 17, "seconds": 1.833}
+{"utc": "2026-10-12T14:17:09.160889+00:00", "event": "cell_start", "stage": "mwis", "executed_cell": 19, "original_cell": 18, "first_line": "# Components that already fit the QPU (their root is a terminal)"}
+{"utc": "2026-10-12T14:17:09.193392+00:00", "event": "cell_complete", "stage": "mwis", "executed_cell": 19, "seconds": 0.033}
+{"utc": "2026-10-12T14:17:09.200469+00:00", "event": "stage_end", "stage": "mwis", "status": "completed", "seconds": 81.853}
+{"utc": "2026-10-12T14:17:09.203299+00:00", "event": "stage_start", "stage": "annealing", "notebook": "3_qubo_annealing.ipynb"}
+{"utc": "2026-10-12T14:17:09.224193+00:00", "event": "cell_start", "stage": "annealing", "executed_cell": 0, "original_cell": -1, "first_line": "import sys, json, platform, importlib.metadata"}
+{"utc": "2026-10-12T14:17:09.254773+00:00", "event": "cell_complete", "stage": "annealing", "executed_cell": 0, "seconds": 0.031}
+{"utc": "2026-10-12T14:17:09.255361+00:00", "event": "cell_start", "stage": "annealing", "executed_cell": 2, "original_cell": 1, "first_line": "from __future__ import annotations"}
+{"utc": "2026-10-12T14:17:09.288608+00:00", "event": "cell_complete", "stage": "annealing", "executed_cell": 2, "seconds": 0.033}
+{"utc": "2026-10-12T14:17:09.289265+00:00", "event": "cell_start", "stage": "annealing", "executed_cell": 4, "original_cell": 3, "first_line": "def load_terminal_qubo(record: dict[str, Any]) -> dict[str, Any]:"}
+{"utc": "2026-10-12T14:17:09.305962+00:00", "event": "cell_complete", "stage": "annealing", "executed_cell": 4, "seconds": 0.017}
+{"utc": "2026-10-12T14:17:09.306522+00:00", "event": "cell_start", "stage": "annealing", "executed_cell": 6, "original_cell": 5, "first_line": "def is_independent(conflicts: set[frozenset[str]], selected: set[str]) -> bool:"}
+{"utc": "2026-10-12T14:17:09.700629+00:00", "event": "cell_complete", "stage": "annealing", "executed_cell": 6, "seconds": 0.394}
+{"utc": "2026-10-12T14:17:09.701281+00:00", "event": "cell_start", "stage": "annealing", "executed_cell": 8, "original_cell": 7, "first_line": "\"\"\"MILP fallback for separator-incomplete components.\"\"\""}
+{"utc": "2026-10-12T14:17:10.471214+00:00", "event": "cell_complete", "stage": "annealing", "executed_cell": 8, "seconds": 0.77}
+{"utc": "2026-10-12T14:17:10.471970+00:00", "event": "cell_start", "stage": "annealing", "executed_cell": 10, "original_cell": 9, "first_line": "# The reconstruction metadata (MWIS or CSP producer) is loaded in the configuration cell."}
+{"utc": "2026-10-12T14:17:14.237180+00:00", "event": "cell_complete", "stage": "annealing", "executed_cell": 10, "seconds": 3.765}
+{"utc": "2026-10-12T14:17:14.245868+00:00", "event": "stage_end", "stage": "annealing", "status": "completed", "seconds": 5.038}
+{"utc": "2026-10-12T14:17:14.247156+00:00", "event": "execution_complete", "seconds": 87.109}

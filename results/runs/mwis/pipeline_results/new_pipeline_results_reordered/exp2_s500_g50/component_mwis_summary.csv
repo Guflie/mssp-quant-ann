@@ -1,0 +1,5 @@
+component_id,status,objective,upper_bound,exact
+component_001,heuristic_feasible,32122.348999999995,339596.564,False
+component_002,optimal,172.636,172.636,True
+component_003,optimal,76.27,76.27,True
+component_004,optimal,46.681,46.681,True

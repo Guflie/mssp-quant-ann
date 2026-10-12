@@ -1,0 +1,15 @@
+{
+  "status": "completed_and_validated",
+  "completed_runs": [
+    "new_pipeline_results_reordered/exp2_s100_g50",
+    "new_pipeline_results_reordered/exp2_s500_g50"
+  ],
+  "reused_run": "new_pipeline_results_reordered/exp1_s200_g50",
+  "started_utc": "2026-10-12T14:09:58.291829+00:00",
+  "updated_utc": "2026-10-12T14:17:25.062823+00:00",
+  "current_run": null,
+  "wall_seconds": 446.77076139999554,
+  "previous_artifacts_checked": 1388,
+  "previous_artifacts_unchanged": true,
+  "report": "C:\\Users\\felip\\Documents\\Polimi\\Semester 3\\SE2 Quantum Satisfiability Project\\satelite-optimization-quantum-annealing\\PoliMi-SWE2-research-project\\results\\runs\\mwis\\experiment_comparison\\new_pipeline_results_reordered\\exp2_satellite_scaling\\satellite_scaling_report.md"
+}

@@ -1,0 +1,28 @@
+metric,value
+Producer,mwis_pipeline
+Producer run,exp2_s100_g50
+Status,hybrid_exact
+Selected contacts,96
+Total feasible objective,6734.972
+Annealed terminal subgraphs available,194
+Annealed terminal subgraphs used,9
+Infeasible terminal annealing samples,0
+Fallback nodes/components used in selected schedule,0
+Selected-schedule fallback feasible objective,0.0
+Selected-schedule fallback upper bound,0.0
+Selected-schedule fallback gap bound,0.0
+Components with incomplete separator decomposition (all states),3
+Incomplete separator nodes (all states),927
+MWIS producer conservative objective upper bound,30133.47299999999
+Hybrid conservative objective upper bound,6734.972
+Hybrid schedule absolute gap bound,0.0
+Hybrid schedule relative gap bound (%),0.0
+MILP incomplete components attempted,3
+MILP components proven optimal,3
+MILP components unresolved,0
+MILP solver time (seconds),0.15230340004200116
+Triangle-LP fallback solver time (seconds),0.0
+Original annealed schedule absolute gap bound,23430.657999999992
+Original annealed schedule relative gap bound (%),77.75624801031066
+Exact global objective,6734.972
+Certification,hybrid schedule matches the summed component upper bounds

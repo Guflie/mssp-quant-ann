@@ -1,0 +1,20 @@
+[
+  {
+    "run": "new_pipeline_results_reordered/exp4_s200_g50_n20_c100",
+    "nodes": 20,
+    "couplers": 100,
+    "reused": false
+  },
+  {
+    "run": "new_pipeline_results_reordered/exp1_s200_g50",
+    "nodes": 30,
+    "couplers": 200,
+    "reused": true
+  },
+  {
+    "run": "new_pipeline_results_reordered/exp4_s200_g50_n50_c350",
+    "nodes": 50,
+    "couplers": 350,
+    "reused": false
+  }
+]

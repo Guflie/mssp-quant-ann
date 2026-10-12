@@ -1,0 +1,47 @@
+{
+  "validation_passed": true,
+  "previous_run": "new_pipeline_results/exp4_s200_g50_n20_c100",
+  "run": "new_pipeline_results_reordered/exp4_s200_g50_n20_c100",
+  "previous_terminal_qubos": 27,
+  "reordered_terminal_qubos": 29,
+  "reclassified_leaves": 4,
+  "newly_sampled_terminals": 2,
+  "newly_resolved_empty_leaves": 2,
+  "changes": [
+    {
+      "node_id": "component_001_dnode_0015",
+      "variables": 0,
+      "couplers": 0,
+      "old_reason": "recursion depth exceeded"
+    },
+    {
+      "node_id": "component_001_dnode_0020",
+      "variables": 3,
+      "couplers": 3,
+      "old_reason": "recursion depth exceeded"
+    },
+    {
+      "node_id": "component_001_dnode_0022",
+      "variables": 2,
+      "couplers": 1,
+      "old_reason": "recursion depth exceeded"
+    },
+    {
+      "node_id": "component_001_dnode_0800",
+      "variables": 0,
+      "couplers": 0,
+      "old_reason": "recursion depth exceeded"
+    }
+  ],
+  "remaining_budget_blocked_fitting_leaves": [],
+  "checks": [
+    "same frozen input and conflict graph",
+    "matched settings, packages and execution method",
+    "expected source revision",
+    "unchanged tree nodes, branches and separators",
+    "only predicted leaf reclassifications",
+    "existing QUBOs unchanged",
+    "all added terminals sampled",
+    "no fitting leaves rejected by recursion budgets"
+  ]
+}

@@ -1,0 +1,158 @@
+{
+  "run_name": "new_pipeline_results_reordered/exp3_s200_g100",
+  "started_utc": "2026-10-12T14:30:11.191064+00:00",
+  "status": "completed_and_validated",
+  "python": "3.13.14 (tags/v3.13.14:fd17997, Jun 10 2026, 13:03:48) [MSC v.1944 64 bit (AMD64)]",
+  "executable": "C:\\Users\\felip\\AppData\\Local\\Python\\pythoncore-3.13-64\\python.exe",
+  "platform": "Windows-11-10.0.26300-SP0",
+  "git_commit": "8e4b57abd915f84efbc73cb98553698e35d6c030",
+  "working_tree_modified": true,
+  "config": {
+    "candidate_slot_csv": "data/experiment_inputs/exp_snapshot_2026-10-12/slots_s200_g100.csv",
+    "run_name_mwis": "new_pipeline_results_reordered/exp3_s200_g100",
+    "csp_slot_csv": "data/dataset/starlink/starlink_scheduling_slots_weighted.csv",
+    "run_name_csp": "latest_csp_run",
+    "max_qpu_terminal_nodes": 30,
+    "max_qpu_terminal_couplers": 200,
+    "max_separator_size": 3,
+    "max_separator_candidate_pool": 14,
+    "max_separator_states": 10000,
+    "max_recursion_depth": 12,
+    "max_decomposition_nodes": 10000,
+    "exact_enumeration_node_limit": 22,
+    "exact_clique_node_limit": 50,
+    "qubo_input_run": "runs/mwis/pipeline_results/new_pipeline_results_reordered/exp3_s200_g100",
+    "qubo_reward_factor": 1.0,
+    "qubo_penalty_factor": 1.0,
+    "num_reads": 500,
+    "base_seed": 42,
+    "milp_per_component_seconds": 5.0,
+    "milp_total_solver_seconds": 30.0,
+    "triangle_lp_per_component_seconds": 5.0,
+    "triangle_lp_total_solver_seconds": 30.0,
+    "qubo_output_run_name": "new_pipeline_results_reordered/exp3_s200_g100"
+  },
+  "execution_method": "IPython in-process notebook code-cell execution",
+  "startup_attempt": null,
+  "input_sha256": "a64610ae97025fd1e6049a06a39bf78d4e2495b4ee3a481bb669b951d0c3653c",
+  "packages": {
+    "numpy": "2.4.6",
+    "pandas": "3.0.3",
+    "networkx": "3.6.1",
+    "scipy": "1.18.0",
+    "dwave-samplers": "1.8.0",
+    "dimod": "0.12.22",
+    "nbclient": "0.11.0",
+    "nbformat": "5.10.4",
+    "ipykernel": "7.3.0",
+    "jupyter-client": "8.9.1"
+  },
+  "stages": [
+    {
+      "stage": "mwis",
+      "notebook": "02.A_mwis_pipeline.ipynb",
+      "status": "completed",
+      "source_sha256": "80eb31da551e6014ea4b629b967eee7fa6d333a004735c6576791e9fd3aa2f70",
+      "wall_seconds": 1330.9005951999861,
+      "cells": [
+        {
+          "executed_cell": 0,
+          "original_cell": -1,
+          "seconds": 0.03150780001305975
+        },
+        {
+          "executed_cell": 3,
+          "original_cell": 2,
+          "seconds": 1.198504799976945
+        },
+        {
+          "executed_cell": 5,
+          "original_cell": 4,
+          "seconds": 0.044951299991225824
+        },
+        {
+          "executed_cell": 7,
+          "original_cell": 6,
+          "seconds": 0.6844413999933749
+        },
+        {
+          "executed_cell": 9,
+          "original_cell": 8,
+          "seconds": 0.10256619998835959
+        },
+        {
+          "executed_cell": 11,
+          "original_cell": 10,
+          "seconds": 0.01897659999667667
+        },
+        {
+          "executed_cell": 12,
+          "original_cell": 11,
+          "seconds": 1126.6800751999835
+        },
+        {
+          "executed_cell": 14,
+          "original_cell": 13,
+          "seconds": 0.03293480002321303
+        },
+        {
+          "executed_cell": 16,
+          "original_cell": 15,
+          "seconds": 0.008916200022213161
+        },
+        {
+          "executed_cell": 17,
+          "original_cell": 16,
+          "seconds": 202.01319049997255
+        },
+        {
+          "executed_cell": 19,
+          "original_cell": 18,
+          "seconds": 0.03484010003739968
+        }
+      ]
+    },
+    {
+      "stage": "annealing",
+      "notebook": "3_qubo_annealing.ipynb",
+      "status": "completed",
+      "source_sha256": "74d0ee20f36d601ec46e4630814f2408ca77b5b1384283563f5393e67382975e",
+      "wall_seconds": 6.192061699985061,
+      "cells": [
+        {
+          "executed_cell": 0,
+          "original_cell": -1,
+          "seconds": 0.03401309996843338
+        },
+        {
+          "executed_cell": 2,
+          "original_cell": 1,
+          "seconds": 0.2814665999612771
+        },
+        {
+          "executed_cell": 4,
+          "original_cell": 3,
+          "seconds": 0.019683999998960644
+        },
+        {
+          "executed_cell": 6,
+          "original_cell": 5,
+          "seconds": 1.7049599000019953
+        },
+        {
+          "executed_cell": 8,
+          "original_cell": 7,
+          "seconds": 0.7396467999788001
+        },
+        {
+          "executed_cell": 10,
+          "original_cell": 9,
+          "seconds": 3.382650499988813
+        }
+      ]
+    }
+  ],
+  "wall_seconds": 1337.3260426999768,
+  "finished_utc": "2026-10-12T14:52:28.518588+00:00",
+  "validation_report": "validation_report.json"
+}
