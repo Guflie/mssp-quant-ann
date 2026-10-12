@@ -1,0 +1,2 @@
+component_id,nodes,edges,annealed_objective,milp_objective,final_feasible_objective,previous_upper_bound,triangle_lp_upper_bound,final_component_upper_bound,solution_source,bound_source,milp_status,milp_optimality_proved,milp_solver_seconds,triangle_lp_status,triangle_lp_seconds,improvement_vs_annealing
+component_001,4534,43373,31427.977,32960.101,32960.101,296671.993,,32960.101,MILP optimal,MILP optimality proof,Optimization terminated successfully. (HiGHS Status 7: Optimal),True,2.3651161000016145,not required or budget exhausted,0.0,1532.124

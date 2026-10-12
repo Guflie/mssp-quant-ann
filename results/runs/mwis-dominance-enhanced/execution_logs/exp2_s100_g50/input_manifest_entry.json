@@ -1,0 +1,10 @@
+{
+  "satellites": 100,
+  "gateways": 50,
+  "run": "exp2_s100_g50",
+  "reused": false,
+  "control": "exp2_s100_g50",
+  "input_sha256": "39a14509b0409487aa3754dd548c5fe4fe8e33518227da79f19474a1a4f39638",
+  "candidate_slots": 656,
+  "control_certified_optimum": 6734.972
+}

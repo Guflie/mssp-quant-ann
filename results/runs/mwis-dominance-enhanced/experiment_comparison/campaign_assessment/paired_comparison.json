@@ -1,0 +1,72 @@
+[
+  {
+    "scenario": "s100_g50",
+    "input_sha256": "39a14509b0409487aa3754dd548c5fe4fe8e33518227da79f19474a1a4f39638",
+    "equal_final_objective": true,
+    "dominance_pre_milp_gap_improvement_pp": 0.4774630094972949,
+    "dominance_runtime_ratio": 0.03222336874824251,
+    "retained_annealing_contact_change": 11,
+    "dominance_csp_final_annealed_contacts_match": true,
+    "dominance_csp_final_milp_contacts_match": true
+  },
+  {
+    "scenario": "baseline",
+    "input_sha256": "8c7f74c2e3b02e7c8158429b0fa9f21df7bbdc3445de913fdf563f8c3e560c8e",
+    "equal_final_objective": true,
+    "dominance_pre_milp_gap_improvement_pp": 2.0065493246008965,
+    "dominance_runtime_ratio": 4.108165975156468,
+    "retained_annealing_contact_change": 22,
+    "dominance_csp_final_annealed_contacts_match": true,
+    "dominance_csp_final_milp_contacts_match": true
+  },
+  {
+    "scenario": "s500_g50",
+    "input_sha256": "7ea415e1218beaf754c84aa40d4d4df6c23a768eca895ee8b97fa9fb40ea4396",
+    "equal_final_objective": true,
+    "dominance_pre_milp_gap_improvement_pp": 0.06695943414509475,
+    "dominance_runtime_ratio": 89.9666440588023,
+    "retained_annealing_contact_change": 0,
+    "dominance_csp_final_annealed_contacts_match": true,
+    "dominance_csp_final_milp_contacts_match": true
+  },
+  {
+    "scenario": "s200_g25",
+    "input_sha256": "cc54eb09691fa2375af1eecf51d4876ae051fb9e123d47276a6af30f713f7468",
+    "equal_final_objective": true,
+    "dominance_pre_milp_gap_improvement_pp": 0.7989968859353951,
+    "dominance_runtime_ratio": 0.6984470707219438,
+    "retained_annealing_contact_change": 18,
+    "dominance_csp_final_annealed_contacts_match": true,
+    "dominance_csp_final_milp_contacts_match": true
+  },
+  {
+    "scenario": "s200_g100",
+    "input_sha256": "a64610ae97025fd1e6049a06a39bf78d4e2495b4ee3a481bb669b951d0c3653c",
+    "equal_final_objective": true,
+    "dominance_pre_milp_gap_improvement_pp": 1.6889905822596383,
+    "dominance_runtime_ratio": 0.08658681939696608,
+    "retained_annealing_contact_change": 25,
+    "dominance_csp_final_annealed_contacts_match": true,
+    "dominance_csp_final_milp_contacts_match": true
+  },
+  {
+    "scenario": "n20_c100",
+    "input_sha256": "8c7f74c2e3b02e7c8158429b0fa9f21df7bbdc3445de913fdf563f8c3e560c8e",
+    "equal_final_objective": true,
+    "dominance_pre_milp_gap_improvement_pp": 2.0025990644957465,
+    "dominance_runtime_ratio": 1.839282223304169,
+    "retained_annealing_contact_change": 22,
+    "dominance_csp_final_annealed_contacts_match": true,
+    "dominance_csp_final_milp_contacts_match": true
+  },
+  {
+    "scenario": "n50_c350",
+    "input_sha256": "8c7f74c2e3b02e7c8158429b0fa9f21df7bbdc3445de913fdf563f8c3e560c8e",
+    "equal_final_objective": true,
+    "dominance_pre_milp_gap_improvement_pp": 2.011342094909573,
+    "dominance_runtime_ratio": 2.375705519449241,
+    "retained_annealing_contact_change": 22,
+    "dominance_csp_final_annealed_contacts_match": true,
+    "dominance_csp_final_milp_contacts_match": true
+  }
+]

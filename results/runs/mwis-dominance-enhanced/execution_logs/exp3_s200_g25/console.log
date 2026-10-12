@@ -1,0 +1,822 @@
+Failed to find real location of C:\Users\felip\AppData\Local\Python\pythoncore-3.13-64\python.exe
+{"utc": "2026-10-12T22:00:01.258562+00:00", "event": "stage_start", "stage": "mwis", "notebook": "02.A_mwis_pipeline_dominance_enhanced.ipynb"}
+{"utc": "2026-10-12T22:00:01.290847+00:00", "event": "cell_start", "stage": "mwis", "executed_cell": 0, "original_cell": -1, "first_line": "import sys, json, platform, importlib.metadata"}
+Out[0]: 512
+{"utc": "2026-10-12T22:00:01.322816+00:00", "event": "cell_complete", "stage": "mwis", "executed_cell": 0, "seconds": 0.032}
+{"utc": "2026-10-12T22:00:01.323808+00:00", "event": "cell_start", "stage": "mwis", "executed_cell": 3, "original_cell": 2, "first_line": "from __future__ import annotations"}
+Loaded configuration from: C:\Users\felip\Documents\Polimi\Semester 3\SE2 Quantum Satisfiability Project\satelite-optimization-quantum-annealing\PoliMi-SWE2-research-project\results\runs\mwis-dominance-enhanced\execution_logs\exp3_s200_g25\config.json
+MWIS experiment: exp3_s200_g25
+Input dataset: C:\Users\felip\Documents\Polimi\Semester 3\SE2 Quantum Satisfiability Project\satelite-optimization-quantum-annealing\PoliMi-SWE2-research-project\data\experiment_inputs\exp_snapshot_2026-10-12\slots_s200_g25.csv
+Artifacts will be saved to: C:\Users\felip\Documents\Polimi\Semester 3\SE2 Quantum Satisfiability Project\satelite-optimization-quantum-annealing\PoliMi-SWE2-research-project\results\runs\mwis-dominance-enhanced\pipeline_results\exp3_s200_g25
+{"utc": "2026-10-12T22:00:02.559502+00:00", "event": "cell_complete", "stage": "mwis", "executed_cell": 3, "seconds": 1.236}
+{"utc": "2026-10-12T22:00:02.560332+00:00", "event": "cell_start", "stage": "mwis", "executed_cell": 5, "original_cell": 4, "first_line": "REQUIRED_COLUMNS = ["}
+[MWIS timing] candidate_load_and_export: 0.03s
+{'candidate_slots': 915, 'satellites': 200, 'antennas': 25, 'source_intervals': 915}
+{"utc": "2026-10-12T22:00:02.591256+00:00", "event": "cell_complete", "stage": "mwis", "executed_cell": 5, "seconds": 0.031}
+{"utc": "2026-10-12T22:00:02.591865+00:00", "event": "cell_start", "stage": "mwis", "executed_cell": 7, "original_cell": 6, "first_line": "# ----------------------------------------------------------"}
+[MWIS timing] conflict_graph_build_and_export: 0.36s
+{'nodes': 915, 'edges_couplers': 3942, 'components': 12, 'edge_reasons': {'same-antenna reconfiguration time': 472, 'same satellite': 2894, 'same-antenna overlap': 576}}
+{"utc": "2026-10-12T22:00:02.985356+00:00", "event": "cell_complete", "stage": "mwis", "executed_cell": 7, "seconds": 0.394}
+{"utc": "2026-10-12T22:00:02.986064+00:00", "event": "cell_start", "stage": "mwis", "executed_cell": 9, "original_cell": 8, "first_line": "def reduce_same_satellite_dominance(graph: nx.Graph) -> dict[str, Any]:"}
+[MWIS timing] global_dominance_and_export: 0.05s
+{'input_nodes': 915, 'input_edges': 3942, 'input_components': 12, 'retained_nodes': 588, 'retained_edges': 1654, 'retained_components': 49, 'removed_nodes': 327, 'passes': 6, 'original_graph_nodes_file': 'original_conflict_graph_nodes.csv', 'original_graph_edges_file': 'original_conflict_graph_edges.csv', 'solver_graph_nodes_file': 'conflict_graph_nodes.csv', 'solver_graph_edges_file': 'conflict_graph_edges.csv'}
+[MWIS timing] natural_components_and_summary: 0.01s
+Out[0]: 0.013598799996543676
+{"utc": "2026-10-12T22:00:03.060535+00:00", "event": "cell_complete", "stage": "mwis", "executed_cell": 9, "seconds": 0.074}
+{"utc": "2026-10-12T22:00:03.061255+00:00", "event": "cell_start", "stage": "mwis", "executed_cell": 11, "original_cell": 10, "first_line": "def materialize_node_graph(node: dict[str, Any]) -> nx.Graph:"}
+{"utc": "2026-10-12T22:00:03.081520+00:00", "event": "cell_complete", "stage": "mwis", "executed_cell": 11, "seconds": 0.02}
+{"utc": "2026-10-12T22:00:03.082361+00:00", "event": "cell_start", "stage": "mwis", "executed_cell": 12, "original_cell": 11, "first_line": "# Decompose every natural component"}
+[MWIS timing] decomposing component_001 (1/49)
+[MWIS timing] component_001: built 100 decomposition nodes (depth 13)
+[MWIS timing] component_001: built 200 decomposition nodes (depth 10)
+[MWIS timing] component_001: built 300 decomposition nodes (depth 13)
+[MWIS timing] component_001: built 400 decomposition nodes (depth 12)
+[MWIS timing] component_001: built 500 decomposition nodes (depth 13)
+[MWIS timing] component_001: built 600 decomposition nodes (depth 10)
+{"utc": "2026-10-12T22:00:21.236325+00:00", "event": "heartbeat", "stage": "mwis", "original_cell": 11, "elapsed_seconds": 20.211, "cpu_seconds": 23.141, "resident_mb": 164.52}
+[MWIS timing] component_001: built 700 decomposition nodes (depth 12)
+[MWIS timing] component_001: built 800 decomposition nodes (depth 13)
+[MWIS timing] component_001: built 900 decomposition nodes (depth 11)
+[MWIS timing] component_001: built 1,000 decomposition nodes (depth 11)
+[MWIS timing] component_001: built 1,100 decomposition nodes (depth 13)
+[MWIS timing] component_001: built 1,200 decomposition nodes (depth 12)
+{"utc": "2026-10-12T22:00:41.272181+00:00", "event": "heartbeat", "stage": "mwis", "original_cell": 11, "elapsed_seconds": 40.247, "cpu_seconds": 42.969, "resident_mb": 189.88}
+[MWIS timing] component_001: built 1,300 decomposition nodes (depth 13)
+[MWIS timing] component_001: built 1,400 decomposition nodes (depth 10)
+[MWIS timing] component_001: built 1,500 decomposition nodes (depth 13)
+[MWIS timing] component_001: built 1,600 decomposition nodes (depth 13)
+[MWIS timing] component_001: built 1,700 decomposition nodes (depth 13)
+[MWIS timing] component_001: built 1,800 decomposition nodes (depth 12)
+[MWIS timing] component_001: built 1,900 decomposition nodes (depth 13)
+[MWIS timing] component_001: built 2,000 decomposition nodes (depth 11)
+[MWIS timing] component_001: built 2,100 decomposition nodes (depth 11)
+[MWIS timing] component_001: built 2,200 decomposition nodes (depth 8)
+{"utc": "2026-10-12T22:01:01.388560+00:00", "event": "heartbeat", "stage": "mwis", "original_cell": 11, "elapsed_seconds": 60.363, "cpu_seconds": 62.938, "resident_mb": 226.55}
+[MWIS timing] component_001: built 2,300 decomposition nodes (depth 10)
+[MWIS timing] component_001: built 2,400 decomposition nodes (depth 8)
+[MWIS timing] component_001: built 2,500 decomposition nodes (depth 11)
+[MWIS timing] component_001: built 2,600 decomposition nodes (depth 11)
+[MWIS timing] component_001: built 2,700 decomposition nodes (depth 13)
+[MWIS timing] component_001: built 2,800 decomposition nodes (depth 13)
+[MWIS timing] component_001: built 2,900 decomposition nodes (depth 13)
+[MWIS timing] component_001: built 3,000 decomposition nodes (depth 12)
+{"utc": "2026-10-12T22:01:21.496902+00:00", "event": "heartbeat", "stage": "mwis", "original_cell": 11, "elapsed_seconds": 80.472, "cpu_seconds": 82.844, "resident_mb": 257.43}
+[MWIS timing] component_001: built 3,100 decomposition nodes (depth 12)
+[MWIS timing] component_001: built 3,200 decomposition nodes (depth 13)
+[MWIS timing] component_001: built 3,300 decomposition nodes (depth 11)
+[MWIS timing] component_001: built 3,400 decomposition nodes (depth 13)
+[MWIS timing] component_001: built 3,500 decomposition nodes (depth 11)
+[MWIS timing] component_001: built 3,600 decomposition nodes (depth 13)
+[MWIS timing] component_001: built 3,700 decomposition nodes (depth 13)
+[MWIS timing] component_001: built 3,800 decomposition nodes (depth 11)
+{"utc": "2026-10-12T22:01:41.596177+00:00", "event": "heartbeat", "stage": "mwis", "original_cell": 11, "elapsed_seconds": 100.571, "cpu_seconds": 102.812, "resident_mb": 288.95}
+[MWIS timing] component_001: built 3,900 decomposition nodes (depth 12)
+[MWIS timing] component_001: built 4,000 decomposition nodes (depth 10)
+[MWIS timing] component_001: built 4,100 decomposition nodes (depth 13)
+[MWIS timing] component_001: built 4,200 decomposition nodes (depth 11)
+[MWIS timing] component_001: built 4,300 decomposition nodes (depth 12)
+[MWIS timing] component_001: built 4,400 decomposition nodes (depth 13)
+[MWIS timing] component_001: built 4,500 decomposition nodes (depth 12)
+{"utc": "2026-10-12T22:02:01.727795+00:00", "event": "heartbeat", "stage": "mwis", "original_cell": 11, "elapsed_seconds": 120.703, "cpu_seconds": 122.75, "resident_mb": 315.12}
+[MWIS timing] component_001: built 4,600 decomposition nodes (depth 11)
+[MWIS timing] component_001: built 4,700 decomposition nodes (depth 9)
+[MWIS timing] component_001: built 4,800 decomposition nodes (depth 12)
+[MWIS timing] component_001: built 4,900 decomposition nodes (depth 13)
+[MWIS timing] component_001: built 5,000 decomposition nodes (depth 11)
+[MWIS timing] component_001: built 5,100 decomposition nodes (depth 12)
+[MWIS timing] component_001: built 5,200 decomposition nodes (depth 11)
+[MWIS timing] component_001: built 5,300 decomposition nodes (depth 13)
+[MWIS timing] component_001: built 5,400 decomposition nodes (depth 12)
+{"utc": "2026-10-12T22:02:21.850925+00:00", "event": "heartbeat", "stage": "mwis", "original_cell": 11, "elapsed_seconds": 140.826, "cpu_seconds": 142.625, "resident_mb": 345.68}
+[MWIS timing] component_001: built 5,500 decomposition nodes (depth 13)
+[MWIS timing] component_001: built 5,600 decomposition nodes (depth 12)
+[MWIS timing] component_001: built 5,700 decomposition nodes (depth 13)
+[MWIS timing] component_001: built 5,800 decomposition nodes (depth 13)
+[MWIS timing] component_001: built 5,900 decomposition nodes (depth 13)
+[MWIS timing] component_001: built 6,000 decomposition nodes (depth 12)
+[MWIS timing] component_001: built 6,100 decomposition nodes (depth 13)
+[MWIS timing] component_001: built 6,200 decomposition nodes (depth 13)
+[MWIS timing] component_001: built 6,300 decomposition nodes (depth 9)
+{"utc": "2026-10-12T22:02:41.957000+00:00", "event": "heartbeat", "stage": "mwis", "original_cell": 11, "elapsed_seconds": 160.932, "cpu_seconds": 162.453, "resident_mb": 381.61}
+[MWIS timing] component_001: built 6,400 decomposition nodes (depth 9)
+[MWIS timing] component_001: built 6,500 decomposition nodes (depth 9)
+[MWIS timing] component_001: built 6,600 decomposition nodes (depth 13)
+[MWIS timing] component_001: built 6,700 decomposition nodes (depth 9)
+[MWIS timing] component_001: built 6,800 decomposition nodes (depth 9)
+[MWIS timing] component_001: built 6,900 decomposition nodes (depth 13)
+[MWIS timing] component_001: built 7,000 decomposition nodes (depth 12)
+[MWIS timing] component_decomposition: 177.22s
+[MWIS timing] decomposing component_002 (2/49)
+[MWIS timing] component_decomposition: 0.00s
+[MWIS timing] decomposing component_003 (3/49)
+[MWIS timing] component_decomposition: 0.00s
+[MWIS timing] decomposing component_004 (4/49)
+[MWIS timing] component_decomposition: 0.00s
+[MWIS timing] decomposing component_005 (5/49)
+[MWIS timing] component_decomposition: 0.00s
+[MWIS timing] decomposing component_006 (6/49)
+[MWIS timing] component_decomposition: 0.00s
+[MWIS timing] decomposing component_007 (7/49)
+[MWIS timing] component_decomposition: 0.00s
+[MWIS timing] decomposing component_008 (8/49)
+[MWIS timing] component_decomposition: 0.00s
+[MWIS timing] decomposing component_009 (9/49)
+[MWIS timing] component_decomposition: 0.00s
+[MWIS timing] decomposing component_010 (10/49)
+[MWIS timing] component_decomposition: 0.00s
+[MWIS timing] decomposing component_011 (11/49)
+[MWIS timing] component_decomposition: 0.00s
+[MWIS timing] decomposing component_012 (12/49)
+[MWIS timing] component_decomposition: 0.00s
+[MWIS timing] decomposing component_013 (13/49)
+[MWIS timing] component_decomposition: 0.00s
+[MWIS timing] decomposing component_014 (14/49)
+[MWIS timing] component_decomposition: 0.00s
+[MWIS timing] decomposing component_015 (15/49)
+[MWIS timing] component_decomposition: 0.00s
+[MWIS timing] decomposing component_016 (16/49)
+[MWIS timing] component_decomposition: 0.00s
+[MWIS timing] decomposing component_017 (17/49)
+[MWIS timing] component_decomposition: 0.00s
+[MWIS timing] decomposing component_018 (18/49)
+[MWIS timing] component_decomposition: 0.00s
+[MWIS timing] decomposing component_019 (19/49)
+[MWIS timing] component_decomposition: 0.00s
+[MWIS timing] decomposing component_020 (20/49)
+[MWIS timing] component_decomposition: 0.00s
+[MWIS timing] decomposing component_021 (21/49)
+[MWIS timing] component_decomposition: 0.00s
+[MWIS timing] decomposing component_022 (22/49)
+[MWIS timing] component_decomposition: 0.00s
+[MWIS timing] decomposing component_023 (23/49)
+[MWIS timing] component_decomposition: 0.00s
+[MWIS timing] decomposing component_024 (24/49)
+[MWIS timing] component_decomposition: 0.00s
+[MWIS timing] decomposing component_025 (25/49)
+[MWIS timing] component_decomposition: 0.00s
+[MWIS timing] decomposing component_026 (26/49)
+[MWIS timing] component_decomposition: 0.00s
+[MWIS timing] decomposing component_027 (27/49)
+[MWIS timing] component_decomposition: 0.00s
+[MWIS timing] decomposing component_028 (28/49)
+[MWIS timing] component_decomposition: 0.00s
+[MWIS timing] decomposing component_029 (29/49)
+[MWIS timing] component_decomposition: 0.00s
+[MWIS timing] decomposing component_030 (30/49)
+[MWIS timing] component_decomposition: 0.00s
+[MWIS timing] decomposing component_031 (31/49)
+[MWIS timing] component_decomposition: 0.00s
+[MWIS timing] decomposing component_032 (32/49)
+[MWIS timing] component_decomposition: 0.00s
+[MWIS timing] decomposing component_033 (33/49)
+[MWIS timing] component_decomposition: 0.00s
+[MWIS timing] decomposing component_034 (34/49)
+[MWIS timing] component_decomposition: 0.00s
+[MWIS timing] decomposing component_035 (35/49)
+[MWIS timing] component_decomposition: 0.00s
+[MWIS timing] decomposing component_036 (36/49)
+[MWIS timing] component_decomposition: 0.00s
+[MWIS timing] decomposing component_037 (37/49)
+[MWIS timing] component_decomposition: 0.00s
+[MWIS timing] decomposing component_038 (38/49)
+[MWIS timing] component_decomposition: 0.00s
+[MWIS timing] decomposing component_039 (39/49)
+[MWIS timing] component_decomposition: 0.00s
+[MWIS timing] decomposing component_040 (40/49)
+[MWIS timing] component_decomposition: 0.00s
+[MWIS timing] decomposing component_041 (41/49)
+[MWIS timing] component_decomposition: 0.00s
+[MWIS timing] decomposing component_042 (42/49)
+[MWIS timing] component_decomposition: 0.00s
+[MWIS timing] decomposing component_043 (43/49)
+[MWIS timing] component_decomposition: 0.00s
+[MWIS timing] decomposing component_044 (44/49)
+[MWIS timing] component_decomposition: 0.00s
+[MWIS timing] decomposing component_045 (45/49)
+[MWIS timing] component_decomposition: 0.00s
+[MWIS timing] decomposing component_046 (46/49)
+[MWIS timing] component_decomposition: 0.00s
+[MWIS timing] decomposing component_047 (47/49)
+[MWIS timing] component_decomposition: 0.00s
+[MWIS timing] decomposing component_048 (48/49)
+[MWIS timing] component_decomposition: 0.00s
+[MWIS timing] decomposing component_049 (49/49)
+[MWIS timing] component_decomposition: 0.00s
+{'natural_components': 49, 'complete_decompositions': 48, 'incomplete_decompositions': 1, 'terminal_subgraphs': 36, 'largest_terminal_nodes': 27, 'largest_terminal_couplers': 52, 'separator_states': 6622}
+[MWIS timing] decomposition_and_terminal_export: 177.28s
+Out[0]: 177.28133740002522
+{"utc": "2026-10-12T22:03:00.368250+00:00", "event": "cell_complete", "stage": "mwis", "executed_cell": 12, "seconds": 177.287}
+{"utc": "2026-10-12T22:03:00.368880+00:00", "event": "cell_start", "stage": "mwis", "executed_cell": 14, "original_cell": 13, "first_line": "phase_started = time.perf_counter()"}
+[MWIS timing] qubo_translation: 0.01s
+Terminal QUBOs: 36
+  qubits   max 27 (limit 30)
+  couplers max 52 (limit 200)
+Out[0]: 
+                terminal_id original_component_id  ...  penalty  penalty_margin
+0  component_001_dnode_0018         component_001  ...   91.232             1.0
+1  component_001_dnode_0050         component_001  ...   56.830             1.0
+2  component_001_dnode_0101         component_001  ...   87.780             1.0
+3  component_001_dnode_0110         component_001  ...   56.830             1.0
+4  component_001_dnode_0118         component_001  ...   87.780             1.0
+5  component_001_dnode_0119         component_001  ...   61.955             1.0
+6  component_001_dnode_0145         component_001  ...   51.034             1.0
+7  component_001_dnode_0147         component_001  ...   95.961             1.0
+8  component_001_dnode_0191         component_001  ...   95.961             1.0
+9  component_001_dnode_0195         component_001  ...   72.751             1.0
+
+[10 rows x 7 columns]
+{"utc": "2026-10-12T22:03:00.399937+00:00", "event": "cell_complete", "stage": "mwis", "executed_cell": 14, "seconds": 0.031}
+{"utc": "2026-10-12T22:03:00.400790+00:00", "event": "cell_start", "stage": "mwis", "executed_cell": 16, "original_cell": 15, "first_line": "# Total weight of a set of slots"}
+{"utc": "2026-10-12T22:03:00.408754+00:00", "event": "cell_complete", "stage": "mwis", "executed_cell": 16, "seconds": 0.008}
+{"utc": "2026-10-12T22:03:00.409453+00:00", "event": "cell_start", "stage": "mwis", "executed_cell": 17, "original_cell": 16, "first_line": "# Solve one decomposition-tree node bottom-up"}
+[MWIS profile] start component_001_dnode_0015: empty graph, 0 nodes, 0 edges
+[MWIS profile] done component_001_dnode_0015: empty graph in 0.00s
+[MWIS profile] start component_001_dnode_0017: empty graph, 0 nodes, 0 edges
+[MWIS profile] done component_001_dnode_0017: empty graph in 0.00s
+[MWIS profile] start component_001_dnode_0018: complement max-weight clique, 27 nodes, 49 edges
+[MWIS profile] done component_001_dnode_0018: complement max-weight clique in 0.01s
+[MWIS profile] start component_001_dnode_0019: empty graph, 0 nodes, 0 edges
+[MWIS profile] done component_001_dnode_0019: empty graph in 0.00s
+[MWIS profile] start component_001_dnode_0021: empty graph, 0 nodes, 0 edges
+[MWIS profile] done component_001_dnode_0021: empty graph in 0.00s
+[MWIS profile] start component_001_dnode_0022: empty graph, 0 nodes, 0 edges
+[MWIS profile] done component_001_dnode_0022: empty graph in 0.00s
+[MWIS profile] start component_001_dnode_0028: empty graph, 0 nodes, 0 edges
+[MWIS profile] done component_001_dnode_0028: empty graph in 0.00s
+[MWIS profile] start component_001_dnode_0033: empty graph, 0 nodes, 0 edges
+[MWIS profile] done component_001_dnode_0033: empty graph in 0.00s
+[MWIS profile] start component_001_dnode_0034: empty graph, 0 nodes, 0 edges
+[MWIS profile] done component_001_dnode_0034: empty graph in 0.00s
+[MWIS profile] start component_001_dnode_0035: empty graph, 0 nodes, 0 edges
+[MWIS profile] done component_001_dnode_0035: empty graph in 0.00s
+[MWIS profile] evaluated 25 nodes; latest terminal took 0.00s
+[MWIS profile] start component_001_dnode_0036: empty graph, 0 nodes, 0 edges
+[MWIS profile] done component_001_dnode_0036: empty graph in 0.00s
+[MWIS profile] start component_001_dnode_0050: exact enumeration, 4 nodes, 3 edges
+[MWIS profile] done component_001_dnode_0050: exact enumeration in 0.00s
+[MWIS profile] start component_001_dnode_0051: empty graph, 0 nodes, 0 edges
+[MWIS profile] done component_001_dnode_0051: empty graph in 0.00s
+[MWIS profile] start component_001_dnode_0052: empty graph, 0 nodes, 0 edges
+[MWIS profile] done component_001_dnode_0052: empty graph in 0.00s
+[MWIS profile] evaluated 50 nodes; latest separator took 0.01s
+[MWIS profile] start component_001_dnode_0083: empty graph, 0 nodes, 0 edges
+[MWIS profile] done component_001_dnode_0083: empty graph in 0.00s
+[MWIS profile] evaluated 75 nodes; latest terminal took 0.00s
+[MWIS profile] start component_001_dnode_0084: empty graph, 0 nodes, 0 edges
+[MWIS profile] done component_001_dnode_0084: empty graph in 0.00s
+[MWIS profile] start component_001_dnode_0101: exact enumeration, 13 nodes, 30 edges
+[MWIS profile] done component_001_dnode_0101: exact enumeration in 0.04s
+[MWIS profile] start component_001_dnode_0110: exact enumeration, 4 nodes, 3 edges
+[MWIS profile] done component_001_dnode_0110: exact enumeration in 0.00s
+[MWIS profile] evaluated 100 nodes; latest incomplete took 0.01s
+[MWIS profile] start component_001_dnode_0118: exact enumeration, 11 nodes, 23 edges
+[MWIS profile] done component_001_dnode_0118: exact enumeration in 0.01s
+[MWIS profile] start component_001_dnode_0119: exact enumeration, 5 nodes, 4 edges
+[MWIS profile] done component_001_dnode_0119: exact enumeration in 0.00s
+[MWIS profile] evaluated 125 nodes; latest separator took 0.01s
+[MWIS profile] start component_001_dnode_0145: exact enumeration, 2 nodes, 1 edges
+[MWIS profile] done component_001_dnode_0145: exact enumeration in 0.00s
+[MWIS profile] start component_001_dnode_0146: empty graph, 0 nodes, 0 edges
+[MWIS profile] done component_001_dnode_0146: empty graph in 0.00s
+[MWIS profile] start component_001_dnode_0147: exact enumeration, 10 nodes, 25 edges
+[MWIS profile] done component_001_dnode_0147: exact enumeration in 0.00s
+[MWIS profile] evaluated 150 nodes; latest separator took 0.02s
+[MWIS profile] evaluated 175 nodes; latest separator took 0.01s
+[MWIS profile] start component_001_dnode_0191: exact enumeration, 9 nodes, 20 edges
+[MWIS profile] done component_001_dnode_0191: exact enumeration in 0.00s
+[MWIS profile] start component_001_dnode_0192: empty graph, 0 nodes, 0 edges
+[MWIS profile] done component_001_dnode_0192: empty graph in 0.00s
+[MWIS profile] start component_001_dnode_0193: empty graph, 0 nodes, 0 edges
+[MWIS profile] done component_001_dnode_0193: empty graph in 0.00s
+[MWIS profile] start component_001_dnode_0194: empty graph, 0 nodes, 0 edges
+[MWIS profile] done component_001_dnode_0194: empty graph in 0.00s
+[MWIS profile] start component_001_dnode_0195: exact enumeration, 3 nodes, 2 edges
+[MWIS profile] done component_001_dnode_0195: exact enumeration in 0.00s
+[MWIS profile] evaluated 200 nodes; latest incomplete took 0.00s
+[MWIS profile] evaluated 225 nodes; latest separator took 0.01s
+[MWIS profile] evaluated 250 nodes; latest separator took 0.09s
+[MWIS profile] evaluated 275 nodes; latest separator took 0.00s
+[MWIS profile] start component_001_dnode_0302: exact enumeration, 17 nodes, 34 edges
+{"utc": "2026-10-12T22:03:01.981063+00:00", "event": "heartbeat", "stage": "mwis", "original_cell": 16, "elapsed_seconds": 180.956, "cpu_seconds": 182.312, "resident_mb": 187.84}
+[MWIS profile] done component_001_dnode_0302: exact enumeration in 0.94s
+[MWIS profile] evaluated 300 nodes; latest separator took 0.01s
+[MWIS profile] evaluated 325 nodes; latest separator took 0.01s
+[MWIS profile] evaluated 350 nodes; latest separator took 0.08s
+[MWIS profile] start component_001_dnode_0360: empty graph, 0 nodes, 0 edges
+[MWIS profile] done component_001_dnode_0360: empty graph in 0.00s
+[MWIS profile] start component_001_dnode_0361: exact enumeration, 4 nodes, 3 edges
+[MWIS profile] done component_001_dnode_0361: exact enumeration in 0.00s
+[MWIS profile] start component_001_dnode_0381: exact enumeration, 4 nodes, 3 edges
+[MWIS profile] done component_001_dnode_0381: exact enumeration in 0.00s
+[MWIS profile] evaluated 375 nodes; latest incomplete took 0.00s
+[MWIS profile] start component_001_dnode_0389: empty graph, 0 nodes, 0 edges
+[MWIS profile] done component_001_dnode_0389: empty graph in 0.00s
+[MWIS profile] evaluated 400 nodes; latest separator took 0.01s
+[MWIS profile] evaluated 425 nodes; latest incomplete took 0.01s
+[MWIS profile] evaluated 450 nodes; latest separator took 0.01s
+[MWIS profile] evaluated 475 nodes; latest separator took 0.01s
+[MWIS profile] evaluated 500 nodes; latest incomplete took 0.01s
+[MWIS profile] evaluated 525 nodes; latest separator took 0.01s
+[MWIS profile] evaluated 550 nodes; latest separator took 0.01s
+[MWIS profile] evaluated 575 nodes; latest incomplete took 0.00s
+[MWIS profile] evaluated 600 nodes; latest separator took 0.02s
+[MWIS profile] evaluated 625 nodes; latest separator took 0.05s
+[MWIS profile] evaluated 650 nodes; latest separator took 0.01s
+[MWIS profile] evaluated 675 nodes; latest separator took 0.01s
+[MWIS profile] evaluated 700 nodes; latest separator took 0.01s
+[MWIS profile] start component_001_dnode_0713: empty graph, 0 nodes, 0 edges
+[MWIS profile] done component_001_dnode_0713: empty graph in 0.00s
+[MWIS profile] start component_001_dnode_0714: empty graph, 0 nodes, 0 edges
+[MWIS profile] done component_001_dnode_0714: empty graph in 0.00s
+[MWIS profile] start component_001_dnode_0715: exact enumeration, 4 nodes, 3 edges
+[MWIS profile] done component_001_dnode_0715: exact enumeration in 0.00s
+[MWIS profile] evaluated 725 nodes; latest separator took 0.00s
+[MWIS profile] evaluated 750 nodes; latest independent_sum took 0.00s
+[MWIS profile] evaluated 775 nodes; latest separator took 0.01s
+[MWIS profile] evaluated 800 nodes; latest separator took 0.04s
+[MWIS profile] evaluated 825 nodes; latest separator took 0.03s
+[MWIS profile] evaluated 850 nodes; latest independent_sum took 0.00s
+[MWIS profile] evaluated 875 nodes; latest separator took 0.01s
+[MWIS profile] evaluated 900 nodes; latest separator took 0.02s
+[MWIS profile] evaluated 925 nodes; latest separator took 0.01s
+[MWIS profile] evaluated 950 nodes; latest incomplete took 0.01s
+[MWIS profile] evaluated 975 nodes; latest separator took 0.04s
+[MWIS profile] evaluated 1,000 nodes; latest separator took 0.03s
+[MWIS profile] evaluated 1,025 nodes; latest incomplete took 0.00s
+[MWIS profile] evaluated 1,050 nodes; latest incomplete took 0.01s
+[MWIS profile] evaluated 1,075 nodes; latest separator took 0.01s
+[MWIS profile] evaluated 1,100 nodes; latest incomplete took 0.01s
+[MWIS profile] evaluated 1,125 nodes; latest separator took 0.01s
+[MWIS profile] evaluated 1,150 nodes; latest separator took 0.03s
+[MWIS profile] evaluated 1,175 nodes; latest separator took 0.02s
+[MWIS profile] evaluated 1,200 nodes; latest separator took 0.01s
+[MWIS profile] evaluated 1,225 nodes; latest separator took 0.01s
+[MWIS profile] evaluated 1,250 nodes; latest independent_sum took 0.00s
+[MWIS profile] evaluated 1,275 nodes; latest incomplete took 0.01s
+[MWIS profile] evaluated 1,300 nodes; latest separator took 0.01s
+[MWIS profile] evaluated 1,325 nodes; latest separator took 0.09s
+[MWIS profile] evaluated 1,350 nodes; latest separator took 0.06s
+[MWIS profile] evaluated 1,375 nodes; latest separator took 0.01s
+[MWIS profile] start component_001_dnode_1391: empty graph, 0 nodes, 0 edges
+[MWIS profile] done component_001_dnode_1391: empty graph in 0.00s
+[MWIS profile] start component_001_dnode_1392: exact enumeration, 4 nodes, 3 edges
+[MWIS profile] done component_001_dnode_1392: exact enumeration in 0.00s
+[MWIS profile] evaluated 1,400 nodes; latest incomplete took 0.00s
+[MWIS profile] evaluated 1,425 nodes; latest incomplete took 0.00s
+[MWIS profile] evaluated 1,450 nodes; latest incomplete took 0.00s
+[MWIS profile] evaluated 1,475 nodes; latest incomplete took 0.00s
+[MWIS profile] evaluated 1,500 nodes; latest incomplete took 0.00s
+[MWIS profile] evaluated 1,525 nodes; latest incomplete took 0.00s
+[MWIS profile] evaluated 1,550 nodes; latest separator took 0.01s
+[MWIS profile] evaluated 1,575 nodes; latest incomplete took 0.00s
+[MWIS profile] evaluated 1,600 nodes; latest separator took 0.02s
+[MWIS profile] evaluated 1,625 nodes; latest separator took 0.02s
+[MWIS profile] evaluated 1,650 nodes; latest separator took 0.02s
+[MWIS profile] evaluated 1,675 nodes; latest incomplete took 0.00s
+[MWIS profile] evaluated 1,700 nodes; latest separator took 0.01s
+[MWIS profile] evaluated 1,725 nodes; latest separator took 0.01s
+[MWIS profile] evaluated 1,750 nodes; latest separator took 0.10s
+[MWIS profile] evaluated 1,775 nodes; latest separator took 0.01s
+[MWIS profile] evaluated 1,800 nodes; latest separator took 0.03s
+[MWIS profile] evaluated 1,825 nodes; latest separator took 0.01s
+[MWIS profile] evaluated 1,850 nodes; latest incomplete took 0.00s
+[MWIS profile] evaluated 1,875 nodes; latest separator took 0.01s
+[MWIS profile] evaluated 1,900 nodes; latest incomplete took 0.00s
+[MWIS profile] evaluated 1,925 nodes; latest independent_sum took 0.01s
+[MWIS profile] evaluated 1,950 nodes; latest incomplete took 0.00s
+[MWIS profile] evaluated 1,975 nodes; latest separator took 0.06s
+[MWIS profile] start component_001_dnode_1985: exact enumeration, 13 nodes, 14 edges
+[MWIS profile] done component_001_dnode_1985: exact enumeration in 0.06s
+[MWIS profile] start component_001_dnode_1986: exact enumeration, 10 nodes, 14 edges
+[MWIS profile] done component_001_dnode_1986: exact enumeration in 0.01s
+[MWIS profile] start component_001_dnode_1987: empty graph, 0 nodes, 0 edges
+[MWIS profile] done component_001_dnode_1987: empty graph in 0.00s
+[MWIS profile] start component_001_dnode_1988: empty graph, 0 nodes, 0 edges
+[MWIS profile] done component_001_dnode_1988: empty graph in 0.00s
+[MWIS profile] start component_001_dnode_1989: exact enumeration, 2 nodes, 1 edges
+[MWIS profile] done component_001_dnode_1989: exact enumeration in 0.00s
+[MWIS profile] start component_001_dnode_1990: exact enumeration, 2 nodes, 1 edges
+[MWIS profile] done component_001_dnode_1990: exact enumeration in 0.00s
+[MWIS profile] evaluated 2,000 nodes; latest separator took 0.01s
+[MWIS profile] evaluated 2,025 nodes; latest incomplete took 0.00s
+[MWIS profile] evaluated 2,050 nodes; latest independent_sum took 0.01s
+[MWIS profile] evaluated 2,075 nodes; latest separator took 0.01s
+[MWIS profile] evaluated 2,100 nodes; latest independent_sum took 0.00s
+[MWIS profile] evaluated 2,125 nodes; latest incomplete took 0.00s
+[MWIS profile] evaluated 2,150 nodes; latest separator took 0.01s
+[MWIS profile] evaluated 2,175 nodes; latest incomplete took 0.00s
+[MWIS profile] evaluated 2,200 nodes; latest independent_sum took 0.01s
+[MWIS profile] evaluated 2,225 nodes; latest separator took 0.01s
+[MWIS profile] evaluated 2,250 nodes; latest separator took 0.01s
+[MWIS profile] evaluated 2,275 nodes; latest separator took 0.04s
+[MWIS profile] evaluated 2,300 nodes; latest independent_sum took 0.00s
+[MWIS profile] evaluated 2,325 nodes; latest separator took 0.01s
+[MWIS profile] evaluated 2,350 nodes; latest incomplete took 0.00s
+[MWIS profile] evaluated 2,375 nodes; latest incomplete took 0.00s
+[MWIS profile] evaluated 2,400 nodes; latest incomplete took 0.00s
+[MWIS profile] evaluated 2,425 nodes; latest separator took 0.01s
+[MWIS profile] evaluated 2,450 nodes; latest incomplete took 0.00s
+[MWIS profile] evaluated 2,475 nodes; latest separator took 0.01s
+[MWIS profile] evaluated 2,500 nodes; latest incomplete took 0.00s
+[MWIS profile] evaluated 2,525 nodes; latest incomplete took 0.00s
+[MWIS profile] evaluated 2,550 nodes; latest separator took 0.01s
+[MWIS profile] evaluated 2,575 nodes; latest incomplete took 0.00s
+[MWIS profile] evaluated 2,600 nodes; latest separator took 0.01s
+[MWIS profile] evaluated 2,625 nodes; latest separator took 0.16s
+[MWIS profile] evaluated 2,650 nodes; latest incomplete took 0.00s
+[MWIS profile] evaluated 2,675 nodes; latest incomplete took 0.00s
+[MWIS profile] evaluated 2,700 nodes; latest incomplete took 0.00s
+[MWIS profile] evaluated 2,725 nodes; latest separator took 0.06s
+[MWIS profile] evaluated 2,750 nodes; latest separator took 0.03s
+[MWIS profile] start component_001_dnode_2776: complement max-weight clique, 24 nodes, 52 edges
+[MWIS profile] done component_001_dnode_2776: complement max-weight clique in 0.00s
+[MWIS profile] evaluated 2,775 nodes; latest incomplete took 0.00s
+[MWIS profile] evaluated 2,800 nodes; latest incomplete took 0.00s
+[MWIS profile] evaluated 2,825 nodes; latest separator took 0.02s
+[MWIS profile] evaluated 2,850 nodes; latest incomplete took 0.00s
+[MWIS profile] evaluated 2,875 nodes; latest independent_sum took 0.00s
+[MWIS profile] evaluated 2,900 nodes; latest incomplete took 0.00s
+[MWIS profile] evaluated 2,925 nodes; latest independent_sum took 0.00s
+[MWIS profile] evaluated 2,950 nodes; latest separator took 0.01s
+[MWIS profile] evaluated 2,975 nodes; latest separator took 0.00s
+[MWIS profile] evaluated 3,000 nodes; latest separator took 0.03s
+[MWIS profile] evaluated 3,025 nodes; latest independent_sum took 0.00s
+[MWIS profile] evaluated 3,050 nodes; latest incomplete took 0.00s
+[MWIS profile] evaluated 3,075 nodes; latest incomplete took 0.00s
+[MWIS profile] evaluated 3,100 nodes; latest independent_sum took 0.00s
+[MWIS profile] evaluated 3,125 nodes; latest incomplete took 0.00s
+[MWIS profile] evaluated 3,150 nodes; latest independent_sum took 0.00s
+[MWIS profile] evaluated 3,175 nodes; latest separator took 0.00s
+[MWIS profile] evaluated 3,200 nodes; latest separator took 0.01s
+[MWIS profile] evaluated 3,225 nodes; latest incomplete took 0.00s
+[MWIS profile] evaluated 3,250 nodes; latest separator took 0.01s
+[MWIS profile] evaluated 3,275 nodes; latest incomplete took 0.00s
+[MWIS profile] evaluated 3,300 nodes; latest independent_sum took 0.00s
+[MWIS profile] evaluated 3,325 nodes; latest separator took 0.04s
+[MWIS profile] evaluated 3,350 nodes; latest incomplete took 0.00s
+[MWIS profile] evaluated 3,375 nodes; latest incomplete took 0.01s
+[MWIS profile] evaluated 3,400 nodes; latest incomplete took 0.00s
+[MWIS profile] evaluated 3,425 nodes; latest incomplete took 0.00s
+[MWIS profile] evaluated 3,450 nodes; latest independent_sum took 0.00s
+[MWIS profile] evaluated 3,475 nodes; latest separator took 0.01s
+[MWIS profile] evaluated 3,500 nodes; latest incomplete took 0.01s
+[MWIS profile] evaluated 3,525 nodes; latest separator took 0.01s
+[MWIS profile] evaluated 3,550 nodes; latest separator took 0.03s
+[MWIS profile] start component_001_dnode_3561: exact enumeration, 22 nodes, 44 edges
+[MWIS profile] component_001_dnode_3561: checked 500,000/4,194,304 subsets in 4.0s
+[MWIS profile] component_001_dnode_3561: checked 1,000,000/4,194,304 subsets in 8.0s
+[MWIS profile] component_001_dnode_3561: checked 1,500,000/4,194,304 subsets in 12.0s
+{"utc": "2026-10-12T22:03:22.077691+00:00", "event": "heartbeat", "stage": "mwis", "original_cell": 16, "elapsed_seconds": 201.053, "cpu_seconds": 202.281, "resident_mb": 208.7}
+[MWIS profile] component_001_dnode_3561: checked 2,000,000/4,194,304 subsets in 15.7s
+[MWIS profile] component_001_dnode_3561: checked 2,500,000/4,194,304 subsets in 19.3s
+[MWIS profile] component_001_dnode_3561: checked 3,000,000/4,194,304 subsets in 23.0s
+[MWIS profile] component_001_dnode_3561: checked 3,500,000/4,194,304 subsets in 26.4s
+[MWIS profile] component_001_dnode_3561: checked 4,000,000/4,194,304 subsets in 29.7s
+[MWIS profile] done component_001_dnode_3561: exact enumeration in 30.79s
+[MWIS profile] start component_001_dnode_3562: empty graph, 0 nodes, 0 edges
+[MWIS profile] done component_001_dnode_3562: empty graph in 0.00s
+[MWIS profile] start component_001_dnode_3563: exact enumeration, 6 nodes, 6 edges
+[MWIS profile] done component_001_dnode_3563: exact enumeration in 0.00s
+[MWIS profile] evaluated 3,575 nodes; latest independent_sum took 0.00s
+[MWIS profile] evaluated 3,600 nodes; latest independent_sum took 0.00s
+[MWIS profile] evaluated 3,625 nodes; latest incomplete took 0.01s
+[MWIS profile] evaluated 3,650 nodes; latest separator took 0.02s
+[MWIS profile] evaluated 3,675 nodes; latest independent_sum took 0.01s
+[MWIS profile] evaluated 3,700 nodes; latest incomplete took 0.00s
+[MWIS profile] evaluated 3,725 nodes; latest incomplete took 0.01s
+[MWIS profile] evaluated 3,750 nodes; latest separator took 0.02s
+[MWIS profile] evaluated 3,775 nodes; latest incomplete took 0.00s
+[MWIS profile] evaluated 3,800 nodes; latest incomplete took 0.01s
+[MWIS profile] evaluated 3,825 nodes; latest independent_sum took 0.02s
+[MWIS profile] evaluated 3,850 nodes; latest independent_sum took 0.01s
+[MWIS profile] evaluated 3,875 nodes; latest incomplete took 0.00s
+[MWIS profile] evaluated 3,900 nodes; latest separator took 0.02s
+[MWIS profile] evaluated 3,925 nodes; latest incomplete took 0.01s
+[MWIS profile] evaluated 3,950 nodes; latest incomplete took 0.01s
+[MWIS profile] evaluated 3,975 nodes; latest incomplete took 0.00s
+[MWIS profile] evaluated 4,000 nodes; latest independent_sum took 0.01s
+[MWIS profile] evaluated 4,025 nodes; latest separator took 0.01s
+[MWIS profile] evaluated 4,050 nodes; latest incomplete took 0.01s
+[MWIS profile] evaluated 4,075 nodes; latest incomplete took 0.01s
+[MWIS profile] evaluated 4,100 nodes; latest independent_sum took 0.01s
+[MWIS profile] evaluated 4,125 nodes; latest separator took 0.01s
+[MWIS profile] evaluated 4,150 nodes; latest incomplete took 0.00s
+[MWIS profile] evaluated 4,175 nodes; latest separator took 0.04s
+[MWIS profile] evaluated 4,200 nodes; latest separator took 0.03s
+[MWIS profile] evaluated 4,225 nodes; latest incomplete took 0.00s
+[MWIS profile] evaluated 4,250 nodes; latest independent_sum took 0.00s
+[MWIS profile] evaluated 4,275 nodes; latest independent_sum took 0.01s
+[MWIS profile] evaluated 4,300 nodes; latest incomplete took 0.01s
+[MWIS profile] evaluated 4,325 nodes; latest separator took 0.02s
+[MWIS profile] evaluated 4,350 nodes; latest independent_sum took 0.01s
+[MWIS profile] evaluated 4,375 nodes; latest incomplete took 0.00s
+[MWIS profile] evaluated 4,400 nodes; latest incomplete took 0.00s
+[MWIS profile] evaluated 4,425 nodes; latest separator took 0.02s
+[MWIS profile] evaluated 4,450 nodes; latest incomplete took 0.00s
+[MWIS profile] evaluated 4,475 nodes; latest incomplete took 0.01s
+[MWIS profile] evaluated 4,500 nodes; latest independent_sum took 0.02s
+[MWIS profile] evaluated 4,525 nodes; latest independent_sum took 0.01s
+[MWIS profile] evaluated 4,550 nodes; latest incomplete took 0.00s
+[MWIS profile] evaluated 4,575 nodes; latest separator took 0.02s
+[MWIS profile] evaluated 4,600 nodes; latest incomplete took 0.00s
+[MWIS profile] evaluated 4,625 nodes; latest incomplete took 0.01s
+[MWIS profile] evaluated 4,650 nodes; latest incomplete took 0.00s
+[MWIS profile] evaluated 4,675 nodes; latest independent_sum took 0.01s
+[MWIS profile] evaluated 4,700 nodes; latest separator took 0.01s
+[MWIS profile] evaluated 4,725 nodes; latest incomplete took 0.00s
+[MWIS profile] evaluated 4,750 nodes; latest incomplete took 0.00s
+[MWIS profile] evaluated 4,775 nodes; latest independent_sum took 0.01s
+[MWIS profile] evaluated 4,800 nodes; latest separator took 0.01s
+[MWIS profile] evaluated 4,825 nodes; latest incomplete took 0.00s
+[MWIS profile] evaluated 4,850 nodes; latest separator took 0.04s
+[MWIS profile] evaluated 4,875 nodes; latest separator took 0.03s
+[MWIS profile] evaluated 4,900 nodes; latest incomplete took 0.00s
+[MWIS profile] evaluated 4,925 nodes; latest incomplete took 0.00s
+[MWIS profile] evaluated 4,950 nodes; latest independent_sum took 0.00s
+[MWIS profile] evaluated 4,975 nodes; latest separator took 0.01s
+[MWIS profile] evaluated 5,000 nodes; latest separator took 0.01s
+[MWIS profile] evaluated 5,025 nodes; latest separator took 0.01s
+{"utc": "2026-10-12T22:03:42.192545+00:00", "event": "heartbeat", "stage": "mwis", "original_cell": 16, "elapsed_seconds": 221.168, "cpu_seconds": 222.281, "resident_mb": 218.57}
+[MWIS profile] evaluated 5,050 nodes; latest incomplete took 0.01s
+[MWIS profile] evaluated 5,075 nodes; latest independent_sum took 0.01s
+[MWIS profile] evaluated 5,100 nodes; latest incomplete took 0.01s
+[MWIS profile] evaluated 5,125 nodes; latest separator took 0.04s
+[MWIS profile] evaluated 5,150 nodes; latest incomplete took 0.00s
+[MWIS profile] evaluated 5,175 nodes; latest separator took 0.04s
+[MWIS profile] evaluated 5,200 nodes; latest incomplete took 0.00s
+[MWIS profile] evaluated 5,225 nodes; latest separator took 0.02s
+[MWIS profile] evaluated 5,250 nodes; latest incomplete took 0.00s
+[MWIS profile] evaluated 5,275 nodes; latest separator took 0.12s
+[MWIS profile] evaluated 5,300 nodes; latest independent_sum took 0.01s
+[MWIS profile] evaluated 5,325 nodes; latest incomplete took 0.00s
+[MWIS profile] evaluated 5,350 nodes; latest separator took 0.02s
+[MWIS profile] evaluated 5,375 nodes; latest separator took 0.01s
+[MWIS profile] evaluated 5,400 nodes; latest separator took 0.03s
+[MWIS profile] evaluated 5,425 nodes; latest separator took 0.01s
+[MWIS profile] evaluated 5,450 nodes; latest separator took 0.03s
+[MWIS profile] evaluated 5,475 nodes; latest independent_sum took 0.00s
+[MWIS profile] evaluated 5,500 nodes; latest separator took 0.09s
+[MWIS profile] evaluated 5,525 nodes; latest incomplete took 0.00s
+[MWIS profile] evaluated 5,550 nodes; latest incomplete took 0.01s
+[MWIS profile] evaluated 5,575 nodes; latest incomplete took 0.01s
+[MWIS profile] evaluated 5,600 nodes; latest incomplete took 0.00s
+[MWIS profile] evaluated 5,625 nodes; latest separator took 0.03s
+[MWIS profile] evaluated 5,650 nodes; latest incomplete took 0.00s
+[MWIS profile] evaluated 5,675 nodes; latest separator took 0.01s
+[MWIS profile] evaluated 5,700 nodes; latest independent_sum took 0.01s
+[MWIS profile] evaluated 5,725 nodes; latest independent_sum took 0.00s
+[MWIS profile] evaluated 5,750 nodes; latest separator took 0.08s
+[MWIS profile] evaluated 5,775 nodes; latest separator took 0.00s
+[MWIS profile] evaluated 5,800 nodes; latest incomplete took 0.00s
+[MWIS profile] evaluated 5,825 nodes; latest separator took 0.01s
+[MWIS profile] evaluated 5,850 nodes; latest separator took 0.00s
+[MWIS profile] evaluated 5,875 nodes; latest separator took 0.01s
+[MWIS profile] evaluated 5,900 nodes; latest separator took 0.03s
+[MWIS profile] evaluated 5,925 nodes; latest incomplete took 0.00s
+[MWIS profile] evaluated 5,950 nodes; latest separator took 0.09s
+[MWIS profile] evaluated 5,975 nodes; latest incomplete took 0.00s
+[MWIS profile] evaluated 6,000 nodes; latest separator took 0.42s
+[MWIS profile] evaluated 6,025 nodes; latest incomplete took 0.00s
+[MWIS profile] evaluated 6,050 nodes; latest incomplete took 0.00s
+[MWIS profile] evaluated 6,075 nodes; latest incomplete took 0.00s
+[MWIS profile] evaluated 6,100 nodes; latest separator took 0.06s
+[MWIS profile] evaluated 6,125 nodes; latest separator took 0.03s
+[MWIS profile] evaluated 6,150 nodes; latest incomplete took 0.00s
+[MWIS profile] evaluated 6,175 nodes; latest separator took 0.00s
+[MWIS profile] evaluated 6,200 nodes; latest separator took 0.03s
+[MWIS profile] evaluated 6,225 nodes; latest incomplete took 0.00s
+[MWIS profile] evaluated 6,250 nodes; latest incomplete took 0.01s
+[MWIS profile] evaluated 6,275 nodes; latest separator took 0.02s
+[MWIS profile] evaluated 6,300 nodes; latest separator took 0.01s
+[MWIS profile] evaluated 6,325 nodes; latest separator took 0.01s
+[MWIS profile] evaluated 6,350 nodes; latest incomplete took 0.00s
+[MWIS profile] evaluated 6,375 nodes; latest separator took 0.00s
+[MWIS profile] evaluated 6,400 nodes; latest incomplete took 0.00s
+[MWIS profile] evaluated 6,425 nodes; latest separator took 0.01s
+[MWIS profile] evaluated 6,450 nodes; latest incomplete took 0.00s
+[MWIS profile] evaluated 6,475 nodes; latest separator took 0.07s
+[MWIS profile] evaluated 6,500 nodes; latest incomplete took 0.00s
+[MWIS profile] evaluated 6,525 nodes; latest incomplete took 0.00s
+[MWIS profile] evaluated 6,550 nodes; latest incomplete took 0.00s
+[MWIS profile] evaluated 6,575 nodes; latest separator took 0.01s
+[MWIS profile] evaluated 6,600 nodes; latest separator took 0.01s
+[MWIS profile] evaluated 6,625 nodes; latest incomplete took 0.01s
+[MWIS profile] evaluated 6,650 nodes; latest separator took 0.00s
+[MWIS profile] evaluated 6,675 nodes; latest separator took 0.01s
+[MWIS profile] evaluated 6,700 nodes; latest separator took 0.02s
+[MWIS profile] evaluated 6,725 nodes; latest separator took 0.01s
+[MWIS profile] evaluated 6,750 nodes; latest separator took 0.01s
+[MWIS profile] evaluated 6,775 nodes; latest incomplete took 0.00s
+[MWIS profile] evaluated 6,800 nodes; latest separator took 0.01s
+[MWIS profile] evaluated 6,825 nodes; latest separator took 0.00s
+[MWIS profile] evaluated 6,850 nodes; latest incomplete took 0.00s
+[MWIS profile] evaluated 6,875 nodes; latest independent_sum took 0.00s
+[MWIS profile] evaluated 6,900 nodes; latest incomplete took 0.00s
+[MWIS profile] evaluated 6,925 nodes; latest separator took 0.06s
+[MWIS profile] evaluated 6,950 nodes; latest independent_sum took 0.00s
+[MWIS profile] evaluated 6,975 nodes; latest separator took 0.01s
+[MWIS profile] evaluated 7,000 nodes; latest incomplete took 0.00s
+[MWIS profile] evaluated 7,025 nodes; latest separator took 0.01s
+[MWIS profile] evaluated 7,050 nodes; latest independent_sum took 0.00s
+[MWIS profile] evaluated 7,075 nodes; latest separator took 2.67s
+[MWIS profile] start component_001_dnode_7078: exact enumeration, 4 nodes, 3 edges
+[MWIS profile] done component_001_dnode_7078: exact enumeration in 0.00s
+[MWIS profile] start component_002_dnode_0001: exact enumeration, 9 nodes, 20 edges
+[MWIS profile] done component_002_dnode_0001: exact enumeration in 0.00s
+[MWIS profile] start component_003_dnode_0001: exact enumeration, 8 nodes, 7 edges
+[MWIS profile] done component_003_dnode_0001: exact enumeration in 0.00s
+[MWIS profile] start component_004_dnode_0001: exact enumeration, 6 nodes, 8 edges
+[MWIS profile] done component_004_dnode_0001: exact enumeration in 0.00s
+[MWIS profile] start component_005_dnode_0001: exact enumeration, 5 nodes, 4 edges
+[MWIS profile] done component_005_dnode_0001: exact enumeration in 0.00s
+[MWIS profile] start component_006_dnode_0001: exact enumeration, 3 nodes, 2 edges
+[MWIS profile] done component_006_dnode_0001: exact enumeration in 0.00s
+[MWIS profile] start component_007_dnode_0001: exact enumeration, 3 nodes, 2 edges
+[MWIS profile] done component_007_dnode_0001: exact enumeration in 0.00s
+[MWIS profile] start component_008_dnode_0001: exact enumeration, 3 nodes, 2 edges
+[MWIS profile] done component_008_dnode_0001: exact enumeration in 0.00s
+[MWIS profile] start component_009_dnode_0001: exact enumeration, 3 nodes, 3 edges
+[MWIS profile] done component_009_dnode_0001: exact enumeration in 0.00s
+[MWIS profile] start component_010_dnode_0001: exact enumeration, 2 nodes, 1 edges
+[MWIS profile] done component_010_dnode_0001: exact enumeration in 0.00s
+[MWIS profile] start component_011_dnode_0001: exact enumeration, 2 nodes, 1 edges
+[MWIS profile] done component_011_dnode_0001: exact enumeration in 0.00s
+[MWIS profile] start component_012_dnode_0001: exact enumeration, 2 nodes, 1 edges
+[MWIS profile] done component_012_dnode_0001: exact enumeration in 0.00s
+[MWIS profile] start component_013_dnode_0001: exact enumeration, 2 nodes, 1 edges
+[MWIS profile] done component_013_dnode_0001: exact enumeration in 0.00s
+[MWIS profile] start component_014_dnode_0001: exact enumeration, 2 nodes, 1 edges
+[MWIS profile] done component_014_dnode_0001: exact enumeration in 0.00s
+[MWIS profile] start component_015_dnode_0001: empty graph, 0 nodes, 0 edges
+[MWIS profile] done component_015_dnode_0001: empty graph in 0.00s
+[MWIS profile] start component_016_dnode_0001: empty graph, 0 nodes, 0 edges
+[MWIS profile] done component_016_dnode_0001: empty graph in 0.00s
+[MWIS profile] start component_017_dnode_0001: empty graph, 0 nodes, 0 edges
+[MWIS profile] done component_017_dnode_0001: empty graph in 0.00s
+[MWIS profile] start component_018_dnode_0001: empty graph, 0 nodes, 0 edges
+[MWIS profile] done component_018_dnode_0001: empty graph in 0.00s
+[MWIS profile] start component_019_dnode_0001: empty graph, 0 nodes, 0 edges
+[MWIS profile] done component_019_dnode_0001: empty graph in 0.00s
+[MWIS profile] start component_020_dnode_0001: empty graph, 0 nodes, 0 edges
+[MWIS profile] done component_020_dnode_0001: empty graph in 0.00s
+[MWIS profile] start component_021_dnode_0001: empty graph, 0 nodes, 0 edges
+[MWIS profile] done component_021_dnode_0001: empty graph in 0.00s
+[MWIS profile] start component_022_dnode_0001: empty graph, 0 nodes, 0 edges
+[MWIS profile] done component_022_dnode_0001: empty graph in 0.00s
+[MWIS profile] start component_023_dnode_0001: empty graph, 0 nodes, 0 edges
+[MWIS profile] done component_023_dnode_0001: empty graph in 0.00s
+[MWIS profile] evaluated 7,100 nodes; latest terminal took 0.00s
+[MWIS profile] start component_024_dnode_0001: empty graph, 0 nodes, 0 edges
+[MWIS profile] done component_024_dnode_0001: empty graph in 0.00s
+[MWIS profile] start component_025_dnode_0001: empty graph, 0 nodes, 0 edges
+[MWIS profile] done component_025_dnode_0001: empty graph in 0.00s
+[MWIS profile] start component_026_dnode_0001: empty graph, 0 nodes, 0 edges
+[MWIS profile] done component_026_dnode_0001: empty graph in 0.00s
+[MWIS profile] start component_027_dnode_0001: empty graph, 0 nodes, 0 edges
+[MWIS profile] done component_027_dnode_0001: empty graph in 0.00s
+[MWIS profile] start component_028_dnode_0001: empty graph, 0 nodes, 0 edges
+[MWIS profile] done component_028_dnode_0001: empty graph in 0.00s
+[MWIS profile] start component_029_dnode_0001: empty graph, 0 nodes, 0 edges
+[MWIS profile] done component_029_dnode_0001: empty graph in 0.00s
+[MWIS profile] start component_030_dnode_0001: empty graph, 0 nodes, 0 edges
+[MWIS profile] done component_030_dnode_0001: empty graph in 0.00s
+[MWIS profile] start component_031_dnode_0001: empty graph, 0 nodes, 0 edges
+[MWIS profile] done component_031_dnode_0001: empty graph in 0.00s
+[MWIS profile] start component_032_dnode_0001: empty graph, 0 nodes, 0 edges
+[MWIS profile] done component_032_dnode_0001: empty graph in 0.00s
+[MWIS profile] start component_033_dnode_0001: empty graph, 0 nodes, 0 edges
+[MWIS profile] done component_033_dnode_0001: empty graph in 0.00s
+[MWIS profile] start component_034_dnode_0001: empty graph, 0 nodes, 0 edges
+[MWIS profile] done component_034_dnode_0001: empty graph in 0.00s
+[MWIS profile] start component_035_dnode_0001: empty graph, 0 nodes, 0 edges
+[MWIS profile] done component_035_dnode_0001: empty graph in 0.00s
+[MWIS profile] start component_036_dnode_0001: empty graph, 0 nodes, 0 edges
+[MWIS profile] done component_036_dnode_0001: empty graph in 0.00s
+[MWIS profile] start component_037_dnode_0001: empty graph, 0 nodes, 0 edges
+[MWIS profile] done component_037_dnode_0001: empty graph in 0.00s
+[MWIS profile] start component_038_dnode_0001: empty graph, 0 nodes, 0 edges
+[MWIS profile] done component_038_dnode_0001: empty graph in 0.00s
+[MWIS profile] start component_039_dnode_0001: empty graph, 0 nodes, 0 edges
+[MWIS profile] done component_039_dnode_0001: empty graph in 0.00s
+[MWIS profile] start component_040_dnode_0001: empty graph, 0 nodes, 0 edges
+[MWIS profile] done component_040_dnode_0001: empty graph in 0.00s
+[MWIS profile] start component_041_dnode_0001: empty graph, 0 nodes, 0 edges
+[MWIS profile] done component_041_dnode_0001: empty graph in 0.00s
+[MWIS profile] start component_042_dnode_0001: empty graph, 0 nodes, 0 edges
+[MWIS profile] done component_042_dnode_0001: empty graph in 0.00s
+[MWIS profile] start component_043_dnode_0001: empty graph, 0 nodes, 0 edges
+[MWIS profile] done component_043_dnode_0001: empty graph in 0.00s
+[MWIS profile] start component_044_dnode_0001: empty graph, 0 nodes, 0 edges
+[MWIS profile] done component_044_dnode_0001: empty graph in 0.00s
+[MWIS profile] start component_045_dnode_0001: empty graph, 0 nodes, 0 edges
+[MWIS profile] done component_045_dnode_0001: empty graph in 0.00s
+[MWIS profile] start component_046_dnode_0001: empty graph, 0 nodes, 0 edges
+[MWIS profile] done component_046_dnode_0001: empty graph in 0.00s
+[MWIS profile] start component_047_dnode_0001: empty graph, 0 nodes, 0 edges
+[MWIS profile] done component_047_dnode_0001: empty graph in 0.00s
+[MWIS profile] start component_048_dnode_0001: empty graph, 0 nodes, 0 edges
+[MWIS profile] done component_048_dnode_0001: empty graph in 0.00s
+[MWIS profile] evaluated 7,125 nodes; latest terminal took 0.00s
+[MWIS profile] start component_049_dnode_0001: empty graph, 0 nodes, 0 edges
+[MWIS profile] done component_049_dnode_0001: empty graph in 0.00s
+[MWIS timing] recursive_solution_evaluation: 45.28s
+[MWIS timing] solution_reconstruction_and_exports: 1.95s
+{'run_name': 'exp3_s200_g25', 'evaluation_wall_seconds': 45.278, 'evaluation_calls': 7126, 'evaluation_completed': 7126, 'evaluation_memo_hits': 8985, 'evaluation_calls_by_type': {'separator': 3311, 'independent_sum': 982, 'incomplete': 2736, 'terminal': 97}, 'evaluation_inclusive_seconds_by_type': {'incomplete': 12.833, 'terminal': 32.008, 'separator': 263.063, 'independent_sum': 10.003}, 'terminal_solver_calls': {'empty graph': 61, 'complement max-weight clique': 2, 'exact enumeration': 34}, 'terminal_solver_seconds': {'empty graph': 0.043, 'complement max-weight clique': 0.016, 'exact enumeration': 31.88}, 'terminal_solver_max_seconds': {'empty graph': 0.002, 'complement max-weight clique': 0.013, 'exact enumeration': 30.793}, 'trace_file': 'mwis_runtime_profile_20261013_000300.jsonl'}
+{'status': 'heuristic_feasible', 'selected_contacts': 184, 'objective': 12585.514999999998, 'upper_bound': 33506.05100000001, 'relative_gap_bound_percent': 62.438083198763124, 'heuristic_subgraphs': 1}
+{"utc": "2026-10-12T22:03:47.805534+00:00", "event": "cell_complete", "stage": "mwis", "executed_cell": 17, "seconds": 47.396}
+{"utc": "2026-10-12T22:03:47.806177+00:00", "event": "cell_start", "stage": "mwis", "executed_cell": 19, "original_cell": 18, "first_line": "# Components that already fit the QPU (their root is a terminal)"}
+[MWIS timing] final_reporting_export: 0.00s
+[MWIS timing] pipeline_total_so_far: 225.26s
+MWIS experiment saved: exp3_s200_g25
+The shared annealing input matches this MWIS experiment.
+Out[0]: 
+                                               metric  ...                                            meaning
+0                            Original candidate nodes  ...                      All input candidate contacts.
+1                             Original conflict edges  ...                    All conflicts before dominance.
+2                Contacts removed by global dominance  ...           Exact removal of dominated alternatives.
+3            Contacts retained after global dominance  ...  Solver graph nodes before component preprocess...
+4                        Number of components (total)  ...        Connected components after exact dominance.
+5                          Number of couplers (total)  ...        Conflict edges in the reduced solver graph.
+6                  Total number of solution subgraphs  ...  Terminal subgraphs plus fallback nodes used in...
+7                           Subgraphs solved directly  ...  Natural components that already fit the QPU li...
+8   Subgraphs solved exactly with separator decomp...  ...  Terminal subgraphs produced from oversized com...
+9                      Subgraphs solved heuristically  ...  Fallback nodes used in the selected feasible s...
+10  Components with incomplete separator decomposi...  ...  Components with at least one unresolved separa...
+11        Incomplete decomposition nodes (all states)  ...  Unresolved decomposition nodes across all sepa...
+12                     Exact components objective sum  ...  Objective contribution from components whose d...
+13                             Exact global objective  ...  Available only when the global optimum is cert...
+14       Incomplete/heuristic components feasible sum  ...  Feasible objective from uncertified components...
+15  Incomplete/heuristic components conservative u...  ...  Conservative upper bound for uncertified compo...
+16             Total feasible objective / lower bound  ...  Objective of the reconstructed feasible schedule.
+17                     Total conservative upper bound  ...      Conservative upper bound on the true optimum.
+18                      Absolute optimality-gap bound  ...              Upper bound minus feasible objective.
+19                  Relative optimality-gap bound (%)  ...  Gap as a percentage of the conservative upper ...
+
+[20 rows x 3 columns]
+{"utc": "2026-10-12T22:03:47.835974+00:00", "event": "cell_complete", "stage": "mwis", "executed_cell": 19, "seconds": 0.03}
+{"utc": "2026-10-12T22:03:47.845005+00:00", "event": "stage_end", "stage": "mwis", "status": "completed", "seconds": 226.584}
+{"utc": "2026-10-12T22:03:47.849056+00:00", "event": "stage_start", "stage": "annealing", "notebook": "3_qubo_annealing.ipynb"}
+{"utc": "2026-10-12T22:03:47.869571+00:00", "event": "cell_start", "stage": "annealing", "executed_cell": 0, "original_cell": -1, "first_line": "import sys, json, platform, importlib.metadata"}
+Out[0]: 512
+{"utc": "2026-10-12T22:03:47.899162+00:00", "event": "cell_complete", "stage": "annealing", "executed_cell": 0, "seconds": 0.03}
+{"utc": "2026-10-12T22:03:47.899712+00:00", "event": "cell_start", "stage": "annealing", "executed_cell": 2, "original_cell": 1, "first_line": "from __future__ import annotations"}
+Loaded configuration from: C:\Users\felip\Documents\Polimi\Semester 3\SE2 Quantum Satisfiability Project\satelite-optimization-quantum-annealing\PoliMi-SWE2-research-project\results\runs\mwis-dominance-enhanced\execution_logs\exp3_s200_g25\config.json
+Producer run: C:\Users\felip\Documents\Polimi\Semester 3\SE2 Quantum Satisfiability Project\satelite-optimization-quantum-annealing\PoliMi-SWE2-research-project\results\runs\mwis-dominance-enhanced\pipeline_results\exp3_s200_g25 (mwis_pipeline, one_hot encoding)
+Artifacts will be saved to: C:\Users\felip\Documents\Polimi\Semester 3\SE2 Quantum Satisfiability Project\satelite-optimization-quantum-annealing\PoliMi-SWE2-research-project\results\runs\mwis-dominance-enhanced\qubo_annealing\exp3_s200_g25
+{'terminal_qubos': 36, 'num_reads': 500}
+{"utc": "2026-10-12T22:03:48.303404+00:00", "event": "cell_complete", "stage": "annealing", "executed_cell": 2, "seconds": 0.404}
+{"utc": "2026-10-12T22:03:48.304066+00:00", "event": "cell_start", "stage": "annealing", "executed_cell": 4, "original_cell": 3, "first_line": "def load_terminal_qubo(record: dict[str, Any]) -> dict[str, Any]:"}
+Out[0]: 
+                terminal_id original_component_id  ... slots  forced_selected
+0  component_001_dnode_0018         component_001  ...    27                0
+1  component_001_dnode_0050         component_001  ...     4                0
+2  component_001_dnode_0101         component_001  ...    13                0
+3  component_001_dnode_0110         component_001  ...     4                0
+4  component_001_dnode_0118         component_001  ...    11                0
+5  component_001_dnode_0119         component_001  ...     5                0
+6  component_001_dnode_0145         component_001  ...     2                0
+7  component_001_dnode_0147         component_001  ...    10                0
+8  component_001_dnode_0191         component_001  ...     9                0
+9  component_001_dnode_0195         component_001  ...     3                0
+
+[10 rows x 7 columns]
+{"utc": "2026-10-12T22:03:48.325832+00:00", "event": "cell_complete", "stage": "annealing", "executed_cell": 4, "seconds": 0.022}
+{"utc": "2026-10-12T22:03:48.326501+00:00", "event": "cell_start", "stage": "annealing", "executed_cell": 6, "original_cell": 5, "first_line": "def is_independent(conflicts: set[frozenset[str]], selected: set[str]) -> bool:"}
+{'annealed_terminals': 36, 'output': 'C:\\Users\\felip\\Documents\\Polimi\\Semester 3\\SE2 Quantum Satisfiability Project\\satelite-optimization-quantum-annealing\\PoliMi-SWE2-research-project\\results\\runs\\mwis-dominance-enhanced\\qubo_annealing\\exp3_s200_g25\\annealing_results.csv'}
+{"utc": "2026-10-12T22:03:51.415213+00:00", "event": "cell_complete", "stage": "annealing", "executed_cell": 6, "seconds": 3.089}
+{"utc": "2026-10-12T22:03:51.415800+00:00", "event": "cell_start", "stage": "annealing", "executed_cell": 8, "original_cell": 7, "first_line": "\"\"\"MILP fallback for separator-incomplete components.\"\"\""}
+{"utc": "2026-10-12T22:03:52.137574+00:00", "event": "cell_complete", "stage": "annealing", "executed_cell": 8, "seconds": 0.722}
+{"utc": "2026-10-12T22:03:52.138206+00:00", "event": "cell_start", "stage": "annealing", "executed_cell": 10, "original_cell": 9, "first_line": "# The reconstruction metadata (MWIS or CSP producer) is loaded in the configuration cell."}
+{'selected_contacts': 186, 'total_objective': 12895.044, 'infeasible_terminal_samples': 0, 'heuristic_fallback_nodes': 0, 'heuristic_gap_bound': 0.0, 'output': 'C:\\Users\\felip\\Documents\\Polimi\\Semester 3\\SE2 Quantum Satisfiability Project\\satelite-optimization-quantum-annealing\\PoliMi-SWE2-research-project\\results\\runs\\mwis-dominance-enhanced\\qubo_annealing\\exp3_s200_g25'}
+Out[0]: 
+                                               metric                                              value
+0                                            Producer                                      mwis_pipeline
+1                                        Producer run                                      exp3_s200_g25
+2                                              Status                                       hybrid_exact
+3                                   Selected contacts                                                186
+4                            Total feasible objective                                          12895.044
+5               Annealed terminal subgraphs available                                                 36
+6                    Annealed terminal subgraphs used                                                 13
+7               Infeasible terminal annealing samples                                                  0
+8   Fallback nodes/components used in selected sch...                                                  0
+9       Selected-schedule fallback feasible objective                                                0.0
+10             Selected-schedule fallback upper bound                                                0.0
+11               Selected-schedule fallback gap bound                                                0.0
+12  Components with incomplete separator decomposi...                                                  1
+13            Incomplete separator nodes (all states)                                               2736
+14   MWIS producer conservative objective upper bound                                          33506.051
+15          Hybrid conservative objective upper bound                                          12895.044
+16                 Hybrid schedule absolute gap bound                                                0.0
+17             Hybrid schedule relative gap bound (%)                                                0.0
+18               MILP incomplete components attempted                                                  1
+19                     MILP components proven optimal                                                  1
+20                         MILP components unresolved                                                  0
+21                         MILP solver time (seconds)                                           0.041048
+22         Triangle-LP fallback solver time (seconds)                                                0.0
+23      Original annealed schedule absolute gap bound                                          20920.536
+24  Original annealed schedule relative gap bound (%)                                          62.438083
+25                             Exact global objective                                          12895.044
+26                                      Certification  hybrid schedule matches the summed component u...
+{"utc": "2026-10-12T22:03:52.525550+00:00", "event": "cell_complete", "stage": "annealing", "executed_cell": 10, "seconds": 0.387}
+{"utc": "2026-10-12T22:03:52.530113+00:00", "event": "stage_end", "stage": "annealing", "status": "completed", "seconds": 4.679}
+{"utc": "2026-10-12T22:03:52.531248+00:00", "event": "execution_complete", "seconds": 231.505}

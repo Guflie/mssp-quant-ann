@@ -1,0 +1,13 @@
+{
+  "passed": true,
+  "readable_png_and_pdf_pairs": 26,
+  "matched_dominance_metrics": 7,
+  "unchanged_csp_records": 7,
+  "source_hashes_checked": 205,
+  "preserved_original_artifacts": 70,
+  "default_reordered_baseline_verified": true,
+  "visually_reviewed": [
+    "03_runtime_breakdown",
+    "06_final_schedule_provenance"
+  ]
+}

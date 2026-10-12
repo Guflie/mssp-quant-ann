@@ -1,0 +1,14 @@
+{
+  "status": "completed_and_validated",
+  "started_utc": "2026-10-12T21:59:57.494984+00:00",
+  "reused_baseline": "baseline_s200_g50",
+  "completed_runs": [
+    "exp3_s200_g25",
+    "exp3_s200_g100"
+  ],
+  "updated_utc": "2026-10-12T22:06:07.226339+00:00",
+  "current_run": null,
+  "preserved_artifacts_checked": 1942,
+  "wall_seconds": 368.7334597000154,
+  "report": "C:\\Users\\felip\\Documents\\Polimi\\Semester 3\\SE2 Quantum Satisfiability Project\\satelite-optimization-quantum-annealing\\PoliMi-SWE2-research-project\\results\\runs\\mwis-dominance-enhanced\\experiment_comparison\\exp3_gateway_scaling\\gateway_scaling_report.md"
+}

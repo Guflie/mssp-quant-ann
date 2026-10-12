@@ -1,0 +1,12 @@
+{
+  "satellites": 200,
+  "gateways": 50,
+  "variable_limit": 50,
+  "coupler_limit": 350,
+  "run": "exp4_s200_g50_n50_c350",
+  "reused": false,
+  "control": "exp4_s200_g50_n50_c350",
+  "input_sha256": "8c7f74c2e3b02e7c8158429b0fa9f21df7bbdc3445de913fdf563f8c3e560c8e",
+  "candidate_slots": 1228,
+  "control_certified_optimum": 12581.45
+}

@@ -1,0 +1,21 @@
+{
+  "status": "completed_and_validated",
+  "started_utc": "2026-10-12T19:43:01.091827+00:00",
+  "reused_baseline": "baseline_s200_g50",
+  "completed_runs": [
+    "exp2_s100_g50",
+    "exp2_s500_g50"
+  ],
+  "updated_utc": "2026-10-12T21:55:54.881721+00:00",
+  "current_run": null,
+  "preserved_artifacts_checked": 1843,
+  "wall_seconds": 7973.789894,
+  "report": "C:\\Users\\felip\\Documents\\Polimi\\Semester 3\\SE2 Quantum Satisfiability Project\\satelite-optimization-quantum-annealing\\PoliMi-SWE2-research-project\\results\\runs\\mwis-dominance-enhanced\\experiment_comparison\\exp2_satellite_scaling\\satellite_scaling_report.md",
+  "reporting_recovery": {
+    "reason": "Numeric CSV count 0.0 requires int(float(value))",
+    "executed_driver_preserved": true,
+    "driver_sha256": "b9f81785137ad860f7aa2a6f422b1531d0f723310362483990e1bd1aa8608fbc",
+    "recovery_script": "recover_satellite_scaling_report.py",
+    "notebooks_or_solvers_rerun": false
+  }
+}

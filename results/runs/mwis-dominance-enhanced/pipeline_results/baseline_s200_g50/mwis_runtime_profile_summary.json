@@ -1,0 +1,35 @@
+{
+  "run_name": "baseline_s200_g50",
+  "evaluation_wall_seconds": 2422.88,
+  "evaluation_calls": 5990,
+  "evaluation_completed": 5990,
+  "evaluation_memo_hits": 8769,
+  "evaluation_calls_by_type": {
+    "separator": 3002,
+    "incomplete": 1330,
+    "terminal": 1537,
+    "independent_sum": 121
+  },
+  "evaluation_inclusive_seconds_by_type": {
+    "incomplete": 1.172,
+    "terminal": 2421.429,
+    "separator": 27031.809,
+    "independent_sum": 290.158
+  },
+  "terminal_solver_calls": {
+    "empty graph": 251,
+    "exact enumeration": 780,
+    "complement max-weight clique": 506
+  },
+  "terminal_solver_seconds": {
+    "empty graph": 0.134,
+    "exact enumeration": 2418.339,
+    "complement max-weight clique": 1.868
+  },
+  "terminal_solver_max_seconds": {
+    "empty graph": 0.002,
+    "exact enumeration": 40.854,
+    "complement max-weight clique": 0.014
+  },
+  "trace_file": "mwis_runtime_profile_20261012_190803.jsonl"
+}

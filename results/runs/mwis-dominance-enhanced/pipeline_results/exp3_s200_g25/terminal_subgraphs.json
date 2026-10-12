@@ -1,0 +1,6425 @@
+[
+  {
+    "terminal_id": "component_001_dnode_0018",
+    "original_component_id": "component_001",
+    "depth": 12,
+    "node_count": 27,
+    "edge_count": 49,
+    "forced_objective": 0,
+    "forced_selected": [],
+    "terminal_reason": "fits QPU limits",
+    "graph": {
+      "nodes": [
+        {
+          "id": "SLOT_003884",
+          "source_interval_id": "VIS_008834",
+          "satellite_id": "47802",
+          "antenna_id": "ANT_GATEWAY_0004",
+          "station_id": "GATEWAY_0004",
+          "start_time": 0.4333333333333333,
+          "end_time": 0.5,
+          "duration": 0.0666666666666666,
+          "reconfiguration_time": 0.05,
+          "priority": 4.0,
+          "urgency": 5.0,
+          "weight": 81.677
+        },
+        {
+          "id": "SLOT_020695",
+          "source_interval_id": "VIS_043527",
+          "satellite_id": "44927",
+          "antenna_id": "ANT_GATEWAY_0002",
+          "station_id": "GATEWAY_0002",
+          "start_time": 2.2666666666666666,
+          "end_time": 2.333333333333333,
+          "duration": 0.0666666666666666,
+          "reconfiguration_time": 0.05,
+          "priority": 3.0,
+          "urgency": 3.0,
+          "weight": 59.3
+        },
+        {
+          "id": "SLOT_004055",
+          "source_interval_id": "VIS_009170",
+          "satellite_id": "45227",
+          "antenna_id": "ANT_GATEWAY_0013",
+          "station_id": "GATEWAY_0013",
+          "start_time": 0.45,
+          "end_time": 0.5166666666666667,
+          "duration": 0.0666666666666666,
+          "reconfiguration_time": 0.05,
+          "priority": 3.0,
+          "urgency": 5.0,
+          "weight": 68.005
+        },
+        {
+          "id": "SLOT_004499",
+          "source_interval_id": "VIS_010115",
+          "satellite_id": "45370",
+          "antenna_id": "ANT_GATEWAY_0004",
+          "station_id": "GATEWAY_0004",
+          "start_time": 0.5,
+          "end_time": 0.5666666666666667,
+          "duration": 0.0666666666666666,
+          "reconfiguration_time": 0.05,
+          "priority": 5.0,
+          "urgency": 4.0,
+          "weight": 86.629
+        },
+        {
+          "id": "SLOT_021073",
+          "source_interval_id": "VIS_044370",
+          "satellite_id": "45230",
+          "antenna_id": "ANT_GATEWAY_0002",
+          "station_id": "GATEWAY_0002",
+          "start_time": 2.316666666666667,
+          "end_time": 2.3833333333333333,
+          "duration": 0.0666666666666666,
+          "reconfiguration_time": 0.05,
+          "priority": 4.0,
+          "urgency": 3.0,
+          "weight": 70.811
+        },
+        {
+          "id": "SLOT_004683",
+          "source_interval_id": "VIS_010455",
+          "satellite_id": "45370",
+          "antenna_id": "ANT_GATEWAY_0013",
+          "station_id": "GATEWAY_0013",
+          "start_time": 0.5166666666666667,
+          "end_time": 0.5833333333333334,
+          "duration": 0.0666666666666666,
+          "reconfiguration_time": 0.05,
+          "priority": 5.0,
+          "urgency": 4.0,
+          "weight": 86.962
+        },
+        {
+          "id": "SLOT_028158",
+          "source_interval_id": "VIS_058725",
+          "satellite_id": "45695",
+          "antenna_id": "ANT_GATEWAY_0015",
+          "station_id": "GATEWAY_0015",
+          "start_time": 3.1166666666666667,
+          "end_time": 3.183333333333333,
+          "duration": 0.0666666666666666,
+          "reconfiguration_time": 0.05,
+          "priority": 5.0,
+          "urgency": 2.0,
+          "weight": 76.504
+        },
+        {
+          "id": "SLOT_020939",
+          "source_interval_id": "VIS_044097",
+          "satellite_id": "45227",
+          "antenna_id": "ANT_GATEWAY_0005",
+          "station_id": "GATEWAY_0005",
+          "start_time": 2.3,
+          "end_time": 2.3666666666666667,
+          "duration": 0.0666666666666666,
+          "reconfiguration_time": 0.05,
+          "priority": 4.0,
+          "urgency": 3.0,
+          "weight": 72.728
+        },
+        {
+          "id": "SLOT_003278",
+          "source_interval_id": "VIS_007544",
+          "satellite_id": "47802",
+          "antenna_id": "ANT_GATEWAY_0019",
+          "station_id": "GATEWAY_0019",
+          "start_time": 0.3666666666666666,
+          "end_time": 0.4333333333333333,
+          "duration": 0.0666666666666666,
+          "reconfiguration_time": 0.05,
+          "priority": 4.0,
+          "urgency": 5.0,
+          "weight": 82.683
+        },
+        {
+          "id": "SLOT_021078",
+          "source_interval_id": "VIS_044378",
+          "satellite_id": "45695",
+          "antenna_id": "ANT_GATEWAY_0005",
+          "station_id": "GATEWAY_0005",
+          "start_time": 2.316666666666667,
+          "end_time": 2.3833333333333333,
+          "duration": 0.0666666666666666,
+          "reconfiguration_time": 0.05,
+          "priority": 5.0,
+          "urgency": 3.0,
+          "weight": 81.315
+        },
+        {
+          "id": "SLOT_003107",
+          "source_interval_id": "VIS_007203",
+          "satellite_id": "45366",
+          "antenna_id": "ANT_GATEWAY_0004",
+          "station_id": "GATEWAY_0004",
+          "start_time": 0.35,
+          "end_time": 0.4166666666666667,
+          "duration": 0.0666666666666666,
+          "reconfiguration_time": 0.05,
+          "priority": 5.0,
+          "urgency": 5.0,
+          "weight": 90.124
+        },
+        {
+          "id": "SLOT_006333",
+          "source_interval_id": "VIS_013884",
+          "satellite_id": "47179",
+          "antenna_id": "ANT_GATEWAY_0002",
+          "station_id": "GATEWAY_0002",
+          "start_time": 0.7,
+          "end_time": 0.7666666666666667,
+          "duration": 0.0666666666666666,
+          "reconfiguration_time": 0.05,
+          "priority": 5.0,
+          "urgency": 4.0,
+          "weight": 88.0
+        },
+        {
+          "id": "SLOT_003895",
+          "source_interval_id": "VIS_008851",
+          "satellite_id": "47802",
+          "antenna_id": "ANT_GATEWAY_0009",
+          "station_id": "GATEWAY_0009",
+          "start_time": 0.4333333333333333,
+          "end_time": 0.5,
+          "duration": 0.0666666666666666,
+          "reconfiguration_time": 0.05,
+          "priority": 4.0,
+          "urgency": 5.0,
+          "weight": 81.328
+        },
+        {
+          "id": "SLOT_003272",
+          "source_interval_id": "VIS_007529",
+          "satellite_id": "45366",
+          "antenna_id": "ANT_GATEWAY_0013",
+          "station_id": "GATEWAY_0013",
+          "start_time": 0.3666666666666666,
+          "end_time": 0.4333333333333333,
+          "duration": 0.0666666666666666,
+          "reconfiguration_time": 0.05,
+          "priority": 5.0,
+          "urgency": 5.0,
+          "weight": 90.232
+        },
+        {
+          "id": "SLOT_031910",
+          "source_interval_id": "VIS_066618",
+          "satellite_id": "45227",
+          "antenna_id": "ANT_GATEWAY_0017",
+          "station_id": "GATEWAY_0017",
+          "start_time": 3.566666666666667,
+          "end_time": 3.633333333333333,
+          "duration": 0.0666666666666666,
+          "reconfiguration_time": 0.05,
+          "priority": 4.0,
+          "urgency": 1.0,
+          "weight": 61.027
+        },
+        {
+          "id": "SLOT_027666",
+          "source_interval_id": "VIS_057683",
+          "satellite_id": "45230",
+          "antenna_id": "ANT_GATEWAY_0015",
+          "station_id": "GATEWAY_0015",
+          "start_time": 3.05,
+          "end_time": 3.1166666666666667,
+          "duration": 0.0666666666666666,
+          "reconfiguration_time": 0.05,
+          "priority": 4.0,
+          "urgency": 2.0,
+          "weight": 66.566
+        },
+        {
+          "id": "SLOT_034327",
+          "source_interval_id": "VIS_071862",
+          "satellite_id": "45230",
+          "antenna_id": "ANT_GATEWAY_0016",
+          "station_id": "GATEWAY_0016",
+          "start_time": 3.883333333333333,
+          "end_time": 3.95,
+          "duration": 0.0666666666666666,
+          "reconfiguration_time": 0.05,
+          "priority": 4.0,
+          "urgency": 1.0,
+          "weight": 61.832
+        },
+        {
+          "id": "SLOT_006019",
+          "source_interval_id": "VIS_013235",
+          "satellite_id": "45227",
+          "antenna_id": "ANT_GATEWAY_0016",
+          "station_id": "GATEWAY_0016",
+          "start_time": 0.6666666666666666,
+          "end_time": 0.7333333333333333,
+          "duration": 0.0666666666666666,
+          "reconfiguration_time": 0.05,
+          "priority": 4.0,
+          "urgency": 4.0,
+          "weight": 75.936
+        },
+        {
+          "id": "SLOT_004354",
+          "source_interval_id": "VIS_009803",
+          "satellite_id": "45370",
+          "antenna_id": "ANT_GATEWAY_0009",
+          "station_id": "GATEWAY_0009",
+          "start_time": 0.4833333333333333,
+          "end_time": 0.55,
+          "duration": 0.0666666666666666,
+          "reconfiguration_time": 0.05,
+          "priority": 5.0,
+          "urgency": 5.0,
+          "weight": 90.103
+        },
+        {
+          "id": "SLOT_019056",
+          "source_interval_id": "VIS_040048",
+          "satellite_id": "45370",
+          "antenna_id": "ANT_GATEWAY_0023",
+          "station_id": "GATEWAY_0023",
+          "start_time": 2.066666666666667,
+          "end_time": 2.1333333333333333,
+          "duration": 0.0666666666666666,
+          "reconfiguration_time": 0.05,
+          "priority": 5.0,
+          "urgency": 3.0,
+          "weight": 82.24
+        },
+        {
+          "id": "SLOT_018243",
+          "source_interval_id": "VIS_038335",
+          "satellite_id": "45366",
+          "antenna_id": "ANT_GATEWAY_0025",
+          "station_id": "GATEWAY_0025",
+          "start_time": 1.9833333333333327,
+          "end_time": 2.05,
+          "duration": 0.0666666666666666,
+          "reconfiguration_time": 0.05,
+          "priority": 5.0,
+          "urgency": 3.0,
+          "weight": 81.77
+        },
+        {
+          "id": "SLOT_003277",
+          "source_interval_id": "VIS_007543",
+          "satellite_id": "45227",
+          "antenna_id": "ANT_GATEWAY_0019",
+          "station_id": "GATEWAY_0019",
+          "start_time": 0.3666666666666666,
+          "end_time": 0.4333333333333333,
+          "duration": 0.0666666666666666,
+          "reconfiguration_time": 0.05,
+          "priority": 3.0,
+          "urgency": 5.0,
+          "weight": 68.067
+        },
+        {
+          "id": "SLOT_005868",
+          "source_interval_id": "VIS_012897",
+          "satellite_id": "47179",
+          "antenna_id": "ANT_GATEWAY_0016",
+          "station_id": "GATEWAY_0016",
+          "start_time": 0.65,
+          "end_time": 0.7166666666666667,
+          "duration": 0.0666666666666666,
+          "reconfiguration_time": 0.05,
+          "priority": 5.0,
+          "urgency": 4.0,
+          "weight": 88.93
+        },
+        {
+          "id": "SLOT_003894",
+          "source_interval_id": "VIS_008849",
+          "satellite_id": "45227",
+          "antenna_id": "ANT_GATEWAY_0009",
+          "station_id": "GATEWAY_0009",
+          "start_time": 0.4333333333333333,
+          "end_time": 0.5,
+          "duration": 0.0666666666666666,
+          "reconfiguration_time": 0.05,
+          "priority": 3.0,
+          "urgency": 5.0,
+          "weight": 67.755
+        },
+        {
+          "id": "SLOT_013672",
+          "source_interval_id": "VIS_029005",
+          "satellite_id": "47802",
+          "antenna_id": "ANT_GATEWAY_0015",
+          "station_id": "GATEWAY_0015",
+          "start_time": 1.4833333333333334,
+          "end_time": 1.55,
+          "duration": 0.0666666666666666,
+          "reconfiguration_time": 0.05,
+          "priority": 4.0,
+          "urgency": 4.0,
+          "weight": 77.735
+        },
+        {
+          "id": "SLOT_033349",
+          "source_interval_id": "VIS_069830",
+          "satellite_id": "44941",
+          "antenna_id": "ANT_GATEWAY_0021",
+          "station_id": "GATEWAY_0021",
+          "start_time": 3.75,
+          "end_time": 3.816666666666667,
+          "duration": 0.0666666666666666,
+          "reconfiguration_time": 0.05,
+          "priority": 2.0,
+          "urgency": 1.0,
+          "weight": 38.125
+        },
+        {
+          "id": "SLOT_021631",
+          "source_interval_id": "VIS_045524",
+          "satellite_id": "44941",
+          "antenna_id": "ANT_GATEWAY_0002",
+          "station_id": "GATEWAY_0002",
+          "start_time": 2.3833333333333333,
+          "end_time": 2.45,
+          "duration": 0.0666666666666666,
+          "reconfiguration_time": 0.05,
+          "priority": 2.0,
+          "urgency": 3.0,
+          "weight": 49.057
+        }
+      ],
+      "edges": [
+        {
+          "source": "SLOT_003884",
+          "target": "SLOT_003107",
+          "reason": "same-antenna reconfiguration time",
+          "reconfiguration_time": 0.05
+        },
+        {
+          "source": "SLOT_003884",
+          "target": "SLOT_003278",
+          "reason": "same satellite",
+          "satellite_id": "47802"
+        },
+        {
+          "source": "SLOT_003884",
+          "target": "SLOT_004499",
+          "reason": "same-antenna reconfiguration time",
+          "reconfiguration_time": 0.05
+        },
+        {
+          "source": "SLOT_003884",
+          "target": "SLOT_003895",
+          "reason": "same satellite",
+          "satellite_id": "47802"
+        },
+        {
+          "source": "SLOT_003884",
+          "target": "SLOT_013672",
+          "reason": "same satellite",
+          "satellite_id": "47802"
+        },
+        {
+          "source": "SLOT_020695",
+          "target": "SLOT_021073",
+          "reason": "same-antenna overlap"
+        },
+        {
+          "source": "SLOT_004055",
+          "target": "SLOT_003272",
+          "reason": "same-antenna reconfiguration time",
+          "reconfiguration_time": 0.05
+        },
+        {
+          "source": "SLOT_004055",
+          "target": "SLOT_003277",
+          "reason": "same satellite",
+          "satellite_id": "45227"
+        },
+        {
+          "source": "SLOT_004055",
+          "target": "SLOT_003894",
+          "reason": "same satellite",
+          "satellite_id": "45227"
+        },
+        {
+          "source": "SLOT_004055",
+          "target": "SLOT_004683",
+          "reason": "same-antenna reconfiguration time",
+          "reconfiguration_time": 0.05
+        },
+        {
+          "source": "SLOT_004055",
+          "target": "SLOT_006019",
+          "reason": "same satellite",
+          "satellite_id": "45227"
+        },
+        {
+          "source": "SLOT_004055",
+          "target": "SLOT_020939",
+          "reason": "same satellite",
+          "satellite_id": "45227"
+        },
+        {
+          "source": "SLOT_004055",
+          "target": "SLOT_031910",
+          "reason": "same satellite",
+          "satellite_id": "45227"
+        },
+        {
+          "source": "SLOT_004499",
+          "target": "SLOT_004354",
+          "reason": "same satellite",
+          "satellite_id": "45370"
+        },
+        {
+          "source": "SLOT_004499",
+          "target": "SLOT_004683",
+          "reason": "same satellite",
+          "satellite_id": "45370"
+        },
+        {
+          "source": "SLOT_004499",
+          "target": "SLOT_019056",
+          "reason": "same satellite",
+          "satellite_id": "45370"
+        },
+        {
+          "source": "SLOT_021073",
+          "target": "SLOT_021631",
+          "reason": "same-antenna reconfiguration time",
+          "reconfiguration_time": 0.05
+        },
+        {
+          "source": "SLOT_021073",
+          "target": "SLOT_027666",
+          "reason": "same satellite",
+          "satellite_id": "45230"
+        },
+        {
+          "source": "SLOT_021073",
+          "target": "SLOT_034327",
+          "reason": "same satellite",
+          "satellite_id": "45230"
+        },
+        {
+          "source": "SLOT_004683",
+          "target": "SLOT_004354",
+          "reason": "same satellite",
+          "satellite_id": "45370"
+        },
+        {
+          "source": "SLOT_004683",
+          "target": "SLOT_019056",
+          "reason": "same satellite",
+          "satellite_id": "45370"
+        },
+        {
+          "source": "SLOT_028158",
+          "target": "SLOT_021078",
+          "reason": "same satellite",
+          "satellite_id": "45695"
+        },
+        {
+          "source": "SLOT_028158",
+          "target": "SLOT_027666",
+          "reason": "same-antenna reconfiguration time",
+          "reconfiguration_time": 0.05
+        },
+        {
+          "source": "SLOT_020939",
+          "target": "SLOT_003277",
+          "reason": "same satellite",
+          "satellite_id": "45227"
+        },
+        {
+          "source": "SLOT_020939",
+          "target": "SLOT_003894",
+          "reason": "same satellite",
+          "satellite_id": "45227"
+        },
+        {
+          "source": "SLOT_020939",
+          "target": "SLOT_006019",
+          "reason": "same satellite",
+          "satellite_id": "45227"
+        },
+        {
+          "source": "SLOT_020939",
+          "target": "SLOT_021078",
+          "reason": "same-antenna overlap"
+        },
+        {
+          "source": "SLOT_020939",
+          "target": "SLOT_031910",
+          "reason": "same satellite",
+          "satellite_id": "45227"
+        },
+        {
+          "source": "SLOT_003278",
+          "target": "SLOT_003277",
+          "reason": "same-antenna overlap"
+        },
+        {
+          "source": "SLOT_003278",
+          "target": "SLOT_003895",
+          "reason": "same satellite",
+          "satellite_id": "47802"
+        },
+        {
+          "source": "SLOT_003278",
+          "target": "SLOT_013672",
+          "reason": "same satellite",
+          "satellite_id": "47802"
+        },
+        {
+          "source": "SLOT_003107",
+          "target": "SLOT_003272",
+          "reason": "same satellite",
+          "satellite_id": "45366"
+        },
+        {
+          "source": "SLOT_003107",
+          "target": "SLOT_018243",
+          "reason": "same satellite",
+          "satellite_id": "45366"
+        },
+        {
+          "source": "SLOT_006333",
+          "target": "SLOT_005868",
+          "reason": "same satellite",
+          "satellite_id": "47179"
+        },
+        {
+          "source": "SLOT_003895",
+          "target": "SLOT_003894",
+          "reason": "same-antenna overlap"
+        },
+        {
+          "source": "SLOT_003895",
+          "target": "SLOT_004354",
+          "reason": "same-antenna overlap"
+        },
+        {
+          "source": "SLOT_003895",
+          "target": "SLOT_013672",
+          "reason": "same satellite",
+          "satellite_id": "47802"
+        },
+        {
+          "source": "SLOT_003272",
+          "target": "SLOT_018243",
+          "reason": "same satellite",
+          "satellite_id": "45366"
+        },
+        {
+          "source": "SLOT_031910",
+          "target": "SLOT_003277",
+          "reason": "same satellite",
+          "satellite_id": "45227"
+        },
+        {
+          "source": "SLOT_031910",
+          "target": "SLOT_003894",
+          "reason": "same satellite",
+          "satellite_id": "45227"
+        },
+        {
+          "source": "SLOT_031910",
+          "target": "SLOT_006019",
+          "reason": "same satellite",
+          "satellite_id": "45227"
+        },
+        {
+          "source": "SLOT_027666",
+          "target": "SLOT_034327",
+          "reason": "same satellite",
+          "satellite_id": "45230"
+        },
+        {
+          "source": "SLOT_006019",
+          "target": "SLOT_003277",
+          "reason": "same satellite",
+          "satellite_id": "45227"
+        },
+        {
+          "source": "SLOT_006019",
+          "target": "SLOT_003894",
+          "reason": "same satellite",
+          "satellite_id": "45227"
+        },
+        {
+          "source": "SLOT_006019",
+          "target": "SLOT_005868",
+          "reason": "same-antenna overlap"
+        },
+        {
+          "source": "SLOT_004354",
+          "target": "SLOT_003894",
+          "reason": "same-antenna overlap"
+        },
+        {
+          "source": "SLOT_004354",
+          "target": "SLOT_019056",
+          "reason": "same satellite",
+          "satellite_id": "45370"
+        },
+        {
+          "source": "SLOT_003277",
+          "target": "SLOT_003894",
+          "reason": "same satellite",
+          "satellite_id": "45227"
+        },
+        {
+          "source": "SLOT_033349",
+          "target": "SLOT_021631",
+          "reason": "same satellite",
+          "satellite_id": "44941"
+        }
+      ]
+    }
+  },
+  {
+    "terminal_id": "component_001_dnode_0050",
+    "original_component_id": "component_001",
+    "depth": 10,
+    "node_count": 4,
+    "edge_count": 3,
+    "forced_objective": 0,
+    "forced_selected": [],
+    "terminal_reason": "fits QPU limits",
+    "graph": {
+      "nodes": [
+        {
+          "id": "SLOT_011391",
+          "source_interval_id": "VIS_024391",
+          "satellite_id": "47823",
+          "antenna_id": "ANT_GATEWAY_0009",
+          "station_id": "GATEWAY_0009",
+          "start_time": 1.25,
+          "end_time": 1.3166666666666669,
+          "duration": 0.0666666666666666,
+          "reconfiguration_time": 0.05,
+          "priority": 2.0,
+          "urgency": 4.0,
+          "weight": 51.684
+        },
+        {
+          "id": "SLOT_010890",
+          "source_interval_id": "VIS_023423",
+          "satellite_id": "45071",
+          "antenna_id": "ANT_GATEWAY_0023",
+          "station_id": "GATEWAY_0023",
+          "start_time": 1.2,
+          "end_time": 1.2666666666666666,
+          "duration": 0.0666666666666666,
+          "reconfiguration_time": 0.05,
+          "priority": 2.0,
+          "urgency": 4.0,
+          "weight": 52.186
+        },
+        {
+          "id": "SLOT_024942",
+          "source_interval_id": "VIS_052366",
+          "satellite_id": "45071",
+          "antenna_id": "ANT_GATEWAY_0010",
+          "station_id": "GATEWAY_0010",
+          "start_time": 2.7666666666666666,
+          "end_time": 2.833333333333333,
+          "duration": 0.0666666666666666,
+          "reconfiguration_time": 0.05,
+          "priority": 3.0,
+          "urgency": 2.0,
+          "weight": 54.808
+        },
+        {
+          "id": "SLOT_025115",
+          "source_interval_id": "VIS_052675",
+          "satellite_id": "47823",
+          "antenna_id": "ANT_GATEWAY_0010",
+          "station_id": "GATEWAY_0010",
+          "start_time": 2.783333333333333,
+          "end_time": 2.85,
+          "duration": 0.0666666666666666,
+          "reconfiguration_time": 0.05,
+          "priority": 3.0,
+          "urgency": 2.0,
+          "weight": 55.83
+        }
+      ],
+      "edges": [
+        {
+          "source": "SLOT_011391",
+          "target": "SLOT_025115",
+          "reason": "same satellite",
+          "satellite_id": "47823"
+        },
+        {
+          "source": "SLOT_010890",
+          "target": "SLOT_024942",
+          "reason": "same satellite",
+          "satellite_id": "45071"
+        },
+        {
+          "source": "SLOT_024942",
+          "target": "SLOT_025115",
+          "reason": "same-antenna overlap"
+        }
+      ]
+    }
+  },
+  {
+    "terminal_id": "component_001_dnode_0101",
+    "original_component_id": "component_001",
+    "depth": 10,
+    "node_count": 13,
+    "edge_count": 30,
+    "forced_objective": 0,
+    "forced_selected": [],
+    "terminal_reason": "fits QPU limits",
+    "graph": {
+      "nodes": [
+        {
+          "id": "SLOT_026117",
+          "source_interval_id": "VIS_054592",
+          "satellite_id": "47773",
+          "antenna_id": "ANT_GATEWAY_0022",
+          "station_id": "GATEWAY_0022",
+          "start_time": 2.8833333333333333,
+          "end_time": 2.95,
+          "duration": 0.0666666666666666,
+          "reconfiguration_time": 0.05,
+          "priority": 4.0,
+          "urgency": 2.0,
+          "weight": 63.432
+        },
+        {
+          "id": "SLOT_011795",
+          "source_interval_id": "VIS_025179",
+          "satellite_id": "45754",
+          "antenna_id": "ANT_GATEWAY_0022",
+          "station_id": "GATEWAY_0022",
+          "start_time": 1.2833333333333334,
+          "end_time": 1.35,
+          "duration": 0.0666666666666666,
+          "reconfiguration_time": 0.05,
+          "priority": 1.0,
+          "urgency": 4.0,
+          "weight": 40.554
+        },
+        {
+          "id": "SLOT_011393",
+          "source_interval_id": "VIS_024397",
+          "satellite_id": "47773",
+          "antenna_id": "ANT_GATEWAY_0011",
+          "station_id": "GATEWAY_0011",
+          "start_time": 1.25,
+          "end_time": 1.3166666666666669,
+          "duration": 0.0666666666666666,
+          "reconfiguration_time": 0.05,
+          "priority": 4.0,
+          "urgency": 4.0,
+          "weight": 75.087
+        },
+        {
+          "id": "SLOT_027957",
+          "source_interval_id": "VIS_058258",
+          "satellite_id": "45754",
+          "antenna_id": "ANT_GATEWAY_0021",
+          "station_id": "GATEWAY_0021",
+          "start_time": 3.083333333333333,
+          "end_time": 3.15,
+          "duration": 0.0666666666666666,
+          "reconfiguration_time": 0.05,
+          "priority": 1.0,
+          "urgency": 2.0,
+          "weight": 31.299
+        },
+        {
+          "id": "SLOT_026296",
+          "source_interval_id": "VIS_054934",
+          "satellite_id": "45087",
+          "antenna_id": "ANT_GATEWAY_0022",
+          "station_id": "GATEWAY_0022",
+          "start_time": 2.9,
+          "end_time": 2.966666666666667,
+          "duration": 0.0666666666666666,
+          "reconfiguration_time": 0.05,
+          "priority": 5.0,
+          "urgency": 2.0,
+          "weight": 78.75
+        },
+        {
+          "id": "SLOT_011785",
+          "source_interval_id": "VIS_025153",
+          "satellite_id": "45754",
+          "antenna_id": "ANT_GATEWAY_0011",
+          "station_id": "GATEWAY_0011",
+          "start_time": 1.2833333333333334,
+          "end_time": 1.35,
+          "duration": 0.0666666666666666,
+          "reconfiguration_time": 0.05,
+          "priority": 2.0,
+          "urgency": 4.0,
+          "weight": 54.584
+        },
+        {
+          "id": "SLOT_027543",
+          "source_interval_id": "VIS_057431",
+          "satellite_id": "47773",
+          "antenna_id": "ANT_GATEWAY_0021",
+          "station_id": "GATEWAY_0021",
+          "start_time": 3.033333333333333,
+          "end_time": 3.1,
+          "duration": 0.0666666666666666,
+          "reconfiguration_time": 0.05,
+          "priority": 5.0,
+          "urgency": 2.0,
+          "weight": 77.168
+        },
+        {
+          "id": "SLOT_011410",
+          "source_interval_id": "VIS_024434",
+          "satellite_id": "47773",
+          "antenna_id": "ANT_GATEWAY_0022",
+          "station_id": "GATEWAY_0022",
+          "start_time": 1.25,
+          "end_time": 1.3166666666666669,
+          "duration": 0.0666666666666666,
+          "reconfiguration_time": 0.05,
+          "priority": 5.0,
+          "urgency": 4.0,
+          "weight": 86.78
+        },
+        {
+          "id": "SLOT_028157",
+          "source_interval_id": "VIS_058723",
+          "satellite_id": "47780",
+          "antenna_id": "ANT_GATEWAY_0013",
+          "station_id": "GATEWAY_0013",
+          "start_time": 3.1166666666666667,
+          "end_time": 3.183333333333333,
+          "duration": 0.0666666666666666,
+          "reconfiguration_time": 0.05,
+          "priority": 2.0,
+          "urgency": 2.0,
+          "weight": 43.051
+        },
+        {
+          "id": "SLOT_011218",
+          "source_interval_id": "VIS_024073",
+          "satellite_id": "47773",
+          "antenna_id": "ANT_GATEWAY_0017",
+          "station_id": "GATEWAY_0017",
+          "start_time": 1.2333333333333334,
+          "end_time": 1.3,
+          "duration": 0.0666666666666666,
+          "reconfiguration_time": 0.05,
+          "priority": 4.0,
+          "urgency": 4.0,
+          "weight": 74.438
+        },
+        {
+          "id": "SLOT_012334",
+          "source_interval_id": "VIS_026226",
+          "satellite_id": "47780",
+          "antenna_id": "ANT_GATEWAY_0022",
+          "station_id": "GATEWAY_0022",
+          "start_time": 1.3333333333333333,
+          "end_time": 1.4,
+          "duration": 0.0666666666666666,
+          "reconfiguration_time": 0.05,
+          "priority": 2.0,
+          "urgency": 4.0,
+          "weight": 53.012
+        },
+        {
+          "id": "SLOT_011599",
+          "source_interval_id": "VIS_024804",
+          "satellite_id": "45754",
+          "antenna_id": "ANT_GATEWAY_0017",
+          "station_id": "GATEWAY_0017",
+          "start_time": 1.2666666666666666,
+          "end_time": 1.3333333333333333,
+          "duration": 0.0666666666666666,
+          "reconfiguration_time": 0.05,
+          "priority": 2.0,
+          "urgency": 4.0,
+          "weight": 54.632
+        },
+        {
+          "id": "SLOT_026677",
+          "source_interval_id": "VIS_055647",
+          "satellite_id": "45754",
+          "antenna_id": "ANT_GATEWAY_0022",
+          "station_id": "GATEWAY_0022",
+          "start_time": 2.933333333333333,
+          "end_time": 3.0,
+          "duration": 0.0666666666666666,
+          "reconfiguration_time": 0.05,
+          "priority": 1.0,
+          "urgency": 2.0,
+          "weight": 30.827
+        }
+      ],
+      "edges": [
+        {
+          "source": "SLOT_026117",
+          "target": "SLOT_011218",
+          "reason": "same satellite",
+          "satellite_id": "47773"
+        },
+        {
+          "source": "SLOT_026117",
+          "target": "SLOT_011393",
+          "reason": "same satellite",
+          "satellite_id": "47773"
+        },
+        {
+          "source": "SLOT_026117",
+          "target": "SLOT_011410",
+          "reason": "same satellite",
+          "satellite_id": "47773"
+        },
+        {
+          "source": "SLOT_026117",
+          "target": "SLOT_026296",
+          "reason": "same-antenna overlap"
+        },
+        {
+          "source": "SLOT_026117",
+          "target": "SLOT_026677",
+          "reason": "same-antenna overlap"
+        },
+        {
+          "source": "SLOT_026117",
+          "target": "SLOT_027543",
+          "reason": "same satellite",
+          "satellite_id": "47773"
+        },
+        {
+          "source": "SLOT_011795",
+          "target": "SLOT_011410",
+          "reason": "same-antenna overlap"
+        },
+        {
+          "source": "SLOT_011795",
+          "target": "SLOT_011599",
+          "reason": "same satellite",
+          "satellite_id": "45754"
+        },
+        {
+          "source": "SLOT_011795",
+          "target": "SLOT_011785",
+          "reason": "same satellite",
+          "satellite_id": "45754"
+        },
+        {
+          "source": "SLOT_011795",
+          "target": "SLOT_012334",
+          "reason": "same-antenna overlap"
+        },
+        {
+          "source": "SLOT_011795",
+          "target": "SLOT_026677",
+          "reason": "same satellite",
+          "satellite_id": "45754"
+        },
+        {
+          "source": "SLOT_011795",
+          "target": "SLOT_027957",
+          "reason": "same satellite",
+          "satellite_id": "45754"
+        },
+        {
+          "source": "SLOT_011393",
+          "target": "SLOT_011218",
+          "reason": "same satellite",
+          "satellite_id": "47773"
+        },
+        {
+          "source": "SLOT_011393",
+          "target": "SLOT_011785",
+          "reason": "same-antenna overlap"
+        },
+        {
+          "source": "SLOT_011393",
+          "target": "SLOT_011410",
+          "reason": "same satellite",
+          "satellite_id": "47773"
+        },
+        {
+          "source": "SLOT_011393",
+          "target": "SLOT_027543",
+          "reason": "same satellite",
+          "satellite_id": "47773"
+        },
+        {
+          "source": "SLOT_027957",
+          "target": "SLOT_011599",
+          "reason": "same satellite",
+          "satellite_id": "45754"
+        },
+        {
+          "source": "SLOT_027957",
+          "target": "SLOT_011785",
+          "reason": "same satellite",
+          "satellite_id": "45754"
+        },
+        {
+          "source": "SLOT_027957",
+          "target": "SLOT_026677",
+          "reason": "same satellite",
+          "satellite_id": "45754"
+        },
+        {
+          "source": "SLOT_027957",
+          "target": "SLOT_027543",
+          "reason": "same-antenna overlap"
+        },
+        {
+          "source": "SLOT_026296",
+          "target": "SLOT_026677",
+          "reason": "same-antenna overlap"
+        },
+        {
+          "source": "SLOT_011785",
+          "target": "SLOT_011599",
+          "reason": "same satellite",
+          "satellite_id": "45754"
+        },
+        {
+          "source": "SLOT_011785",
+          "target": "SLOT_026677",
+          "reason": "same satellite",
+          "satellite_id": "45754"
+        },
+        {
+          "source": "SLOT_027543",
+          "target": "SLOT_011218",
+          "reason": "same satellite",
+          "satellite_id": "47773"
+        },
+        {
+          "source": "SLOT_027543",
+          "target": "SLOT_011410",
+          "reason": "same satellite",
+          "satellite_id": "47773"
+        },
+        {
+          "source": "SLOT_011410",
+          "target": "SLOT_011218",
+          "reason": "same satellite",
+          "satellite_id": "47773"
+        },
+        {
+          "source": "SLOT_011410",
+          "target": "SLOT_012334",
+          "reason": "same-antenna reconfiguration time",
+          "reconfiguration_time": 0.05
+        },
+        {
+          "source": "SLOT_028157",
+          "target": "SLOT_012334",
+          "reason": "same satellite",
+          "satellite_id": "47780"
+        },
+        {
+          "source": "SLOT_011218",
+          "target": "SLOT_011599",
+          "reason": "same-antenna overlap"
+        },
+        {
+          "source": "SLOT_011599",
+          "target": "SLOT_026677",
+          "reason": "same satellite",
+          "satellite_id": "45754"
+        }
+      ]
+    }
+  },
+  {
+    "terminal_id": "component_001_dnode_0110",
+    "original_component_id": "component_001",
+    "depth": 12,
+    "node_count": 4,
+    "edge_count": 3,
+    "forced_objective": 0,
+    "forced_selected": [],
+    "terminal_reason": "fits QPU limits",
+    "graph": {
+      "nodes": [
+        {
+          "id": "SLOT_011391",
+          "source_interval_id": "VIS_024391",
+          "satellite_id": "47823",
+          "antenna_id": "ANT_GATEWAY_0009",
+          "station_id": "GATEWAY_0009",
+          "start_time": 1.25,
+          "end_time": 1.3166666666666669,
+          "duration": 0.0666666666666666,
+          "reconfiguration_time": 0.05,
+          "priority": 2.0,
+          "urgency": 4.0,
+          "weight": 51.684
+        },
+        {
+          "id": "SLOT_010890",
+          "source_interval_id": "VIS_023423",
+          "satellite_id": "45071",
+          "antenna_id": "ANT_GATEWAY_0023",
+          "station_id": "GATEWAY_0023",
+          "start_time": 1.2,
+          "end_time": 1.2666666666666666,
+          "duration": 0.0666666666666666,
+          "reconfiguration_time": 0.05,
+          "priority": 2.0,
+          "urgency": 4.0,
+          "weight": 52.186
+        },
+        {
+          "id": "SLOT_024942",
+          "source_interval_id": "VIS_052366",
+          "satellite_id": "45071",
+          "antenna_id": "ANT_GATEWAY_0010",
+          "station_id": "GATEWAY_0010",
+          "start_time": 2.7666666666666666,
+          "end_time": 2.833333333333333,
+          "duration": 0.0666666666666666,
+          "reconfiguration_time": 0.05,
+          "priority": 3.0,
+          "urgency": 2.0,
+          "weight": 54.808
+        },
+        {
+          "id": "SLOT_025115",
+          "source_interval_id": "VIS_052675",
+          "satellite_id": "47823",
+          "antenna_id": "ANT_GATEWAY_0010",
+          "station_id": "GATEWAY_0010",
+          "start_time": 2.783333333333333,
+          "end_time": 2.85,
+          "duration": 0.0666666666666666,
+          "reconfiguration_time": 0.05,
+          "priority": 3.0,
+          "urgency": 2.0,
+          "weight": 55.83
+        }
+      ],
+      "edges": [
+        {
+          "source": "SLOT_011391",
+          "target": "SLOT_025115",
+          "reason": "same satellite",
+          "satellite_id": "47823"
+        },
+        {
+          "source": "SLOT_010890",
+          "target": "SLOT_024942",
+          "reason": "same satellite",
+          "satellite_id": "45071"
+        },
+        {
+          "source": "SLOT_024942",
+          "target": "SLOT_025115",
+          "reason": "same-antenna overlap"
+        }
+      ]
+    }
+  },
+  {
+    "terminal_id": "component_001_dnode_0118",
+    "original_component_id": "component_001",
+    "depth": 10,
+    "node_count": 11,
+    "edge_count": 23,
+    "forced_objective": 0,
+    "forced_selected": [],
+    "terminal_reason": "fits QPU limits",
+    "graph": {
+      "nodes": [
+        {
+          "id": "SLOT_011795",
+          "source_interval_id": "VIS_025179",
+          "satellite_id": "45754",
+          "antenna_id": "ANT_GATEWAY_0022",
+          "station_id": "GATEWAY_0022",
+          "start_time": 1.2833333333333334,
+          "end_time": 1.35,
+          "duration": 0.0666666666666666,
+          "reconfiguration_time": 0.05,
+          "priority": 1.0,
+          "urgency": 4.0,
+          "weight": 40.554
+        },
+        {
+          "id": "SLOT_011393",
+          "source_interval_id": "VIS_024397",
+          "satellite_id": "47773",
+          "antenna_id": "ANT_GATEWAY_0011",
+          "station_id": "GATEWAY_0011",
+          "start_time": 1.25,
+          "end_time": 1.3166666666666669,
+          "duration": 0.0666666666666666,
+          "reconfiguration_time": 0.05,
+          "priority": 4.0,
+          "urgency": 4.0,
+          "weight": 75.087
+        },
+        {
+          "id": "SLOT_027957",
+          "source_interval_id": "VIS_058258",
+          "satellite_id": "45754",
+          "antenna_id": "ANT_GATEWAY_0021",
+          "station_id": "GATEWAY_0021",
+          "start_time": 3.083333333333333,
+          "end_time": 3.15,
+          "duration": 0.0666666666666666,
+          "reconfiguration_time": 0.05,
+          "priority": 1.0,
+          "urgency": 2.0,
+          "weight": 31.299
+        },
+        {
+          "id": "SLOT_011785",
+          "source_interval_id": "VIS_025153",
+          "satellite_id": "45754",
+          "antenna_id": "ANT_GATEWAY_0011",
+          "station_id": "GATEWAY_0011",
+          "start_time": 1.2833333333333334,
+          "end_time": 1.35,
+          "duration": 0.0666666666666666,
+          "reconfiguration_time": 0.05,
+          "priority": 2.0,
+          "urgency": 4.0,
+          "weight": 54.584
+        },
+        {
+          "id": "SLOT_027543",
+          "source_interval_id": "VIS_057431",
+          "satellite_id": "47773",
+          "antenna_id": "ANT_GATEWAY_0021",
+          "station_id": "GATEWAY_0021",
+          "start_time": 3.033333333333333,
+          "end_time": 3.1,
+          "duration": 0.0666666666666666,
+          "reconfiguration_time": 0.05,
+          "priority": 5.0,
+          "urgency": 2.0,
+          "weight": 77.168
+        },
+        {
+          "id": "SLOT_011410",
+          "source_interval_id": "VIS_024434",
+          "satellite_id": "47773",
+          "antenna_id": "ANT_GATEWAY_0022",
+          "station_id": "GATEWAY_0022",
+          "start_time": 1.25,
+          "end_time": 1.3166666666666669,
+          "duration": 0.0666666666666666,
+          "reconfiguration_time": 0.05,
+          "priority": 5.0,
+          "urgency": 4.0,
+          "weight": 86.78
+        },
+        {
+          "id": "SLOT_028157",
+          "source_interval_id": "VIS_058723",
+          "satellite_id": "47780",
+          "antenna_id": "ANT_GATEWAY_0013",
+          "station_id": "GATEWAY_0013",
+          "start_time": 3.1166666666666667,
+          "end_time": 3.183333333333333,
+          "duration": 0.0666666666666666,
+          "reconfiguration_time": 0.05,
+          "priority": 2.0,
+          "urgency": 2.0,
+          "weight": 43.051
+        },
+        {
+          "id": "SLOT_011218",
+          "source_interval_id": "VIS_024073",
+          "satellite_id": "47773",
+          "antenna_id": "ANT_GATEWAY_0017",
+          "station_id": "GATEWAY_0017",
+          "start_time": 1.2333333333333334,
+          "end_time": 1.3,
+          "duration": 0.0666666666666666,
+          "reconfiguration_time": 0.05,
+          "priority": 4.0,
+          "urgency": 4.0,
+          "weight": 74.438
+        },
+        {
+          "id": "SLOT_012334",
+          "source_interval_id": "VIS_026226",
+          "satellite_id": "47780",
+          "antenna_id": "ANT_GATEWAY_0022",
+          "station_id": "GATEWAY_0022",
+          "start_time": 1.3333333333333333,
+          "end_time": 1.4,
+          "duration": 0.0666666666666666,
+          "reconfiguration_time": 0.05,
+          "priority": 2.0,
+          "urgency": 4.0,
+          "weight": 53.012
+        },
+        {
+          "id": "SLOT_011599",
+          "source_interval_id": "VIS_024804",
+          "satellite_id": "45754",
+          "antenna_id": "ANT_GATEWAY_0017",
+          "station_id": "GATEWAY_0017",
+          "start_time": 1.2666666666666666,
+          "end_time": 1.3333333333333333,
+          "duration": 0.0666666666666666,
+          "reconfiguration_time": 0.05,
+          "priority": 2.0,
+          "urgency": 4.0,
+          "weight": 54.632
+        },
+        {
+          "id": "SLOT_026677",
+          "source_interval_id": "VIS_055647",
+          "satellite_id": "45754",
+          "antenna_id": "ANT_GATEWAY_0022",
+          "station_id": "GATEWAY_0022",
+          "start_time": 2.933333333333333,
+          "end_time": 3.0,
+          "duration": 0.0666666666666666,
+          "reconfiguration_time": 0.05,
+          "priority": 1.0,
+          "urgency": 2.0,
+          "weight": 30.827
+        }
+      ],
+      "edges": [
+        {
+          "source": "SLOT_011795",
+          "target": "SLOT_011410",
+          "reason": "same-antenna overlap"
+        },
+        {
+          "source": "SLOT_011795",
+          "target": "SLOT_011599",
+          "reason": "same satellite",
+          "satellite_id": "45754"
+        },
+        {
+          "source": "SLOT_011795",
+          "target": "SLOT_011785",
+          "reason": "same satellite",
+          "satellite_id": "45754"
+        },
+        {
+          "source": "SLOT_011795",
+          "target": "SLOT_012334",
+          "reason": "same-antenna overlap"
+        },
+        {
+          "source": "SLOT_011795",
+          "target": "SLOT_026677",
+          "reason": "same satellite",
+          "satellite_id": "45754"
+        },
+        {
+          "source": "SLOT_011795",
+          "target": "SLOT_027957",
+          "reason": "same satellite",
+          "satellite_id": "45754"
+        },
+        {
+          "source": "SLOT_011393",
+          "target": "SLOT_011218",
+          "reason": "same satellite",
+          "satellite_id": "47773"
+        },
+        {
+          "source": "SLOT_011393",
+          "target": "SLOT_011785",
+          "reason": "same-antenna overlap"
+        },
+        {
+          "source": "SLOT_011393",
+          "target": "SLOT_011410",
+          "reason": "same satellite",
+          "satellite_id": "47773"
+        },
+        {
+          "source": "SLOT_011393",
+          "target": "SLOT_027543",
+          "reason": "same satellite",
+          "satellite_id": "47773"
+        },
+        {
+          "source": "SLOT_027957",
+          "target": "SLOT_011599",
+          "reason": "same satellite",
+          "satellite_id": "45754"
+        },
+        {
+          "source": "SLOT_027957",
+          "target": "SLOT_011785",
+          "reason": "same satellite",
+          "satellite_id": "45754"
+        },
+        {
+          "source": "SLOT_027957",
+          "target": "SLOT_026677",
+          "reason": "same satellite",
+          "satellite_id": "45754"
+        },
+        {
+          "source": "SLOT_027957",
+          "target": "SLOT_027543",
+          "reason": "same-antenna overlap"
+        },
+        {
+          "source": "SLOT_011785",
+          "target": "SLOT_011599",
+          "reason": "same satellite",
+          "satellite_id": "45754"
+        },
+        {
+          "source": "SLOT_011785",
+          "target": "SLOT_026677",
+          "reason": "same satellite",
+          "satellite_id": "45754"
+        },
+        {
+          "source": "SLOT_027543",
+          "target": "SLOT_011218",
+          "reason": "same satellite",
+          "satellite_id": "47773"
+        },
+        {
+          "source": "SLOT_027543",
+          "target": "SLOT_011410",
+          "reason": "same satellite",
+          "satellite_id": "47773"
+        },
+        {
+          "source": "SLOT_011410",
+          "target": "SLOT_011218",
+          "reason": "same satellite",
+          "satellite_id": "47773"
+        },
+        {
+          "source": "SLOT_011410",
+          "target": "SLOT_012334",
+          "reason": "same-antenna reconfiguration time",
+          "reconfiguration_time": 0.05
+        },
+        {
+          "source": "SLOT_028157",
+          "target": "SLOT_012334",
+          "reason": "same satellite",
+          "satellite_id": "47780"
+        },
+        {
+          "source": "SLOT_011218",
+          "target": "SLOT_011599",
+          "reason": "same-antenna overlap"
+        },
+        {
+          "source": "SLOT_011599",
+          "target": "SLOT_026677",
+          "reason": "same satellite",
+          "satellite_id": "45754"
+        }
+      ]
+    }
+  },
+  {
+    "terminal_id": "component_001_dnode_0119",
+    "original_component_id": "component_001",
+    "depth": 9,
+    "node_count": 5,
+    "edge_count": 4,
+    "forced_objective": 0,
+    "forced_selected": [],
+    "terminal_reason": "fits QPU limits",
+    "graph": {
+      "nodes": [
+        {
+          "id": "SLOT_032843",
+          "source_interval_id": "VIS_068686",
+          "satellite_id": "47400",
+          "antenna_id": "ANT_GATEWAY_0002",
+          "station_id": "GATEWAY_0002",
+          "start_time": 3.683333333333333,
+          "end_time": 3.75,
+          "duration": 0.0666666666666666,
+          "reconfiguration_time": 0.05,
+          "priority": 4.0,
+          "urgency": 1.0,
+          "weight": 60.955
+        },
+        {
+          "id": "SLOT_034087",
+          "source_interval_id": "VIS_071373",
+          "satellite_id": "45673",
+          "antenna_id": "ANT_GATEWAY_0005",
+          "station_id": "GATEWAY_0005",
+          "start_time": 3.85,
+          "end_time": 3.9166666666666665,
+          "duration": 0.0666666666666666,
+          "reconfiguration_time": 0.05,
+          "priority": 1.0,
+          "urgency": 1.0,
+          "weight": 26.598
+        },
+        {
+          "id": "SLOT_033338",
+          "source_interval_id": "VIS_069805",
+          "satellite_id": "47354",
+          "antenna_id": "ANT_GATEWAY_0005",
+          "station_id": "GATEWAY_0005",
+          "start_time": 3.75,
+          "end_time": 3.816666666666667,
+          "duration": 0.0666666666666666,
+          "reconfiguration_time": 0.05,
+          "priority": 3.0,
+          "urgency": 1.0,
+          "weight": 50.034
+        },
+        {
+          "id": "SLOT_033212",
+          "source_interval_id": "VIS_069539",
+          "satellite_id": "45212",
+          "antenna_id": "ANT_GATEWAY_0002",
+          "station_id": "GATEWAY_0002",
+          "start_time": 3.733333333333333,
+          "end_time": 3.8,
+          "duration": 0.0666666666666666,
+          "reconfiguration_time": 0.05,
+          "priority": 1.0,
+          "urgency": 1.0,
+          "weight": 26.159
+        },
+        {
+          "id": "SLOT_032705",
+          "source_interval_id": "VIS_068377",
+          "satellite_id": "45212",
+          "antenna_id": "ANT_GATEWAY_0005",
+          "station_id": "GATEWAY_0005",
+          "start_time": 3.6666666666666665,
+          "end_time": 3.733333333333333,
+          "duration": 0.0666666666666666,
+          "reconfiguration_time": 0.05,
+          "priority": 2.0,
+          "urgency": 1.0,
+          "weight": 39.109
+        }
+      ],
+      "edges": [
+        {
+          "source": "SLOT_032843",
+          "target": "SLOT_033212",
+          "reason": "same-antenna overlap"
+        },
+        {
+          "source": "SLOT_034087",
+          "target": "SLOT_033338",
+          "reason": "same-antenna reconfiguration time",
+          "reconfiguration_time": 0.05
+        },
+        {
+          "source": "SLOT_033338",
+          "target": "SLOT_032705",
+          "reason": "same-antenna reconfiguration time",
+          "reconfiguration_time": 0.05
+        },
+        {
+          "source": "SLOT_033212",
+          "target": "SLOT_032705",
+          "reason": "same satellite",
+          "satellite_id": "45212"
+        }
+      ]
+    }
+  },
+  {
+    "terminal_id": "component_001_dnode_0145",
+    "original_component_id": "component_001",
+    "depth": 9,
+    "node_count": 2,
+    "edge_count": 1,
+    "forced_objective": 0,
+    "forced_selected": [],
+    "terminal_reason": "fits QPU limits",
+    "graph": {
+      "nodes": [
+        {
+          "id": "SLOT_034087",
+          "source_interval_id": "VIS_071373",
+          "satellite_id": "45673",
+          "antenna_id": "ANT_GATEWAY_0005",
+          "station_id": "GATEWAY_0005",
+          "start_time": 3.85,
+          "end_time": 3.9166666666666665,
+          "duration": 0.0666666666666666,
+          "reconfiguration_time": 0.05,
+          "priority": 1.0,
+          "urgency": 1.0,
+          "weight": 26.598
+        },
+        {
+          "id": "SLOT_033338",
+          "source_interval_id": "VIS_069805",
+          "satellite_id": "47354",
+          "antenna_id": "ANT_GATEWAY_0005",
+          "station_id": "GATEWAY_0005",
+          "start_time": 3.75,
+          "end_time": 3.816666666666667,
+          "duration": 0.0666666666666666,
+          "reconfiguration_time": 0.05,
+          "priority": 3.0,
+          "urgency": 1.0,
+          "weight": 50.034
+        }
+      ],
+      "edges": [
+        {
+          "source": "SLOT_034087",
+          "target": "SLOT_033338",
+          "reason": "same-antenna reconfiguration time",
+          "reconfiguration_time": 0.05
+        }
+      ]
+    }
+  },
+  {
+    "terminal_id": "component_001_dnode_0147",
+    "original_component_id": "component_001",
+    "depth": 8,
+    "node_count": 10,
+    "edge_count": 25,
+    "forced_objective": 0,
+    "forced_selected": [],
+    "terminal_reason": "fits QPU limits",
+    "graph": {
+      "nodes": [
+        {
+          "id": "SLOT_012493",
+          "source_interval_id": "VIS_026557",
+          "satellite_id": "46029",
+          "antenna_id": "ANT_GATEWAY_0010",
+          "station_id": "GATEWAY_0010",
+          "start_time": 1.35,
+          "end_time": 1.4166666666666667,
+          "duration": 0.0666666666666666,
+          "reconfiguration_time": 0.05,
+          "priority": 5.0,
+          "urgency": 4.0,
+          "weight": 88.3
+        },
+        {
+          "id": "SLOT_013261",
+          "source_interval_id": "VIS_028115",
+          "satellite_id": "46028",
+          "antenna_id": "ANT_GATEWAY_0010",
+          "station_id": "GATEWAY_0010",
+          "start_time": 1.4333333333333331,
+          "end_time": 1.5,
+          "duration": 0.0666666666666666,
+          "reconfiguration_time": 0.05,
+          "priority": 4.0,
+          "urgency": 4.0,
+          "weight": 76.093
+        },
+        {
+          "id": "SLOT_012701",
+          "source_interval_id": "VIS_026932",
+          "satellite_id": "46029",
+          "antenna_id": "ANT_GATEWAY_0018",
+          "station_id": "GATEWAY_0018",
+          "start_time": 1.3666666666666667,
+          "end_time": 1.4333333333333331,
+          "duration": 0.0666666666666666,
+          "reconfiguration_time": 0.05,
+          "priority": 5.0,
+          "urgency": 4.0,
+          "weight": 94.961
+        },
+        {
+          "id": "SLOT_009933",
+          "source_interval_id": "VIS_021480",
+          "satellite_id": "46028",
+          "antenna_id": "ANT_GATEWAY_0003",
+          "station_id": "GATEWAY_0003",
+          "start_time": 1.1,
+          "end_time": 1.1666666666666667,
+          "duration": 0.0666666666666666,
+          "reconfiguration_time": 0.05,
+          "priority": 4.0,
+          "urgency": 4.0,
+          "weight": 75.487
+        },
+        {
+          "id": "SLOT_013375",
+          "source_interval_id": "VIS_028398",
+          "satellite_id": "46028",
+          "antenna_id": "ANT_GATEWAY_0001",
+          "station_id": "GATEWAY_0001",
+          "start_time": 1.45,
+          "end_time": 1.5166666666666666,
+          "duration": 0.0666666666666666,
+          "reconfiguration_time": 0.05,
+          "priority": 4.0,
+          "urgency": 4.0,
+          "weight": 77.091
+        },
+        {
+          "id": "SLOT_012684",
+          "source_interval_id": "VIS_026900",
+          "satellite_id": "46029",
+          "antenna_id": "ANT_GATEWAY_0001",
+          "station_id": "GATEWAY_0001",
+          "start_time": 1.3666666666666667,
+          "end_time": 1.4333333333333331,
+          "duration": 0.0666666666666666,
+          "reconfiguration_time": 0.05,
+          "priority": 5.0,
+          "urgency": 4.0,
+          "weight": 88.686
+        },
+        {
+          "id": "SLOT_013389",
+          "source_interval_id": "VIS_028424",
+          "satellite_id": "46028",
+          "antenna_id": "ANT_GATEWAY_0012",
+          "station_id": "GATEWAY_0012",
+          "start_time": 1.45,
+          "end_time": 1.5166666666666666,
+          "duration": 0.0666666666666666,
+          "reconfiguration_time": 0.05,
+          "priority": 4.0,
+          "urgency": 4.0,
+          "weight": 75.923
+        },
+        {
+          "id": "SLOT_013537",
+          "source_interval_id": "VIS_028732",
+          "satellite_id": "46028",
+          "antenna_id": "ANT_GATEWAY_0018",
+          "station_id": "GATEWAY_0018",
+          "start_time": 1.4666666666666666,
+          "end_time": 1.5333333333333334,
+          "duration": 0.0666666666666666,
+          "reconfiguration_time": 0.05,
+          "priority": 4.0,
+          "urgency": 4.0,
+          "weight": 77.447
+        },
+        {
+          "id": "SLOT_009184",
+          "source_interval_id": "VIS_019839",
+          "satellite_id": "46029",
+          "antenna_id": "ANT_GATEWAY_0003",
+          "station_id": "GATEWAY_0003",
+          "start_time": 1.0166666666666666,
+          "end_time": 1.0833333333333333,
+          "duration": 0.0666666666666666,
+          "reconfiguration_time": 0.05,
+          "priority": 5.0,
+          "urgency": 4.0,
+          "weight": 87.374
+        },
+        {
+          "id": "SLOT_012694",
+          "source_interval_id": "VIS_026920",
+          "satellite_id": "46029",
+          "antenna_id": "ANT_GATEWAY_0012",
+          "station_id": "GATEWAY_0012",
+          "start_time": 1.3666666666666667,
+          "end_time": 1.4333333333333331,
+          "duration": 0.0666666666666666,
+          "reconfiguration_time": 0.05,
+          "priority": 5.0,
+          "urgency": 4.0,
+          "weight": 87.505
+        }
+      ],
+      "edges": [
+        {
+          "source": "SLOT_012493",
+          "target": "SLOT_009184",
+          "reason": "same satellite",
+          "satellite_id": "46029"
+        },
+        {
+          "source": "SLOT_012493",
+          "target": "SLOT_013261",
+          "reason": "same-antenna reconfiguration time",
+          "reconfiguration_time": 0.05
+        },
+        {
+          "source": "SLOT_012493",
+          "target": "SLOT_012684",
+          "reason": "same satellite",
+          "satellite_id": "46029"
+        },
+        {
+          "source": "SLOT_012493",
+          "target": "SLOT_012694",
+          "reason": "same satellite",
+          "satellite_id": "46029"
+        },
+        {
+          "source": "SLOT_012493",
+          "target": "SLOT_012701",
+          "reason": "same satellite",
+          "satellite_id": "46029"
+        },
+        {
+          "source": "SLOT_013261",
+          "target": "SLOT_009933",
+          "reason": "same satellite",
+          "satellite_id": "46028"
+        },
+        {
+          "source": "SLOT_013261",
+          "target": "SLOT_013375",
+          "reason": "same satellite",
+          "satellite_id": "46028"
+        },
+        {
+          "source": "SLOT_013261",
+          "target": "SLOT_013389",
+          "reason": "same satellite",
+          "satellite_id": "46028"
+        },
+        {
+          "source": "SLOT_013261",
+          "target": "SLOT_013537",
+          "reason": "same satellite",
+          "satellite_id": "46028"
+        },
+        {
+          "source": "SLOT_012701",
+          "target": "SLOT_009184",
+          "reason": "same satellite",
+          "satellite_id": "46029"
+        },
+        {
+          "source": "SLOT_012701",
+          "target": "SLOT_012684",
+          "reason": "same satellite",
+          "satellite_id": "46029"
+        },
+        {
+          "source": "SLOT_012701",
+          "target": "SLOT_012694",
+          "reason": "same satellite",
+          "satellite_id": "46029"
+        },
+        {
+          "source": "SLOT_012701",
+          "target": "SLOT_013537",
+          "reason": "same-antenna reconfiguration time",
+          "reconfiguration_time": 0.05
+        },
+        {
+          "source": "SLOT_009933",
+          "target": "SLOT_009184",
+          "reason": "same-antenna reconfiguration time",
+          "reconfiguration_time": 0.05
+        },
+        {
+          "source": "SLOT_009933",
+          "target": "SLOT_013375",
+          "reason": "same satellite",
+          "satellite_id": "46028"
+        },
+        {
+          "source": "SLOT_009933",
+          "target": "SLOT_013389",
+          "reason": "same satellite",
+          "satellite_id": "46028"
+        },
+        {
+          "source": "SLOT_009933",
+          "target": "SLOT_013537",
+          "reason": "same satellite",
+          "satellite_id": "46028"
+        },
+        {
+          "source": "SLOT_013375",
+          "target": "SLOT_012684",
+          "reason": "same-antenna reconfiguration time",
+          "reconfiguration_time": 0.05
+        },
+        {
+          "source": "SLOT_013375",
+          "target": "SLOT_013389",
+          "reason": "same satellite",
+          "satellite_id": "46028"
+        },
+        {
+          "source": "SLOT_013375",
+          "target": "SLOT_013537",
+          "reason": "same satellite",
+          "satellite_id": "46028"
+        },
+        {
+          "source": "SLOT_012684",
+          "target": "SLOT_009184",
+          "reason": "same satellite",
+          "satellite_id": "46029"
+        },
+        {
+          "source": "SLOT_012684",
+          "target": "SLOT_012694",
+          "reason": "same satellite",
+          "satellite_id": "46029"
+        },
+        {
+          "source": "SLOT_013389",
+          "target": "SLOT_012694",
+          "reason": "same-antenna reconfiguration time",
+          "reconfiguration_time": 0.05
+        },
+        {
+          "source": "SLOT_013389",
+          "target": "SLOT_013537",
+          "reason": "same satellite",
+          "satellite_id": "46028"
+        },
+        {
+          "source": "SLOT_009184",
+          "target": "SLOT_012694",
+          "reason": "same satellite",
+          "satellite_id": "46029"
+        }
+      ]
+    }
+  },
+  {
+    "terminal_id": "component_001_dnode_0191",
+    "original_component_id": "component_001",
+    "depth": 8,
+    "node_count": 9,
+    "edge_count": 20,
+    "forced_objective": 0,
+    "forced_selected": [],
+    "terminal_reason": "fits QPU limits",
+    "graph": {
+      "nodes": [
+        {
+          "id": "SLOT_012493",
+          "source_interval_id": "VIS_026557",
+          "satellite_id": "46029",
+          "antenna_id": "ANT_GATEWAY_0010",
+          "station_id": "GATEWAY_0010",
+          "start_time": 1.35,
+          "end_time": 1.4166666666666667,
+          "duration": 0.0666666666666666,
+          "reconfiguration_time": 0.05,
+          "priority": 5.0,
+          "urgency": 4.0,
+          "weight": 88.3
+        },
+        {
+          "id": "SLOT_013261",
+          "source_interval_id": "VIS_028115",
+          "satellite_id": "46028",
+          "antenna_id": "ANT_GATEWAY_0010",
+          "station_id": "GATEWAY_0010",
+          "start_time": 1.4333333333333331,
+          "end_time": 1.5,
+          "duration": 0.0666666666666666,
+          "reconfiguration_time": 0.05,
+          "priority": 4.0,
+          "urgency": 4.0,
+          "weight": 76.093
+        },
+        {
+          "id": "SLOT_012701",
+          "source_interval_id": "VIS_026932",
+          "satellite_id": "46029",
+          "antenna_id": "ANT_GATEWAY_0018",
+          "station_id": "GATEWAY_0018",
+          "start_time": 1.3666666666666667,
+          "end_time": 1.4333333333333331,
+          "duration": 0.0666666666666666,
+          "reconfiguration_time": 0.05,
+          "priority": 5.0,
+          "urgency": 4.0,
+          "weight": 94.961
+        },
+        {
+          "id": "SLOT_009933",
+          "source_interval_id": "VIS_021480",
+          "satellite_id": "46028",
+          "antenna_id": "ANT_GATEWAY_0003",
+          "station_id": "GATEWAY_0003",
+          "start_time": 1.1,
+          "end_time": 1.1666666666666667,
+          "duration": 0.0666666666666666,
+          "reconfiguration_time": 0.05,
+          "priority": 4.0,
+          "urgency": 4.0,
+          "weight": 75.487
+        },
+        {
+          "id": "SLOT_013375",
+          "source_interval_id": "VIS_028398",
+          "satellite_id": "46028",
+          "antenna_id": "ANT_GATEWAY_0001",
+          "station_id": "GATEWAY_0001",
+          "start_time": 1.45,
+          "end_time": 1.5166666666666666,
+          "duration": 0.0666666666666666,
+          "reconfiguration_time": 0.05,
+          "priority": 4.0,
+          "urgency": 4.0,
+          "weight": 77.091
+        },
+        {
+          "id": "SLOT_012694",
+          "source_interval_id": "VIS_026920",
+          "satellite_id": "46029",
+          "antenna_id": "ANT_GATEWAY_0012",
+          "station_id": "GATEWAY_0012",
+          "start_time": 1.3666666666666667,
+          "end_time": 1.4333333333333331,
+          "duration": 0.0666666666666666,
+          "reconfiguration_time": 0.05,
+          "priority": 5.0,
+          "urgency": 4.0,
+          "weight": 87.505
+        },
+        {
+          "id": "SLOT_013389",
+          "source_interval_id": "VIS_028424",
+          "satellite_id": "46028",
+          "antenna_id": "ANT_GATEWAY_0012",
+          "station_id": "GATEWAY_0012",
+          "start_time": 1.45,
+          "end_time": 1.5166666666666666,
+          "duration": 0.0666666666666666,
+          "reconfiguration_time": 0.05,
+          "priority": 4.0,
+          "urgency": 4.0,
+          "weight": 75.923
+        },
+        {
+          "id": "SLOT_013537",
+          "source_interval_id": "VIS_028732",
+          "satellite_id": "46028",
+          "antenna_id": "ANT_GATEWAY_0018",
+          "station_id": "GATEWAY_0018",
+          "start_time": 1.4666666666666666,
+          "end_time": 1.5333333333333334,
+          "duration": 0.0666666666666666,
+          "reconfiguration_time": 0.05,
+          "priority": 4.0,
+          "urgency": 4.0,
+          "weight": 77.447
+        },
+        {
+          "id": "SLOT_012684",
+          "source_interval_id": "VIS_026900",
+          "satellite_id": "46029",
+          "antenna_id": "ANT_GATEWAY_0001",
+          "station_id": "GATEWAY_0001",
+          "start_time": 1.3666666666666667,
+          "end_time": 1.4333333333333331,
+          "duration": 0.0666666666666666,
+          "reconfiguration_time": 0.05,
+          "priority": 5.0,
+          "urgency": 4.0,
+          "weight": 88.686
+        }
+      ],
+      "edges": [
+        {
+          "source": "SLOT_012493",
+          "target": "SLOT_013261",
+          "reason": "same-antenna reconfiguration time",
+          "reconfiguration_time": 0.05
+        },
+        {
+          "source": "SLOT_012493",
+          "target": "SLOT_012684",
+          "reason": "same satellite",
+          "satellite_id": "46029"
+        },
+        {
+          "source": "SLOT_012493",
+          "target": "SLOT_012694",
+          "reason": "same satellite",
+          "satellite_id": "46029"
+        },
+        {
+          "source": "SLOT_012493",
+          "target": "SLOT_012701",
+          "reason": "same satellite",
+          "satellite_id": "46029"
+        },
+        {
+          "source": "SLOT_013261",
+          "target": "SLOT_009933",
+          "reason": "same satellite",
+          "satellite_id": "46028"
+        },
+        {
+          "source": "SLOT_013261",
+          "target": "SLOT_013375",
+          "reason": "same satellite",
+          "satellite_id": "46028"
+        },
+        {
+          "source": "SLOT_013261",
+          "target": "SLOT_013389",
+          "reason": "same satellite",
+          "satellite_id": "46028"
+        },
+        {
+          "source": "SLOT_013261",
+          "target": "SLOT_013537",
+          "reason": "same satellite",
+          "satellite_id": "46028"
+        },
+        {
+          "source": "SLOT_012701",
+          "target": "SLOT_012684",
+          "reason": "same satellite",
+          "satellite_id": "46029"
+        },
+        {
+          "source": "SLOT_012701",
+          "target": "SLOT_012694",
+          "reason": "same satellite",
+          "satellite_id": "46029"
+        },
+        {
+          "source": "SLOT_012701",
+          "target": "SLOT_013537",
+          "reason": "same-antenna reconfiguration time",
+          "reconfiguration_time": 0.05
+        },
+        {
+          "source": "SLOT_009933",
+          "target": "SLOT_013375",
+          "reason": "same satellite",
+          "satellite_id": "46028"
+        },
+        {
+          "source": "SLOT_009933",
+          "target": "SLOT_013389",
+          "reason": "same satellite",
+          "satellite_id": "46028"
+        },
+        {
+          "source": "SLOT_009933",
+          "target": "SLOT_013537",
+          "reason": "same satellite",
+          "satellite_id": "46028"
+        },
+        {
+          "source": "SLOT_013375",
+          "target": "SLOT_012684",
+          "reason": "same-antenna reconfiguration time",
+          "reconfiguration_time": 0.05
+        },
+        {
+          "source": "SLOT_013375",
+          "target": "SLOT_013389",
+          "reason": "same satellite",
+          "satellite_id": "46028"
+        },
+        {
+          "source": "SLOT_013375",
+          "target": "SLOT_013537",
+          "reason": "same satellite",
+          "satellite_id": "46028"
+        },
+        {
+          "source": "SLOT_012694",
+          "target": "SLOT_012684",
+          "reason": "same satellite",
+          "satellite_id": "46029"
+        },
+        {
+          "source": "SLOT_012694",
+          "target": "SLOT_013389",
+          "reason": "same-antenna reconfiguration time",
+          "reconfiguration_time": 0.05
+        },
+        {
+          "source": "SLOT_013389",
+          "target": "SLOT_013537",
+          "reason": "same satellite",
+          "satellite_id": "46028"
+        }
+      ]
+    }
+  },
+  {
+    "terminal_id": "component_001_dnode_0195",
+    "original_component_id": "component_001",
+    "depth": 6,
+    "node_count": 3,
+    "edge_count": 2,
+    "forced_objective": 0,
+    "forced_selected": [],
+    "terminal_reason": "fits QPU limits",
+    "graph": {
+      "nodes": [
+        {
+          "id": "SLOT_031401",
+          "source_interval_id": "VIS_065533",
+          "satellite_id": "47383",
+          "antenna_id": "ANT_GATEWAY_0005",
+          "station_id": "GATEWAY_0005",
+          "start_time": 3.5,
+          "end_time": 3.566666666666667,
+          "duration": 0.0666666666666666,
+          "reconfiguration_time": 0.05,
+          "priority": 3.0,
+          "urgency": 2.0,
+          "weight": 53.659
+        },
+        {
+          "id": "SLOT_031901",
+          "source_interval_id": "VIS_066592",
+          "satellite_id": "47383",
+          "antenna_id": "ANT_GATEWAY_0002",
+          "station_id": "GATEWAY_0002",
+          "start_time": 3.566666666666667,
+          "end_time": 3.633333333333333,
+          "duration": 0.0666666666666666,
+          "reconfiguration_time": 0.05,
+          "priority": 4.0,
+          "urgency": 1.0,
+          "weight": 60.699
+        },
+        {
+          "id": "SLOT_031900",
+          "source_interval_id": "VIS_066591",
+          "satellite_id": "47379",
+          "antenna_id": "ANT_GATEWAY_0002",
+          "station_id": "GATEWAY_0002",
+          "start_time": 3.566666666666667,
+          "end_time": 3.633333333333333,
+          "duration": 0.0666666666666666,
+          "reconfiguration_time": 0.05,
+          "priority": 5.0,
+          "urgency": 1.0,
+          "weight": 71.751
+        }
+      ],
+      "edges": [
+        {
+          "source": "SLOT_031401",
+          "target": "SLOT_031901",
+          "reason": "same satellite",
+          "satellite_id": "47383"
+        },
+        {
+          "source": "SLOT_031901",
+          "target": "SLOT_031900",
+          "reason": "same-antenna overlap"
+        }
+      ]
+    }
+  },
+  {
+    "terminal_id": "component_001_dnode_0302",
+    "original_component_id": "component_001",
+    "depth": 8,
+    "node_count": 17,
+    "edge_count": 34,
+    "forced_objective": 0,
+    "forced_selected": [],
+    "terminal_reason": "fits QPU limits",
+    "graph": {
+      "nodes": [
+        {
+          "id": "SLOT_008507",
+          "source_interval_id": "VIS_018557",
+          "satellite_id": "47354",
+          "antenna_id": "ANT_GATEWAY_0003",
+          "station_id": "GATEWAY_0003",
+          "start_time": 0.95,
+          "end_time": 1.0166666666666666,
+          "duration": 0.0666666666666666,
+          "reconfiguration_time": 0.05,
+          "priority": 3.0,
+          "urgency": 4.0,
+          "weight": 65.871
+        },
+        {
+          "id": "SLOT_032843",
+          "source_interval_id": "VIS_068686",
+          "satellite_id": "47400",
+          "antenna_id": "ANT_GATEWAY_0002",
+          "station_id": "GATEWAY_0002",
+          "start_time": 3.683333333333333,
+          "end_time": 3.75,
+          "duration": 0.0666666666666666,
+          "reconfiguration_time": 0.05,
+          "priority": 4.0,
+          "urgency": 1.0,
+          "weight": 60.955
+        },
+        {
+          "id": "SLOT_012493",
+          "source_interval_id": "VIS_026557",
+          "satellite_id": "46029",
+          "antenna_id": "ANT_GATEWAY_0010",
+          "station_id": "GATEWAY_0010",
+          "start_time": 1.35,
+          "end_time": 1.4166666666666667,
+          "duration": 0.0666666666666666,
+          "reconfiguration_time": 0.05,
+          "priority": 5.0,
+          "urgency": 4.0,
+          "weight": 88.3
+        },
+        {
+          "id": "SLOT_034087",
+          "source_interval_id": "VIS_071373",
+          "satellite_id": "45673",
+          "antenna_id": "ANT_GATEWAY_0005",
+          "station_id": "GATEWAY_0005",
+          "start_time": 3.85,
+          "end_time": 3.9166666666666665,
+          "duration": 0.0666666666666666,
+          "reconfiguration_time": 0.05,
+          "priority": 1.0,
+          "urgency": 1.0,
+          "weight": 26.598
+        },
+        {
+          "id": "SLOT_013261",
+          "source_interval_id": "VIS_028115",
+          "satellite_id": "46028",
+          "antenna_id": "ANT_GATEWAY_0010",
+          "station_id": "GATEWAY_0010",
+          "start_time": 1.4333333333333331,
+          "end_time": 1.5,
+          "duration": 0.0666666666666666,
+          "reconfiguration_time": 0.05,
+          "priority": 4.0,
+          "urgency": 4.0,
+          "weight": 76.093
+        },
+        {
+          "id": "SLOT_033338",
+          "source_interval_id": "VIS_069805",
+          "satellite_id": "47354",
+          "antenna_id": "ANT_GATEWAY_0005",
+          "station_id": "GATEWAY_0005",
+          "start_time": 3.75,
+          "end_time": 3.816666666666667,
+          "duration": 0.0666666666666666,
+          "reconfiguration_time": 0.05,
+          "priority": 3.0,
+          "urgency": 1.0,
+          "weight": 50.034
+        },
+        {
+          "id": "SLOT_033212",
+          "source_interval_id": "VIS_069539",
+          "satellite_id": "45212",
+          "antenna_id": "ANT_GATEWAY_0002",
+          "station_id": "GATEWAY_0002",
+          "start_time": 3.733333333333333,
+          "end_time": 3.8,
+          "duration": 0.0666666666666666,
+          "reconfiguration_time": 0.05,
+          "priority": 1.0,
+          "urgency": 1.0,
+          "weight": 26.159
+        },
+        {
+          "id": "SLOT_012701",
+          "source_interval_id": "VIS_026932",
+          "satellite_id": "46029",
+          "antenna_id": "ANT_GATEWAY_0018",
+          "station_id": "GATEWAY_0018",
+          "start_time": 1.3666666666666667,
+          "end_time": 1.4333333333333331,
+          "duration": 0.0666666666666666,
+          "reconfiguration_time": 0.05,
+          "priority": 5.0,
+          "urgency": 4.0,
+          "weight": 94.961
+        },
+        {
+          "id": "SLOT_007630",
+          "source_interval_id": "VIS_016697",
+          "satellite_id": "45212",
+          "antenna_id": "ANT_GATEWAY_0003",
+          "station_id": "GATEWAY_0003",
+          "start_time": 0.85,
+          "end_time": 0.9166666666666666,
+          "duration": 0.0666666666666666,
+          "reconfiguration_time": 0.05,
+          "priority": 1.0,
+          "urgency": 4.0,
+          "weight": 40.462
+        },
+        {
+          "id": "SLOT_009933",
+          "source_interval_id": "VIS_021480",
+          "satellite_id": "46028",
+          "antenna_id": "ANT_GATEWAY_0003",
+          "station_id": "GATEWAY_0003",
+          "start_time": 1.1,
+          "end_time": 1.1666666666666667,
+          "duration": 0.0666666666666666,
+          "reconfiguration_time": 0.05,
+          "priority": 4.0,
+          "urgency": 4.0,
+          "weight": 75.487
+        },
+        {
+          "id": "SLOT_032705",
+          "source_interval_id": "VIS_068377",
+          "satellite_id": "45212",
+          "antenna_id": "ANT_GATEWAY_0005",
+          "station_id": "GATEWAY_0005",
+          "start_time": 3.6666666666666665,
+          "end_time": 3.733333333333333,
+          "duration": 0.0666666666666666,
+          "reconfiguration_time": 0.05,
+          "priority": 2.0,
+          "urgency": 1.0,
+          "weight": 39.109
+        },
+        {
+          "id": "SLOT_013375",
+          "source_interval_id": "VIS_028398",
+          "satellite_id": "46028",
+          "antenna_id": "ANT_GATEWAY_0001",
+          "station_id": "GATEWAY_0001",
+          "start_time": 1.45,
+          "end_time": 1.5166666666666666,
+          "duration": 0.0666666666666666,
+          "reconfiguration_time": 0.05,
+          "priority": 4.0,
+          "urgency": 4.0,
+          "weight": 77.091
+        },
+        {
+          "id": "SLOT_012684",
+          "source_interval_id": "VIS_026900",
+          "satellite_id": "46029",
+          "antenna_id": "ANT_GATEWAY_0001",
+          "station_id": "GATEWAY_0001",
+          "start_time": 1.3666666666666667,
+          "end_time": 1.4333333333333331,
+          "duration": 0.0666666666666666,
+          "reconfiguration_time": 0.05,
+          "priority": 5.0,
+          "urgency": 4.0,
+          "weight": 88.686
+        },
+        {
+          "id": "SLOT_013389",
+          "source_interval_id": "VIS_028424",
+          "satellite_id": "46028",
+          "antenna_id": "ANT_GATEWAY_0012",
+          "station_id": "GATEWAY_0012",
+          "start_time": 1.45,
+          "end_time": 1.5166666666666666,
+          "duration": 0.0666666666666666,
+          "reconfiguration_time": 0.05,
+          "priority": 4.0,
+          "urgency": 4.0,
+          "weight": 75.923
+        },
+        {
+          "id": "SLOT_013537",
+          "source_interval_id": "VIS_028732",
+          "satellite_id": "46028",
+          "antenna_id": "ANT_GATEWAY_0018",
+          "station_id": "GATEWAY_0018",
+          "start_time": 1.4666666666666666,
+          "end_time": 1.5333333333333334,
+          "duration": 0.0666666666666666,
+          "reconfiguration_time": 0.05,
+          "priority": 4.0,
+          "urgency": 4.0,
+          "weight": 77.447
+        },
+        {
+          "id": "SLOT_009184",
+          "source_interval_id": "VIS_019839",
+          "satellite_id": "46029",
+          "antenna_id": "ANT_GATEWAY_0003",
+          "station_id": "GATEWAY_0003",
+          "start_time": 1.0166666666666666,
+          "end_time": 1.0833333333333333,
+          "duration": 0.0666666666666666,
+          "reconfiguration_time": 0.05,
+          "priority": 5.0,
+          "urgency": 4.0,
+          "weight": 87.374
+        },
+        {
+          "id": "SLOT_012694",
+          "source_interval_id": "VIS_026920",
+          "satellite_id": "46029",
+          "antenna_id": "ANT_GATEWAY_0012",
+          "station_id": "GATEWAY_0012",
+          "start_time": 1.3666666666666667,
+          "end_time": 1.4333333333333331,
+          "duration": 0.0666666666666666,
+          "reconfiguration_time": 0.05,
+          "priority": 5.0,
+          "urgency": 4.0,
+          "weight": 87.505
+        }
+      ],
+      "edges": [
+        {
+          "source": "SLOT_008507",
+          "target": "SLOT_007630",
+          "reason": "same-antenna reconfiguration time",
+          "reconfiguration_time": 0.05
+        },
+        {
+          "source": "SLOT_008507",
+          "target": "SLOT_009184",
+          "reason": "same-antenna reconfiguration time",
+          "reconfiguration_time": 0.05
+        },
+        {
+          "source": "SLOT_008507",
+          "target": "SLOT_033338",
+          "reason": "same satellite",
+          "satellite_id": "47354"
+        },
+        {
+          "source": "SLOT_032843",
+          "target": "SLOT_033212",
+          "reason": "same-antenna overlap"
+        },
+        {
+          "source": "SLOT_012493",
+          "target": "SLOT_009184",
+          "reason": "same satellite",
+          "satellite_id": "46029"
+        },
+        {
+          "source": "SLOT_012493",
+          "target": "SLOT_013261",
+          "reason": "same-antenna reconfiguration time",
+          "reconfiguration_time": 0.05
+        },
+        {
+          "source": "SLOT_012493",
+          "target": "SLOT_012684",
+          "reason": "same satellite",
+          "satellite_id": "46029"
+        },
+        {
+          "source": "SLOT_012493",
+          "target": "SLOT_012694",
+          "reason": "same satellite",
+          "satellite_id": "46029"
+        },
+        {
+          "source": "SLOT_012493",
+          "target": "SLOT_012701",
+          "reason": "same satellite",
+          "satellite_id": "46029"
+        },
+        {
+          "source": "SLOT_034087",
+          "target": "SLOT_033338",
+          "reason": "same-antenna reconfiguration time",
+          "reconfiguration_time": 0.05
+        },
+        {
+          "source": "SLOT_013261",
+          "target": "SLOT_009933",
+          "reason": "same satellite",
+          "satellite_id": "46028"
+        },
+        {
+          "source": "SLOT_013261",
+          "target": "SLOT_013375",
+          "reason": "same satellite",
+          "satellite_id": "46028"
+        },
+        {
+          "source": "SLOT_013261",
+          "target": "SLOT_013389",
+          "reason": "same satellite",
+          "satellite_id": "46028"
+        },
+        {
+          "source": "SLOT_013261",
+          "target": "SLOT_013537",
+          "reason": "same satellite",
+          "satellite_id": "46028"
+        },
+        {
+          "source": "SLOT_033338",
+          "target": "SLOT_032705",
+          "reason": "same-antenna reconfiguration time",
+          "reconfiguration_time": 0.05
+        },
+        {
+          "source": "SLOT_033212",
+          "target": "SLOT_007630",
+          "reason": "same satellite",
+          "satellite_id": "45212"
+        },
+        {
+          "source": "SLOT_033212",
+          "target": "SLOT_032705",
+          "reason": "same satellite",
+          "satellite_id": "45212"
+        },
+        {
+          "source": "SLOT_012701",
+          "target": "SLOT_009184",
+          "reason": "same satellite",
+          "satellite_id": "46029"
+        },
+        {
+          "source": "SLOT_012701",
+          "target": "SLOT_012684",
+          "reason": "same satellite",
+          "satellite_id": "46029"
+        },
+        {
+          "source": "SLOT_012701",
+          "target": "SLOT_012694",
+          "reason": "same satellite",
+          "satellite_id": "46029"
+        },
+        {
+          "source": "SLOT_012701",
+          "target": "SLOT_013537",
+          "reason": "same-antenna reconfiguration time",
+          "reconfiguration_time": 0.05
+        },
+        {
+          "source": "SLOT_007630",
+          "target": "SLOT_032705",
+          "reason": "same satellite",
+          "satellite_id": "45212"
+        },
+        {
+          "source": "SLOT_009933",
+          "target": "SLOT_009184",
+          "reason": "same-antenna reconfiguration time",
+          "reconfiguration_time": 0.05
+        },
+        {
+          "source": "SLOT_009933",
+          "target": "SLOT_013375",
+          "reason": "same satellite",
+          "satellite_id": "46028"
+        },
+        {
+          "source": "SLOT_009933",
+          "target": "SLOT_013389",
+          "reason": "same satellite",
+          "satellite_id": "46028"
+        },
+        {
+          "source": "SLOT_009933",
+          "target": "SLOT_013537",
+          "reason": "same satellite",
+          "satellite_id": "46028"
+        },
+        {
+          "source": "SLOT_013375",
+          "target": "SLOT_012684",
+          "reason": "same-antenna reconfiguration time",
+          "reconfiguration_time": 0.05
+        },
+        {
+          "source": "SLOT_013375",
+          "target": "SLOT_013389",
+          "reason": "same satellite",
+          "satellite_id": "46028"
+        },
+        {
+          "source": "SLOT_013375",
+          "target": "SLOT_013537",
+          "reason": "same satellite",
+          "satellite_id": "46028"
+        },
+        {
+          "source": "SLOT_012684",
+          "target": "SLOT_009184",
+          "reason": "same satellite",
+          "satellite_id": "46029"
+        },
+        {
+          "source": "SLOT_012684",
+          "target": "SLOT_012694",
+          "reason": "same satellite",
+          "satellite_id": "46029"
+        },
+        {
+          "source": "SLOT_013389",
+          "target": "SLOT_012694",
+          "reason": "same-antenna reconfiguration time",
+          "reconfiguration_time": 0.05
+        },
+        {
+          "source": "SLOT_013389",
+          "target": "SLOT_013537",
+          "reason": "same satellite",
+          "satellite_id": "46028"
+        },
+        {
+          "source": "SLOT_009184",
+          "target": "SLOT_012694",
+          "reason": "same satellite",
+          "satellite_id": "46029"
+        }
+      ]
+    }
+  },
+  {
+    "terminal_id": "component_001_dnode_0361",
+    "original_component_id": "component_001",
+    "depth": 5,
+    "node_count": 4,
+    "edge_count": 3,
+    "forced_objective": 0,
+    "forced_selected": [],
+    "terminal_reason": "fits QPU limits",
+    "graph": {
+      "nodes": [
+        {
+          "id": "SLOT_034430",
+          "source_interval_id": "VIS_072068",
+          "satellite_id": "44751",
+          "antenna_id": "ANT_GATEWAY_0007",
+          "station_id": "GATEWAY_0007",
+          "start_time": 3.9,
+          "end_time": 3.966666666666667,
+          "duration": 0.0666666666666666,
+          "reconfiguration_time": 0.05,
+          "priority": 1.0,
+          "urgency": 1.0,
+          "weight": 24.953
+        },
+        {
+          "id": "SLOT_034337",
+          "source_interval_id": "VIS_071882",
+          "satellite_id": "47742",
+          "antenna_id": "ANT_GATEWAY_0024",
+          "station_id": "GATEWAY_0024",
+          "start_time": 3.883333333333333,
+          "end_time": 3.95,
+          "duration": 0.0666666666666666,
+          "reconfiguration_time": 0.05,
+          "priority": 2.0,
+          "urgency": 1.0,
+          "weight": 39.328
+        },
+        {
+          "id": "SLOT_034336",
+          "source_interval_id": "VIS_071881",
+          "satellite_id": "44751",
+          "antenna_id": "ANT_GATEWAY_0024",
+          "station_id": "GATEWAY_0024",
+          "start_time": 3.883333333333333,
+          "end_time": 3.95,
+          "duration": 0.0666666666666666,
+          "reconfiguration_time": 0.05,
+          "priority": 2.0,
+          "urgency": 1.0,
+          "weight": 38.227
+        },
+        {
+          "id": "SLOT_034449",
+          "source_interval_id": "VIS_072107",
+          "satellite_id": "47742",
+          "antenna_id": "ANT_GATEWAY_0025",
+          "station_id": "GATEWAY_0025",
+          "start_time": 3.9,
+          "end_time": 3.966666666666667,
+          "duration": 0.0666666666666666,
+          "reconfiguration_time": 0.05,
+          "priority": 2.0,
+          "urgency": 1.0,
+          "weight": 38.687
+        }
+      ],
+      "edges": [
+        {
+          "source": "SLOT_034430",
+          "target": "SLOT_034336",
+          "reason": "same satellite",
+          "satellite_id": "44751"
+        },
+        {
+          "source": "SLOT_034337",
+          "target": "SLOT_034336",
+          "reason": "same-antenna overlap"
+        },
+        {
+          "source": "SLOT_034337",
+          "target": "SLOT_034449",
+          "reason": "same satellite",
+          "satellite_id": "47742"
+        }
+      ]
+    }
+  },
+  {
+    "terminal_id": "component_001_dnode_0381",
+    "original_component_id": "component_001",
+    "depth": 11,
+    "node_count": 4,
+    "edge_count": 3,
+    "forced_objective": 0,
+    "forced_selected": [],
+    "terminal_reason": "fits QPU limits",
+    "graph": {
+      "nodes": [
+        {
+          "id": "SLOT_019310",
+          "source_interval_id": "VIS_040642",
+          "satellite_id": "46027",
+          "antenna_id": "ANT_GATEWAY_0012",
+          "station_id": "GATEWAY_0012",
+          "start_time": 2.1,
+          "end_time": 2.1666666666666665,
+          "duration": 0.0666666666666666,
+          "reconfiguration_time": 0.05,
+          "priority": 5.0,
+          "urgency": 3.0,
+          "weight": 88.885
+        },
+        {
+          "id": "SLOT_020474",
+          "source_interval_id": "VIS_043025",
+          "satellite_id": "45060",
+          "antenna_id": "ANT_GATEWAY_0026",
+          "station_id": "GATEWAY_0026",
+          "start_time": 2.2333333333333334,
+          "end_time": 2.3,
+          "duration": 0.0666666666666666,
+          "reconfiguration_time": 0.05,
+          "priority": 5.0,
+          "urgency": 3.0,
+          "weight": 81.78
+        },
+        {
+          "id": "SLOT_019304",
+          "source_interval_id": "VIS_040630",
+          "satellite_id": "46027",
+          "antenna_id": "ANT_GATEWAY_0001",
+          "station_id": "GATEWAY_0001",
+          "start_time": 2.1,
+          "end_time": 2.1666666666666665,
+          "duration": 0.0666666666666666,
+          "reconfiguration_time": 0.05,
+          "priority": 5.0,
+          "urgency": 3.0,
+          "weight": 88.851
+        },
+        {
+          "id": "SLOT_020137",
+          "source_interval_id": "VIS_042403",
+          "satellite_id": "45060",
+          "antenna_id": "ANT_GATEWAY_0012",
+          "station_id": "GATEWAY_0012",
+          "start_time": 2.2,
+          "end_time": 2.2666666666666666,
+          "duration": 0.0666666666666666,
+          "reconfiguration_time": 0.05,
+          "priority": 5.0,
+          "urgency": 3.0,
+          "weight": 81.84
+        }
+      ],
+      "edges": [
+        {
+          "source": "SLOT_019310",
+          "target": "SLOT_019304",
+          "reason": "same satellite",
+          "satellite_id": "46027"
+        },
+        {
+          "source": "SLOT_019310",
+          "target": "SLOT_020137",
+          "reason": "same-antenna reconfiguration time",
+          "reconfiguration_time": 0.05
+        },
+        {
+          "source": "SLOT_020474",
+          "target": "SLOT_020137",
+          "reason": "same satellite",
+          "satellite_id": "45060"
+        }
+      ]
+    }
+  },
+  {
+    "terminal_id": "component_001_dnode_0715",
+    "original_component_id": "component_001",
+    "depth": 4,
+    "node_count": 4,
+    "edge_count": 3,
+    "forced_objective": 0,
+    "forced_selected": [],
+    "terminal_reason": "fits QPU limits",
+    "graph": {
+      "nodes": [
+        {
+          "id": "SLOT_004690",
+          "source_interval_id": "VIS_010467",
+          "satellite_id": "46064",
+          "antenna_id": "ANT_GATEWAY_0018",
+          "station_id": "GATEWAY_0018",
+          "start_time": 0.5166666666666667,
+          "end_time": 0.5833333333333334,
+          "duration": 0.0666666666666666,
+          "reconfiguration_time": 0.05,
+          "priority": 4.0,
+          "urgency": 4.0,
+          "weight": 78.299
+        },
+        {
+          "id": "SLOT_000826",
+          "source_interval_id": "VIS_002272",
+          "satellite_id": "47355",
+          "antenna_id": "ANT_GATEWAY_0003",
+          "station_id": "GATEWAY_0003",
+          "start_time": 0.0833333333333333,
+          "end_time": 0.15,
+          "duration": 0.0666666666666666,
+          "reconfiguration_time": 0.05,
+          "priority": 5.0,
+          "urgency": 5.0,
+          "weight": 92.468
+        },
+        {
+          "id": "SLOT_001428",
+          "source_interval_id": "VIS_003522",
+          "satellite_id": "46064",
+          "antenna_id": "ANT_GATEWAY_0003",
+          "station_id": "GATEWAY_0003",
+          "start_time": 0.15,
+          "end_time": 0.2166666666666666,
+          "duration": 0.0666666666666666,
+          "reconfiguration_time": 0.05,
+          "priority": 4.0,
+          "urgency": 5.0,
+          "weight": 81.354
+        },
+        {
+          "id": "SLOT_026097",
+          "source_interval_id": "VIS_054554",
+          "satellite_id": "47355",
+          "antenna_id": "ANT_GATEWAY_0005",
+          "station_id": "GATEWAY_0005",
+          "start_time": 2.8833333333333333,
+          "end_time": 2.95,
+          "duration": 0.0666666666666666,
+          "reconfiguration_time": 0.05,
+          "priority": 5.0,
+          "urgency": 2.0,
+          "weight": 78.858
+        }
+      ],
+      "edges": [
+        {
+          "source": "SLOT_004690",
+          "target": "SLOT_001428",
+          "reason": "same satellite",
+          "satellite_id": "46064"
+        },
+        {
+          "source": "SLOT_000826",
+          "target": "SLOT_001428",
+          "reason": "same-antenna reconfiguration time",
+          "reconfiguration_time": 0.05
+        },
+        {
+          "source": "SLOT_000826",
+          "target": "SLOT_026097",
+          "reason": "same satellite",
+          "satellite_id": "47355"
+        }
+      ]
+    }
+  },
+  {
+    "terminal_id": "component_001_dnode_1392",
+    "original_component_id": "component_001",
+    "depth": 3,
+    "node_count": 4,
+    "edge_count": 3,
+    "forced_objective": 0,
+    "forced_selected": [],
+    "terminal_reason": "fits QPU limits",
+    "graph": {
+      "nodes": [
+        {
+          "id": "SLOT_004062",
+          "source_interval_id": "VIS_009191",
+          "satellite_id": "47824",
+          "antenna_id": "ANT_GATEWAY_0021",
+          "station_id": "GATEWAY_0021",
+          "start_time": 0.45,
+          "end_time": 0.5166666666666667,
+          "duration": 0.0666666666666666,
+          "reconfiguration_time": 0.05,
+          "priority": 2.0,
+          "urgency": 5.0,
+          "weight": 65.909
+        },
+        {
+          "id": "SLOT_003458",
+          "source_interval_id": "VIS_007916",
+          "satellite_id": "47824",
+          "antenna_id": "ANT_GATEWAY_0024",
+          "station_id": "GATEWAY_0024",
+          "start_time": 0.3833333333333333,
+          "end_time": 0.45,
+          "duration": 0.0666666666666666,
+          "reconfiguration_time": 0.05,
+          "priority": 2.0,
+          "urgency": 5.0,
+          "weight": 65.346
+        },
+        {
+          "id": "SLOT_019191",
+          "source_interval_id": "VIS_040367",
+          "satellite_id": "45772",
+          "antenna_id": "ANT_GATEWAY_0020",
+          "station_id": "GATEWAY_0020",
+          "start_time": 2.083333333333333,
+          "end_time": 2.15,
+          "duration": 0.0666666666666666,
+          "reconfiguration_time": 0.05,
+          "priority": 3.0,
+          "urgency": 3.0,
+          "weight": 60.331
+        },
+        {
+          "id": "SLOT_003907",
+          "source_interval_id": "VIS_008873",
+          "satellite_id": "45772",
+          "antenna_id": "ANT_GATEWAY_0021",
+          "station_id": "GATEWAY_0021",
+          "start_time": 0.4333333333333333,
+          "end_time": 0.5,
+          "duration": 0.0666666666666666,
+          "reconfiguration_time": 0.05,
+          "priority": 3.0,
+          "urgency": 5.0,
+          "weight": 70.438
+        }
+      ],
+      "edges": [
+        {
+          "source": "SLOT_004062",
+          "target": "SLOT_003458",
+          "reason": "same satellite",
+          "satellite_id": "47824"
+        },
+        {
+          "source": "SLOT_004062",
+          "target": "SLOT_003907",
+          "reason": "same-antenna overlap"
+        },
+        {
+          "source": "SLOT_019191",
+          "target": "SLOT_003907",
+          "reason": "same satellite",
+          "satellite_id": "45772"
+        }
+      ]
+    }
+  },
+  {
+    "terminal_id": "component_001_dnode_1985",
+    "original_component_id": "component_001",
+    "depth": 4,
+    "node_count": 13,
+    "edge_count": 14,
+    "forced_objective": 0,
+    "forced_selected": [],
+    "terminal_reason": "fits QPU limits",
+    "graph": {
+      "nodes": [
+        {
+          "id": "SLOT_006333",
+          "source_interval_id": "VIS_013884",
+          "satellite_id": "47179",
+          "antenna_id": "ANT_GATEWAY_0002",
+          "station_id": "GATEWAY_0002",
+          "start_time": 0.7,
+          "end_time": 0.7666666666666667,
+          "duration": 0.0666666666666666,
+          "reconfiguration_time": 0.05,
+          "priority": 5.0,
+          "urgency": 4.0,
+          "weight": 88.0
+        },
+        {
+          "id": "SLOT_003277",
+          "source_interval_id": "VIS_007543",
+          "satellite_id": "45227",
+          "antenna_id": "ANT_GATEWAY_0019",
+          "station_id": "GATEWAY_0019",
+          "start_time": 0.3666666666666666,
+          "end_time": 0.4333333333333333,
+          "duration": 0.0666666666666666,
+          "reconfiguration_time": 0.05,
+          "priority": 3.0,
+          "urgency": 5.0,
+          "weight": 68.067
+        },
+        {
+          "id": "SLOT_020695",
+          "source_interval_id": "VIS_043527",
+          "satellite_id": "44927",
+          "antenna_id": "ANT_GATEWAY_0002",
+          "station_id": "GATEWAY_0002",
+          "start_time": 2.2666666666666666,
+          "end_time": 2.333333333333333,
+          "duration": 0.0666666666666666,
+          "reconfiguration_time": 0.05,
+          "priority": 3.0,
+          "urgency": 3.0,
+          "weight": 59.3
+        },
+        {
+          "id": "SLOT_005868",
+          "source_interval_id": "VIS_012897",
+          "satellite_id": "47179",
+          "antenna_id": "ANT_GATEWAY_0016",
+          "station_id": "GATEWAY_0016",
+          "start_time": 0.65,
+          "end_time": 0.7166666666666667,
+          "duration": 0.0666666666666666,
+          "reconfiguration_time": 0.05,
+          "priority": 5.0,
+          "urgency": 4.0,
+          "weight": 88.93
+        },
+        {
+          "id": "SLOT_006019",
+          "source_interval_id": "VIS_013235",
+          "satellite_id": "45227",
+          "antenna_id": "ANT_GATEWAY_0016",
+          "station_id": "GATEWAY_0016",
+          "start_time": 0.6666666666666666,
+          "end_time": 0.7333333333333333,
+          "duration": 0.0666666666666666,
+          "reconfiguration_time": 0.05,
+          "priority": 4.0,
+          "urgency": 4.0,
+          "weight": 75.936
+        },
+        {
+          "id": "SLOT_021073",
+          "source_interval_id": "VIS_044370",
+          "satellite_id": "45230",
+          "antenna_id": "ANT_GATEWAY_0002",
+          "station_id": "GATEWAY_0002",
+          "start_time": 2.316666666666667,
+          "end_time": 2.3833333333333333,
+          "duration": 0.0666666666666666,
+          "reconfiguration_time": 0.05,
+          "priority": 4.0,
+          "urgency": 3.0,
+          "weight": 70.811
+        },
+        {
+          "id": "SLOT_021631",
+          "source_interval_id": "VIS_045524",
+          "satellite_id": "44941",
+          "antenna_id": "ANT_GATEWAY_0002",
+          "station_id": "GATEWAY_0002",
+          "start_time": 2.3833333333333333,
+          "end_time": 2.45,
+          "duration": 0.0666666666666666,
+          "reconfiguration_time": 0.05,
+          "priority": 2.0,
+          "urgency": 3.0,
+          "weight": 49.057
+        },
+        {
+          "id": "SLOT_021078",
+          "source_interval_id": "VIS_044378",
+          "satellite_id": "45695",
+          "antenna_id": "ANT_GATEWAY_0005",
+          "station_id": "GATEWAY_0005",
+          "start_time": 2.316666666666667,
+          "end_time": 2.3833333333333333,
+          "duration": 0.0666666666666666,
+          "reconfiguration_time": 0.05,
+          "priority": 5.0,
+          "urgency": 3.0,
+          "weight": 81.315
+        },
+        {
+          "id": "SLOT_028158",
+          "source_interval_id": "VIS_058725",
+          "satellite_id": "45695",
+          "antenna_id": "ANT_GATEWAY_0015",
+          "station_id": "GATEWAY_0015",
+          "start_time": 3.1166666666666667,
+          "end_time": 3.183333333333333,
+          "duration": 0.0666666666666666,
+          "reconfiguration_time": 0.05,
+          "priority": 5.0,
+          "urgency": 2.0,
+          "weight": 76.504
+        },
+        {
+          "id": "SLOT_020939",
+          "source_interval_id": "VIS_044097",
+          "satellite_id": "45227",
+          "antenna_id": "ANT_GATEWAY_0005",
+          "station_id": "GATEWAY_0005",
+          "start_time": 2.3,
+          "end_time": 2.3666666666666667,
+          "duration": 0.0666666666666666,
+          "reconfiguration_time": 0.05,
+          "priority": 4.0,
+          "urgency": 3.0,
+          "weight": 72.728
+        },
+        {
+          "id": "SLOT_033349",
+          "source_interval_id": "VIS_069830",
+          "satellite_id": "44941",
+          "antenna_id": "ANT_GATEWAY_0021",
+          "station_id": "GATEWAY_0021",
+          "start_time": 3.75,
+          "end_time": 3.816666666666667,
+          "duration": 0.0666666666666666,
+          "reconfiguration_time": 0.05,
+          "priority": 2.0,
+          "urgency": 1.0,
+          "weight": 38.125
+        },
+        {
+          "id": "SLOT_027666",
+          "source_interval_id": "VIS_057683",
+          "satellite_id": "45230",
+          "antenna_id": "ANT_GATEWAY_0015",
+          "station_id": "GATEWAY_0015",
+          "start_time": 3.05,
+          "end_time": 3.1166666666666667,
+          "duration": 0.0666666666666666,
+          "reconfiguration_time": 0.05,
+          "priority": 4.0,
+          "urgency": 2.0,
+          "weight": 66.566
+        },
+        {
+          "id": "SLOT_034327",
+          "source_interval_id": "VIS_071862",
+          "satellite_id": "45230",
+          "antenna_id": "ANT_GATEWAY_0016",
+          "station_id": "GATEWAY_0016",
+          "start_time": 3.883333333333333,
+          "end_time": 3.95,
+          "duration": 0.0666666666666666,
+          "reconfiguration_time": 0.05,
+          "priority": 4.0,
+          "urgency": 1.0,
+          "weight": 61.832
+        }
+      ],
+      "edges": [
+        {
+          "source": "SLOT_006333",
+          "target": "SLOT_005868",
+          "reason": "same satellite",
+          "satellite_id": "47179"
+        },
+        {
+          "source": "SLOT_003277",
+          "target": "SLOT_006019",
+          "reason": "same satellite",
+          "satellite_id": "45227"
+        },
+        {
+          "source": "SLOT_003277",
+          "target": "SLOT_020939",
+          "reason": "same satellite",
+          "satellite_id": "45227"
+        },
+        {
+          "source": "SLOT_020695",
+          "target": "SLOT_021073",
+          "reason": "same-antenna overlap"
+        },
+        {
+          "source": "SLOT_005868",
+          "target": "SLOT_006019",
+          "reason": "same-antenna overlap"
+        },
+        {
+          "source": "SLOT_006019",
+          "target": "SLOT_020939",
+          "reason": "same satellite",
+          "satellite_id": "45227"
+        },
+        {
+          "source": "SLOT_021073",
+          "target": "SLOT_021631",
+          "reason": "same-antenna reconfiguration time",
+          "reconfiguration_time": 0.05
+        },
+        {
+          "source": "SLOT_021073",
+          "target": "SLOT_027666",
+          "reason": "same satellite",
+          "satellite_id": "45230"
+        },
+        {
+          "source": "SLOT_021073",
+          "target": "SLOT_034327",
+          "reason": "same satellite",
+          "satellite_id": "45230"
+        },
+        {
+          "source": "SLOT_021631",
+          "target": "SLOT_033349",
+          "reason": "same satellite",
+          "satellite_id": "44941"
+        },
+        {
+          "source": "SLOT_021078",
+          "target": "SLOT_020939",
+          "reason": "same-antenna overlap"
+        },
+        {
+          "source": "SLOT_021078",
+          "target": "SLOT_028158",
+          "reason": "same satellite",
+          "satellite_id": "45695"
+        },
+        {
+          "source": "SLOT_028158",
+          "target": "SLOT_027666",
+          "reason": "same-antenna reconfiguration time",
+          "reconfiguration_time": 0.05
+        },
+        {
+          "source": "SLOT_027666",
+          "target": "SLOT_034327",
+          "reason": "same satellite",
+          "satellite_id": "45230"
+        }
+      ]
+    }
+  },
+  {
+    "terminal_id": "component_001_dnode_1986",
+    "original_component_id": "component_001",
+    "depth": 4,
+    "node_count": 10,
+    "edge_count": 14,
+    "forced_objective": 0,
+    "forced_selected": [],
+    "terminal_reason": "fits QPU limits",
+    "graph": {
+      "nodes": [
+        {
+          "id": "SLOT_032021",
+          "source_interval_id": "VIS_066890",
+          "satellite_id": "45764",
+          "antenna_id": "ANT_GATEWAY_0022",
+          "station_id": "GATEWAY_0022",
+          "start_time": 3.583333333333333,
+          "end_time": 3.65,
+          "duration": 0.0666666666666666,
+          "reconfiguration_time": 0.05,
+          "priority": 1.0,
+          "urgency": 1.0,
+          "weight": 26.314
+        },
+        {
+          "id": "SLOT_017445",
+          "source_interval_id": "VIS_036574",
+          "satellite_id": "47793",
+          "antenna_id": "ANT_GATEWAY_0010",
+          "station_id": "GATEWAY_0010",
+          "start_time": 1.8833333333333333,
+          "end_time": 1.95,
+          "duration": 0.0666666666666666,
+          "reconfiguration_time": 0.05,
+          "priority": 4.0,
+          "urgency": 3.0,
+          "weight": 70.985
+        },
+        {
+          "id": "SLOT_031791",
+          "source_interval_id": "VIS_066354",
+          "satellite_id": "47793",
+          "antenna_id": "ANT_GATEWAY_0022",
+          "station_id": "GATEWAY_0022",
+          "start_time": 3.55,
+          "end_time": 3.616666666666666,
+          "duration": 0.0666666666666666,
+          "reconfiguration_time": 0.05,
+          "priority": 4.0,
+          "urgency": 1.0,
+          "weight": 60.747
+        },
+        {
+          "id": "SLOT_013265",
+          "source_interval_id": "VIS_028131",
+          "satellite_id": "47821",
+          "antenna_id": "ANT_GATEWAY_0015",
+          "station_id": "GATEWAY_0015",
+          "start_time": 1.4333333333333331,
+          "end_time": 1.5,
+          "duration": 0.0666666666666666,
+          "reconfiguration_time": 0.05,
+          "priority": 3.0,
+          "urgency": 4.0,
+          "weight": 61.621
+        },
+        {
+          "id": "SLOT_002470",
+          "source_interval_id": "VIS_005703",
+          "satellite_id": "47817",
+          "antenna_id": "ANT_GATEWAY_0009",
+          "station_id": "GATEWAY_0009",
+          "start_time": 0.2666666666666666,
+          "end_time": 0.3333333333333333,
+          "duration": 0.0666666666666666,
+          "reconfiguration_time": 0.05,
+          "priority": 2.0,
+          "urgency": 5.0,
+          "weight": 56.696
+        },
+        {
+          "id": "SLOT_017602",
+          "source_interval_id": "VIS_036893",
+          "satellite_id": "47793",
+          "antenna_id": "ANT_GATEWAY_0017",
+          "station_id": "GATEWAY_0017",
+          "start_time": 1.9,
+          "end_time": 1.9666666666666663,
+          "duration": 0.0666666666666666,
+          "reconfiguration_time": 0.05,
+          "priority": 3.0,
+          "urgency": 3.0,
+          "weight": 58.52
+        },
+        {
+          "id": "SLOT_017696",
+          "source_interval_id": "VIS_037144",
+          "satellite_id": "47821",
+          "antenna_id": "ANT_GATEWAY_0010",
+          "station_id": "GATEWAY_0010",
+          "start_time": 1.9166666666666667,
+          "end_time": 1.9833333333333327,
+          "duration": 0.0666666666666666,
+          "reconfiguration_time": 0.05,
+          "priority": 4.0,
+          "urgency": 3.0,
+          "weight": 72.882
+        },
+        {
+          "id": "SLOT_002993",
+          "source_interval_id": "VIS_006941",
+          "satellite_id": "47821",
+          "antenna_id": "ANT_GATEWAY_0023",
+          "station_id": "GATEWAY_0023",
+          "start_time": 0.3333333333333333,
+          "end_time": 0.4,
+          "duration": 0.0666666666666666,
+          "reconfiguration_time": 0.05,
+          "priority": 3.0,
+          "urgency": 5.0,
+          "weight": 68.977
+        },
+        {
+          "id": "SLOT_002871",
+          "source_interval_id": "VIS_006655",
+          "satellite_id": "47793",
+          "antenna_id": "ANT_GATEWAY_0023",
+          "station_id": "GATEWAY_0023",
+          "start_time": 0.3166666666666666,
+          "end_time": 0.3833333333333333,
+          "duration": 0.0666666666666666,
+          "reconfiguration_time": 0.05,
+          "priority": 4.0,
+          "urgency": 5.0,
+          "weight": 81.493
+        },
+        {
+          "id": "SLOT_016640",
+          "source_interval_id": "VIS_034910",
+          "satellite_id": "47817",
+          "antenna_id": "ANT_GATEWAY_0010",
+          "station_id": "GATEWAY_0010",
+          "start_time": 1.8,
+          "end_time": 1.8666666666666667,
+          "duration": 0.0666666666666666,
+          "reconfiguration_time": 0.05,
+          "priority": 3.0,
+          "urgency": 3.0,
+          "weight": 60.82
+        }
+      ],
+      "edges": [
+        {
+          "source": "SLOT_032021",
+          "target": "SLOT_031791",
+          "reason": "same-antenna overlap"
+        },
+        {
+          "source": "SLOT_017445",
+          "target": "SLOT_002871",
+          "reason": "same satellite",
+          "satellite_id": "47793"
+        },
+        {
+          "source": "SLOT_017445",
+          "target": "SLOT_016640",
+          "reason": "same-antenna reconfiguration time",
+          "reconfiguration_time": 0.05
+        },
+        {
+          "source": "SLOT_017445",
+          "target": "SLOT_017696",
+          "reason": "same-antenna overlap"
+        },
+        {
+          "source": "SLOT_017445",
+          "target": "SLOT_017602",
+          "reason": "same satellite",
+          "satellite_id": "47793"
+        },
+        {
+          "source": "SLOT_017445",
+          "target": "SLOT_031791",
+          "reason": "same satellite",
+          "satellite_id": "47793"
+        },
+        {
+          "source": "SLOT_031791",
+          "target": "SLOT_002871",
+          "reason": "same satellite",
+          "satellite_id": "47793"
+        },
+        {
+          "source": "SLOT_031791",
+          "target": "SLOT_017602",
+          "reason": "same satellite",
+          "satellite_id": "47793"
+        },
+        {
+          "source": "SLOT_013265",
+          "target": "SLOT_002993",
+          "reason": "same satellite",
+          "satellite_id": "47821"
+        },
+        {
+          "source": "SLOT_013265",
+          "target": "SLOT_017696",
+          "reason": "same satellite",
+          "satellite_id": "47821"
+        },
+        {
+          "source": "SLOT_002470",
+          "target": "SLOT_016640",
+          "reason": "same satellite",
+          "satellite_id": "47817"
+        },
+        {
+          "source": "SLOT_017602",
+          "target": "SLOT_002871",
+          "reason": "same satellite",
+          "satellite_id": "47793"
+        },
+        {
+          "source": "SLOT_017696",
+          "target": "SLOT_002993",
+          "reason": "same satellite",
+          "satellite_id": "47821"
+        },
+        {
+          "source": "SLOT_002993",
+          "target": "SLOT_002871",
+          "reason": "same-antenna overlap"
+        }
+      ]
+    }
+  },
+  {
+    "terminal_id": "component_001_dnode_1989",
+    "original_component_id": "component_001",
+    "depth": 2,
+    "node_count": 2,
+    "edge_count": 1,
+    "forced_objective": 0,
+    "forced_selected": [],
+    "terminal_reason": "fits QPU limits",
+    "graph": {
+      "nodes": [
+        {
+          "id": "SLOT_015399",
+          "source_interval_id": "VIS_032401",
+          "satellite_id": "47650",
+          "antenna_id": "ANT_GATEWAY_0003",
+          "station_id": "GATEWAY_0003",
+          "start_time": 1.6666666666666667,
+          "end_time": 1.7333333333333334,
+          "duration": 0.0666666666666666,
+          "reconfiguration_time": 0.05,
+          "priority": 5.0,
+          "urgency": 3.0,
+          "weight": 79.387
+        },
+        {
+          "id": "SLOT_015059",
+          "source_interval_id": "VIS_031734",
+          "satellite_id": "47386",
+          "antenna_id": "ANT_GATEWAY_0003",
+          "station_id": "GATEWAY_0003",
+          "start_time": 1.6333333333333333,
+          "end_time": 1.7,
+          "duration": 0.0666666666666666,
+          "reconfiguration_time": 0.05,
+          "priority": 5.0,
+          "urgency": 3.0,
+          "weight": 82.404
+        }
+      ],
+      "edges": [
+        {
+          "source": "SLOT_015399",
+          "target": "SLOT_015059",
+          "reason": "same-antenna overlap"
+        }
+      ]
+    }
+  },
+  {
+    "terminal_id": "component_001_dnode_1990",
+    "original_component_id": "component_001",
+    "depth": 2,
+    "node_count": 2,
+    "edge_count": 1,
+    "forced_objective": 0,
+    "forced_selected": [],
+    "terminal_reason": "fits QPU limits",
+    "graph": {
+      "nodes": [
+        {
+          "id": "SLOT_016825",
+          "source_interval_id": "VIS_035264",
+          "satellite_id": "45701",
+          "antenna_id": "ANT_GATEWAY_0003",
+          "station_id": "GATEWAY_0003",
+          "start_time": 1.8166666666666669,
+          "end_time": 1.8833333333333333,
+          "duration": 0.0666666666666666,
+          "reconfiguration_time": 0.05,
+          "priority": 2.0,
+          "urgency": 3.0,
+          "weight": 48.573
+        },
+        {
+          "id": "SLOT_016633",
+          "source_interval_id": "VIS_034894",
+          "satellite_id": "47385",
+          "antenna_id": "ANT_GATEWAY_0003",
+          "station_id": "GATEWAY_0003",
+          "start_time": 1.8,
+          "end_time": 1.8666666666666667,
+          "duration": 0.0666666666666666,
+          "reconfiguration_time": 0.05,
+          "priority": 3.0,
+          "urgency": 3.0,
+          "weight": 59.425
+        }
+      ],
+      "edges": [
+        {
+          "source": "SLOT_016825",
+          "target": "SLOT_016633",
+          "reason": "same-antenna overlap"
+        }
+      ]
+    }
+  },
+  {
+    "terminal_id": "component_001_dnode_2776",
+    "original_component_id": "component_001",
+    "depth": 3,
+    "node_count": 24,
+    "edge_count": 52,
+    "forced_objective": 0,
+    "forced_selected": [],
+    "terminal_reason": "fits QPU limits",
+    "graph": {
+      "nodes": [
+        {
+          "id": "SLOT_021198",
+          "source_interval_id": "VIS_044645",
+          "satellite_id": "45080",
+          "antenna_id": "ANT_GATEWAY_0001",
+          "station_id": "GATEWAY_0001",
+          "start_time": 2.333333333333333,
+          "end_time": 2.4,
+          "duration": 0.0666666666666666,
+          "reconfiguration_time": 0.05,
+          "priority": 4.0,
+          "urgency": 3.0,
+          "weight": 69.696
+        },
+        {
+          "id": "SLOT_022737",
+          "source_interval_id": "VIS_047812",
+          "satellite_id": "47750",
+          "antenna_id": "ANT_GATEWAY_0013",
+          "station_id": "GATEWAY_0013",
+          "start_time": 2.5166666666666666,
+          "end_time": 2.583333333333333,
+          "duration": 0.0666666666666666,
+          "reconfiguration_time": 0.05,
+          "priority": 2.0,
+          "urgency": 2.0,
+          "weight": 44.431
+        },
+        {
+          "id": "SLOT_006352",
+          "source_interval_id": "VIS_013922",
+          "satellite_id": "45786",
+          "antenna_id": "ANT_GATEWAY_0022",
+          "station_id": "GATEWAY_0022",
+          "start_time": 0.7,
+          "end_time": 0.7666666666666667,
+          "duration": 0.0666666666666666,
+          "reconfiguration_time": 0.05,
+          "priority": 5.0,
+          "urgency": 4.0,
+          "weight": 85.754
+        },
+        {
+          "id": "SLOT_021508",
+          "source_interval_id": "VIS_045270",
+          "satellite_id": "45080",
+          "antenna_id": "ANT_GATEWAY_0026",
+          "station_id": "GATEWAY_0026",
+          "start_time": 2.3666666666666667,
+          "end_time": 2.433333333333333,
+          "duration": 0.0666666666666666,
+          "reconfiguration_time": 0.05,
+          "priority": 5.0,
+          "urgency": 3.0,
+          "weight": 82.946
+        },
+        {
+          "id": "SLOT_006473",
+          "source_interval_id": "VIS_014205",
+          "satellite_id": "47750",
+          "antenna_id": "ANT_GATEWAY_0022",
+          "station_id": "GATEWAY_0022",
+          "start_time": 0.7166666666666667,
+          "end_time": 0.7833333333333333,
+          "duration": 0.0666666666666666,
+          "reconfiguration_time": 0.05,
+          "priority": 1.0,
+          "urgency": 4.0,
+          "weight": 41.269
+        },
+        {
+          "id": "SLOT_007023",
+          "source_interval_id": "VIS_015406",
+          "satellite_id": "47797",
+          "antenna_id": "ANT_GATEWAY_0004",
+          "station_id": "GATEWAY_0004",
+          "start_time": 0.7833333333333333,
+          "end_time": 0.85,
+          "duration": 0.0666666666666666,
+          "reconfiguration_time": 0.05,
+          "priority": 4.0,
+          "urgency": 4.0,
+          "weight": 74.002
+        },
+        {
+          "id": "SLOT_022293",
+          "source_interval_id": "VIS_046911",
+          "satellite_id": "45786",
+          "antenna_id": "ANT_GATEWAY_0009",
+          "station_id": "GATEWAY_0009",
+          "start_time": 2.466666666666667,
+          "end_time": 2.533333333333333,
+          "duration": 0.0666666666666666,
+          "reconfiguration_time": 0.05,
+          "priority": 5.0,
+          "urgency": 3.0,
+          "weight": 82.049
+        },
+        {
+          "id": "SLOT_022433",
+          "source_interval_id": "VIS_047175",
+          "satellite_id": "47750",
+          "antenna_id": "ANT_GATEWAY_0009",
+          "station_id": "GATEWAY_0009",
+          "start_time": 2.4833333333333334,
+          "end_time": 2.55,
+          "duration": 0.0666666666666666,
+          "reconfiguration_time": 0.05,
+          "priority": 1.0,
+          "urgency": 3.0,
+          "weight": 35.958
+        },
+        {
+          "id": "SLOT_020137",
+          "source_interval_id": "VIS_042403",
+          "satellite_id": "45060",
+          "antenna_id": "ANT_GATEWAY_0012",
+          "station_id": "GATEWAY_0012",
+          "start_time": 2.2,
+          "end_time": 2.2666666666666666,
+          "duration": 0.0666666666666666,
+          "reconfiguration_time": 0.05,
+          "priority": 5.0,
+          "urgency": 3.0,
+          "weight": 81.84
+        },
+        {
+          "id": "SLOT_007315",
+          "source_interval_id": "VIS_016071",
+          "satellite_id": "45080",
+          "antenna_id": "ANT_GATEWAY_0009",
+          "station_id": "GATEWAY_0009",
+          "start_time": 0.8166666666666667,
+          "end_time": 0.8833333333333333,
+          "duration": 0.0666666666666666,
+          "reconfiguration_time": 0.05,
+          "priority": 5.0,
+          "urgency": 4.0,
+          "weight": 86.84
+        },
+        {
+          "id": "SLOT_023764",
+          "source_interval_id": "VIS_049912",
+          "satellite_id": "44930",
+          "antenna_id": "ANT_GATEWAY_0016",
+          "station_id": "GATEWAY_0016",
+          "start_time": 2.6333333333333333,
+          "end_time": 2.7,
+          "duration": 0.0666666666666666,
+          "reconfiguration_time": 0.05,
+          "priority": 4.0,
+          "urgency": 2.0,
+          "weight": 65.795
+        },
+        {
+          "id": "SLOT_022438",
+          "source_interval_id": "VIS_047186",
+          "satellite_id": "45786",
+          "antenna_id": "ANT_GATEWAY_0013",
+          "station_id": "GATEWAY_0013",
+          "start_time": 2.4833333333333334,
+          "end_time": 2.55,
+          "duration": 0.0666666666666666,
+          "reconfiguration_time": 0.05,
+          "priority": 5.0,
+          "urgency": 3.0,
+          "weight": 84.542
+        },
+        {
+          "id": "SLOT_021208",
+          "source_interval_id": "VIS_044669",
+          "satellite_id": "45080",
+          "antenna_id": "ANT_GATEWAY_0012",
+          "station_id": "GATEWAY_0012",
+          "start_time": 2.333333333333333,
+          "end_time": 2.4,
+          "duration": 0.0666666666666666,
+          "reconfiguration_time": 0.05,
+          "priority": 5.0,
+          "urgency": 3.0,
+          "weight": 82.678
+        },
+        {
+          "id": "SLOT_016839",
+          "source_interval_id": "VIS_035294",
+          "satellite_id": "44930",
+          "antenna_id": "ANT_GATEWAY_0015",
+          "station_id": "GATEWAY_0015",
+          "start_time": 1.8166666666666669,
+          "end_time": 1.8833333333333333,
+          "duration": 0.0666666666666666,
+          "reconfiguration_time": 0.05,
+          "priority": 4.0,
+          "urgency": 3.0,
+          "weight": 70.851
+        },
+        {
+          "id": "SLOT_021224",
+          "source_interval_id": "VIS_044704",
+          "satellite_id": "47797",
+          "antenna_id": "ANT_GATEWAY_0026",
+          "station_id": "GATEWAY_0026",
+          "start_time": 2.333333333333333,
+          "end_time": 2.4,
+          "duration": 0.0666666666666666,
+          "reconfiguration_time": 0.05,
+          "priority": 5.0,
+          "urgency": 3.0,
+          "weight": 81.91
+        },
+        {
+          "id": "SLOT_017024",
+          "source_interval_id": "VIS_035677",
+          "satellite_id": "47797",
+          "antenna_id": "ANT_GATEWAY_0015",
+          "station_id": "GATEWAY_0015",
+          "start_time": 1.8333333333333333,
+          "end_time": 1.9,
+          "duration": 0.0666666666666666,
+          "reconfiguration_time": 0.05,
+          "priority": 5.0,
+          "urgency": 3.0,
+          "weight": 81.848
+        },
+        {
+          "id": "SLOT_007027",
+          "source_interval_id": "VIS_015414",
+          "satellite_id": "47797",
+          "antenna_id": "ANT_GATEWAY_0009",
+          "station_id": "GATEWAY_0009",
+          "start_time": 0.7833333333333333,
+          "end_time": 0.85,
+          "duration": 0.0666666666666666,
+          "reconfiguration_time": 0.05,
+          "priority": 5.0,
+          "urgency": 4.0,
+          "weight": 87.458
+        },
+        {
+          "id": "SLOT_007650",
+          "source_interval_id": "VIS_016736",
+          "satellite_id": "45786",
+          "antenna_id": "ANT_GATEWAY_0021",
+          "station_id": "GATEWAY_0021",
+          "start_time": 0.85,
+          "end_time": 0.9166666666666666,
+          "duration": 0.0666666666666666,
+          "reconfiguration_time": 0.05,
+          "priority": 5.0,
+          "urgency": 4.0,
+          "weight": 85.026
+        },
+        {
+          "id": "SLOT_020474",
+          "source_interval_id": "VIS_043025",
+          "satellite_id": "45060",
+          "antenna_id": "ANT_GATEWAY_0026",
+          "station_id": "GATEWAY_0026",
+          "start_time": 2.2333333333333334,
+          "end_time": 2.3,
+          "duration": 0.0666666666666666,
+          "reconfiguration_time": 0.05,
+          "priority": 5.0,
+          "urgency": 3.0,
+          "weight": 81.78
+        },
+        {
+          "id": "SLOT_020945",
+          "source_interval_id": "VIS_044109",
+          "satellite_id": "47797",
+          "antenna_id": "ANT_GATEWAY_0012",
+          "station_id": "GATEWAY_0012",
+          "start_time": 2.3,
+          "end_time": 2.3666666666666667,
+          "duration": 0.0666666666666666,
+          "reconfiguration_time": 0.05,
+          "priority": 5.0,
+          "urgency": 3.0,
+          "weight": 81.897
+        },
+        {
+          "id": "SLOT_020126",
+          "source_interval_id": "VIS_042385",
+          "satellite_id": "45060",
+          "antenna_id": "ANT_GATEWAY_0001",
+          "station_id": "GATEWAY_0001",
+          "start_time": 2.2,
+          "end_time": 2.2666666666666666,
+          "duration": 0.0666666666666666,
+          "reconfiguration_time": 0.05,
+          "priority": 5.0,
+          "urgency": 3.0,
+          "weight": 81.128
+        },
+        {
+          "id": "SLOT_022289",
+          "source_interval_id": "VIS_046904",
+          "satellite_id": "45786",
+          "antenna_id": "ANT_GATEWAY_0004",
+          "station_id": "GATEWAY_0004",
+          "start_time": 2.466666666666667,
+          "end_time": 2.533333333333333,
+          "duration": 0.0666666666666666,
+          "reconfiguration_time": 0.05,
+          "priority": 5.0,
+          "urgency": 3.0,
+          "weight": 83.99
+        },
+        {
+          "id": "SLOT_007333",
+          "source_interval_id": "VIS_016100",
+          "satellite_id": "47797",
+          "antenna_id": "ANT_GATEWAY_0021",
+          "station_id": "GATEWAY_0021",
+          "start_time": 0.8166666666666667,
+          "end_time": 0.8833333333333333,
+          "duration": 0.0666666666666666,
+          "reconfiguration_time": 0.05,
+          "priority": 4.0,
+          "urgency": 4.0,
+          "weight": 74.066
+        },
+        {
+          "id": "SLOT_022583",
+          "source_interval_id": "VIS_047487",
+          "satellite_id": "47750",
+          "antenna_id": "ANT_GATEWAY_0004",
+          "station_id": "GATEWAY_0004",
+          "start_time": 2.5,
+          "end_time": 2.566666666666667,
+          "duration": 0.0666666666666666,
+          "reconfiguration_time": 0.05,
+          "priority": 2.0,
+          "urgency": 2.0,
+          "weight": 43.937
+        }
+      ],
+      "edges": [
+        {
+          "source": "SLOT_021198",
+          "target": "SLOT_007315",
+          "reason": "same satellite",
+          "satellite_id": "45080"
+        },
+        {
+          "source": "SLOT_021198",
+          "target": "SLOT_021208",
+          "reason": "same satellite",
+          "satellite_id": "45080"
+        },
+        {
+          "source": "SLOT_021198",
+          "target": "SLOT_021508",
+          "reason": "same satellite",
+          "satellite_id": "45080"
+        },
+        {
+          "source": "SLOT_022737",
+          "target": "SLOT_006473",
+          "reason": "same satellite",
+          "satellite_id": "47750"
+        },
+        {
+          "source": "SLOT_022737",
+          "target": "SLOT_022433",
+          "reason": "same satellite",
+          "satellite_id": "47750"
+        },
+        {
+          "source": "SLOT_022737",
+          "target": "SLOT_022438",
+          "reason": "same-antenna overlap"
+        },
+        {
+          "source": "SLOT_022737",
+          "target": "SLOT_022583",
+          "reason": "same satellite",
+          "satellite_id": "47750"
+        },
+        {
+          "source": "SLOT_006352",
+          "target": "SLOT_006473",
+          "reason": "same-antenna overlap"
+        },
+        {
+          "source": "SLOT_006352",
+          "target": "SLOT_007650",
+          "reason": "same satellite",
+          "satellite_id": "45786"
+        },
+        {
+          "source": "SLOT_006352",
+          "target": "SLOT_022289",
+          "reason": "same satellite",
+          "satellite_id": "45786"
+        },
+        {
+          "source": "SLOT_006352",
+          "target": "SLOT_022293",
+          "reason": "same satellite",
+          "satellite_id": "45786"
+        },
+        {
+          "source": "SLOT_006352",
+          "target": "SLOT_022438",
+          "reason": "same satellite",
+          "satellite_id": "45786"
+        },
+        {
+          "source": "SLOT_021508",
+          "target": "SLOT_007315",
+          "reason": "same satellite",
+          "satellite_id": "45080"
+        },
+        {
+          "source": "SLOT_021508",
+          "target": "SLOT_021208",
+          "reason": "same satellite",
+          "satellite_id": "45080"
+        },
+        {
+          "source": "SLOT_021508",
+          "target": "SLOT_021224",
+          "reason": "same-antenna overlap"
+        },
+        {
+          "source": "SLOT_006473",
+          "target": "SLOT_022433",
+          "reason": "same satellite",
+          "satellite_id": "47750"
+        },
+        {
+          "source": "SLOT_006473",
+          "target": "SLOT_022583",
+          "reason": "same satellite",
+          "satellite_id": "47750"
+        },
+        {
+          "source": "SLOT_007023",
+          "target": "SLOT_007027",
+          "reason": "same satellite",
+          "satellite_id": "47797"
+        },
+        {
+          "source": "SLOT_007023",
+          "target": "SLOT_007333",
+          "reason": "same satellite",
+          "satellite_id": "47797"
+        },
+        {
+          "source": "SLOT_007023",
+          "target": "SLOT_017024",
+          "reason": "same satellite",
+          "satellite_id": "47797"
+        },
+        {
+          "source": "SLOT_007023",
+          "target": "SLOT_020945",
+          "reason": "same satellite",
+          "satellite_id": "47797"
+        },
+        {
+          "source": "SLOT_007023",
+          "target": "SLOT_021224",
+          "reason": "same satellite",
+          "satellite_id": "47797"
+        },
+        {
+          "source": "SLOT_022293",
+          "target": "SLOT_007650",
+          "reason": "same satellite",
+          "satellite_id": "45786"
+        },
+        {
+          "source": "SLOT_022293",
+          "target": "SLOT_022289",
+          "reason": "same satellite",
+          "satellite_id": "45786"
+        },
+        {
+          "source": "SLOT_022293",
+          "target": "SLOT_022433",
+          "reason": "same-antenna overlap"
+        },
+        {
+          "source": "SLOT_022293",
+          "target": "SLOT_022438",
+          "reason": "same satellite",
+          "satellite_id": "45786"
+        },
+        {
+          "source": "SLOT_022433",
+          "target": "SLOT_022583",
+          "reason": "same satellite",
+          "satellite_id": "47750"
+        },
+        {
+          "source": "SLOT_020137",
+          "target": "SLOT_020126",
+          "reason": "same satellite",
+          "satellite_id": "45060"
+        },
+        {
+          "source": "SLOT_020137",
+          "target": "SLOT_020945",
+          "reason": "same-antenna reconfiguration time",
+          "reconfiguration_time": 0.05
+        },
+        {
+          "source": "SLOT_020137",
+          "target": "SLOT_020474",
+          "reason": "same satellite",
+          "satellite_id": "45060"
+        },
+        {
+          "source": "SLOT_007315",
+          "target": "SLOT_007027",
+          "reason": "same-antenna overlap"
+        },
+        {
+          "source": "SLOT_007315",
+          "target": "SLOT_021208",
+          "reason": "same satellite",
+          "satellite_id": "45080"
+        },
+        {
+          "source": "SLOT_023764",
+          "target": "SLOT_016839",
+          "reason": "same satellite",
+          "satellite_id": "44930"
+        },
+        {
+          "source": "SLOT_022438",
+          "target": "SLOT_007650",
+          "reason": "same satellite",
+          "satellite_id": "45786"
+        },
+        {
+          "source": "SLOT_022438",
+          "target": "SLOT_022289",
+          "reason": "same satellite",
+          "satellite_id": "45786"
+        },
+        {
+          "source": "SLOT_021208",
+          "target": "SLOT_020945",
+          "reason": "same-antenna overlap"
+        },
+        {
+          "source": "SLOT_016839",
+          "target": "SLOT_017024",
+          "reason": "same-antenna overlap"
+        },
+        {
+          "source": "SLOT_021224",
+          "target": "SLOT_007027",
+          "reason": "same satellite",
+          "satellite_id": "47797"
+        },
+        {
+          "source": "SLOT_021224",
+          "target": "SLOT_007333",
+          "reason": "same satellite",
+          "satellite_id": "47797"
+        },
+        {
+          "source": "SLOT_021224",
+          "target": "SLOT_017024",
+          "reason": "same satellite",
+          "satellite_id": "47797"
+        },
+        {
+          "source": "SLOT_021224",
+          "target": "SLOT_020474",
+          "reason": "same-antenna reconfiguration time",
+          "reconfiguration_time": 0.05
+        },
+        {
+          "source": "SLOT_021224",
+          "target": "SLOT_020945",
+          "reason": "same satellite",
+          "satellite_id": "47797"
+        },
+        {
+          "source": "SLOT_017024",
+          "target": "SLOT_007027",
+          "reason": "same satellite",
+          "satellite_id": "47797"
+        },
+        {
+          "source": "SLOT_017024",
+          "target": "SLOT_007333",
+          "reason": "same satellite",
+          "satellite_id": "47797"
+        },
+        {
+          "source": "SLOT_017024",
+          "target": "SLOT_020945",
+          "reason": "same satellite",
+          "satellite_id": "47797"
+        },
+        {
+          "source": "SLOT_007027",
+          "target": "SLOT_007333",
+          "reason": "same satellite",
+          "satellite_id": "47797"
+        },
+        {
+          "source": "SLOT_007027",
+          "target": "SLOT_020945",
+          "reason": "same satellite",
+          "satellite_id": "47797"
+        },
+        {
+          "source": "SLOT_007650",
+          "target": "SLOT_007333",
+          "reason": "same-antenna overlap"
+        },
+        {
+          "source": "SLOT_007650",
+          "target": "SLOT_022289",
+          "reason": "same satellite",
+          "satellite_id": "45786"
+        },
+        {
+          "source": "SLOT_020474",
+          "target": "SLOT_020126",
+          "reason": "same satellite",
+          "satellite_id": "45060"
+        },
+        {
+          "source": "SLOT_020945",
+          "target": "SLOT_007333",
+          "reason": "same satellite",
+          "satellite_id": "47797"
+        },
+        {
+          "source": "SLOT_022289",
+          "target": "SLOT_022583",
+          "reason": "same-antenna overlap"
+        }
+      ]
+    }
+  },
+  {
+    "terminal_id": "component_001_dnode_3561",
+    "original_component_id": "component_001",
+    "depth": 3,
+    "node_count": 22,
+    "edge_count": 44,
+    "forced_objective": 0,
+    "forced_selected": [],
+    "terminal_reason": "fits QPU limits",
+    "graph": {
+      "nodes": [
+        {
+          "id": "SLOT_021198",
+          "source_interval_id": "VIS_044645",
+          "satellite_id": "45080",
+          "antenna_id": "ANT_GATEWAY_0001",
+          "station_id": "GATEWAY_0001",
+          "start_time": 2.333333333333333,
+          "end_time": 2.4,
+          "duration": 0.0666666666666666,
+          "reconfiguration_time": 0.05,
+          "priority": 4.0,
+          "urgency": 3.0,
+          "weight": 69.696
+        },
+        {
+          "id": "SLOT_022737",
+          "source_interval_id": "VIS_047812",
+          "satellite_id": "47750",
+          "antenna_id": "ANT_GATEWAY_0013",
+          "station_id": "GATEWAY_0013",
+          "start_time": 2.5166666666666666,
+          "end_time": 2.583333333333333,
+          "duration": 0.0666666666666666,
+          "reconfiguration_time": 0.05,
+          "priority": 2.0,
+          "urgency": 2.0,
+          "weight": 44.431
+        },
+        {
+          "id": "SLOT_021508",
+          "source_interval_id": "VIS_045270",
+          "satellite_id": "45080",
+          "antenna_id": "ANT_GATEWAY_0026",
+          "station_id": "GATEWAY_0026",
+          "start_time": 2.3666666666666667,
+          "end_time": 2.433333333333333,
+          "duration": 0.0666666666666666,
+          "reconfiguration_time": 0.05,
+          "priority": 5.0,
+          "urgency": 3.0,
+          "weight": 82.946
+        },
+        {
+          "id": "SLOT_007023",
+          "source_interval_id": "VIS_015406",
+          "satellite_id": "47797",
+          "antenna_id": "ANT_GATEWAY_0004",
+          "station_id": "GATEWAY_0004",
+          "start_time": 0.7833333333333333,
+          "end_time": 0.85,
+          "duration": 0.0666666666666666,
+          "reconfiguration_time": 0.05,
+          "priority": 4.0,
+          "urgency": 4.0,
+          "weight": 74.002
+        },
+        {
+          "id": "SLOT_022293",
+          "source_interval_id": "VIS_046911",
+          "satellite_id": "45786",
+          "antenna_id": "ANT_GATEWAY_0009",
+          "station_id": "GATEWAY_0009",
+          "start_time": 2.466666666666667,
+          "end_time": 2.533333333333333,
+          "duration": 0.0666666666666666,
+          "reconfiguration_time": 0.05,
+          "priority": 5.0,
+          "urgency": 3.0,
+          "weight": 82.049
+        },
+        {
+          "id": "SLOT_022433",
+          "source_interval_id": "VIS_047175",
+          "satellite_id": "47750",
+          "antenna_id": "ANT_GATEWAY_0009",
+          "station_id": "GATEWAY_0009",
+          "start_time": 2.4833333333333334,
+          "end_time": 2.55,
+          "duration": 0.0666666666666666,
+          "reconfiguration_time": 0.05,
+          "priority": 1.0,
+          "urgency": 3.0,
+          "weight": 35.958
+        },
+        {
+          "id": "SLOT_020137",
+          "source_interval_id": "VIS_042403",
+          "satellite_id": "45060",
+          "antenna_id": "ANT_GATEWAY_0012",
+          "station_id": "GATEWAY_0012",
+          "start_time": 2.2,
+          "end_time": 2.2666666666666666,
+          "duration": 0.0666666666666666,
+          "reconfiguration_time": 0.05,
+          "priority": 5.0,
+          "urgency": 3.0,
+          "weight": 81.84
+        },
+        {
+          "id": "SLOT_007315",
+          "source_interval_id": "VIS_016071",
+          "satellite_id": "45080",
+          "antenna_id": "ANT_GATEWAY_0009",
+          "station_id": "GATEWAY_0009",
+          "start_time": 0.8166666666666667,
+          "end_time": 0.8833333333333333,
+          "duration": 0.0666666666666666,
+          "reconfiguration_time": 0.05,
+          "priority": 5.0,
+          "urgency": 4.0,
+          "weight": 86.84
+        },
+        {
+          "id": "SLOT_023764",
+          "source_interval_id": "VIS_049912",
+          "satellite_id": "44930",
+          "antenna_id": "ANT_GATEWAY_0016",
+          "station_id": "GATEWAY_0016",
+          "start_time": 2.6333333333333333,
+          "end_time": 2.7,
+          "duration": 0.0666666666666666,
+          "reconfiguration_time": 0.05,
+          "priority": 4.0,
+          "urgency": 2.0,
+          "weight": 65.795
+        },
+        {
+          "id": "SLOT_022438",
+          "source_interval_id": "VIS_047186",
+          "satellite_id": "45786",
+          "antenna_id": "ANT_GATEWAY_0013",
+          "station_id": "GATEWAY_0013",
+          "start_time": 2.4833333333333334,
+          "end_time": 2.55,
+          "duration": 0.0666666666666666,
+          "reconfiguration_time": 0.05,
+          "priority": 5.0,
+          "urgency": 3.0,
+          "weight": 84.542
+        },
+        {
+          "id": "SLOT_021208",
+          "source_interval_id": "VIS_044669",
+          "satellite_id": "45080",
+          "antenna_id": "ANT_GATEWAY_0012",
+          "station_id": "GATEWAY_0012",
+          "start_time": 2.333333333333333,
+          "end_time": 2.4,
+          "duration": 0.0666666666666666,
+          "reconfiguration_time": 0.05,
+          "priority": 5.0,
+          "urgency": 3.0,
+          "weight": 82.678
+        },
+        {
+          "id": "SLOT_016839",
+          "source_interval_id": "VIS_035294",
+          "satellite_id": "44930",
+          "antenna_id": "ANT_GATEWAY_0015",
+          "station_id": "GATEWAY_0015",
+          "start_time": 1.8166666666666669,
+          "end_time": 1.8833333333333333,
+          "duration": 0.0666666666666666,
+          "reconfiguration_time": 0.05,
+          "priority": 4.0,
+          "urgency": 3.0,
+          "weight": 70.851
+        },
+        {
+          "id": "SLOT_021224",
+          "source_interval_id": "VIS_044704",
+          "satellite_id": "47797",
+          "antenna_id": "ANT_GATEWAY_0026",
+          "station_id": "GATEWAY_0026",
+          "start_time": 2.333333333333333,
+          "end_time": 2.4,
+          "duration": 0.0666666666666666,
+          "reconfiguration_time": 0.05,
+          "priority": 5.0,
+          "urgency": 3.0,
+          "weight": 81.91
+        },
+        {
+          "id": "SLOT_017024",
+          "source_interval_id": "VIS_035677",
+          "satellite_id": "47797",
+          "antenna_id": "ANT_GATEWAY_0015",
+          "station_id": "GATEWAY_0015",
+          "start_time": 1.8333333333333333,
+          "end_time": 1.9,
+          "duration": 0.0666666666666666,
+          "reconfiguration_time": 0.05,
+          "priority": 5.0,
+          "urgency": 3.0,
+          "weight": 81.848
+        },
+        {
+          "id": "SLOT_007027",
+          "source_interval_id": "VIS_015414",
+          "satellite_id": "47797",
+          "antenna_id": "ANT_GATEWAY_0009",
+          "station_id": "GATEWAY_0009",
+          "start_time": 0.7833333333333333,
+          "end_time": 0.85,
+          "duration": 0.0666666666666666,
+          "reconfiguration_time": 0.05,
+          "priority": 5.0,
+          "urgency": 4.0,
+          "weight": 87.458
+        },
+        {
+          "id": "SLOT_007650",
+          "source_interval_id": "VIS_016736",
+          "satellite_id": "45786",
+          "antenna_id": "ANT_GATEWAY_0021",
+          "station_id": "GATEWAY_0021",
+          "start_time": 0.85,
+          "end_time": 0.9166666666666666,
+          "duration": 0.0666666666666666,
+          "reconfiguration_time": 0.05,
+          "priority": 5.0,
+          "urgency": 4.0,
+          "weight": 85.026
+        },
+        {
+          "id": "SLOT_020474",
+          "source_interval_id": "VIS_043025",
+          "satellite_id": "45060",
+          "antenna_id": "ANT_GATEWAY_0026",
+          "station_id": "GATEWAY_0026",
+          "start_time": 2.2333333333333334,
+          "end_time": 2.3,
+          "duration": 0.0666666666666666,
+          "reconfiguration_time": 0.05,
+          "priority": 5.0,
+          "urgency": 3.0,
+          "weight": 81.78
+        },
+        {
+          "id": "SLOT_020945",
+          "source_interval_id": "VIS_044109",
+          "satellite_id": "47797",
+          "antenna_id": "ANT_GATEWAY_0012",
+          "station_id": "GATEWAY_0012",
+          "start_time": 2.3,
+          "end_time": 2.3666666666666667,
+          "duration": 0.0666666666666666,
+          "reconfiguration_time": 0.05,
+          "priority": 5.0,
+          "urgency": 3.0,
+          "weight": 81.897
+        },
+        {
+          "id": "SLOT_020126",
+          "source_interval_id": "VIS_042385",
+          "satellite_id": "45060",
+          "antenna_id": "ANT_GATEWAY_0001",
+          "station_id": "GATEWAY_0001",
+          "start_time": 2.2,
+          "end_time": 2.2666666666666666,
+          "duration": 0.0666666666666666,
+          "reconfiguration_time": 0.05,
+          "priority": 5.0,
+          "urgency": 3.0,
+          "weight": 81.128
+        },
+        {
+          "id": "SLOT_022289",
+          "source_interval_id": "VIS_046904",
+          "satellite_id": "45786",
+          "antenna_id": "ANT_GATEWAY_0004",
+          "station_id": "GATEWAY_0004",
+          "start_time": 2.466666666666667,
+          "end_time": 2.533333333333333,
+          "duration": 0.0666666666666666,
+          "reconfiguration_time": 0.05,
+          "priority": 5.0,
+          "urgency": 3.0,
+          "weight": 83.99
+        },
+        {
+          "id": "SLOT_007333",
+          "source_interval_id": "VIS_016100",
+          "satellite_id": "47797",
+          "antenna_id": "ANT_GATEWAY_0021",
+          "station_id": "GATEWAY_0021",
+          "start_time": 0.8166666666666667,
+          "end_time": 0.8833333333333333,
+          "duration": 0.0666666666666666,
+          "reconfiguration_time": 0.05,
+          "priority": 4.0,
+          "urgency": 4.0,
+          "weight": 74.066
+        },
+        {
+          "id": "SLOT_022583",
+          "source_interval_id": "VIS_047487",
+          "satellite_id": "47750",
+          "antenna_id": "ANT_GATEWAY_0004",
+          "station_id": "GATEWAY_0004",
+          "start_time": 2.5,
+          "end_time": 2.566666666666667,
+          "duration": 0.0666666666666666,
+          "reconfiguration_time": 0.05,
+          "priority": 2.0,
+          "urgency": 2.0,
+          "weight": 43.937
+        }
+      ],
+      "edges": [
+        {
+          "source": "SLOT_021198",
+          "target": "SLOT_007315",
+          "reason": "same satellite",
+          "satellite_id": "45080"
+        },
+        {
+          "source": "SLOT_021198",
+          "target": "SLOT_021208",
+          "reason": "same satellite",
+          "satellite_id": "45080"
+        },
+        {
+          "source": "SLOT_021198",
+          "target": "SLOT_021508",
+          "reason": "same satellite",
+          "satellite_id": "45080"
+        },
+        {
+          "source": "SLOT_022737",
+          "target": "SLOT_022433",
+          "reason": "same satellite",
+          "satellite_id": "47750"
+        },
+        {
+          "source": "SLOT_022737",
+          "target": "SLOT_022438",
+          "reason": "same-antenna overlap"
+        },
+        {
+          "source": "SLOT_022737",
+          "target": "SLOT_022583",
+          "reason": "same satellite",
+          "satellite_id": "47750"
+        },
+        {
+          "source": "SLOT_021508",
+          "target": "SLOT_007315",
+          "reason": "same satellite",
+          "satellite_id": "45080"
+        },
+        {
+          "source": "SLOT_021508",
+          "target": "SLOT_021208",
+          "reason": "same satellite",
+          "satellite_id": "45080"
+        },
+        {
+          "source": "SLOT_021508",
+          "target": "SLOT_021224",
+          "reason": "same-antenna overlap"
+        },
+        {
+          "source": "SLOT_007023",
+          "target": "SLOT_007027",
+          "reason": "same satellite",
+          "satellite_id": "47797"
+        },
+        {
+          "source": "SLOT_007023",
+          "target": "SLOT_007333",
+          "reason": "same satellite",
+          "satellite_id": "47797"
+        },
+        {
+          "source": "SLOT_007023",
+          "target": "SLOT_017024",
+          "reason": "same satellite",
+          "satellite_id": "47797"
+        },
+        {
+          "source": "SLOT_007023",
+          "target": "SLOT_020945",
+          "reason": "same satellite",
+          "satellite_id": "47797"
+        },
+        {
+          "source": "SLOT_007023",
+          "target": "SLOT_021224",
+          "reason": "same satellite",
+          "satellite_id": "47797"
+        },
+        {
+          "source": "SLOT_022293",
+          "target": "SLOT_007650",
+          "reason": "same satellite",
+          "satellite_id": "45786"
+        },
+        {
+          "source": "SLOT_022293",
+          "target": "SLOT_022289",
+          "reason": "same satellite",
+          "satellite_id": "45786"
+        },
+        {
+          "source": "SLOT_022293",
+          "target": "SLOT_022433",
+          "reason": "same-antenna overlap"
+        },
+        {
+          "source": "SLOT_022293",
+          "target": "SLOT_022438",
+          "reason": "same satellite",
+          "satellite_id": "45786"
+        },
+        {
+          "source": "SLOT_022433",
+          "target": "SLOT_022583",
+          "reason": "same satellite",
+          "satellite_id": "47750"
+        },
+        {
+          "source": "SLOT_020137",
+          "target": "SLOT_020126",
+          "reason": "same satellite",
+          "satellite_id": "45060"
+        },
+        {
+          "source": "SLOT_020137",
+          "target": "SLOT_020945",
+          "reason": "same-antenna reconfiguration time",
+          "reconfiguration_time": 0.05
+        },
+        {
+          "source": "SLOT_020137",
+          "target": "SLOT_020474",
+          "reason": "same satellite",
+          "satellite_id": "45060"
+        },
+        {
+          "source": "SLOT_007315",
+          "target": "SLOT_007027",
+          "reason": "same-antenna overlap"
+        },
+        {
+          "source": "SLOT_007315",
+          "target": "SLOT_021208",
+          "reason": "same satellite",
+          "satellite_id": "45080"
+        },
+        {
+          "source": "SLOT_023764",
+          "target": "SLOT_016839",
+          "reason": "same satellite",
+          "satellite_id": "44930"
+        },
+        {
+          "source": "SLOT_022438",
+          "target": "SLOT_007650",
+          "reason": "same satellite",
+          "satellite_id": "45786"
+        },
+        {
+          "source": "SLOT_022438",
+          "target": "SLOT_022289",
+          "reason": "same satellite",
+          "satellite_id": "45786"
+        },
+        {
+          "source": "SLOT_021208",
+          "target": "SLOT_020945",
+          "reason": "same-antenna overlap"
+        },
+        {
+          "source": "SLOT_016839",
+          "target": "SLOT_017024",
+          "reason": "same-antenna overlap"
+        },
+        {
+          "source": "SLOT_021224",
+          "target": "SLOT_007027",
+          "reason": "same satellite",
+          "satellite_id": "47797"
+        },
+        {
+          "source": "SLOT_021224",
+          "target": "SLOT_007333",
+          "reason": "same satellite",
+          "satellite_id": "47797"
+        },
+        {
+          "source": "SLOT_021224",
+          "target": "SLOT_017024",
+          "reason": "same satellite",
+          "satellite_id": "47797"
+        },
+        {
+          "source": "SLOT_021224",
+          "target": "SLOT_020474",
+          "reason": "same-antenna reconfiguration time",
+          "reconfiguration_time": 0.05
+        },
+        {
+          "source": "SLOT_021224",
+          "target": "SLOT_020945",
+          "reason": "same satellite",
+          "satellite_id": "47797"
+        },
+        {
+          "source": "SLOT_017024",
+          "target": "SLOT_007027",
+          "reason": "same satellite",
+          "satellite_id": "47797"
+        },
+        {
+          "source": "SLOT_017024",
+          "target": "SLOT_007333",
+          "reason": "same satellite",
+          "satellite_id": "47797"
+        },
+        {
+          "source": "SLOT_017024",
+          "target": "SLOT_020945",
+          "reason": "same satellite",
+          "satellite_id": "47797"
+        },
+        {
+          "source": "SLOT_007027",
+          "target": "SLOT_007333",
+          "reason": "same satellite",
+          "satellite_id": "47797"
+        },
+        {
+          "source": "SLOT_007027",
+          "target": "SLOT_020945",
+          "reason": "same satellite",
+          "satellite_id": "47797"
+        },
+        {
+          "source": "SLOT_007650",
+          "target": "SLOT_007333",
+          "reason": "same-antenna overlap"
+        },
+        {
+          "source": "SLOT_007650",
+          "target": "SLOT_022289",
+          "reason": "same satellite",
+          "satellite_id": "45786"
+        },
+        {
+          "source": "SLOT_020474",
+          "target": "SLOT_020126",
+          "reason": "same satellite",
+          "satellite_id": "45060"
+        },
+        {
+          "source": "SLOT_020945",
+          "target": "SLOT_007333",
+          "reason": "same satellite",
+          "satellite_id": "47797"
+        },
+        {
+          "source": "SLOT_022289",
+          "target": "SLOT_022583",
+          "reason": "same-antenna overlap"
+        }
+      ]
+    }
+  },
+  {
+    "terminal_id": "component_001_dnode_3563",
+    "original_component_id": "component_001",
+    "depth": 1,
+    "node_count": 6,
+    "edge_count": 6,
+    "forced_objective": 0,
+    "forced_selected": [],
+    "terminal_reason": "fits QPU limits",
+    "graph": {
+      "nodes": [
+        {
+          "id": "SLOT_020591",
+          "source_interval_id": "VIS_043275",
+          "satellite_id": "45054",
+          "antenna_id": "ANT_GATEWAY_0009",
+          "station_id": "GATEWAY_0009",
+          "start_time": 2.25,
+          "end_time": 2.316666666666667,
+          "duration": 0.0666666666666666,
+          "reconfiguration_time": 0.05,
+          "priority": 5.0,
+          "urgency": 3.0,
+          "weight": 83.259
+        },
+        {
+          "id": "SLOT_007490",
+          "source_interval_id": "VIS_016408",
+          "satellite_id": "45206",
+          "antenna_id": "ANT_GATEWAY_0016",
+          "station_id": "GATEWAY_0016",
+          "start_time": 0.8333333333333334,
+          "end_time": 0.9,
+          "duration": 0.0666666666666666,
+          "reconfiguration_time": 0.05,
+          "priority": 3.0,
+          "urgency": 4.0,
+          "weight": 63.864
+        },
+        {
+          "id": "SLOT_020007",
+          "source_interval_id": "VIS_042120",
+          "satellite_id": "45054",
+          "antenna_id": "ANT_GATEWAY_0019",
+          "station_id": "GATEWAY_0019",
+          "start_time": 2.183333333333333,
+          "end_time": 2.25,
+          "duration": 0.0666666666666666,
+          "reconfiguration_time": 0.05,
+          "priority": 5.0,
+          "urgency": 3.0,
+          "weight": 81.901
+        },
+        {
+          "id": "SLOT_020460",
+          "source_interval_id": "VIS_042997",
+          "satellite_id": "47745",
+          "antenna_id": "ANT_GATEWAY_0009",
+          "station_id": "GATEWAY_0009",
+          "start_time": 2.2333333333333334,
+          "end_time": 2.3,
+          "duration": 0.0666666666666666,
+          "reconfiguration_time": 0.05,
+          "priority": 3.0,
+          "urgency": 3.0,
+          "weight": 57.789
+        },
+        {
+          "id": "SLOT_007923",
+          "source_interval_id": "VIS_017368",
+          "satellite_id": "45206",
+          "antenna_id": "ANT_GATEWAY_0002",
+          "station_id": "GATEWAY_0002",
+          "start_time": 0.8833333333333333,
+          "end_time": 0.95,
+          "duration": 0.0666666666666666,
+          "reconfiguration_time": 0.05,
+          "priority": 4.0,
+          "urgency": 4.0,
+          "weight": 75.427
+        },
+        {
+          "id": "SLOT_008080",
+          "source_interval_id": "VIS_017695",
+          "satellite_id": "45054",
+          "antenna_id": "ANT_GATEWAY_0002",
+          "station_id": "GATEWAY_0002",
+          "start_time": 0.9,
+          "end_time": 0.9666666666666668,
+          "duration": 0.0666666666666666,
+          "reconfiguration_time": 0.05,
+          "priority": 5.0,
+          "urgency": 4.0,
+          "weight": 86.739
+        }
+      ],
+      "edges": [
+        {
+          "source": "SLOT_020591",
+          "target": "SLOT_008080",
+          "reason": "same satellite",
+          "satellite_id": "45054"
+        },
+        {
+          "source": "SLOT_020591",
+          "target": "SLOT_020007",
+          "reason": "same satellite",
+          "satellite_id": "45054"
+        },
+        {
+          "source": "SLOT_020591",
+          "target": "SLOT_020460",
+          "reason": "same-antenna overlap"
+        },
+        {
+          "source": "SLOT_007490",
+          "target": "SLOT_007923",
+          "reason": "same satellite",
+          "satellite_id": "45206"
+        },
+        {
+          "source": "SLOT_020007",
+          "target": "SLOT_008080",
+          "reason": "same satellite",
+          "satellite_id": "45054"
+        },
+        {
+          "source": "SLOT_007923",
+          "target": "SLOT_008080",
+          "reason": "same-antenna overlap"
+        }
+      ]
+    }
+  },
+  {
+    "terminal_id": "component_001_dnode_7078",
+    "original_component_id": "component_001",
+    "depth": 1,
+    "node_count": 4,
+    "edge_count": 3,
+    "forced_objective": 0,
+    "forced_selected": [],
+    "terminal_reason": "fits QPU limits",
+    "graph": {
+      "nodes": [
+        {
+          "id": "SLOT_007490",
+          "source_interval_id": "VIS_016408",
+          "satellite_id": "45206",
+          "antenna_id": "ANT_GATEWAY_0016",
+          "station_id": "GATEWAY_0016",
+          "start_time": 0.8333333333333334,
+          "end_time": 0.9,
+          "duration": 0.0666666666666666,
+          "reconfiguration_time": 0.05,
+          "priority": 3.0,
+          "urgency": 4.0,
+          "weight": 63.864
+        },
+        {
+          "id": "SLOT_020591",
+          "source_interval_id": "VIS_043275",
+          "satellite_id": "45054",
+          "antenna_id": "ANT_GATEWAY_0009",
+          "station_id": "GATEWAY_0009",
+          "start_time": 2.25,
+          "end_time": 2.316666666666667,
+          "duration": 0.0666666666666666,
+          "reconfiguration_time": 0.05,
+          "priority": 5.0,
+          "urgency": 3.0,
+          "weight": 83.259
+        },
+        {
+          "id": "SLOT_007923",
+          "source_interval_id": "VIS_017368",
+          "satellite_id": "45206",
+          "antenna_id": "ANT_GATEWAY_0002",
+          "station_id": "GATEWAY_0002",
+          "start_time": 0.8833333333333333,
+          "end_time": 0.95,
+          "duration": 0.0666666666666666,
+          "reconfiguration_time": 0.05,
+          "priority": 4.0,
+          "urgency": 4.0,
+          "weight": 75.427
+        },
+        {
+          "id": "SLOT_008080",
+          "source_interval_id": "VIS_017695",
+          "satellite_id": "45054",
+          "antenna_id": "ANT_GATEWAY_0002",
+          "station_id": "GATEWAY_0002",
+          "start_time": 0.9,
+          "end_time": 0.9666666666666668,
+          "duration": 0.0666666666666666,
+          "reconfiguration_time": 0.05,
+          "priority": 5.0,
+          "urgency": 4.0,
+          "weight": 86.739
+        }
+      ],
+      "edges": [
+        {
+          "source": "SLOT_007490",
+          "target": "SLOT_007923",
+          "reason": "same satellite",
+          "satellite_id": "45206"
+        },
+        {
+          "source": "SLOT_020591",
+          "target": "SLOT_008080",
+          "reason": "same satellite",
+          "satellite_id": "45054"
+        },
+        {
+          "source": "SLOT_007923",
+          "target": "SLOT_008080",
+          "reason": "same-antenna overlap"
+        }
+      ]
+    }
+  },
+  {
+    "terminal_id": "component_002_dnode_0001",
+    "original_component_id": "component_002",
+    "depth": 0,
+    "node_count": 9,
+    "edge_count": 20,
+    "forced_objective": 0,
+    "forced_selected": [],
+    "terminal_reason": "fits QPU limits",
+    "graph": {
+      "nodes": [
+        {
+          "id": "SLOT_029980",
+          "source_interval_id": "VIS_062408",
+          "satellite_id": "44723",
+          "antenna_id": "ANT_GATEWAY_0011",
+          "station_id": "GATEWAY_0011",
+          "start_time": 3.333333333333333,
+          "end_time": 3.4,
+          "duration": 0.0666666666666666,
+          "reconfiguration_time": 0.05,
+          "priority": 4.0,
+          "urgency": 2.0,
+          "weight": 67.498
+        },
+        {
+          "id": "SLOT_030525",
+          "source_interval_id": "VIS_063591",
+          "satellite_id": "44748",
+          "antenna_id": "ANT_GATEWAY_0026",
+          "station_id": "GATEWAY_0026",
+          "start_time": 3.4,
+          "end_time": 3.466666666666667,
+          "duration": 0.0666666666666666,
+          "reconfiguration_time": 0.05,
+          "priority": 5.0,
+          "urgency": 2.0,
+          "weight": 76.688
+        },
+        {
+          "id": "SLOT_001885",
+          "source_interval_id": "VIS_004497",
+          "satellite_id": "44723",
+          "antenna_id": "ANT_GATEWAY_0021",
+          "station_id": "GATEWAY_0021",
+          "start_time": 0.2,
+          "end_time": 0.2666666666666666,
+          "duration": 0.0666666666666666,
+          "reconfiguration_time": 0.05,
+          "priority": 4.0,
+          "urgency": 5.0,
+          "weight": 81.95
+        },
+        {
+          "id": "SLOT_030236",
+          "source_interval_id": "VIS_062944",
+          "satellite_id": "44748",
+          "antenna_id": "ANT_GATEWAY_0011",
+          "station_id": "GATEWAY_0011",
+          "start_time": 3.3666666666666667,
+          "end_time": 3.433333333333333,
+          "duration": 0.0666666666666666,
+          "reconfiguration_time": 0.05,
+          "priority": 5.0,
+          "urgency": 2.0,
+          "weight": 77.125
+        },
+        {
+          "id": "SLOT_017016",
+          "source_interval_id": "VIS_035663",
+          "satellite_id": "44723",
+          "antenna_id": "ANT_GATEWAY_0007",
+          "station_id": "GATEWAY_0007",
+          "start_time": 1.8333333333333333,
+          "end_time": 1.9,
+          "duration": 0.0666666666666666,
+          "reconfiguration_time": 0.05,
+          "priority": 4.0,
+          "urgency": 3.0,
+          "weight": 70.745
+        },
+        {
+          "id": "SLOT_002748",
+          "source_interval_id": "VIS_006343",
+          "satellite_id": "44748",
+          "antenna_id": "ANT_GATEWAY_0021",
+          "station_id": "GATEWAY_0021",
+          "start_time": 0.3,
+          "end_time": 0.3666666666666666,
+          "duration": 0.0666666666666666,
+          "reconfiguration_time": 0.05,
+          "priority": 5.0,
+          "urgency": 5.0,
+          "weight": 91.919
+        },
+        {
+          "id": "SLOT_017592",
+          "source_interval_id": "VIS_036869",
+          "satellite_id": "44748",
+          "antenna_id": "ANT_GATEWAY_0007",
+          "station_id": "GATEWAY_0007",
+          "start_time": 1.9,
+          "end_time": 1.9666666666666663,
+          "duration": 0.0666666666666666,
+          "reconfiguration_time": 0.05,
+          "priority": 4.0,
+          "urgency": 3.0,
+          "weight": 69.364
+        },
+        {
+          "id": "SLOT_030820",
+          "source_interval_id": "VIS_064270",
+          "satellite_id": "44723",
+          "antenna_id": "ANT_GATEWAY_0019",
+          "station_id": "GATEWAY_0019",
+          "start_time": 3.433333333333333,
+          "end_time": 3.5,
+          "duration": 0.0666666666666666,
+          "reconfiguration_time": 0.05,
+          "priority": 4.0,
+          "urgency": 2.0,
+          "weight": 65.763
+        },
+        {
+          "id": "SLOT_030250",
+          "source_interval_id": "VIS_062979",
+          "satellite_id": "44723",
+          "antenna_id": "ANT_GATEWAY_0026",
+          "station_id": "GATEWAY_0026",
+          "start_time": 3.3666666666666667,
+          "end_time": 3.433333333333333,
+          "duration": 0.0666666666666666,
+          "reconfiguration_time": 0.05,
+          "priority": 4.0,
+          "urgency": 2.0,
+          "weight": 66.949
+        }
+      ],
+      "edges": [
+        {
+          "source": "SLOT_029980",
+          "target": "SLOT_001885",
+          "reason": "same satellite",
+          "satellite_id": "44723"
+        },
+        {
+          "source": "SLOT_029980",
+          "target": "SLOT_017016",
+          "reason": "same satellite",
+          "satellite_id": "44723"
+        },
+        {
+          "source": "SLOT_029980",
+          "target": "SLOT_030236",
+          "reason": "same-antenna overlap"
+        },
+        {
+          "source": "SLOT_029980",
+          "target": "SLOT_030250",
+          "reason": "same satellite",
+          "satellite_id": "44723"
+        },
+        {
+          "source": "SLOT_029980",
+          "target": "SLOT_030820",
+          "reason": "same satellite",
+          "satellite_id": "44723"
+        },
+        {
+          "source": "SLOT_030525",
+          "target": "SLOT_002748",
+          "reason": "same satellite",
+          "satellite_id": "44748"
+        },
+        {
+          "source": "SLOT_030525",
+          "target": "SLOT_017592",
+          "reason": "same satellite",
+          "satellite_id": "44748"
+        },
+        {
+          "source": "SLOT_030525",
+          "target": "SLOT_030236",
+          "reason": "same satellite",
+          "satellite_id": "44748"
+        },
+        {
+          "source": "SLOT_030525",
+          "target": "SLOT_030250",
+          "reason": "same-antenna overlap"
+        },
+        {
+          "source": "SLOT_001885",
+          "target": "SLOT_002748",
+          "reason": "same-antenna reconfiguration time",
+          "reconfiguration_time": 0.05
+        },
+        {
+          "source": "SLOT_001885",
+          "target": "SLOT_017016",
+          "reason": "same satellite",
+          "satellite_id": "44723"
+        },
+        {
+          "source": "SLOT_001885",
+          "target": "SLOT_030250",
+          "reason": "same satellite",
+          "satellite_id": "44723"
+        },
+        {
+          "source": "SLOT_001885",
+          "target": "SLOT_030820",
+          "reason": "same satellite",
+          "satellite_id": "44723"
+        },
+        {
+          "source": "SLOT_030236",
+          "target": "SLOT_002748",
+          "reason": "same satellite",
+          "satellite_id": "44748"
+        },
+        {
+          "source": "SLOT_030236",
+          "target": "SLOT_017592",
+          "reason": "same satellite",
+          "satellite_id": "44748"
+        },
+        {
+          "source": "SLOT_017016",
+          "target": "SLOT_017592",
+          "reason": "same-antenna reconfiguration time",
+          "reconfiguration_time": 0.05
+        },
+        {
+          "source": "SLOT_017016",
+          "target": "SLOT_030250",
+          "reason": "same satellite",
+          "satellite_id": "44723"
+        },
+        {
+          "source": "SLOT_017016",
+          "target": "SLOT_030820",
+          "reason": "same satellite",
+          "satellite_id": "44723"
+        },
+        {
+          "source": "SLOT_002748",
+          "target": "SLOT_017592",
+          "reason": "same satellite",
+          "satellite_id": "44748"
+        },
+        {
+          "source": "SLOT_030820",
+          "target": "SLOT_030250",
+          "reason": "same satellite",
+          "satellite_id": "44723"
+        }
+      ]
+    }
+  },
+  {
+    "terminal_id": "component_003_dnode_0001",
+    "original_component_id": "component_003",
+    "depth": 0,
+    "node_count": 8,
+    "edge_count": 7,
+    "forced_objective": 0,
+    "forced_selected": [],
+    "terminal_reason": "fits QPU limits",
+    "graph": {
+      "nodes": [
+        {
+          "id": "SLOT_014254",
+          "source_interval_id": "VIS_030169",
+          "satellite_id": "45064",
+          "antenna_id": "ANT_GATEWAY_0023",
+          "station_id": "GATEWAY_0023",
+          "start_time": 1.55,
+          "end_time": 1.6166666666666667,
+          "duration": 0.0666666666666666,
+          "reconfiguration_time": 0.05,
+          "priority": 5.0,
+          "urgency": 3.0,
+          "weight": 83.167
+        },
+        {
+          "id": "SLOT_002863",
+          "source_interval_id": "VIS_006639",
+          "satellite_id": "47822",
+          "antenna_id": "ANT_GATEWAY_0016",
+          "station_id": "GATEWAY_0016",
+          "start_time": 0.3166666666666666,
+          "end_time": 0.3833333333333333,
+          "duration": 0.0666666666666666,
+          "reconfiguration_time": 0.05,
+          "priority": 5.0,
+          "urgency": 5.0,
+          "weight": 93.398
+        },
+        {
+          "id": "SLOT_002313",
+          "source_interval_id": "VIS_005405",
+          "satellite_id": "45074",
+          "antenna_id": "ANT_GATEWAY_0016",
+          "station_id": "GATEWAY_0016",
+          "start_time": 0.25,
+          "end_time": 0.3166666666666666,
+          "duration": 0.0666666666666666,
+          "reconfiguration_time": 0.05,
+          "priority": 3.0,
+          "urgency": 5.0,
+          "weight": 71.281
+        },
+        {
+          "id": "SLOT_003882",
+          "source_interval_id": "VIS_008831",
+          "satellite_id": "47157",
+          "antenna_id": "ANT_GATEWAY_0002",
+          "station_id": "GATEWAY_0002",
+          "start_time": 0.4333333333333333,
+          "end_time": 0.5,
+          "duration": 0.0666666666666666,
+          "reconfiguration_time": 0.05,
+          "priority": 3.0,
+          "urgency": 5.0,
+          "weight": 70.399
+        },
+        {
+          "id": "SLOT_003448",
+          "source_interval_id": "VIS_007895",
+          "satellite_id": "47157",
+          "antenna_id": "ANT_GATEWAY_0016",
+          "station_id": "GATEWAY_0016",
+          "start_time": 0.3833333333333333,
+          "end_time": 0.45,
+          "duration": 0.0666666666666666,
+          "reconfiguration_time": 0.05,
+          "priority": 3.0,
+          "urgency": 5.0,
+          "weight": 71.034
+        },
+        {
+          "id": "SLOT_001880",
+          "source_interval_id": "VIS_004488",
+          "satellite_id": "45064",
+          "antenna_id": "ANT_GATEWAY_0016",
+          "station_id": "GATEWAY_0016",
+          "start_time": 0.2,
+          "end_time": 0.2666666666666666,
+          "duration": 0.0666666666666666,
+          "reconfiguration_time": 0.05,
+          "priority": 5.0,
+          "urgency": 5.0,
+          "weight": 92.215
+        },
+        {
+          "id": "SLOT_000698",
+          "source_interval_id": "VIS_002014",
+          "satellite_id": "45074",
+          "antenna_id": "ANT_GATEWAY_0021",
+          "station_id": "GATEWAY_0021",
+          "start_time": 0.0666666666666666,
+          "end_time": 0.1333333333333333,
+          "duration": 0.0666666666666666,
+          "reconfiguration_time": 0.05,
+          "priority": 3.0,
+          "urgency": 5.0,
+          "weight": 69.521
+        },
+        {
+          "id": "SLOT_000576",
+          "source_interval_id": "VIS_001731",
+          "satellite_id": "47822",
+          "antenna_id": "ANT_GATEWAY_0024",
+          "station_id": "GATEWAY_0024",
+          "start_time": 0.05,
+          "end_time": 0.1166666666666666,
+          "duration": 0.0666666666666666,
+          "reconfiguration_time": 0.05,
+          "priority": 5.0,
+          "urgency": 5.0,
+          "weight": 92.879
+        }
+      ],
+      "edges": [
+        {
+          "source": "SLOT_014254",
+          "target": "SLOT_001880",
+          "reason": "same satellite",
+          "satellite_id": "45064"
+        },
+        {
+          "source": "SLOT_002863",
+          "target": "SLOT_000576",
+          "reason": "same satellite",
+          "satellite_id": "47822"
+        },
+        {
+          "source": "SLOT_002863",
+          "target": "SLOT_002313",
+          "reason": "same-antenna reconfiguration time",
+          "reconfiguration_time": 0.05
+        },
+        {
+          "source": "SLOT_002863",
+          "target": "SLOT_003448",
+          "reason": "same-antenna reconfiguration time",
+          "reconfiguration_time": 0.05
+        },
+        {
+          "source": "SLOT_002313",
+          "target": "SLOT_000698",
+          "reason": "same satellite",
+          "satellite_id": "45074"
+        },
+        {
+          "source": "SLOT_002313",
+          "target": "SLOT_001880",
+          "reason": "same-antenna overlap"
+        },
+        {
+          "source": "SLOT_003882",
+          "target": "SLOT_003448",
+          "reason": "same satellite",
+          "satellite_id": "47157"
+        }
+      ]
+    }
+  },
+  {
+    "terminal_id": "component_004_dnode_0001",
+    "original_component_id": "component_004",
+    "depth": 0,
+    "node_count": 6,
+    "edge_count": 8,
+    "forced_objective": 0,
+    "forced_selected": [],
+    "terminal_reason": "fits QPU limits",
+    "graph": {
+      "nodes": [
+        {
+          "id": "SLOT_032845",
+          "source_interval_id": "VIS_068688",
+          "satellite_id": "44718",
+          "antenna_id": "ANT_GATEWAY_0003",
+          "station_id": "GATEWAY_0003",
+          "start_time": 3.683333333333333,
+          "end_time": 3.75,
+          "duration": 0.0666666666666666,
+          "reconfiguration_time": 0.05,
+          "priority": 3.0,
+          "urgency": 1.0,
+          "weight": 50.567
+        },
+        {
+          "id": "SLOT_032551",
+          "source_interval_id": "VIS_068069",
+          "satellite_id": "47655",
+          "antenna_id": "ANT_GATEWAY_0003",
+          "station_id": "GATEWAY_0003",
+          "start_time": 3.65,
+          "end_time": 3.716666666666667,
+          "duration": 0.0666666666666666,
+          "reconfiguration_time": 0.05,
+          "priority": 5.0,
+          "urgency": 1.0,
+          "weight": 72.138
+        },
+        {
+          "id": "SLOT_033445",
+          "source_interval_id": "VIS_070049",
+          "satellite_id": "47388",
+          "antenna_id": "ANT_GATEWAY_0003",
+          "station_id": "GATEWAY_0003",
+          "start_time": 3.7666666666666666,
+          "end_time": 3.8333333333333335,
+          "duration": 0.0666666666666666,
+          "reconfiguration_time": 0.05,
+          "priority": 3.0,
+          "urgency": 1.0,
+          "weight": 49.311
+        },
+        {
+          "id": "SLOT_032413",
+          "source_interval_id": "VIS_067777",
+          "satellite_id": "47375",
+          "antenna_id": "ANT_GATEWAY_0003",
+          "station_id": "GATEWAY_0003",
+          "start_time": 3.633333333333333,
+          "end_time": 3.7,
+          "duration": 0.0666666666666666,
+          "reconfiguration_time": 0.05,
+          "priority": 4.0,
+          "urgency": 1.0,
+          "weight": 60.273
+        },
+        {
+          "id": "SLOT_033335",
+          "source_interval_id": "VIS_069800",
+          "satellite_id": "47376",
+          "antenna_id": "ANT_GATEWAY_0003",
+          "station_id": "GATEWAY_0003",
+          "start_time": 3.75,
+          "end_time": 3.816666666666667,
+          "duration": 0.0666666666666666,
+          "reconfiguration_time": 0.05,
+          "priority": 2.0,
+          "urgency": 1.0,
+          "weight": 36.765
+        },
+        {
+          "id": "SLOT_022178",
+          "source_interval_id": "VIS_046683",
+          "satellite_id": "44718",
+          "antenna_id": "ANT_GATEWAY_0023",
+          "station_id": "GATEWAY_0023",
+          "start_time": 2.45,
+          "end_time": 2.5166666666666666,
+          "duration": 0.0666666666666666,
+          "reconfiguration_time": 0.05,
+          "priority": 2.0,
+          "urgency": 3.0,
+          "weight": 47.44
+        }
+      ],
+      "edges": [
+        {
+          "source": "SLOT_032845",
+          "target": "SLOT_022178",
+          "reason": "same satellite",
+          "satellite_id": "44718"
+        },
+        {
+          "source": "SLOT_032845",
+          "target": "SLOT_032413",
+          "reason": "same-antenna overlap"
+        },
+        {
+          "source": "SLOT_032845",
+          "target": "SLOT_032551",
+          "reason": "same-antenna overlap"
+        },
+        {
+          "source": "SLOT_032845",
+          "target": "SLOT_033335",
+          "reason": "same-antenna reconfiguration time",
+          "reconfiguration_time": 0.05
+        },
+        {
+          "source": "SLOT_032845",
+          "target": "SLOT_033445",
+          "reason": "same-antenna reconfiguration time",
+          "reconfiguration_time": 0.05
+        },
+        {
+          "source": "SLOT_032551",
+          "target": "SLOT_032413",
+          "reason": "same-antenna overlap"
+        },
+        {
+          "source": "SLOT_032551",
+          "target": "SLOT_033335",
+          "reason": "same-antenna reconfiguration time",
+          "reconfiguration_time": 0.05
+        },
+        {
+          "source": "SLOT_033445",
+          "target": "SLOT_033335",
+          "reason": "same-antenna overlap"
+        }
+      ]
+    }
+  },
+  {
+    "terminal_id": "component_005_dnode_0001",
+    "original_component_id": "component_005",
+    "depth": 0,
+    "node_count": 5,
+    "edge_count": 4,
+    "forced_objective": 0,
+    "forced_selected": [],
+    "terminal_reason": "fits QPU limits",
+    "graph": {
+      "nodes": [
+        {
+          "id": "SLOT_029471",
+          "source_interval_id": "VIS_061447",
+          "satellite_id": "47367",
+          "antenna_id": "ANT_GATEWAY_0003",
+          "station_id": "GATEWAY_0003",
+          "start_time": 3.283333333333333,
+          "end_time": 3.35,
+          "duration": 0.0666666666666666,
+          "reconfiguration_time": 0.05,
+          "priority": 5.0,
+          "urgency": 2.0,
+          "weight": 79.065
+        },
+        {
+          "id": "SLOT_028661",
+          "source_interval_id": "VIS_059787",
+          "satellite_id": "47390",
+          "antenna_id": "ANT_GATEWAY_0003",
+          "station_id": "GATEWAY_0003",
+          "start_time": 3.183333333333333,
+          "end_time": 3.25,
+          "duration": 0.0666666666666666,
+          "reconfiguration_time": 0.05,
+          "priority": 1.0,
+          "urgency": 2.0,
+          "weight": 30.5
+        },
+        {
+          "id": "SLOT_030962",
+          "source_interval_id": "VIS_064580",
+          "satellite_id": "45676",
+          "antenna_id": "ANT_GATEWAY_0003",
+          "station_id": "GATEWAY_0003",
+          "start_time": 3.45,
+          "end_time": 3.5166666666666666,
+          "duration": 0.0666666666666666,
+          "reconfiguration_time": 0.05,
+          "priority": 4.0,
+          "urgency": 2.0,
+          "weight": 68.402
+        },
+        {
+          "id": "SLOT_029975",
+          "source_interval_id": "VIS_062397",
+          "satellite_id": "45677",
+          "antenna_id": "ANT_GATEWAY_0003",
+          "station_id": "GATEWAY_0003",
+          "start_time": 3.333333333333333,
+          "end_time": 3.4,
+          "duration": 0.0666666666666666,
+          "reconfiguration_time": 0.05,
+          "priority": 4.0,
+          "urgency": 2.0,
+          "weight": 67.154
+        },
+        {
+          "id": "SLOT_030653",
+          "source_interval_id": "VIS_063892",
+          "satellite_id": "47628",
+          "antenna_id": "ANT_GATEWAY_0003",
+          "station_id": "GATEWAY_0003",
+          "start_time": 3.4166666666666665,
+          "end_time": 3.4833333333333334,
+          "duration": 0.0666666666666666,
+          "reconfiguration_time": 0.05,
+          "priority": 2.0,
+          "urgency": 2.0,
+          "weight": 43.459
+        }
+      ],
+      "edges": [
+        {
+          "source": "SLOT_029471",
+          "target": "SLOT_028661",
+          "reason": "same-antenna reconfiguration time",
+          "reconfiguration_time": 0.05
+        },
+        {
+          "source": "SLOT_029471",
+          "target": "SLOT_029975",
+          "reason": "same-antenna overlap"
+        },
+        {
+          "source": "SLOT_030962",
+          "target": "SLOT_030653",
+          "reason": "same-antenna overlap"
+        },
+        {
+          "source": "SLOT_029975",
+          "target": "SLOT_030653",
+          "reason": "same-antenna reconfiguration time",
+          "reconfiguration_time": 0.05
+        }
+      ]
+    }
+  },
+  {
+    "terminal_id": "component_006_dnode_0001",
+    "original_component_id": "component_006",
+    "depth": 0,
+    "node_count": 3,
+    "edge_count": 2,
+    "forced_objective": 0,
+    "forced_selected": [],
+    "terminal_reason": "fits QPU limits",
+    "graph": {
+      "nodes": [
+        {
+          "id": "SLOT_004216",
+          "source_interval_id": "VIS_009521",
+          "satellite_id": "46706",
+          "antenna_id": "ANT_GATEWAY_0005",
+          "station_id": "GATEWAY_0005",
+          "start_time": 0.4666666666666667,
+          "end_time": 0.5333333333333333,
+          "duration": 0.0666666666666666,
+          "reconfiguration_time": 0.05,
+          "priority": 5.0,
+          "urgency": 5.0,
+          "weight": 91.873
+        },
+        {
+          "id": "SLOT_000991",
+          "source_interval_id": "VIS_002638",
+          "satellite_id": "46706",
+          "antenna_id": "ANT_GATEWAY_0018",
+          "station_id": "GATEWAY_0018",
+          "start_time": 0.1,
+          "end_time": 0.1666666666666666,
+          "duration": 0.0666666666666666,
+          "reconfiguration_time": 0.05,
+          "priority": 5.0,
+          "urgency": 5.0,
+          "weight": 92.113
+        },
+        {
+          "id": "SLOT_001162",
+          "source_interval_id": "VIS_002972",
+          "satellite_id": "46079",
+          "antenna_id": "ANT_GATEWAY_0018",
+          "station_id": "GATEWAY_0018",
+          "start_time": 0.1166666666666666,
+          "end_time": 0.1833333333333333,
+          "duration": 0.0666666666666666,
+          "reconfiguration_time": 0.05,
+          "priority": 4.0,
+          "urgency": 5.0,
+          "weight": 78.101
+        }
+      ],
+      "edges": [
+        {
+          "source": "SLOT_004216",
+          "target": "SLOT_000991",
+          "reason": "same satellite",
+          "satellite_id": "46706"
+        },
+        {
+          "source": "SLOT_000991",
+          "target": "SLOT_001162",
+          "reason": "same-antenna overlap"
+        }
+      ]
+    }
+  },
+  {
+    "terminal_id": "component_007_dnode_0001",
+    "original_component_id": "component_007",
+    "depth": 0,
+    "node_count": 3,
+    "edge_count": 2,
+    "forced_objective": 0,
+    "forced_selected": [],
+    "terminal_reason": "fits QPU limits",
+    "graph": {
+      "nodes": [
+        {
+          "id": "SLOT_003881",
+          "source_interval_id": "VIS_008829",
+          "satellite_id": "45383",
+          "antenna_id": "ANT_GATEWAY_0001",
+          "station_id": "GATEWAY_0001",
+          "start_time": 0.4333333333333333,
+          "end_time": 0.5,
+          "duration": 0.0666666666666666,
+          "reconfiguration_time": 0.05,
+          "priority": 1.0,
+          "urgency": 5.0,
+          "weight": 46.587
+        },
+        {
+          "id": "SLOT_003607",
+          "source_interval_id": "VIS_008256",
+          "satellite_id": "46047",
+          "antenna_id": "ANT_GATEWAY_0018",
+          "station_id": "GATEWAY_0018",
+          "start_time": 0.4,
+          "end_time": 0.4666666666666667,
+          "duration": 0.0666666666666666,
+          "reconfiguration_time": 0.05,
+          "priority": 5.0,
+          "urgency": 5.0,
+          "weight": 93.555
+        },
+        {
+          "id": "SLOT_003434",
+          "source_interval_id": "VIS_007860",
+          "satellite_id": "46047",
+          "antenna_id": "ANT_GATEWAY_0001",
+          "station_id": "GATEWAY_0001",
+          "start_time": 0.3833333333333333,
+          "end_time": 0.45,
+          "duration": 0.0666666666666666,
+          "reconfiguration_time": 0.05,
+          "priority": 5.0,
+          "urgency": 5.0,
+          "weight": 93.556
+        }
+      ],
+      "edges": [
+        {
+          "source": "SLOT_003881",
+          "target": "SLOT_003434",
+          "reason": "same-antenna overlap"
+        },
+        {
+          "source": "SLOT_003607",
+          "target": "SLOT_003434",
+          "reason": "same satellite",
+          "satellite_id": "46047"
+        }
+      ]
+    }
+  },
+  {
+    "terminal_id": "component_008_dnode_0001",
+    "original_component_id": "component_008",
+    "depth": 0,
+    "node_count": 3,
+    "edge_count": 2,
+    "forced_objective": 0,
+    "forced_selected": [],
+    "terminal_reason": "fits QPU limits",
+    "graph": {
+      "nodes": [
+        {
+          "id": "SLOT_011044",
+          "source_interval_id": "VIS_023713",
+          "satellite_id": "47408",
+          "antenna_id": "ANT_GATEWAY_0003",
+          "station_id": "GATEWAY_0003",
+          "start_time": 1.2166666666666666,
+          "end_time": 1.2833333333333334,
+          "duration": 0.0666666666666666,
+          "reconfiguration_time": 0.05,
+          "priority": 1.0,
+          "urgency": 4.0,
+          "weight": 40.195
+        },
+        {
+          "id": "SLOT_012312",
+          "source_interval_id": "VIS_026184",
+          "satellite_id": "47356",
+          "antenna_id": "ANT_GATEWAY_0003",
+          "station_id": "GATEWAY_0003",
+          "start_time": 1.3333333333333333,
+          "end_time": 1.4,
+          "duration": 0.0666666666666666,
+          "reconfiguration_time": 0.05,
+          "priority": 3.0,
+          "urgency": 4.0,
+          "weight": 63.453
+        },
+        {
+          "id": "SLOT_011200",
+          "source_interval_id": "VIS_024044",
+          "satellite_id": "47361",
+          "antenna_id": "ANT_GATEWAY_0003",
+          "station_id": "GATEWAY_0003",
+          "start_time": 1.2333333333333334,
+          "end_time": 1.3,
+          "duration": 0.0666666666666666,
+          "reconfiguration_time": 0.05,
+          "priority": 1.0,
+          "urgency": 4.0,
+          "weight": 40.242
+        }
+      ],
+      "edges": [
+        {
+          "source": "SLOT_011044",
+          "target": "SLOT_011200",
+          "reason": "same-antenna overlap"
+        },
+        {
+          "source": "SLOT_012312",
+          "target": "SLOT_011200",
+          "reason": "same-antenna reconfiguration time",
+          "reconfiguration_time": 0.05
+        }
+      ]
+    }
+  },
+  {
+    "terminal_id": "component_009_dnode_0001",
+    "original_component_id": "component_009",
+    "depth": 0,
+    "node_count": 3,
+    "edge_count": 3,
+    "forced_objective": 0,
+    "forced_selected": [],
+    "terminal_reason": "fits QPU limits",
+    "graph": {
+      "nodes": [
+        {
+          "id": "SLOT_024484",
+          "source_interval_id": "VIS_051400",
+          "satellite_id": "47368",
+          "antenna_id": "ANT_GATEWAY_0003",
+          "station_id": "GATEWAY_0003",
+          "start_time": 2.716666666666667,
+          "end_time": 2.783333333333333,
+          "duration": 0.0666666666666666,
+          "reconfiguration_time": 0.05,
+          "priority": 3.0,
+          "urgency": 2.0,
+          "weight": 51.94
+        },
+        {
+          "id": "SLOT_025462",
+          "source_interval_id": "VIS_053352",
+          "satellite_id": "47362",
+          "antenna_id": "ANT_GATEWAY_0003",
+          "station_id": "GATEWAY_0003",
+          "start_time": 2.816666666666667,
+          "end_time": 2.8833333333333333,
+          "duration": 0.0666666666666666,
+          "reconfiguration_time": 0.05,
+          "priority": 5.0,
+          "urgency": 2.0,
+          "weight": 75.279
+        },
+        {
+          "id": "SLOT_025109",
+          "source_interval_id": "VIS_052661",
+          "satellite_id": "47391",
+          "antenna_id": "ANT_GATEWAY_0003",
+          "station_id": "GATEWAY_0003",
+          "start_time": 2.783333333333333,
+          "end_time": 2.85,
+          "duration": 0.0666666666666666,
+          "reconfiguration_time": 0.05,
+          "priority": 5.0,
+          "urgency": 2.0,
+          "weight": 74.883
+        }
+      ],
+      "edges": [
+        {
+          "source": "SLOT_024484",
+          "target": "SLOT_025109",
+          "reason": "same-antenna reconfiguration time",
+          "reconfiguration_time": 0.05
+        },
+        {
+          "source": "SLOT_024484",
+          "target": "SLOT_025462",
+          "reason": "same-antenna reconfiguration time",
+          "reconfiguration_time": 0.05
+        },
+        {
+          "source": "SLOT_025462",
+          "target": "SLOT_025109",
+          "reason": "same-antenna overlap"
+        }
+      ]
+    }
+  },
+  {
+    "terminal_id": "component_010_dnode_0001",
+    "original_component_id": "component_010",
+    "depth": 0,
+    "node_count": 2,
+    "edge_count": 1,
+    "forced_objective": 0,
+    "forced_selected": [],
+    "terminal_reason": "fits QPU limits",
+    "graph": {
+      "nodes": [
+        {
+          "id": "SLOT_018694",
+          "source_interval_id": "VIS_039329",
+          "satellite_id": "47401",
+          "antenna_id": "ANT_GATEWAY_0003",
+          "station_id": "GATEWAY_0003",
+          "start_time": 2.033333333333333,
+          "end_time": 2.1,
+          "duration": 0.0666666666666666,
+          "reconfiguration_time": 0.05,
+          "priority": 4.0,
+          "urgency": 3.0,
+          "weight": 69.333
+        },
+        {
+          "id": "SLOT_018872",
+          "source_interval_id": "VIS_039669",
+          "satellite_id": "47384",
+          "antenna_id": "ANT_GATEWAY_0003",
+          "station_id": "GATEWAY_0003",
+          "start_time": 2.05,
+          "end_time": 2.1166666666666667,
+          "duration": 0.0666666666666666,
+          "reconfiguration_time": 0.05,
+          "priority": 5.0,
+          "urgency": 3.0,
+          "weight": 80.866
+        }
+      ],
+      "edges": [
+        {
+          "source": "SLOT_018694",
+          "target": "SLOT_018872",
+          "reason": "same-antenna overlap"
+        }
+      ]
+    }
+  },
+  {
+    "terminal_id": "component_011_dnode_0001",
+    "original_component_id": "component_011",
+    "depth": 0,
+    "node_count": 2,
+    "edge_count": 1,
+    "forced_objective": 0,
+    "forced_selected": [],
+    "terminal_reason": "fits QPU limits",
+    "graph": {
+      "nodes": [
+        {
+          "id": "SLOT_019849",
+          "source_interval_id": "VIS_041783",
+          "satellite_id": "45686",
+          "antenna_id": "ANT_GATEWAY_0003",
+          "station_id": "GATEWAY_0003",
+          "start_time": 2.1666666666666665,
+          "end_time": 2.2333333333333334,
+          "duration": 0.0666666666666666,
+          "reconfiguration_time": 0.05,
+          "priority": 2.0,
+          "urgency": 3.0,
+          "weight": 49.113
+        },
+        {
+          "id": "SLOT_019848",
+          "source_interval_id": "VIS_041782",
+          "satellite_id": "45187",
+          "antenna_id": "ANT_GATEWAY_0003",
+          "station_id": "GATEWAY_0003",
+          "start_time": 2.1666666666666665,
+          "end_time": 2.2333333333333334,
+          "duration": 0.0666666666666666,
+          "reconfiguration_time": 0.05,
+          "priority": 3.0,
+          "urgency": 3.0,
+          "weight": 57.845
+        }
+      ],
+      "edges": [
+        {
+          "source": "SLOT_019849",
+          "target": "SLOT_019848",
+          "reason": "same-antenna overlap"
+        }
+      ]
+    }
+  },
+  {
+    "terminal_id": "component_012_dnode_0001",
+    "original_component_id": "component_012",
+    "depth": 0,
+    "node_count": 2,
+    "edge_count": 1,
+    "forced_objective": 0,
+    "forced_selected": [],
+    "terminal_reason": "fits QPU limits",
+    "graph": {
+      "nodes": [
+        {
+          "id": "SLOT_022581",
+          "source_interval_id": "VIS_047484",
+          "satellite_id": "47652",
+          "antenna_id": "ANT_GATEWAY_0003",
+          "station_id": "GATEWAY_0003",
+          "start_time": 2.5,
+          "end_time": 2.566666666666667,
+          "duration": 0.0666666666666666,
+          "reconfiguration_time": 0.05,
+          "priority": 2.0,
+          "urgency": 2.0,
+          "weight": 43.062
+        },
+        {
+          "id": "SLOT_022158",
+          "source_interval_id": "VIS_046644",
+          "satellite_id": "47352",
+          "antenna_id": "ANT_GATEWAY_0003",
+          "station_id": "GATEWAY_0003",
+          "start_time": 2.45,
+          "end_time": 2.5166666666666666,
+          "duration": 0.0666666666666666,
+          "reconfiguration_time": 0.05,
+          "priority": 3.0,
+          "urgency": 3.0,
+          "weight": 59.709
+        }
+      ],
+      "edges": [
+        {
+          "source": "SLOT_022581",
+          "target": "SLOT_022158",
+          "reason": "same-antenna overlap"
+        }
+      ]
+    }
+  },
+  {
+    "terminal_id": "component_013_dnode_0001",
+    "original_component_id": "component_013",
+    "depth": 0,
+    "node_count": 2,
+    "edge_count": 1,
+    "forced_objective": 0,
+    "forced_selected": [],
+    "terminal_reason": "fits QPU limits",
+    "graph": {
+      "nodes": [
+        {
+          "id": "SLOT_031130",
+          "source_interval_id": "VIS_064923",
+          "satellite_id": "45669",
+          "antenna_id": "ANT_GATEWAY_0015",
+          "station_id": "GATEWAY_0015",
+          "start_time": 3.466666666666667,
+          "end_time": 3.533333333333333,
+          "duration": 0.0666666666666666,
+          "reconfiguration_time": 0.05,
+          "priority": 2.0,
+          "urgency": 2.0,
+          "weight": 42.879
+        },
+        {
+          "id": "SLOT_030811",
+          "source_interval_id": "VIS_064255",
+          "satellite_id": "45711",
+          "antenna_id": "ANT_GATEWAY_0015",
+          "station_id": "GATEWAY_0015",
+          "start_time": 3.433333333333333,
+          "end_time": 3.5,
+          "duration": 0.0666666666666666,
+          "reconfiguration_time": 0.05,
+          "priority": 2.0,
+          "urgency": 2.0,
+          "weight": 41.979
+        }
+      ],
+      "edges": [
+        {
+          "source": "SLOT_031130",
+          "target": "SLOT_030811",
+          "reason": "same-antenna overlap"
+        }
+      ]
+    }
+  },
+  {
+    "terminal_id": "component_014_dnode_0001",
+    "original_component_id": "component_014",
+    "depth": 0,
+    "node_count": 2,
+    "edge_count": 1,
+    "forced_objective": 0,
+    "forced_selected": [],
+    "terminal_reason": "fits QPU limits",
+    "graph": {
+      "nodes": [
+        {
+          "id": "SLOT_034315",
+          "source_interval_id": "VIS_071839",
+          "satellite_id": "45693",
+          "antenna_id": "ANT_GATEWAY_0003",
+          "station_id": "GATEWAY_0003",
+          "start_time": 3.883333333333333,
+          "end_time": 3.95,
+          "duration": 0.0666666666666666,
+          "reconfiguration_time": 0.05,
+          "priority": 3.0,
+          "urgency": 1.0,
+          "weight": 48.409
+        },
+        {
+          "id": "SLOT_034544",
+          "source_interval_id": "VIS_072320",
+          "satellite_id": "45570",
+          "antenna_id": "ANT_GATEWAY_0003",
+          "station_id": "GATEWAY_0003",
+          "start_time": 3.9166666666666665,
+          "end_time": 3.983333333333333,
+          "duration": 0.0666666666666666,
+          "reconfiguration_time": 0.05,
+          "priority": 2.0,
+          "urgency": 1.0,
+          "weight": 38.159
+        }
+      ],
+      "edges": [
+        {
+          "source": "SLOT_034315",
+          "target": "SLOT_034544",
+          "reason": "same-antenna overlap"
+        }
+      ]
+    }
+  }
+]

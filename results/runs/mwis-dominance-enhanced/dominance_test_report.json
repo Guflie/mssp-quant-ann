@@ -1,0 +1,15 @@
+{
+  "passed": true,
+  "random_exhaustive_instances": 300,
+  "removed_vertices_tested": 489,
+  "checks": [
+    "exact optimum preservation by brute force",
+    "closed-neighbourhood witness safety",
+    "fixed point",
+    "unchanged input graph",
+    "weight versus conflicts tradeoff",
+    "deterministic ties",
+    "no cross-satellite pruning",
+    "reject non-clique domains"
+  ]
+}

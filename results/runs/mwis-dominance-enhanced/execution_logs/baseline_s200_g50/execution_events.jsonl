@@ -1,0 +1,178 @@
+{"utc": "2026-10-12T17:06:31.485106+00:00", "event": "stage_start", "stage": "mwis", "notebook": "02.A_mwis_pipeline_dominance_enhanced.ipynb"}
+{"utc": "2026-10-12T17:06:31.515502+00:00", "event": "cell_start", "stage": "mwis", "executed_cell": 0, "original_cell": -1, "first_line": "import sys, json, platform, importlib.metadata"}
+{"utc": "2026-10-12T17:06:31.547574+00:00", "event": "cell_complete", "stage": "mwis", "executed_cell": 0, "seconds": 0.032}
+{"utc": "2026-10-12T17:06:31.548219+00:00", "event": "cell_start", "stage": "mwis", "executed_cell": 3, "original_cell": 2, "first_line": "from __future__ import annotations"}
+{"utc": "2026-10-12T17:06:32.830177+00:00", "event": "cell_complete", "stage": "mwis", "executed_cell": 3, "seconds": 1.282}
+{"utc": "2026-10-12T17:06:32.830975+00:00", "event": "cell_start", "stage": "mwis", "executed_cell": 5, "original_cell": 4, "first_line": "REQUIRED_COLUMNS = ["}
+{"utc": "2026-10-12T17:06:32.864725+00:00", "event": "cell_complete", "stage": "mwis", "executed_cell": 5, "seconds": 0.034}
+{"utc": "2026-10-12T17:06:32.865312+00:00", "event": "cell_start", "stage": "mwis", "executed_cell": 7, "original_cell": 6, "first_line": "# ----------------------------------------------------------"}
+{"utc": "2026-10-12T17:06:33.249922+00:00", "event": "cell_complete", "stage": "mwis", "executed_cell": 7, "seconds": 0.385}
+{"utc": "2026-10-12T17:06:33.250554+00:00", "event": "cell_start", "stage": "mwis", "executed_cell": 9, "original_cell": 8, "first_line": "def reduce_same_satellite_dominance(graph: nx.Graph) -> dict[str, Any]:"}
+{"utc": "2026-10-12T17:06:33.316731+00:00", "event": "cell_complete", "stage": "mwis", "executed_cell": 9, "seconds": 0.066}
+{"utc": "2026-10-12T17:06:33.317326+00:00", "event": "cell_start", "stage": "mwis", "executed_cell": 11, "original_cell": 10, "first_line": "def materialize_node_graph(node: dict[str, Any]) -> nx.Graph:"}
+{"utc": "2026-10-12T17:06:33.336207+00:00", "event": "cell_complete", "stage": "mwis", "executed_cell": 11, "seconds": 0.019}
+{"utc": "2026-10-12T17:06:33.337128+00:00", "event": "cell_start", "stage": "mwis", "executed_cell": 12, "original_cell": 11, "first_line": "# Decompose every natural component"}
+{"utc": "2026-10-12T17:06:51.472474+00:00", "event": "heartbeat", "stage": "mwis", "original_cell": 11, "elapsed_seconds": 20.21, "cpu_seconds": 22.594, "resident_mb": 156.56}
+{"utc": "2026-10-12T17:07:11.554684+00:00", "event": "heartbeat", "stage": "mwis", "original_cell": 11, "elapsed_seconds": 40.292, "cpu_seconds": 42.516, "resident_mb": 160.66}
+{"utc": "2026-10-12T17:07:31.665437+00:00", "event": "heartbeat", "stage": "mwis", "original_cell": 11, "elapsed_seconds": 60.403, "cpu_seconds": 62.406, "resident_mb": 172.38}
+{"utc": "2026-10-12T17:07:51.766407+00:00", "event": "heartbeat", "stage": "mwis", "original_cell": 11, "elapsed_seconds": 80.504, "cpu_seconds": 82.156, "resident_mb": 176.77}
+{"utc": "2026-10-12T17:08:02.238054+00:00", "event": "cell_complete", "stage": "mwis", "executed_cell": 12, "seconds": 88.901}
+{"utc": "2026-10-12T17:08:02.238993+00:00", "event": "cell_start", "stage": "mwis", "executed_cell": 14, "original_cell": 13, "first_line": "phase_started = time.perf_counter()"}
+{"utc": "2026-10-12T17:08:03.113937+00:00", "event": "cell_complete", "stage": "mwis", "executed_cell": 14, "seconds": 0.875}
+{"utc": "2026-10-12T17:08:03.114631+00:00", "event": "cell_start", "stage": "mwis", "executed_cell": 16, "original_cell": 15, "first_line": "# Total weight of a set of slots"}
+{"utc": "2026-10-12T17:08:03.122315+00:00", "event": "cell_complete", "stage": "mwis", "executed_cell": 16, "seconds": 0.008}
+{"utc": "2026-10-12T17:08:03.123052+00:00", "event": "cell_start", "stage": "mwis", "executed_cell": 17, "original_cell": 16, "first_line": "# Solve one decomposition-tree node bottom-up"}
+{"utc": "2026-10-12T17:08:11.880099+00:00", "event": "heartbeat", "stage": "mwis", "original_cell": 16, "elapsed_seconds": 100.617, "cpu_seconds": 102.062, "resident_mb": 199.51}
+{"utc": "2026-10-12T17:08:31.977044+00:00", "event": "heartbeat", "stage": "mwis", "original_cell": 16, "elapsed_seconds": 120.714, "cpu_seconds": 122.0, "resident_mb": 199.65}
+{"utc": "2026-10-12T17:08:52.057041+00:00", "event": "heartbeat", "stage": "mwis", "original_cell": 16, "elapsed_seconds": 140.794, "cpu_seconds": 141.922, "resident_mb": 199.64}
+{"utc": "2026-10-12T17:09:12.204818+00:00", "event": "heartbeat", "stage": "mwis", "original_cell": 16, "elapsed_seconds": 160.942, "cpu_seconds": 161.938, "resident_mb": 199.86}
+{"utc": "2026-10-12T17:09:32.252257+00:00", "event": "heartbeat", "stage": "mwis", "original_cell": 16, "elapsed_seconds": 180.99, "cpu_seconds": 181.703, "resident_mb": 199.98}
+{"utc": "2026-10-12T17:09:52.381454+00:00", "event": "heartbeat", "stage": "mwis", "original_cell": 16, "elapsed_seconds": 201.119, "cpu_seconds": 201.625, "resident_mb": 199.99}
+{"utc": "2026-10-12T17:10:12.579883+00:00", "event": "heartbeat", "stage": "mwis", "original_cell": 16, "elapsed_seconds": 221.317, "cpu_seconds": 221.656, "resident_mb": 200.0}
+{"utc": "2026-10-12T17:10:32.677292+00:00", "event": "heartbeat", "stage": "mwis", "original_cell": 16, "elapsed_seconds": 241.415, "cpu_seconds": 241.625, "resident_mb": 200.09}
+{"utc": "2026-10-12T17:10:52.856464+00:00", "event": "heartbeat", "stage": "mwis", "original_cell": 16, "elapsed_seconds": 261.594, "cpu_seconds": 261.688, "resident_mb": 200.13}
+{"utc": "2026-10-12T17:11:13.021728+00:00", "event": "heartbeat", "stage": "mwis", "original_cell": 16, "elapsed_seconds": 281.759, "cpu_seconds": 281.734, "resident_mb": 200.26}
+{"utc": "2026-10-12T17:11:33.101532+00:00", "event": "heartbeat", "stage": "mwis", "original_cell": 16, "elapsed_seconds": 301.839, "cpu_seconds": 301.641, "resident_mb": 200.38}
+{"utc": "2026-10-12T17:11:53.231019+00:00", "event": "heartbeat", "stage": "mwis", "original_cell": 16, "elapsed_seconds": 321.968, "cpu_seconds": 321.453, "resident_mb": 200.41}
+{"utc": "2026-10-12T17:12:13.379988+00:00", "event": "heartbeat", "stage": "mwis", "original_cell": 16, "elapsed_seconds": 342.117, "cpu_seconds": 341.438, "resident_mb": 200.71}
+{"utc": "2026-10-12T17:12:33.492795+00:00", "event": "heartbeat", "stage": "mwis", "original_cell": 16, "elapsed_seconds": 362.23, "cpu_seconds": 361.406, "resident_mb": 200.78}
+{"utc": "2026-10-12T17:12:53.639732+00:00", "event": "heartbeat", "stage": "mwis", "original_cell": 16, "elapsed_seconds": 382.377, "cpu_seconds": 381.422, "resident_mb": 200.81}
+{"utc": "2026-10-12T17:13:13.738001+00:00", "event": "heartbeat", "stage": "mwis", "original_cell": 16, "elapsed_seconds": 402.475, "cpu_seconds": 401.297, "resident_mb": 200.78}
+{"utc": "2026-10-12T17:13:33.885917+00:00", "event": "heartbeat", "stage": "mwis", "original_cell": 16, "elapsed_seconds": 422.623, "cpu_seconds": 421.25, "resident_mb": 200.78}
+{"utc": "2026-10-12T17:13:54.013707+00:00", "event": "heartbeat", "stage": "mwis", "original_cell": 16, "elapsed_seconds": 442.751, "cpu_seconds": 441.109, "resident_mb": 200.78}
+{"utc": "2026-10-12T17:14:14.162138+00:00", "event": "heartbeat", "stage": "mwis", "original_cell": 16, "elapsed_seconds": 462.899, "cpu_seconds": 461.031, "resident_mb": 200.78}
+{"utc": "2026-10-12T17:14:34.259447+00:00", "event": "heartbeat", "stage": "mwis", "original_cell": 16, "elapsed_seconds": 482.997, "cpu_seconds": 480.906, "resident_mb": 200.78}
+{"utc": "2026-10-12T17:14:54.440384+00:00", "event": "heartbeat", "stage": "mwis", "original_cell": 16, "elapsed_seconds": 503.178, "cpu_seconds": 500.984, "resident_mb": 200.78}
+{"utc": "2026-10-12T17:15:14.553353+00:00", "event": "heartbeat", "stage": "mwis", "original_cell": 16, "elapsed_seconds": 523.291, "cpu_seconds": 520.875, "resident_mb": 200.78}
+{"utc": "2026-10-12T17:15:34.666560+00:00", "event": "heartbeat", "stage": "mwis", "original_cell": 16, "elapsed_seconds": 543.404, "cpu_seconds": 540.781, "resident_mb": 200.78}
+{"utc": "2026-10-12T17:15:54.797160+00:00", "event": "heartbeat", "stage": "mwis", "original_cell": 16, "elapsed_seconds": 563.534, "cpu_seconds": 560.828, "resident_mb": 200.78}
+{"utc": "2026-10-12T17:16:14.896162+00:00", "event": "heartbeat", "stage": "mwis", "original_cell": 16, "elapsed_seconds": 583.633, "cpu_seconds": 580.812, "resident_mb": 200.78}
+{"utc": "2026-10-12T17:16:35.007922+00:00", "event": "heartbeat", "stage": "mwis", "original_cell": 16, "elapsed_seconds": 603.745, "cpu_seconds": 600.734, "resident_mb": 200.86}
+{"utc": "2026-10-12T17:16:55.074009+00:00", "event": "heartbeat", "stage": "mwis", "original_cell": 16, "elapsed_seconds": 623.811, "cpu_seconds": 620.672, "resident_mb": 200.86}
+{"utc": "2026-10-12T17:17:15.204938+00:00", "event": "heartbeat", "stage": "mwis", "original_cell": 16, "elapsed_seconds": 643.942, "cpu_seconds": 640.703, "resident_mb": 200.86}
+{"utc": "2026-10-12T17:17:35.317903+00:00", "event": "heartbeat", "stage": "mwis", "original_cell": 16, "elapsed_seconds": 664.055, "cpu_seconds": 660.75, "resident_mb": 200.86}
+{"utc": "2026-10-12T17:17:55.456889+00:00", "event": "heartbeat", "stage": "mwis", "original_cell": 16, "elapsed_seconds": 684.194, "cpu_seconds": 680.766, "resident_mb": 200.83}
+{"utc": "2026-10-12T17:18:15.576438+00:00", "event": "heartbeat", "stage": "mwis", "original_cell": 16, "elapsed_seconds": 704.314, "cpu_seconds": 700.75, "resident_mb": 201.07}
+{"utc": "2026-10-12T17:18:35.655721+00:00", "event": "heartbeat", "stage": "mwis", "original_cell": 16, "elapsed_seconds": 724.393, "cpu_seconds": 720.672, "resident_mb": 201.1}
+{"utc": "2026-10-12T17:18:55.761857+00:00", "event": "heartbeat", "stage": "mwis", "original_cell": 16, "elapsed_seconds": 744.499, "cpu_seconds": 740.734, "resident_mb": 201.43}
+{"utc": "2026-10-12T17:19:15.888370+00:00", "event": "heartbeat", "stage": "mwis", "original_cell": 16, "elapsed_seconds": 764.626, "cpu_seconds": 760.656, "resident_mb": 201.44}
+{"utc": "2026-10-12T17:19:35.989757+00:00", "event": "heartbeat", "stage": "mwis", "original_cell": 16, "elapsed_seconds": 784.727, "cpu_seconds": 780.656, "resident_mb": 201.46}
+{"utc": "2026-10-12T17:19:56.159668+00:00", "event": "heartbeat", "stage": "mwis", "original_cell": 16, "elapsed_seconds": 804.897, "cpu_seconds": 800.703, "resident_mb": 201.47}
+{"utc": "2026-10-12T17:20:16.269857+00:00", "event": "heartbeat", "stage": "mwis", "original_cell": 16, "elapsed_seconds": 825.007, "cpu_seconds": 820.719, "resident_mb": 201.48}
+{"utc": "2026-10-12T17:20:36.368677+00:00", "event": "heartbeat", "stage": "mwis", "original_cell": 16, "elapsed_seconds": 845.106, "cpu_seconds": 840.594, "resident_mb": 201.48}
+{"utc": "2026-10-12T17:20:56.514734+00:00", "event": "heartbeat", "stage": "mwis", "original_cell": 16, "elapsed_seconds": 865.252, "cpu_seconds": 860.609, "resident_mb": 201.49}
+{"utc": "2026-10-12T17:21:16.650512+00:00", "event": "heartbeat", "stage": "mwis", "original_cell": 16, "elapsed_seconds": 885.388, "cpu_seconds": 880.672, "resident_mb": 201.49}
+{"utc": "2026-10-12T17:21:36.760629+00:00", "event": "heartbeat", "stage": "mwis", "original_cell": 16, "elapsed_seconds": 905.498, "cpu_seconds": 900.562, "resident_mb": 201.53}
+{"utc": "2026-10-12T17:21:56.878725+00:00", "event": "heartbeat", "stage": "mwis", "original_cell": 16, "elapsed_seconds": 925.616, "cpu_seconds": 920.547, "resident_mb": 202.0}
+{"utc": "2026-10-12T17:22:16.899616+00:00", "event": "heartbeat", "stage": "mwis", "original_cell": 16, "elapsed_seconds": 945.637, "cpu_seconds": 940.391, "resident_mb": 202.0}
+{"utc": "2026-10-12T17:22:37.010092+00:00", "event": "heartbeat", "stage": "mwis", "original_cell": 16, "elapsed_seconds": 965.747, "cpu_seconds": 960.406, "resident_mb": 202.85}
+{"utc": "2026-10-12T17:22:57.133441+00:00", "event": "heartbeat", "stage": "mwis", "original_cell": 16, "elapsed_seconds": 985.871, "cpu_seconds": 980.422, "resident_mb": 203.06}
+{"utc": "2026-10-12T17:23:17.267433+00:00", "event": "heartbeat", "stage": "mwis", "original_cell": 16, "elapsed_seconds": 1006.005, "cpu_seconds": 1000.391, "resident_mb": 203.18}
+{"utc": "2026-10-12T17:23:37.440488+00:00", "event": "heartbeat", "stage": "mwis", "original_cell": 16, "elapsed_seconds": 1026.178, "cpu_seconds": 1020.422, "resident_mb": 203.42}
+{"utc": "2026-10-12T17:23:57.581117+00:00", "event": "heartbeat", "stage": "mwis", "original_cell": 16, "elapsed_seconds": 1046.318, "cpu_seconds": 1040.453, "resident_mb": 203.45}
+{"utc": "2026-10-12T17:24:17.713843+00:00", "event": "heartbeat", "stage": "mwis", "original_cell": 16, "elapsed_seconds": 1066.451, "cpu_seconds": 1060.406, "resident_mb": 203.45}
+{"utc": "2026-10-12T17:24:37.862084+00:00", "event": "heartbeat", "stage": "mwis", "original_cell": 16, "elapsed_seconds": 1086.599, "cpu_seconds": 1080.469, "resident_mb": 203.56}
+{"utc": "2026-10-12T17:24:58.007994+00:00", "event": "heartbeat", "stage": "mwis", "original_cell": 16, "elapsed_seconds": 1106.745, "cpu_seconds": 1100.469, "resident_mb": 203.57}
+{"utc": "2026-10-12T17:25:18.072161+00:00", "event": "heartbeat", "stage": "mwis", "original_cell": 16, "elapsed_seconds": 1126.809, "cpu_seconds": 1120.391, "resident_mb": 203.57}
+{"utc": "2026-10-12T17:25:38.220393+00:00", "event": "heartbeat", "stage": "mwis", "original_cell": 16, "elapsed_seconds": 1146.958, "cpu_seconds": 1140.406, "resident_mb": 203.65}
+{"utc": "2026-10-12T17:25:58.317273+00:00", "event": "heartbeat", "stage": "mwis", "original_cell": 16, "elapsed_seconds": 1167.054, "cpu_seconds": 1160.344, "resident_mb": 203.81}
+{"utc": "2026-10-12T17:26:18.430548+00:00", "event": "heartbeat", "stage": "mwis", "original_cell": 16, "elapsed_seconds": 1187.168, "cpu_seconds": 1180.359, "resident_mb": 203.93}
+{"utc": "2026-10-12T17:26:38.527709+00:00", "event": "heartbeat", "stage": "mwis", "original_cell": 16, "elapsed_seconds": 1207.265, "cpu_seconds": 1200.297, "resident_mb": 203.93}
+{"utc": "2026-10-12T17:26:58.658067+00:00", "event": "heartbeat", "stage": "mwis", "original_cell": 16, "elapsed_seconds": 1227.395, "cpu_seconds": 1220.312, "resident_mb": 203.93}
+{"utc": "2026-10-12T17:27:18.788294+00:00", "event": "heartbeat", "stage": "mwis", "original_cell": 16, "elapsed_seconds": 1247.526, "cpu_seconds": 1240.297, "resident_mb": 203.98}
+{"utc": "2026-10-12T17:27:38.919207+00:00", "event": "heartbeat", "stage": "mwis", "original_cell": 16, "elapsed_seconds": 1267.656, "cpu_seconds": 1260.234, "resident_mb": 204.28}
+{"utc": "2026-10-12T17:27:59.049467+00:00", "event": "heartbeat", "stage": "mwis", "original_cell": 16, "elapsed_seconds": 1287.787, "cpu_seconds": 1280.312, "resident_mb": 204.31}
+{"utc": "2026-10-12T17:28:19.147450+00:00", "event": "heartbeat", "stage": "mwis", "original_cell": 16, "elapsed_seconds": 1307.885, "cpu_seconds": 1300.312, "resident_mb": 204.32}
+{"utc": "2026-10-12T17:28:39.262173+00:00", "event": "heartbeat", "stage": "mwis", "original_cell": 16, "elapsed_seconds": 1327.999, "cpu_seconds": 1320.281, "resident_mb": 204.33}
+{"utc": "2026-10-12T17:28:59.366279+00:00", "event": "heartbeat", "stage": "mwis", "original_cell": 16, "elapsed_seconds": 1348.103, "cpu_seconds": 1340.234, "resident_mb": 204.35}
+{"utc": "2026-10-12T17:29:19.480169+00:00", "event": "heartbeat", "stage": "mwis", "original_cell": 16, "elapsed_seconds": 1368.217, "cpu_seconds": 1360.203, "resident_mb": 204.36}
+{"utc": "2026-10-12T17:29:39.648666+00:00", "event": "heartbeat", "stage": "mwis", "original_cell": 16, "elapsed_seconds": 1388.386, "cpu_seconds": 1380.281, "resident_mb": 204.36}
+{"utc": "2026-10-12T17:29:59.795856+00:00", "event": "heartbeat", "stage": "mwis", "original_cell": 16, "elapsed_seconds": 1408.533, "cpu_seconds": 1400.266, "resident_mb": 204.38}
+{"utc": "2026-10-12T17:30:19.916509+00:00", "event": "heartbeat", "stage": "mwis", "original_cell": 16, "elapsed_seconds": 1428.654, "cpu_seconds": 1420.359, "resident_mb": 204.38}
+{"utc": "2026-10-12T17:30:40.034737+00:00", "event": "heartbeat", "stage": "mwis", "original_cell": 16, "elapsed_seconds": 1448.772, "cpu_seconds": 1440.344, "resident_mb": 204.38}
+{"utc": "2026-10-12T17:31:00.154457+00:00", "event": "heartbeat", "stage": "mwis", "original_cell": 16, "elapsed_seconds": 1468.892, "cpu_seconds": 1460.328, "resident_mb": 204.47}
+{"utc": "2026-10-12T17:31:20.284906+00:00", "event": "heartbeat", "stage": "mwis", "original_cell": 16, "elapsed_seconds": 1489.022, "cpu_seconds": 1480.391, "resident_mb": 204.48}
+{"utc": "2026-10-12T17:31:40.411851+00:00", "event": "heartbeat", "stage": "mwis", "original_cell": 16, "elapsed_seconds": 1509.149, "cpu_seconds": 1500.469, "resident_mb": 204.68}
+{"utc": "2026-10-12T17:32:00.439941+00:00", "event": "heartbeat", "stage": "mwis", "original_cell": 16, "elapsed_seconds": 1529.177, "cpu_seconds": 1520.406, "resident_mb": 204.74}
+{"utc": "2026-10-12T17:32:20.559952+00:00", "event": "heartbeat", "stage": "mwis", "original_cell": 16, "elapsed_seconds": 1549.297, "cpu_seconds": 1540.422, "resident_mb": 204.78}
+{"utc": "2026-10-12T17:32:40.689809+00:00", "event": "heartbeat", "stage": "mwis", "original_cell": 16, "elapsed_seconds": 1569.427, "cpu_seconds": 1560.422, "resident_mb": 204.79}
+{"utc": "2026-10-12T17:33:00.761566+00:00", "event": "heartbeat", "stage": "mwis", "original_cell": 16, "elapsed_seconds": 1589.499, "cpu_seconds": 1580.344, "resident_mb": 204.9}
+{"utc": "2026-10-12T17:33:20.860145+00:00", "event": "heartbeat", "stage": "mwis", "original_cell": 16, "elapsed_seconds": 1609.597, "cpu_seconds": 1600.359, "resident_mb": 204.91}
+{"utc": "2026-10-12T17:33:40.989170+00:00", "event": "heartbeat", "stage": "mwis", "original_cell": 16, "elapsed_seconds": 1629.726, "cpu_seconds": 1620.422, "resident_mb": 205.19}
+{"utc": "2026-10-12T17:34:01.126565+00:00", "event": "heartbeat", "stage": "mwis", "original_cell": 16, "elapsed_seconds": 1649.864, "cpu_seconds": 1640.391, "resident_mb": 205.23}
+{"utc": "2026-10-12T17:34:21.261767+00:00", "event": "heartbeat", "stage": "mwis", "original_cell": 16, "elapsed_seconds": 1669.999, "cpu_seconds": 1660.406, "resident_mb": 205.56}
+{"utc": "2026-10-12T17:34:41.363045+00:00", "event": "heartbeat", "stage": "mwis", "original_cell": 16, "elapsed_seconds": 1690.1, "cpu_seconds": 1680.406, "resident_mb": 205.67}
+{"utc": "2026-10-12T17:35:01.467264+00:00", "event": "heartbeat", "stage": "mwis", "original_cell": 16, "elapsed_seconds": 1710.204, "cpu_seconds": 1700.422, "resident_mb": 205.68}
+{"utc": "2026-10-12T17:35:21.580646+00:00", "event": "heartbeat", "stage": "mwis", "original_cell": 16, "elapsed_seconds": 1730.318, "cpu_seconds": 1720.438, "resident_mb": 205.96}
+{"utc": "2026-10-12T17:35:41.710251+00:00", "event": "heartbeat", "stage": "mwis", "original_cell": 16, "elapsed_seconds": 1750.448, "cpu_seconds": 1740.359, "resident_mb": 206.19}
+{"utc": "2026-10-12T17:36:01.859203+00:00", "event": "heartbeat", "stage": "mwis", "original_cell": 16, "elapsed_seconds": 1770.596, "cpu_seconds": 1760.375, "resident_mb": 206.71}
+{"utc": "2026-10-12T17:36:21.989411+00:00", "event": "heartbeat", "stage": "mwis", "original_cell": 16, "elapsed_seconds": 1790.727, "cpu_seconds": 1780.391, "resident_mb": 206.71}
+{"utc": "2026-10-12T17:36:42.147871+00:00", "event": "heartbeat", "stage": "mwis", "original_cell": 16, "elapsed_seconds": 1810.885, "cpu_seconds": 1800.469, "resident_mb": 206.9}
+{"utc": "2026-10-12T17:37:02.167228+00:00", "event": "heartbeat", "stage": "mwis", "original_cell": 16, "elapsed_seconds": 1830.904, "cpu_seconds": 1820.344, "resident_mb": 207.31}
+{"utc": "2026-10-12T17:37:22.315386+00:00", "event": "heartbeat", "stage": "mwis", "original_cell": 16, "elapsed_seconds": 1851.053, "cpu_seconds": 1840.359, "resident_mb": 207.36}
+{"utc": "2026-10-12T17:37:42.461741+00:00", "event": "heartbeat", "stage": "mwis", "original_cell": 16, "elapsed_seconds": 1871.199, "cpu_seconds": 1860.375, "resident_mb": 207.54}
+{"utc": "2026-10-12T17:38:02.606575+00:00", "event": "heartbeat", "stage": "mwis", "original_cell": 16, "elapsed_seconds": 1891.344, "cpu_seconds": 1880.391, "resident_mb": 207.6}
+{"utc": "2026-10-12T17:38:22.672859+00:00", "event": "heartbeat", "stage": "mwis", "original_cell": 16, "elapsed_seconds": 1911.41, "cpu_seconds": 1900.344, "resident_mb": 207.66}
+{"utc": "2026-10-12T17:38:42.802468+00:00", "event": "heartbeat", "stage": "mwis", "original_cell": 16, "elapsed_seconds": 1931.54, "cpu_seconds": 1920.312, "resident_mb": 208.19}
+{"utc": "2026-10-12T17:39:02.950339+00:00", "event": "heartbeat", "stage": "mwis", "original_cell": 16, "elapsed_seconds": 1951.688, "cpu_seconds": 1940.359, "resident_mb": 208.21}
+{"utc": "2026-10-12T17:39:23.048733+00:00", "event": "heartbeat", "stage": "mwis", "original_cell": 16, "elapsed_seconds": 1971.786, "cpu_seconds": 1960.344, "resident_mb": 208.22}
+{"utc": "2026-10-12T17:39:43.177775+00:00", "event": "heartbeat", "stage": "mwis", "original_cell": 16, "elapsed_seconds": 1991.915, "cpu_seconds": 1980.344, "resident_mb": 208.23}
+{"utc": "2026-10-12T17:40:03.305741+00:00", "event": "heartbeat", "stage": "mwis", "original_cell": 16, "elapsed_seconds": 2012.043, "cpu_seconds": 2000.406, "resident_mb": 208.24}
+{"utc": "2026-10-12T17:40:23.405866+00:00", "event": "heartbeat", "stage": "mwis", "original_cell": 16, "elapsed_seconds": 2032.143, "cpu_seconds": 2020.359, "resident_mb": 208.24}
+{"utc": "2026-10-12T17:40:43.519675+00:00", "event": "heartbeat", "stage": "mwis", "original_cell": 16, "elapsed_seconds": 2052.257, "cpu_seconds": 2040.234, "resident_mb": 208.27}
+{"utc": "2026-10-12T17:41:03.665486+00:00", "event": "heartbeat", "stage": "mwis", "original_cell": 16, "elapsed_seconds": 2072.403, "cpu_seconds": 2060.188, "resident_mb": 208.35}
+{"utc": "2026-10-12T17:41:23.814613+00:00", "event": "heartbeat", "stage": "mwis", "original_cell": 16, "elapsed_seconds": 2092.552, "cpu_seconds": 2080.219, "resident_mb": 208.37}
+{"utc": "2026-10-12T17:41:43.911862+00:00", "event": "heartbeat", "stage": "mwis", "original_cell": 16, "elapsed_seconds": 2112.649, "cpu_seconds": 2100.156, "resident_mb": 208.38}
+{"utc": "2026-10-12T17:42:04.092337+00:00", "event": "heartbeat", "stage": "mwis", "original_cell": 16, "elapsed_seconds": 2132.83, "cpu_seconds": 2120.141, "resident_mb": 208.41}
+{"utc": "2026-10-12T17:42:24.222748+00:00", "event": "heartbeat", "stage": "mwis", "original_cell": 16, "elapsed_seconds": 2152.96, "cpu_seconds": 2140.219, "resident_mb": 208.49}
+{"utc": "2026-10-12T17:42:44.336685+00:00", "event": "heartbeat", "stage": "mwis", "original_cell": 16, "elapsed_seconds": 2173.074, "cpu_seconds": 2160.203, "resident_mb": 208.52}
+{"utc": "2026-10-12T17:43:04.464373+00:00", "event": "heartbeat", "stage": "mwis", "original_cell": 16, "elapsed_seconds": 2193.202, "cpu_seconds": 2180.203, "resident_mb": 208.52}
+{"utc": "2026-10-12T17:43:24.630341+00:00", "event": "heartbeat", "stage": "mwis", "original_cell": 16, "elapsed_seconds": 2213.368, "cpu_seconds": 2200.328, "resident_mb": 208.64}
+{"utc": "2026-10-12T17:43:44.761447+00:00", "event": "heartbeat", "stage": "mwis", "original_cell": 16, "elapsed_seconds": 2233.499, "cpu_seconds": 2220.328, "resident_mb": 208.76}
+{"utc": "2026-10-12T17:44:04.908533+00:00", "event": "heartbeat", "stage": "mwis", "original_cell": 16, "elapsed_seconds": 2253.646, "cpu_seconds": 2240.438, "resident_mb": 208.82}
+{"utc": "2026-10-12T17:44:25.025775+00:00", "event": "heartbeat", "stage": "mwis", "original_cell": 16, "elapsed_seconds": 2273.763, "cpu_seconds": 2260.438, "resident_mb": 208.83}
+{"utc": "2026-10-12T17:44:45.190692+00:00", "event": "heartbeat", "stage": "mwis", "original_cell": 16, "elapsed_seconds": 2293.928, "cpu_seconds": 2280.359, "resident_mb": 208.85}
+{"utc": "2026-10-12T17:45:05.290840+00:00", "event": "heartbeat", "stage": "mwis", "original_cell": 16, "elapsed_seconds": 2314.028, "cpu_seconds": 2300.266, "resident_mb": 208.86}
+{"utc": "2026-10-12T17:45:25.450381+00:00", "event": "heartbeat", "stage": "mwis", "original_cell": 16, "elapsed_seconds": 2334.188, "cpu_seconds": 2320.344, "resident_mb": 208.86}
+{"utc": "2026-10-12T17:45:45.540365+00:00", "event": "heartbeat", "stage": "mwis", "original_cell": 16, "elapsed_seconds": 2354.278, "cpu_seconds": 2340.375, "resident_mb": 209.12}
+{"utc": "2026-10-12T17:46:05.687961+00:00", "event": "heartbeat", "stage": "mwis", "original_cell": 16, "elapsed_seconds": 2374.425, "cpu_seconds": 2360.406, "resident_mb": 209.12}
+{"utc": "2026-10-12T17:46:25.810765+00:00", "event": "heartbeat", "stage": "mwis", "original_cell": 16, "elapsed_seconds": 2394.548, "cpu_seconds": 2380.359, "resident_mb": 209.12}
+{"utc": "2026-10-12T17:46:45.889124+00:00", "event": "heartbeat", "stage": "mwis", "original_cell": 16, "elapsed_seconds": 2414.626, "cpu_seconds": 2400.375, "resident_mb": 209.14}
+{"utc": "2026-10-12T17:47:06.048891+00:00", "event": "heartbeat", "stage": "mwis", "original_cell": 16, "elapsed_seconds": 2434.786, "cpu_seconds": 2420.453, "resident_mb": 209.14}
+{"utc": "2026-10-12T17:47:26.177269+00:00", "event": "heartbeat", "stage": "mwis", "original_cell": 16, "elapsed_seconds": 2454.914, "cpu_seconds": 2440.578, "resident_mb": 209.16}
+{"utc": "2026-10-12T17:47:46.306035+00:00", "event": "heartbeat", "stage": "mwis", "original_cell": 16, "elapsed_seconds": 2475.043, "cpu_seconds": 2460.562, "resident_mb": 209.16}
+{"utc": "2026-10-12T17:48:06.412724+00:00", "event": "heartbeat", "stage": "mwis", "original_cell": 16, "elapsed_seconds": 2495.15, "cpu_seconds": 2480.547, "resident_mb": 209.16}
+{"utc": "2026-10-12T17:48:26.506242+00:00", "event": "heartbeat", "stage": "mwis", "original_cell": 16, "elapsed_seconds": 2515.243, "cpu_seconds": 2500.562, "resident_mb": 210.02}
+{"utc": "2026-10-12T17:48:26.539870+00:00", "event": "cell_complete", "stage": "mwis", "executed_cell": 17, "seconds": 2423.417}
+{"utc": "2026-10-12T17:48:26.540587+00:00", "event": "cell_start", "stage": "mwis", "executed_cell": 19, "original_cell": 18, "first_line": "# Components that already fit the QPU (their root is a terminal)"}
+{"utc": "2026-10-12T17:48:26.570688+00:00", "event": "cell_complete", "stage": "mwis", "executed_cell": 19, "seconds": 0.03}
+{"utc": "2026-10-12T17:48:26.579728+00:00", "event": "stage_end", "stage": "mwis", "status": "completed", "seconds": 2515.092}
+{"utc": "2026-10-12T17:48:26.582313+00:00", "event": "stage_start", "stage": "annealing", "notebook": "3_qubo_annealing.ipynb"}
+{"utc": "2026-10-12T17:48:26.605328+00:00", "event": "cell_start", "stage": "annealing", "executed_cell": 0, "original_cell": -1, "first_line": "import sys, json, platform, importlib.metadata"}
+{"utc": "2026-10-12T17:48:26.636376+00:00", "event": "cell_complete", "stage": "annealing", "executed_cell": 0, "seconds": 0.031}
+{"utc": "2026-10-12T17:48:26.636940+00:00", "event": "cell_start", "stage": "annealing", "executed_cell": 2, "original_cell": 1, "first_line": "from __future__ import annotations"}
+{"utc": "2026-10-12T17:48:26.837904+00:00", "event": "cell_complete", "stage": "annealing", "executed_cell": 2, "seconds": 0.201}
+{"utc": "2026-10-12T17:48:26.838487+00:00", "event": "cell_start", "stage": "annealing", "executed_cell": 4, "original_cell": 3, "first_line": "def load_terminal_qubo(record: dict[str, Any]) -> dict[str, Any]:"}
+{"utc": "2026-10-12T17:48:27.429934+00:00", "event": "cell_complete", "stage": "annealing", "executed_cell": 4, "seconds": 0.591}
+{"utc": "2026-10-12T17:48:27.430857+00:00", "event": "cell_start", "stage": "annealing", "executed_cell": 6, "original_cell": 5, "first_line": "def is_independent(conflicts: set[frozenset[str]], selected: set[str]) -> bool:"}
+{"utc": "2026-10-12T17:48:46.511724+00:00", "event": "heartbeat", "stage": "annealing", "original_cell": 5, "elapsed_seconds": 2535.249, "cpu_seconds": 2520.359, "resident_mb": 315.47}
+{"utc": "2026-10-12T17:49:06.516947+00:00", "event": "heartbeat", "stage": "annealing", "original_cell": 5, "elapsed_seconds": 2555.254, "cpu_seconds": 2540.203, "resident_mb": 315.45}
+{"utc": "2026-10-12T17:49:26.526354+00:00", "event": "heartbeat", "stage": "annealing", "original_cell": 5, "elapsed_seconds": 2575.264, "cpu_seconds": 2560.047, "resident_mb": 315.5}
+{"utc": "2026-10-12T17:49:46.534324+00:00", "event": "heartbeat", "stage": "annealing", "original_cell": 5, "elapsed_seconds": 2595.272, "cpu_seconds": 2579.859, "resident_mb": 315.57}
+{"utc": "2026-10-12T17:50:06.542203+00:00", "event": "heartbeat", "stage": "annealing", "original_cell": 5, "elapsed_seconds": 2615.279, "cpu_seconds": 2599.734, "resident_mb": 315.63}
+{"utc": "2026-10-12T17:50:26.557731+00:00", "event": "heartbeat", "stage": "annealing", "original_cell": 5, "elapsed_seconds": 2635.295, "cpu_seconds": 2619.578, "resident_mb": 315.71}
+{"utc": "2026-10-12T17:50:46.562272+00:00", "event": "heartbeat", "stage": "annealing", "original_cell": 5, "elapsed_seconds": 2655.3, "cpu_seconds": 2639.359, "resident_mb": 315.77}
+{"utc": "2026-10-12T17:51:06.568565+00:00", "event": "heartbeat", "stage": "annealing", "original_cell": 5, "elapsed_seconds": 2675.306, "cpu_seconds": 2659.141, "resident_mb": 315.78}
+{"utc": "2026-10-12T17:51:26.572043+00:00", "event": "heartbeat", "stage": "annealing", "original_cell": 5, "elapsed_seconds": 2695.309, "cpu_seconds": 2678.938, "resident_mb": 315.82}
+{"utc": "2026-10-12T17:51:46.574146+00:00", "event": "heartbeat", "stage": "annealing", "original_cell": 5, "elapsed_seconds": 2715.311, "cpu_seconds": 2698.859, "resident_mb": 315.89}
+{"utc": "2026-10-12T17:52:06.579505+00:00", "event": "heartbeat", "stage": "annealing", "original_cell": 5, "elapsed_seconds": 2735.317, "cpu_seconds": 2718.672, "resident_mb": 316.03}
+{"utc": "2026-10-12T17:52:26.594096+00:00", "event": "heartbeat", "stage": "annealing", "original_cell": 5, "elapsed_seconds": 2755.331, "cpu_seconds": 2738.453, "resident_mb": 316.03}
+{"utc": "2026-10-12T17:52:46.601705+00:00", "event": "heartbeat", "stage": "annealing", "original_cell": 5, "elapsed_seconds": 2775.339, "cpu_seconds": 2758.266, "resident_mb": 316.05}
+{"utc": "2026-10-12T17:53:06.610022+00:00", "event": "heartbeat", "stage": "annealing", "original_cell": 5, "elapsed_seconds": 2795.347, "cpu_seconds": 2778.094, "resident_mb": 316.08}
+{"utc": "2026-10-12T17:53:18.526836+00:00", "event": "cell_complete", "stage": "annealing", "executed_cell": 6, "seconds": 291.096}
+{"utc": "2026-10-12T17:53:18.527804+00:00", "event": "cell_start", "stage": "annealing", "executed_cell": 8, "original_cell": 7, "first_line": "\"\"\"MILP fallback for separator-incomplete components.\"\"\""}
+{"utc": "2026-10-12T17:53:19.412877+00:00", "event": "cell_complete", "stage": "annealing", "executed_cell": 8, "seconds": 0.885}
+{"utc": "2026-10-12T17:53:19.413648+00:00", "event": "cell_start", "stage": "annealing", "executed_cell": 10, "original_cell": 9, "first_line": "# The reconstruction metadata (MWIS or CSP producer) is loaded in the configuration cell."}
+{"utc": "2026-10-12T17:53:19.648025+00:00", "event": "cell_complete", "stage": "annealing", "executed_cell": 10, "seconds": 0.234}
+{"utc": "2026-10-12T17:53:19.652866+00:00", "event": "stage_end", "stage": "annealing", "status": "completed", "seconds": 293.069}
+{"utc": "2026-10-12T17:53:19.654566+00:00", "event": "execution_complete", "seconds": 2808.389}

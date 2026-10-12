@@ -1,0 +1,15 @@
+component_id,status,objective,upper_bound,exact
+component_001,heuristic_feasible,31427.977,296671.993,False
+component_002,optimal,172.636,172.636,True
+component_003,optimal,92.5,92.5,True
+component_004,optimal,92.133,92.133,True
+component_005,optimal,54.856,54.856,True
+component_006,optimal,77.175,77.175,True
+component_007,optimal,60.842,60.842,True
+component_008,optimal,76.625,76.625,True
+component_009,optimal,88.523,88.523,True
+component_010,optimal,77.28,77.28,True
+component_011,optimal,43.753,43.753,True
+component_012,optimal,53.433,53.433,True
+component_013,optimal,76.27,76.27,True
+component_014,optimal,46.681,46.681,True

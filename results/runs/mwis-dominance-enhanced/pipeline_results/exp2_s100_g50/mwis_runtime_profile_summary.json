@@ -1,0 +1,26 @@
+{
+  "run_name": "exp2_s100_g50",
+  "evaluation_wall_seconds": 6.01,
+  "evaluation_calls": 81,
+  "evaluation_completed": 81,
+  "evaluation_memo_hits": 0,
+  "evaluation_calls_by_type": {
+    "terminal": 81
+  },
+  "evaluation_inclusive_seconds_by_type": {
+    "terminal": 6.006
+  },
+  "terminal_solver_calls": {
+    "exact enumeration": 11,
+    "empty graph": 70
+  },
+  "terminal_solver_seconds": {
+    "exact enumeration": 5.91,
+    "empty graph": 0.041
+  },
+  "terminal_solver_max_seconds": {
+    "exact enumeration": 3.99,
+    "empty graph": 0.001
+  },
+  "trace_file": "mwis_runtime_profile_20261012_214306.jsonl"
+}

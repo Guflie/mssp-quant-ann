@@ -1,0 +1,35 @@
+{
+  "run_name": "exp3_s200_g25",
+  "evaluation_wall_seconds": 45.278,
+  "evaluation_calls": 7126,
+  "evaluation_completed": 7126,
+  "evaluation_memo_hits": 8985,
+  "evaluation_calls_by_type": {
+    "separator": 3311,
+    "independent_sum": 982,
+    "incomplete": 2736,
+    "terminal": 97
+  },
+  "evaluation_inclusive_seconds_by_type": {
+    "incomplete": 12.833,
+    "terminal": 32.008,
+    "separator": 263.063,
+    "independent_sum": 10.003
+  },
+  "terminal_solver_calls": {
+    "empty graph": 61,
+    "complement max-weight clique": 2,
+    "exact enumeration": 34
+  },
+  "terminal_solver_seconds": {
+    "empty graph": 0.043,
+    "complement max-weight clique": 0.016,
+    "exact enumeration": 31.88
+  },
+  "terminal_solver_max_seconds": {
+    "empty graph": 0.002,
+    "complement max-weight clique": 0.013,
+    "exact enumeration": 30.793
+  },
+  "trace_file": "mwis_runtime_profile_20261013_000300.jsonl"
+}

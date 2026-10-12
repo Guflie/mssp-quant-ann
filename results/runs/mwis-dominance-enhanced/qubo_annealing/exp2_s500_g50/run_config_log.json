@@ -1,0 +1,18 @@
+{
+  "producer": "mwis_pipeline",
+  "producer_run": "exp2_s500_g50",
+  "slot_csv": "data/experiment_inputs/exp_snapshot_2026-10-12/slots_s500_g50.csv",
+  "qubo_encoding": "one_hot",
+  "terminal_qubos_file": "mwis_terminal_qubos.json",
+  "max_qpu_terminal_nodes": 30,
+  "max_qpu_terminal_couplers": 200,
+  "exact_enumeration_node_limit": 22,
+  "exact_clique_node_limit": 50,
+  "qubo_input_run": "runs/mwis-dominance-enhanced/pipeline_results/exp2_s500_g50",
+  "num_reads": 500,
+  "base_seed": 42,
+  "milp_per_component_seconds": 5.0,
+  "milp_total_solver_seconds": 30.0,
+  "triangle_lp_per_component_seconds": 5.0,
+  "triangle_lp_total_solver_seconds": 30.0
+}

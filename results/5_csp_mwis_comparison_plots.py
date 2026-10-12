@@ -13,7 +13,7 @@ import json
 import platform
 import sys
 from collections import Counter
-from dataclasses import dataclass
+from dataclasses import dataclass, replace
 from decimal import Decimal
 from pathlib import Path
 
@@ -30,6 +30,7 @@ ROOT = Path(__file__).resolve().parents[1]
 RESULTS = ROOT / "results"
 MWIS_CAMPAIGN = "new_pipeline_results_reordered"
 DEFAULT_OUTPUT = RESULTS / "figures/csp_mwis_reordered"
+MWIS_VARIANT = "reordered"
 COLORS = {"MWIS": "#2463A0", "CSP": "#C75C30"}
 ORIGINS = ["Annealing", "Exact preprocessing", "Separator assignments", "Greedy fallback", "MILP"]
 ORIGIN_COLORS = ["#2463A0", "#76B7B2", "#B89AC8", "#E9AE45", "#707780"]
@@ -234,8 +235,8 @@ def load_run(inputs, scenario, method):
     assert raw.start_time_hours.min() >= 0 and raw.end_time_hours.max() <= HORIZON_HOURS
     assert (raw.groupby("station_id").antenna_id.nunique() == 1).all()
     if method == "MWIS":
-        run = f"{MWIS_CAMPAIGN}/{scenario.mwis_run}"
-        base = RESULTS / "runs/mwis"
+        run = scenario.mwis_run if MWIS_VARIANT == "dominance" else f"{MWIS_CAMPAIGN}/{scenario.mwis_run}"
+        base = RESULTS / "runs" / ("mwis-dominance-enhanced" if MWIS_VARIANT == "dominance" else "mwis")
         producer, annealer = base / "pipeline_results" / run, base / "qubo_annealing" / run
         execution = inputs.json(base / "execution_logs" / run / "execution_summary.json")
         assert execution["status"] == "completed_and_validated"
@@ -247,7 +248,7 @@ def load_run(inputs, scenario, method):
         base = RESULTS / "runs/csp" / scenario.csp_bundle
         producer, annealer = base / "pipeline_results" / scenario.csp_run, base / "qubo_annealing" / scenario.csp_run
         producer_clock, annealer_clock, timing_source = csp_notebook_clocks(inputs, scenario)
-    assert "dominance-enhanced" not in str(producer)
+    assert ("dominance-enhanced" in str(producer)) == (method == "MWIS" and MWIS_VARIANT == "dominance")
     config = inputs.json(producer / "run_config_log.json")
     config_input = config.get("candidate_slot_csv") if method == "MWIS" else config.get("csp_slot_csv", config.get("slot_csv"))
     assert (ROOT / config_input).resolve() == scenario.input_path.resolve()
@@ -255,6 +256,10 @@ def load_run(inputs, scenario, method):
     assert int(sample_config["max_qpu_terminal_nodes"]) == scenario.variables
     assert int(sample_config["max_qpu_terminal_couplers"]) == scenario.couplers
     metadata = inputs.metadata(producer / "reconstruction_metadata.json.gz")
+    if method == "MWIS" and MWIS_VARIANT == "dominance":
+        assert "dominance" in metadata["variant"]
+        validation = inputs.json(base / "execution_logs" / run / "validation_report.json")
+        assert validation["validation_passed"]
     producer_metrics = inputs.metrics(producer / "final_summary.csv")
     final_metrics = inputs.metrics(annealer / "reconstructed_summary.csv")
     terminals = inputs.csv(annealer / "terminal_qubo_summary.csv")
@@ -314,6 +319,8 @@ def load_run(inputs, scenario, method):
     phases = phase_times(inputs, producer)
     if method == "MWIS":
         build = sum(phases[k] for k in ["candidate_load_and_export", "conflict_graph_build_and_export", "natural_components_and_summary"])
+        if MWIS_VARIANT == "dominance":
+            build += phases["global_dominance_and_export"]
         decomposition = phases["decomposition_and_terminal_export"]
         classical = phases["recursive_solution_evaluation"]
         translation_export = sum(phases[k] for k in ["qubo_translation", "solution_reconstruction_and_exports", "final_reporting_export"])
@@ -337,6 +344,7 @@ def load_run(inputs, scenario, method):
     origin_objectives = {origin: sum(float(raw.loc[s, "weight"]) for s, kind in final_origins.items() if kind == origin) for origin in ORIGINS}
     record = {
         "scenario": scenario.key, "method": method, "run": run,
+        "mwis_variant": MWIS_VARIANT if method == "MWIS" else "not applicable",
         "satellites": scenario.satellites, "gateways": scenario.gateways,
         "variable_limit": scenario.variables, "coupler_limit": scenario.couplers,
         "encoding": metadata["qubo_encoding"], "reads_per_terminal": reads,
@@ -424,6 +432,9 @@ def style():
 
 
 def save(fig, output, name, caption, captions):
+    if MWIS_VARIANT == "dominance":
+        fig.text(.99, 1.015, "MWIS: dominance-enhanced pipeline", ha="right", fontsize=9, color=COLORS["MWIS"])
+        caption = "MWIS uses the dominance-enhanced pipeline. " + caption
     fig.savefig(output / f"{name}.png", dpi=200, bbox_inches="tight")
     fig.savefig(output / f"{name}.pdf", bbox_inches="tight")
     plt.close(fig)
@@ -608,7 +619,8 @@ def component_structure(data, output, captions):
     axes[0, 0].legend(ncol=2)
     fig.suptitle("Component structure after each pipeline's initial preprocessing")
     fig.tight_layout(rect=(0, 0, 1, .94))
-    save(fig, output, "08_component_structure", "Component sizes use candidate contacts in both methods, rather than CSP satellite variables versus MWIS contact vertices. CSP has already applied global dominance; this MWIS campaign has not. Means include singleton components, so the largest component is shown alongside them. These are root components before recursive separator decomposition, not terminal QUBOs or incomplete leaves.", captions)
+    reduction_note = "Both pipelines have applied global dominance." if MWIS_VARIANT == "dominance" else "CSP has already applied global dominance; this MWIS campaign has not."
+    save(fig, output, "08_component_structure", f"Component sizes use candidate contacts in both methods, rather than CSP satellite variables versus MWIS contact vertices. {reduction_note} Means include singleton components, so the largest component is shown alongside them. These are root components before recursive separator decomposition, not terminal QUBOs or incomplete leaves.", captions)
 
 
 def quality_stages(data, output, captions):
@@ -634,7 +646,8 @@ def quality_stages(data, output, captions):
     axes.flat[-1].text(.02, .65, "Zoomed percentage scale\n100% = certified optimum\n\nClassical reference uses exact\nterminal solves plus the same\ngreedy incomplete leaves.\n\nFinal hybrid uses MILP\nwhere fallback is required.", transform=axes.flat[-1].transAxes, va="top", fontsize=10)
     fig.suptitle("Schedule quality through the three computational stages")
     fig.tight_layout(rect=(0, 0, 1, .94))
-    save(fig, output, "09_quality_through_stages", "Original schedule weights divided by the certified optimum of each input. The percentage axis is zoomed, with the same limits in every panel. Classical reference comes from the saved producer solution and is independently validated; sampled reconstruction comes from the saved tree/read results. Final hybrid may require no MILP for a complete run. In this campaign reference and sampled objectives match in all 14 records; this is not an annealer-only improvement.", captions)
+    matches = int(np.isclose(data.pre_milp_objective, data.classical_reference_objective, rtol=0, atol=1e-6).sum())
+    save(fig, output, "09_quality_through_stages", f"Original schedule weights divided by the certified optimum of each input. The percentage axis is zoomed, with the same limits in every panel. Classical reference comes from the saved producer solution and is independently validated; sampled reconstruction comes from the saved tree/read results. Final hybrid may require no MILP for a complete run. In this campaign reference and sampled objectives match in {matches} of {len(data)} records. The classical reference is distinct from an annealer-only objective.", captions)
 
 
 def pre_post_provenance(data, output, captions):
@@ -790,17 +803,23 @@ def gateway_activity(gateways, scenario, output, captions):
 
 def write_readme(output, frame, captions):
     baseline = frame[(frame.scenario == "baseline") & (frame.method == "MWIS")].iloc[0]
+    dominance = MWIS_VARIANT == "dominance"
+    campaign = "mwis-dominance-enhanced" if dominance else MWIS_CAMPAIGN
+    variant_note = "All seven completed dominance-enhanced MWIS runs are included; original MWIS runs are excluded." if dominance else "The dominance-enhanced MWIS runs are excluded."
+    encoding_note = "this MWIS campaign uses one-hot encoding with global and recursive dominance" if dominance else "this MWIS campaign uses one-hot encoding without dominance"
+    variant_option = " --mwis-variant dominance --output-dir results/figures/csp_mwis_reordered_dominance" if dominance else ""
+    gallery_intro = "Completed dominance-enhanced MWIS campaign and matched CSP inputs. Original MWIS excluded." if dominance else "Completed reordered MWIS campaign and matched CSP inputs. Dominance-enhanced MWIS excluded."
     pre = {origin: int(baseline[f"pre_milp_contacts_{origin.lower().replace(' ', '_')}"]) for origin in ORIGINS}
     figures = "\n\n".join(f"### {name}\n\n![{name}]({name}.png)\n\n{caption}\n\n[Vector PDF]({name}.pdf)" for name, caption in captions.items())
     text = f'''# CSP and MWIS comparison figures
 
-Generated by `results/5_csp_mwis_comparison_plots.py`. This report uses only the completed MWIS campaign `new_pipeline_results_reordered` and the team's extracted CSP runs on `exp_snapshot_2026-10-12`. The dominance-enhanced MWIS baseline is excluded. No experiment is executed or modified.
+Generated by `results/5_csp_mwis_comparison_plots.py`. This report uses only the completed MWIS campaign `{campaign}` and the team's extracted CSP runs on `exp_snapshot_2026-10-12`. {variant_note} No experiment is executed or modified.
 
 ## Reading the comparison
 
 - All seven configurations are matched by frozen input, satellite/gateway counts, and logical terminal limits. Each of the 14 method/configuration records is loaded once.
-- The shared baseline is MWIS `exp1_s200_g50` and CSP `csp_gs_sweep/gs_s200_g50`. It appears in each experiment group as a common reference, not an independent replicate. The other CSP baseline copies are not additional trials.
-- CSP uses domain-wall encoding and dominance reduction; this MWIS campaign uses one-hot encoding without dominance. The figures compare the implemented pipelines, not isolated formulation effects.
+- The shared baseline is MWIS `{baseline['run']}` and CSP `csp_gs_sweep/gs_s200_g50`. It appears in each experiment group as a common reference, not an independent replicate. The other CSP baseline copies are not additional trials.
+- CSP uses domain-wall encoding and dominance reduction; {encoding_note}. The figures compare the implemented pipelines, not isolated formulation effects.
 - MWIS uses 500 reads per terminal and CSP uses 1,000. Total budgets differ further because terminal counts differ. Seeds and one run per setting do not provide statistical error bars.
 - Objective means original schedule weight. QUBO energy is not compared across encodings or reward scales.
 - Average subproblem size means binary variables/couplers across every non-empty sampled terminal, including alternative branches later discarded. It does not mix native CSP satellite variables with MWIS contact vertices.
@@ -811,14 +830,14 @@ Generated by `results/5_csp_mwis_comparison_plots.py`. This report uses only the
 
 ## Why few sampled QUBOs can still give a high pre-MILP objective
 
-Pre-MILP reconstruction combines sampled terminals, exact fixed contacts, separator choices and greedy incomplete leaves. In the original MWIS baseline, the pre-MILP schedule contains {pre['Annealing']} contacts from sampled terminals, {pre['Exact preprocessing']} from exact preprocessing, {pre['Separator assignments']} from separator assignments, and {pre['Greedy fallback']} from greedy fallback. Their combined weight is {baseline.pre_milp_objective:,.3f}; this is not an annealer-only objective. MILP later replaces the incomplete component. A QUBO count therefore cannot by itself explain schedule quality or retained annealing contribution.
+Pre-MILP reconstruction combines sampled terminals, exact fixed contacts, separator choices and greedy incomplete leaves. In the selected MWIS baseline, the pre-MILP schedule contains {pre['Annealing']} contacts from sampled terminals, {pre['Exact preprocessing']} from exact preprocessing, {pre['Separator assignments']} from separator assignments, and {pre['Greedy fallback']} from greedy fallback. Their combined weight is {baseline.pre_milp_objective:,.3f}; this is not an annealer-only objective. MILP later replaces the incomplete component. A QUBO count therefore cannot by itself explain schedule quality or retained annealing contribution.
 
 ## Outputs and regeneration
 
 Run with the project Python interpreter:
 
 ```powershell
-& 'C:/Users/felip/AppData/Local/Python/pythoncore-3.13-64/python.exe' -B -X utf8 results/5_csp_mwis_comparison_plots.py
+& 'C:/Users/felip/AppData/Local/Python/pythoncore-3.13-64/python.exe' -B -X utf8 results/5_csp_mwis_comparison_plots.py{variant_option}
 ```
 
 Use `--output-dir PATH` for another analysis directory. Figures are saved as 200-DPI PNGs and vector PDFs. By default, Gantt and gateway-activity views are generated for all seven configurations; use `--schedule-scenarios baseline` to generate those views only for the baseline, or pass several scenario keys. The gallery and captions list only figures generated by the current invocation; older files in the analysis directory are preserved.
@@ -844,19 +863,29 @@ Further useful figures require additional measurements: repeated-run distributio
     comparative = "".join(card(name, caption) for name, caption in captions.items() if not name.startswith(("13_", "14_")))
     operational = "".join(card(name, caption) for name, caption in captions.items() if name.startswith(("13_", "14_")))
     navigation = '<ul>' + ''.join(f'<li><a href="#{html.escape(name)}">{html.escape(name)}</a></li>' for name in captions if not name.startswith(("13_", "14_"))) + '</ul>'
-    (output / "index.html").write_text('<!doctype html><html lang="en"><meta charset="utf-8"><title>CSP / MWIS experiment comparison</title><style>body{font:16px system-ui;max-width:1250px;margin:32px auto;padding:0 24px;color:#25313c}article{margin:36px 0;padding:20px;border:1px solid #d4dce3;border-radius:10px}img{max-width:100%;height:auto}p{line-height:1.5}summary{font-size:22px;cursor:pointer;padding:16px;background:#edf2f6}</style><h1>CSP / MWIS experiment comparison</h1><p>Completed reordered MWIS campaign and matched CSP inputs. Dominance-enhanced MWIS excluded. Logical dimensions only; runtime is descriptive with unmatched hardware/environment provenance. Click any figure for its vector PDF. See README.md and the exported tables for full definitions.</p>' + navigation + comparative + '<details><summary>Schedule Gantt charts and gateway activity for each configuration</summary>' + operational + '</details></html>', encoding="utf-8")
+    (output / "index.html").write_text('<!doctype html><html lang="en"><meta charset="utf-8"><title>CSP / MWIS experiment comparison</title><style>body{font:16px system-ui;max-width:1250px;margin:32px auto;padding:0 24px;color:#25313c}article{margin:36px 0;padding:20px;border:1px solid #d4dce3;border-radius:10px}img{max-width:100%;height:auto}p{line-height:1.5}summary{font-size:22px;cursor:pointer;padding:16px;background:#edf2f6}</style><h1>CSP / MWIS experiment comparison</h1><p>' + gallery_intro + ' Logical dimensions only; runtime is descriptive with unmatched hardware/environment provenance. Click any figure for its vector PDF. See README.md and the exported tables for full definitions.</p>' + navigation + comparative + '<details><summary>Schedule Gantt charts and gateway activity for each configuration</summary>' + operational + '</details></html>', encoding="utf-8")
 
 
 def main():
+    global MWIS_VARIANT, SCENARIOS
     parser = argparse.ArgumentParser(description=__doc__)
-    parser.add_argument("--output-dir", type=Path, default=DEFAULT_OUTPUT)
+    parser.add_argument("--mwis-variant", choices=["reordered", "dominance"], default="reordered",
+                        help="MWIS campaign to compare with CSP; default preserves the original reordered campaign.")
+    parser.add_argument("--output-dir", type=Path)
     parser.add_argument("--schedule-scenarios", nargs="+", choices=[s.key for s in SCENARIOS] + ["all"], default=["all"],
                         help="Configurations for Gantt/gateway plots; default: all. Comparative figures always cover all configurations.")
     args = parser.parse_args()
-    output = args.output_dir.resolve()
+    MWIS_VARIANT = args.mwis_variant
+    if MWIS_VARIANT == "dominance":
+        SCENARIOS = [replace(s, mwis_run="baseline_s200_g50") if s.key == "baseline" else s for s in SCENARIOS]
+    default_output = RESULTS / "figures/csp_mwis_reordered_dominance" if MWIS_VARIANT == "dominance" else DEFAULT_OUTPUT
+    output = (args.output_dir or default_output).resolve()
+    if MWIS_VARIANT == "dominance" and (output == DEFAULT_OUTPUT.resolve() or DEFAULT_OUTPUT.resolve() in output.parents):
+        parser.error("Dominance plots must use a separate directory from the original comparison")
     if output == ROOT or output == RESULTS or any(base in output.parents or output == base for base in [RESULTS / "runs/mwis", RESULTS / "runs/csp", RESULTS / "runs/mwis-dominance-enhanced"]):
         parser.error("Choose an analysis directory outside the source campaign folders")
     inputs = Inputs()
+    inputs.read(Path(__file__))
     records, terminals, leaves, schedules, gateways, selections = [], [], [], [], [], []
     for scenario in SCENARIOS:
         print(f"Loading matched {scenario.key} ({scenario.satellites}/{scenario.gateways}, limits {scenario.variables}/{scenario.couplers})", flush=True)
@@ -912,7 +941,8 @@ def main():
               "exported_terminal_records": len(terminal_frame), "figures_png_and_pdf": len(captions),
               "exported_leaf_records": len(leaf_frame), "exported_selected_contact_records": len(schedule_frame),
               "operational_plot_scenarios": [s.key for s in schedule_scenarios],
-              "source_hashes_checked_unchanged": len(inputs.manifest), "dominance_variant_included": False,
+              "source_hashes_checked_unchanged": len(inputs.manifest), "dominance_variant_included": MWIS_VARIANT == "dominance",
+              "mwis_variant": MWIS_VARIANT,
               "missing_full_runtime_records": frame.loc[~frame.total_timing_complete, ["scenario", "method"]].to_dict("records"),
               "checks": ["matching input hashes and requested active satellite/gateway counts", "terminal caps and read budgets",
                          "sample feasibility flags", "independent pre-MILP reconstruction", "original schedule constraints and objective totals",

@@ -1,0 +1,1107 @@
+source,target,reason,reconfiguration_time,satellite_id
+SLOT_002643,SLOT_003464,same-antenna reconfiguration time,0.05,
+SLOT_002643,SLOT_002481,same satellite,,47770
+SLOT_002643,SLOT_002622,same satellite,,47770
+SLOT_002643,SLOT_002631,same satellite,,47770
+SLOT_002643,SLOT_012875,same satellite,,47770
+SLOT_002643,SLOT_013137,same satellite,,47770
+SLOT_032440,SLOT_021631,same satellite,,44941
+SLOT_002176,SLOT_001883,same-antenna overlap,,
+SLOT_002176,SLOT_002481,same-antenna overlap,,
+SLOT_002176,SLOT_002305,same satellite,,46048
+SLOT_002176,SLOT_002461,same satellite,,46048
+SLOT_002176,SLOT_002474,same satellite,,46048
+SLOT_002176,SLOT_002504,same satellite,,46048
+SLOT_002176,SLOT_002630,same satellite,,46048
+SLOT_002176,SLOT_002650,same satellite,,46048
+SLOT_002176,SLOT_005626,same satellite,,46048
+SLOT_007804,SLOT_007041,same-antenna reconfiguration time,0.05,
+SLOT_007804,SLOT_007193,same-antenna reconfiguration time,0.05,
+SLOT_007804,SLOT_007330,same-antenna overlap,,
+SLOT_007804,SLOT_008097,same-antenna overlap,,
+SLOT_007804,SLOT_008389,same-antenna reconfiguration time,0.05,
+SLOT_007804,SLOT_008690,same-antenna reconfiguration time,0.05,
+SLOT_007804,SLOT_003726,same satellite,,46039
+SLOT_007804,SLOT_004955,same satellite,,46039
+SLOT_007804,SLOT_007801,same satellite,,46039
+SLOT_007804,SLOT_007932,same satellite,,46039
+SLOT_007804,SLOT_007947,same satellite,,46039
+SLOT_007804,SLOT_008104,same satellite,,46039
+SLOT_007804,SLOT_008267,same satellite,,46039
+SLOT_007804,SLOT_008874,same satellite,,46039
+SLOT_005173,SLOT_004549,same-antenna reconfiguration time,0.05,
+SLOT_005173,SLOT_005625,same-antenna overlap,,
+SLOT_005173,SLOT_005626,same-antenna overlap,,
+SLOT_005173,SLOT_002047,same satellite,,46082
+SLOT_005173,SLOT_002649,same satellite,,46082
+SLOT_001166,SLOT_000246,same-antenna reconfiguration time,0.05,
+SLOT_001166,SLOT_000426,same-antenna reconfiguration time,0.05,
+SLOT_001166,SLOT_000703,same-antenna overlap,,
+SLOT_001166,SLOT_001295,same-antenna overlap,,
+SLOT_001166,SLOT_002055,same-antenna reconfiguration time,0.05,
+SLOT_001166,SLOT_017716,same satellite,,47722
+SLOT_005880,SLOT_004978,same-antenna reconfiguration time,0.05,
+SLOT_005880,SLOT_005589,same satellite,,45735
+SLOT_005880,SLOT_005752,same satellite,,45735
+SLOT_005880,SLOT_006632,same satellite,,45735
+SLOT_009180,SLOT_008838,same-antenna overlap,,
+SLOT_009180,SLOT_009748,same-antenna reconfiguration time,0.05,
+SLOT_009180,SLOT_004824,same satellite,,46032
+SLOT_009180,SLOT_006004,same satellite,,46032
+SLOT_009180,SLOT_008690,same satellite,,46032
+SLOT_009180,SLOT_008851,same satellite,,46032
+SLOT_009180,SLOT_009199,same satellite,,46032
+SLOT_009180,SLOT_009220,same satellite,,46032
+SLOT_009180,SLOT_009226,same satellite,,46032
+SLOT_007801,SLOT_007189,same-antenna reconfiguration time,0.05,
+SLOT_007801,SLOT_007318,same-antenna overlap,,
+SLOT_007801,SLOT_008233,same-antenna overlap,,
+SLOT_007801,SLOT_008680,same-antenna reconfiguration time,0.05,
+SLOT_007801,SLOT_003726,same satellite,,46039
+SLOT_007801,SLOT_004955,same satellite,,46039
+SLOT_007801,SLOT_007932,same satellite,,46039
+SLOT_007801,SLOT_007947,same satellite,,46039
+SLOT_007801,SLOT_008104,same satellite,,46039
+SLOT_007801,SLOT_008267,same satellite,,46039
+SLOT_007801,SLOT_008874,same satellite,,46039
+SLOT_005873,SLOT_006012,same satellite,,47730
+SLOT_005873,SLOT_006222,same satellite,,47730
+SLOT_018424,SLOT_018580,same-antenna overlap,,
+SLOT_018424,SLOT_024024,same satellite,,46709
+SLOT_025484,SLOT_024672,same-antenna reconfiguration time,0.05,
+SLOT_025484,SLOT_024974,same-antenna overlap,,
+SLOT_025484,SLOT_025646,same-antenna overlap,,
+SLOT_025484,SLOT_004389,same satellite,,45747
+SLOT_025484,SLOT_004529,same satellite,,45747
+SLOT_025484,SLOT_004553,same satellite,,45747
+SLOT_025484,SLOT_009201,same satellite,,45747
+SLOT_025484,SLOT_009351,same satellite,,45747
+SLOT_025484,SLOT_025505,same satellite,,45747
+SLOT_019762,SLOT_019491,same-antenna overlap,,
+SLOT_019762,SLOT_020485,same-antenna reconfiguration time,0.05,
+SLOT_019762,SLOT_009578,same satellite,,44768
+SLOT_019762,SLOT_009589,same satellite,,44768
+SLOT_019762,SLOT_009597,same satellite,,44768
+SLOT_019762,SLOT_025646,same satellite,,44768
+SLOT_019762,SLOT_025648,same satellite,,44768
+SLOT_003912,SLOT_003136,same-antenna reconfiguration time,0.05,
+SLOT_003912,SLOT_002859,same satellite,,46553
+SLOT_003912,SLOT_003134,same satellite,,46553
+SLOT_005589,SLOT_004679,same-antenna reconfiguration time,0.05,
+SLOT_005589,SLOT_006012,same-antenna overlap,,
+SLOT_005589,SLOT_005752,same satellite,,45735
+SLOT_005589,SLOT_006632,same satellite,,45735
+SLOT_016492,SLOT_015738,same-antenna reconfiguration time,0.05,
+SLOT_016492,SLOT_000830,same satellite,,47632
+SLOT_016492,SLOT_005139,same satellite,,47632
+SLOT_016492,SLOT_007048,same satellite,,47632
+SLOT_016492,SLOT_022194,same satellite,,47632
+SLOT_016492,SLOT_030241,same satellite,,47632
+SLOT_016492,SLOT_030651,same satellite,,47632
+SLOT_003268,SLOT_003110,same-antenna overlap,,
+SLOT_003268,SLOT_003440,same-antenna overlap,,
+SLOT_003268,SLOT_003726,same-antenna overlap,,
+SLOT_003268,SLOT_004496,same satellite,,45406
+SLOT_003268,SLOT_007189,same satellite,,45406
+SLOT_003268,SLOT_007193,same satellite,,45406
+SLOT_003268,SLOT_007316,same satellite,,45406
+SLOT_003268,SLOT_007346,same satellite,,45406
+SLOT_003268,SLOT_007672,same satellite,,45406
+SLOT_003933,SLOT_003881,same satellite,,45383
+SLOT_001919,SLOT_001782,same-antenna overlap,,
+SLOT_001919,SLOT_001779,same satellite,,47750
+SLOT_001919,SLOT_001890,same satellite,,47750
+SLOT_001919,SLOT_007965,same satellite,,47750
+SLOT_001919,SLOT_022737,same satellite,,47750
+SLOT_006608,SLOT_005722,same-antenna reconfiguration time,0.05,
+SLOT_006608,SLOT_006004,same-antenna reconfiguration time,0.05,
+SLOT_006608,SLOT_006192,same-antenna overlap,,
+SLOT_006608,SLOT_006873,same-antenna overlap,,
+SLOT_006608,SLOT_009748,same satellite,,45404
+SLOT_006608,SLOT_009764,same satellite,,45404
+SLOT_006608,SLOT_009774,same satellite,,45404
+SLOT_006608,SLOT_009802,same satellite,,45404
+SLOT_003299,SLOT_002762,same-antenna reconfiguration time,0.05,
+SLOT_003299,SLOT_003934,same-antenna reconfiguration time,0.05,
+SLOT_003299,SLOT_004088,same-antenna reconfiguration time,0.05,
+SLOT_003299,SLOT_002858,same satellite,,47739
+SLOT_003299,SLOT_003135,same satellite,,47739
+SLOT_003299,SLOT_003138,same satellite,,47739
+SLOT_003299,SLOT_003635,same satellite,,47739
+SLOT_003299,SLOT_013289,same satellite,,47739
+SLOT_003299,SLOT_013410,same satellite,,47739
+SLOT_003299,SLOT_013429,same satellite,,47739
+SLOT_003299,SLOT_018125,same satellite,,47739
+SLOT_003299,SLOT_019628,same satellite,,47739
+SLOT_030241,SLOT_029339,same-antenna reconfiguration time,0.05,
+SLOT_030241,SLOT_000830,same satellite,,47632
+SLOT_030241,SLOT_005139,same satellite,,47632
+SLOT_030241,SLOT_007048,same satellite,,47632
+SLOT_030241,SLOT_022194,same satellite,,47632
+SLOT_030241,SLOT_030651,same satellite,,47632
+SLOT_002075,SLOT_002509,same-antenna overlap,,
+SLOT_030408,SLOT_029687,same-antenna reconfiguration time,0.05,
+SLOT_030408,SLOT_029865,same-antenna reconfiguration time,0.05,
+SLOT_030408,SLOT_030543,same-antenna overlap,,
+SLOT_030408,SLOT_030697,same-antenna overlap,,
+SLOT_004529,SLOT_004389,same satellite,,45747
+SLOT_004529,SLOT_004553,same satellite,,45747
+SLOT_004529,SLOT_009201,same satellite,,45747
+SLOT_004529,SLOT_009351,same satellite,,45747
+SLOT_004529,SLOT_025505,same satellite,,45747
+SLOT_002316,SLOT_002630,same-antenna overlap,,
+SLOT_002316,SLOT_001883,same satellite,,46060
+SLOT_002316,SLOT_002045,same satellite,,46060
+SLOT_002316,SLOT_002295,same satellite,,46060
+SLOT_002316,SLOT_002306,same satellite,,46060
+SLOT_002316,SLOT_002335,same satellite,,46060
+SLOT_002316,SLOT_002339,same satellite,,46060
+SLOT_020846,SLOT_020967,same-antenna overlap,,
+SLOT_020846,SLOT_004368,same satellite,,47742
+SLOT_020846,SLOT_020854,same satellite,,47742
+SLOT_004504,SLOT_003726,same-antenna reconfiguration time,0.05,
+SLOT_004504,SLOT_004353,same-antenna overlap,,
+SLOT_004504,SLOT_004824,same-antenna overlap,,
+SLOT_004504,SLOT_005139,same-antenna reconfiguration time,0.05,
+SLOT_004504,SLOT_005722,same satellite,,45415
+SLOT_004504,SLOT_008389,same satellite,,45415
+SLOT_004504,SLOT_008515,same satellite,,45415
+SLOT_004504,SLOT_008838,same satellite,,45415
+SLOT_004504,SLOT_008863,same satellite,,45415
+SLOT_004504,SLOT_008892,same satellite,,45415
+SLOT_020967,SLOT_000270,same satellite,,44751
+SLOT_020967,SLOT_000455,same satellite,,44751
+SLOT_004497,SLOT_004047,same-antenna overlap,,
+SLOT_004497,SLOT_004349,same-antenna overlap,,
+SLOT_004497,SLOT_004496,same-antenna overlap,,
+SLOT_004497,SLOT_004670,same-antenna overlap,,
+SLOT_004497,SLOT_004955,same-antenna overlap,,
+SLOT_004497,SLOT_027572,same satellite,,47382
+SLOT_030653,SLOT_029975,same-antenna reconfiguration time,0.05,
+SLOT_030653,SLOT_030962,same-antenna overlap,,
+SLOT_009184,SLOT_008507,same-antenna reconfiguration time,0.05,
+SLOT_009184,SLOT_009933,same-antenna reconfiguration time,0.05,
+SLOT_009184,SLOT_012493,same satellite,,46029
+SLOT_009184,SLOT_012684,same satellite,,46029
+SLOT_009184,SLOT_012694,same satellite,,46029
+SLOT_009184,SLOT_012701,same satellite,,46029
+SLOT_009184,SLOT_012724,same satellite,,46029
+SLOT_009184,SLOT_013283,same satellite,,46029
+SLOT_009184,SLOT_015931,same satellite,,46029
+SLOT_008233,SLOT_007318,same-antenna reconfiguration time,0.05,
+SLOT_008233,SLOT_008680,same-antenna overlap,,
+SLOT_008233,SLOT_009191,same-antenna reconfiguration time,0.05,
+SLOT_008233,SLOT_008097,same satellite,,46702
+SLOT_008233,SLOT_008257,same satellite,,46702
+SLOT_008233,SLOT_018580,same satellite,,46702
+SLOT_008233,SLOT_024374,same satellite,,46702
+SLOT_001784,SLOT_001185,same satellite,,46706
+SLOT_013141,SLOT_012875,same-antenna overlap,,
+SLOT_013141,SLOT_013849,same-antenna reconfiguration time,0.05,
+SLOT_008104,SLOT_003726,same satellite,,46039
+SLOT_008104,SLOT_004955,same satellite,,46039
+SLOT_008104,SLOT_007932,same satellite,,46039
+SLOT_008104,SLOT_007947,same satellite,,46039
+SLOT_008104,SLOT_008267,same satellite,,46039
+SLOT_008104,SLOT_008874,same satellite,,46039
+SLOT_009597,SLOT_008877,same-antenna reconfiguration time,0.05,
+SLOT_009597,SLOT_009214,same-antenna overlap,,
+SLOT_009597,SLOT_009351,same-antenna overlap,,
+SLOT_009597,SLOT_010452,same-antenna reconfiguration time,0.05,
+SLOT_009597,SLOT_009578,same satellite,,44768
+SLOT_009597,SLOT_009589,same satellite,,44768
+SLOT_009597,SLOT_025646,same satellite,,44768
+SLOT_009597,SLOT_025648,same satellite,,44768
+SLOT_027552,SLOT_021078,same satellite,,45695
+SLOT_002200,SLOT_000703,same satellite,,45773
+SLOT_015935,SLOT_028848,same satellite,,47400
+SLOT_015935,SLOT_032843,same satellite,,47400
+SLOT_020973,SLOT_004693,same satellite,,47734
+SLOT_020973,SLOT_004705,same satellite,,47734
+SLOT_007330,SLOT_007041,same-antenna overlap,,
+SLOT_007330,SLOT_007193,same-antenna overlap,,
+SLOT_007330,SLOT_008097,same-antenna reconfiguration time,0.05,
+SLOT_007330,SLOT_003440,same satellite,,46035
+SLOT_007330,SLOT_004670,same satellite,,46035
+SLOT_007330,SLOT_007318,same satellite,,46035
+SLOT_007330,SLOT_007486,same satellite,,46035
+SLOT_007330,SLOT_007498,same satellite,,46035
+SLOT_007330,SLOT_007805,same satellite,,46035
+SLOT_007330,SLOT_007830,same satellite,,46035
+SLOT_012875,SLOT_002481,same satellite,,47770
+SLOT_012875,SLOT_002622,same satellite,,47770
+SLOT_012875,SLOT_002631,same satellite,,47770
+SLOT_012875,SLOT_013137,same satellite,,47770
+SLOT_009764,SLOT_009748,same satellite,,45404
+SLOT_009764,SLOT_009774,same satellite,,45404
+SLOT_009764,SLOT_009802,same satellite,,45404
+SLOT_009589,SLOT_008868,same-antenna reconfiguration time,0.05,
+SLOT_009589,SLOT_009201,same-antenna overlap,,
+SLOT_009589,SLOT_009578,same satellite,,44768
+SLOT_009589,SLOT_025646,same satellite,,44768
+SLOT_009589,SLOT_025648,same satellite,,44768
+SLOT_016839,SLOT_005625,same satellite,,44930
+SLOT_016839,SLOT_016064,same satellite,,44930
+SLOT_001295,SLOT_000426,same-antenna reconfiguration time,0.05,
+SLOT_001295,SLOT_000703,same-antenna reconfiguration time,0.05,
+SLOT_001295,SLOT_002055,same-antenna reconfiguration time,0.05,
+SLOT_001295,SLOT_001458,same satellite,,45412
+SLOT_001295,SLOT_002318,same satellite,,45412
+SLOT_000565,SLOT_001155,same-antenna reconfiguration time,0.05,
+SLOT_000565,SLOT_000426,same satellite,,46045
+SLOT_000565,SLOT_000585,same satellite,,46045
+SLOT_000565,SLOT_000719,same satellite,,46045
+SLOT_003464,SLOT_003621,same-antenna overlap,,
+SLOT_003464,SLOT_003748,same-antenna overlap,,
+SLOT_003464,SLOT_033223,same satellite,,44725
+SLOT_006019,SLOT_005868,same-antenna overlap,,
+SLOT_006019,SLOT_003136,same satellite,,45227
+SLOT_006019,SLOT_018728,same satellite,,45227
+SLOT_006019,SLOT_020939,same satellite,,45227
+SLOT_000008,SLOT_000830,same-antenna reconfiguration time,0.05,
+SLOT_000008,SLOT_004353,same satellite,,47638
+SLOT_000008,SLOT_006209,same satellite,,47638
+SLOT_000008,SLOT_007324,same satellite,,47638
+SLOT_000008,SLOT_015738,same satellite,,47638
+SLOT_000008,SLOT_029339,same satellite,,47638
+SLOT_000008,SLOT_029811,same satellite,,47638
+SLOT_009191,SLOT_008680,same-antenna overlap,,
+SLOT_009191,SLOT_009578,same-antenna overlap,,
+SLOT_009191,SLOT_009036,same satellite,,47760
+SLOT_009191,SLOT_009214,same satellite,,47760
+SLOT_009191,SLOT_019491,same satellite,,47760
+SLOT_009191,SLOT_025501,same satellite,,47760
+SLOT_008874,SLOT_008252,same-antenna reconfiguration time,0.05,
+SLOT_008874,SLOT_003726,same satellite,,46039
+SLOT_008874,SLOT_004955,same satellite,,46039
+SLOT_008874,SLOT_007932,same satellite,,46039
+SLOT_008874,SLOT_007947,same satellite,,46039
+SLOT_008874,SLOT_008267,same satellite,,46039
+SLOT_003135,SLOT_003134,same-antenna overlap,,
+SLOT_003135,SLOT_003745,same-antenna reconfiguration time,0.05,
+SLOT_003135,SLOT_002858,same satellite,,47739
+SLOT_003135,SLOT_003138,same satellite,,47739
+SLOT_003135,SLOT_003635,same satellite,,47739
+SLOT_003135,SLOT_013289,same satellite,,47739
+SLOT_003135,SLOT_013410,same satellite,,47739
+SLOT_003135,SLOT_013429,same satellite,,47739
+SLOT_003135,SLOT_018125,same satellite,,47739
+SLOT_003135,SLOT_019628,same satellite,,47739
+SLOT_010259,SLOT_009578,same-antenna reconfiguration time,0.05,
+SLOT_010259,SLOT_010096,same satellite,,44744
+SLOT_010259,SLOT_010452,same satellite,,44744
+SLOT_010259,SLOT_020485,same satellite,,44744
+SLOT_025155,SLOT_024685,same-antenna overlap,,
+SLOT_025155,SLOT_024987,same-antenna overlap,,
+SLOT_025155,SLOT_025505,same-antenna overlap,,
+SLOT_004522,SLOT_003610,same-antenna reconfiguration time,0.05,
+SLOT_004522,SLOT_003611,same-antenna reconfiguration time,0.05,
+SLOT_004522,SLOT_004234,same-antenna overlap,,
+SLOT_004522,SLOT_004368,same-antenna overlap,,
+SLOT_004522,SLOT_004693,same-antenna overlap,,
+SLOT_004522,SLOT_004679,same satellite,,46033
+SLOT_004522,SLOT_004688,same satellite,,46033
+SLOT_004522,SLOT_004704,same satellite,,46033
+SLOT_004522,SLOT_004838,same satellite,,46033
+SLOT_004522,SLOT_004978,same satellite,,46033
+SLOT_004522,SLOT_005601,same satellite,,46033
+SLOT_004522,SLOT_005749,same satellite,,46033
+SLOT_002306,SLOT_001435,same-antenna reconfiguration time,0.05,
+SLOT_002306,SLOT_002047,same-antenna overlap,,
+SLOT_002306,SLOT_002474,same-antenna overlap,,
+SLOT_002306,SLOT_001883,same satellite,,46060
+SLOT_002306,SLOT_002045,same satellite,,46060
+SLOT_002306,SLOT_002295,same satellite,,46060
+SLOT_002306,SLOT_002335,same satellite,,46060
+SLOT_002306,SLOT_002339,same satellite,,46060
+SLOT_018125,SLOT_017457,same-antenna reconfiguration time,0.05,
+SLOT_018125,SLOT_002858,same satellite,,47739
+SLOT_018125,SLOT_003138,same satellite,,47739
+SLOT_018125,SLOT_003635,same satellite,,47739
+SLOT_018125,SLOT_013289,same satellite,,47739
+SLOT_018125,SLOT_013410,same satellite,,47739
+SLOT_018125,SLOT_013429,same satellite,,47739
+SLOT_018125,SLOT_019628,same satellite,,47739
+SLOT_001471,SLOT_001183,same-antenna overlap,,
+SLOT_001471,SLOT_002335,same-antenna reconfiguration time,0.05,
+SLOT_001471,SLOT_001155,same satellite,,46063
+SLOT_001471,SLOT_001161,same satellite,,46063
+SLOT_001471,SLOT_001284,same satellite,,46063
+SLOT_001471,SLOT_001424,same satellite,,46063
+SLOT_001471,SLOT_001435,same satellite,,46063
+SLOT_001471,SLOT_001648,same satellite,,46063
+SLOT_001471,SLOT_004549,same satellite,,46063
+SLOT_032598,SLOT_032878,same-antenna overlap,,
+SLOT_032598,SLOT_033003,same-antenna overlap,,
+SLOT_008267,SLOT_007513,same-antenna reconfiguration time,0.05,
+SLOT_008267,SLOT_007672,same-antenna reconfiguration time,0.05,
+SLOT_008267,SLOT_007830,same-antenna overlap,,
+SLOT_008267,SLOT_008892,same-antenna reconfiguration time,0.05,
+SLOT_008267,SLOT_009226,same-antenna reconfiguration time,0.05,
+SLOT_008267,SLOT_003726,same satellite,,46039
+SLOT_008267,SLOT_004955,same satellite,,46039
+SLOT_008267,SLOT_007932,same satellite,,46039
+SLOT_008267,SLOT_007947,same satellite,,46039
+SLOT_012694,SLOT_013389,same-antenna reconfiguration time,0.05,
+SLOT_012694,SLOT_012493,same satellite,,46029
+SLOT_012694,SLOT_012684,same satellite,,46029
+SLOT_012694,SLOT_012701,same satellite,,46029
+SLOT_012694,SLOT_012724,same satellite,,46029
+SLOT_012694,SLOT_013283,same satellite,,46029
+SLOT_012694,SLOT_015931,same satellite,,46029
+SLOT_007830,SLOT_007513,same-antenna overlap,,
+SLOT_007830,SLOT_007672,same-antenna overlap,,
+SLOT_007830,SLOT_003440,same satellite,,46035
+SLOT_007830,SLOT_004670,same satellite,,46035
+SLOT_007830,SLOT_007318,same satellite,,46035
+SLOT_007830,SLOT_007486,same satellite,,46035
+SLOT_007830,SLOT_007498,same satellite,,46035
+SLOT_007830,SLOT_007805,same satellite,,46035
+SLOT_002338,SLOT_001646,same-antenna reconfiguration time,0.05,
+SLOT_002338,SLOT_002649,same-antenna overlap,,
+SLOT_013375,SLOT_012684,same-antenna reconfiguration time,0.05,
+SLOT_013375,SLOT_009933,same satellite,,46028
+SLOT_013375,SLOT_013261,same satellite,,46028
+SLOT_013375,SLOT_013389,same satellite,,46028
+SLOT_013375,SLOT_013417,same satellite,,46028
+SLOT_013375,SLOT_013537,same satellite,,46028
+SLOT_013375,SLOT_013996,same satellite,,46028
+SLOT_013375,SLOT_016683,same satellite,,46028
+SLOT_004549,SLOT_001155,same satellite,,46063
+SLOT_004549,SLOT_001161,same satellite,,46063
+SLOT_004549,SLOT_001284,same satellite,,46063
+SLOT_004549,SLOT_001424,same satellite,,46063
+SLOT_004549,SLOT_001435,same satellite,,46063
+SLOT_004549,SLOT_001648,same satellite,,46063
+SLOT_033212,SLOT_032843,same-antenna overlap,,
+SLOT_033212,SLOT_007630,same satellite,,45212
+SLOT_033212,SLOT_029375,same satellite,,45212
+SLOT_033212,SLOT_032705,same satellite,,45212
+SLOT_000719,SLOT_000426,same satellite,,46045
+SLOT_000719,SLOT_000585,same satellite,,46045
+SLOT_004100,SLOT_004263,same-antenna overlap,,
+SLOT_004100,SLOT_004553,same-antenna overlap,,
+SLOT_004100,SLOT_003936,same satellite,,47736
+SLOT_004100,SLOT_024047,same satellite,,47736
+SLOT_004100,SLOT_024486,same satellite,,47736
+SLOT_004100,SLOT_024641,same satellite,,47736
+SLOT_004100,SLOT_024672,same satellite,,47736
+SLOT_004100,SLOT_024685,same satellite,,47736
+SLOT_001646,SLOT_001162,same satellite,,46079
+SLOT_001646,SLOT_001183,same satellite,,46079
+SLOT_024949,SLOT_024641,same-antenna overlap,,
+SLOT_024949,SLOT_004093,same satellite,,47753
+SLOT_024949,SLOT_004263,same satellite,,47753
+SLOT_024949,SLOT_008868,same satellite,,47753
+SLOT_024949,SLOT_008877,same satellite,,47753
+SLOT_024949,SLOT_024798,same satellite,,47753
+SLOT_024949,SLOT_024959,same satellite,,47753
+SLOT_024949,SLOT_024974,same satellite,,47753
+SLOT_024949,SLOT_024977,same satellite,,47753
+SLOT_024949,SLOT_024987,same satellite,,47753
+SLOT_022158,SLOT_022581,same-antenna overlap,,
+SLOT_024641,SLOT_003936,same satellite,,47736
+SLOT_024641,SLOT_024047,same satellite,,47736
+SLOT_024641,SLOT_024486,same satellite,,47736
+SLOT_024641,SLOT_024672,same satellite,,47736
+SLOT_024641,SLOT_024685,same satellite,,47736
+SLOT_009351,SLOT_008877,same-antenna overlap,,
+SLOT_009351,SLOT_009214,same-antenna overlap,,
+SLOT_009351,SLOT_004389,same satellite,,45747
+SLOT_009351,SLOT_004553,same satellite,,45747
+SLOT_009351,SLOT_009201,same satellite,,45747
+SLOT_009351,SLOT_025505,same satellite,,45747
+SLOT_003745,SLOT_003134,same-antenna reconfiguration time,0.05,
+SLOT_003745,SLOT_004698,same-antenna reconfiguration time,0.05,
+SLOT_032413,SLOT_032551,same-antenna overlap,,
+SLOT_004263,SLOT_004553,same-antenna overlap,,
+SLOT_004263,SLOT_004093,same satellite,,47753
+SLOT_004263,SLOT_008868,same satellite,,47753
+SLOT_004263,SLOT_008877,same satellite,,47753
+SLOT_004263,SLOT_024798,same satellite,,47753
+SLOT_004263,SLOT_024959,same satellite,,47753
+SLOT_004263,SLOT_024974,same satellite,,47753
+SLOT_004263,SLOT_024977,same satellite,,47753
+SLOT_004263,SLOT_024987,same satellite,,47753
+SLOT_025109,SLOT_024484,same-antenna reconfiguration time,0.05,
+SLOT_025109,SLOT_025462,same-antenna overlap,,
+SLOT_025109,SLOT_033003,same satellite,,47391
+SLOT_007832,SLOT_007965,same-antenna overlap,,
+SLOT_007832,SLOT_001651,same satellite,,45786
+SLOT_007832,SLOT_001765,same satellite,,45786
+SLOT_007832,SLOT_001782,same satellite,,45786
+SLOT_007832,SLOT_006352,same satellite,,45786
+SLOT_016683,SLOT_015931,same-antenna reconfiguration time,0.05,
+SLOT_016683,SLOT_009933,same satellite,,46028
+SLOT_016683,SLOT_013261,same satellite,,46028
+SLOT_016683,SLOT_013389,same satellite,,46028
+SLOT_016683,SLOT_013417,same satellite,,46028
+SLOT_016683,SLOT_013537,same satellite,,46028
+SLOT_016683,SLOT_013996,same satellite,,46028
+SLOT_009475,SLOT_008411,same satellite,,45072
+SLOT_019848,SLOT_019849,same-antenna overlap,,
+SLOT_023212,SLOT_022470,same-antenna reconfiguration time,0.05,
+SLOT_020485,SLOT_010096,same satellite,,44744
+SLOT_020485,SLOT_010452,same satellite,,44744
+SLOT_004088,SLOT_003934,same-antenna overlap,,
+SLOT_004088,SLOT_003728,same satellite,,47733
+SLOT_004088,SLOT_003735,same satellite,,47733
+SLOT_004088,SLOT_003901,same satellite,,47733
+SLOT_004088,SLOT_003916,same satellite,,47733
+SLOT_004088,SLOT_004554,same satellite,,47733
+SLOT_004088,SLOT_014131,same satellite,,47733
+SLOT_004088,SLOT_014266,same satellite,,47733
+SLOT_004088,SLOT_014283,same satellite,,47733
+SLOT_004088,SLOT_034233,same satellite,,47733
+SLOT_001155,SLOT_001161,same satellite,,46063
+SLOT_001155,SLOT_001284,same satellite,,46063
+SLOT_001155,SLOT_001424,same satellite,,46063
+SLOT_001155,SLOT_001435,same satellite,,46063
+SLOT_001155,SLOT_001648,same satellite,,46063
+SLOT_016666,SLOT_000246,same satellite,,45744
+SLOT_008690,SLOT_008097,same-antenna reconfiguration time,0.05,
+SLOT_008690,SLOT_008389,same-antenna overlap,,
+SLOT_008690,SLOT_009036,same-antenna overlap,,
+SLOT_008690,SLOT_004824,same satellite,,46032
+SLOT_008690,SLOT_006004,same satellite,,46032
+SLOT_008690,SLOT_008851,same satellite,,46032
+SLOT_008690,SLOT_009199,same satellite,,46032
+SLOT_008690,SLOT_009220,same satellite,,46032
+SLOT_008690,SLOT_009226,same satellite,,46032
+SLOT_007346,SLOT_006481,same-antenna reconfiguration time,0.05,
+SLOT_007346,SLOT_007498,same-antenna overlap,,
+SLOT_007346,SLOT_007947,same-antenna reconfiguration time,0.05,
+SLOT_007346,SLOT_004496,same satellite,,45406
+SLOT_007346,SLOT_007189,same satellite,,45406
+SLOT_007346,SLOT_007193,same satellite,,45406
+SLOT_007346,SLOT_007316,same satellite,,45406
+SLOT_007346,SLOT_007672,same satellite,,45406
+SLOT_024987,SLOT_024685,same-antenna overlap,,
+SLOT_024987,SLOT_025505,same-antenna overlap,,
+SLOT_024987,SLOT_004093,same satellite,,47753
+SLOT_024987,SLOT_008868,same satellite,,47753
+SLOT_024987,SLOT_008877,same satellite,,47753
+SLOT_024987,SLOT_024798,same satellite,,47753
+SLOT_024987,SLOT_024959,same satellite,,47753
+SLOT_024987,SLOT_024974,same satellite,,47753
+SLOT_024987,SLOT_024977,same satellite,,47753
+SLOT_006004,SLOT_005722,same-antenna overlap,,
+SLOT_006004,SLOT_006192,same-antenna overlap,,
+SLOT_006004,SLOT_006873,same-antenna reconfiguration time,0.05,
+SLOT_006004,SLOT_004824,same satellite,,46032
+SLOT_006004,SLOT_008851,same satellite,,46032
+SLOT_006004,SLOT_009199,same satellite,,46032
+SLOT_006004,SLOT_009220,same satellite,,46032
+SLOT_006004,SLOT_009226,same satellite,,46032
+SLOT_002339,SLOT_001648,same-antenna reconfiguration time,0.05,
+SLOT_002339,SLOT_002650,same-antenna overlap,,
+SLOT_002339,SLOT_001883,same satellite,,46060
+SLOT_002339,SLOT_002045,same satellite,,46060
+SLOT_002339,SLOT_002295,same satellite,,46060
+SLOT_002339,SLOT_002335,same satellite,,46060
+SLOT_004356,SLOT_003728,same-antenna reconfiguration time,0.05,
+SLOT_004356,SLOT_001428,same satellite,,46064
+SLOT_004356,SLOT_004690,same satellite,,46064
+SLOT_034315,SLOT_034544,same-antenna overlap,,
+SLOT_004371,SLOT_005337,same-antenna reconfiguration time,0.05,
+SLOT_004371,SLOT_003610,same satellite,,46027
+SLOT_004371,SLOT_003748,same satellite,,46027
+SLOT_004371,SLOT_003934,same satellite,,46027
+SLOT_004371,SLOT_019310,same satellite,,46027
+SLOT_002637,SLOT_003138,same-antenna reconfiguration time,0.05,
+SLOT_002637,SLOT_002762,same satellite,,46718
+SLOT_002637,SLOT_012880,same satellite,,46718
+SLOT_002637,SLOT_017457,same satellite,,46718
+SLOT_002637,SLOT_032584,same satellite,,46718
+SLOT_006873,SLOT_006192,same-antenna reconfiguration time,0.05,
+SLOT_006873,SLOT_007630,same-antenna reconfiguration time,0.05,
+SLOT_006873,SLOT_009939,same satellite,,46043
+SLOT_006873,SLOT_010122,same satellite,,46043
+SLOT_004955,SLOT_004047,same-antenna reconfiguration time,0.05,
+SLOT_004955,SLOT_004349,same-antenna reconfiguration time,0.05,
+SLOT_004955,SLOT_004496,same-antenna overlap,,
+SLOT_004955,SLOT_004670,same-antenna overlap,,
+SLOT_004955,SLOT_005722,same-antenna reconfiguration time,0.05,
+SLOT_004955,SLOT_003726,same satellite,,46039
+SLOT_004955,SLOT_007932,same satellite,,46039
+SLOT_004955,SLOT_007947,same satellite,,46039
+SLOT_001458,SLOT_000707,same-antenna reconfiguration time,0.05,
+SLOT_001458,SLOT_002318,same satellite,,45412
+SLOT_013283,SLOT_013996,same-antenna reconfiguration time,0.05,
+SLOT_013283,SLOT_012493,same satellite,,46029
+SLOT_013283,SLOT_012684,same satellite,,46029
+SLOT_013283,SLOT_012701,same satellite,,46029
+SLOT_013283,SLOT_012724,same satellite,,46029
+SLOT_013283,SLOT_015931,same satellite,,46029
+SLOT_024974,SLOT_024672,same-antenna overlap,,
+SLOT_024974,SLOT_025646,same-antenna reconfiguration time,0.05,
+SLOT_024974,SLOT_004093,same satellite,,47753
+SLOT_024974,SLOT_008868,same satellite,,47753
+SLOT_024974,SLOT_008877,same satellite,,47753
+SLOT_024974,SLOT_024798,same satellite,,47753
+SLOT_024974,SLOT_024959,same satellite,,47753
+SLOT_024974,SLOT_024977,same satellite,,47753
+SLOT_009201,SLOT_008868,same-antenna overlap,,
+SLOT_009201,SLOT_004389,same satellite,,45747
+SLOT_009201,SLOT_004553,same satellite,,45747
+SLOT_009201,SLOT_025505,same satellite,,45747
+SLOT_001185,SLOT_001648,same-antenna overlap,,
+SLOT_031900,SLOT_031901,same-antenna overlap,,
+SLOT_031900,SLOT_006192,same satellite,,47379
+SLOT_031900,SLOT_014788,same satellite,,47379
+SLOT_031900,SLOT_027974,same satellite,,47379
+SLOT_002630,SLOT_002305,same satellite,,46048
+SLOT_002630,SLOT_002461,same satellite,,46048
+SLOT_002630,SLOT_002474,same satellite,,46048
+SLOT_002630,SLOT_002504,same satellite,,46048
+SLOT_002630,SLOT_002650,same satellite,,46048
+SLOT_002630,SLOT_005626,same satellite,,46048
+SLOT_034087,SLOT_033338,same-antenna reconfiguration time,0.05,
+SLOT_007498,SLOT_007947,same-antenna overlap,,
+SLOT_007498,SLOT_003440,same satellite,,46035
+SLOT_007498,SLOT_004670,same satellite,,46035
+SLOT_007498,SLOT_007318,same satellite,,46035
+SLOT_007498,SLOT_007486,same satellite,,46035
+SLOT_007498,SLOT_007805,same satellite,,46035
+SLOT_004353,SLOT_003440,same-antenna reconfiguration time,0.05,
+SLOT_004353,SLOT_003726,same-antenna reconfiguration time,0.05,
+SLOT_004353,SLOT_004824,same-antenna overlap,,
+SLOT_004353,SLOT_005139,same-antenna reconfiguration time,0.05,
+SLOT_004353,SLOT_006209,same satellite,,47638
+SLOT_004353,SLOT_007324,same satellite,,47638
+SLOT_004353,SLOT_015738,same satellite,,47638
+SLOT_004353,SLOT_029339,same satellite,,47638
+SLOT_004353,SLOT_029811,same satellite,,47638
+SLOT_004047,SLOT_004349,same-antenna overlap,,
+SLOT_004047,SLOT_004496,same-antenna overlap,,
+SLOT_004047,SLOT_004670,same-antenna reconfiguration time,0.05,
+SLOT_004047,SLOT_029214,same satellite,,47378
+SLOT_006012,SLOT_006222,same satellite,,47730
+SLOT_009933,SLOT_013261,same satellite,,46028
+SLOT_009933,SLOT_013389,same satellite,,46028
+SLOT_009933,SLOT_013417,same satellite,,46028
+SLOT_009933,SLOT_013537,same satellite,,46028
+SLOT_009933,SLOT_013996,same satellite,,46028
+SLOT_015738,SLOT_006209,same satellite,,47638
+SLOT_015738,SLOT_007324,same satellite,,47638
+SLOT_015738,SLOT_029339,same satellite,,47638
+SLOT_015738,SLOT_029811,same satellite,,47638
+SLOT_004705,SLOT_003748,same-antenna reconfiguration time,0.05,
+SLOT_004705,SLOT_004704,same-antenna overlap,,
+SLOT_004705,SLOT_004693,same satellite,,47734
+SLOT_031935,SLOT_031807,same-antenna overlap,,
+SLOT_031935,SLOT_019209,same satellite,,45712
+SLOT_030697,SLOT_029865,same-antenna reconfiguration time,0.05,
+SLOT_030697,SLOT_030543,same-antenna overlap,,
+SLOT_030697,SLOT_031450,same-antenna reconfiguration time,0.05,
+SLOT_024959,SLOT_024024,same-antenna reconfiguration time,0.05,
+SLOT_024959,SLOT_004093,same satellite,,47753
+SLOT_024959,SLOT_008868,same satellite,,47753
+SLOT_024959,SLOT_008877,same satellite,,47753
+SLOT_024959,SLOT_024798,same satellite,,47753
+SLOT_024959,SLOT_024977,same satellite,,47753
+SLOT_031807,SLOT_019075,same satellite,,47351
+SLOT_008252,SLOT_003110,same satellite,,45405
+SLOT_008252,SLOT_004349,same satellite,,45405
+SLOT_008252,SLOT_007041,same satellite,,45405
+SLOT_008252,SLOT_007513,same satellite,,45405
+SLOT_008257,SLOT_008877,same-antenna reconfiguration time,0.05,
+SLOT_008257,SLOT_009214,same-antenna reconfiguration time,0.05,
+SLOT_008257,SLOT_008097,same satellite,,46702
+SLOT_008257,SLOT_018580,same satellite,,46702
+SLOT_008257,SLOT_024374,same satellite,,46702
+SLOT_002504,SLOT_002335,same-antenna overlap,,
+SLOT_002504,SLOT_002305,same satellite,,46048
+SLOT_002504,SLOT_002461,same satellite,,46048
+SLOT_002504,SLOT_002474,same satellite,,46048
+SLOT_002504,SLOT_002650,same satellite,,46048
+SLOT_002504,SLOT_005626,same satellite,,46048
+SLOT_004357,SLOT_003597,same-antenna reconfiguration time,0.05,
+SLOT_004357,SLOT_003901,same-antenna overlap,,
+SLOT_004357,SLOT_004679,same-antenna overlap,,
+SLOT_004357,SLOT_000405,same satellite,,46036
+SLOT_004357,SLOT_004234,same satellite,,46036
+SLOT_004357,SLOT_004528,same satellite,,46036
+SLOT_004357,SLOT_004698,same satellite,,46036
+SLOT_004357,SLOT_005326,same satellite,,46036
+SLOT_004357,SLOT_005453,same satellite,,46036
+SLOT_033445,SLOT_033335,same-antenna overlap,,
+SLOT_016660,SLOT_016064,same-antenna reconfiguration time,0.05,
+SLOT_016660,SLOT_006481,same satellite,,45048
+SLOT_016660,SLOT_006649,same satellite,,45048
+SLOT_016660,SLOT_021096,same satellite,,45048
+SLOT_003735,SLOT_004688,same-antenna reconfiguration time,0.05,
+SLOT_003735,SLOT_003728,same satellite,,47733
+SLOT_003735,SLOT_003901,same satellite,,47733
+SLOT_003735,SLOT_003916,same satellite,,47733
+SLOT_003735,SLOT_004554,same satellite,,47733
+SLOT_003735,SLOT_014131,same satellite,,47733
+SLOT_003735,SLOT_014266,same satellite,,47733
+SLOT_003735,SLOT_014283,same satellite,,47733
+SLOT_003735,SLOT_034233,same satellite,,47733
+SLOT_004693,SLOT_004234,same-antenna overlap,,
+SLOT_004693,SLOT_004368,same-antenna overlap,,
+SLOT_017725,SLOT_002055,same satellite,,45369
+SLOT_013417,SLOT_012724,same-antenna reconfiguration time,0.05,
+SLOT_013417,SLOT_013261,same satellite,,46028
+SLOT_013417,SLOT_013389,same satellite,,46028
+SLOT_013417,SLOT_013537,same satellite,,46028
+SLOT_013417,SLOT_013996,same satellite,,46028
+SLOT_003129,SLOT_002631,same-antenna reconfiguration time,0.05,
+SLOT_003129,SLOT_003282,same-antenna overlap,,
+SLOT_003129,SLOT_003610,same-antenna overlap,,
+SLOT_003129,SLOT_003611,same-antenna overlap,,
+SLOT_003129,SLOT_033873,same satellite,,47728
+SLOT_003728,SLOT_002858,same-antenna reconfiguration time,0.05,
+SLOT_003728,SLOT_003901,same satellite,,47733
+SLOT_003728,SLOT_003916,same satellite,,47733
+SLOT_003728,SLOT_004554,same satellite,,47733
+SLOT_003728,SLOT_014131,same satellite,,47733
+SLOT_003728,SLOT_014266,same satellite,,47733
+SLOT_003728,SLOT_014283,same satellite,,47733
+SLOT_003728,SLOT_034233,same satellite,,47733
+SLOT_002474,SLOT_002047,same-antenna overlap,,
+SLOT_002474,SLOT_002305,same satellite,,46048
+SLOT_002474,SLOT_002461,same satellite,,46048
+SLOT_002474,SLOT_002650,same satellite,,46048
+SLOT_002474,SLOT_005626,same satellite,,46048
+SLOT_006481,SLOT_005752,same-antenna reconfiguration time,0.05,
+SLOT_006481,SLOT_006649,same satellite,,45048
+SLOT_006481,SLOT_021096,same satellite,,45048
+SLOT_020023,SLOT_003597,same satellite,,47771
+SLOT_020023,SLOT_003611,same satellite,,47771
+SLOT_020023,SLOT_003621,same satellite,,47771
+SLOT_020023,SLOT_013849,same satellite,,47771
+SLOT_032705,SLOT_033338,same-antenna reconfiguration time,0.05,
+SLOT_032705,SLOT_007630,same satellite,,45212
+SLOT_032705,SLOT_029375,same satellite,,45212
+SLOT_016064,SLOT_005625,same satellite,,44930
+SLOT_000830,SLOT_005139,same satellite,,47632
+SLOT_000830,SLOT_007048,same satellite,,47632
+SLOT_000830,SLOT_022194,same satellite,,47632
+SLOT_000830,SLOT_030651,same satellite,,47632
+SLOT_005337,SLOT_005615,same satellite,,45088
+SLOT_021078,SLOT_020939,same-antenna overlap,,
+SLOT_003901,SLOT_003597,same-antenna overlap,,
+SLOT_003901,SLOT_004679,same-antenna reconfiguration time,0.05,
+SLOT_003901,SLOT_003916,same satellite,,47733
+SLOT_003901,SLOT_004554,same satellite,,47733
+SLOT_003901,SLOT_014131,same satellite,,47733
+SLOT_003901,SLOT_014266,same satellite,,47733
+SLOT_003901,SLOT_014283,same satellite,,47733
+SLOT_003901,SLOT_034233,same satellite,,47733
+SLOT_009587,SLOT_008680,same satellite,,45367
+SLOT_003440,SLOT_003110,same-antenna overlap,,
+SLOT_003440,SLOT_003726,same-antenna overlap,,
+SLOT_003440,SLOT_004670,same satellite,,46035
+SLOT_003440,SLOT_007318,same satellite,,46035
+SLOT_003440,SLOT_007486,same satellite,,46035
+SLOT_003440,SLOT_007805,same satellite,,46035
+SLOT_004670,SLOT_004349,same-antenna overlap,,
+SLOT_004670,SLOT_004496,same-antenna overlap,,
+SLOT_004670,SLOT_007318,same satellite,,46035
+SLOT_004670,SLOT_007486,same satellite,,46035
+SLOT_004670,SLOT_007805,same satellite,,46035
+SLOT_001648,SLOT_001161,same satellite,,46063
+SLOT_001648,SLOT_001284,same satellite,,46063
+SLOT_001648,SLOT_001424,same satellite,,46063
+SLOT_001648,SLOT_001435,same satellite,,46063
+SLOT_011200,SLOT_011044,same-antenna overlap,,
+SLOT_011200,SLOT_012312,same-antenna reconfiguration time,0.05,
+SLOT_002305,SLOT_002045,same-antenna overlap,,
+SLOT_002305,SLOT_002858,same-antenna reconfiguration time,0.05,
+SLOT_002305,SLOT_002461,same satellite,,46048
+SLOT_002305,SLOT_002650,same satellite,,46048
+SLOT_002305,SLOT_005626,same satellite,,46048
+SLOT_003282,SLOT_002631,same-antenna reconfiguration time,0.05,
+SLOT_003282,SLOT_003610,same-antenna overlap,,
+SLOT_003282,SLOT_003611,same-antenna overlap,,
+SLOT_003282,SLOT_004234,same-antenna reconfiguration time,0.05,
+SLOT_003282,SLOT_019877,same satellite,,47747
+SLOT_005326,SLOT_005327,same-antenna overlap,,
+SLOT_005326,SLOT_005601,same-antenna overlap,,
+SLOT_005326,SLOT_000405,same satellite,,46036
+SLOT_005326,SLOT_004234,same satellite,,46036
+SLOT_005326,SLOT_004528,same satellite,,46036
+SLOT_005326,SLOT_004698,same satellite,,46036
+SLOT_005326,SLOT_005453,same satellite,,46036
+SLOT_032843,SLOT_028848,same satellite,,47400
+SLOT_002481,SLOT_001883,same-antenna reconfiguration time,0.05,
+SLOT_002481,SLOT_002622,same satellite,,47770
+SLOT_002481,SLOT_002631,same satellite,,47770
+SLOT_002481,SLOT_013137,same satellite,,47770
+SLOT_007324,SLOT_006209,same satellite,,47638
+SLOT_007324,SLOT_029339,same satellite,,47638
+SLOT_007324,SLOT_029811,same satellite,,47638
+SLOT_005139,SLOT_004824,same-antenna overlap,,
+SLOT_005139,SLOT_007048,same satellite,,47632
+SLOT_005139,SLOT_022194,same satellite,,47632
+SLOT_005139,SLOT_030651,same satellite,,47632
+SLOT_001284,SLOT_002045,same-antenna reconfiguration time,0.05,
+SLOT_001284,SLOT_001161,same satellite,,46063
+SLOT_001284,SLOT_001424,same satellite,,46063
+SLOT_001284,SLOT_001435,same satellite,,46063
+SLOT_020939,SLOT_003136,same satellite,,45227
+SLOT_020939,SLOT_018728,same satellite,,45227
+SLOT_004368,SLOT_003610,same-antenna reconfiguration time,0.05,
+SLOT_004368,SLOT_003611,same-antenna reconfiguration time,0.05,
+SLOT_004368,SLOT_004234,same-antenna overlap,,
+SLOT_004368,SLOT_020854,same satellite,,47742
+SLOT_010452,SLOT_010096,same satellite,,44744
+SLOT_016825,SLOT_016633,same-antenna overlap,,
+SLOT_003748,SLOT_003621,same-antenna overlap,,
+SLOT_003748,SLOT_004704,same-antenna reconfiguration time,0.05,
+SLOT_003748,SLOT_003610,same satellite,,46027
+SLOT_003748,SLOT_003934,same satellite,,46027
+SLOT_003748,SLOT_019310,same satellite,,46027
+SLOT_012880,SLOT_013429,same-antenna reconfiguration time,0.05,
+SLOT_012880,SLOT_002762,same satellite,,46718
+SLOT_012880,SLOT_017457,same satellite,,46718
+SLOT_012880,SLOT_032584,same satellite,,46718
+SLOT_021073,SLOT_020695,same-antenna overlap,,
+SLOT_021073,SLOT_021631,same-antenna reconfiguration time,0.05,
+SLOT_021073,SLOT_003308,same satellite,,45230
+SLOT_000246,SLOT_000426,same-antenna overlap,,
+SLOT_000246,SLOT_000703,same-antenna overlap,,
+SLOT_007923,SLOT_008080,same-antenna overlap,,
+SLOT_007923,SLOT_007490,same satellite,,45206
+SLOT_025646,SLOT_024672,same-antenna reconfiguration time,0.05,
+SLOT_025646,SLOT_009578,same satellite,,44768
+SLOT_025646,SLOT_025648,same satellite,,44768
+SLOT_008851,SLOT_007932,same-antenna reconfiguration time,0.05,
+SLOT_008851,SLOT_008515,same-antenna overlap,,
+SLOT_008851,SLOT_004824,same satellite,,46032
+SLOT_008851,SLOT_009199,same satellite,,46032
+SLOT_008851,SLOT_009220,same satellite,,46032
+SLOT_008851,SLOT_009226,same satellite,,46032
+SLOT_024685,SLOT_025505,same-antenna reconfiguration time,0.05,
+SLOT_024685,SLOT_003936,same satellite,,47736
+SLOT_024685,SLOT_024047,same satellite,,47736
+SLOT_024685,SLOT_024486,same satellite,,47736
+SLOT_024685,SLOT_024672,same satellite,,47736
+SLOT_019209,SLOT_019075,same-antenna overlap,,
+SLOT_007486,SLOT_007316,same-antenna overlap,,
+SLOT_007486,SLOT_007932,same-antenna overlap,,
+SLOT_007486,SLOT_007318,same satellite,,46035
+SLOT_007486,SLOT_007805,same satellite,,46035
+SLOT_034233,SLOT_003916,same satellite,,47733
+SLOT_034233,SLOT_004554,same satellite,,47733
+SLOT_034233,SLOT_014131,same satellite,,47733
+SLOT_034233,SLOT_014266,same satellite,,47733
+SLOT_034233,SLOT_014283,same satellite,,47733
+SLOT_029687,SLOT_029256,same-antenna overlap,,
+SLOT_029687,SLOT_029865,same-antenna overlap,,
+SLOT_029687,SLOT_030543,same-antenna reconfiguration time,0.05,
+SLOT_002622,SLOT_002859,same-antenna overlap,,
+SLOT_002622,SLOT_002631,same satellite,,47770
+SLOT_002622,SLOT_013137,same satellite,,47770
+SLOT_029471,SLOT_028661,same-antenna reconfiguration time,0.05,
+SLOT_029471,SLOT_029975,same-antenna overlap,,
+SLOT_027974,SLOT_028096,same-antenna overlap,,
+SLOT_027974,SLOT_006192,same satellite,,47379
+SLOT_027974,SLOT_014788,same satellite,,47379
+SLOT_003934,SLOT_003610,same satellite,,46027
+SLOT_003934,SLOT_019310,same satellite,,46027
+SLOT_024486,SLOT_024798,same-antenna overlap,,
+SLOT_024486,SLOT_003936,same satellite,,47736
+SLOT_024486,SLOT_024047,same satellite,,47736
+SLOT_024486,SLOT_024672,same satellite,,47736
+SLOT_003134,SLOT_002859,same satellite,,46553
+SLOT_006333,SLOT_005868,same satellite,,47179
+SLOT_008080,SLOT_020591,same satellite,,45054
+SLOT_002461,SLOT_002295,same-antenna overlap,,
+SLOT_002461,SLOT_002650,same satellite,,46048
+SLOT_002461,SLOT_005626,same satellite,,46048
+SLOT_032584,SLOT_002762,same satellite,,46718
+SLOT_032584,SLOT_017457,same satellite,,46718
+SLOT_007189,SLOT_007318,same-antenna overlap,,
+SLOT_007189,SLOT_004496,same satellite,,45406
+SLOT_007189,SLOT_007193,same satellite,,45406
+SLOT_007189,SLOT_007316,same satellite,,45406
+SLOT_007189,SLOT_007672,same satellite,,45406
+SLOT_024484,SLOT_025462,same-antenna reconfiguration time,0.05,
+SLOT_014266,SLOT_013410,same-antenna reconfiguration time,0.05,
+SLOT_014266,SLOT_003916,same satellite,,47733
+SLOT_014266,SLOT_004554,same satellite,,47733
+SLOT_014266,SLOT_014131,same satellite,,47733
+SLOT_014266,SLOT_014283,same satellite,,47733
+SLOT_004553,SLOT_004389,same satellite,,45747
+SLOT_004553,SLOT_025505,same satellite,,45747
+SLOT_003434,SLOT_003881,same-antenna overlap,,
+SLOT_003434,SLOT_003607,same satellite,,46047
+SLOT_002335,SLOT_001883,same satellite,,46060
+SLOT_002335,SLOT_002045,same satellite,,46060
+SLOT_002335,SLOT_002295,same satellite,,46060
+SLOT_014283,SLOT_013429,same-antenna reconfiguration time,0.05,
+SLOT_014283,SLOT_003916,same satellite,,47733
+SLOT_014283,SLOT_004554,same satellite,,47733
+SLOT_014283,SLOT_014131,same satellite,,47733
+SLOT_029865,SLOT_029256,same-antenna reconfiguration time,0.05,
+SLOT_029865,SLOT_030543,same-antenna reconfiguration time,0.05,
+SLOT_005601,SLOT_005327,same-antenna overlap,,
+SLOT_005601,SLOT_004679,same satellite,,46033
+SLOT_005601,SLOT_004688,same satellite,,46033
+SLOT_005601,SLOT_004704,same satellite,,46033
+SLOT_005601,SLOT_004838,same satellite,,46033
+SLOT_005601,SLOT_004978,same satellite,,46033
+SLOT_005601,SLOT_005749,same satellite,,46033
+SLOT_003110,SLOT_003726,same-antenna reconfiguration time,0.05,
+SLOT_003110,SLOT_004349,same satellite,,45405
+SLOT_003110,SLOT_007041,same satellite,,45405
+SLOT_003110,SLOT_007513,same satellite,,45405
+SLOT_013410,SLOT_002858,same satellite,,47739
+SLOT_013410,SLOT_003138,same satellite,,47739
+SLOT_013410,SLOT_003635,same satellite,,47739
+SLOT_013410,SLOT_013289,same satellite,,47739
+SLOT_013410,SLOT_013429,same satellite,,47739
+SLOT_013410,SLOT_019628,same satellite,,47739
+SLOT_017457,SLOT_002762,same satellite,,46718
+SLOT_004093,SLOT_003936,same-antenna overlap,,
+SLOT_004093,SLOT_004389,same-antenna overlap,,
+SLOT_004093,SLOT_008868,same satellite,,47753
+SLOT_004093,SLOT_008877,same satellite,,47753
+SLOT_004093,SLOT_024798,same satellite,,47753
+SLOT_004093,SLOT_024977,same satellite,,47753
+SLOT_000069,SLOT_000455,same-antenna overlap,,
+SLOT_000069,SLOT_033366,same satellite,,47745
+SLOT_001890,SLOT_001765,same-antenna overlap,,
+SLOT_001890,SLOT_001779,same satellite,,47750
+SLOT_001890,SLOT_007965,same satellite,,47750
+SLOT_001890,SLOT_022737,same satellite,,47750
+SLOT_005626,SLOT_005625,same-antenna overlap,,
+SLOT_005626,SLOT_002650,same satellite,,46048
+SLOT_009774,SLOT_008863,same-antenna reconfiguration time,0.05,
+SLOT_009774,SLOT_009199,same-antenna reconfiguration time,0.05,
+SLOT_009774,SLOT_009748,same satellite,,45404
+SLOT_009774,SLOT_009802,same satellite,,45404
+SLOT_024672,SLOT_003936,same satellite,,47736
+SLOT_024672,SLOT_024047,same satellite,,47736
+SLOT_008680,SLOT_009578,same-antenna reconfiguration time,0.05,
+SLOT_007316,SLOT_007932,same-antenna reconfiguration time,0.05,
+SLOT_007316,SLOT_004496,same satellite,,45406
+SLOT_007316,SLOT_007193,same satellite,,45406
+SLOT_007316,SLOT_007672,same satellite,,45406
+SLOT_032551,SLOT_033335,same-antenna reconfiguration time,0.05,
+SLOT_007513,SLOT_007672,same-antenna overlap,,
+SLOT_007513,SLOT_004349,same satellite,,45405
+SLOT_007513,SLOT_007041,same satellite,,45405
+SLOT_003611,SLOT_003610,same-antenna overlap,,
+SLOT_003611,SLOT_004234,same-antenna reconfiguration time,0.05,
+SLOT_003611,SLOT_003597,same satellite,,47771
+SLOT_003611,SLOT_003621,same satellite,,47771
+SLOT_003611,SLOT_013849,same satellite,,47771
+SLOT_007668,SLOT_008266,same satellite,,46053
+SLOT_001651,SLOT_001652,same-antenna overlap,,
+SLOT_001651,SLOT_001779,same-antenna overlap,,
+SLOT_001651,SLOT_001765,same satellite,,45786
+SLOT_001651,SLOT_001782,same satellite,,45786
+SLOT_001651,SLOT_006352,same satellite,,45786
+SLOT_012684,SLOT_012493,same satellite,,46029
+SLOT_012684,SLOT_012701,same satellite,,46029
+SLOT_012684,SLOT_012724,same satellite,,46029
+SLOT_012684,SLOT_015931,same satellite,,46029
+SLOT_004389,SLOT_003936,same-antenna overlap,,
+SLOT_004389,SLOT_025505,same satellite,,45747
+SLOT_002631,SLOT_002055,same-antenna reconfiguration time,0.05,
+SLOT_002631,SLOT_013137,same satellite,,47770
+SLOT_003610,SLOT_004234,same-antenna reconfiguration time,0.05,
+SLOT_003610,SLOT_019310,same satellite,,46027
+SLOT_001174,SLOT_000585,same-antenna reconfiguration time,0.05,
+SLOT_001174,SLOT_030964,same satellite,,45741
+SLOT_015059,SLOT_015399,same-antenna overlap,,
+SLOT_005749,SLOT_005453,same-antenna overlap,,
+SLOT_005749,SLOT_006632,same-antenna reconfiguration time,0.05,
+SLOT_005749,SLOT_004679,same satellite,,46033
+SLOT_005749,SLOT_004688,same satellite,,46033
+SLOT_005749,SLOT_004704,same satellite,,46033
+SLOT_005749,SLOT_004838,same satellite,,46033
+SLOT_005749,SLOT_004978,same satellite,,46033
+SLOT_003635,SLOT_003943,same-antenna overlap,,
+SLOT_003635,SLOT_004554,same-antenna reconfiguration time,0.05,
+SLOT_003635,SLOT_002858,same satellite,,47739
+SLOT_003635,SLOT_003138,same satellite,,47739
+SLOT_003635,SLOT_013289,same satellite,,47739
+SLOT_003635,SLOT_013429,same satellite,,47739
+SLOT_003635,SLOT_019628,same satellite,,47739
+SLOT_003943,SLOT_004554,same-antenna reconfiguration time,0.05,
+SLOT_003943,SLOT_004081,same satellite,,45370
+SLOT_003943,SLOT_004354,same satellite,,45370
+SLOT_029375,SLOT_028848,same-antenna reconfiguration time,0.05,
+SLOT_029375,SLOT_007630,same satellite,,45212
+SLOT_024977,SLOT_025648,same-antenna reconfiguration time,0.05,
+SLOT_024977,SLOT_008868,same satellite,,47753
+SLOT_024977,SLOT_008877,same satellite,,47753
+SLOT_024977,SLOT_024798,same satellite,,47753
+SLOT_001765,SLOT_001782,same satellite,,45786
+SLOT_001765,SLOT_006352,same satellite,,45786
+SLOT_018872,SLOT_018694,same-antenna overlap,,
+SLOT_002045,SLOT_002858,same-antenna reconfiguration time,0.05,
+SLOT_002045,SLOT_001883,same satellite,,46060
+SLOT_002045,SLOT_002295,same satellite,,46060
+SLOT_009939,SLOT_010122,same satellite,,46043
+SLOT_012701,SLOT_013537,same-antenna reconfiguration time,0.05,
+SLOT_012701,SLOT_012493,same satellite,,46029
+SLOT_012701,SLOT_012724,same satellite,,46029
+SLOT_012701,SLOT_015931,same satellite,,46029
+SLOT_008411,SLOT_008266,same-antenna overlap,,
+SLOT_006632,SLOT_005752,same satellite,,45735
+SLOT_004704,SLOT_004679,same satellite,,46033
+SLOT_004704,SLOT_004688,same satellite,,46033
+SLOT_004704,SLOT_004838,same satellite,,46033
+SLOT_004704,SLOT_004978,same satellite,,46033
+SLOT_031450,SLOT_030543,same-antenna reconfiguration time,0.05,
+SLOT_001183,SLOT_001162,same satellite,,46079
+SLOT_003136,SLOT_018728,same satellite,,45227
+SLOT_001161,SLOT_001883,same-antenna reconfiguration time,0.05,
+SLOT_001161,SLOT_001424,same satellite,,46063
+SLOT_001161,SLOT_001435,same satellite,,46063
+SLOT_024798,SLOT_008868,same satellite,,47753
+SLOT_024798,SLOT_008877,same satellite,,47753
+SLOT_000426,SLOT_000703,same-antenna overlap,,
+SLOT_000426,SLOT_000585,same satellite,,46045
+SLOT_007193,SLOT_007041,same-antenna overlap,,
+SLOT_007193,SLOT_008097,same-antenna reconfiguration time,0.05,
+SLOT_007193,SLOT_004496,same satellite,,45406
+SLOT_007193,SLOT_007672,same satellite,,45406
+SLOT_003726,SLOT_007932,same satellite,,46039
+SLOT_003726,SLOT_007947,same satellite,,46039
+SLOT_008863,SLOT_009199,same-antenna overlap,,
+SLOT_008863,SLOT_005722,same satellite,,45415
+SLOT_008863,SLOT_008389,same satellite,,45415
+SLOT_008863,SLOT_008515,same satellite,,45415
+SLOT_008863,SLOT_008838,same satellite,,45415
+SLOT_008863,SLOT_008892,same satellite,,45415
+SLOT_007318,SLOT_007805,same satellite,,46035
+SLOT_000405,SLOT_004234,same satellite,,46036
+SLOT_000405,SLOT_004528,same satellite,,46036
+SLOT_000405,SLOT_004698,same satellite,,46036
+SLOT_000405,SLOT_005453,same satellite,,46036
+SLOT_004838,SLOT_003916,same-antenna reconfiguration time,0.05,
+SLOT_004838,SLOT_004528,same-antenna overlap,,
+SLOT_004838,SLOT_005752,same-antenna reconfiguration time,0.05,
+SLOT_004838,SLOT_004679,same satellite,,46033
+SLOT_004838,SLOT_004688,same satellite,,46033
+SLOT_004838,SLOT_004978,same satellite,,46033
+SLOT_004081,SLOT_003753,same-antenna overlap,,
+SLOT_004081,SLOT_004354,same satellite,,45370
+SLOT_021096,SLOT_006649,same satellite,,45048
+SLOT_029339,SLOT_006209,same satellite,,47638
+SLOT_029339,SLOT_029811,same satellite,,47638
+SLOT_008892,SLOT_009226,same-antenna overlap,,
+SLOT_008892,SLOT_009802,same-antenna reconfiguration time,0.05,
+SLOT_008892,SLOT_005722,same satellite,,45415
+SLOT_008892,SLOT_008389,same satellite,,45415
+SLOT_008892,SLOT_008515,same satellite,,45415
+SLOT_008892,SLOT_008838,same satellite,,45415
+SLOT_013261,SLOT_012493,same-antenna reconfiguration time,0.05,
+SLOT_013261,SLOT_013389,same satellite,,46028
+SLOT_013261,SLOT_013537,same satellite,,46028
+SLOT_013261,SLOT_013996,same satellite,,46028
+SLOT_033338,SLOT_008507,same satellite,,47354
+SLOT_002295,SLOT_001424,same-antenna reconfiguration time,0.05,
+SLOT_002295,SLOT_001883,same satellite,,46060
+SLOT_004679,SLOT_004688,same satellite,,46033
+SLOT_004679,SLOT_004978,same satellite,,46033
+SLOT_028848,SLOT_028096,same-antenna reconfiguration time,0.05,
+SLOT_001652,SLOT_001779,same-antenna overlap,,
+SLOT_001652,SLOT_001466,same satellite,,47126
+SLOT_007048,SLOT_006209,same-antenna reconfiguration time,0.05,
+SLOT_007048,SLOT_022194,same satellite,,47632
+SLOT_007048,SLOT_030651,same satellite,,47632
+SLOT_009748,SLOT_008838,same-antenna reconfiguration time,0.05,
+SLOT_009748,SLOT_009802,same satellite,,45404
+SLOT_008868,SLOT_008877,same satellite,,47753
+SLOT_008838,SLOT_005722,same satellite,,45415
+SLOT_008838,SLOT_008389,same satellite,,45415
+SLOT_008838,SLOT_008515,same satellite,,45415
+SLOT_005722,SLOT_006192,same-antenna overlap,,
+SLOT_005722,SLOT_008389,same satellite,,45415
+SLOT_005722,SLOT_008515,same satellite,,45415
+SLOT_003936,SLOT_024047,same satellite,,47736
+SLOT_003621,SLOT_003597,same satellite,,47771
+SLOT_003621,SLOT_013849,same satellite,,47771
+SLOT_001424,SLOT_001435,same satellite,,46063
+SLOT_013389,SLOT_013537,same satellite,,46028
+SLOT_013389,SLOT_013996,same satellite,,46028
+SLOT_012493,SLOT_012724,same satellite,,46029
+SLOT_012493,SLOT_015931,same satellite,,46029
+SLOT_004698,SLOT_004978,same-antenna overlap,,
+SLOT_004698,SLOT_004234,same satellite,,46036
+SLOT_004698,SLOT_004528,same satellite,,46036
+SLOT_004698,SLOT_005453,same satellite,,46036
+SLOT_009578,SLOT_025648,same satellite,,44768
+SLOT_008507,SLOT_007630,same-antenna reconfiguration time,0.05,
+SLOT_024374,SLOT_008097,same satellite,,46702
+SLOT_024374,SLOT_018580,same satellite,,46702
+SLOT_022737,SLOT_001779,same satellite,,47750
+SLOT_022737,SLOT_007965,same satellite,,47750
+SLOT_022194,SLOT_030651,same satellite,,47632
+SLOT_002859,SLOT_003597,same-antenna reconfiguration time,0.05,
+SLOT_019628,SLOT_002858,same satellite,,47739
+SLOT_019628,SLOT_003138,same satellite,,47739
+SLOT_019628,SLOT_013289,same satellite,,47739
+SLOT_019628,SLOT_013429,same satellite,,47739
+SLOT_005327,SLOT_019613,same satellite,,47122
+SLOT_009036,SLOT_008097,same-antenna reconfiguration time,0.05,
+SLOT_009036,SLOT_008389,same-antenna reconfiguration time,0.05,
+SLOT_009036,SLOT_009214,same satellite,,47760
+SLOT_009036,SLOT_019491,same satellite,,47760
+SLOT_009036,SLOT_025501,same satellite,,47760
+SLOT_003138,SLOT_003916,same-antenna reconfiguration time,0.05,
+SLOT_003138,SLOT_002858,same satellite,,47739
+SLOT_003138,SLOT_013289,same satellite,,47739
+SLOT_003138,SLOT_013429,same satellite,,47739
+SLOT_028096,SLOT_031401,same satellite,,47383
+SLOT_028096,SLOT_031901,same satellite,,47383
+SLOT_007041,SLOT_004349,same satellite,,45405
+SLOT_013537,SLOT_013996,same satellite,,46028
+SLOT_019491,SLOT_018580,same-antenna reconfiguration time,0.05,
+SLOT_019491,SLOT_009214,same satellite,,47760
+SLOT_019491,SLOT_025501,same satellite,,47760
+SLOT_009199,SLOT_004824,same satellite,,46032
+SLOT_009199,SLOT_009220,same satellite,,46032
+SLOT_009199,SLOT_009226,same satellite,,46032
+SLOT_033003,SLOT_032878,same-antenna overlap,,
+SLOT_005453,SLOT_004234,same satellite,,46036
+SLOT_005453,SLOT_004528,same satellite,,46036
+SLOT_031401,SLOT_031901,same satellite,,47383
+SLOT_004824,SLOT_009220,same satellite,,46032
+SLOT_004824,SLOT_009226,same satellite,,46032
+SLOT_003916,SLOT_004528,same-antenna reconfiguration time,0.05,
+SLOT_003916,SLOT_004554,same satellite,,47733
+SLOT_003916,SLOT_014131,same satellite,,47733
+SLOT_000455,SLOT_000270,same satellite,,44751
+SLOT_007932,SLOT_008515,same-antenna reconfiguration time,0.05,
+SLOT_007932,SLOT_007947,same satellite,,46039
+SLOT_006649,SLOT_006222,same-antenna overlap,,
+SLOT_015931,SLOT_012724,same satellite,,46029
+SLOT_009802,SLOT_009226,same-antenna reconfiguration time,0.05,
+SLOT_009802,SLOT_010122,same-antenna overlap,,
+SLOT_010122,SLOT_009226,same-antenna reconfiguration time,0.05,
+SLOT_000826,SLOT_001428,same-antenna reconfiguration time,0.05,
+SLOT_000826,SLOT_026097,same satellite,,47355
+SLOT_013849,SLOT_003597,same satellite,,47771
+SLOT_004690,SLOT_001428,same satellite,,46064
+SLOT_006352,SLOT_001782,same satellite,,45786
+SLOT_009214,SLOT_008877,same-antenna overlap,,
+SLOT_009214,SLOT_025501,same satellite,,47760
+SLOT_009226,SLOT_009220,same satellite,,46032
+SLOT_013289,SLOT_014131,same-antenna reconfiguration time,0.05,
+SLOT_013289,SLOT_002858,same satellite,,47739
+SLOT_013289,SLOT_013429,same satellite,,47739
+SLOT_029811,SLOT_030651,same-antenna reconfiguration time,0.05,
+SLOT_029811,SLOT_006209,same satellite,,47638
+SLOT_004978,SLOT_004688,same satellite,,46033
+SLOT_018580,SLOT_008097,same satellite,,46702
+SLOT_002649,SLOT_002047,same satellite,,46082
+SLOT_014131,SLOT_004554,same satellite,,47733
+SLOT_001779,SLOT_007965,same satellite,,47750
+SLOT_007672,SLOT_004496,same satellite,,45406
+SLOT_032450,SLOT_020695,same satellite,,44927
+SLOT_008389,SLOT_008097,same-antenna overlap,,
+SLOT_008389,SLOT_008515,same satellite,,45415
+SLOT_013429,SLOT_002858,same satellite,,47739
+SLOT_004349,SLOT_004496,same-antenna overlap,,
+SLOT_014788,SLOT_006192,same satellite,,47379
+SLOT_004234,SLOT_004528,same satellite,,46036
+SLOT_001435,SLOT_002047,same-antenna reconfiguration time,0.05,

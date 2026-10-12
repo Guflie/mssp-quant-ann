@@ -1,0 +1,169 @@
+{"event": "evaluation_start", "decomposition_nodes": 81, "terminal_subgraphs": 11}
+{"event": "terminal_solver_start", "terminal_id": "component_001_dnode_0001", "solver": "exact enumeration", "nodes": 20, "edges": 74}
+{"event": "enumeration_progress", "terminal_id": "component_001_dnode_0001", "nodes": 20, "checked": 500000, "total": 1048576, "elapsed_seconds": 1.916}
+{"event": "enumeration_progress", "terminal_id": "component_001_dnode_0001", "nodes": 20, "checked": 1000000, "total": 1048576, "elapsed_seconds": 3.824}
+{"event": "terminal_solver_finish", "terminal_id": "component_001_dnode_0001", "solver": "exact enumeration", "nodes": 20, "edges": 74, "elapsed_seconds": 3.99}
+{"event": "terminal_solver_start", "terminal_id": "component_002_dnode_0001", "solver": "exact enumeration", "nodes": 18, "edges": 63}
+{"event": "terminal_solver_finish", "terminal_id": "component_002_dnode_0001", "solver": "exact enumeration", "nodes": 18, "edges": 63, "elapsed_seconds": 1.052}
+{"event": "terminal_solver_start", "terminal_id": "component_003_dnode_0001", "solver": "exact enumeration", "nodes": 17, "edges": 46}
+{"event": "terminal_solver_finish", "terminal_id": "component_003_dnode_0001", "solver": "exact enumeration", "nodes": 17, "edges": 46, "elapsed_seconds": 0.655}
+{"event": "terminal_solver_start", "terminal_id": "component_004_dnode_0001", "solver": "exact enumeration", "nodes": 16, "edges": 64}
+{"event": "terminal_solver_finish", "terminal_id": "component_004_dnode_0001", "solver": "exact enumeration", "nodes": 16, "edges": 64, "elapsed_seconds": 0.202}
+{"event": "terminal_solver_start", "terminal_id": "component_005_dnode_0001", "solver": "exact enumeration", "nodes": 10, "edges": 10}
+{"event": "terminal_solver_finish", "terminal_id": "component_005_dnode_0001", "solver": "exact enumeration", "nodes": 10, "edges": 10, "elapsed_seconds": 0.007}
+{"event": "terminal_solver_start", "terminal_id": "component_006_dnode_0001", "solver": "exact enumeration", "nodes": 6, "edges": 5}
+{"event": "terminal_solver_finish", "terminal_id": "component_006_dnode_0001", "solver": "exact enumeration", "nodes": 6, "edges": 5, "elapsed_seconds": 0.001}
+{"event": "terminal_solver_start", "terminal_id": "component_007_dnode_0001", "solver": "exact enumeration", "nodes": 4, "edges": 3}
+{"event": "terminal_solver_finish", "terminal_id": "component_007_dnode_0001", "solver": "exact enumeration", "nodes": 4, "edges": 3, "elapsed_seconds": 0.001}
+{"event": "terminal_solver_start", "terminal_id": "component_008_dnode_0001", "solver": "exact enumeration", "nodes": 2, "edges": 1}
+{"event": "terminal_solver_finish", "terminal_id": "component_008_dnode_0001", "solver": "exact enumeration", "nodes": 2, "edges": 1, "elapsed_seconds": 0.001}
+{"event": "terminal_solver_start", "terminal_id": "component_009_dnode_0001", "solver": "exact enumeration", "nodes": 2, "edges": 1}
+{"event": "terminal_solver_finish", "terminal_id": "component_009_dnode_0001", "solver": "exact enumeration", "nodes": 2, "edges": 1, "elapsed_seconds": 0.001}
+{"event": "terminal_solver_start", "terminal_id": "component_010_dnode_0001", "solver": "exact enumeration", "nodes": 2, "edges": 1}
+{"event": "terminal_solver_finish", "terminal_id": "component_010_dnode_0001", "solver": "exact enumeration", "nodes": 2, "edges": 1, "elapsed_seconds": 0.001}
+{"event": "terminal_solver_start", "terminal_id": "component_011_dnode_0001", "solver": "exact enumeration", "nodes": 2, "edges": 1}
+{"event": "terminal_solver_finish", "terminal_id": "component_011_dnode_0001", "solver": "exact enumeration", "nodes": 2, "edges": 1, "elapsed_seconds": 0.0}
+{"event": "terminal_solver_start", "terminal_id": "component_012_dnode_0001", "solver": "empty graph", "nodes": 0, "edges": 0}
+{"event": "terminal_solver_finish", "terminal_id": "component_012_dnode_0001", "solver": "empty graph", "nodes": 0, "edges": 0, "elapsed_seconds": 0.001}
+{"event": "terminal_solver_start", "terminal_id": "component_013_dnode_0001", "solver": "empty graph", "nodes": 0, "edges": 0}
+{"event": "terminal_solver_finish", "terminal_id": "component_013_dnode_0001", "solver": "empty graph", "nodes": 0, "edges": 0, "elapsed_seconds": 0.001}
+{"event": "terminal_solver_start", "terminal_id": "component_014_dnode_0001", "solver": "empty graph", "nodes": 0, "edges": 0}
+{"event": "terminal_solver_finish", "terminal_id": "component_014_dnode_0001", "solver": "empty graph", "nodes": 0, "edges": 0, "elapsed_seconds": 0.001}
+{"event": "terminal_solver_start", "terminal_id": "component_015_dnode_0001", "solver": "empty graph", "nodes": 0, "edges": 0}
+{"event": "terminal_solver_finish", "terminal_id": "component_015_dnode_0001", "solver": "empty graph", "nodes": 0, "edges": 0, "elapsed_seconds": 0.001}
+{"event": "terminal_solver_start", "terminal_id": "component_016_dnode_0001", "solver": "empty graph", "nodes": 0, "edges": 0}
+{"event": "terminal_solver_finish", "terminal_id": "component_016_dnode_0001", "solver": "empty graph", "nodes": 0, "edges": 0, "elapsed_seconds": 0.001}
+{"event": "terminal_solver_start", "terminal_id": "component_017_dnode_0001", "solver": "empty graph", "nodes": 0, "edges": 0}
+{"event": "terminal_solver_finish", "terminal_id": "component_017_dnode_0001", "solver": "empty graph", "nodes": 0, "edges": 0, "elapsed_seconds": 0.0}
+{"event": "terminal_solver_start", "terminal_id": "component_018_dnode_0001", "solver": "empty graph", "nodes": 0, "edges": 0}
+{"event": "terminal_solver_finish", "terminal_id": "component_018_dnode_0001", "solver": "empty graph", "nodes": 0, "edges": 0, "elapsed_seconds": 0.001}
+{"event": "terminal_solver_start", "terminal_id": "component_019_dnode_0001", "solver": "empty graph", "nodes": 0, "edges": 0}
+{"event": "terminal_solver_finish", "terminal_id": "component_019_dnode_0001", "solver": "empty graph", "nodes": 0, "edges": 0, "elapsed_seconds": 0.0}
+{"event": "terminal_solver_start", "terminal_id": "component_020_dnode_0001", "solver": "empty graph", "nodes": 0, "edges": 0}
+{"event": "terminal_solver_finish", "terminal_id": "component_020_dnode_0001", "solver": "empty graph", "nodes": 0, "edges": 0, "elapsed_seconds": 0.001}
+{"event": "terminal_solver_start", "terminal_id": "component_021_dnode_0001", "solver": "empty graph", "nodes": 0, "edges": 0}
+{"event": "terminal_solver_finish", "terminal_id": "component_021_dnode_0001", "solver": "empty graph", "nodes": 0, "edges": 0, "elapsed_seconds": 0.001}
+{"event": "terminal_solver_start", "terminal_id": "component_022_dnode_0001", "solver": "empty graph", "nodes": 0, "edges": 0}
+{"event": "terminal_solver_finish", "terminal_id": "component_022_dnode_0001", "solver": "empty graph", "nodes": 0, "edges": 0, "elapsed_seconds": 0.001}
+{"event": "terminal_solver_start", "terminal_id": "component_023_dnode_0001", "solver": "empty graph", "nodes": 0, "edges": 0}
+{"event": "terminal_solver_finish", "terminal_id": "component_023_dnode_0001", "solver": "empty graph", "nodes": 0, "edges": 0, "elapsed_seconds": 0.001}
+{"event": "terminal_solver_start", "terminal_id": "component_024_dnode_0001", "solver": "empty graph", "nodes": 0, "edges": 0}
+{"event": "terminal_solver_finish", "terminal_id": "component_024_dnode_0001", "solver": "empty graph", "nodes": 0, "edges": 0, "elapsed_seconds": 0.001}
+{"event": "terminal_solver_start", "terminal_id": "component_025_dnode_0001", "solver": "empty graph", "nodes": 0, "edges": 0}
+{"event": "terminal_solver_finish", "terminal_id": "component_025_dnode_0001", "solver": "empty graph", "nodes": 0, "edges": 0, "elapsed_seconds": 0.0}
+{"event": "evaluation_progress", "completed": 25, "calls": 25, "memo_hits": 0, "node_type": "terminal", "elapsed_seconds": 0.001}
+{"event": "terminal_solver_start", "terminal_id": "component_026_dnode_0001", "solver": "empty graph", "nodes": 0, "edges": 0}
+{"event": "terminal_solver_finish", "terminal_id": "component_026_dnode_0001", "solver": "empty graph", "nodes": 0, "edges": 0, "elapsed_seconds": 0.001}
+{"event": "terminal_solver_start", "terminal_id": "component_027_dnode_0001", "solver": "empty graph", "nodes": 0, "edges": 0}
+{"event": "terminal_solver_finish", "terminal_id": "component_027_dnode_0001", "solver": "empty graph", "nodes": 0, "edges": 0, "elapsed_seconds": 0.001}
+{"event": "terminal_solver_start", "terminal_id": "component_028_dnode_0001", "solver": "empty graph", "nodes": 0, "edges": 0}
+{"event": "terminal_solver_finish", "terminal_id": "component_028_dnode_0001", "solver": "empty graph", "nodes": 0, "edges": 0, "elapsed_seconds": 0.001}
+{"event": "terminal_solver_start", "terminal_id": "component_029_dnode_0001", "solver": "empty graph", "nodes": 0, "edges": 0}
+{"event": "terminal_solver_finish", "terminal_id": "component_029_dnode_0001", "solver": "empty graph", "nodes": 0, "edges": 0, "elapsed_seconds": 0.0}
+{"event": "terminal_solver_start", "terminal_id": "component_030_dnode_0001", "solver": "empty graph", "nodes": 0, "edges": 0}
+{"event": "terminal_solver_finish", "terminal_id": "component_030_dnode_0001", "solver": "empty graph", "nodes": 0, "edges": 0, "elapsed_seconds": 0.0}
+{"event": "terminal_solver_start", "terminal_id": "component_031_dnode_0001", "solver": "empty graph", "nodes": 0, "edges": 0}
+{"event": "terminal_solver_finish", "terminal_id": "component_031_dnode_0001", "solver": "empty graph", "nodes": 0, "edges": 0, "elapsed_seconds": 0.001}
+{"event": "terminal_solver_start", "terminal_id": "component_032_dnode_0001", "solver": "empty graph", "nodes": 0, "edges": 0}
+{"event": "terminal_solver_finish", "terminal_id": "component_032_dnode_0001", "solver": "empty graph", "nodes": 0, "edges": 0, "elapsed_seconds": 0.001}
+{"event": "terminal_solver_start", "terminal_id": "component_033_dnode_0001", "solver": "empty graph", "nodes": 0, "edges": 0}
+{"event": "terminal_solver_finish", "terminal_id": "component_033_dnode_0001", "solver": "empty graph", "nodes": 0, "edges": 0, "elapsed_seconds": 0.0}
+{"event": "terminal_solver_start", "terminal_id": "component_034_dnode_0001", "solver": "empty graph", "nodes": 0, "edges": 0}
+{"event": "terminal_solver_finish", "terminal_id": "component_034_dnode_0001", "solver": "empty graph", "nodes": 0, "edges": 0, "elapsed_seconds": 0.001}
+{"event": "terminal_solver_start", "terminal_id": "component_035_dnode_0001", "solver": "empty graph", "nodes": 0, "edges": 0}
+{"event": "terminal_solver_finish", "terminal_id": "component_035_dnode_0001", "solver": "empty graph", "nodes": 0, "edges": 0, "elapsed_seconds": 0.001}
+{"event": "terminal_solver_start", "terminal_id": "component_036_dnode_0001", "solver": "empty graph", "nodes": 0, "edges": 0}
+{"event": "terminal_solver_finish", "terminal_id": "component_036_dnode_0001", "solver": "empty graph", "nodes": 0, "edges": 0, "elapsed_seconds": 0.0}
+{"event": "terminal_solver_start", "terminal_id": "component_037_dnode_0001", "solver": "empty graph", "nodes": 0, "edges": 0}
+{"event": "terminal_solver_finish", "terminal_id": "component_037_dnode_0001", "solver": "empty graph", "nodes": 0, "edges": 0, "elapsed_seconds": 0.0}
+{"event": "terminal_solver_start", "terminal_id": "component_038_dnode_0001", "solver": "empty graph", "nodes": 0, "edges": 0}
+{"event": "terminal_solver_finish", "terminal_id": "component_038_dnode_0001", "solver": "empty graph", "nodes": 0, "edges": 0, "elapsed_seconds": 0.001}
+{"event": "terminal_solver_start", "terminal_id": "component_039_dnode_0001", "solver": "empty graph", "nodes": 0, "edges": 0}
+{"event": "terminal_solver_finish", "terminal_id": "component_039_dnode_0001", "solver": "empty graph", "nodes": 0, "edges": 0, "elapsed_seconds": 0.0}
+{"event": "terminal_solver_start", "terminal_id": "component_040_dnode_0001", "solver": "empty graph", "nodes": 0, "edges": 0}
+{"event": "terminal_solver_finish", "terminal_id": "component_040_dnode_0001", "solver": "empty graph", "nodes": 0, "edges": 0, "elapsed_seconds": 0.0}
+{"event": "terminal_solver_start", "terminal_id": "component_041_dnode_0001", "solver": "empty graph", "nodes": 0, "edges": 0}
+{"event": "terminal_solver_finish", "terminal_id": "component_041_dnode_0001", "solver": "empty graph", "nodes": 0, "edges": 0, "elapsed_seconds": 0.0}
+{"event": "terminal_solver_start", "terminal_id": "component_042_dnode_0001", "solver": "empty graph", "nodes": 0, "edges": 0}
+{"event": "terminal_solver_finish", "terminal_id": "component_042_dnode_0001", "solver": "empty graph", "nodes": 0, "edges": 0, "elapsed_seconds": 0.001}
+{"event": "terminal_solver_start", "terminal_id": "component_043_dnode_0001", "solver": "empty graph", "nodes": 0, "edges": 0}
+{"event": "terminal_solver_finish", "terminal_id": "component_043_dnode_0001", "solver": "empty graph", "nodes": 0, "edges": 0, "elapsed_seconds": 0.0}
+{"event": "terminal_solver_start", "terminal_id": "component_044_dnode_0001", "solver": "empty graph", "nodes": 0, "edges": 0}
+{"event": "terminal_solver_finish", "terminal_id": "component_044_dnode_0001", "solver": "empty graph", "nodes": 0, "edges": 0, "elapsed_seconds": 0.001}
+{"event": "terminal_solver_start", "terminal_id": "component_045_dnode_0001", "solver": "empty graph", "nodes": 0, "edges": 0}
+{"event": "terminal_solver_finish", "terminal_id": "component_045_dnode_0001", "solver": "empty graph", "nodes": 0, "edges": 0, "elapsed_seconds": 0.0}
+{"event": "terminal_solver_start", "terminal_id": "component_046_dnode_0001", "solver": "empty graph", "nodes": 0, "edges": 0}
+{"event": "terminal_solver_finish", "terminal_id": "component_046_dnode_0001", "solver": "empty graph", "nodes": 0, "edges": 0, "elapsed_seconds": 0.0}
+{"event": "terminal_solver_start", "terminal_id": "component_047_dnode_0001", "solver": "empty graph", "nodes": 0, "edges": 0}
+{"event": "terminal_solver_finish", "terminal_id": "component_047_dnode_0001", "solver": "empty graph", "nodes": 0, "edges": 0, "elapsed_seconds": 0.0}
+{"event": "terminal_solver_start", "terminal_id": "component_048_dnode_0001", "solver": "empty graph", "nodes": 0, "edges": 0}
+{"event": "terminal_solver_finish", "terminal_id": "component_048_dnode_0001", "solver": "empty graph", "nodes": 0, "edges": 0, "elapsed_seconds": 0.0}
+{"event": "terminal_solver_start", "terminal_id": "component_049_dnode_0001", "solver": "empty graph", "nodes": 0, "edges": 0}
+{"event": "terminal_solver_finish", "terminal_id": "component_049_dnode_0001", "solver": "empty graph", "nodes": 0, "edges": 0, "elapsed_seconds": 0.0}
+{"event": "terminal_solver_start", "terminal_id": "component_050_dnode_0001", "solver": "empty graph", "nodes": 0, "edges": 0}
+{"event": "terminal_solver_finish", "terminal_id": "component_050_dnode_0001", "solver": "empty graph", "nodes": 0, "edges": 0, "elapsed_seconds": 0.0}
+{"event": "evaluation_progress", "completed": 50, "calls": 50, "memo_hits": 0, "node_type": "terminal", "elapsed_seconds": 0.001}
+{"event": "terminal_solver_start", "terminal_id": "component_051_dnode_0001", "solver": "empty graph", "nodes": 0, "edges": 0}
+{"event": "terminal_solver_finish", "terminal_id": "component_051_dnode_0001", "solver": "empty graph", "nodes": 0, "edges": 0, "elapsed_seconds": 0.001}
+{"event": "terminal_solver_start", "terminal_id": "component_052_dnode_0001", "solver": "empty graph", "nodes": 0, "edges": 0}
+{"event": "terminal_solver_finish", "terminal_id": "component_052_dnode_0001", "solver": "empty graph", "nodes": 0, "edges": 0, "elapsed_seconds": 0.0}
+{"event": "terminal_solver_start", "terminal_id": "component_053_dnode_0001", "solver": "empty graph", "nodes": 0, "edges": 0}
+{"event": "terminal_solver_finish", "terminal_id": "component_053_dnode_0001", "solver": "empty graph", "nodes": 0, "edges": 0, "elapsed_seconds": 0.001}
+{"event": "terminal_solver_start", "terminal_id": "component_054_dnode_0001", "solver": "empty graph", "nodes": 0, "edges": 0}
+{"event": "terminal_solver_finish", "terminal_id": "component_054_dnode_0001", "solver": "empty graph", "nodes": 0, "edges": 0, "elapsed_seconds": 0.0}
+{"event": "terminal_solver_start", "terminal_id": "component_055_dnode_0001", "solver": "empty graph", "nodes": 0, "edges": 0}
+{"event": "terminal_solver_finish", "terminal_id": "component_055_dnode_0001", "solver": "empty graph", "nodes": 0, "edges": 0, "elapsed_seconds": 0.001}
+{"event": "terminal_solver_start", "terminal_id": "component_056_dnode_0001", "solver": "empty graph", "nodes": 0, "edges": 0}
+{"event": "terminal_solver_finish", "terminal_id": "component_056_dnode_0001", "solver": "empty graph", "nodes": 0, "edges": 0, "elapsed_seconds": 0.001}
+{"event": "terminal_solver_start", "terminal_id": "component_057_dnode_0001", "solver": "empty graph", "nodes": 0, "edges": 0}
+{"event": "terminal_solver_finish", "terminal_id": "component_057_dnode_0001", "solver": "empty graph", "nodes": 0, "edges": 0, "elapsed_seconds": 0.0}
+{"event": "terminal_solver_start", "terminal_id": "component_058_dnode_0001", "solver": "empty graph", "nodes": 0, "edges": 0}
+{"event": "terminal_solver_finish", "terminal_id": "component_058_dnode_0001", "solver": "empty graph", "nodes": 0, "edges": 0, "elapsed_seconds": 0.001}
+{"event": "terminal_solver_start", "terminal_id": "component_059_dnode_0001", "solver": "empty graph", "nodes": 0, "edges": 0}
+{"event": "terminal_solver_finish", "terminal_id": "component_059_dnode_0001", "solver": "empty graph", "nodes": 0, "edges": 0, "elapsed_seconds": 0.0}
+{"event": "terminal_solver_start", "terminal_id": "component_060_dnode_0001", "solver": "empty graph", "nodes": 0, "edges": 0}
+{"event": "terminal_solver_finish", "terminal_id": "component_060_dnode_0001", "solver": "empty graph", "nodes": 0, "edges": 0, "elapsed_seconds": 0.001}
+{"event": "terminal_solver_start", "terminal_id": "component_061_dnode_0001", "solver": "empty graph", "nodes": 0, "edges": 0}
+{"event": "terminal_solver_finish", "terminal_id": "component_061_dnode_0001", "solver": "empty graph", "nodes": 0, "edges": 0, "elapsed_seconds": 0.001}
+{"event": "terminal_solver_start", "terminal_id": "component_062_dnode_0001", "solver": "empty graph", "nodes": 0, "edges": 0}
+{"event": "terminal_solver_finish", "terminal_id": "component_062_dnode_0001", "solver": "empty graph", "nodes": 0, "edges": 0, "elapsed_seconds": 0.0}
+{"event": "terminal_solver_start", "terminal_id": "component_063_dnode_0001", "solver": "empty graph", "nodes": 0, "edges": 0}
+{"event": "terminal_solver_finish", "terminal_id": "component_063_dnode_0001", "solver": "empty graph", "nodes": 0, "edges": 0, "elapsed_seconds": 0.0}
+{"event": "terminal_solver_start", "terminal_id": "component_064_dnode_0001", "solver": "empty graph", "nodes": 0, "edges": 0}
+{"event": "terminal_solver_finish", "terminal_id": "component_064_dnode_0001", "solver": "empty graph", "nodes": 0, "edges": 0, "elapsed_seconds": 0.0}
+{"event": "terminal_solver_start", "terminal_id": "component_065_dnode_0001", "solver": "empty graph", "nodes": 0, "edges": 0}
+{"event": "terminal_solver_finish", "terminal_id": "component_065_dnode_0001", "solver": "empty graph", "nodes": 0, "edges": 0, "elapsed_seconds": 0.001}
+{"event": "terminal_solver_start", "terminal_id": "component_066_dnode_0001", "solver": "empty graph", "nodes": 0, "edges": 0}
+{"event": "terminal_solver_finish", "terminal_id": "component_066_dnode_0001", "solver": "empty graph", "nodes": 0, "edges": 0, "elapsed_seconds": 0.001}
+{"event": "terminal_solver_start", "terminal_id": "component_067_dnode_0001", "solver": "empty graph", "nodes": 0, "edges": 0}
+{"event": "terminal_solver_finish", "terminal_id": "component_067_dnode_0001", "solver": "empty graph", "nodes": 0, "edges": 0, "elapsed_seconds": 0.0}
+{"event": "terminal_solver_start", "terminal_id": "component_068_dnode_0001", "solver": "empty graph", "nodes": 0, "edges": 0}
+{"event": "terminal_solver_finish", "terminal_id": "component_068_dnode_0001", "solver": "empty graph", "nodes": 0, "edges": 0, "elapsed_seconds": 0.0}
+{"event": "terminal_solver_start", "terminal_id": "component_069_dnode_0001", "solver": "empty graph", "nodes": 0, "edges": 0}
+{"event": "terminal_solver_finish", "terminal_id": "component_069_dnode_0001", "solver": "empty graph", "nodes": 0, "edges": 0, "elapsed_seconds": 0.001}
+{"event": "terminal_solver_start", "terminal_id": "component_070_dnode_0001", "solver": "empty graph", "nodes": 0, "edges": 0}
+{"event": "terminal_solver_finish", "terminal_id": "component_070_dnode_0001", "solver": "empty graph", "nodes": 0, "edges": 0, "elapsed_seconds": 0.0}
+{"event": "terminal_solver_start", "terminal_id": "component_071_dnode_0001", "solver": "empty graph", "nodes": 0, "edges": 0}
+{"event": "terminal_solver_finish", "terminal_id": "component_071_dnode_0001", "solver": "empty graph", "nodes": 0, "edges": 0, "elapsed_seconds": 0.001}
+{"event": "terminal_solver_start", "terminal_id": "component_072_dnode_0001", "solver": "empty graph", "nodes": 0, "edges": 0}
+{"event": "terminal_solver_finish", "terminal_id": "component_072_dnode_0001", "solver": "empty graph", "nodes": 0, "edges": 0, "elapsed_seconds": 0.001}
+{"event": "terminal_solver_start", "terminal_id": "component_073_dnode_0001", "solver": "empty graph", "nodes": 0, "edges": 0}
+{"event": "terminal_solver_finish", "terminal_id": "component_073_dnode_0001", "solver": "empty graph", "nodes": 0, "edges": 0, "elapsed_seconds": 0.0}
+{"event": "terminal_solver_start", "terminal_id": "component_074_dnode_0001", "solver": "empty graph", "nodes": 0, "edges": 0}
+{"event": "terminal_solver_finish", "terminal_id": "component_074_dnode_0001", "solver": "empty graph", "nodes": 0, "edges": 0, "elapsed_seconds": 0.0}
+{"event": "terminal_solver_start", "terminal_id": "component_075_dnode_0001", "solver": "empty graph", "nodes": 0, "edges": 0}
+{"event": "terminal_solver_finish", "terminal_id": "component_075_dnode_0001", "solver": "empty graph", "nodes": 0, "edges": 0, "elapsed_seconds": 0.0}
+{"event": "evaluation_progress", "completed": 75, "calls": 75, "memo_hits": 0, "node_type": "terminal", "elapsed_seconds": 0.001}
+{"event": "terminal_solver_start", "terminal_id": "component_076_dnode_0001", "solver": "empty graph", "nodes": 0, "edges": 0}
+{"event": "terminal_solver_finish", "terminal_id": "component_076_dnode_0001", "solver": "empty graph", "nodes": 0, "edges": 0, "elapsed_seconds": 0.001}
+{"event": "terminal_solver_start", "terminal_id": "component_077_dnode_0001", "solver": "empty graph", "nodes": 0, "edges": 0}
+{"event": "terminal_solver_finish", "terminal_id": "component_077_dnode_0001", "solver": "empty graph", "nodes": 0, "edges": 0, "elapsed_seconds": 0.001}
+{"event": "terminal_solver_start", "terminal_id": "component_078_dnode_0001", "solver": "empty graph", "nodes": 0, "edges": 0}
+{"event": "terminal_solver_finish", "terminal_id": "component_078_dnode_0001", "solver": "empty graph", "nodes": 0, "edges": 0, "elapsed_seconds": 0.0}
+{"event": "terminal_solver_start", "terminal_id": "component_079_dnode_0001", "solver": "empty graph", "nodes": 0, "edges": 0}
+{"event": "terminal_solver_finish", "terminal_id": "component_079_dnode_0001", "solver": "empty graph", "nodes": 0, "edges": 0, "elapsed_seconds": 0.001}
+{"event": "terminal_solver_start", "terminal_id": "component_080_dnode_0001", "solver": "empty graph", "nodes": 0, "edges": 0}
+{"event": "terminal_solver_finish", "terminal_id": "component_080_dnode_0001", "solver": "empty graph", "nodes": 0, "edges": 0, "elapsed_seconds": 0.001}
+{"event": "terminal_solver_start", "terminal_id": "component_081_dnode_0001", "solver": "empty graph", "nodes": 0, "edges": 0}
+{"event": "terminal_solver_finish", "terminal_id": "component_081_dnode_0001", "solver": "empty graph", "nodes": 0, "edges": 0, "elapsed_seconds": 0.001}
+{"event": "evaluation_finish", "wall_seconds": 6.01, "calls": 81, "completed": 81, "memo_hits": 0}

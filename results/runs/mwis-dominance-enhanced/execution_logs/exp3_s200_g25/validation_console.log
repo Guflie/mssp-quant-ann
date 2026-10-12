@@ -1,0 +1,61 @@
+Failed to find real location of C:\Users\felip\AppData\Local\Python\pythoncore-3.13-64\python.exe
+{
+  "run_name": "exp3_s200_g25",
+  "validation_passed": true,
+  "preserved_artifact_hashes_checked": 1942,
+  "global_dominance_removed": 327,
+  "recursive_dominance_removed_occurrences": 51622,
+  "retained_solver_nodes": 588,
+  "retained_solver_edges": 1654,
+  "contact_origins": {
+    "MILP": 127,
+    "annealing": 24,
+    "exact preprocessing": 35
+  },
+  "contact_origin_objectives": {
+    "MILP": 8867.853,
+    "annealing": 1602.009,
+    "exact preprocessing": 2425.182
+  },
+  "pre_milp_contact_origins": {
+    "exact preprocessing": 50,
+    "greedy fallback": 85,
+    "annealing": 45,
+    "separator assignment": 4
+  },
+  "pre_milp_absolute_gap_against_certified_optimum": 309.52900000000045,
+  "pre_milp_relative_gap_against_certified_optimum_percent": 2.400371801755779,
+  "input_sha256": "cc54eb09691fa2375af1eecf51d4876ae051fb9e123d47276a6af30f713f7468",
+  "candidate_slots": 915,
+  "satellites_with_slots": 200,
+  "antennas_with_slots": 25,
+  "conflict_edges": 3942,
+  "natural_components": 49,
+  "terminal_qubos": 36,
+  "selected_contacts": 186,
+  "selected_conflicts": 0,
+  "classical_baseline_objective": 12585.515,
+  "annealed_objective_before_milp": 12585.515,
+  "final_feasible_objective": 12895.044,
+  "hybrid_upper_bound": 12895.044,
+  "absolute_gap": 0.0,
+  "relative_gap_percent": 0.0,
+  "status": "hybrid_exact",
+  "milp_components_proven_optimal": 1,
+  "milp_components_attempted": 1,
+  "incomplete_components": 1,
+  "max_terminal_variables": 27,
+  "max_terminal_couplers": 52,
+  "checks": [
+    "frozen input and contact constants",
+    "full conflict graph rebuilt from input",
+    "classical and final schedule feasibility",
+    "objectives and certification consistency",
+    "terminal QUBOs and penalty coefficients",
+    "annealing seeds, reads, decoded objectives and energies",
+    "global and recursive closed-neighborhood dominance witnesses",
+    "reduced graph and component consistency",
+    "independent pre-MILP reconstruction and final provenance",
+    "preservation of existing sources, config, inputs and MWIS runs"
+  ]
+}

@@ -1,0 +1,2 @@
+node_id,component_id,reason,node_count,edge_count,forced_selected,heuristic_selected_nodes,selected_nodes,heuristic_objective,upper_bound
+component_001_dnode_0169,component_001,no separator found within configured search limits,32,158,[],"['SLOT_001648', 'SLOT_001985', 'SLOT_003193', 'SLOT_005958']","['SLOT_001648', 'SLOT_001985', 'SLOT_003193', 'SLOT_005958']",274.808,2100.144

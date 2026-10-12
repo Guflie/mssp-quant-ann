@@ -1,0 +1,60 @@
+{
+  "run_name": "exp2_s500_g50",
+  "validation_passed": true,
+  "preserved_artifact_hashes_checked": 1843,
+  "global_dominance_removed": 671,
+  "recursive_dominance_removed_occurrences": 123485,
+  "retained_solver_nodes": 4553,
+  "retained_solver_edges": 43386,
+  "contact_origins": {
+    "MILP": 449,
+    "annealing": 3,
+    "exact preprocessing": 12
+  },
+  "contact_origin_objectives": {
+    "MILP": 32960.101,
+    "annealing": 172.636,
+    "exact preprocessing": 840.071
+  },
+  "pre_milp_contact_origins": {
+    "greedy fallback": 432,
+    "exact preprocessing": 18,
+    "separator assignment": 5,
+    "annealing": 6
+  },
+  "pre_milp_absolute_gap_against_certified_optimum": 1532.1239999999962,
+  "pre_milp_relative_gap_against_certified_optimum_percent": 4.509853880786058,
+  "input_sha256": "7ea415e1218beaf754c84aa40d4d4df6c23a768eca895ee8b97fa9fb40ea4396",
+  "candidate_slots": 5224,
+  "satellites_with_slots": 500,
+  "antennas_with_slots": 50,
+  "conflict_edges": 53998,
+  "natural_components": 14,
+  "terminal_qubos": 6,
+  "selected_contacts": 464,
+  "selected_conflicts": 0,
+  "classical_baseline_objective": 32440.684,
+  "annealed_objective_before_milp": 32440.684,
+  "final_feasible_objective": 33972.808,
+  "hybrid_upper_bound": 33972.808000000005,
+  "absolute_gap": 0.0,
+  "relative_gap_percent": 0.0,
+  "status": "hybrid_exact",
+  "milp_components_proven_optimal": 1,
+  "milp_components_attempted": 1,
+  "incomplete_components": 1,
+  "max_terminal_variables": 7,
+  "max_terminal_couplers": 13,
+  "checks": [
+    "frozen input and contact constants",
+    "full conflict graph rebuilt from input",
+    "classical and final schedule feasibility",
+    "objectives and certification consistency",
+    "terminal QUBOs and penalty coefficients",
+    "annealing seeds, reads, decoded objectives and energies",
+    "global and recursive closed-neighborhood dominance witnesses",
+    "reduced graph and component consistency",
+    "independent pre-MILP reconstruction and final provenance",
+    "preservation of existing sources, config, inputs and MWIS runs"
+  ]
+}

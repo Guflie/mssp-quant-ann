@@ -1,0 +1,489 @@
+{"event": "evaluation_start", "decomposition_nodes": 7126, "terminal_subgraphs": 36}
+{"event": "terminal_solver_start", "terminal_id": "component_001_dnode_0015", "solver": "empty graph", "nodes": 0, "edges": 0}
+{"event": "terminal_solver_finish", "terminal_id": "component_001_dnode_0015", "solver": "empty graph", "nodes": 0, "edges": 0, "elapsed_seconds": 0.002}
+{"event": "terminal_solver_start", "terminal_id": "component_001_dnode_0017", "solver": "empty graph", "nodes": 0, "edges": 0}
+{"event": "terminal_solver_finish", "terminal_id": "component_001_dnode_0017", "solver": "empty graph", "nodes": 0, "edges": 0, "elapsed_seconds": 0.001}
+{"event": "terminal_solver_start", "terminal_id": "component_001_dnode_0018", "solver": "complement max-weight clique", "nodes": 27, "edges": 49}
+{"event": "terminal_solver_finish", "terminal_id": "component_001_dnode_0018", "solver": "complement max-weight clique", "nodes": 27, "edges": 49, "elapsed_seconds": 0.013}
+{"event": "terminal_solver_start", "terminal_id": "component_001_dnode_0019", "solver": "empty graph", "nodes": 0, "edges": 0}
+{"event": "terminal_solver_finish", "terminal_id": "component_001_dnode_0019", "solver": "empty graph", "nodes": 0, "edges": 0, "elapsed_seconds": 0.001}
+{"event": "terminal_solver_start", "terminal_id": "component_001_dnode_0021", "solver": "empty graph", "nodes": 0, "edges": 0}
+{"event": "terminal_solver_finish", "terminal_id": "component_001_dnode_0021", "solver": "empty graph", "nodes": 0, "edges": 0, "elapsed_seconds": 0.002}
+{"event": "terminal_solver_start", "terminal_id": "component_001_dnode_0022", "solver": "empty graph", "nodes": 0, "edges": 0}
+{"event": "terminal_solver_finish", "terminal_id": "component_001_dnode_0022", "solver": "empty graph", "nodes": 0, "edges": 0, "elapsed_seconds": 0.002}
+{"event": "terminal_solver_start", "terminal_id": "component_001_dnode_0028", "solver": "empty graph", "nodes": 0, "edges": 0}
+{"event": "terminal_solver_finish", "terminal_id": "component_001_dnode_0028", "solver": "empty graph", "nodes": 0, "edges": 0, "elapsed_seconds": 0.001}
+{"event": "terminal_solver_start", "terminal_id": "component_001_dnode_0033", "solver": "empty graph", "nodes": 0, "edges": 0}
+{"event": "terminal_solver_finish", "terminal_id": "component_001_dnode_0033", "solver": "empty graph", "nodes": 0, "edges": 0, "elapsed_seconds": 0.0}
+{"event": "terminal_solver_start", "terminal_id": "component_001_dnode_0034", "solver": "empty graph", "nodes": 0, "edges": 0}
+{"event": "terminal_solver_finish", "terminal_id": "component_001_dnode_0034", "solver": "empty graph", "nodes": 0, "edges": 0, "elapsed_seconds": 0.001}
+{"event": "terminal_solver_start", "terminal_id": "component_001_dnode_0035", "solver": "empty graph", "nodes": 0, "edges": 0}
+{"event": "terminal_solver_finish", "terminal_id": "component_001_dnode_0035", "solver": "empty graph", "nodes": 0, "edges": 0, "elapsed_seconds": 0.0}
+{"event": "evaluation_progress", "completed": 25, "calls": 35, "memo_hits": 12, "node_type": "terminal", "elapsed_seconds": 0.002}
+{"event": "terminal_solver_start", "terminal_id": "component_001_dnode_0036", "solver": "empty graph", "nodes": 0, "edges": 0}
+{"event": "terminal_solver_finish", "terminal_id": "component_001_dnode_0036", "solver": "empty graph", "nodes": 0, "edges": 0, "elapsed_seconds": 0.001}
+{"event": "terminal_solver_start", "terminal_id": "component_001_dnode_0050", "solver": "exact enumeration", "nodes": 4, "edges": 3}
+{"event": "terminal_solver_finish", "terminal_id": "component_001_dnode_0050", "solver": "exact enumeration", "nodes": 4, "edges": 3, "elapsed_seconds": 0.001}
+{"event": "terminal_solver_start", "terminal_id": "component_001_dnode_0051", "solver": "empty graph", "nodes": 0, "edges": 0}
+{"event": "terminal_solver_finish", "terminal_id": "component_001_dnode_0051", "solver": "empty graph", "nodes": 0, "edges": 0, "elapsed_seconds": 0.001}
+{"event": "terminal_solver_start", "terminal_id": "component_001_dnode_0052", "solver": "empty graph", "nodes": 0, "edges": 0}
+{"event": "terminal_solver_finish", "terminal_id": "component_001_dnode_0052", "solver": "empty graph", "nodes": 0, "edges": 0, "elapsed_seconds": 0.001}
+{"event": "evaluation_progress", "completed": 50, "calls": 60, "memo_hits": 33, "node_type": "separator", "elapsed_seconds": 0.011}
+{"event": "terminal_solver_start", "terminal_id": "component_001_dnode_0083", "solver": "empty graph", "nodes": 0, "edges": 0}
+{"event": "terminal_solver_finish", "terminal_id": "component_001_dnode_0083", "solver": "empty graph", "nodes": 0, "edges": 0, "elapsed_seconds": 0.001}
+{"event": "evaluation_progress", "completed": 75, "calls": 83, "memo_hits": 65, "node_type": "terminal", "elapsed_seconds": 0.002}
+{"event": "terminal_solver_start", "terminal_id": "component_001_dnode_0084", "solver": "empty graph", "nodes": 0, "edges": 0}
+{"event": "terminal_solver_finish", "terminal_id": "component_001_dnode_0084", "solver": "empty graph", "nodes": 0, "edges": 0, "elapsed_seconds": 0.0}
+{"event": "terminal_solver_start", "terminal_id": "component_001_dnode_0101", "solver": "exact enumeration", "nodes": 13, "edges": 30}
+{"event": "terminal_solver_finish", "terminal_id": "component_001_dnode_0101", "solver": "exact enumeration", "nodes": 13, "edges": 30, "elapsed_seconds": 0.035}
+{"event": "terminal_solver_start", "terminal_id": "component_001_dnode_0110", "solver": "exact enumeration", "nodes": 4, "edges": 3}
+{"event": "terminal_solver_finish", "terminal_id": "component_001_dnode_0110", "solver": "exact enumeration", "nodes": 4, "edges": 3, "elapsed_seconds": 0.001}
+{"event": "evaluation_progress", "completed": 100, "calls": 113, "memo_hits": 88, "node_type": "incomplete", "elapsed_seconds": 0.005}
+{"event": "terminal_solver_start", "terminal_id": "component_001_dnode_0118", "solver": "exact enumeration", "nodes": 11, "edges": 23}
+{"event": "terminal_solver_finish", "terminal_id": "component_001_dnode_0118", "solver": "exact enumeration", "nodes": 11, "edges": 23, "elapsed_seconds": 0.008}
+{"event": "terminal_solver_start", "terminal_id": "component_001_dnode_0119", "solver": "exact enumeration", "nodes": 5, "edges": 4}
+{"event": "terminal_solver_finish", "terminal_id": "component_001_dnode_0119", "solver": "exact enumeration", "nodes": 5, "edges": 4, "elapsed_seconds": 0.001}
+{"event": "evaluation_progress", "completed": 125, "calls": 137, "memo_hits": 114, "node_type": "separator", "elapsed_seconds": 0.014}
+{"event": "terminal_solver_start", "terminal_id": "component_001_dnode_0145", "solver": "exact enumeration", "nodes": 2, "edges": 1}
+{"event": "terminal_solver_finish", "terminal_id": "component_001_dnode_0145", "solver": "exact enumeration", "nodes": 2, "edges": 1, "elapsed_seconds": 0.001}
+{"event": "terminal_solver_start", "terminal_id": "component_001_dnode_0146", "solver": "empty graph", "nodes": 0, "edges": 0}
+{"event": "terminal_solver_finish", "terminal_id": "component_001_dnode_0146", "solver": "empty graph", "nodes": 0, "edges": 0, "elapsed_seconds": 0.0}
+{"event": "terminal_solver_start", "terminal_id": "component_001_dnode_0147", "solver": "exact enumeration", "nodes": 10, "edges": 25}
+{"event": "terminal_solver_finish", "terminal_id": "component_001_dnode_0147", "solver": "exact enumeration", "nodes": 10, "edges": 25, "elapsed_seconds": 0.004}
+{"event": "evaluation_progress", "completed": 150, "calls": 161, "memo_hits": 138, "node_type": "separator", "elapsed_seconds": 0.02}
+{"event": "evaluation_progress", "completed": 175, "calls": 187, "memo_hits": 168, "node_type": "separator", "elapsed_seconds": 0.01}
+{"event": "terminal_solver_start", "terminal_id": "component_001_dnode_0191", "solver": "exact enumeration", "nodes": 9, "edges": 20}
+{"event": "terminal_solver_finish", "terminal_id": "component_001_dnode_0191", "solver": "exact enumeration", "nodes": 9, "edges": 20, "elapsed_seconds": 0.002}
+{"event": "terminal_solver_start", "terminal_id": "component_001_dnode_0192", "solver": "empty graph", "nodes": 0, "edges": 0}
+{"event": "terminal_solver_finish", "terminal_id": "component_001_dnode_0192", "solver": "empty graph", "nodes": 0, "edges": 0, "elapsed_seconds": 0.001}
+{"event": "terminal_solver_start", "terminal_id": "component_001_dnode_0193", "solver": "empty graph", "nodes": 0, "edges": 0}
+{"event": "terminal_solver_finish", "terminal_id": "component_001_dnode_0193", "solver": "empty graph", "nodes": 0, "edges": 0, "elapsed_seconds": 0.001}
+{"event": "terminal_solver_start", "terminal_id": "component_001_dnode_0194", "solver": "empty graph", "nodes": 0, "edges": 0}
+{"event": "terminal_solver_finish", "terminal_id": "component_001_dnode_0194", "solver": "empty graph", "nodes": 0, "edges": 0, "elapsed_seconds": 0.001}
+{"event": "terminal_solver_start", "terminal_id": "component_001_dnode_0195", "solver": "exact enumeration", "nodes": 3, "edges": 2}
+{"event": "terminal_solver_finish", "terminal_id": "component_001_dnode_0195", "solver": "exact enumeration", "nodes": 3, "edges": 2, "elapsed_seconds": 0.001}
+{"event": "evaluation_progress", "completed": 200, "calls": 213, "memo_hits": 190, "node_type": "incomplete", "elapsed_seconds": 0.005}
+{"event": "evaluation_progress", "completed": 225, "calls": 235, "memo_hits": 223, "node_type": "separator", "elapsed_seconds": 0.01}
+{"event": "evaluation_progress", "completed": 250, "calls": 257, "memo_hits": 256, "node_type": "separator", "elapsed_seconds": 0.093}
+{"event": "evaluation_progress", "completed": 275, "calls": 286, "memo_hits": 287, "node_type": "separator", "elapsed_seconds": 0.005}
+{"event": "terminal_solver_start", "terminal_id": "component_001_dnode_0302", "solver": "exact enumeration", "nodes": 17, "edges": 34}
+{"event": "terminal_solver_finish", "terminal_id": "component_001_dnode_0302", "solver": "exact enumeration", "nodes": 17, "edges": 34, "elapsed_seconds": 0.945}
+{"event": "evaluation_progress", "completed": 300, "calls": 312, "memo_hits": 312, "node_type": "separator", "elapsed_seconds": 0.01}
+{"event": "evaluation_progress", "completed": 325, "calls": 337, "memo_hits": 341, "node_type": "separator", "elapsed_seconds": 0.01}
+{"event": "evaluation_progress", "completed": 350, "calls": 359, "memo_hits": 372, "node_type": "separator", "elapsed_seconds": 0.076}
+{"event": "terminal_solver_start", "terminal_id": "component_001_dnode_0360", "solver": "empty graph", "nodes": 0, "edges": 0}
+{"event": "terminal_solver_finish", "terminal_id": "component_001_dnode_0360", "solver": "empty graph", "nodes": 0, "edges": 0, "elapsed_seconds": 0.001}
+{"event": "terminal_solver_start", "terminal_id": "component_001_dnode_0361", "solver": "exact enumeration", "nodes": 4, "edges": 3}
+{"event": "terminal_solver_finish", "terminal_id": "component_001_dnode_0361", "solver": "exact enumeration", "nodes": 4, "edges": 3, "elapsed_seconds": 0.001}
+{"event": "terminal_solver_start", "terminal_id": "component_001_dnode_0381", "solver": "exact enumeration", "nodes": 4, "edges": 3}
+{"event": "terminal_solver_finish", "terminal_id": "component_001_dnode_0381", "solver": "exact enumeration", "nodes": 4, "edges": 3, "elapsed_seconds": 0.001}
+{"event": "evaluation_progress", "completed": 375, "calls": 388, "memo_hits": 394, "node_type": "incomplete", "elapsed_seconds": 0.005}
+{"event": "terminal_solver_start", "terminal_id": "component_001_dnode_0389", "solver": "empty graph", "nodes": 0, "edges": 0}
+{"event": "terminal_solver_finish", "terminal_id": "component_001_dnode_0389", "solver": "empty graph", "nodes": 0, "edges": 0, "elapsed_seconds": 0.0}
+{"event": "evaluation_progress", "completed": 400, "calls": 410, "memo_hits": 423, "node_type": "separator", "elapsed_seconds": 0.01}
+{"event": "evaluation_progress", "completed": 425, "calls": 438, "memo_hits": 451, "node_type": "incomplete", "elapsed_seconds": 0.005}
+{"event": "evaluation_progress", "completed": 450, "calls": 462, "memo_hits": 481, "node_type": "separator", "elapsed_seconds": 0.01}
+{"event": "evaluation_progress", "completed": 475, "calls": 487, "memo_hits": 512, "node_type": "separator", "elapsed_seconds": 0.01}
+{"event": "evaluation_progress", "completed": 500, "calls": 513, "memo_hits": 543, "node_type": "incomplete", "elapsed_seconds": 0.007}
+{"event": "evaluation_progress", "completed": 525, "calls": 537, "memo_hits": 572, "node_type": "separator", "elapsed_seconds": 0.01}
+{"event": "evaluation_progress", "completed": 550, "calls": 562, "memo_hits": 602, "node_type": "separator", "elapsed_seconds": 0.01}
+{"event": "evaluation_progress", "completed": 575, "calls": 588, "memo_hits": 633, "node_type": "incomplete", "elapsed_seconds": 0.005}
+{"event": "evaluation_progress", "completed": 600, "calls": 611, "memo_hits": 661, "node_type": "separator", "elapsed_seconds": 0.021}
+{"event": "evaluation_progress", "completed": 625, "calls": 634, "memo_hits": 691, "node_type": "separator", "elapsed_seconds": 0.046}
+{"event": "evaluation_progress", "completed": 650, "calls": 662, "memo_hits": 720, "node_type": "separator", "elapsed_seconds": 0.01}
+{"event": "evaluation_progress", "completed": 675, "calls": 687, "memo_hits": 749, "node_type": "separator", "elapsed_seconds": 0.009}
+{"event": "evaluation_progress", "completed": 700, "calls": 712, "memo_hits": 778, "node_type": "separator", "elapsed_seconds": 0.009}
+{"event": "terminal_solver_start", "terminal_id": "component_001_dnode_0713", "solver": "empty graph", "nodes": 0, "edges": 0}
+{"event": "terminal_solver_finish", "terminal_id": "component_001_dnode_0713", "solver": "empty graph", "nodes": 0, "edges": 0, "elapsed_seconds": 0.001}
+{"event": "terminal_solver_start", "terminal_id": "component_001_dnode_0714", "solver": "empty graph", "nodes": 0, "edges": 0}
+{"event": "terminal_solver_finish", "terminal_id": "component_001_dnode_0714", "solver": "empty graph", "nodes": 0, "edges": 0, "elapsed_seconds": 0.0}
+{"event": "terminal_solver_start", "terminal_id": "component_001_dnode_0715", "solver": "exact enumeration", "nodes": 4, "edges": 3}
+{"event": "terminal_solver_finish", "terminal_id": "component_001_dnode_0715", "solver": "exact enumeration", "nodes": 4, "edges": 3, "elapsed_seconds": 0.001}
+{"event": "evaluation_progress", "completed": 725, "calls": 736, "memo_hits": 807, "node_type": "separator", "elapsed_seconds": 0.005}
+{"event": "evaluation_progress", "completed": 750, "calls": 762, "memo_hits": 840, "node_type": "independent_sum", "elapsed_seconds": 0.0}
+{"event": "evaluation_progress", "completed": 775, "calls": 787, "memo_hits": 872, "node_type": "separator", "elapsed_seconds": 0.011}
+{"event": "evaluation_progress", "completed": 800, "calls": 810, "memo_hits": 904, "node_type": "separator", "elapsed_seconds": 0.041}
+{"event": "evaluation_progress", "completed": 825, "calls": 835, "memo_hits": 933, "node_type": "separator", "elapsed_seconds": 0.031}
+{"event": "evaluation_progress", "completed": 850, "calls": 862, "memo_hits": 963, "node_type": "independent_sum", "elapsed_seconds": 0.005}
+{"event": "evaluation_progress", "completed": 875, "calls": 887, "memo_hits": 994, "node_type": "separator", "elapsed_seconds": 0.01}
+{"event": "evaluation_progress", "completed": 900, "calls": 910, "memo_hits": 1029, "node_type": "separator", "elapsed_seconds": 0.025}
+{"event": "evaluation_progress", "completed": 925, "calls": 937, "memo_hits": 1063, "node_type": "separator", "elapsed_seconds": 0.01}
+{"event": "evaluation_progress", "completed": 950, "calls": 963, "memo_hits": 1092, "node_type": "incomplete", "elapsed_seconds": 0.005}
+{"event": "evaluation_progress", "completed": 975, "calls": 984, "memo_hits": 1122, "node_type": "separator", "elapsed_seconds": 0.045}
+{"event": "evaluation_progress", "completed": 1000, "calls": 1010, "memo_hits": 1151, "node_type": "separator", "elapsed_seconds": 0.029}
+{"event": "evaluation_progress", "completed": 1025, "calls": 1038, "memo_hits": 1180, "node_type": "incomplete", "elapsed_seconds": 0.005}
+{"event": "evaluation_progress", "completed": 1050, "calls": 1063, "memo_hits": 1210, "node_type": "incomplete", "elapsed_seconds": 0.005}
+{"event": "evaluation_progress", "completed": 1075, "calls": 1087, "memo_hits": 1239, "node_type": "separator", "elapsed_seconds": 0.01}
+{"event": "evaluation_progress", "completed": 1100, "calls": 1113, "memo_hits": 1269, "node_type": "incomplete", "elapsed_seconds": 0.005}
+{"event": "evaluation_progress", "completed": 1125, "calls": 1137, "memo_hits": 1298, "node_type": "separator", "elapsed_seconds": 0.01}
+{"event": "evaluation_progress", "completed": 1150, "calls": 1160, "memo_hits": 1330, "node_type": "separator", "elapsed_seconds": 0.031}
+{"event": "evaluation_progress", "completed": 1175, "calls": 1186, "memo_hits": 1360, "node_type": "separator", "elapsed_seconds": 0.021}
+{"event": "evaluation_progress", "completed": 1200, "calls": 1212, "memo_hits": 1390, "node_type": "separator", "elapsed_seconds": 0.009}
+{"event": "evaluation_progress", "completed": 1225, "calls": 1237, "memo_hits": 1420, "node_type": "separator", "elapsed_seconds": 0.01}
+{"event": "evaluation_progress", "completed": 1250, "calls": 1261, "memo_hits": 1451, "node_type": "independent_sum", "elapsed_seconds": 0.0}
+{"event": "evaluation_progress", "completed": 1275, "calls": 1288, "memo_hits": 1479, "node_type": "incomplete", "elapsed_seconds": 0.005}
+{"event": "evaluation_progress", "completed": 1300, "calls": 1312, "memo_hits": 1508, "node_type": "separator", "elapsed_seconds": 0.01}
+{"event": "evaluation_progress", "completed": 1325, "calls": 1333, "memo_hits": 1538, "node_type": "separator", "elapsed_seconds": 0.09}
+{"event": "evaluation_progress", "completed": 1350, "calls": 1359, "memo_hits": 1567, "node_type": "separator", "elapsed_seconds": 0.06}
+{"event": "evaluation_progress", "completed": 1375, "calls": 1387, "memo_hits": 1596, "node_type": "separator", "elapsed_seconds": 0.008}
+{"event": "terminal_solver_start", "terminal_id": "component_001_dnode_1391", "solver": "empty graph", "nodes": 0, "edges": 0}
+{"event": "terminal_solver_finish", "terminal_id": "component_001_dnode_1391", "solver": "empty graph", "nodes": 0, "edges": 0, "elapsed_seconds": 0.001}
+{"event": "terminal_solver_start", "terminal_id": "component_001_dnode_1392", "solver": "exact enumeration", "nodes": 4, "edges": 3}
+{"event": "terminal_solver_finish", "terminal_id": "component_001_dnode_1392", "solver": "exact enumeration", "nodes": 4, "edges": 3, "elapsed_seconds": 0.001}
+{"event": "evaluation_progress", "completed": 1400, "calls": 1413, "memo_hits": 1640, "node_type": "incomplete", "elapsed_seconds": 0.005}
+{"event": "evaluation_progress", "completed": 1425, "calls": 1438, "memo_hits": 1669, "node_type": "incomplete", "elapsed_seconds": 0.005}
+{"event": "evaluation_progress", "completed": 1450, "calls": 1463, "memo_hits": 1703, "node_type": "incomplete", "elapsed_seconds": 0.004}
+{"event": "evaluation_progress", "completed": 1475, "calls": 1488, "memo_hits": 1753, "node_type": "incomplete", "elapsed_seconds": 0.005}
+{"event": "evaluation_progress", "completed": 1500, "calls": 1513, "memo_hits": 1785, "node_type": "incomplete", "elapsed_seconds": 0.004}
+{"event": "evaluation_progress", "completed": 1525, "calls": 1538, "memo_hits": 1820, "node_type": "incomplete", "elapsed_seconds": 0.005}
+{"event": "evaluation_progress", "completed": 1550, "calls": 1561, "memo_hits": 1855, "node_type": "separator", "elapsed_seconds": 0.009}
+{"event": "evaluation_progress", "completed": 1575, "calls": 1588, "memo_hits": 1883, "node_type": "incomplete", "elapsed_seconds": 0.005}
+{"event": "evaluation_progress", "completed": 1600, "calls": 1610, "memo_hits": 1918, "node_type": "separator", "elapsed_seconds": 0.017}
+{"event": "evaluation_progress", "completed": 1625, "calls": 1635, "memo_hits": 1954, "node_type": "separator", "elapsed_seconds": 0.018}
+{"event": "evaluation_progress", "completed": 1650, "calls": 1660, "memo_hits": 1990, "node_type": "separator", "elapsed_seconds": 0.017}
+{"event": "evaluation_progress", "completed": 1675, "calls": 1688, "memo_hits": 2021, "node_type": "incomplete", "elapsed_seconds": 0.004}
+{"event": "evaluation_progress", "completed": 1700, "calls": 1709, "memo_hits": 2070, "node_type": "separator", "elapsed_seconds": 0.009}
+{"event": "evaluation_progress", "completed": 1725, "calls": 1737, "memo_hits": 2099, "node_type": "separator", "elapsed_seconds": 0.01}
+{"event": "evaluation_progress", "completed": 1750, "calls": 1758, "memo_hits": 2135, "node_type": "separator", "elapsed_seconds": 0.102}
+{"event": "evaluation_progress", "completed": 1775, "calls": 1787, "memo_hits": 2184, "node_type": "separator", "elapsed_seconds": 0.009}
+{"event": "evaluation_progress", "completed": 1800, "calls": 1810, "memo_hits": 2215, "node_type": "separator", "elapsed_seconds": 0.026}
+{"event": "evaluation_progress", "completed": 1825, "calls": 1837, "memo_hits": 2249, "node_type": "separator", "elapsed_seconds": 0.009}
+{"event": "evaluation_progress", "completed": 1850, "calls": 1863, "memo_hits": 2284, "node_type": "incomplete", "elapsed_seconds": 0.004}
+{"event": "evaluation_progress", "completed": 1875, "calls": 1886, "memo_hits": 2313, "node_type": "separator", "elapsed_seconds": 0.014}
+{"event": "evaluation_progress", "completed": 1900, "calls": 1913, "memo_hits": 2351, "node_type": "incomplete", "elapsed_seconds": 0.005}
+{"event": "evaluation_progress", "completed": 1925, "calls": 1935, "memo_hits": 2386, "node_type": "independent_sum", "elapsed_seconds": 0.009}
+{"event": "evaluation_progress", "completed": 1950, "calls": 1963, "memo_hits": 2420, "node_type": "incomplete", "elapsed_seconds": 0.004}
+{"event": "evaluation_progress", "completed": 1975, "calls": 1984, "memo_hits": 2452, "node_type": "separator", "elapsed_seconds": 0.064}
+{"event": "terminal_solver_start", "terminal_id": "component_001_dnode_1985", "solver": "exact enumeration", "nodes": 13, "edges": 14}
+{"event": "terminal_solver_finish", "terminal_id": "component_001_dnode_1985", "solver": "exact enumeration", "nodes": 13, "edges": 14, "elapsed_seconds": 0.062}
+{"event": "terminal_solver_start", "terminal_id": "component_001_dnode_1986", "solver": "exact enumeration", "nodes": 10, "edges": 14}
+{"event": "terminal_solver_finish", "terminal_id": "component_001_dnode_1986", "solver": "exact enumeration", "nodes": 10, "edges": 14, "elapsed_seconds": 0.006}
+{"event": "terminal_solver_start", "terminal_id": "component_001_dnode_1987", "solver": "empty graph", "nodes": 0, "edges": 0}
+{"event": "terminal_solver_finish", "terminal_id": "component_001_dnode_1987", "solver": "empty graph", "nodes": 0, "edges": 0, "elapsed_seconds": 0.0}
+{"event": "terminal_solver_start", "terminal_id": "component_001_dnode_1988", "solver": "empty graph", "nodes": 0, "edges": 0}
+{"event": "terminal_solver_finish", "terminal_id": "component_001_dnode_1988", "solver": "empty graph", "nodes": 0, "edges": 0, "elapsed_seconds": 0.001}
+{"event": "terminal_solver_start", "terminal_id": "component_001_dnode_1989", "solver": "exact enumeration", "nodes": 2, "edges": 1}
+{"event": "terminal_solver_finish", "terminal_id": "component_001_dnode_1989", "solver": "exact enumeration", "nodes": 2, "edges": 1, "elapsed_seconds": 0.001}
+{"event": "terminal_solver_start", "terminal_id": "component_001_dnode_1990", "solver": "exact enumeration", "nodes": 2, "edges": 1}
+{"event": "terminal_solver_finish", "terminal_id": "component_001_dnode_1990", "solver": "exact enumeration", "nodes": 2, "edges": 1, "elapsed_seconds": 0.001}
+{"event": "evaluation_progress", "completed": 2000, "calls": 2009, "memo_hits": 2474, "node_type": "separator", "elapsed_seconds": 0.015}
+{"event": "evaluation_progress", "completed": 2025, "calls": 2038, "memo_hits": 2504, "node_type": "incomplete", "elapsed_seconds": 0.004}
+{"event": "evaluation_progress", "completed": 2050, "calls": 2061, "memo_hits": 2533, "node_type": "independent_sum", "elapsed_seconds": 0.009}
+{"event": "evaluation_progress", "completed": 2075, "calls": 2084, "memo_hits": 2566, "node_type": "separator", "elapsed_seconds": 0.015}
+{"event": "evaluation_progress", "completed": 2100, "calls": 2112, "memo_hits": 2599, "node_type": "independent_sum", "elapsed_seconds": 0.0}
+{"event": "evaluation_progress", "completed": 2125, "calls": 2138, "memo_hits": 2624, "node_type": "incomplete", "elapsed_seconds": 0.004}
+{"event": "evaluation_progress", "completed": 2150, "calls": 2162, "memo_hits": 2660, "node_type": "separator", "elapsed_seconds": 0.01}
+{"event": "evaluation_progress", "completed": 2175, "calls": 2188, "memo_hits": 2690, "node_type": "incomplete", "elapsed_seconds": 0.005}
+{"event": "evaluation_progress", "completed": 2200, "calls": 2211, "memo_hits": 2731, "node_type": "independent_sum", "elapsed_seconds": 0.009}
+{"event": "evaluation_progress", "completed": 2225, "calls": 2237, "memo_hits": 2757, "node_type": "separator", "elapsed_seconds": 0.008}
+{"event": "evaluation_progress", "completed": 2250, "calls": 2262, "memo_hits": 2789, "node_type": "separator", "elapsed_seconds": 0.01}
+{"event": "evaluation_progress", "completed": 2275, "calls": 2285, "memo_hits": 2820, "node_type": "separator", "elapsed_seconds": 0.041}
+{"event": "evaluation_progress", "completed": 2300, "calls": 2312, "memo_hits": 2848, "node_type": "independent_sum", "elapsed_seconds": 0.004}
+{"event": "evaluation_progress", "completed": 2325, "calls": 2337, "memo_hits": 2881, "node_type": "separator", "elapsed_seconds": 0.009}
+{"event": "evaluation_progress", "completed": 2350, "calls": 2363, "memo_hits": 2914, "node_type": "incomplete", "elapsed_seconds": 0.005}
+{"event": "evaluation_progress", "completed": 2375, "calls": 2388, "memo_hits": 2940, "node_type": "incomplete", "elapsed_seconds": 0.004}
+{"event": "evaluation_progress", "completed": 2400, "calls": 2413, "memo_hits": 2975, "node_type": "incomplete", "elapsed_seconds": 0.005}
+{"event": "evaluation_progress", "completed": 2425, "calls": 2435, "memo_hits": 3005, "node_type": "separator", "elapsed_seconds": 0.009}
+{"event": "evaluation_progress", "completed": 2450, "calls": 2463, "memo_hits": 3046, "node_type": "incomplete", "elapsed_seconds": 0.004}
+{"event": "evaluation_progress", "completed": 2475, "calls": 2487, "memo_hits": 3072, "node_type": "separator", "elapsed_seconds": 0.008}
+{"event": "evaluation_progress", "completed": 2500, "calls": 2513, "memo_hits": 3108, "node_type": "incomplete", "elapsed_seconds": 0.004}
+{"event": "evaluation_progress", "completed": 2525, "calls": 2538, "memo_hits": 3152, "node_type": "incomplete", "elapsed_seconds": 0.004}
+{"event": "evaluation_progress", "completed": 2550, "calls": 2562, "memo_hits": 3184, "node_type": "separator", "elapsed_seconds": 0.009}
+{"event": "evaluation_progress", "completed": 2575, "calls": 2588, "memo_hits": 3210, "node_type": "incomplete", "elapsed_seconds": 0.004}
+{"event": "evaluation_progress", "completed": 2600, "calls": 2611, "memo_hits": 3241, "node_type": "separator", "elapsed_seconds": 0.013}
+{"event": "evaluation_progress", "completed": 2625, "calls": 2632, "memo_hits": 3269, "node_type": "separator", "elapsed_seconds": 0.155}
+{"event": "evaluation_progress", "completed": 2650, "calls": 2663, "memo_hits": 3308, "node_type": "incomplete", "elapsed_seconds": 0.004}
+{"event": "evaluation_progress", "completed": 2675, "calls": 2688, "memo_hits": 3347, "node_type": "incomplete", "elapsed_seconds": 0.004}
+{"event": "evaluation_progress", "completed": 2700, "calls": 2713, "memo_hits": 3379, "node_type": "incomplete", "elapsed_seconds": 0.004}
+{"event": "evaluation_progress", "completed": 2725, "calls": 2734, "memo_hits": 3407, "node_type": "separator", "elapsed_seconds": 0.06}
+{"event": "evaluation_progress", "completed": 2750, "calls": 2760, "memo_hits": 3436, "node_type": "separator", "elapsed_seconds": 0.025}
+{"event": "terminal_solver_start", "terminal_id": "component_001_dnode_2776", "solver": "complement max-weight clique", "nodes": 24, "edges": 52}
+{"event": "terminal_solver_finish", "terminal_id": "component_001_dnode_2776", "solver": "complement max-weight clique", "nodes": 24, "edges": 52, "elapsed_seconds": 0.003}
+{"event": "evaluation_progress", "completed": 2775, "calls": 2788, "memo_hits": 3465, "node_type": "incomplete", "elapsed_seconds": 0.005}
+{"event": "evaluation_progress", "completed": 2800, "calls": 2813, "memo_hits": 3498, "node_type": "incomplete", "elapsed_seconds": 0.005}
+{"event": "evaluation_progress", "completed": 2825, "calls": 2836, "memo_hits": 3525, "node_type": "separator", "elapsed_seconds": 0.016}
+{"event": "evaluation_progress", "completed": 2850, "calls": 2863, "memo_hits": 3557, "node_type": "incomplete", "elapsed_seconds": 0.005}
+{"event": "evaluation_progress", "completed": 2875, "calls": 2887, "memo_hits": 3590, "node_type": "independent_sum", "elapsed_seconds": 0.004}
+{"event": "evaluation_progress", "completed": 2900, "calls": 2913, "memo_hits": 3619, "node_type": "incomplete", "elapsed_seconds": 0.004}
+{"event": "evaluation_progress", "completed": 2925, "calls": 2935, "memo_hits": 3651, "node_type": "independent_sum", "elapsed_seconds": 0.0}
+{"event": "evaluation_progress", "completed": 2950, "calls": 2961, "memo_hits": 3682, "node_type": "separator", "elapsed_seconds": 0.015}
+{"event": "evaluation_progress", "completed": 2975, "calls": 2984, "memo_hits": 3722, "node_type": "separator", "elapsed_seconds": 0.0}
+{"event": "evaluation_progress", "completed": 3000, "calls": 3010, "memo_hits": 3751, "node_type": "separator", "elapsed_seconds": 0.027}
+{"event": "evaluation_progress", "completed": 3025, "calls": 3036, "memo_hits": 3782, "node_type": "independent_sum", "elapsed_seconds": 0.0}
+{"event": "evaluation_progress", "completed": 3050, "calls": 3063, "memo_hits": 3813, "node_type": "incomplete", "elapsed_seconds": 0.005}
+{"event": "evaluation_progress", "completed": 3075, "calls": 3088, "memo_hits": 3841, "node_type": "incomplete", "elapsed_seconds": 0.004}
+{"event": "evaluation_progress", "completed": 3100, "calls": 3111, "memo_hits": 3874, "node_type": "independent_sum", "elapsed_seconds": 0.0}
+{"event": "evaluation_progress", "completed": 3125, "calls": 3138, "memo_hits": 3907, "node_type": "incomplete", "elapsed_seconds": 0.005}
+{"event": "evaluation_progress", "completed": 3150, "calls": 3162, "memo_hits": 3934, "node_type": "independent_sum", "elapsed_seconds": 0.005}
+{"event": "evaluation_progress", "completed": 3175, "calls": 3184, "memo_hits": 3970, "node_type": "separator", "elapsed_seconds": 0.0}
+{"event": "evaluation_progress", "completed": 3200, "calls": 3212, "memo_hits": 3997, "node_type": "separator", "elapsed_seconds": 0.013}
+{"event": "evaluation_progress", "completed": 3225, "calls": 3238, "memo_hits": 4039, "node_type": "incomplete", "elapsed_seconds": 0.004}
+{"event": "evaluation_progress", "completed": 3250, "calls": 3262, "memo_hits": 4066, "node_type": "separator", "elapsed_seconds": 0.008}
+{"event": "evaluation_progress", "completed": 3275, "calls": 3288, "memo_hits": 4103, "node_type": "incomplete", "elapsed_seconds": 0.004}
+{"event": "evaluation_progress", "completed": 3300, "calls": 3311, "memo_hits": 4143, "node_type": "independent_sum", "elapsed_seconds": 0.0}
+{"event": "evaluation_progress", "completed": 3325, "calls": 3334, "memo_hits": 4175, "node_type": "separator", "elapsed_seconds": 0.04}
+{"event": "evaluation_progress", "completed": 3350, "calls": 3363, "memo_hits": 4204, "node_type": "incomplete", "elapsed_seconds": 0.004}
+{"event": "evaluation_progress", "completed": 3375, "calls": 3388, "memo_hits": 4236, "node_type": "incomplete", "elapsed_seconds": 0.006}
+{"event": "evaluation_progress", "completed": 3400, "calls": 3413, "memo_hits": 4261, "node_type": "incomplete", "elapsed_seconds": 0.004}
+{"event": "evaluation_progress", "completed": 3425, "calls": 3438, "memo_hits": 4298, "node_type": "incomplete", "elapsed_seconds": 0.004}
+{"event": "evaluation_progress", "completed": 3450, "calls": 3462, "memo_hits": 4342, "node_type": "independent_sum", "elapsed_seconds": 0.004}
+{"event": "evaluation_progress", "completed": 3475, "calls": 3485, "memo_hits": 4372, "node_type": "separator", "elapsed_seconds": 0.009}
+{"event": "evaluation_progress", "completed": 3500, "calls": 3513, "memo_hits": 4400, "node_type": "incomplete", "elapsed_seconds": 0.006}
+{"event": "evaluation_progress", "completed": 3525, "calls": 3537, "memo_hits": 4431, "node_type": "separator", "elapsed_seconds": 0.009}
+{"event": "evaluation_progress", "completed": 3550, "calls": 3560, "memo_hits": 4458, "node_type": "separator", "elapsed_seconds": 0.032}
+{"event": "terminal_solver_start", "terminal_id": "component_001_dnode_3561", "solver": "exact enumeration", "nodes": 22, "edges": 44}
+{"event": "enumeration_progress", "terminal_id": "component_001_dnode_3561", "nodes": 22, "checked": 500000, "total": 4194304, "elapsed_seconds": 4.048}
+{"event": "enumeration_progress", "terminal_id": "component_001_dnode_3561", "nodes": 22, "checked": 1000000, "total": 4194304, "elapsed_seconds": 7.993}
+{"event": "enumeration_progress", "terminal_id": "component_001_dnode_3561", "nodes": 22, "checked": 1500000, "total": 4194304, "elapsed_seconds": 11.98}
+{"event": "enumeration_progress", "terminal_id": "component_001_dnode_3561", "nodes": 22, "checked": 2000000, "total": 4194304, "elapsed_seconds": 15.72}
+{"event": "enumeration_progress", "terminal_id": "component_001_dnode_3561", "nodes": 22, "checked": 2500000, "total": 4194304, "elapsed_seconds": 19.344}
+{"event": "enumeration_progress", "terminal_id": "component_001_dnode_3561", "nodes": 22, "checked": 3000000, "total": 4194304, "elapsed_seconds": 22.964}
+{"event": "enumeration_progress", "terminal_id": "component_001_dnode_3561", "nodes": 22, "checked": 3500000, "total": 4194304, "elapsed_seconds": 26.402}
+{"event": "enumeration_progress", "terminal_id": "component_001_dnode_3561", "nodes": 22, "checked": 4000000, "total": 4194304, "elapsed_seconds": 29.651}
+{"event": "terminal_solver_finish", "terminal_id": "component_001_dnode_3561", "solver": "exact enumeration", "nodes": 22, "edges": 44, "elapsed_seconds": 30.793}
+{"event": "terminal_solver_start", "terminal_id": "component_001_dnode_3562", "solver": "empty graph", "nodes": 0, "edges": 0}
+{"event": "terminal_solver_finish", "terminal_id": "component_001_dnode_3562", "solver": "empty graph", "nodes": 0, "edges": 0, "elapsed_seconds": 0.001}
+{"event": "terminal_solver_start", "terminal_id": "component_001_dnode_3563", "solver": "exact enumeration", "nodes": 6, "edges": 6}
+{"event": "terminal_solver_finish", "terminal_id": "component_001_dnode_3563", "solver": "exact enumeration", "nodes": 6, "edges": 6, "elapsed_seconds": 0.001}
+{"event": "evaluation_progress", "completed": 3575, "calls": 3587, "memo_hits": 4487, "node_type": "independent_sum", "elapsed_seconds": 0.0}
+{"event": "evaluation_progress", "completed": 3600, "calls": 3612, "memo_hits": 4518, "node_type": "independent_sum", "elapsed_seconds": 0.005}
+{"event": "evaluation_progress", "completed": 3625, "calls": 3638, "memo_hits": 4551, "node_type": "incomplete", "elapsed_seconds": 0.005}
+{"event": "evaluation_progress", "completed": 3650, "calls": 3661, "memo_hits": 4584, "node_type": "separator", "elapsed_seconds": 0.019}
+{"event": "evaluation_progress", "completed": 3675, "calls": 3686, "memo_hits": 4613, "node_type": "independent_sum", "elapsed_seconds": 0.01}
+{"event": "evaluation_progress", "completed": 3700, "calls": 3713, "memo_hits": 4643, "node_type": "incomplete", "elapsed_seconds": 0.005}
+{"event": "evaluation_progress", "completed": 3725, "calls": 3738, "memo_hits": 4674, "node_type": "incomplete", "elapsed_seconds": 0.005}
+{"event": "evaluation_progress", "completed": 3750, "calls": 3761, "memo_hits": 4708, "node_type": "separator", "elapsed_seconds": 0.02}
+{"event": "evaluation_progress", "completed": 3775, "calls": 3788, "memo_hits": 4743, "node_type": "incomplete", "elapsed_seconds": 0.005}
+{"event": "evaluation_progress", "completed": 3800, "calls": 3813, "memo_hits": 4772, "node_type": "incomplete", "elapsed_seconds": 0.005}
+{"event": "evaluation_progress", "completed": 3825, "calls": 3835, "memo_hits": 4802, "node_type": "independent_sum", "elapsed_seconds": 0.02}
+{"event": "evaluation_progress", "completed": 3850, "calls": 3861, "memo_hits": 4831, "node_type": "independent_sum", "elapsed_seconds": 0.01}
+{"event": "evaluation_progress", "completed": 3875, "calls": 3888, "memo_hits": 4860, "node_type": "incomplete", "elapsed_seconds": 0.004}
+{"event": "evaluation_progress", "completed": 3900, "calls": 3911, "memo_hits": 4890, "node_type": "separator", "elapsed_seconds": 0.02}
+{"event": "evaluation_progress", "completed": 3925, "calls": 3938, "memo_hits": 4919, "node_type": "incomplete", "elapsed_seconds": 0.005}
+{"event": "evaluation_progress", "completed": 3950, "calls": 3963, "memo_hits": 4949, "node_type": "incomplete", "elapsed_seconds": 0.005}
+{"event": "evaluation_progress", "completed": 3975, "calls": 3988, "memo_hits": 4977, "node_type": "incomplete", "elapsed_seconds": 0.005}
+{"event": "evaluation_progress", "completed": 4000, "calls": 4011, "memo_hits": 5010, "node_type": "independent_sum", "elapsed_seconds": 0.01}
+{"event": "evaluation_progress", "completed": 4025, "calls": 4037, "memo_hits": 5040, "node_type": "separator", "elapsed_seconds": 0.01}
+{"event": "evaluation_progress", "completed": 4050, "calls": 4063, "memo_hits": 5070, "node_type": "incomplete", "elapsed_seconds": 0.005}
+{"event": "evaluation_progress", "completed": 4075, "calls": 4088, "memo_hits": 5100, "node_type": "incomplete", "elapsed_seconds": 0.005}
+{"event": "evaluation_progress", "completed": 4100, "calls": 4111, "memo_hits": 5129, "node_type": "independent_sum", "elapsed_seconds": 0.01}
+{"event": "evaluation_progress", "completed": 4125, "calls": 4137, "memo_hits": 5159, "node_type": "separator", "elapsed_seconds": 0.011}
+{"event": "evaluation_progress", "completed": 4150, "calls": 4163, "memo_hits": 5188, "node_type": "incomplete", "elapsed_seconds": 0.005}
+{"event": "evaluation_progress", "completed": 4175, "calls": 4184, "memo_hits": 5218, "node_type": "separator", "elapsed_seconds": 0.044}
+{"event": "evaluation_progress", "completed": 4200, "calls": 4210, "memo_hits": 5247, "node_type": "separator", "elapsed_seconds": 0.029}
+{"event": "evaluation_progress", "completed": 4225, "calls": 4238, "memo_hits": 5276, "node_type": "incomplete", "elapsed_seconds": 0.004}
+{"event": "evaluation_progress", "completed": 4250, "calls": 4262, "memo_hits": 5311, "node_type": "independent_sum", "elapsed_seconds": 0.0}
+{"event": "evaluation_progress", "completed": 4275, "calls": 4287, "memo_hits": 5342, "node_type": "independent_sum", "elapsed_seconds": 0.005}
+{"event": "evaluation_progress", "completed": 4300, "calls": 4313, "memo_hits": 5375, "node_type": "incomplete", "elapsed_seconds": 0.005}
+{"event": "evaluation_progress", "completed": 4325, "calls": 4336, "memo_hits": 5408, "node_type": "separator", "elapsed_seconds": 0.019}
+{"event": "evaluation_progress", "completed": 4350, "calls": 4361, "memo_hits": 5437, "node_type": "independent_sum", "elapsed_seconds": 0.01}
+{"event": "evaluation_progress", "completed": 4375, "calls": 4388, "memo_hits": 5467, "node_type": "incomplete", "elapsed_seconds": 0.005}
+{"event": "evaluation_progress", "completed": 4400, "calls": 4413, "memo_hits": 5498, "node_type": "incomplete", "elapsed_seconds": 0.005}
+{"event": "evaluation_progress", "completed": 4425, "calls": 4436, "memo_hits": 5532, "node_type": "separator", "elapsed_seconds": 0.02}
+{"event": "evaluation_progress", "completed": 4450, "calls": 4463, "memo_hits": 5567, "node_type": "incomplete", "elapsed_seconds": 0.005}
+{"event": "evaluation_progress", "completed": 4475, "calls": 4488, "memo_hits": 5596, "node_type": "incomplete", "elapsed_seconds": 0.008}
+{"event": "evaluation_progress", "completed": 4500, "calls": 4510, "memo_hits": 5626, "node_type": "independent_sum", "elapsed_seconds": 0.019}
+{"event": "evaluation_progress", "completed": 4525, "calls": 4536, "memo_hits": 5655, "node_type": "independent_sum", "elapsed_seconds": 0.01}
+{"event": "evaluation_progress", "completed": 4550, "calls": 4563, "memo_hits": 5684, "node_type": "incomplete", "elapsed_seconds": 0.004}
+{"event": "evaluation_progress", "completed": 4575, "calls": 4586, "memo_hits": 5714, "node_type": "separator", "elapsed_seconds": 0.02}
+{"event": "evaluation_progress", "completed": 4600, "calls": 4613, "memo_hits": 5743, "node_type": "incomplete", "elapsed_seconds": 0.005}
+{"event": "evaluation_progress", "completed": 4625, "calls": 4638, "memo_hits": 5773, "node_type": "incomplete", "elapsed_seconds": 0.005}
+{"event": "evaluation_progress", "completed": 4650, "calls": 4663, "memo_hits": 5801, "node_type": "incomplete", "elapsed_seconds": 0.005}
+{"event": "evaluation_progress", "completed": 4675, "calls": 4686, "memo_hits": 5834, "node_type": "independent_sum", "elapsed_seconds": 0.011}
+{"event": "evaluation_progress", "completed": 4700, "calls": 4712, "memo_hits": 5864, "node_type": "separator", "elapsed_seconds": 0.01}
+{"event": "evaluation_progress", "completed": 4725, "calls": 4738, "memo_hits": 5894, "node_type": "incomplete", "elapsed_seconds": 0.005}
+{"event": "evaluation_progress", "completed": 4750, "calls": 4763, "memo_hits": 5924, "node_type": "incomplete", "elapsed_seconds": 0.005}
+{"event": "evaluation_progress", "completed": 4775, "calls": 4786, "memo_hits": 5953, "node_type": "independent_sum", "elapsed_seconds": 0.01}
+{"event": "evaluation_progress", "completed": 4800, "calls": 4812, "memo_hits": 5983, "node_type": "separator", "elapsed_seconds": 0.01}
+{"event": "evaluation_progress", "completed": 4825, "calls": 4838, "memo_hits": 6012, "node_type": "incomplete", "elapsed_seconds": 0.005}
+{"event": "evaluation_progress", "completed": 4850, "calls": 4859, "memo_hits": 6042, "node_type": "separator", "elapsed_seconds": 0.044}
+{"event": "evaluation_progress", "completed": 4875, "calls": 4885, "memo_hits": 6071, "node_type": "separator", "elapsed_seconds": 0.029}
+{"event": "evaluation_progress", "completed": 4900, "calls": 4913, "memo_hits": 6100, "node_type": "incomplete", "elapsed_seconds": 0.004}
+{"event": "evaluation_progress", "completed": 4925, "calls": 4938, "memo_hits": 6148, "node_type": "incomplete", "elapsed_seconds": 0.004}
+{"event": "evaluation_progress", "completed": 4950, "calls": 4962, "memo_hits": 6177, "node_type": "independent_sum", "elapsed_seconds": 0.005}
+{"event": "evaluation_progress", "completed": 4975, "calls": 4987, "memo_hits": 6212, "node_type": "separator", "elapsed_seconds": 0.009}
+{"event": "evaluation_progress", "completed": 5000, "calls": 5012, "memo_hits": 6261, "node_type": "separator", "elapsed_seconds": 0.009}
+{"event": "evaluation_progress", "completed": 5025, "calls": 5037, "memo_hits": 6294, "node_type": "separator", "elapsed_seconds": 0.009}
+{"event": "evaluation_progress", "completed": 5050, "calls": 5063, "memo_hits": 6328, "node_type": "incomplete", "elapsed_seconds": 0.005}
+{"event": "evaluation_progress", "completed": 5075, "calls": 5085, "memo_hits": 6363, "node_type": "independent_sum", "elapsed_seconds": 0.009}
+{"event": "evaluation_progress", "completed": 5100, "calls": 5113, "memo_hits": 6391, "node_type": "incomplete", "elapsed_seconds": 0.005}
+{"event": "evaluation_progress", "completed": 5125, "calls": 5134, "memo_hits": 6426, "node_type": "separator", "elapsed_seconds": 0.036}
+{"event": "evaluation_progress", "completed": 5150, "calls": 5163, "memo_hits": 6464, "node_type": "incomplete", "elapsed_seconds": 0.004}
+{"event": "evaluation_progress", "completed": 5175, "calls": 5184, "memo_hits": 6498, "node_type": "separator", "elapsed_seconds": 0.035}
+{"event": "evaluation_progress", "completed": 5200, "calls": 5213, "memo_hits": 6529, "node_type": "incomplete", "elapsed_seconds": 0.003}
+{"event": "evaluation_progress", "completed": 5225, "calls": 5233, "memo_hits": 6578, "node_type": "separator", "elapsed_seconds": 0.019}
+{"event": "evaluation_progress", "completed": 5250, "calls": 5263, "memo_hits": 6607, "node_type": "incomplete", "elapsed_seconds": 0.004}
+{"event": "evaluation_progress", "completed": 5275, "calls": 5282, "memo_hits": 6643, "node_type": "separator", "elapsed_seconds": 0.121}
+{"event": "evaluation_progress", "completed": 5300, "calls": 5311, "memo_hits": 6692, "node_type": "independent_sum", "elapsed_seconds": 0.009}
+{"event": "evaluation_progress", "completed": 5325, "calls": 5338, "memo_hits": 6723, "node_type": "incomplete", "elapsed_seconds": 0.004}
+{"event": "evaluation_progress", "completed": 5350, "calls": 5361, "memo_hits": 6757, "node_type": "separator", "elapsed_seconds": 0.019}
+{"event": "evaluation_progress", "completed": 5375, "calls": 5387, "memo_hits": 6792, "node_type": "separator", "elapsed_seconds": 0.009}
+{"event": "evaluation_progress", "completed": 5400, "calls": 5410, "memo_hits": 6821, "node_type": "separator", "elapsed_seconds": 0.027}
+{"event": "evaluation_progress", "completed": 5425, "calls": 5437, "memo_hits": 6859, "node_type": "separator", "elapsed_seconds": 0.009}
+{"event": "evaluation_progress", "completed": 5450, "calls": 5459, "memo_hits": 6894, "node_type": "separator", "elapsed_seconds": 0.027}
+{"event": "evaluation_progress", "completed": 5475, "calls": 5487, "memo_hits": 6928, "node_type": "independent_sum", "elapsed_seconds": 0.004}
+{"event": "evaluation_progress", "completed": 5500, "calls": 5508, "memo_hits": 6961, "node_type": "separator", "elapsed_seconds": 0.095}
+{"event": "evaluation_progress", "completed": 5525, "calls": 5538, "memo_hits": 6996, "node_type": "incomplete", "elapsed_seconds": 0.004}
+{"event": "evaluation_progress", "completed": 5550, "calls": 5563, "memo_hits": 7025, "node_type": "incomplete", "elapsed_seconds": 0.005}
+{"event": "evaluation_progress", "completed": 5575, "calls": 5588, "memo_hits": 7055, "node_type": "incomplete", "elapsed_seconds": 0.006}
+{"event": "evaluation_progress", "completed": 5600, "calls": 5613, "memo_hits": 7088, "node_type": "incomplete", "elapsed_seconds": 0.004}
+{"event": "evaluation_progress", "completed": 5625, "calls": 5634, "memo_hits": 7119, "node_type": "separator", "elapsed_seconds": 0.027}
+{"event": "evaluation_progress", "completed": 5650, "calls": 5663, "memo_hits": 7145, "node_type": "incomplete", "elapsed_seconds": 0.004}
+{"event": "evaluation_progress", "completed": 5675, "calls": 5687, "memo_hits": 7182, "node_type": "separator", "elapsed_seconds": 0.009}
+{"event": "evaluation_progress", "completed": 5700, "calls": 5711, "memo_hits": 7212, "node_type": "independent_sum", "elapsed_seconds": 0.009}
+{"event": "evaluation_progress", "completed": 5725, "calls": 5737, "memo_hits": 7251, "node_type": "independent_sum", "elapsed_seconds": 0.005}
+{"event": "evaluation_progress", "completed": 5750, "calls": 5758, "memo_hits": 7279, "node_type": "separator", "elapsed_seconds": 0.08}
+{"event": "evaluation_progress", "completed": 5775, "calls": 5786, "memo_hits": 7313, "node_type": "separator", "elapsed_seconds": 0.005}
+{"event": "evaluation_progress", "completed": 5800, "calls": 5813, "memo_hits": 7340, "node_type": "incomplete", "elapsed_seconds": 0.005}
+{"event": "evaluation_progress", "completed": 5825, "calls": 5835, "memo_hits": 7370, "node_type": "separator", "elapsed_seconds": 0.013}
+{"event": "evaluation_progress", "completed": 5850, "calls": 5861, "memo_hits": 7405, "node_type": "separator", "elapsed_seconds": 0.004}
+{"event": "evaluation_progress", "completed": 5875, "calls": 5887, "memo_hits": 7434, "node_type": "separator", "elapsed_seconds": 0.009}
+{"event": "evaluation_progress", "completed": 5900, "calls": 5910, "memo_hits": 7461, "node_type": "separator", "elapsed_seconds": 0.033}
+{"event": "evaluation_progress", "completed": 5925, "calls": 5938, "memo_hits": 7497, "node_type": "incomplete", "elapsed_seconds": 0.005}
+{"event": "evaluation_progress", "completed": 5950, "calls": 5958, "memo_hits": 7529, "node_type": "separator", "elapsed_seconds": 0.087}
+{"event": "evaluation_progress", "completed": 5975, "calls": 5988, "memo_hits": 7566, "node_type": "incomplete", "elapsed_seconds": 0.005}
+{"event": "evaluation_progress", "completed": 6000, "calls": 6005, "memo_hits": 7595, "node_type": "separator", "elapsed_seconds": 0.421}
+{"event": "evaluation_progress", "completed": 6025, "calls": 6038, "memo_hits": 7633, "node_type": "incomplete", "elapsed_seconds": 0.004}
+{"event": "evaluation_progress", "completed": 6050, "calls": 6063, "memo_hits": 7672, "node_type": "incomplete", "elapsed_seconds": 0.004}
+{"event": "evaluation_progress", "completed": 6075, "calls": 6088, "memo_hits": 7704, "node_type": "incomplete", "elapsed_seconds": 0.004}
+{"event": "evaluation_progress", "completed": 6100, "calls": 6109, "memo_hits": 7732, "node_type": "separator", "elapsed_seconds": 0.061}
+{"event": "evaluation_progress", "completed": 6125, "calls": 6135, "memo_hits": 7761, "node_type": "separator", "elapsed_seconds": 0.025}
+{"event": "evaluation_progress", "completed": 6150, "calls": 6163, "memo_hits": 7798, "node_type": "incomplete", "elapsed_seconds": 0.004}
+{"event": "evaluation_progress", "completed": 6175, "calls": 6185, "memo_hits": 7834, "node_type": "separator", "elapsed_seconds": 0.0}
+{"event": "evaluation_progress", "completed": 6200, "calls": 6210, "memo_hits": 7869, "node_type": "separator", "elapsed_seconds": 0.032}
+{"event": "evaluation_progress", "completed": 6225, "calls": 6238, "memo_hits": 7899, "node_type": "incomplete", "elapsed_seconds": 0.004}
+{"event": "evaluation_progress", "completed": 6250, "calls": 6263, "memo_hits": 7931, "node_type": "incomplete", "elapsed_seconds": 0.006}
+{"event": "evaluation_progress", "completed": 6275, "calls": 6286, "memo_hits": 7956, "node_type": "separator", "elapsed_seconds": 0.016}
+{"event": "evaluation_progress", "completed": 6300, "calls": 6311, "memo_hits": 7991, "node_type": "separator", "elapsed_seconds": 0.006}
+{"event": "evaluation_progress", "completed": 6325, "calls": 6337, "memo_hits": 8021, "node_type": "separator", "elapsed_seconds": 0.011}
+{"event": "evaluation_progress", "completed": 6350, "calls": 6363, "memo_hits": 8050, "node_type": "incomplete", "elapsed_seconds": 0.004}
+{"event": "evaluation_progress", "completed": 6375, "calls": 6386, "memo_hits": 8083, "node_type": "separator", "elapsed_seconds": 0.005}
+{"event": "evaluation_progress", "completed": 6400, "calls": 6413, "memo_hits": 8114, "node_type": "incomplete", "elapsed_seconds": 0.004}
+{"event": "evaluation_progress", "completed": 6425, "calls": 6437, "memo_hits": 8141, "node_type": "separator", "elapsed_seconds": 0.008}
+{"event": "evaluation_progress", "completed": 6450, "calls": 6463, "memo_hits": 8177, "node_type": "incomplete", "elapsed_seconds": 0.005}
+{"event": "evaluation_progress", "completed": 6475, "calls": 6484, "memo_hits": 8205, "node_type": "separator", "elapsed_seconds": 0.068}
+{"event": "evaluation_progress", "completed": 6500, "calls": 6513, "memo_hits": 8248, "node_type": "incomplete", "elapsed_seconds": 0.004}
+{"event": "evaluation_progress", "completed": 6525, "calls": 6538, "memo_hits": 8274, "node_type": "incomplete", "elapsed_seconds": 0.004}
+{"event": "evaluation_progress", "completed": 6550, "calls": 6563, "memo_hits": 8306, "node_type": "incomplete", "elapsed_seconds": 0.005}
+{"event": "evaluation_progress", "completed": 6575, "calls": 6587, "memo_hits": 8337, "node_type": "separator", "elapsed_seconds": 0.009}
+{"event": "evaluation_progress", "completed": 6600, "calls": 6610, "memo_hits": 8365, "node_type": "separator", "elapsed_seconds": 0.013}
+{"event": "evaluation_progress", "completed": 6625, "calls": 6638, "memo_hits": 8398, "node_type": "incomplete", "elapsed_seconds": 0.005}
+{"event": "evaluation_progress", "completed": 6650, "calls": 6661, "memo_hits": 8431, "node_type": "separator", "elapsed_seconds": 0.005}
+{"event": "evaluation_progress", "completed": 6675, "calls": 6687, "memo_hits": 8456, "node_type": "separator", "elapsed_seconds": 0.008}
+{"event": "evaluation_progress", "completed": 6700, "calls": 6711, "memo_hits": 8492, "node_type": "separator", "elapsed_seconds": 0.021}
+{"event": "evaluation_progress", "completed": 6725, "calls": 6737, "memo_hits": 8522, "node_type": "separator", "elapsed_seconds": 0.009}
+{"event": "evaluation_progress", "completed": 6750, "calls": 6760, "memo_hits": 8563, "node_type": "separator", "elapsed_seconds": 0.009}
+{"event": "evaluation_progress", "completed": 6775, "calls": 6788, "memo_hits": 8589, "node_type": "incomplete", "elapsed_seconds": 0.004}
+{"event": "evaluation_progress", "completed": 6800, "calls": 6812, "memo_hits": 8625, "node_type": "separator", "elapsed_seconds": 0.009}
+{"event": "evaluation_progress", "completed": 6825, "calls": 6836, "memo_hits": 8669, "node_type": "separator", "elapsed_seconds": 0.004}
+{"event": "evaluation_progress", "completed": 6850, "calls": 6863, "memo_hits": 8701, "node_type": "incomplete", "elapsed_seconds": 0.004}
+{"event": "evaluation_progress", "completed": 6875, "calls": 6887, "memo_hits": 8727, "node_type": "independent_sum", "elapsed_seconds": 0.004}
+{"event": "evaluation_progress", "completed": 6900, "calls": 6913, "memo_hits": 8758, "node_type": "incomplete", "elapsed_seconds": 0.004}
+{"event": "evaluation_progress", "completed": 6925, "calls": 6934, "memo_hits": 8786, "node_type": "separator", "elapsed_seconds": 0.056}
+{"event": "evaluation_progress", "completed": 6950, "calls": 6962, "memo_hits": 8823, "node_type": "independent_sum", "elapsed_seconds": 0.004}
+{"event": "evaluation_progress", "completed": 6975, "calls": 6987, "memo_hits": 8864, "node_type": "separator", "elapsed_seconds": 0.008}
+{"event": "evaluation_progress", "completed": 7000, "calls": 7013, "memo_hits": 8896, "node_type": "incomplete", "elapsed_seconds": 0.004}
+{"event": "evaluation_progress", "completed": 7025, "calls": 7036, "memo_hits": 8922, "node_type": "separator", "elapsed_seconds": 0.013}
+{"event": "evaluation_progress", "completed": 7050, "calls": 7062, "memo_hits": 8953, "node_type": "independent_sum", "elapsed_seconds": 0.004}
+{"event": "evaluation_progress", "completed": 7075, "calls": 7077, "memo_hits": 8984, "node_type": "separator", "elapsed_seconds": 2.671}
+{"event": "terminal_solver_start", "terminal_id": "component_001_dnode_7078", "solver": "exact enumeration", "nodes": 4, "edges": 3}
+{"event": "terminal_solver_finish", "terminal_id": "component_001_dnode_7078", "solver": "exact enumeration", "nodes": 4, "edges": 3, "elapsed_seconds": 0.001}
+{"event": "terminal_solver_start", "terminal_id": "component_002_dnode_0001", "solver": "exact enumeration", "nodes": 9, "edges": 20}
+{"event": "terminal_solver_finish", "terminal_id": "component_002_dnode_0001", "solver": "exact enumeration", "nodes": 9, "edges": 20, "elapsed_seconds": 0.002}
+{"event": "terminal_solver_start", "terminal_id": "component_003_dnode_0001", "solver": "exact enumeration", "nodes": 8, "edges": 7}
+{"event": "terminal_solver_finish", "terminal_id": "component_003_dnode_0001", "solver": "exact enumeration", "nodes": 8, "edges": 7, "elapsed_seconds": 0.003}
+{"event": "terminal_solver_start", "terminal_id": "component_004_dnode_0001", "solver": "exact enumeration", "nodes": 6, "edges": 8}
+{"event": "terminal_solver_finish", "terminal_id": "component_004_dnode_0001", "solver": "exact enumeration", "nodes": 6, "edges": 8, "elapsed_seconds": 0.001}
+{"event": "terminal_solver_start", "terminal_id": "component_005_dnode_0001", "solver": "exact enumeration", "nodes": 5, "edges": 4}
+{"event": "terminal_solver_finish", "terminal_id": "component_005_dnode_0001", "solver": "exact enumeration", "nodes": 5, "edges": 4, "elapsed_seconds": 0.001}
+{"event": "terminal_solver_start", "terminal_id": "component_006_dnode_0001", "solver": "exact enumeration", "nodes": 3, "edges": 2}
+{"event": "terminal_solver_finish", "terminal_id": "component_006_dnode_0001", "solver": "exact enumeration", "nodes": 3, "edges": 2, "elapsed_seconds": 0.0}
+{"event": "terminal_solver_start", "terminal_id": "component_007_dnode_0001", "solver": "exact enumeration", "nodes": 3, "edges": 2}
+{"event": "terminal_solver_finish", "terminal_id": "component_007_dnode_0001", "solver": "exact enumeration", "nodes": 3, "edges": 2, "elapsed_seconds": 0.001}
+{"event": "terminal_solver_start", "terminal_id": "component_008_dnode_0001", "solver": "exact enumeration", "nodes": 3, "edges": 2}
+{"event": "terminal_solver_finish", "terminal_id": "component_008_dnode_0001", "solver": "exact enumeration", "nodes": 3, "edges": 2, "elapsed_seconds": 0.001}
+{"event": "terminal_solver_start", "terminal_id": "component_009_dnode_0001", "solver": "exact enumeration", "nodes": 3, "edges": 3}
+{"event": "terminal_solver_finish", "terminal_id": "component_009_dnode_0001", "solver": "exact enumeration", "nodes": 3, "edges": 3, "elapsed_seconds": 0.001}
+{"event": "terminal_solver_start", "terminal_id": "component_010_dnode_0001", "solver": "exact enumeration", "nodes": 2, "edges": 1}
+{"event": "terminal_solver_finish", "terminal_id": "component_010_dnode_0001", "solver": "exact enumeration", "nodes": 2, "edges": 1, "elapsed_seconds": 0.001}
+{"event": "terminal_solver_start", "terminal_id": "component_011_dnode_0001", "solver": "exact enumeration", "nodes": 2, "edges": 1}
+{"event": "terminal_solver_finish", "terminal_id": "component_011_dnode_0001", "solver": "exact enumeration", "nodes": 2, "edges": 1, "elapsed_seconds": 0.001}
+{"event": "terminal_solver_start", "terminal_id": "component_012_dnode_0001", "solver": "exact enumeration", "nodes": 2, "edges": 1}
+{"event": "terminal_solver_finish", "terminal_id": "component_012_dnode_0001", "solver": "exact enumeration", "nodes": 2, "edges": 1, "elapsed_seconds": 0.001}
+{"event": "terminal_solver_start", "terminal_id": "component_013_dnode_0001", "solver": "exact enumeration", "nodes": 2, "edges": 1}
+{"event": "terminal_solver_finish", "terminal_id": "component_013_dnode_0001", "solver": "exact enumeration", "nodes": 2, "edges": 1, "elapsed_seconds": 0.001}
+{"event": "terminal_solver_start", "terminal_id": "component_014_dnode_0001", "solver": "exact enumeration", "nodes": 2, "edges": 1}
+{"event": "terminal_solver_finish", "terminal_id": "component_014_dnode_0001", "solver": "exact enumeration", "nodes": 2, "edges": 1, "elapsed_seconds": 0.001}
+{"event": "terminal_solver_start", "terminal_id": "component_015_dnode_0001", "solver": "empty graph", "nodes": 0, "edges": 0}
+{"event": "terminal_solver_finish", "terminal_id": "component_015_dnode_0001", "solver": "empty graph", "nodes": 0, "edges": 0, "elapsed_seconds": 0.0}
+{"event": "terminal_solver_start", "terminal_id": "component_016_dnode_0001", "solver": "empty graph", "nodes": 0, "edges": 0}
+{"event": "terminal_solver_finish", "terminal_id": "component_016_dnode_0001", "solver": "empty graph", "nodes": 0, "edges": 0, "elapsed_seconds": 0.001}
+{"event": "terminal_solver_start", "terminal_id": "component_017_dnode_0001", "solver": "empty graph", "nodes": 0, "edges": 0}
+{"event": "terminal_solver_finish", "terminal_id": "component_017_dnode_0001", "solver": "empty graph", "nodes": 0, "edges": 0, "elapsed_seconds": 0.0}
+{"event": "terminal_solver_start", "terminal_id": "component_018_dnode_0001", "solver": "empty graph", "nodes": 0, "edges": 0}
+{"event": "terminal_solver_finish", "terminal_id": "component_018_dnode_0001", "solver": "empty graph", "nodes": 0, "edges": 0, "elapsed_seconds": 0.0}
+{"event": "terminal_solver_start", "terminal_id": "component_019_dnode_0001", "solver": "empty graph", "nodes": 0, "edges": 0}
+{"event": "terminal_solver_finish", "terminal_id": "component_019_dnode_0001", "solver": "empty graph", "nodes": 0, "edges": 0, "elapsed_seconds": 0.001}
+{"event": "terminal_solver_start", "terminal_id": "component_020_dnode_0001", "solver": "empty graph", "nodes": 0, "edges": 0}
+{"event": "terminal_solver_finish", "terminal_id": "component_020_dnode_0001", "solver": "empty graph", "nodes": 0, "edges": 0, "elapsed_seconds": 0.001}
+{"event": "terminal_solver_start", "terminal_id": "component_021_dnode_0001", "solver": "empty graph", "nodes": 0, "edges": 0}
+{"event": "terminal_solver_finish", "terminal_id": "component_021_dnode_0001", "solver": "empty graph", "nodes": 0, "edges": 0, "elapsed_seconds": 0.001}
+{"event": "terminal_solver_start", "terminal_id": "component_022_dnode_0001", "solver": "empty graph", "nodes": 0, "edges": 0}
+{"event": "terminal_solver_finish", "terminal_id": "component_022_dnode_0001", "solver": "empty graph", "nodes": 0, "edges": 0, "elapsed_seconds": 0.001}
+{"event": "terminal_solver_start", "terminal_id": "component_023_dnode_0001", "solver": "empty graph", "nodes": 0, "edges": 0}
+{"event": "terminal_solver_finish", "terminal_id": "component_023_dnode_0001", "solver": "empty graph", "nodes": 0, "edges": 0, "elapsed_seconds": 0.001}
+{"event": "evaluation_progress", "completed": 7100, "calls": 7100, "memo_hits": 8985, "node_type": "terminal", "elapsed_seconds": 0.001}
+{"event": "terminal_solver_start", "terminal_id": "component_024_dnode_0001", "solver": "empty graph", "nodes": 0, "edges": 0}
+{"event": "terminal_solver_finish", "terminal_id": "component_024_dnode_0001", "solver": "empty graph", "nodes": 0, "edges": 0, "elapsed_seconds": 0.0}
+{"event": "terminal_solver_start", "terminal_id": "component_025_dnode_0001", "solver": "empty graph", "nodes": 0, "edges": 0}
+{"event": "terminal_solver_finish", "terminal_id": "component_025_dnode_0001", "solver": "empty graph", "nodes": 0, "edges": 0, "elapsed_seconds": 0.001}
+{"event": "terminal_solver_start", "terminal_id": "component_026_dnode_0001", "solver": "empty graph", "nodes": 0, "edges": 0}
+{"event": "terminal_solver_finish", "terminal_id": "component_026_dnode_0001", "solver": "empty graph", "nodes": 0, "edges": 0, "elapsed_seconds": 0.001}
+{"event": "terminal_solver_start", "terminal_id": "component_027_dnode_0001", "solver": "empty graph", "nodes": 0, "edges": 0}
+{"event": "terminal_solver_finish", "terminal_id": "component_027_dnode_0001", "solver": "empty graph", "nodes": 0, "edges": 0, "elapsed_seconds": 0.001}
+{"event": "terminal_solver_start", "terminal_id": "component_028_dnode_0001", "solver": "empty graph", "nodes": 0, "edges": 0}
+{"event": "terminal_solver_finish", "terminal_id": "component_028_dnode_0001", "solver": "empty graph", "nodes": 0, "edges": 0, "elapsed_seconds": 0.001}
+{"event": "terminal_solver_start", "terminal_id": "component_029_dnode_0001", "solver": "empty graph", "nodes": 0, "edges": 0}
+{"event": "terminal_solver_finish", "terminal_id": "component_029_dnode_0001", "solver": "empty graph", "nodes": 0, "edges": 0, "elapsed_seconds": 0.001}
+{"event": "terminal_solver_start", "terminal_id": "component_030_dnode_0001", "solver": "empty graph", "nodes": 0, "edges": 0}
+{"event": "terminal_solver_finish", "terminal_id": "component_030_dnode_0001", "solver": "empty graph", "nodes": 0, "edges": 0, "elapsed_seconds": 0.001}
+{"event": "terminal_solver_start", "terminal_id": "component_031_dnode_0001", "solver": "empty graph", "nodes": 0, "edges": 0}
+{"event": "terminal_solver_finish", "terminal_id": "component_031_dnode_0001", "solver": "empty graph", "nodes": 0, "edges": 0, "elapsed_seconds": 0.001}
+{"event": "terminal_solver_start", "terminal_id": "component_032_dnode_0001", "solver": "empty graph", "nodes": 0, "edges": 0}
+{"event": "terminal_solver_finish", "terminal_id": "component_032_dnode_0001", "solver": "empty graph", "nodes": 0, "edges": 0, "elapsed_seconds": 0.0}
+{"event": "terminal_solver_start", "terminal_id": "component_033_dnode_0001", "solver": "empty graph", "nodes": 0, "edges": 0}
+{"event": "terminal_solver_finish", "terminal_id": "component_033_dnode_0001", "solver": "empty graph", "nodes": 0, "edges": 0, "elapsed_seconds": 0.0}
+{"event": "terminal_solver_start", "terminal_id": "component_034_dnode_0001", "solver": "empty graph", "nodes": 0, "edges": 0}
+{"event": "terminal_solver_finish", "terminal_id": "component_034_dnode_0001", "solver": "empty graph", "nodes": 0, "edges": 0, "elapsed_seconds": 0.0}
+{"event": "terminal_solver_start", "terminal_id": "component_035_dnode_0001", "solver": "empty graph", "nodes": 0, "edges": 0}
+{"event": "terminal_solver_finish", "terminal_id": "component_035_dnode_0001", "solver": "empty graph", "nodes": 0, "edges": 0, "elapsed_seconds": 0.001}
+{"event": "terminal_solver_start", "terminal_id": "component_036_dnode_0001", "solver": "empty graph", "nodes": 0, "edges": 0}
+{"event": "terminal_solver_finish", "terminal_id": "component_036_dnode_0001", "solver": "empty graph", "nodes": 0, "edges": 0, "elapsed_seconds": 0.0}
+{"event": "terminal_solver_start", "terminal_id": "component_037_dnode_0001", "solver": "empty graph", "nodes": 0, "edges": 0}
+{"event": "terminal_solver_finish", "terminal_id": "component_037_dnode_0001", "solver": "empty graph", "nodes": 0, "edges": 0, "elapsed_seconds": 0.0}
+{"event": "terminal_solver_start", "terminal_id": "component_038_dnode_0001", "solver": "empty graph", "nodes": 0, "edges": 0}
+{"event": "terminal_solver_finish", "terminal_id": "component_038_dnode_0001", "solver": "empty graph", "nodes": 0, "edges": 0, "elapsed_seconds": 0.001}
+{"event": "terminal_solver_start", "terminal_id": "component_039_dnode_0001", "solver": "empty graph", "nodes": 0, "edges": 0}
+{"event": "terminal_solver_finish", "terminal_id": "component_039_dnode_0001", "solver": "empty graph", "nodes": 0, "edges": 0, "elapsed_seconds": 0.0}
+{"event": "terminal_solver_start", "terminal_id": "component_040_dnode_0001", "solver": "empty graph", "nodes": 0, "edges": 0}
+{"event": "terminal_solver_finish", "terminal_id": "component_040_dnode_0001", "solver": "empty graph", "nodes": 0, "edges": 0, "elapsed_seconds": 0.001}
+{"event": "terminal_solver_start", "terminal_id": "component_041_dnode_0001", "solver": "empty graph", "nodes": 0, "edges": 0}
+{"event": "terminal_solver_finish", "terminal_id": "component_041_dnode_0001", "solver": "empty graph", "nodes": 0, "edges": 0, "elapsed_seconds": 0.0}
+{"event": "terminal_solver_start", "terminal_id": "component_042_dnode_0001", "solver": "empty graph", "nodes": 0, "edges": 0}
+{"event": "terminal_solver_finish", "terminal_id": "component_042_dnode_0001", "solver": "empty graph", "nodes": 0, "edges": 0, "elapsed_seconds": 0.001}
+{"event": "terminal_solver_start", "terminal_id": "component_043_dnode_0001", "solver": "empty graph", "nodes": 0, "edges": 0}
+{"event": "terminal_solver_finish", "terminal_id": "component_043_dnode_0001", "solver": "empty graph", "nodes": 0, "edges": 0, "elapsed_seconds": 0.001}
+{"event": "terminal_solver_start", "terminal_id": "component_044_dnode_0001", "solver": "empty graph", "nodes": 0, "edges": 0}
+{"event": "terminal_solver_finish", "terminal_id": "component_044_dnode_0001", "solver": "empty graph", "nodes": 0, "edges": 0, "elapsed_seconds": 0.0}
+{"event": "terminal_solver_start", "terminal_id": "component_045_dnode_0001", "solver": "empty graph", "nodes": 0, "edges": 0}
+{"event": "terminal_solver_finish", "terminal_id": "component_045_dnode_0001", "solver": "empty graph", "nodes": 0, "edges": 0, "elapsed_seconds": 0.001}
+{"event": "terminal_solver_start", "terminal_id": "component_046_dnode_0001", "solver": "empty graph", "nodes": 0, "edges": 0}
+{"event": "terminal_solver_finish", "terminal_id": "component_046_dnode_0001", "solver": "empty graph", "nodes": 0, "edges": 0, "elapsed_seconds": 0.001}
+{"event": "terminal_solver_start", "terminal_id": "component_047_dnode_0001", "solver": "empty graph", "nodes": 0, "edges": 0}
+{"event": "terminal_solver_finish", "terminal_id": "component_047_dnode_0001", "solver": "empty graph", "nodes": 0, "edges": 0, "elapsed_seconds": 0.0}
+{"event": "terminal_solver_start", "terminal_id": "component_048_dnode_0001", "solver": "empty graph", "nodes": 0, "edges": 0}
+{"event": "terminal_solver_finish", "terminal_id": "component_048_dnode_0001", "solver": "empty graph", "nodes": 0, "edges": 0, "elapsed_seconds": 0.0}
+{"event": "evaluation_progress", "completed": 7125, "calls": 7125, "memo_hits": 8985, "node_type": "terminal", "elapsed_seconds": 0.001}
+{"event": "terminal_solver_start", "terminal_id": "component_049_dnode_0001", "solver": "empty graph", "nodes": 0, "edges": 0}
+{"event": "terminal_solver_finish", "terminal_id": "component_049_dnode_0001", "solver": "empty graph", "nodes": 0, "edges": 0, "elapsed_seconds": 0.0}
+{"event": "evaluation_finish", "wall_seconds": 45.278, "calls": 7126, "completed": 7126, "memo_hits": 8985}

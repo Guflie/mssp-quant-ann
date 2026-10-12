@@ -1,0 +1,14 @@
+{
+  "input_nodes": 656,
+  "input_edges": 3933,
+  "input_components": 21,
+  "retained_nodes": 169,
+  "retained_edges": 269,
+  "retained_components": 81,
+  "removed_nodes": 487,
+  "passes": 4,
+  "original_graph_nodes_file": "original_conflict_graph_nodes.csv",
+  "original_graph_edges_file": "original_conflict_graph_edges.csv",
+  "solver_graph_nodes_file": "conflict_graph_nodes.csv",
+  "solver_graph_edges_file": "conflict_graph_edges.csv"
+}

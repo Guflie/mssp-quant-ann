@@ -1,0 +1,57 @@
+Failed to find real location of C:\Users\felip\AppData\Local\Python\pythoncore-3.13-64\python.exe
+{
+  "run_name": "exp2_s100_g50",
+  "validation_passed": true,
+  "preserved_artifact_hashes_checked": 1843,
+  "global_dominance_removed": 487,
+  "recursive_dominance_removed_occurrences": 0,
+  "retained_solver_nodes": 169,
+  "retained_solver_edges": 269,
+  "contact_origins": {
+    "annealing": 26,
+    "exact preprocessing": 70
+  },
+  "contact_origin_objectives": {
+    "annealing": 1968.036,
+    "exact preprocessing": 4766.936
+  },
+  "pre_milp_contact_origins": {
+    "annealing": 26,
+    "exact preprocessing": 70
+  },
+  "pre_milp_absolute_gap_against_certified_optimum": 0.0,
+  "pre_milp_relative_gap_against_certified_optimum_percent": 0.0,
+  "input_sha256": "39a14509b0409487aa3754dd548c5fe4fe8e33518227da79f19474a1a4f39638",
+  "candidate_slots": 656,
+  "satellites_with_slots": 100,
+  "antennas_with_slots": 50,
+  "conflict_edges": 3933,
+  "natural_components": 81,
+  "terminal_qubos": 11,
+  "selected_contacts": 96,
+  "selected_conflicts": 0,
+  "classical_baseline_objective": 6734.972,
+  "annealed_objective_before_milp": 6734.972,
+  "final_feasible_objective": 6734.972,
+  "hybrid_upper_bound": 6734.972,
+  "absolute_gap": 0.0,
+  "relative_gap_percent": 0.0,
+  "status": "hybrid_exact",
+  "milp_components_proven_optimal": 0,
+  "milp_components_attempted": 0,
+  "incomplete_components": 0,
+  "max_terminal_variables": 20,
+  "max_terminal_couplers": 74,
+  "checks": [
+    "frozen input and contact constants",
+    "full conflict graph rebuilt from input",
+    "classical and final schedule feasibility",
+    "objectives and certification consistency",
+    "terminal QUBOs and penalty coefficients",
+    "annealing seeds, reads, decoded objectives and energies",
+    "global and recursive closed-neighborhood dominance witnesses",
+    "reduced graph and component consistency",
+    "independent pre-MILP reconstruction and final provenance",
+    "preservation of existing sources, config, inputs and MWIS runs"
+  ]
+}

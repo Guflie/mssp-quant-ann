@@ -1,0 +1,21 @@
+metric,value,meaning
+Original candidate nodes,656.0,All input candidate contacts.
+Original conflict edges,3933.0,All conflicts before dominance.
+Contacts removed by global dominance,487.0,Exact removal of dominated alternatives.
+Contacts retained after global dominance,169.0,Solver graph nodes before component preprocessing.
+Number of components (total),81.0,Connected components after exact dominance.
+Number of couplers (total),269.0,Conflict edges in the reduced solver graph.
+Total number of solution subgraphs,11.0,Terminal subgraphs plus fallback nodes used in the selected solution.
+Subgraphs solved directly,11.0,Natural components that already fit the QPU limits.
+Subgraphs solved exactly with separator decomposition,0.0,Terminal subgraphs produced from oversized components.
+Subgraphs solved heuristically,0.0,Fallback nodes used in the selected feasible solution; unresolved alternative states are counted separately below.
+Components with incomplete separator decomposition,0.0,"Components with at least one unresolved separator state, including alternatives not selected in the feasible solution."
+Incomplete decomposition nodes (all states),0.0,Unresolved decomposition nodes across all separator states.
+Exact components objective sum,6734.972,Objective contribution from components whose decomposition and terminal solves are certified exact.
+Exact global objective,6734.972,Available only when the global optimum is certified.
+Incomplete/heuristic components feasible sum,0.0,"Feasible objective from uncertified components; includes their full selected solution, not only fallback-node weight."
+Incomplete/heuristic components conservative upper bound,0.0,"Conservative upper bound for uncertified components, including unresolved alternative separator states."
+Total feasible objective / lower bound,6734.972,Objective of the reconstructed feasible schedule.
+Total conservative upper bound,6734.972,Conservative upper bound on the true optimum.
+Absolute optimality-gap bound,0.0,Upper bound minus feasible objective.
+Relative optimality-gap bound (%),0.0,Gap as a percentage of the conservative upper bound.

@@ -1,0 +1,13 @@
+{
+  "status": "failed",
+  "started_utc": "2026-10-12T19:43:01.091827+00:00",
+  "reused_baseline": "baseline_s200_g50",
+  "completed_runs": [
+    "exp2_s100_g50",
+    "exp2_s500_g50"
+  ],
+  "updated_utc": "2026-10-12T21:54:43.525339+00:00",
+  "current_run": null,
+  "preserved_artifacts_checked": 1843,
+  "error": "Traceback (most recent call last):\n  File \"C:\\Users\\felip\\Documents\\Polimi\\Semester 3\\SE2 Quantum Satisfiability Project\\satelite-optimization-quantum-annealing\\PoliMi-SWE2-research-project\\results\\runs\\mwis-dominance-enhanced\\run_satellite_scaling.py\", line 167, in run\n    report()\n    ~~~~~~^^\n  File \"C:\\Users\\felip\\Documents\\Polimi\\Semester 3\\SE2 Quantum Satisfiability Project\\satelite-optimization-quantum-annealing\\PoliMi-SWE2-research-project\\results\\runs\\mwis-dominance-enhanced\\run_satellite_scaling.py\", line 201, in report\n    'incomplete_leaves': int(producer['Incomplete decomposition nodes (all states)']) if enhanced else int(original['incomplete_leaves']),\n                         ~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nValueError: invalid literal for int() with base 10: '0.0'\n"
+}

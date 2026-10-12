@@ -1,0 +1,14 @@
+{
+  "status": "completed_and_validated",
+  "started_utc": "2026-10-12T22:12:42.365115+00:00",
+  "reused_baseline": "baseline_s200_g50",
+  "completed_runs": [
+    "exp4_s200_g50_n20_c100",
+    "exp4_s200_g50_n50_c350"
+  ],
+  "updated_utc": "2026-10-12T22:49:56.614590+00:00",
+  "current_run": null,
+  "preserved_artifacts_checked": 2039,
+  "wall_seconds": 2233.2031344000134,
+  "report": "C:\\Users\\felip\\Documents\\Polimi\\Semester 3\\SE2 Quantum Satisfiability Project\\satelite-optimization-quantum-annealing\\PoliMi-SWE2-research-project\\results\\runs\\mwis-dominance-enhanced\\experiment_comparison\\exp4_terminal_size_sensitivity\\terminal_size_sensitivity_report.md"
+}

@@ -1,0 +1,162 @@
+{
+  "run_name": "exp2_s500_g50",
+  "started_utc": "2026-10-12T19:43:22.688103+00:00",
+  "status": "completed_and_validated",
+  "python": "3.13.14 (tags/v3.13.14:fd17997, Jun 10 2026, 13:03:48) [MSC v.1944 64 bit (AMD64)]",
+  "executable": "C:\\Users\\felip\\AppData\\Local\\Python\\pythoncore-3.13-64\\python.exe",
+  "platform": "Windows-11-10.0.26300-SP0",
+  "git_commit": "bfcf603bb8adacf72d60ecf8580e15f25e0c3cbe",
+  "working_tree_modified": true,
+  "config": {
+    "candidate_slot_csv": "data/experiment_inputs/exp_snapshot_2026-10-12/slots_s500_g50.csv",
+    "run_name_mwis": "exp2_s500_g50",
+    "csp_slot_csv": "data/dataset/starlink/starlink_scheduling_slots_weighted.csv",
+    "run_name_csp": "latest_csp_run",
+    "max_qpu_terminal_nodes": 30,
+    "max_qpu_terminal_couplers": 200,
+    "max_separator_size": 3,
+    "max_separator_candidate_pool": 14,
+    "max_separator_states": 10000,
+    "max_recursion_depth": 12,
+    "max_decomposition_nodes": 10000,
+    "exact_enumeration_node_limit": 22,
+    "exact_clique_node_limit": 50,
+    "qubo_input_run": "runs/mwis-dominance-enhanced/pipeline_results/exp2_s500_g50",
+    "qubo_reward_factor": 1.0,
+    "qubo_penalty_factor": 1.0,
+    "num_reads": 500,
+    "base_seed": 42,
+    "milp_per_component_seconds": 5.0,
+    "milp_total_solver_seconds": 30.0,
+    "triangle_lp_per_component_seconds": 5.0,
+    "triangle_lp_total_solver_seconds": 30.0,
+    "qubo_output_run_name": "exp2_s500_g50"
+  },
+  "execution_method": "IPython in-process notebook code-cell execution",
+  "startup_attempt": null,
+  "input_sha256": "7ea415e1218beaf754c84aa40d4d4df6c23a768eca895ee8b97fa9fb40ea4396",
+  "packages": {
+    "numpy": "2.4.6",
+    "pandas": "3.0.3",
+    "networkx": "3.6.1",
+    "scipy": "1.18.0",
+    "dwave-samplers": "1.8.0",
+    "dimod": "0.12.22",
+    "nbclient": "0.11.0",
+    "nbformat": "5.10.4",
+    "ipykernel": "7.3.0",
+    "jupyter-client": "8.9.1"
+  },
+  "stages": [
+    {
+      "stage": "mwis",
+      "notebook": "02.A_mwis_pipeline_dominance_enhanced.ipynb",
+      "status": "completed",
+      "source_sha256": "edd571cffa305acff64b47208570a8b04026258552cd8cf0d65ffdd6b1577a6d",
+      "execution_source_sha256": "4d9d7f53f498e7ea24c28e977a3cafe9b4c8965848af1bf1d21c6b55e2281ac1",
+      "routing_only_patch": false,
+      "wall_seconds": 7806.3235550999525,
+      "cells": [
+        {
+          "executed_cell": 0,
+          "original_cell": -1,
+          "seconds": 0.03332739998586476
+        },
+        {
+          "executed_cell": 3,
+          "original_cell": 2,
+          "seconds": 1.2412699999986216
+        },
+        {
+          "executed_cell": 5,
+          "original_cell": 4,
+          "seconds": 0.086031400016509
+        },
+        {
+          "executed_cell": 7,
+          "original_cell": 6,
+          "seconds": 5.141942200018093
+        },
+        {
+          "executed_cell": 9,
+          "original_cell": 8,
+          "seconds": 0.9364411999704316
+        },
+        {
+          "executed_cell": 11,
+          "original_cell": 10,
+          "seconds": 0.019369499990716577
+        },
+        {
+          "executed_cell": 12,
+          "original_cell": 11,
+          "seconds": 7352.596493399993
+        },
+        {
+          "executed_cell": 14,
+          "original_cell": 13,
+          "seconds": 0.037254300026688725
+        },
+        {
+          "executed_cell": 16,
+          "original_cell": 15,
+          "seconds": 0.008306599978823215
+        },
+        {
+          "executed_cell": 17,
+          "original_cell": 16,
+          "seconds": 446.13691840000683
+        },
+        {
+          "executed_cell": 19,
+          "original_cell": 18,
+          "seconds": 0.03275630000280216
+        }
+      ]
+    },
+    {
+      "stage": "annealing",
+      "notebook": "3_qubo_annealing.ipynb",
+      "status": "completed",
+      "source_sha256": "74d0ee20f36d601ec46e4630814f2408ca77b5b1384283563f5393e67382975e",
+      "execution_source_sha256": "25e6ff0361c94ecdf30e7acefa27346d461daba541973657e362a8fc6b038d2f",
+      "routing_only_patch": true,
+      "wall_seconds": 11.043937700043898,
+      "cells": [
+        {
+          "executed_cell": 0,
+          "original_cell": -1,
+          "seconds": 0.039598100003786385
+        },
+        {
+          "executed_cell": 2,
+          "original_cell": 1,
+          "seconds": 2.92275410000002
+        },
+        {
+          "executed_cell": 4,
+          "original_cell": 3,
+          "seconds": 0.019132199988234788
+        },
+        {
+          "executed_cell": 6,
+          "original_cell": 5,
+          "seconds": 0.5696771999937482
+        },
+        {
+          "executed_cell": 8,
+          "original_cell": 7,
+          "seconds": 1.7169800999690779
+        },
+        {
+          "executed_cell": 10,
+          "original_cell": 9,
+          "seconds": 5.745504799997434
+        }
+      ]
+    }
+  ],
+  "wall_seconds": 7817.591547799995,
+  "finished_utc": "2026-10-12T21:53:40.020989+00:00",
+  "validation_report": "validation_report.json"
+}

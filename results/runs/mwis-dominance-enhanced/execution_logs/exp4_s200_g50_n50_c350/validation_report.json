@@ -1,0 +1,59 @@
+{
+  "run_name": "exp4_s200_g50_n50_c350",
+  "validation_passed": true,
+  "preserved_artifact_hashes_checked": 2039,
+  "global_dominance_removed": 768,
+  "recursive_dominance_removed_occurrences": 6944,
+  "retained_solver_nodes": 460,
+  "retained_solver_edges": 1106,
+  "contact_origins": {
+    "MILP": 76,
+    "annealing": 34,
+    "exact preprocessing": 70
+  },
+  "contact_origin_objectives": {
+    "MILP": 5563.496,
+    "annealing": 2261.883,
+    "exact preprocessing": 4756.071
+  },
+  "pre_milp_contact_origins": {
+    "exact preprocessing": 88,
+    "annealing": 82,
+    "separator assignment": 10
+  },
+  "pre_milp_absolute_gap_against_certified_optimum": 0.6869999999998981,
+  "pre_milp_relative_gap_against_certified_optimum_percent": 0.005460419903905338,
+  "input_sha256": "8c7f74c2e3b02e7c8158429b0fa9f21df7bbdc3445de913fdf563f8c3e560c8e",
+  "candidate_slots": 1228,
+  "satellites_with_slots": 200,
+  "antennas_with_slots": 50,
+  "conflict_edges": 7647,
+  "natural_components": 90,
+  "terminal_qubos": 1098,
+  "selected_contacts": 180,
+  "selected_conflicts": 0,
+  "classical_baseline_objective": 12580.968,
+  "annealed_objective_before_milp": 12580.763,
+  "final_feasible_objective": 12581.45,
+  "hybrid_upper_bound": 12581.45,
+  "absolute_gap": 0.0,
+  "relative_gap_percent": 0.0,
+  "status": "hybrid_exact",
+  "milp_components_proven_optimal": 1,
+  "milp_components_attempted": 1,
+  "incomplete_components": 1,
+  "max_terminal_variables": 50,
+  "max_terminal_couplers": 211,
+  "checks": [
+    "frozen input and contact constants",
+    "full conflict graph rebuilt from input",
+    "classical and final schedule feasibility",
+    "objectives and certification consistency",
+    "terminal QUBOs and penalty coefficients",
+    "annealing seeds, reads, decoded objectives and energies",
+    "global and recursive closed-neighborhood dominance witnesses",
+    "reduced graph and component consistency",
+    "independent pre-MILP reconstruction and final provenance",
+    "preservation of existing sources, config, inputs and MWIS runs"
+  ]
+}

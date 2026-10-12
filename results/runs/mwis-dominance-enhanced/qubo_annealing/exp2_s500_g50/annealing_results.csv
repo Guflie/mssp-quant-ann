@@ -1,0 +1,7 @@
+terminal_id,selected_node_count,selected_nodes,objective,energy,lowest_energy,recomputed_energy,is_independent,num_reads,seed
+component_001_dnode_0527,1,"[""SLOT_022470""]",83.611,-83.61100000000002,-83.61100000000002,-83.611,True,500,42
+component_001_dnode_1060,1,"[""SLOT_022158""]",59.709,-59.709,-59.709,-59.709,True,500,43
+component_001_dnode_4121,1,"[""SLOT_000046""]",91.172,-91.172,-91.172,-91.172,True,500,44
+component_001_dnode_8217,1,"[""SLOT_033003""]",70.482,-70.48200000000003,-70.48200000000003,-70.482,True,500,45
+component_001_dnode_10007,1,"[""SLOT_032878""]",60.917,-60.917,-60.917,-60.917,True,500,46
+component_002_dnode_0001,3,"[""SLOT_029256"", ""SLOT_030408"", ""SLOT_031450""]",172.636,-172.63599999999988,-172.63599999999988,-172.636,True,500,47
