@@ -1,0 +1,6 @@
+{
+  "producer_before_sha256": "bb23e454b6aed4a29b1e4a2b98fbc89adb93cd7cff88bd9883fa9b1a66a47402",
+  "producer_after_sha256": "80eb31da551e6014ea4b629b967eee7fa6d333a004735c6576791e9fd3aa2f70",
+  "modified_source_cell": 10,
+  "change": "Accept resolved or fitting leaves before exhausted node/depth budgets; preserve ordinary independent splitting and all existing search budgets."
+}

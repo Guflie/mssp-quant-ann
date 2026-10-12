@@ -1,0 +1,28 @@
+{
+  "validation_passed": true,
+  "boundary_checks": 20,
+  "unchanged_recursive_graphs": 20,
+  "checks": [
+    "nodes: 28_variables_199_couplers accepted without recursion",
+    "nodes: exact_limits accepted without recursion",
+    "nodes: empty accepted without recursion",
+    "nodes: resolved_isolated_vertices accepted without recursion",
+    "nodes: too_many_variables still blocked",
+    "nodes: too_many_couplers still blocked",
+    "depth: 28_variables_199_couplers accepted without recursion",
+    "depth: exact_limits accepted without recursion",
+    "depth: empty accepted without recursion",
+    "depth: resolved_isolated_vertices accepted without recursion",
+    "depth: too_many_variables still blocked",
+    "depth: too_many_couplers still blocked",
+    "both: 28_variables_199_couplers accepted without recursion",
+    "both: exact_limits accepted without recursion",
+    "both: empty accepted without recursion",
+    "both: resolved_isolated_vertices accepted without recursion",
+    "both: too_many_variables still blocked",
+    "both: too_many_couplers still blocked",
+    "28/199 remains oversized for the 20/100 profile",
+    "ordinary independent splitting remains unchanged",
+    "20 small graphs retain identical unexhausted decomposition trees"
+  ]
+}

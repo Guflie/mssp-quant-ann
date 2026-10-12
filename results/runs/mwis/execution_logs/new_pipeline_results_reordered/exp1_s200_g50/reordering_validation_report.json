@@ -1,0 +1,62 @@
+{
+  "validation_passed": true,
+  "input_sha256": "8c7f74c2e3b02e7c8158429b0fa9f21df7bbdc3445de913fdf563f8c3e560c8e",
+  "tree_nodes": 10025,
+  "expected_reclassified_leaves": [
+    {
+      "node_id": "component_001_dnode_0015",
+      "previous_reason": "recursion depth exceeded",
+      "variables": 0,
+      "couplers": 0,
+      "terminal_reason": "resolved by exact preprocessing"
+    },
+    {
+      "node_id": "component_001_dnode_0020",
+      "previous_reason": "recursion depth exceeded",
+      "variables": 3,
+      "couplers": 3,
+      "terminal_reason": "fits QPU limits"
+    },
+    {
+      "node_id": "component_001_dnode_0022",
+      "previous_reason": "recursion depth exceeded",
+      "variables": 2,
+      "couplers": 1,
+      "terminal_reason": "fits QPU limits"
+    },
+    {
+      "node_id": "component_001_dnode_0800",
+      "previous_reason": "recursion depth exceeded",
+      "variables": 0,
+      "couplers": 0,
+      "terminal_reason": "resolved by exact preprocessing"
+    },
+    {
+      "node_id": "component_001_dnode_10006",
+      "previous_reason": "decomposition node budget exceeded",
+      "variables": 28,
+      "couplers": 199,
+      "terminal_reason": "fits QPU limits"
+    }
+  ],
+  "unchanged_existing_terminal_qubos": 27,
+  "new_terminal_qubos": 3,
+  "sampled_new_terminals": [
+    "component_001_dnode_0020",
+    "component_001_dnode_0022",
+    "component_001_dnode_10006"
+  ],
+  "remaining_budget_blocked_fitting_leaves": [],
+  "checks": [
+    "same frozen input and full conflict graph",
+    "same configurations except run paths",
+    "same packages and execution method",
+    "expected source revision",
+    "same tree node IDs, branch states, separators and fixed choices",
+    "only the five expected leaves reclassified",
+    "existing terminal QUBOs unchanged",
+    "all added terminals sampled, including the 28/199 piece",
+    "no fitting leaves rejected by node/depth budgets",
+    "optimal objective consistency"
+  ]
+}
