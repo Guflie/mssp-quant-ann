@@ -1,0 +1,4770 @@
+[
+  {
+    "terminal_id": "component_001_dnode_0004",
+    "original_component_id": "component_001",
+    "depth": 3,
+    "qubits": 11,
+    "couplers": 17,
+    "terminal_reason": "fits QPU limits",
+    "forced_selected": {},
+    "forced_objective": 0,
+    "domains": {
+      "STARLINK-1063": [
+        "SLOT_009589",
+        "SLOT_009597",
+        "SLOT_025648"
+      ],
+      "STARLINK-1193": [
+        "SLOT_025155"
+      ],
+      "STARLINK-1506": [
+        "SLOT_004553",
+        "SLOT_009201",
+        "SLOT_009351",
+        "SLOT_025484",
+        "SLOT_025505"
+      ],
+      "STARLINK-2147": [
+        "SLOT_004100",
+        "SLOT_024641"
+      ]
+    }
+  },
+  {
+    "terminal_id": "component_001_dnode_0011",
+    "original_component_id": "component_001",
+    "depth": 3,
+    "qubits": 9,
+    "couplers": 12,
+    "terminal_reason": "fits QPU limits",
+    "forced_selected": {},
+    "forced_objective": 0,
+    "domains": {
+      "STARLINK-1063": [
+        "SLOT_009589",
+        "SLOT_025648"
+      ],
+      "STARLINK-1193": [
+        "SLOT_025155"
+      ],
+      "STARLINK-1506": [
+        "SLOT_004553",
+        "SLOT_009201",
+        "SLOT_025484",
+        "SLOT_025505"
+      ],
+      "STARLINK-2147": [
+        "SLOT_004100",
+        "SLOT_024641"
+      ]
+    }
+  },
+  {
+    "terminal_id": "component_001_dnode_0017",
+    "original_component_id": "component_001",
+    "depth": 3,
+    "qubits": 7,
+    "couplers": 10,
+    "terminal_reason": "fits QPU limits",
+    "forced_selected": {},
+    "forced_objective": 0,
+    "domains": {
+      "STARLINK-1273": [
+        "SLOT_008680",
+        "SLOT_009587"
+      ],
+      "STARLINK-1802": [
+        "SLOT_008233",
+        "SLOT_018580",
+        "SLOT_024374"
+      ],
+      "STARLINK-1810": [
+        "SLOT_018424",
+        "SLOT_024024"
+      ]
+    }
+  },
+  {
+    "terminal_id": "component_001_dnode_0019",
+    "original_component_id": "component_001",
+    "depth": 3,
+    "qubits": 4,
+    "couplers": 6,
+    "terminal_reason": "fits QPU limits",
+    "forced_selected": {
+      "STARLINK-1810": "SLOT_018424"
+    },
+    "forced_objective": 81.975,
+    "domains": {
+      "STARLINK-1273": [
+        "SLOT_008680",
+        "SLOT_009587"
+      ],
+      "STARLINK-1802": [
+        "SLOT_008097",
+        "SLOT_008233"
+      ]
+    }
+  },
+  {
+    "terminal_id": "component_001_dnode_0025",
+    "original_component_id": "component_001",
+    "depth": 3,
+    "qubits": 4,
+    "couplers": 6,
+    "terminal_reason": "fits QPU limits",
+    "forced_selected": {
+      "STARLINK-1263": "SLOT_008252"
+    },
+    "forced_objective": 64.402,
+    "domains": {
+      "STARLINK-2098": [
+        "SLOT_004047",
+        "SLOT_029214"
+      ],
+      "STARLINK-2102": [
+        "SLOT_004497",
+        "SLOT_027572"
+      ]
+    }
+  },
+  {
+    "terminal_id": "component_001_dnode_0026",
+    "original_component_id": "component_001",
+    "depth": 3,
+    "qubits": 4,
+    "couplers": 4,
+    "terminal_reason": "fits QPU limits",
+    "forced_selected": {},
+    "forced_objective": 0,
+    "domains": {
+      "STARLINK-1802": [
+        "SLOT_018580",
+        "SLOT_024374"
+      ],
+      "STARLINK-1810": [
+        "SLOT_018424",
+        "SLOT_024024"
+      ]
+    }
+  },
+  {
+    "terminal_id": "component_001_dnode_0028",
+    "original_component_id": "component_001",
+    "depth": 3,
+    "qubits": 4,
+    "couplers": 6,
+    "terminal_reason": "fits QPU limits",
+    "forced_selected": {
+      "STARLINK-1263": "SLOT_007041"
+    },
+    "forced_objective": 64.714,
+    "domains": {
+      "STARLINK-2098": [
+        "SLOT_004047",
+        "SLOT_029214"
+      ],
+      "STARLINK-2102": [
+        "SLOT_004497",
+        "SLOT_027572"
+      ]
+    }
+  },
+  {
+    "terminal_id": "component_001_dnode_0029",
+    "original_component_id": "component_001",
+    "depth": 3,
+    "qubits": 4,
+    "couplers": 6,
+    "terminal_reason": "fits QPU limits",
+    "forced_selected": {
+      "STARLINK-1263": "SLOT_007041"
+    },
+    "forced_objective": 64.714,
+    "domains": {
+      "STARLINK-2098": [
+        "SLOT_004047",
+        "SLOT_029214"
+      ],
+      "STARLINK-2102": [
+        "SLOT_004497",
+        "SLOT_027572"
+      ]
+    }
+  },
+  {
+    "terminal_id": "component_001_dnode_0030",
+    "original_component_id": "component_001",
+    "depth": 3,
+    "qubits": 4,
+    "couplers": 6,
+    "terminal_reason": "fits QPU limits",
+    "forced_selected": {
+      "STARLINK-1263": "SLOT_007041"
+    },
+    "forced_objective": 64.714,
+    "domains": {
+      "STARLINK-2098": [
+        "SLOT_004047",
+        "SLOT_029214"
+      ],
+      "STARLINK-2102": [
+        "SLOT_004497",
+        "SLOT_027572"
+      ]
+    }
+  },
+  {
+    "terminal_id": "component_001_dnode_0031",
+    "original_component_id": "component_001",
+    "depth": 3,
+    "qubits": 4,
+    "couplers": 6,
+    "terminal_reason": "fits QPU limits",
+    "forced_selected": {
+      "STARLINK-1263": "SLOT_008252"
+    },
+    "forced_objective": 64.402,
+    "domains": {
+      "STARLINK-2098": [
+        "SLOT_004047",
+        "SLOT_029214"
+      ],
+      "STARLINK-2102": [
+        "SLOT_004497",
+        "SLOT_027572"
+      ]
+    }
+  },
+  {
+    "terminal_id": "component_001_dnode_0032",
+    "original_component_id": "component_001",
+    "depth": 3,
+    "qubits": 6,
+    "couplers": 15,
+    "terminal_reason": "fits QPU limits",
+    "forced_selected": {},
+    "forced_objective": 0,
+    "domains": {
+      "STARLINK-1263": [
+        "SLOT_004349",
+        "SLOT_007513"
+      ],
+      "STARLINK-2098": [
+        "SLOT_004047",
+        "SLOT_029214"
+      ],
+      "STARLINK-2102": [
+        "SLOT_004497",
+        "SLOT_027572"
+      ]
+    }
+  },
+  {
+    "terminal_id": "component_001_dnode_0033",
+    "original_component_id": "component_001",
+    "depth": 3,
+    "qubits": 4,
+    "couplers": 6,
+    "terminal_reason": "fits QPU limits",
+    "forced_selected": {
+      "STARLINK-1263": "SLOT_007041"
+    },
+    "forced_objective": 64.714,
+    "domains": {
+      "STARLINK-2098": [
+        "SLOT_004047",
+        "SLOT_029214"
+      ],
+      "STARLINK-2102": [
+        "SLOT_004497",
+        "SLOT_027572"
+      ]
+    }
+  },
+  {
+    "terminal_id": "component_001_dnode_0035",
+    "original_component_id": "component_001",
+    "depth": 3,
+    "qubits": 6,
+    "couplers": 9,
+    "terminal_reason": "fits QPU limits",
+    "forced_selected": {},
+    "forced_objective": 0,
+    "domains": {
+      "STARLINK-1231": [
+        "SLOT_007630",
+        "SLOT_029375",
+        "SLOT_032705"
+      ],
+      "STARLINK-1456": [
+        "SLOT_034087"
+      ],
+      "STARLINK-2046": [
+        "SLOT_008507",
+        "SLOT_033338"
+      ]
+    }
+  },
+  {
+    "terminal_id": "component_001_dnode_0036",
+    "original_component_id": "component_001",
+    "depth": 3,
+    "qubits": 6,
+    "couplers": 10,
+    "terminal_reason": "fits QPU limits",
+    "forced_selected": {},
+    "forced_objective": 0,
+    "domains": {
+      "STARLINK-2099": [
+        "SLOT_014788",
+        "SLOT_027974",
+        "SLOT_031900"
+      ],
+      "STARLINK-2103": [
+        "SLOT_028096",
+        "SLOT_031401",
+        "SLOT_031901"
+      ]
+    }
+  },
+  {
+    "terminal_id": "component_001_dnode_0037",
+    "original_component_id": "component_001",
+    "depth": 3,
+    "qubits": 6,
+    "couplers": 8,
+    "terminal_reason": "fits QPU limits",
+    "forced_selected": {},
+    "forced_objective": 0,
+    "domains": {
+      "STARLINK-1231": [
+        "SLOT_007630",
+        "SLOT_032705",
+        "SLOT_033212"
+      ],
+      "STARLINK-1456": [
+        "SLOT_034087"
+      ],
+      "STARLINK-2046": [
+        "SLOT_008507",
+        "SLOT_033338"
+      ]
+    }
+  },
+  {
+    "terminal_id": "component_001_dnode_0039",
+    "original_component_id": "component_001",
+    "depth": 3,
+    "qubits": 6,
+    "couplers": 9,
+    "terminal_reason": "fits QPU limits",
+    "forced_selected": {},
+    "forced_objective": 0,
+    "domains": {
+      "STARLINK-1231": [
+        "SLOT_007630",
+        "SLOT_029375",
+        "SLOT_032705"
+      ],
+      "STARLINK-1456": [
+        "SLOT_034087"
+      ],
+      "STARLINK-2046": [
+        "SLOT_008507",
+        "SLOT_033338"
+      ]
+    }
+  },
+  {
+    "terminal_id": "component_001_dnode_0040",
+    "original_component_id": "component_001",
+    "depth": 3,
+    "qubits": 2,
+    "couplers": 1,
+    "terminal_reason": "fits QPU limits",
+    "forced_selected": {
+      "STARLINK-1231": "SLOT_007630"
+    },
+    "forced_objective": 40.462,
+    "domains": {
+      "STARLINK-1456": [
+        "SLOT_034087"
+      ],
+      "STARLINK-2046": [
+        "SLOT_033338"
+      ]
+    }
+  },
+  {
+    "terminal_id": "component_001_dnode_0041",
+    "original_component_id": "component_001",
+    "depth": 3,
+    "qubits": 2,
+    "couplers": 1,
+    "terminal_reason": "fits QPU limits",
+    "forced_selected": {
+      "STARLINK-1231": "SLOT_007630"
+    },
+    "forced_objective": 40.462,
+    "domains": {
+      "STARLINK-1456": [
+        "SLOT_034087"
+      ],
+      "STARLINK-2046": [
+        "SLOT_033338"
+      ]
+    }
+  },
+  {
+    "terminal_id": "component_001_dnode_0042",
+    "original_component_id": "component_001",
+    "depth": 3,
+    "qubits": 2,
+    "couplers": 1,
+    "terminal_reason": "fits QPU limits",
+    "forced_selected": {
+      "STARLINK-1231": "SLOT_007630"
+    },
+    "forced_objective": 40.462,
+    "domains": {
+      "STARLINK-1456": [
+        "SLOT_034087"
+      ],
+      "STARLINK-2046": [
+        "SLOT_033338"
+      ]
+    }
+  },
+  {
+    "terminal_id": "component_001_dnode_0043",
+    "original_component_id": "component_001",
+    "depth": 2,
+    "qubits": 12,
+    "couplers": 25,
+    "terminal_reason": "fits QPU limits",
+    "forced_selected": {},
+    "forced_objective": 0,
+    "domains": {
+      "STARLINK-1992": [
+        "SLOT_000830",
+        "SLOT_007048",
+        "SLOT_016492",
+        "SLOT_022194",
+        "SLOT_030241",
+        "SLOT_030651"
+      ],
+      "STARLINK-2015": [
+        "SLOT_000008",
+        "SLOT_006209",
+        "SLOT_007324",
+        "SLOT_015738",
+        "SLOT_029339",
+        "SLOT_029811"
+      ]
+    }
+  },
+  {
+    "terminal_id": "component_001_dnode_0044",
+    "original_component_id": "component_001",
+    "depth": 2,
+    "qubits": 4,
+    "couplers": 3,
+    "terminal_reason": "fits QPU limits",
+    "forced_selected": {},
+    "forced_objective": 0,
+    "domains": {
+      "STARLINK-1260": [
+        "SLOT_009774",
+        "SLOT_009802"
+      ],
+      "STARLINK-1582": [
+        "SLOT_009939",
+        "SLOT_010122"
+      ]
+    }
+  },
+  {
+    "terminal_id": "component_001_dnode_0046",
+    "original_component_id": "component_001",
+    "depth": 3,
+    "qubits": 11,
+    "couplers": 17,
+    "terminal_reason": "fits QPU limits",
+    "forced_selected": {},
+    "forced_objective": 0,
+    "domains": {
+      "STARLINK-1063": [
+        "SLOT_009589",
+        "SLOT_009597",
+        "SLOT_025648"
+      ],
+      "STARLINK-1193": [
+        "SLOT_025155"
+      ],
+      "STARLINK-1506": [
+        "SLOT_004389",
+        "SLOT_009201",
+        "SLOT_009351",
+        "SLOT_025484",
+        "SLOT_025505"
+      ],
+      "STARLINK-2147": [
+        "SLOT_003936",
+        "SLOT_024641"
+      ]
+    }
+  },
+  {
+    "terminal_id": "component_001_dnode_0047",
+    "original_component_id": "component_001",
+    "depth": 3,
+    "qubits": 9,
+    "couplers": 12,
+    "terminal_reason": "fits QPU limits",
+    "forced_selected": {},
+    "forced_objective": 0,
+    "domains": {
+      "STARLINK-1063": [
+        "SLOT_009589",
+        "SLOT_025648"
+      ],
+      "STARLINK-1193": [
+        "SLOT_025155"
+      ],
+      "STARLINK-1506": [
+        "SLOT_004389",
+        "SLOT_009201",
+        "SLOT_025484",
+        "SLOT_025505"
+      ],
+      "STARLINK-2147": [
+        "SLOT_003936",
+        "SLOT_024641"
+      ]
+    }
+  },
+  {
+    "terminal_id": "component_001_dnode_0049",
+    "original_component_id": "component_001",
+    "depth": 3,
+    "qubits": 11,
+    "couplers": 18,
+    "terminal_reason": "fits QPU limits",
+    "forced_selected": {},
+    "forced_objective": 0,
+    "domains": {
+      "STARLINK-1063": [
+        "SLOT_009597",
+        "SLOT_025648"
+      ],
+      "STARLINK-1193": [
+        "SLOT_025155"
+      ],
+      "STARLINK-1506": [
+        "SLOT_004389",
+        "SLOT_004553",
+        "SLOT_009351",
+        "SLOT_025484",
+        "SLOT_025505"
+      ],
+      "STARLINK-2147": [
+        "SLOT_003936",
+        "SLOT_004100",
+        "SLOT_024641"
+      ]
+    }
+  },
+  {
+    "terminal_id": "component_001_dnode_0050",
+    "original_component_id": "component_001",
+    "depth": 3,
+    "qubits": 8,
+    "couplers": 12,
+    "terminal_reason": "fits QPU limits",
+    "forced_selected": {},
+    "forced_objective": 0,
+    "domains": {
+      "STARLINK-1193": [
+        "SLOT_025155"
+      ],
+      "STARLINK-1506": [
+        "SLOT_004389",
+        "SLOT_004553",
+        "SLOT_025484",
+        "SLOT_025505"
+      ],
+      "STARLINK-2147": [
+        "SLOT_003936",
+        "SLOT_004100",
+        "SLOT_024641"
+      ]
+    }
+  },
+  {
+    "terminal_id": "component_001_dnode_0059",
+    "original_component_id": "component_001",
+    "depth": 4,
+    "qubits": 4,
+    "couplers": 6,
+    "terminal_reason": "fits QPU limits",
+    "forced_selected": {},
+    "forced_objective": 0,
+    "domains": {
+      "STARLINK-1273": [
+        "SLOT_008680",
+        "SLOT_009587"
+      ],
+      "STARLINK-2178": [
+        "SLOT_009036",
+        "SLOT_009191"
+      ]
+    }
+  },
+  {
+    "terminal_id": "component_001_dnode_0060",
+    "original_component_id": "component_001",
+    "depth": 4,
+    "qubits": 4,
+    "couplers": 6,
+    "terminal_reason": "fits QPU limits",
+    "forced_selected": {},
+    "forced_objective": 0,
+    "domains": {
+      "STARLINK-1273": [
+        "SLOT_008680",
+        "SLOT_009587"
+      ],
+      "STARLINK-2178": [
+        "SLOT_009036",
+        "SLOT_009191"
+      ]
+    }
+  },
+  {
+    "terminal_id": "component_001_dnode_0061",
+    "original_component_id": "component_001",
+    "depth": 4,
+    "qubits": 4,
+    "couplers": 6,
+    "terminal_reason": "fits QPU limits",
+    "forced_selected": {},
+    "forced_objective": 0,
+    "domains": {
+      "STARLINK-1273": [
+        "SLOT_008680",
+        "SLOT_009587"
+      ],
+      "STARLINK-2178": [
+        "SLOT_009191",
+        "SLOT_019491"
+      ]
+    }
+  },
+  {
+    "terminal_id": "component_001_dnode_0062",
+    "original_component_id": "component_001",
+    "depth": 3,
+    "qubits": 11,
+    "couplers": 18,
+    "terminal_reason": "fits QPU limits",
+    "forced_selected": {},
+    "forced_objective": 0,
+    "domains": {
+      "STARLINK-1063": [
+        "SLOT_009589",
+        "SLOT_025648"
+      ],
+      "STARLINK-1193": [
+        "SLOT_025155"
+      ],
+      "STARLINK-1506": [
+        "SLOT_004389",
+        "SLOT_004553",
+        "SLOT_009201",
+        "SLOT_025484",
+        "SLOT_025505"
+      ],
+      "STARLINK-2147": [
+        "SLOT_003936",
+        "SLOT_004100",
+        "SLOT_024641"
+      ]
+    }
+  },
+  {
+    "terminal_id": "component_001_dnode_0064",
+    "original_component_id": "component_001",
+    "depth": 3,
+    "qubits": 13,
+    "couplers": 23,
+    "terminal_reason": "fits QPU limits",
+    "forced_selected": {},
+    "forced_objective": 0,
+    "domains": {
+      "STARLINK-1063": [
+        "SLOT_009589",
+        "SLOT_009597",
+        "SLOT_025648"
+      ],
+      "STARLINK-1193": [
+        "SLOT_025155"
+      ],
+      "STARLINK-1506": [
+        "SLOT_004389",
+        "SLOT_004553",
+        "SLOT_009201",
+        "SLOT_009351",
+        "SLOT_025484",
+        "SLOT_025505"
+      ],
+      "STARLINK-2147": [
+        "SLOT_003936",
+        "SLOT_004100",
+        "SLOT_024641"
+      ]
+    }
+  },
+  {
+    "terminal_id": "component_001_dnode_0066",
+    "original_component_id": "component_001",
+    "depth": 3,
+    "qubits": 13,
+    "couplers": 23,
+    "terminal_reason": "fits QPU limits",
+    "forced_selected": {},
+    "forced_objective": 0,
+    "domains": {
+      "STARLINK-1063": [
+        "SLOT_009589",
+        "SLOT_009597",
+        "SLOT_025648"
+      ],
+      "STARLINK-1193": [
+        "SLOT_025155"
+      ],
+      "STARLINK-1506": [
+        "SLOT_004389",
+        "SLOT_004553",
+        "SLOT_009201",
+        "SLOT_009351",
+        "SLOT_025484",
+        "SLOT_025505"
+      ],
+      "STARLINK-2147": [
+        "SLOT_003936",
+        "SLOT_004100",
+        "SLOT_024486"
+      ]
+    }
+  },
+  {
+    "terminal_id": "component_001_dnode_0067",
+    "original_component_id": "component_001",
+    "depth": 3,
+    "qubits": 11,
+    "couplers": 18,
+    "terminal_reason": "fits QPU limits",
+    "forced_selected": {},
+    "forced_objective": 0,
+    "domains": {
+      "STARLINK-1063": [
+        "SLOT_009589",
+        "SLOT_025648"
+      ],
+      "STARLINK-1193": [
+        "SLOT_025155"
+      ],
+      "STARLINK-1506": [
+        "SLOT_004389",
+        "SLOT_004553",
+        "SLOT_009201",
+        "SLOT_025484",
+        "SLOT_025505"
+      ],
+      "STARLINK-2147": [
+        "SLOT_003936",
+        "SLOT_004100",
+        "SLOT_024486"
+      ]
+    }
+  },
+  {
+    "terminal_id": "component_001_dnode_0074",
+    "original_component_id": "component_001",
+    "depth": 3,
+    "qubits": 6,
+    "couplers": 9,
+    "terminal_reason": "fits QPU limits",
+    "forced_selected": {},
+    "forced_objective": 0,
+    "domains": {
+      "STARLINK-1273": [
+        "SLOT_008680",
+        "SLOT_009587"
+      ],
+      "STARLINK-1802": [
+        "SLOT_008233",
+        "SLOT_018580",
+        "SLOT_024374"
+      ],
+      "STARLINK-1810": [
+        "SLOT_018424"
+      ]
+    }
+  },
+  {
+    "terminal_id": "component_001_dnode_0075",
+    "original_component_id": "component_001",
+    "depth": 3,
+    "qubits": 4,
+    "couplers": 6,
+    "terminal_reason": "fits QPU limits",
+    "forced_selected": {
+      "STARLINK-1810": "SLOT_018424"
+    },
+    "forced_objective": 81.975,
+    "domains": {
+      "STARLINK-1273": [
+        "SLOT_008680",
+        "SLOT_009587"
+      ],
+      "STARLINK-1802": [
+        "SLOT_008097",
+        "SLOT_008233"
+      ]
+    }
+  },
+  {
+    "terminal_id": "component_001_dnode_0077",
+    "original_component_id": "component_001",
+    "depth": 3,
+    "qubits": 3,
+    "couplers": 3,
+    "terminal_reason": "fits QPU limits",
+    "forced_selected": {},
+    "forced_objective": 0,
+    "domains": {
+      "STARLINK-1802": [
+        "SLOT_018580",
+        "SLOT_024374"
+      ],
+      "STARLINK-1810": [
+        "SLOT_018424"
+      ]
+    }
+  },
+  {
+    "terminal_id": "component_001_dnode_0079",
+    "original_component_id": "component_001",
+    "depth": 3,
+    "qubits": 13,
+    "couplers": 24,
+    "terminal_reason": "fits QPU limits",
+    "forced_selected": {},
+    "forced_objective": 0,
+    "domains": {
+      "STARLINK-1063": [
+        "SLOT_009589",
+        "SLOT_009597",
+        "SLOT_025648"
+      ],
+      "STARLINK-1193": [
+        "SLOT_025155"
+      ],
+      "STARLINK-1506": [
+        "SLOT_004389",
+        "SLOT_004529",
+        "SLOT_004553",
+        "SLOT_009201",
+        "SLOT_009351",
+        "SLOT_025505"
+      ],
+      "STARLINK-2147": [
+        "SLOT_003936",
+        "SLOT_004100",
+        "SLOT_024641"
+      ]
+    }
+  },
+  {
+    "terminal_id": "component_001_dnode_0080",
+    "original_component_id": "component_001",
+    "depth": 3,
+    "qubits": 11,
+    "couplers": 18,
+    "terminal_reason": "fits QPU limits",
+    "forced_selected": {},
+    "forced_objective": 0,
+    "domains": {
+      "STARLINK-1063": [
+        "SLOT_009589",
+        "SLOT_025648"
+      ],
+      "STARLINK-1193": [
+        "SLOT_025155"
+      ],
+      "STARLINK-1506": [
+        "SLOT_004389",
+        "SLOT_004529",
+        "SLOT_004553",
+        "SLOT_009201",
+        "SLOT_025505"
+      ],
+      "STARLINK-2147": [
+        "SLOT_003936",
+        "SLOT_004100",
+        "SLOT_024641"
+      ]
+    }
+  },
+  {
+    "terminal_id": "component_001_dnode_0082",
+    "original_component_id": "component_001",
+    "depth": 3,
+    "qubits": 7,
+    "couplers": 10,
+    "terminal_reason": "fits QPU limits",
+    "forced_selected": {
+      "STARLINK-1039": "SLOT_020485"
+    },
+    "forced_objective": 77.557,
+    "domains": {
+      "STARLINK-1063": [
+        "SLOT_009589",
+        "SLOT_009597"
+      ],
+      "STARLINK-1273": [
+        "SLOT_008680",
+        "SLOT_009587"
+      ],
+      "STARLINK-2178": [
+        "SLOT_009191",
+        "SLOT_009214",
+        "SLOT_019491"
+      ]
+    }
+  },
+  {
+    "terminal_id": "component_001_dnode_0086",
+    "original_component_id": "component_001",
+    "depth": 3,
+    "qubits": 4,
+    "couplers": 3,
+    "terminal_reason": "fits QPU limits",
+    "forced_selected": {
+      "STARLINK-1039": "SLOT_020485"
+    },
+    "forced_objective": 77.557,
+    "domains": {
+      "STARLINK-1063": [
+        "SLOT_009589",
+        "SLOT_009597"
+      ],
+      "STARLINK-2178": [
+        "SLOT_009036",
+        "SLOT_009214"
+      ]
+    }
+  },
+  {
+    "terminal_id": "component_001_dnode_0087",
+    "original_component_id": "component_001",
+    "depth": 3,
+    "qubits": 4,
+    "couplers": 6,
+    "terminal_reason": "fits QPU limits",
+    "forced_selected": {},
+    "forced_objective": 0,
+    "domains": {
+      "STARLINK-1263": [
+        "SLOT_007041",
+        "SLOT_008252"
+      ],
+      "STARLINK-1558": [
+        "SLOT_007330",
+        "SLOT_007830"
+      ]
+    }
+  },
+  {
+    "terminal_id": "component_001_dnode_0088",
+    "original_component_id": "component_001",
+    "depth": 3,
+    "qubits": 4,
+    "couplers": 6,
+    "terminal_reason": "fits QPU limits",
+    "forced_selected": {
+      "STARLINK-1039": "SLOT_020485",
+      "STARLINK-1063": "SLOT_009597"
+    },
+    "forced_objective": 131.674,
+    "domains": {
+      "STARLINK-1273": [
+        "SLOT_008680",
+        "SLOT_009587"
+      ],
+      "STARLINK-2178": [
+        "SLOT_009036",
+        "SLOT_009191"
+      ]
+    }
+  },
+  {
+    "terminal_id": "component_001_dnode_0089",
+    "original_component_id": "component_001",
+    "depth": 3,
+    "qubits": 4,
+    "couplers": 6,
+    "terminal_reason": "fits QPU limits",
+    "forced_selected": {},
+    "forced_objective": 0,
+    "domains": {
+      "STARLINK-1263": [
+        "SLOT_007041",
+        "SLOT_008252"
+      ],
+      "STARLINK-1558": [
+        "SLOT_007330",
+        "SLOT_007830"
+      ]
+    }
+  },
+  {
+    "terminal_id": "component_001_dnode_0090",
+    "original_component_id": "component_001",
+    "depth": 3,
+    "qubits": 7,
+    "couplers": 9,
+    "terminal_reason": "fits QPU limits",
+    "forced_selected": {
+      "STARLINK-1039": "SLOT_020485"
+    },
+    "forced_objective": 77.557,
+    "domains": {
+      "STARLINK-1063": [
+        "SLOT_009589",
+        "SLOT_009597"
+      ],
+      "STARLINK-1273": [
+        "SLOT_008680",
+        "SLOT_009587"
+      ],
+      "STARLINK-2178": [
+        "SLOT_009036",
+        "SLOT_009191",
+        "SLOT_009214"
+      ]
+    }
+  },
+  {
+    "terminal_id": "component_001_dnode_0091",
+    "original_component_id": "component_001",
+    "depth": 3,
+    "qubits": 7,
+    "couplers": 9,
+    "terminal_reason": "fits QPU limits",
+    "forced_selected": {
+      "STARLINK-1039": "SLOT_020485"
+    },
+    "forced_objective": 77.557,
+    "domains": {
+      "STARLINK-1063": [
+        "SLOT_009589",
+        "SLOT_009597"
+      ],
+      "STARLINK-1273": [
+        "SLOT_008680",
+        "SLOT_009587"
+      ],
+      "STARLINK-2178": [
+        "SLOT_009036",
+        "SLOT_009191",
+        "SLOT_009214"
+      ]
+    }
+  },
+  {
+    "terminal_id": "component_001_dnode_0092",
+    "original_component_id": "component_001",
+    "depth": 3,
+    "qubits": 4,
+    "couplers": 3,
+    "terminal_reason": "fits QPU limits",
+    "forced_selected": {
+      "STARLINK-1039": "SLOT_020485"
+    },
+    "forced_objective": 77.557,
+    "domains": {
+      "STARLINK-1063": [
+        "SLOT_009589",
+        "SLOT_009597"
+      ],
+      "STARLINK-2178": [
+        "SLOT_009191",
+        "SLOT_009214"
+      ]
+    }
+  },
+  {
+    "terminal_id": "component_001_dnode_0093",
+    "original_component_id": "component_001",
+    "depth": 3,
+    "qubits": 6,
+    "couplers": 15,
+    "terminal_reason": "fits QPU limits",
+    "forced_selected": {
+      "STARLINK-1263": "SLOT_007041"
+    },
+    "forced_objective": 64.714,
+    "domains": {
+      "STARLINK-1558": [
+        "SLOT_004670",
+        "SLOT_007830"
+      ],
+      "STARLINK-2098": [
+        "SLOT_004047",
+        "SLOT_029214"
+      ],
+      "STARLINK-2102": [
+        "SLOT_004497",
+        "SLOT_027572"
+      ]
+    }
+  },
+  {
+    "terminal_id": "component_001_dnode_0094",
+    "original_component_id": "component_001",
+    "depth": 3,
+    "qubits": 9,
+    "couplers": 21,
+    "terminal_reason": "fits QPU limits",
+    "forced_selected": {},
+    "forced_objective": 0,
+    "domains": {
+      "STARLINK-1263": [
+        "SLOT_007041",
+        "SLOT_008252"
+      ],
+      "STARLINK-1558": [
+        "SLOT_004670",
+        "SLOT_007330",
+        "SLOT_007830"
+      ],
+      "STARLINK-2098": [
+        "SLOT_004047",
+        "SLOT_029214"
+      ],
+      "STARLINK-2102": [
+        "SLOT_004497",
+        "SLOT_027572"
+      ]
+    }
+  },
+  {
+    "terminal_id": "component_001_dnode_0096",
+    "original_component_id": "component_001",
+    "depth": 3,
+    "qubits": 4,
+    "couplers": 3,
+    "terminal_reason": "fits QPU limits",
+    "forced_selected": {
+      "STARLINK-1039": "SLOT_020485"
+    },
+    "forced_objective": 77.557,
+    "domains": {
+      "STARLINK-1063": [
+        "SLOT_009589",
+        "SLOT_009597"
+      ],
+      "STARLINK-2178": [
+        "SLOT_009191",
+        "SLOT_009214"
+      ]
+    }
+  },
+  {
+    "terminal_id": "component_001_dnode_0097",
+    "original_component_id": "component_001",
+    "depth": 3,
+    "qubits": 4,
+    "couplers": 3,
+    "terminal_reason": "fits QPU limits",
+    "forced_selected": {
+      "STARLINK-1039": "SLOT_020485"
+    },
+    "forced_objective": 77.557,
+    "domains": {
+      "STARLINK-1063": [
+        "SLOT_009589",
+        "SLOT_009597"
+      ],
+      "STARLINK-2178": [
+        "SLOT_009191",
+        "SLOT_009214"
+      ]
+    }
+  },
+  {
+    "terminal_id": "component_001_dnode_0098",
+    "original_component_id": "component_001",
+    "depth": 3,
+    "qubits": 6,
+    "couplers": 15,
+    "terminal_reason": "fits QPU limits",
+    "forced_selected": {
+      "STARLINK-1263": "SLOT_008252"
+    },
+    "forced_objective": 64.402,
+    "domains": {
+      "STARLINK-1558": [
+        "SLOT_004670",
+        "SLOT_007830"
+      ],
+      "STARLINK-2098": [
+        "SLOT_004047",
+        "SLOT_029214"
+      ],
+      "STARLINK-2102": [
+        "SLOT_004497",
+        "SLOT_027572"
+      ]
+    }
+  },
+  {
+    "terminal_id": "component_001_dnode_0099",
+    "original_component_id": "component_001",
+    "depth": 3,
+    "qubits": 6,
+    "couplers": 15,
+    "terminal_reason": "fits QPU limits",
+    "forced_selected": {
+      "STARLINK-1263": "SLOT_008252"
+    },
+    "forced_objective": 64.402,
+    "domains": {
+      "STARLINK-1558": [
+        "SLOT_004670",
+        "SLOT_007830"
+      ],
+      "STARLINK-2098": [
+        "SLOT_004047",
+        "SLOT_029214"
+      ],
+      "STARLINK-2102": [
+        "SLOT_004497",
+        "SLOT_027572"
+      ]
+    }
+  },
+  {
+    "terminal_id": "component_001_dnode_0100",
+    "original_component_id": "component_001",
+    "depth": 3,
+    "qubits": 6,
+    "couplers": 15,
+    "terminal_reason": "fits QPU limits",
+    "forced_selected": {
+      "STARLINK-1263": "SLOT_007041"
+    },
+    "forced_objective": 64.714,
+    "domains": {
+      "STARLINK-1558": [
+        "SLOT_004670",
+        "SLOT_007830"
+      ],
+      "STARLINK-2098": [
+        "SLOT_004047",
+        "SLOT_029214"
+      ],
+      "STARLINK-2102": [
+        "SLOT_004497",
+        "SLOT_027572"
+      ]
+    }
+  },
+  {
+    "terminal_id": "component_001_dnode_0101",
+    "original_component_id": "component_001",
+    "depth": 3,
+    "qubits": 9,
+    "couplers": 21,
+    "terminal_reason": "fits QPU limits",
+    "forced_selected": {},
+    "forced_objective": 0,
+    "domains": {
+      "STARLINK-1263": [
+        "SLOT_007041",
+        "SLOT_008252"
+      ],
+      "STARLINK-1558": [
+        "SLOT_004670",
+        "SLOT_007330",
+        "SLOT_007830"
+      ],
+      "STARLINK-2098": [
+        "SLOT_004047",
+        "SLOT_029214"
+      ],
+      "STARLINK-2102": [
+        "SLOT_004497",
+        "SLOT_027572"
+      ]
+    }
+  },
+  {
+    "terminal_id": "component_001_dnode_0102",
+    "original_component_id": "component_001",
+    "depth": 3,
+    "qubits": 9,
+    "couplers": 21,
+    "terminal_reason": "fits QPU limits",
+    "forced_selected": {},
+    "forced_objective": 0,
+    "domains": {
+      "STARLINK-1263": [
+        "SLOT_007041",
+        "SLOT_008252"
+      ],
+      "STARLINK-1558": [
+        "SLOT_004670",
+        "SLOT_007330",
+        "SLOT_007830"
+      ],
+      "STARLINK-2098": [
+        "SLOT_004047",
+        "SLOT_029214"
+      ],
+      "STARLINK-2102": [
+        "SLOT_004497",
+        "SLOT_027572"
+      ]
+    }
+  },
+  {
+    "terminal_id": "component_001_dnode_0103",
+    "original_component_id": "component_001",
+    "depth": 3,
+    "qubits": 6,
+    "couplers": 15,
+    "terminal_reason": "fits QPU limits",
+    "forced_selected": {
+      "STARLINK-1263": "SLOT_007041"
+    },
+    "forced_objective": 64.714,
+    "domains": {
+      "STARLINK-1558": [
+        "SLOT_004670",
+        "SLOT_007830"
+      ],
+      "STARLINK-2098": [
+        "SLOT_004047",
+        "SLOT_029214"
+      ],
+      "STARLINK-2102": [
+        "SLOT_004497",
+        "SLOT_027572"
+      ]
+    }
+  },
+  {
+    "terminal_id": "component_001_dnode_0104",
+    "original_component_id": "component_001",
+    "depth": 3,
+    "qubits": 9,
+    "couplers": 21,
+    "terminal_reason": "fits QPU limits",
+    "forced_selected": {},
+    "forced_objective": 0,
+    "domains": {
+      "STARLINK-1263": [
+        "SLOT_007041",
+        "SLOT_008252"
+      ],
+      "STARLINK-1558": [
+        "SLOT_004670",
+        "SLOT_007330",
+        "SLOT_007830"
+      ],
+      "STARLINK-2098": [
+        "SLOT_004047",
+        "SLOT_029214"
+      ],
+      "STARLINK-2102": [
+        "SLOT_004497",
+        "SLOT_027572"
+      ]
+    }
+  },
+  {
+    "terminal_id": "component_001_dnode_0105",
+    "original_component_id": "component_001",
+    "depth": 3,
+    "qubits": 9,
+    "couplers": 21,
+    "terminal_reason": "fits QPU limits",
+    "forced_selected": {},
+    "forced_objective": 0,
+    "domains": {
+      "STARLINK-1263": [
+        "SLOT_007041",
+        "SLOT_008252"
+      ],
+      "STARLINK-1558": [
+        "SLOT_004670",
+        "SLOT_007330",
+        "SLOT_007830"
+      ],
+      "STARLINK-2098": [
+        "SLOT_004047",
+        "SLOT_029214"
+      ],
+      "STARLINK-2102": [
+        "SLOT_004497",
+        "SLOT_027572"
+      ]
+    }
+  },
+  {
+    "terminal_id": "component_001_dnode_0106",
+    "original_component_id": "component_001",
+    "depth": 3,
+    "qubits": 6,
+    "couplers": 15,
+    "terminal_reason": "fits QPU limits",
+    "forced_selected": {
+      "STARLINK-1263": "SLOT_007041"
+    },
+    "forced_objective": 64.714,
+    "domains": {
+      "STARLINK-1558": [
+        "SLOT_004670",
+        "SLOT_007830"
+      ],
+      "STARLINK-2098": [
+        "SLOT_004047",
+        "SLOT_029214"
+      ],
+      "STARLINK-2102": [
+        "SLOT_004497",
+        "SLOT_027572"
+      ]
+    }
+  },
+  {
+    "terminal_id": "component_001_dnode_0107",
+    "original_component_id": "component_001",
+    "depth": 3,
+    "qubits": 9,
+    "couplers": 21,
+    "terminal_reason": "fits QPU limits",
+    "forced_selected": {},
+    "forced_objective": 0,
+    "domains": {
+      "STARLINK-1263": [
+        "SLOT_007041",
+        "SLOT_008252"
+      ],
+      "STARLINK-1558": [
+        "SLOT_004670",
+        "SLOT_007330",
+        "SLOT_007830"
+      ],
+      "STARLINK-2098": [
+        "SLOT_004047",
+        "SLOT_029214"
+      ],
+      "STARLINK-2102": [
+        "SLOT_004497",
+        "SLOT_027572"
+      ]
+    }
+  },
+  {
+    "terminal_id": "component_001_dnode_0108",
+    "original_component_id": "component_001",
+    "depth": 3,
+    "qubits": 6,
+    "couplers": 15,
+    "terminal_reason": "fits QPU limits",
+    "forced_selected": {
+      "STARLINK-1263": "SLOT_007041"
+    },
+    "forced_objective": 64.714,
+    "domains": {
+      "STARLINK-1558": [
+        "SLOT_004670",
+        "SLOT_007318"
+      ],
+      "STARLINK-2098": [
+        "SLOT_004047",
+        "SLOT_029214"
+      ],
+      "STARLINK-2102": [
+        "SLOT_004497",
+        "SLOT_027572"
+      ]
+    }
+  },
+  {
+    "terminal_id": "component_001_dnode_0109",
+    "original_component_id": "component_001",
+    "depth": 3,
+    "qubits": 9,
+    "couplers": 19,
+    "terminal_reason": "fits QPU limits",
+    "forced_selected": {},
+    "forced_objective": 0,
+    "domains": {
+      "STARLINK-1263": [
+        "SLOT_007041",
+        "SLOT_008252"
+      ],
+      "STARLINK-1558": [
+        "SLOT_004670",
+        "SLOT_007330",
+        "SLOT_007486"
+      ],
+      "STARLINK-2098": [
+        "SLOT_004047",
+        "SLOT_029214"
+      ],
+      "STARLINK-2102": [
+        "SLOT_004497",
+        "SLOT_027572"
+      ]
+    }
+  },
+  {
+    "terminal_id": "component_001_dnode_0110",
+    "original_component_id": "component_001",
+    "depth": 3,
+    "qubits": 9,
+    "couplers": 19,
+    "terminal_reason": "fits QPU limits",
+    "forced_selected": {},
+    "forced_objective": 0,
+    "domains": {
+      "STARLINK-1263": [
+        "SLOT_007041",
+        "SLOT_008252"
+      ],
+      "STARLINK-1558": [
+        "SLOT_004670",
+        "SLOT_007318",
+        "SLOT_007330"
+      ],
+      "STARLINK-2098": [
+        "SLOT_004047",
+        "SLOT_029214"
+      ],
+      "STARLINK-2102": [
+        "SLOT_004497",
+        "SLOT_027572"
+      ]
+    }
+  },
+  {
+    "terminal_id": "component_001_dnode_0111",
+    "original_component_id": "component_001",
+    "depth": 3,
+    "qubits": 6,
+    "couplers": 15,
+    "terminal_reason": "fits QPU limits",
+    "forced_selected": {
+      "STARLINK-1263": "SLOT_007041"
+    },
+    "forced_objective": 64.714,
+    "domains": {
+      "STARLINK-1558": [
+        "SLOT_004670",
+        "SLOT_007830"
+      ],
+      "STARLINK-2098": [
+        "SLOT_004047",
+        "SLOT_029214"
+      ],
+      "STARLINK-2102": [
+        "SLOT_004497",
+        "SLOT_027572"
+      ]
+    }
+  },
+  {
+    "terminal_id": "component_001_dnode_0112",
+    "original_component_id": "component_001",
+    "depth": 3,
+    "qubits": 11,
+    "couplers": 35,
+    "terminal_reason": "fits QPU limits",
+    "forced_selected": {},
+    "forced_objective": 0,
+    "domains": {
+      "STARLINK-1263": [
+        "SLOT_004349",
+        "SLOT_007041",
+        "SLOT_007513"
+      ],
+      "STARLINK-1558": [
+        "SLOT_004670",
+        "SLOT_007330",
+        "SLOT_007486",
+        "SLOT_007830"
+      ],
+      "STARLINK-2098": [
+        "SLOT_004047",
+        "SLOT_029214"
+      ],
+      "STARLINK-2102": [
+        "SLOT_004497",
+        "SLOT_027572"
+      ]
+    }
+  },
+  {
+    "terminal_id": "component_001_dnode_0113",
+    "original_component_id": "component_001",
+    "depth": 3,
+    "qubits": 11,
+    "couplers": 35,
+    "terminal_reason": "fits QPU limits",
+    "forced_selected": {},
+    "forced_objective": 0,
+    "domains": {
+      "STARLINK-1263": [
+        "SLOT_004349",
+        "SLOT_007041",
+        "SLOT_007513"
+      ],
+      "STARLINK-1558": [
+        "SLOT_004670",
+        "SLOT_007318",
+        "SLOT_007330",
+        "SLOT_007830"
+      ],
+      "STARLINK-2098": [
+        "SLOT_004047",
+        "SLOT_029214"
+      ],
+      "STARLINK-2102": [
+        "SLOT_004497",
+        "SLOT_027572"
+      ]
+    }
+  },
+  {
+    "terminal_id": "component_001_dnode_0116",
+    "original_component_id": "component_001",
+    "depth": 3,
+    "qubits": 14,
+    "couplers": 36,
+    "terminal_reason": "fits QPU limits",
+    "forced_selected": {},
+    "forced_objective": 0,
+    "domains": {
+      "STARLINK-1039": [
+        "SLOT_010096",
+        "SLOT_010259",
+        "SLOT_010452",
+        "SLOT_020485"
+      ],
+      "STARLINK-1063": [
+        "SLOT_009578",
+        "SLOT_009597",
+        "SLOT_019762",
+        "SLOT_025646"
+      ],
+      "STARLINK-1273": [
+        "SLOT_008680",
+        "SLOT_009587"
+      ],
+      "STARLINK-2178": [
+        "SLOT_009191",
+        "SLOT_009214",
+        "SLOT_019491",
+        "SLOT_025501"
+      ]
+    }
+  },
+  {
+    "terminal_id": "component_001_dnode_0117",
+    "original_component_id": "component_001",
+    "depth": 3,
+    "qubits": 10,
+    "couplers": 18,
+    "terminal_reason": "fits QPU limits",
+    "forced_selected": {},
+    "forced_objective": 0,
+    "domains": {
+      "STARLINK-1039": [
+        "SLOT_010096",
+        "SLOT_010259",
+        "SLOT_010452",
+        "SLOT_020485"
+      ],
+      "STARLINK-1063": [
+        "SLOT_009578",
+        "SLOT_009597",
+        "SLOT_019762",
+        "SLOT_025646"
+      ],
+      "STARLINK-2178": [
+        "SLOT_009036",
+        "SLOT_009214"
+      ]
+    }
+  },
+  {
+    "terminal_id": "component_001_dnode_0118",
+    "original_component_id": "component_001",
+    "depth": 3,
+    "qubits": 12,
+    "couplers": 29,
+    "terminal_reason": "fits QPU limits",
+    "forced_selected": {},
+    "forced_objective": 0,
+    "domains": {
+      "STARLINK-1039": [
+        "SLOT_010096",
+        "SLOT_010259",
+        "SLOT_010452",
+        "SLOT_020485"
+      ],
+      "STARLINK-1063": [
+        "SLOT_009578",
+        "SLOT_009597",
+        "SLOT_019762",
+        "SLOT_025646"
+      ],
+      "STARLINK-1273": [
+        "SLOT_008680",
+        "SLOT_009587"
+      ],
+      "STARLINK-2178": [
+        "SLOT_009036",
+        "SLOT_009191"
+      ]
+    }
+  },
+  {
+    "terminal_id": "component_001_dnode_0119",
+    "original_component_id": "component_001",
+    "depth": 3,
+    "qubits": 13,
+    "couplers": 32,
+    "terminal_reason": "fits QPU limits",
+    "forced_selected": {},
+    "forced_objective": 0,
+    "domains": {
+      "STARLINK-1039": [
+        "SLOT_010096",
+        "SLOT_010259",
+        "SLOT_010452",
+        "SLOT_020485"
+      ],
+      "STARLINK-1063": [
+        "SLOT_009578",
+        "SLOT_009597",
+        "SLOT_019762",
+        "SLOT_025646"
+      ],
+      "STARLINK-1273": [
+        "SLOT_008680",
+        "SLOT_009587"
+      ],
+      "STARLINK-2178": [
+        "SLOT_009036",
+        "SLOT_009191",
+        "SLOT_009214"
+      ]
+    }
+  },
+  {
+    "terminal_id": "component_001_dnode_0120",
+    "original_component_id": "component_001",
+    "depth": 3,
+    "qubits": 13,
+    "couplers": 32,
+    "terminal_reason": "fits QPU limits",
+    "forced_selected": {},
+    "forced_objective": 0,
+    "domains": {
+      "STARLINK-1039": [
+        "SLOT_010096",
+        "SLOT_010259",
+        "SLOT_010452",
+        "SLOT_020485"
+      ],
+      "STARLINK-1063": [
+        "SLOT_009578",
+        "SLOT_009597",
+        "SLOT_019762",
+        "SLOT_025646"
+      ],
+      "STARLINK-1273": [
+        "SLOT_008680",
+        "SLOT_009587"
+      ],
+      "STARLINK-2178": [
+        "SLOT_009036",
+        "SLOT_009191",
+        "SLOT_009214"
+      ]
+    }
+  },
+  {
+    "terminal_id": "component_001_dnode_0121",
+    "original_component_id": "component_001",
+    "depth": 3,
+    "qubits": 12,
+    "couplers": 27,
+    "terminal_reason": "fits QPU limits",
+    "forced_selected": {},
+    "forced_objective": 0,
+    "domains": {
+      "STARLINK-1039": [
+        "SLOT_010096",
+        "SLOT_010259",
+        "SLOT_010452",
+        "SLOT_020485"
+      ],
+      "STARLINK-1063": [
+        "SLOT_009578",
+        "SLOT_009597",
+        "SLOT_019762",
+        "SLOT_025646"
+      ],
+      "STARLINK-2178": [
+        "SLOT_009191",
+        "SLOT_009214",
+        "SLOT_019491",
+        "SLOT_025501"
+      ]
+    }
+  },
+  {
+    "terminal_id": "component_001_dnode_0122",
+    "original_component_id": "component_001",
+    "depth": 3,
+    "qubits": 10,
+    "couplers": 20,
+    "terminal_reason": "fits QPU limits",
+    "forced_selected": {},
+    "forced_objective": 0,
+    "domains": {
+      "STARLINK-1039": [
+        "SLOT_010096",
+        "SLOT_010259",
+        "SLOT_010452",
+        "SLOT_020485"
+      ],
+      "STARLINK-1063": [
+        "SLOT_009578",
+        "SLOT_009597",
+        "SLOT_019762",
+        "SLOT_025646"
+      ],
+      "STARLINK-2178": [
+        "SLOT_009036",
+        "SLOT_009191"
+      ]
+    }
+  },
+  {
+    "terminal_id": "component_001_dnode_0123",
+    "original_component_id": "component_001",
+    "depth": 3,
+    "qubits": 11,
+    "couplers": 23,
+    "terminal_reason": "fits QPU limits",
+    "forced_selected": {},
+    "forced_objective": 0,
+    "domains": {
+      "STARLINK-1039": [
+        "SLOT_010096",
+        "SLOT_010259",
+        "SLOT_010452",
+        "SLOT_020485"
+      ],
+      "STARLINK-1063": [
+        "SLOT_009578",
+        "SLOT_009597",
+        "SLOT_019762",
+        "SLOT_025646"
+      ],
+      "STARLINK-2178": [
+        "SLOT_009036",
+        "SLOT_009191",
+        "SLOT_009214"
+      ]
+    }
+  },
+  {
+    "terminal_id": "component_001_dnode_0124",
+    "original_component_id": "component_001",
+    "depth": 3,
+    "qubits": 11,
+    "couplers": 23,
+    "terminal_reason": "fits QPU limits",
+    "forced_selected": {},
+    "forced_objective": 0,
+    "domains": {
+      "STARLINK-1039": [
+        "SLOT_010096",
+        "SLOT_010259",
+        "SLOT_010452",
+        "SLOT_020485"
+      ],
+      "STARLINK-1063": [
+        "SLOT_009578",
+        "SLOT_009597",
+        "SLOT_019762",
+        "SLOT_025646"
+      ],
+      "STARLINK-2178": [
+        "SLOT_009036",
+        "SLOT_009191",
+        "SLOT_009214"
+      ]
+    }
+  },
+  {
+    "terminal_id": "component_001_dnode_0125",
+    "original_component_id": "component_001",
+    "depth": 3,
+    "qubits": 4,
+    "couplers": 6,
+    "terminal_reason": "fits QPU limits",
+    "forced_selected": {
+      "STARLINK-1039": "SLOT_020485",
+      "STARLINK-1063": "SLOT_009589"
+    },
+    "forced_objective": 130.994,
+    "domains": {
+      "STARLINK-1273": [
+        "SLOT_008680",
+        "SLOT_009587"
+      ],
+      "STARLINK-2178": [
+        "SLOT_009191",
+        "SLOT_019491"
+      ]
+    }
+  },
+  {
+    "terminal_id": "component_001_dnode_0127",
+    "original_component_id": "component_001",
+    "depth": 3,
+    "qubits": 4,
+    "couplers": 6,
+    "terminal_reason": "fits QPU limits",
+    "forced_selected": {
+      "STARLINK-1039": "SLOT_020485",
+      "STARLINK-1063": "SLOT_009589"
+    },
+    "forced_objective": 130.994,
+    "domains": {
+      "STARLINK-1273": [
+        "SLOT_008680",
+        "SLOT_009587"
+      ],
+      "STARLINK-2178": [
+        "SLOT_009036",
+        "SLOT_009191"
+      ]
+    }
+  },
+  {
+    "terminal_id": "component_001_dnode_0128",
+    "original_component_id": "component_001",
+    "depth": 3,
+    "qubits": 4,
+    "couplers": 6,
+    "terminal_reason": "fits QPU limits",
+    "forced_selected": {
+      "STARLINK-1039": "SLOT_020485",
+      "STARLINK-1063": "SLOT_009589"
+    },
+    "forced_objective": 130.994,
+    "domains": {
+      "STARLINK-1273": [
+        "SLOT_008680",
+        "SLOT_009587"
+      ],
+      "STARLINK-2178": [
+        "SLOT_009036",
+        "SLOT_009191"
+      ]
+    }
+  },
+  {
+    "terminal_id": "component_001_dnode_0132",
+    "original_component_id": "component_001",
+    "depth": 3,
+    "qubits": 7,
+    "couplers": 10,
+    "terminal_reason": "fits QPU limits",
+    "forced_selected": {
+      "STARLINK-1039": "SLOT_020485"
+    },
+    "forced_objective": 77.557,
+    "domains": {
+      "STARLINK-1063": [
+        "SLOT_009589",
+        "SLOT_009597"
+      ],
+      "STARLINK-1273": [
+        "SLOT_008680",
+        "SLOT_009587"
+      ],
+      "STARLINK-2178": [
+        "SLOT_009191",
+        "SLOT_009214",
+        "SLOT_019491"
+      ]
+    }
+  },
+  {
+    "terminal_id": "component_001_dnode_0133",
+    "original_component_id": "component_001",
+    "depth": 3,
+    "qubits": 4,
+    "couplers": 3,
+    "terminal_reason": "fits QPU limits",
+    "forced_selected": {
+      "STARLINK-1039": "SLOT_020485"
+    },
+    "forced_objective": 77.557,
+    "domains": {
+      "STARLINK-1063": [
+        "SLOT_009589",
+        "SLOT_009597"
+      ],
+      "STARLINK-2178": [
+        "SLOT_009036",
+        "SLOT_009214"
+      ]
+    }
+  },
+  {
+    "terminal_id": "component_001_dnode_0134",
+    "original_component_id": "component_001",
+    "depth": 3,
+    "qubits": 4,
+    "couplers": 6,
+    "terminal_reason": "fits QPU limits",
+    "forced_selected": {
+      "STARLINK-1039": "SLOT_020485",
+      "STARLINK-1063": "SLOT_009597"
+    },
+    "forced_objective": 131.674,
+    "domains": {
+      "STARLINK-1273": [
+        "SLOT_008680",
+        "SLOT_009587"
+      ],
+      "STARLINK-2178": [
+        "SLOT_009036",
+        "SLOT_009191"
+      ]
+    }
+  },
+  {
+    "terminal_id": "component_001_dnode_0135",
+    "original_component_id": "component_001",
+    "depth": 3,
+    "qubits": 7,
+    "couplers": 9,
+    "terminal_reason": "fits QPU limits",
+    "forced_selected": {
+      "STARLINK-1039": "SLOT_020485"
+    },
+    "forced_objective": 77.557,
+    "domains": {
+      "STARLINK-1063": [
+        "SLOT_009589",
+        "SLOT_009597"
+      ],
+      "STARLINK-1273": [
+        "SLOT_008680",
+        "SLOT_009587"
+      ],
+      "STARLINK-2178": [
+        "SLOT_009036",
+        "SLOT_009191",
+        "SLOT_009214"
+      ]
+    }
+  },
+  {
+    "terminal_id": "component_001_dnode_0136",
+    "original_component_id": "component_001",
+    "depth": 3,
+    "qubits": 7,
+    "couplers": 9,
+    "terminal_reason": "fits QPU limits",
+    "forced_selected": {
+      "STARLINK-1039": "SLOT_020485"
+    },
+    "forced_objective": 77.557,
+    "domains": {
+      "STARLINK-1063": [
+        "SLOT_009589",
+        "SLOT_009597"
+      ],
+      "STARLINK-1273": [
+        "SLOT_008680",
+        "SLOT_009587"
+      ],
+      "STARLINK-2178": [
+        "SLOT_009036",
+        "SLOT_009191",
+        "SLOT_009214"
+      ]
+    }
+  },
+  {
+    "terminal_id": "component_001_dnode_0137",
+    "original_component_id": "component_001",
+    "depth": 3,
+    "qubits": 4,
+    "couplers": 3,
+    "terminal_reason": "fits QPU limits",
+    "forced_selected": {
+      "STARLINK-1039": "SLOT_020485"
+    },
+    "forced_objective": 77.557,
+    "domains": {
+      "STARLINK-1063": [
+        "SLOT_009589",
+        "SLOT_009597"
+      ],
+      "STARLINK-2178": [
+        "SLOT_009191",
+        "SLOT_009214"
+      ]
+    }
+  },
+  {
+    "terminal_id": "component_001_dnode_0139",
+    "original_component_id": "component_001",
+    "depth": 3,
+    "qubits": 4,
+    "couplers": 3,
+    "terminal_reason": "fits QPU limits",
+    "forced_selected": {
+      "STARLINK-1039": "SLOT_020485"
+    },
+    "forced_objective": 77.557,
+    "domains": {
+      "STARLINK-1063": [
+        "SLOT_009589",
+        "SLOT_009597"
+      ],
+      "STARLINK-2178": [
+        "SLOT_009191",
+        "SLOT_009214"
+      ]
+    }
+  },
+  {
+    "terminal_id": "component_001_dnode_0140",
+    "original_component_id": "component_001",
+    "depth": 3,
+    "qubits": 4,
+    "couplers": 3,
+    "terminal_reason": "fits QPU limits",
+    "forced_selected": {
+      "STARLINK-1039": "SLOT_020485"
+    },
+    "forced_objective": 77.557,
+    "domains": {
+      "STARLINK-1063": [
+        "SLOT_009589",
+        "SLOT_009597"
+      ],
+      "STARLINK-2178": [
+        "SLOT_009191",
+        "SLOT_009214"
+      ]
+    }
+  },
+  {
+    "terminal_id": "component_001_dnode_0142",
+    "original_component_id": "component_001",
+    "depth": 3,
+    "qubits": 11,
+    "couplers": 19,
+    "terminal_reason": "fits QPU limits",
+    "forced_selected": {},
+    "forced_objective": 0,
+    "domains": {
+      "STARLINK-1063": [
+        "SLOT_009589",
+        "SLOT_009597",
+        "SLOT_025648"
+      ],
+      "STARLINK-1506": [
+        "SLOT_004389",
+        "SLOT_004553",
+        "SLOT_009201",
+        "SLOT_009351",
+        "SLOT_025484"
+      ],
+      "STARLINK-2147": [
+        "SLOT_003936",
+        "SLOT_004100",
+        "SLOT_024641"
+      ]
+    }
+  },
+  {
+    "terminal_id": "component_001_dnode_0143",
+    "original_component_id": "component_001",
+    "depth": 3,
+    "qubits": 9,
+    "couplers": 14,
+    "terminal_reason": "fits QPU limits",
+    "forced_selected": {},
+    "forced_objective": 0,
+    "domains": {
+      "STARLINK-1063": [
+        "SLOT_009589",
+        "SLOT_025648"
+      ],
+      "STARLINK-1506": [
+        "SLOT_004389",
+        "SLOT_004553",
+        "SLOT_009201",
+        "SLOT_025484"
+      ],
+      "STARLINK-2147": [
+        "SLOT_003936",
+        "SLOT_004100",
+        "SLOT_024641"
+      ]
+    }
+  },
+  {
+    "terminal_id": "component_001_dnode_0148",
+    "original_component_id": "component_001",
+    "depth": 3,
+    "qubits": 4,
+    "couplers": 3,
+    "terminal_reason": "fits QPU limits",
+    "forced_selected": {},
+    "forced_objective": 0,
+    "domains": {
+      "STARLINK-2103": [
+        "SLOT_028096",
+        "SLOT_031901"
+      ],
+      "STARLINK-2122": [
+        "SLOT_028848",
+        "SLOT_032843"
+      ]
+    }
+  },
+  {
+    "terminal_id": "component_001_dnode_0149",
+    "original_component_id": "component_001",
+    "depth": 3,
+    "qubits": 4,
+    "couplers": 3,
+    "terminal_reason": "fits QPU limits",
+    "forced_selected": {},
+    "forced_objective": 0,
+    "domains": {
+      "STARLINK-1260": [
+        "SLOT_009774",
+        "SLOT_009802"
+      ],
+      "STARLINK-1582": [
+        "SLOT_009939",
+        "SLOT_010122"
+      ]
+    }
+  },
+  {
+    "terminal_id": "component_001_dnode_0150",
+    "original_component_id": "component_001",
+    "depth": 3,
+    "qubits": 2,
+    "couplers": 1,
+    "terminal_reason": "fits QPU limits",
+    "forced_selected": {},
+    "forced_objective": 0,
+    "domains": {
+      "STARLINK-1456": [
+        "SLOT_034087"
+      ],
+      "STARLINK-2046": [
+        "SLOT_033338"
+      ]
+    }
+  },
+  {
+    "terminal_id": "component_001_dnode_0151",
+    "original_component_id": "component_001",
+    "depth": 3,
+    "qubits": 4,
+    "couplers": 3,
+    "terminal_reason": "fits QPU limits",
+    "forced_selected": {},
+    "forced_objective": 0,
+    "domains": {
+      "STARLINK-1260": [
+        "SLOT_006608",
+        "SLOT_009802"
+      ],
+      "STARLINK-1582": [
+        "SLOT_009939",
+        "SLOT_010122"
+      ]
+    }
+  },
+  {
+    "terminal_id": "component_001_dnode_0154",
+    "original_component_id": "component_001",
+    "depth": 3,
+    "qubits": 4,
+    "couplers": 3,
+    "terminal_reason": "fits QPU limits",
+    "forced_selected": {},
+    "forced_objective": 0,
+    "domains": {
+      "STARLINK-2103": [
+        "SLOT_028096",
+        "SLOT_031401"
+      ],
+      "STARLINK-2122": [
+        "SLOT_028848",
+        "SLOT_032843"
+      ]
+    }
+  },
+  {
+    "terminal_id": "component_001_dnode_0165",
+    "original_component_id": "component_001",
+    "depth": 3,
+    "qubits": 6,
+    "couplers": 9,
+    "terminal_reason": "fits QPU limits",
+    "forced_selected": {},
+    "forced_objective": 0,
+    "domains": {
+      "STARLINK-1260": [
+        "SLOT_006608",
+        "SLOT_009774",
+        "SLOT_009802"
+      ],
+      "STARLINK-1582": [
+        "SLOT_006873",
+        "SLOT_009939",
+        "SLOT_010122"
+      ]
+    }
+  },
+  {
+    "terminal_id": "component_001_dnode_0170",
+    "original_component_id": "component_001",
+    "depth": 3,
+    "qubits": 4,
+    "couplers": 4,
+    "terminal_reason": "fits QPU limits",
+    "forced_selected": {},
+    "forced_objective": 0,
+    "domains": {
+      "STARLINK-2103": [
+        "SLOT_028096",
+        "SLOT_031901"
+      ],
+      "STARLINK-2122": [
+        "SLOT_015935",
+        "SLOT_028848"
+      ]
+    }
+  },
+  {
+    "terminal_id": "component_001_dnode_0172",
+    "original_component_id": "component_001",
+    "depth": 3,
+    "qubits": 4,
+    "couplers": 4,
+    "terminal_reason": "fits QPU limits",
+    "forced_selected": {},
+    "forced_objective": 0,
+    "domains": {
+      "STARLINK-2103": [
+        "SLOT_028096",
+        "SLOT_031401"
+      ],
+      "STARLINK-2122": [
+        "SLOT_015935",
+        "SLOT_028848"
+      ]
+    }
+  },
+  {
+    "terminal_id": "component_001_dnode_0179",
+    "original_component_id": "component_001",
+    "depth": 4,
+    "qubits": 4,
+    "couplers": 6,
+    "terminal_reason": "fits QPU limits",
+    "forced_selected": {},
+    "forced_objective": 0,
+    "domains": {
+      "STARLINK-1273": [
+        "SLOT_008680",
+        "SLOT_009587"
+      ],
+      "STARLINK-2178": [
+        "SLOT_009191",
+        "SLOT_025501"
+      ]
+    }
+  },
+  {
+    "terminal_id": "component_001_dnode_0185",
+    "original_component_id": "component_001",
+    "depth": 3,
+    "qubits": 4,
+    "couplers": 4,
+    "terminal_reason": "fits QPU limits",
+    "forced_selected": {
+      "STARLINK-1039": "SLOT_020485"
+    },
+    "forced_objective": 77.557,
+    "domains": {
+      "STARLINK-1063": [
+        "SLOT_009589",
+        "SLOT_009597"
+      ],
+      "STARLINK-2178": [
+        "SLOT_009214",
+        "SLOT_019491"
+      ]
+    }
+  },
+  {
+    "terminal_id": "component_001_dnode_0186",
+    "original_component_id": "component_001",
+    "depth": 3,
+    "qubits": 4,
+    "couplers": 6,
+    "terminal_reason": "fits QPU limits",
+    "forced_selected": {
+      "STARLINK-1039": "SLOT_020485",
+      "STARLINK-1063": "SLOT_009597"
+    },
+    "forced_objective": 131.674,
+    "domains": {
+      "STARLINK-1273": [
+        "SLOT_008680",
+        "SLOT_009587"
+      ],
+      "STARLINK-2178": [
+        "SLOT_009191",
+        "SLOT_019491"
+      ]
+    }
+  },
+  {
+    "terminal_id": "component_001_dnode_0187",
+    "original_component_id": "component_001",
+    "depth": 3,
+    "qubits": 7,
+    "couplers": 10,
+    "terminal_reason": "fits QPU limits",
+    "forced_selected": {
+      "STARLINK-1039": "SLOT_020485"
+    },
+    "forced_objective": 77.557,
+    "domains": {
+      "STARLINK-1063": [
+        "SLOT_009589",
+        "SLOT_009597"
+      ],
+      "STARLINK-1273": [
+        "SLOT_008680",
+        "SLOT_009587"
+      ],
+      "STARLINK-2178": [
+        "SLOT_009191",
+        "SLOT_009214",
+        "SLOT_025501"
+      ]
+    }
+  },
+  {
+    "terminal_id": "component_001_dnode_0189",
+    "original_component_id": "component_001",
+    "depth": 3,
+    "qubits": 4,
+    "couplers": 3,
+    "terminal_reason": "fits QPU limits",
+    "forced_selected": {
+      "STARLINK-1039": "SLOT_020485"
+    },
+    "forced_objective": 77.557,
+    "domains": {
+      "STARLINK-1063": [
+        "SLOT_009589",
+        "SLOT_009597"
+      ],
+      "STARLINK-2178": [
+        "SLOT_009191",
+        "SLOT_009214"
+      ]
+    }
+  },
+  {
+    "terminal_id": "component_001_dnode_0190",
+    "original_component_id": "component_001",
+    "depth": 3,
+    "qubits": 11,
+    "couplers": 23,
+    "terminal_reason": "fits QPU limits",
+    "forced_selected": {},
+    "forced_objective": 0,
+    "domains": {
+      "STARLINK-1039": [
+        "SLOT_010096",
+        "SLOT_010259",
+        "SLOT_010452",
+        "SLOT_020485"
+      ],
+      "STARLINK-1063": [
+        "SLOT_009578",
+        "SLOT_009597",
+        "SLOT_019762",
+        "SLOT_025646"
+      ],
+      "STARLINK-2178": [
+        "SLOT_009214",
+        "SLOT_019491",
+        "SLOT_025501"
+      ]
+    }
+  },
+  {
+    "terminal_id": "component_001_dnode_0191",
+    "original_component_id": "component_001",
+    "depth": 3,
+    "qubits": 13,
+    "couplers": 32,
+    "terminal_reason": "fits QPU limits",
+    "forced_selected": {},
+    "forced_objective": 0,
+    "domains": {
+      "STARLINK-1039": [
+        "SLOT_010096",
+        "SLOT_010259",
+        "SLOT_010452",
+        "SLOT_020485"
+      ],
+      "STARLINK-1063": [
+        "SLOT_009578",
+        "SLOT_009597",
+        "SLOT_019762",
+        "SLOT_025646"
+      ],
+      "STARLINK-1273": [
+        "SLOT_008680",
+        "SLOT_009587"
+      ],
+      "STARLINK-2178": [
+        "SLOT_009191",
+        "SLOT_019491",
+        "SLOT_025501"
+      ]
+    }
+  },
+  {
+    "terminal_id": "component_001_dnode_0192",
+    "original_component_id": "component_001",
+    "depth": 3,
+    "qubits": 13,
+    "couplers": 33,
+    "terminal_reason": "fits QPU limits",
+    "forced_selected": {},
+    "forced_objective": 0,
+    "domains": {
+      "STARLINK-1039": [
+        "SLOT_010096",
+        "SLOT_010259",
+        "SLOT_010452",
+        "SLOT_020485"
+      ],
+      "STARLINK-1063": [
+        "SLOT_009578",
+        "SLOT_009597",
+        "SLOT_019762",
+        "SLOT_025646"
+      ],
+      "STARLINK-1273": [
+        "SLOT_008680",
+        "SLOT_009587"
+      ],
+      "STARLINK-2178": [
+        "SLOT_009191",
+        "SLOT_009214",
+        "SLOT_025501"
+      ]
+    }
+  },
+  {
+    "terminal_id": "component_001_dnode_0193",
+    "original_component_id": "component_001",
+    "depth": 3,
+    "qubits": 11,
+    "couplers": 23,
+    "terminal_reason": "fits QPU limits",
+    "forced_selected": {},
+    "forced_objective": 0,
+    "domains": {
+      "STARLINK-1039": [
+        "SLOT_010096",
+        "SLOT_010259",
+        "SLOT_010452",
+        "SLOT_020485"
+      ],
+      "STARLINK-1063": [
+        "SLOT_009578",
+        "SLOT_009597",
+        "SLOT_019762",
+        "SLOT_025646"
+      ],
+      "STARLINK-2178": [
+        "SLOT_009191",
+        "SLOT_019491",
+        "SLOT_025501"
+      ]
+    }
+  },
+  {
+    "terminal_id": "component_001_dnode_0194",
+    "original_component_id": "component_001",
+    "depth": 3,
+    "qubits": 11,
+    "couplers": 24,
+    "terminal_reason": "fits QPU limits",
+    "forced_selected": {},
+    "forced_objective": 0,
+    "domains": {
+      "STARLINK-1039": [
+        "SLOT_010096",
+        "SLOT_010259",
+        "SLOT_010452",
+        "SLOT_020485"
+      ],
+      "STARLINK-1063": [
+        "SLOT_009578",
+        "SLOT_009597",
+        "SLOT_019762",
+        "SLOT_025646"
+      ],
+      "STARLINK-2178": [
+        "SLOT_009191",
+        "SLOT_009214",
+        "SLOT_025501"
+      ]
+    }
+  },
+  {
+    "terminal_id": "component_001_dnode_0196",
+    "original_component_id": "component_001",
+    "depth": 3,
+    "qubits": 4,
+    "couplers": 6,
+    "terminal_reason": "fits QPU limits",
+    "forced_selected": {
+      "STARLINK-1039": "SLOT_020485",
+      "STARLINK-1063": "SLOT_009589"
+    },
+    "forced_objective": 130.994,
+    "domains": {
+      "STARLINK-1273": [
+        "SLOT_008680",
+        "SLOT_009587"
+      ],
+      "STARLINK-2178": [
+        "SLOT_009191",
+        "SLOT_025501"
+      ]
+    }
+  },
+  {
+    "terminal_id": "component_001_dnode_0198",
+    "original_component_id": "component_001",
+    "depth": 3,
+    "qubits": 4,
+    "couplers": 4,
+    "terminal_reason": "fits QPU limits",
+    "forced_selected": {
+      "STARLINK-1039": "SLOT_020485"
+    },
+    "forced_objective": 77.557,
+    "domains": {
+      "STARLINK-1063": [
+        "SLOT_009589",
+        "SLOT_009597"
+      ],
+      "STARLINK-2178": [
+        "SLOT_009214",
+        "SLOT_019491"
+      ]
+    }
+  },
+  {
+    "terminal_id": "component_001_dnode_0199",
+    "original_component_id": "component_001",
+    "depth": 3,
+    "qubits": 4,
+    "couplers": 6,
+    "terminal_reason": "fits QPU limits",
+    "forced_selected": {
+      "STARLINK-1039": "SLOT_020485",
+      "STARLINK-1063": "SLOT_009597"
+    },
+    "forced_objective": 131.674,
+    "domains": {
+      "STARLINK-1273": [
+        "SLOT_008680",
+        "SLOT_009587"
+      ],
+      "STARLINK-2178": [
+        "SLOT_009191",
+        "SLOT_019491"
+      ]
+    }
+  },
+  {
+    "terminal_id": "component_001_dnode_0200",
+    "original_component_id": "component_001",
+    "depth": 3,
+    "qubits": 7,
+    "couplers": 10,
+    "terminal_reason": "fits QPU limits",
+    "forced_selected": {
+      "STARLINK-1039": "SLOT_020485"
+    },
+    "forced_objective": 77.557,
+    "domains": {
+      "STARLINK-1063": [
+        "SLOT_009589",
+        "SLOT_009597"
+      ],
+      "STARLINK-1273": [
+        "SLOT_008680",
+        "SLOT_009587"
+      ],
+      "STARLINK-2178": [
+        "SLOT_009191",
+        "SLOT_009214",
+        "SLOT_025501"
+      ]
+    }
+  },
+  {
+    "terminal_id": "component_001_dnode_0202",
+    "original_component_id": "component_001",
+    "depth": 3,
+    "qubits": 4,
+    "couplers": 3,
+    "terminal_reason": "fits QPU limits",
+    "forced_selected": {
+      "STARLINK-1039": "SLOT_020485"
+    },
+    "forced_objective": 77.557,
+    "domains": {
+      "STARLINK-1063": [
+        "SLOT_009589",
+        "SLOT_009597"
+      ],
+      "STARLINK-2178": [
+        "SLOT_009191",
+        "SLOT_009214"
+      ]
+    }
+  },
+  {
+    "terminal_id": "component_001_dnode_0207",
+    "original_component_id": "component_001",
+    "depth": 3,
+    "qubits": 13,
+    "couplers": 26,
+    "terminal_reason": "fits QPU limits",
+    "forced_selected": {},
+    "forced_objective": 0,
+    "domains": {
+      "STARLINK-1063": [
+        "SLOT_009589",
+        "SLOT_009597",
+        "SLOT_025648"
+      ],
+      "STARLINK-1193": [
+        "SLOT_025155"
+      ],
+      "STARLINK-1506": [
+        "SLOT_004389",
+        "SLOT_009201",
+        "SLOT_009351",
+        "SLOT_025484",
+        "SLOT_025505"
+      ],
+      "STARLINK-2147": [
+        "SLOT_003936",
+        "SLOT_024641"
+      ],
+      "STARLINK-2178": [
+        "SLOT_009214",
+        "SLOT_019491"
+      ]
+    }
+  },
+  {
+    "terminal_id": "component_001_dnode_0209",
+    "original_component_id": "component_001",
+    "depth": 3,
+    "qubits": 4,
+    "couplers": 6,
+    "terminal_reason": "fits QPU limits",
+    "forced_selected": {},
+    "forced_objective": 0,
+    "domains": {
+      "STARLINK-1263": [
+        "SLOT_007041",
+        "SLOT_008252"
+      ],
+      "STARLINK-1558": [
+        "SLOT_007330",
+        "SLOT_007830"
+      ]
+    }
+  },
+  {
+    "terminal_id": "component_001_dnode_0210",
+    "original_component_id": "component_001",
+    "depth": 3,
+    "qubits": 13,
+    "couplers": 22,
+    "terminal_reason": "fits QPU limits",
+    "forced_selected": {},
+    "forced_objective": 0,
+    "domains": {
+      "STARLINK-1063": [
+        "SLOT_009589",
+        "SLOT_009597",
+        "SLOT_025648"
+      ],
+      "STARLINK-1193": [
+        "SLOT_025155"
+      ],
+      "STARLINK-1506": [
+        "SLOT_004389",
+        "SLOT_009201",
+        "SLOT_009351",
+        "SLOT_025484",
+        "SLOT_025505"
+      ],
+      "STARLINK-2147": [
+        "SLOT_003936",
+        "SLOT_024641"
+      ],
+      "STARLINK-2178": [
+        "SLOT_009036",
+        "SLOT_009214"
+      ]
+    }
+  },
+  {
+    "terminal_id": "component_001_dnode_0211",
+    "original_component_id": "component_001",
+    "depth": 3,
+    "qubits": 13,
+    "couplers": 22,
+    "terminal_reason": "fits QPU limits",
+    "forced_selected": {},
+    "forced_objective": 0,
+    "domains": {
+      "STARLINK-1063": [
+        "SLOT_009589",
+        "SLOT_009597",
+        "SLOT_025648"
+      ],
+      "STARLINK-1193": [
+        "SLOT_025155"
+      ],
+      "STARLINK-1506": [
+        "SLOT_004389",
+        "SLOT_009201",
+        "SLOT_009351",
+        "SLOT_025484",
+        "SLOT_025505"
+      ],
+      "STARLINK-2147": [
+        "SLOT_003936",
+        "SLOT_024641"
+      ],
+      "STARLINK-2178": [
+        "SLOT_009036",
+        "SLOT_009214"
+      ]
+    }
+  },
+  {
+    "terminal_id": "component_001_dnode_0212",
+    "original_component_id": "component_001",
+    "depth": 3,
+    "qubits": 6,
+    "couplers": 15,
+    "terminal_reason": "fits QPU limits",
+    "forced_selected": {
+      "STARLINK-1263": "SLOT_008252"
+    },
+    "forced_objective": 64.402,
+    "domains": {
+      "STARLINK-1558": [
+        "SLOT_004670",
+        "SLOT_007830"
+      ],
+      "STARLINK-2098": [
+        "SLOT_004047",
+        "SLOT_029214"
+      ],
+      "STARLINK-2102": [
+        "SLOT_004497",
+        "SLOT_027572"
+      ]
+    }
+  },
+  {
+    "terminal_id": "component_001_dnode_0213",
+    "original_component_id": "component_001",
+    "depth": 3,
+    "qubits": 6,
+    "couplers": 15,
+    "terminal_reason": "fits QPU limits",
+    "forced_selected": {
+      "STARLINK-1263": "SLOT_007041"
+    },
+    "forced_objective": 64.714,
+    "domains": {
+      "STARLINK-1558": [
+        "SLOT_004670",
+        "SLOT_007830"
+      ],
+      "STARLINK-2098": [
+        "SLOT_004047",
+        "SLOT_029214"
+      ],
+      "STARLINK-2102": [
+        "SLOT_004497",
+        "SLOT_027572"
+      ]
+    }
+  },
+  {
+    "terminal_id": "component_001_dnode_0214",
+    "original_component_id": "component_001",
+    "depth": 3,
+    "qubits": 9,
+    "couplers": 21,
+    "terminal_reason": "fits QPU limits",
+    "forced_selected": {},
+    "forced_objective": 0,
+    "domains": {
+      "STARLINK-1263": [
+        "SLOT_007041",
+        "SLOT_008252"
+      ],
+      "STARLINK-1558": [
+        "SLOT_004670",
+        "SLOT_007330",
+        "SLOT_007830"
+      ],
+      "STARLINK-2098": [
+        "SLOT_004047",
+        "SLOT_029214"
+      ],
+      "STARLINK-2102": [
+        "SLOT_004497",
+        "SLOT_027572"
+      ]
+    }
+  },
+  {
+    "terminal_id": "component_001_dnode_0215",
+    "original_component_id": "component_001",
+    "depth": 3,
+    "qubits": 6,
+    "couplers": 15,
+    "terminal_reason": "fits QPU limits",
+    "forced_selected": {
+      "STARLINK-1263": "SLOT_007041"
+    },
+    "forced_objective": 64.714,
+    "domains": {
+      "STARLINK-1558": [
+        "SLOT_004670",
+        "SLOT_007318"
+      ],
+      "STARLINK-2098": [
+        "SLOT_004047",
+        "SLOT_029214"
+      ],
+      "STARLINK-2102": [
+        "SLOT_004497",
+        "SLOT_027572"
+      ]
+    }
+  },
+  {
+    "terminal_id": "component_001_dnode_0216",
+    "original_component_id": "component_001",
+    "depth": 3,
+    "qubits": 9,
+    "couplers": 19,
+    "terminal_reason": "fits QPU limits",
+    "forced_selected": {},
+    "forced_objective": 0,
+    "domains": {
+      "STARLINK-1263": [
+        "SLOT_007041",
+        "SLOT_008252"
+      ],
+      "STARLINK-1558": [
+        "SLOT_004670",
+        "SLOT_007318",
+        "SLOT_007330"
+      ],
+      "STARLINK-2098": [
+        "SLOT_004047",
+        "SLOT_029214"
+      ],
+      "STARLINK-2102": [
+        "SLOT_004497",
+        "SLOT_027572"
+      ]
+    }
+  },
+  {
+    "terminal_id": "component_001_dnode_0217",
+    "original_component_id": "component_001",
+    "depth": 3,
+    "qubits": 6,
+    "couplers": 15,
+    "terminal_reason": "fits QPU limits",
+    "forced_selected": {
+      "STARLINK-1263": "SLOT_007041"
+    },
+    "forced_objective": 64.714,
+    "domains": {
+      "STARLINK-1558": [
+        "SLOT_004670",
+        "SLOT_007830"
+      ],
+      "STARLINK-2098": [
+        "SLOT_004047",
+        "SLOT_029214"
+      ],
+      "STARLINK-2102": [
+        "SLOT_004497",
+        "SLOT_027572"
+      ]
+    }
+  },
+  {
+    "terminal_id": "component_001_dnode_0218",
+    "original_component_id": "component_001",
+    "depth": 3,
+    "qubits": 11,
+    "couplers": 35,
+    "terminal_reason": "fits QPU limits",
+    "forced_selected": {},
+    "forced_objective": 0,
+    "domains": {
+      "STARLINK-1263": [
+        "SLOT_004349",
+        "SLOT_007041",
+        "SLOT_007513"
+      ],
+      "STARLINK-1558": [
+        "SLOT_004670",
+        "SLOT_007318",
+        "SLOT_007330",
+        "SLOT_007830"
+      ],
+      "STARLINK-2098": [
+        "SLOT_004047",
+        "SLOT_029214"
+      ],
+      "STARLINK-2102": [
+        "SLOT_004497",
+        "SLOT_027572"
+      ]
+    }
+  },
+  {
+    "terminal_id": "component_001_dnode_0219",
+    "original_component_id": "component_001",
+    "depth": 3,
+    "qubits": 13,
+    "couplers": 22,
+    "terminal_reason": "fits QPU limits",
+    "forced_selected": {},
+    "forced_objective": 0,
+    "domains": {
+      "STARLINK-1063": [
+        "SLOT_009589",
+        "SLOT_009597",
+        "SLOT_025648"
+      ],
+      "STARLINK-1193": [
+        "SLOT_025155"
+      ],
+      "STARLINK-1506": [
+        "SLOT_004389",
+        "SLOT_009201",
+        "SLOT_009351",
+        "SLOT_025484",
+        "SLOT_025505"
+      ],
+      "STARLINK-2147": [
+        "SLOT_003936",
+        "SLOT_024641"
+      ],
+      "STARLINK-2178": [
+        "SLOT_009191",
+        "SLOT_009214"
+      ]
+    }
+  },
+  {
+    "terminal_id": "component_001_dnode_0220",
+    "original_component_id": "component_001",
+    "depth": 3,
+    "qubits": 4,
+    "couplers": 6,
+    "terminal_reason": "fits QPU limits",
+    "forced_selected": {},
+    "forced_objective": 0,
+    "domains": {
+      "STARLINK-1263": [
+        "SLOT_007041",
+        "SLOT_008252"
+      ],
+      "STARLINK-1558": [
+        "SLOT_007330",
+        "SLOT_007830"
+      ]
+    }
+  },
+  {
+    "terminal_id": "component_001_dnode_0221",
+    "original_component_id": "component_001",
+    "depth": 3,
+    "qubits": 13,
+    "couplers": 22,
+    "terminal_reason": "fits QPU limits",
+    "forced_selected": {},
+    "forced_objective": 0,
+    "domains": {
+      "STARLINK-1063": [
+        "SLOT_009589",
+        "SLOT_009597",
+        "SLOT_025648"
+      ],
+      "STARLINK-1193": [
+        "SLOT_025155"
+      ],
+      "STARLINK-1506": [
+        "SLOT_004389",
+        "SLOT_009201",
+        "SLOT_009351",
+        "SLOT_025484",
+        "SLOT_025505"
+      ],
+      "STARLINK-2147": [
+        "SLOT_003936",
+        "SLOT_024641"
+      ],
+      "STARLINK-2178": [
+        "SLOT_009191",
+        "SLOT_009214"
+      ]
+    }
+  },
+  {
+    "terminal_id": "component_001_dnode_0222",
+    "original_component_id": "component_001",
+    "depth": 3,
+    "qubits": 13,
+    "couplers": 22,
+    "terminal_reason": "fits QPU limits",
+    "forced_selected": {},
+    "forced_objective": 0,
+    "domains": {
+      "STARLINK-1063": [
+        "SLOT_009589",
+        "SLOT_009597",
+        "SLOT_025648"
+      ],
+      "STARLINK-1193": [
+        "SLOT_025155"
+      ],
+      "STARLINK-1506": [
+        "SLOT_004389",
+        "SLOT_009201",
+        "SLOT_009351",
+        "SLOT_025484",
+        "SLOT_025505"
+      ],
+      "STARLINK-2147": [
+        "SLOT_003936",
+        "SLOT_024641"
+      ],
+      "STARLINK-2178": [
+        "SLOT_009191",
+        "SLOT_009214"
+      ]
+    }
+  },
+  {
+    "terminal_id": "component_001_dnode_0223",
+    "original_component_id": "component_001",
+    "depth": 3,
+    "qubits": 6,
+    "couplers": 15,
+    "terminal_reason": "fits QPU limits",
+    "forced_selected": {
+      "STARLINK-1263": "SLOT_007041"
+    },
+    "forced_objective": 64.714,
+    "domains": {
+      "STARLINK-1558": [
+        "SLOT_004670",
+        "SLOT_007830"
+      ],
+      "STARLINK-2098": [
+        "SLOT_004047",
+        "SLOT_029214"
+      ],
+      "STARLINK-2102": [
+        "SLOT_004497",
+        "SLOT_027572"
+      ]
+    }
+  },
+  {
+    "terminal_id": "component_001_dnode_0224",
+    "original_component_id": "component_001",
+    "depth": 3,
+    "qubits": 9,
+    "couplers": 21,
+    "terminal_reason": "fits QPU limits",
+    "forced_selected": {},
+    "forced_objective": 0,
+    "domains": {
+      "STARLINK-1263": [
+        "SLOT_007041",
+        "SLOT_008252"
+      ],
+      "STARLINK-1558": [
+        "SLOT_004670",
+        "SLOT_007330",
+        "SLOT_007830"
+      ],
+      "STARLINK-2098": [
+        "SLOT_004047",
+        "SLOT_029214"
+      ],
+      "STARLINK-2102": [
+        "SLOT_004497",
+        "SLOT_027572"
+      ]
+    }
+  },
+  {
+    "terminal_id": "component_001_dnode_0225",
+    "original_component_id": "component_001",
+    "depth": 3,
+    "qubits": 6,
+    "couplers": 15,
+    "terminal_reason": "fits QPU limits",
+    "forced_selected": {
+      "STARLINK-1263": "SLOT_008252"
+    },
+    "forced_objective": 64.402,
+    "domains": {
+      "STARLINK-1558": [
+        "SLOT_004670",
+        "SLOT_007830"
+      ],
+      "STARLINK-2098": [
+        "SLOT_004047",
+        "SLOT_029214"
+      ],
+      "STARLINK-2102": [
+        "SLOT_004497",
+        "SLOT_027572"
+      ]
+    }
+  },
+  {
+    "terminal_id": "component_001_dnode_0226",
+    "original_component_id": "component_001",
+    "depth": 3,
+    "qubits": 9,
+    "couplers": 19,
+    "terminal_reason": "fits QPU limits",
+    "forced_selected": {},
+    "forced_objective": 0,
+    "domains": {
+      "STARLINK-1263": [
+        "SLOT_007041",
+        "SLOT_008252"
+      ],
+      "STARLINK-1558": [
+        "SLOT_004670",
+        "SLOT_007330",
+        "SLOT_007486"
+      ],
+      "STARLINK-2098": [
+        "SLOT_004047",
+        "SLOT_029214"
+      ],
+      "STARLINK-2102": [
+        "SLOT_004497",
+        "SLOT_027572"
+      ]
+    }
+  },
+  {
+    "terminal_id": "component_001_dnode_0227",
+    "original_component_id": "component_001",
+    "depth": 3,
+    "qubits": 11,
+    "couplers": 35,
+    "terminal_reason": "fits QPU limits",
+    "forced_selected": {},
+    "forced_objective": 0,
+    "domains": {
+      "STARLINK-1263": [
+        "SLOT_004349",
+        "SLOT_007041",
+        "SLOT_007513"
+      ],
+      "STARLINK-1558": [
+        "SLOT_004670",
+        "SLOT_007330",
+        "SLOT_007486",
+        "SLOT_007830"
+      ],
+      "STARLINK-2098": [
+        "SLOT_004047",
+        "SLOT_029214"
+      ],
+      "STARLINK-2102": [
+        "SLOT_004497",
+        "SLOT_027572"
+      ]
+    }
+  },
+  {
+    "terminal_id": "component_001_dnode_0229",
+    "original_component_id": "component_001",
+    "depth": 3,
+    "qubits": 16,
+    "couplers": 33,
+    "terminal_reason": "fits QPU limits",
+    "forced_selected": {},
+    "forced_objective": 0,
+    "domains": {
+      "STARLINK-1063": [
+        "SLOT_009597",
+        "SLOT_025648"
+      ],
+      "STARLINK-1193": [
+        "SLOT_025155"
+      ],
+      "STARLINK-1273": [
+        "SLOT_008680",
+        "SLOT_009587"
+      ],
+      "STARLINK-1506": [
+        "SLOT_004389",
+        "SLOT_004553",
+        "SLOT_009351",
+        "SLOT_025484",
+        "SLOT_025505"
+      ],
+      "STARLINK-2147": [
+        "SLOT_003936",
+        "SLOT_004100",
+        "SLOT_024641"
+      ],
+      "STARLINK-2178": [
+        "SLOT_009191",
+        "SLOT_009214",
+        "SLOT_019491"
+      ]
+    }
+  },
+  {
+    "terminal_id": "component_001_dnode_0230",
+    "original_component_id": "component_001",
+    "depth": 3,
+    "qubits": 13,
+    "couplers": 23,
+    "terminal_reason": "fits QPU limits",
+    "forced_selected": {},
+    "forced_objective": 0,
+    "domains": {
+      "STARLINK-1063": [
+        "SLOT_009597",
+        "SLOT_025648"
+      ],
+      "STARLINK-1193": [
+        "SLOT_025155"
+      ],
+      "STARLINK-1506": [
+        "SLOT_004389",
+        "SLOT_004553",
+        "SLOT_009351",
+        "SLOT_025484",
+        "SLOT_025505"
+      ],
+      "STARLINK-2147": [
+        "SLOT_003936",
+        "SLOT_004100",
+        "SLOT_024641"
+      ],
+      "STARLINK-2178": [
+        "SLOT_009036",
+        "SLOT_009214"
+      ]
+    }
+  },
+  {
+    "terminal_id": "component_001_dnode_0231",
+    "original_component_id": "component_001",
+    "depth": 3,
+    "qubits": 16,
+    "couplers": 29,
+    "terminal_reason": "fits QPU limits",
+    "forced_selected": {},
+    "forced_objective": 0,
+    "domains": {
+      "STARLINK-1063": [
+        "SLOT_009597",
+        "SLOT_025648"
+      ],
+      "STARLINK-1193": [
+        "SLOT_025155"
+      ],
+      "STARLINK-1273": [
+        "SLOT_008680",
+        "SLOT_009587"
+      ],
+      "STARLINK-1506": [
+        "SLOT_004389",
+        "SLOT_004553",
+        "SLOT_009351",
+        "SLOT_025484",
+        "SLOT_025505"
+      ],
+      "STARLINK-2147": [
+        "SLOT_003936",
+        "SLOT_004100",
+        "SLOT_024641"
+      ],
+      "STARLINK-2178": [
+        "SLOT_009036",
+        "SLOT_009191",
+        "SLOT_009214"
+      ]
+    }
+  },
+  {
+    "terminal_id": "component_001_dnode_0232",
+    "original_component_id": "component_001",
+    "depth": 3,
+    "qubits": 16,
+    "couplers": 29,
+    "terminal_reason": "fits QPU limits",
+    "forced_selected": {},
+    "forced_objective": 0,
+    "domains": {
+      "STARLINK-1063": [
+        "SLOT_009597",
+        "SLOT_025648"
+      ],
+      "STARLINK-1193": [
+        "SLOT_025155"
+      ],
+      "STARLINK-1273": [
+        "SLOT_008680",
+        "SLOT_009587"
+      ],
+      "STARLINK-1506": [
+        "SLOT_004389",
+        "SLOT_004553",
+        "SLOT_009351",
+        "SLOT_025484",
+        "SLOT_025505"
+      ],
+      "STARLINK-2147": [
+        "SLOT_003936",
+        "SLOT_004100",
+        "SLOT_024641"
+      ],
+      "STARLINK-2178": [
+        "SLOT_009036",
+        "SLOT_009191",
+        "SLOT_009214"
+      ]
+    }
+  },
+  {
+    "terminal_id": "component_001_dnode_0233",
+    "original_component_id": "component_001",
+    "depth": 3,
+    "qubits": 13,
+    "couplers": 23,
+    "terminal_reason": "fits QPU limits",
+    "forced_selected": {},
+    "forced_objective": 0,
+    "domains": {
+      "STARLINK-1063": [
+        "SLOT_009597",
+        "SLOT_025648"
+      ],
+      "STARLINK-1193": [
+        "SLOT_025155"
+      ],
+      "STARLINK-1506": [
+        "SLOT_004389",
+        "SLOT_004553",
+        "SLOT_009351",
+        "SLOT_025484",
+        "SLOT_025505"
+      ],
+      "STARLINK-2147": [
+        "SLOT_003936",
+        "SLOT_004100",
+        "SLOT_024641"
+      ],
+      "STARLINK-2178": [
+        "SLOT_009191",
+        "SLOT_009214"
+      ]
+    }
+  },
+  {
+    "terminal_id": "component_001_dnode_0234",
+    "original_component_id": "component_001",
+    "depth": 3,
+    "qubits": 13,
+    "couplers": 23,
+    "terminal_reason": "fits QPU limits",
+    "forced_selected": {},
+    "forced_objective": 0,
+    "domains": {
+      "STARLINK-1063": [
+        "SLOT_009597",
+        "SLOT_025648"
+      ],
+      "STARLINK-1193": [
+        "SLOT_025155"
+      ],
+      "STARLINK-1506": [
+        "SLOT_004389",
+        "SLOT_004553",
+        "SLOT_009351",
+        "SLOT_025484",
+        "SLOT_025505"
+      ],
+      "STARLINK-2147": [
+        "SLOT_003936",
+        "SLOT_004100",
+        "SLOT_024641"
+      ],
+      "STARLINK-2178": [
+        "SLOT_009191",
+        "SLOT_009214"
+      ]
+    }
+  },
+  {
+    "terminal_id": "component_001_dnode_0235",
+    "original_component_id": "component_001",
+    "depth": 3,
+    "qubits": 13,
+    "couplers": 23,
+    "terminal_reason": "fits QPU limits",
+    "forced_selected": {},
+    "forced_objective": 0,
+    "domains": {
+      "STARLINK-1063": [
+        "SLOT_009597",
+        "SLOT_025648"
+      ],
+      "STARLINK-1193": [
+        "SLOT_025155"
+      ],
+      "STARLINK-1506": [
+        "SLOT_004389",
+        "SLOT_004553",
+        "SLOT_009351",
+        "SLOT_025484",
+        "SLOT_025505"
+      ],
+      "STARLINK-2147": [
+        "SLOT_003936",
+        "SLOT_004100",
+        "SLOT_024641"
+      ],
+      "STARLINK-2178": [
+        "SLOT_009191",
+        "SLOT_009214"
+      ]
+    }
+  },
+  {
+    "terminal_id": "component_001_dnode_0239",
+    "original_component_id": "component_001",
+    "depth": 5,
+    "qubits": 10,
+    "couplers": 31,
+    "terminal_reason": "fits QPU limits",
+    "forced_selected": {},
+    "forced_objective": 0,
+    "domains": {
+      "STARLINK-1558": [
+        "SLOT_004670",
+        "SLOT_007318",
+        "SLOT_007830"
+      ],
+      "STARLINK-1569": [
+        "SLOT_004955",
+        "SLOT_008267",
+        "SLOT_008874"
+      ],
+      "STARLINK-2098": [
+        "SLOT_004047",
+        "SLOT_029214"
+      ],
+      "STARLINK-2102": [
+        "SLOT_004497",
+        "SLOT_027572"
+      ]
+    }
+  },
+  {
+    "terminal_id": "component_001_dnode_0240",
+    "original_component_id": "component_001",
+    "depth": 5,
+    "qubits": 4,
+    "couplers": 6,
+    "terminal_reason": "fits QPU limits",
+    "forced_selected": {},
+    "forced_objective": 0,
+    "domains": {
+      "STARLINK-1273": [
+        "SLOT_008680",
+        "SLOT_009587"
+      ],
+      "STARLINK-2178": [
+        "SLOT_009191",
+        "SLOT_019491"
+      ]
+    }
+  },
+  {
+    "terminal_id": "component_001_dnode_0241",
+    "original_component_id": "component_001",
+    "depth": 4,
+    "qubits": 17,
+    "couplers": 69,
+    "terminal_reason": "fits QPU limits",
+    "forced_selected": {},
+    "forced_objective": 0,
+    "domains": {
+      "STARLINK-1263": [
+        "SLOT_004349",
+        "SLOT_007041",
+        "SLOT_007513",
+        "SLOT_008252"
+      ],
+      "STARLINK-1558": [
+        "SLOT_004670",
+        "SLOT_007330",
+        "SLOT_007486",
+        "SLOT_007830"
+      ],
+      "STARLINK-1569": [
+        "SLOT_004955",
+        "SLOT_007804",
+        "SLOT_007947",
+        "SLOT_008267",
+        "SLOT_008874"
+      ],
+      "STARLINK-2098": [
+        "SLOT_004047",
+        "SLOT_029214"
+      ],
+      "STARLINK-2102": [
+        "SLOT_004497",
+        "SLOT_027572"
+      ]
+    }
+  },
+  {
+    "terminal_id": "component_001_dnode_0242",
+    "original_component_id": "component_001",
+    "depth": 4,
+    "qubits": 23,
+    "couplers": 85,
+    "terminal_reason": "fits QPU limits",
+    "forced_selected": {},
+    "forced_objective": 0,
+    "domains": {
+      "STARLINK-1263": [
+        "SLOT_004349",
+        "SLOT_007041",
+        "SLOT_007513",
+        "SLOT_008252"
+      ],
+      "STARLINK-1273": [
+        "SLOT_008680",
+        "SLOT_009587"
+      ],
+      "STARLINK-1558": [
+        "SLOT_004670",
+        "SLOT_007318",
+        "SLOT_007330",
+        "SLOT_007486",
+        "SLOT_007830"
+      ],
+      "STARLINK-1569": [
+        "SLOT_004955",
+        "SLOT_007801",
+        "SLOT_007804",
+        "SLOT_007947",
+        "SLOT_008267",
+        "SLOT_008874"
+      ],
+      "STARLINK-2098": [
+        "SLOT_004047",
+        "SLOT_029214"
+      ],
+      "STARLINK-2102": [
+        "SLOT_004497",
+        "SLOT_027572"
+      ],
+      "STARLINK-2178": [
+        "SLOT_009036",
+        "SLOT_009191"
+      ]
+    }
+  },
+  {
+    "terminal_id": "component_001_dnode_0243",
+    "original_component_id": "component_001",
+    "depth": 4,
+    "qubits": 23,
+    "couplers": 85,
+    "terminal_reason": "fits QPU limits",
+    "forced_selected": {},
+    "forced_objective": 0,
+    "domains": {
+      "STARLINK-1263": [
+        "SLOT_004349",
+        "SLOT_007041",
+        "SLOT_007513",
+        "SLOT_008252"
+      ],
+      "STARLINK-1273": [
+        "SLOT_008680",
+        "SLOT_009587"
+      ],
+      "STARLINK-1558": [
+        "SLOT_004670",
+        "SLOT_007318",
+        "SLOT_007330",
+        "SLOT_007486",
+        "SLOT_007830"
+      ],
+      "STARLINK-1569": [
+        "SLOT_004955",
+        "SLOT_007801",
+        "SLOT_007804",
+        "SLOT_007947",
+        "SLOT_008267",
+        "SLOT_008874"
+      ],
+      "STARLINK-2098": [
+        "SLOT_004047",
+        "SLOT_029214"
+      ],
+      "STARLINK-2102": [
+        "SLOT_004497",
+        "SLOT_027572"
+      ],
+      "STARLINK-2178": [
+        "SLOT_009036",
+        "SLOT_009191"
+      ]
+    }
+  },
+  {
+    "terminal_id": "component_001_dnode_0252",
+    "original_component_id": "component_001",
+    "depth": 3,
+    "qubits": 16,
+    "couplers": 36,
+    "terminal_reason": "fits QPU limits",
+    "forced_selected": {},
+    "forced_objective": 0,
+    "domains": {
+      "STARLINK-1523": [
+        "SLOT_009933",
+        "SLOT_013261",
+        "SLOT_013375",
+        "SLOT_013389",
+        "SLOT_013417",
+        "SLOT_013537",
+        "SLOT_013996",
+        "SLOT_016683"
+      ],
+      "STARLINK-1526": [
+        "SLOT_009184",
+        "SLOT_012493",
+        "SLOT_012684",
+        "SLOT_012694",
+        "SLOT_012701",
+        "SLOT_012724",
+        "SLOT_013283",
+        "SLOT_015931"
+      ]
+    }
+  },
+  {
+    "terminal_id": "component_001_dnode_0253",
+    "original_component_id": "component_001",
+    "depth": 3,
+    "qubits": 14,
+    "couplers": 21,
+    "terminal_reason": "fits QPU limits",
+    "forced_selected": {},
+    "forced_objective": 0,
+    "domains": {
+      "STARLINK-1260": [
+        "SLOT_006608",
+        "SLOT_009774",
+        "SLOT_009802"
+      ],
+      "STARLINK-1582": [
+        "SLOT_009939",
+        "SLOT_010122"
+      ],
+      "STARLINK-2099": [
+        "SLOT_006192",
+        "SLOT_014788",
+        "SLOT_027974",
+        "SLOT_031900"
+      ],
+      "STARLINK-2103": [
+        "SLOT_028096",
+        "SLOT_031401",
+        "SLOT_031901"
+      ],
+      "STARLINK-2122": [
+        "SLOT_028848",
+        "SLOT_032843"
+      ]
+    }
+  },
+  {
+    "terminal_id": "component_001_dnode_0254",
+    "original_component_id": "component_001",
+    "depth": 3,
+    "qubits": 19,
+    "couplers": 42,
+    "terminal_reason": "fits QPU limits",
+    "forced_selected": {},
+    "forced_objective": 0,
+    "domains": {
+      "STARLINK-1456": [
+        "SLOT_034087"
+      ],
+      "STARLINK-1523": [
+        "SLOT_009933",
+        "SLOT_013261",
+        "SLOT_013375",
+        "SLOT_013389",
+        "SLOT_013417",
+        "SLOT_013537",
+        "SLOT_013996",
+        "SLOT_016683"
+      ],
+      "STARLINK-1526": [
+        "SLOT_009184",
+        "SLOT_012493",
+        "SLOT_012684",
+        "SLOT_012694",
+        "SLOT_012701",
+        "SLOT_012724",
+        "SLOT_013283",
+        "SLOT_015931"
+      ],
+      "STARLINK-2046": [
+        "SLOT_008507",
+        "SLOT_033338"
+      ]
+    }
+  },
+  {
+    "terminal_id": "component_001_dnode_0255",
+    "original_component_id": "component_001",
+    "depth": 3,
+    "qubits": 13,
+    "couplers": 28,
+    "terminal_reason": "fits QPU limits",
+    "forced_selected": {},
+    "forced_objective": 0,
+    "domains": {
+      "STARLINK-1260": [
+        "SLOT_006608",
+        "SLOT_009774",
+        "SLOT_009802"
+      ],
+      "STARLINK-1582": [
+        "SLOT_006873",
+        "SLOT_009939",
+        "SLOT_010122"
+      ],
+      "STARLINK-2099": [
+        "SLOT_006192",
+        "SLOT_014788",
+        "SLOT_027974",
+        "SLOT_031900"
+      ],
+      "STARLINK-2103": [
+        "SLOT_028096",
+        "SLOT_031401",
+        "SLOT_031901"
+      ]
+    }
+  },
+  {
+    "terminal_id": "component_001_dnode_0256",
+    "original_component_id": "component_001",
+    "depth": 3,
+    "qubits": 17,
+    "couplers": 38,
+    "terminal_reason": "fits QPU limits",
+    "forced_selected": {},
+    "forced_objective": 0,
+    "domains": {
+      "STARLINK-1523": [
+        "SLOT_009933",
+        "SLOT_013261",
+        "SLOT_013375",
+        "SLOT_013389",
+        "SLOT_013417",
+        "SLOT_013537",
+        "SLOT_013996",
+        "SLOT_016683"
+      ],
+      "STARLINK-1526": [
+        "SLOT_009184",
+        "SLOT_012493",
+        "SLOT_012684",
+        "SLOT_012694",
+        "SLOT_012701",
+        "SLOT_012724",
+        "SLOT_013283",
+        "SLOT_015931"
+      ],
+      "STARLINK-2046": [
+        "SLOT_008507"
+      ]
+    }
+  },
+  {
+    "terminal_id": "component_001_dnode_0257",
+    "original_component_id": "component_001",
+    "depth": 3,
+    "qubits": 15,
+    "couplers": 30,
+    "terminal_reason": "fits QPU limits",
+    "forced_selected": {},
+    "forced_objective": 0,
+    "domains": {
+      "STARLINK-1260": [
+        "SLOT_006608",
+        "SLOT_009774",
+        "SLOT_009802"
+      ],
+      "STARLINK-1582": [
+        "SLOT_006873",
+        "SLOT_009939",
+        "SLOT_010122"
+      ],
+      "STARLINK-2099": [
+        "SLOT_006192",
+        "SLOT_014788",
+        "SLOT_027974",
+        "SLOT_031900"
+      ],
+      "STARLINK-2103": [
+        "SLOT_028096",
+        "SLOT_031401",
+        "SLOT_031901"
+      ],
+      "STARLINK-2122": [
+        "SLOT_028848",
+        "SLOT_032843"
+      ]
+    }
+  },
+  {
+    "terminal_id": "component_001_dnode_0258",
+    "original_component_id": "component_001",
+    "depth": 3,
+    "qubits": 15,
+    "couplers": 31,
+    "terminal_reason": "fits QPU limits",
+    "forced_selected": {},
+    "forced_objective": 0,
+    "domains": {
+      "STARLINK-1260": [
+        "SLOT_006608",
+        "SLOT_009774",
+        "SLOT_009802"
+      ],
+      "STARLINK-1582": [
+        "SLOT_006873",
+        "SLOT_009939",
+        "SLOT_010122"
+      ],
+      "STARLINK-2099": [
+        "SLOT_006192",
+        "SLOT_014788",
+        "SLOT_027974",
+        "SLOT_031900"
+      ],
+      "STARLINK-2103": [
+        "SLOT_028096",
+        "SLOT_031401",
+        "SLOT_031901"
+      ],
+      "STARLINK-2122": [
+        "SLOT_015935",
+        "SLOT_028848"
+      ]
+    }
+  },
+  {
+    "terminal_id": "component_001_dnode_0287",
+    "original_component_id": "component_001",
+    "depth": 2,
+    "qubits": 14,
+    "couplers": 30,
+    "terminal_reason": "fits QPU limits",
+    "forced_selected": {},
+    "forced_objective": 0,
+    "domains": {
+      "STARLINK-1992": [
+        "SLOT_000830",
+        "SLOT_005139",
+        "SLOT_007048",
+        "SLOT_016492",
+        "SLOT_022194",
+        "SLOT_030241",
+        "SLOT_030651"
+      ],
+      "STARLINK-2015": [
+        "SLOT_000008",
+        "SLOT_004353",
+        "SLOT_006209",
+        "SLOT_007324",
+        "SLOT_015738",
+        "SLOT_029339",
+        "SLOT_029811"
+      ]
+    }
+  },
+  {
+    "terminal_id": "component_001_dnode_0303",
+    "original_component_id": "component_001",
+    "depth": 3,
+    "qubits": 30,
+    "couplers": 104,
+    "terminal_reason": "fits QPU limits",
+    "forced_selected": {},
+    "forced_objective": 0,
+    "domains": {
+      "STARLINK-1263": [
+        "SLOT_004349",
+        "SLOT_007041",
+        "SLOT_007513",
+        "SLOT_008252"
+      ],
+      "STARLINK-1273": [
+        "SLOT_008680",
+        "SLOT_009587"
+      ],
+      "STARLINK-1558": [
+        "SLOT_004670",
+        "SLOT_007318",
+        "SLOT_007330",
+        "SLOT_007486",
+        "SLOT_007830"
+      ],
+      "STARLINK-1569": [
+        "SLOT_007801",
+        "SLOT_007804",
+        "SLOT_007947",
+        "SLOT_008267",
+        "SLOT_008874"
+      ],
+      "STARLINK-1802": [
+        "SLOT_008097",
+        "SLOT_008233",
+        "SLOT_018580",
+        "SLOT_024374"
+      ],
+      "STARLINK-1810": [
+        "SLOT_018424",
+        "SLOT_024024"
+      ],
+      "STARLINK-2098": [
+        "SLOT_004047",
+        "SLOT_029214"
+      ],
+      "STARLINK-2102": [
+        "SLOT_004497",
+        "SLOT_027572"
+      ],
+      "STARLINK-2178": [
+        "SLOT_009036",
+        "SLOT_009191",
+        "SLOT_019491",
+        "SLOT_025501"
+      ]
+    }
+  },
+  {
+    "terminal_id": "component_001_dnode_0331",
+    "original_component_id": "component_001",
+    "depth": 3,
+    "qubits": 28,
+    "couplers": 103,
+    "terminal_reason": "fits QPU limits",
+    "forced_selected": {},
+    "forced_objective": 0,
+    "domains": {
+      "STARLINK-1263": [
+        "SLOT_004349",
+        "SLOT_007041",
+        "SLOT_007513",
+        "SLOT_008252"
+      ],
+      "STARLINK-1273": [
+        "SLOT_008680",
+        "SLOT_009587"
+      ],
+      "STARLINK-1558": [
+        "SLOT_004670",
+        "SLOT_007318",
+        "SLOT_007330",
+        "SLOT_007486",
+        "SLOT_007830"
+      ],
+      "STARLINK-1569": [
+        "SLOT_004955",
+        "SLOT_007801",
+        "SLOT_007947",
+        "SLOT_008267",
+        "SLOT_008874"
+      ],
+      "STARLINK-1802": [
+        "SLOT_008233",
+        "SLOT_018580",
+        "SLOT_024374"
+      ],
+      "STARLINK-1810": [
+        "SLOT_018424",
+        "SLOT_024024"
+      ],
+      "STARLINK-2098": [
+        "SLOT_004047",
+        "SLOT_029214"
+      ],
+      "STARLINK-2102": [
+        "SLOT_004497",
+        "SLOT_027572"
+      ],
+      "STARLINK-2178": [
+        "SLOT_009191",
+        "SLOT_019491",
+        "SLOT_025501"
+      ]
+    }
+  },
+  {
+    "terminal_id": "component_001_dnode_0355",
+    "original_component_id": "component_001",
+    "depth": 3,
+    "qubits": 30,
+    "couplers": 118,
+    "terminal_reason": "fits QPU limits",
+    "forced_selected": {},
+    "forced_objective": 0,
+    "domains": {
+      "STARLINK-1263": [
+        "SLOT_004349",
+        "SLOT_007041",
+        "SLOT_007513",
+        "SLOT_008252"
+      ],
+      "STARLINK-1273": [
+        "SLOT_008680",
+        "SLOT_009587"
+      ],
+      "STARLINK-1558": [
+        "SLOT_004670",
+        "SLOT_007318",
+        "SLOT_007330",
+        "SLOT_007486",
+        "SLOT_007830"
+      ],
+      "STARLINK-1569": [
+        "SLOT_004955",
+        "SLOT_007801",
+        "SLOT_007804",
+        "SLOT_007947",
+        "SLOT_008874"
+      ],
+      "STARLINK-1802": [
+        "SLOT_008097",
+        "SLOT_008233",
+        "SLOT_018580",
+        "SLOT_024374"
+      ],
+      "STARLINK-1810": [
+        "SLOT_018424",
+        "SLOT_024024"
+      ],
+      "STARLINK-2098": [
+        "SLOT_004047",
+        "SLOT_029214"
+      ],
+      "STARLINK-2102": [
+        "SLOT_004497",
+        "SLOT_027572"
+      ],
+      "STARLINK-2178": [
+        "SLOT_009036",
+        "SLOT_009191",
+        "SLOT_019491",
+        "SLOT_025501"
+      ]
+    }
+  },
+  {
+    "terminal_id": "component_001_dnode_0363",
+    "original_component_id": "component_001",
+    "depth": 2,
+    "qubits": 4,
+    "couplers": 3,
+    "terminal_reason": "fits QPU limits",
+    "forced_selected": {},
+    "forced_objective": 0,
+    "domains": {
+      "STARLINK-1260": [
+        "SLOT_009774",
+        "SLOT_009802"
+      ],
+      "STARLINK-1582": [
+        "SLOT_009939",
+        "SLOT_010122"
+      ]
+    }
+  },
+  {
+    "terminal_id": "component_001_dnode_0366",
+    "original_component_id": "component_001",
+    "depth": 2,
+    "qubits": 4,
+    "couplers": 3,
+    "terminal_reason": "fits QPU limits",
+    "forced_selected": {},
+    "forced_objective": 0,
+    "domains": {
+      "STARLINK-1260": [
+        "SLOT_009748",
+        "SLOT_009802"
+      ],
+      "STARLINK-1582": [
+        "SLOT_009939",
+        "SLOT_010122"
+      ]
+    }
+  },
+  {
+    "terminal_id": "component_001_dnode_0375",
+    "original_component_id": "component_001",
+    "depth": 1,
+    "qubits": 4,
+    "couplers": 6,
+    "terminal_reason": "fits QPU limits",
+    "forced_selected": {},
+    "forced_objective": 0,
+    "domains": {
+      "STARLINK-1583": [
+        "SLOT_001428",
+        "SLOT_004690"
+      ],
+      "STARLINK-2047": [
+        "SLOT_000826",
+        "SLOT_026097"
+      ]
+    }
+  },
+  {
+    "terminal_id": "component_001_dnode_0380",
+    "original_component_id": "component_001",
+    "depth": 1,
+    "qubits": 3,
+    "couplers": 2,
+    "terminal_reason": "fits QPU limits",
+    "forced_selected": {},
+    "forced_objective": 0,
+    "domains": {
+      "STARLINK-1281": [
+        "SLOT_004081",
+        "SLOT_004354"
+      ],
+      "STARLINK-1496": [
+        "SLOT_003753"
+      ]
+    }
+  },
+  {
+    "terminal_id": "component_002_dnode_0001",
+    "original_component_id": "component_002",
+    "depth": 0,
+    "qubits": 12,
+    "couplers": 23,
+    "terminal_reason": "fits QPU limits",
+    "forced_selected": {},
+    "forced_objective": 0,
+    "domains": {
+      "STARLINK-1513": [
+        "SLOT_001651",
+        "SLOT_001765",
+        "SLOT_001782",
+        "SLOT_006352",
+        "SLOT_007832"
+      ],
+      "STARLINK-1812": [
+        "SLOT_001466",
+        "SLOT_001652"
+      ],
+      "STARLINK-2164": [
+        "SLOT_001779",
+        "SLOT_001890",
+        "SLOT_001919",
+        "SLOT_007965",
+        "SLOT_022737"
+      ]
+    }
+  },
+  {
+    "terminal_id": "component_003_dnode_0001",
+    "original_component_id": "component_003",
+    "depth": 0,
+    "qubits": 7,
+    "couplers": 13,
+    "terminal_reason": "fits QPU limits",
+    "forced_selected": {},
+    "forced_objective": 0,
+    "domains": {
+      "STARLINK-1230": [
+        "SLOT_030408"
+      ],
+      "STARLINK-1246": [
+        "SLOT_030697"
+      ],
+      "STARLINK-1269": [
+        "SLOT_029256"
+      ],
+      "STARLINK-2055": [
+        "SLOT_031450"
+      ],
+      "STARLINK-2101": [
+        "SLOT_029865"
+      ],
+      "STARLINK-2110": [
+        "SLOT_029687"
+      ],
+      "STARLINK-2121": [
+        "SLOT_030543"
+      ]
+    }
+  },
+  {
+    "terminal_id": "component_004_dnode_0001",
+    "original_component_id": "component_004",
+    "depth": 0,
+    "qubits": 6,
+    "couplers": 11,
+    "terminal_reason": "fits QPU limits",
+    "forced_selected": {},
+    "forced_objective": 0,
+    "domains": {
+      "STARLINK-1094": [
+        "SLOT_021631",
+        "SLOT_032440"
+      ],
+      "STARLINK-1114": [
+        "SLOT_020695",
+        "SLOT_032450"
+      ],
+      "STARLINK-1227": [
+        "SLOT_003308",
+        "SLOT_021073"
+      ]
+    }
+  },
+  {
+    "terminal_id": "component_005_dnode_0001",
+    "original_component_id": "component_005",
+    "depth": 0,
+    "qubits": 6,
+    "couplers": 9,
+    "terminal_reason": "fits QPU limits",
+    "forced_selected": {},
+    "forced_objective": 0,
+    "domains": {
+      "STARLINK-1202": [
+        "SLOT_032878"
+      ],
+      "STARLINK-2076": [
+        "SLOT_025462"
+      ],
+      "STARLINK-2084": [
+        "SLOT_024484"
+      ],
+      "STARLINK-2112": [
+        "SLOT_025109",
+        "SLOT_033003"
+      ],
+      "STARLINK-2134": [
+        "SLOT_032598"
+      ]
+    }
+  },
+  {
+    "terminal_id": "component_006_dnode_0001",
+    "original_component_id": "component_006",
+    "depth": 0,
+    "qubits": 5,
+    "couplers": 4,
+    "terminal_reason": "fits QPU limits",
+    "forced_selected": {},
+    "forced_objective": 0,
+    "domains": {
+      "STARLINK-1392": [
+        "SLOT_029975"
+      ],
+      "STARLINK-1460": [
+        "SLOT_030962"
+      ],
+      "STARLINK-1973": [
+        "SLOT_030653"
+      ],
+      "STARLINK-2082": [
+        "SLOT_029471"
+      ],
+      "STARLINK-2111": [
+        "SLOT_028661"
+      ]
+    }
+  },
+  {
+    "terminal_id": "component_007_dnode_0001",
+    "original_component_id": "component_007",
+    "depth": 0,
+    "qubits": 4,
+    "couplers": 6,
+    "terminal_reason": "fits QPU limits",
+    "forced_selected": {},
+    "forced_objective": 0,
+    "domains": {
+      "STARLINK-1156": [
+        "SLOT_008080",
+        "SLOT_020591"
+      ],
+      "STARLINK-1209": [
+        "SLOT_007490",
+        "SLOT_007923"
+      ]
+    }
+  },
+  {
+    "terminal_id": "component_008_dnode_0001",
+    "original_component_id": "component_008",
+    "depth": 0,
+    "qubits": 4,
+    "couplers": 3,
+    "terminal_reason": "fits QPU limits",
+    "forced_selected": {},
+    "forced_objective": 0,
+    "domains": {
+      "STARLINK-1168": [
+        "SLOT_008411",
+        "SLOT_009475"
+      ],
+      "STARLINK-1543": [
+        "SLOT_007668",
+        "SLOT_008266"
+      ]
+    }
+  },
+  {
+    "terminal_id": "component_009_dnode_0001",
+    "original_component_id": "component_009",
+    "depth": 0,
+    "qubits": 4,
+    "couplers": 6,
+    "terminal_reason": "fits QPU limits",
+    "forced_selected": {},
+    "forced_objective": 0,
+    "domains": {
+      "STARLINK-1266": [
+        "SLOT_003881",
+        "SLOT_003933"
+      ],
+      "STARLINK-1524": [
+        "SLOT_003434",
+        "SLOT_003607"
+      ]
+    }
+  },
+  {
+    "terminal_id": "component_010_dnode_0001",
+    "original_component_id": "component_010",
+    "depth": 0,
+    "qubits": 4,
+    "couplers": 6,
+    "terminal_reason": "fits QPU limits",
+    "forced_selected": {},
+    "forced_objective": 0,
+    "domains": {
+      "STARLINK-1434": [
+        "SLOT_019209",
+        "SLOT_031935"
+      ],
+      "STARLINK-2017": [
+        "SLOT_019075",
+        "SLOT_031807"
+      ]
+    }
+  },
+  {
+    "terminal_id": "component_011_dnode_0001",
+    "original_component_id": "component_011",
+    "depth": 0,
+    "qubits": 4,
+    "couplers": 3,
+    "terminal_reason": "fits QPU limits",
+    "forced_selected": {},
+    "forced_objective": 0,
+    "domains": {
+      "STARLINK-2039": [
+        "SLOT_032551"
+      ],
+      "STARLINK-2094": [
+        "SLOT_032413"
+      ],
+      "STARLINK-2096": [
+        "SLOT_033335"
+      ],
+      "STARLINK-2109": [
+        "SLOT_033445"
+      ]
+    }
+  },
+  {
+    "terminal_id": "component_012_dnode_0001",
+    "original_component_id": "component_012",
+    "depth": 0,
+    "qubits": 3,
+    "couplers": 2,
+    "terminal_reason": "fits QPU limits",
+    "forced_selected": {},
+    "forced_objective": 0,
+    "domains": {
+      "STARLINK-2049": [
+        "SLOT_012312"
+      ],
+      "STARLINK-2071": [
+        "SLOT_011200"
+      ],
+      "STARLINK-2135": [
+        "SLOT_011044"
+      ]
+    }
+  },
+  {
+    "terminal_id": "component_013_dnode_0001",
+    "original_component_id": "component_013",
+    "depth": 0,
+    "qubits": 2,
+    "couplers": 1,
+    "terminal_reason": "fits QPU limits",
+    "forced_selected": {},
+    "forced_objective": 0,
+    "domains": {
+      "STARLINK-1199": [
+        "SLOT_023212"
+      ],
+      "STARLINK-1271": [
+        "SLOT_022470"
+      ]
+    }
+  },
+  {
+    "terminal_id": "component_014_dnode_0001",
+    "original_component_id": "component_014",
+    "depth": 0,
+    "qubits": 2,
+    "couplers": 1,
+    "terminal_reason": "fits QPU limits",
+    "forced_selected": {},
+    "forced_objective": 0,
+    "domains": {
+      "STARLINK-1225": [
+        "SLOT_019848"
+      ],
+      "STARLINK-1404": [
+        "SLOT_019849"
+      ]
+    }
+  },
+  {
+    "terminal_id": "component_015_dnode_0001",
+    "original_component_id": "component_015",
+    "depth": 0,
+    "qubits": 2,
+    "couplers": 1,
+    "terminal_reason": "fits QPU limits",
+    "forced_selected": {},
+    "forced_objective": 0,
+    "domains": {
+      "STARLINK-1278": [
+        "SLOT_002509"
+      ],
+      "STARLINK-1579": [
+        "SLOT_002075"
+      ]
+    }
+  },
+  {
+    "terminal_id": "component_016_dnode_0001",
+    "original_component_id": "component_016",
+    "depth": 0,
+    "qubits": 2,
+    "couplers": 1,
+    "terminal_reason": "fits QPU limits",
+    "forced_selected": {},
+    "forced_objective": 0,
+    "domains": {
+      "STARLINK-1376": [
+        "SLOT_034544"
+      ],
+      "STARLINK-1417": [
+        "SLOT_034315"
+      ]
+    }
+  },
+  {
+    "terminal_id": "component_017_dnode_0001",
+    "original_component_id": "component_017",
+    "depth": 0,
+    "qubits": 2,
+    "couplers": 1,
+    "terminal_reason": "fits QPU limits",
+    "forced_selected": {},
+    "forced_objective": 0,
+    "domains": {
+      "STARLINK-1403": [
+        "SLOT_016825"
+      ],
+      "STARLINK-2105": [
+        "SLOT_016633"
+      ]
+    }
+  },
+  {
+    "terminal_id": "component_018_dnode_0001",
+    "original_component_id": "component_018",
+    "depth": 0,
+    "qubits": 2,
+    "couplers": 1,
+    "terminal_reason": "fits QPU limits",
+    "forced_selected": {},
+    "forced_objective": 0,
+    "domains": {
+      "STARLINK-2033": [
+        "SLOT_015399"
+      ],
+      "STARLINK-2106": [
+        "SLOT_015059"
+      ]
+    }
+  },
+  {
+    "terminal_id": "component_019_dnode_0001",
+    "original_component_id": "component_019",
+    "depth": 0,
+    "qubits": 2,
+    "couplers": 1,
+    "terminal_reason": "fits QPU limits",
+    "forced_selected": {},
+    "forced_objective": 0,
+    "domains": {
+      "STARLINK-2034": [
+        "SLOT_022158"
+      ],
+      "STARLINK-2036": [
+        "SLOT_022581"
+      ]
+    }
+  },
+  {
+    "terminal_id": "component_020_dnode_0001",
+    "original_component_id": "component_020",
+    "depth": 0,
+    "qubits": 2,
+    "couplers": 1,
+    "terminal_reason": "fits QPU limits",
+    "forced_selected": {},
+    "forced_objective": 0,
+    "domains": {
+      "STARLINK-2104": [
+        "SLOT_018872"
+      ],
+      "STARLINK-2123": [
+        "SLOT_018694"
+      ]
+    }
+  }
+]
