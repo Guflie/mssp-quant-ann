@@ -424,13 +424,6 @@ def _build_node(csp :CSP, component_id :str, context :dict[str, Any], depth :int
     if not reduced.vars:
         return _leaf("terminal", "resolved by exact preprocessing")
 
-
-    # ----------- check for budget limits: stop here, the node needs a heuristic fallback
-    if context["next_node_number"] > context["max_decomposition_nodes"]:
-        return _leaf("incomplete", "decomposition node budget exceeded")
-    if depth > context["max_recursion_depth"]:
-        return _leaf("incomplete", "recursion depth exceeded")
-
     # split a sub-problem into its independent pieces (largest first) and build one child each
     # (split_connected_components returns them sorted by size, ties broken by the satellite names)
     def _children(sub :CSP) ->list[dict[str, Any]]:
@@ -450,6 +443,13 @@ def _build_node(csp :CSP, component_id :str, context :dict[str, Any], depth :int
         node["couplers"] = couplers
         if couplers <= context["max_couplers"]:
             return _leaf("terminal", "fits QPU limits")
+
+    # ----------- check for budget limits: stop here, the node needs a heuristic fallback
+    # (checked only now, so a node that splits or fits the QPU is never left to the fallback)
+    if context["next_node_number"] > context["max_decomposition_nodes"]:
+        return _leaf("incomplete", "decomposition node budget exceeded")
+    if depth > context["max_recursion_depth"]:
+        return _leaf("incomplete", "recursion depth exceeded")
 
     # too big and connected: branch on the affordable separator leaving the smallest sub-problems
     remaining = context["max_separator_states"] - context["separator_state_count"]
