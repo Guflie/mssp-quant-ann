@@ -1,0 +1,314 @@
+{
+  "00_primary_quality_table": {
+    "role": "report",
+    "width_inches": 7.05,
+    "height_inches": 3.05,
+    "width_mm": 179.1,
+    "panels": 1,
+    "schedule_stage": "primary_before_reference_evaluation"
+  },
+  "01_primary_quality_scaling": {
+    "role": "report",
+    "width_inches": 7.05,
+    "height_inches": 2.9,
+    "width_mm": 179.1,
+    "panels": 2,
+    "schedule_stage": "primary_before_reference_evaluation"
+  },
+  "02_primary_schedule_provenance": {
+    "role": "report",
+    "width_inches": 7.05,
+    "height_inches": 3.65,
+    "width_mm": 179.1,
+    "panels": 1,
+    "schedule_stage": "primary_before_reference_evaluation"
+  },
+  "03_terminal_profile_tradeoff": {
+    "role": "report",
+    "width_inches": 7.05,
+    "height_inches": 2.95,
+    "width_mm": 179.1,
+    "panels": 2,
+    "schedule_stage": "primary_before_reference_evaluation"
+  },
+  "04_baseline_logical_dimensions": {
+    "role": "report",
+    "width_inches": 3.4,
+    "height_inches": 3.05,
+    "width_mm": 86.4,
+    "panels": 1,
+    "schedule_stage": "primary_before_reference_evaluation"
+  },
+  "05_producer_stage_profile": {
+    "role": "report",
+    "width_inches": 7.05,
+    "height_inches": 3.65,
+    "width_mm": 179.1,
+    "panels": 1,
+    "schedule_stage": "primary_before_reference_evaluation"
+  },
+  "S01_primary_retention_and_incomplete_leaves": {
+    "role": "supplementary",
+    "width_inches": 7.05,
+    "height_inches": 4.8,
+    "width_mm": 179.1,
+    "panels": 2,
+    "schedule_stage": "primary_before_reference_evaluation"
+  },
+  "S02_average_terminal_dimensions": {
+    "role": "supplementary",
+    "width_inches": 7.05,
+    "height_inches": 4.8,
+    "width_mm": 179.1,
+    "panels": 2,
+    "schedule_stage": "primary_before_reference_evaluation"
+  },
+  "S03_common_reduced_component_structure": {
+    "role": "supplementary",
+    "width_inches": 7.05,
+    "height_inches": 2.9,
+    "width_mm": 179.1,
+    "panels": 2,
+    "schedule_stage": "primary_before_reference_evaluation"
+  },
+  "S04_terminal_and_incomplete_leaf_distributions": {
+    "role": "supplementary",
+    "width_inches": 7.05,
+    "height_inches": 3.1,
+    "width_mm": 179.1,
+    "panels": 2,
+    "schedule_stage": "primary_before_reference_evaluation"
+  },
+  "01a_primary_quality_satellite_scaling": {
+    "role": "report",
+    "width_inches": 7.05,
+    "height_inches": 3.4,
+    "width_mm": 179.1,
+    "panels": 1,
+    "schedule_stage": "primary_before_reference_evaluation"
+  },
+  "01b_primary_quality_gateway_scaling": {
+    "role": "report",
+    "width_inches": 7.05,
+    "height_inches": 3.4,
+    "width_mm": 179.1,
+    "panels": 1,
+    "schedule_stage": "primary_before_reference_evaluation"
+  },
+  "03a_terminal_profile_primary_quality": {
+    "role": "report",
+    "width_inches": 7.05,
+    "height_inches": 3.4,
+    "width_mm": 179.1,
+    "panels": 1,
+    "schedule_stage": "primary_before_reference_evaluation"
+  },
+  "03b_terminal_profile_sampling_workload": {
+    "role": "report",
+    "width_inches": 7.05,
+    "height_inches": 3.4,
+    "width_mm": 179.1,
+    "panels": 1,
+    "schedule_stage": "primary_before_reference_evaluation"
+  },
+  "S01a_primary_terminal_retention": {
+    "role": "supplementary",
+    "width_inches": 7.05,
+    "height_inches": 3.6,
+    "width_mm": 179.1,
+    "panels": 1,
+    "schedule_stage": "primary_before_reference_evaluation"
+  },
+  "S01b_incomplete_leaves": {
+    "role": "supplementary",
+    "width_inches": 7.05,
+    "height_inches": 3.6,
+    "width_mm": 179.1,
+    "panels": 1,
+    "schedule_stage": "primary_before_reference_evaluation"
+  },
+  "S02a_average_terminal_variables": {
+    "role": "supplementary",
+    "width_inches": 7.05,
+    "height_inches": 3.6,
+    "width_mm": 179.1,
+    "panels": 1,
+    "schedule_stage": "primary_before_reference_evaluation"
+  },
+  "S02b_average_terminal_couplers": {
+    "role": "supplementary",
+    "width_inches": 7.05,
+    "height_inches": 3.6,
+    "width_mm": 179.1,
+    "panels": 1,
+    "schedule_stage": "primary_before_reference_evaluation"
+  },
+  "S03a_contacts_after_global_dominance": {
+    "role": "supplementary",
+    "width_inches": 7.05,
+    "height_inches": 3.4,
+    "width_mm": 179.1,
+    "panels": 1,
+    "schedule_stage": "primary_before_reference_evaluation"
+  },
+  "S03b_largest_reduced_component": {
+    "role": "supplementary",
+    "width_inches": 7.05,
+    "height_inches": 3.4,
+    "width_mm": 179.1,
+    "panels": 1,
+    "schedule_stage": "primary_before_reference_evaluation"
+  },
+  "S04a_leaf_distributions_baseline": {
+    "role": "supplementary",
+    "width_inches": 7.05,
+    "height_inches": 3.6,
+    "width_mm": 179.1,
+    "panels": 1,
+    "schedule_stage": "primary_before_reference_evaluation"
+  },
+  "S04b_leaf_distributions_s500_g50": {
+    "role": "supplementary",
+    "width_inches": 7.05,
+    "height_inches": 3.6,
+    "width_mm": 179.1,
+    "panels": 1,
+    "schedule_stage": "primary_before_reference_evaluation"
+  },
+  "01a_primary_quality_satellite_scaling_column": {
+    "role": "report",
+    "width_inches": 3.4,
+    "height_inches": 2.65,
+    "width_mm": 86.4,
+    "panels": 1,
+    "schedule_stage": "primary_before_reference_evaluation"
+  },
+  "01b_primary_quality_gateway_scaling_column": {
+    "role": "report",
+    "width_inches": 3.4,
+    "height_inches": 2.65,
+    "width_mm": 86.4,
+    "panels": 1,
+    "schedule_stage": "primary_before_reference_evaluation"
+  },
+  "03a_terminal_profile_primary_quality_column": {
+    "role": "report",
+    "width_inches": 3.4,
+    "height_inches": 2.65,
+    "width_mm": 86.4,
+    "panels": 1,
+    "schedule_stage": "primary_before_reference_evaluation"
+  },
+  "schedule_gantt_s100_g50_primary_excerpt": {
+    "role": "operational supplement",
+    "width_inches": 7.05,
+    "height_inches": 5.5,
+    "width_mm": 179.1,
+    "panels": 2,
+    "schedule_stage": "primary_before_reference_evaluation"
+  },
+  "gateway_activity_s100_g50_primary_excerpt": {
+    "role": "operational supplement",
+    "width_inches": 7.05,
+    "height_inches": 5.0,
+    "width_mm": 179.1,
+    "panels": 1,
+    "schedule_stage": "primary_before_reference_evaluation"
+  },
+  "schedule_gantt_baseline_primary_excerpt": {
+    "role": "operational supplement",
+    "width_inches": 7.05,
+    "height_inches": 5.5,
+    "width_mm": 179.1,
+    "panels": 2,
+    "schedule_stage": "primary_before_reference_evaluation"
+  },
+  "gateway_activity_baseline_primary_excerpt": {
+    "role": "operational supplement",
+    "width_inches": 7.05,
+    "height_inches": 5.0,
+    "width_mm": 179.1,
+    "panels": 1,
+    "schedule_stage": "primary_before_reference_evaluation"
+  },
+  "schedule_gantt_s500_g50_primary_excerpt": {
+    "role": "operational supplement",
+    "width_inches": 7.05,
+    "height_inches": 5.5,
+    "width_mm": 179.1,
+    "panels": 2,
+    "schedule_stage": "primary_before_reference_evaluation"
+  },
+  "gateway_activity_s500_g50_primary_excerpt": {
+    "role": "operational supplement",
+    "width_inches": 7.05,
+    "height_inches": 5.0,
+    "width_mm": 179.1,
+    "panels": 1,
+    "schedule_stage": "primary_before_reference_evaluation"
+  },
+  "schedule_gantt_s200_g25_primary_excerpt": {
+    "role": "operational supplement",
+    "width_inches": 7.05,
+    "height_inches": 5.5,
+    "width_mm": 179.1,
+    "panels": 2,
+    "schedule_stage": "primary_before_reference_evaluation"
+  },
+  "gateway_activity_s200_g25_primary_excerpt": {
+    "role": "operational supplement",
+    "width_inches": 7.05,
+    "height_inches": 5.0,
+    "width_mm": 179.1,
+    "panels": 1,
+    "schedule_stage": "primary_before_reference_evaluation"
+  },
+  "schedule_gantt_s200_g100_primary_excerpt": {
+    "role": "operational supplement",
+    "width_inches": 7.05,
+    "height_inches": 5.5,
+    "width_mm": 179.1,
+    "panels": 2,
+    "schedule_stage": "primary_before_reference_evaluation"
+  },
+  "gateway_activity_s200_g100_primary_excerpt": {
+    "role": "operational supplement",
+    "width_inches": 7.05,
+    "height_inches": 5.0,
+    "width_mm": 179.1,
+    "panels": 1,
+    "schedule_stage": "primary_before_reference_evaluation"
+  },
+  "schedule_gantt_n20_c100_primary_excerpt": {
+    "role": "operational supplement",
+    "width_inches": 7.05,
+    "height_inches": 5.5,
+    "width_mm": 179.1,
+    "panels": 2,
+    "schedule_stage": "primary_before_reference_evaluation"
+  },
+  "gateway_activity_n20_c100_primary_excerpt": {
+    "role": "operational supplement",
+    "width_inches": 7.05,
+    "height_inches": 5.0,
+    "width_mm": 179.1,
+    "panels": 1,
+    "schedule_stage": "primary_before_reference_evaluation"
+  },
+  "schedule_gantt_n50_c350_primary_excerpt": {
+    "role": "operational supplement",
+    "width_inches": 7.05,
+    "height_inches": 5.5,
+    "width_mm": 179.1,
+    "panels": 2,
+    "schedule_stage": "primary_before_reference_evaluation"
+  },
+  "gateway_activity_n50_c350_primary_excerpt": {
+    "role": "operational supplement",
+    "width_inches": 7.05,
+    "height_inches": 5.0,
+    "width_mm": 179.1,
+    "panels": 1,
+    "schedule_stage": "primary_before_reference_evaluation"
+  }
+}

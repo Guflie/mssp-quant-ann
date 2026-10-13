@@ -1,0 +1,13 @@
+{
+  "passed": true,
+  "png_files_verified": 39,
+  "single_page_pdf_files_verified": 39,
+  "pdf_page_dimensions_verified": true,
+  "source_files_checked": 208,
+  "source_git_ref": "ae8fb79fc0e824d06cc4ba4b84c5249db538567e",
+  "csp_source": "results/runs/csp_final.zip",
+  "reads_per_terminal_both_methods": 500,
+  "main_git_index_unchanged": true,
+  "unrelated_staged_files_preserved": 1141,
+  "visual_review": "Refreshed workload and producer-profile figures inspected; prior column-size layouts retained."
+}
