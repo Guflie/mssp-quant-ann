@@ -18,12 +18,7 @@
   "source_hashes_checked_unchanged": 205,
   "dominance_variant_included": true,
   "mwis_variant": "dominance",
-  "missing_full_runtime_records": [
-    {
-      "scenario": "s100_g50",
-      "method": "CSP"
-    }
-  ],
+  "missing_full_runtime_records": [],
   "checks": [
     "matching input hashes and requested active satellite/gateway counts",
     "terminal caps and read budgets",
