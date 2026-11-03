@@ -1,5 +1,4 @@
 .claude/
 .venv/
+.meetings/
 __pycache__/
-
-studying/
