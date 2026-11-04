@@ -56,7 +56,14 @@ US_STATE_AND_TERRITORY_CODES = {
     "SD", "TN", "TX", "UT", "VT", "VA", "WA", "WV", "WI", "WY",
     "DC", "PR", "GU", "VI",
 }
+CANADIAN_PROVINCE_CODES = {"AB", "BC", "MB", "NB", "NL", "NS", "NT", "NU", "ON", "PE", "QC", "SK", "YT"}
 COUNTRY_ALIASES = {"UK": "United Kingdom", "NZ": "New Zealand", "DR": "Dominican Republic"}
+# Stations whose name has no `, State/Country` suffix, labelled by hand from their coordinates
+STATION_COUNTRY_OVERRIDES = {
+    "Monterey": "US",                       # 36.22, -121.39: Big Sur coast, California
+    "Montes Carlos": "Colombia",            # 9.29, -75.40: Sucre department
+    "Villenave d’Ornon": "France",     # 44.77, -0.56: near Bordeaux
+}
 
 log = logging.getLogger("data_ingestion.gateways")
 
@@ -118,14 +125,20 @@ def normalize_string(value: object) -> str:
 def infer_country(station_name: str) -> str:
     """Infer a country label from a `City, State/Country` station name.
 
-    US state and territory codes give `US`, a few abbreviations are expanded (COUNTRY_ALIASES),
-    any other suffix is returned as is, and names without a suffix give `unknown`.
+    US state and territory codes give `US`, Canadian province and territory codes give `Canada`,
+    a few abbreviations are expanded (COUNTRY_ALIASES),
+    any other suffix is returned as is. Names without a suffix are looked up in
+    STATION_COUNTRY_OVERRIDES and give `unknown` when missing there.
     """
+    if station_name in STATION_COUNTRY_OVERRIDES:
+        return STATION_COUNTRY_OVERRIDES[station_name]
     if "," not in station_name:
         return "unknown"
     suffix = station_name.rsplit(",", 1)[1].strip()
     if suffix in US_STATE_AND_TERRITORY_CODES:
         return "US"
+    if suffix in CANADIAN_PROVINCE_CODES:
+        return "Canada"
     return COUNTRY_ALIASES.get(suffix, suffix or "unknown")
 
 
