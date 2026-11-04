@@ -28,6 +28,7 @@ import hashlib
 import json
 import logging
 from pathlib import Path
+from urllib.error import HTTPError
 from urllib.request import Request, urlopen
 
 import pandas as pd
@@ -66,6 +67,11 @@ def load_tle_text(url: str, cache_path: Path, timeout: float, refresh: bool = Fa
         log.info("Downloading TLE data from %s", url)
         try:
             raw = download_tle_text(url, timeout)
+        except HTTPError as exc:
+            # CelesTrak explains refusals in the body, e.g. a 403 when the data has not changed
+            # since the last successful download (it is updated every 2 hours)
+            detail = " ".join(exc.read().decode("utf-8", "replace").split())
+            raise RuntimeError(f"CelesTrak refused the TLE download ({exc.code} {exc.reason}): {detail}") from exc
         except OSError as exc:
             raise RuntimeError(f"Could not download TLE data from {url}: {exc}") from exc
         cache_path.parent.mkdir(parents=True, exist_ok=True)

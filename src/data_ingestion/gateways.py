@@ -33,6 +33,7 @@ import json
 import logging
 from pathlib import Path
 from urllib.parse import urlencode
+from urllib.error import HTTPError
 from urllib.request import Request, urlopen
 
 import pandas as pd
@@ -96,6 +97,9 @@ def load_gateway_rows(cache_path: Path, source: dict, refresh: bool = False) -> 
         log.info("Downloading gateway rows of %s from %s", source["dataset_id"], source["api_url"])
         try:
             rows = fetch_huggingface_rows(**source)
+        except HTTPError as exc:
+            detail = " ".join(exc.read().decode("utf-8", "replace").split())
+            raise RuntimeError(f"Hugging Face refused the gateway download ({exc.code} {exc.reason}): {detail}") from exc
         except OSError as exc:
             raise RuntimeError(f"Could not download gateway rows from {source['api_url']}: {exc}") from exc
         raw = json.dumps(rows, indent=2).encode("utf-8")
