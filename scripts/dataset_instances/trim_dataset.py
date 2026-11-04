@@ -6,8 +6,8 @@ so smaller trims of the same input are nested in larger ones. Slots and weights
 are copied unchanged.
 
 Run from the project root, for example:
-    python scripts/trim_dataset.py data/dataset/starlink/starlink_scheduling_slots_weighted.csv --satellites 200 --stations 50
-    python scripts/trim_dataset.py input.csv --satellites 100 --stations 25 --output data/my_inputs/slots_s100_g25.csv
+    python scripts/dataset_instances/trim_dataset.py data/dataset/starlink/starlink_scheduling_slots.csv --satellites 200 --stations 50
+    python scripts/dataset_instances/trim_dataset.py input.csv --satellites 100 --stations 25 --output data/my_inputs/slots_s100_g25.csv
 """
 
 from __future__ import annotations
