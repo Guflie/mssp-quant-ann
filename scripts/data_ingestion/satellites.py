@@ -16,9 +16,9 @@ every time. The cache is therefore reused by default and replaced only with --re
 Output columns: satellite_name, norad_id, source, tle_line_1, tle_line_2, epoch (UTC ISO).
 
 Run from anywhere, for example:
-    python src/data_ingestion/satellites.py
-    python src/data_ingestion/satellites.py --subset-size 1000 --out-dir data/my_run
-    python src/data_ingestion/satellites.py --refresh          # download fresh elements
+    python scripts/data_ingestion/satellites.py
+    python scripts/data_ingestion/satellites.py --subset-size 1000 --out-dir data/my_run
+    python scripts/data_ingestion/satellites.py --refresh          # download fresh elements
 """
 
 from __future__ import annotations

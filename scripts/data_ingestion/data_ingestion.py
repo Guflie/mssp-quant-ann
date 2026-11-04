@@ -10,9 +10,9 @@ its own. Layers A-C write to the intermediate directory, Layer E reads the windo
 and writes the slots to the output directory.
 
 Run from anywhere, for example:
-    python src/data_ingestion/data_ingestion.py                    # whole pipeline, cached downloads
-    python src/data_ingestion/data_ingestion.py --refresh          # download fresh TLEs and gateways
-    python src/data_ingestion/data_ingestion.py --from visibility  # keep Layers A-B, rebuild C and E
+    python scripts/data_ingestion/data_ingestion.py                    # whole pipeline, cached downloads
+    python scripts/data_ingestion/data_ingestion.py --refresh          # download fresh TLEs and gateways
+    python scripts/data_ingestion/data_ingestion.py --from visibility  # keep Layers A-B, rebuild C and E
 """
 
 from __future__ import annotations

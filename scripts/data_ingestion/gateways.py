@@ -20,9 +20,9 @@ Station ids depend on the sorted station list: a refreshed source with new stati
 Output columns: station_id, station_name, latitude, longitude, country, status, source.
 
 Run from anywhere, for example:
-    python src/data_ingestion/gateways.py
-    python src/data_ingestion/gateways.py --out-dir data/my_run
-    python src/data_ingestion/gateways.py --refresh          # download fresh rows
+    python scripts/data_ingestion/gateways.py
+    python scripts/data_ingestion/gateways.py --out-dir data/my_run
+    python scripts/data_ingestion/gateways.py --refresh          # download fresh rows
 """
 
 from __future__ import annotations

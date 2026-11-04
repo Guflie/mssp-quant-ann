@@ -25,8 +25,8 @@ The scenario horizon is the earliest start and latest end of the windows, rounde
 the minute; slot times are also given in hours from its start (`*_hours` columns).
 
 Run from anywhere, for example:
-    python src/data_ingestion/slots.py
-    python src/data_ingestion/slots.py --windows my/windows.csv --out-dir data/my_run
+    python scripts/data_ingestion/slots.py
+    python scripts/data_ingestion/slots.py --windows my/windows.csv --out-dir data/my_run
 """
 
 from __future__ import annotations
