@@ -2,3 +2,7 @@
 .venv/
 .meetings/
 __pycache__/
+
+# datasets too big for git, but reproducibles from the other instances
+data/dataset/starlink/intermediate/starlink_visibility_windows.csv
+data/dataset/starlink/starlink_scheduling_slots.csv
