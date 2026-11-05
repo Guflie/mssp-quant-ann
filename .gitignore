@@ -7,3 +7,4 @@ __pycache__/
 data/dataset/starlink/intermediate/starlink_visibility_windows.csv
 data/dataset/starlink/starlink_scheduling_slots.csv
 data/exp_datasets/starlink_scheduling_slots_no_usa.csv
+data/test/intermediate
