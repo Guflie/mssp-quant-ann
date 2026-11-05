@@ -11,11 +11,11 @@ longitude/latitude projection, drawn with matplotlib only. The GeoJSON is downlo
 use and cached in data/external/natural_earth/; --no-basemap draws the bare scatter instead.
 
 --view chooses the area:
-    usa       (default) the contiguous USA only, where most gateways are crowded, with its
-              colour bar; the colour scale spans the stations inside the area. Alaska, Hawaii
-              and the territories fall outside it, a few stations of southern Canada and
-              northern Mexico inside it.
-    world     the whole world.
+    world     (default) the whole world.
+    usa       the contiguous USA only, where most gateways are crowded, with its colour bar;
+              the colour scale spans the stations inside the area. Alaska, Hawaii and the
+              territories fall outside it, a few stations of southern Canada and northern
+              Mexico inside it.
     world+usa the world map with the USA area outlined, and the USA enlarged below it with the
               same colour scale.
 The USA panel scales longitude by cos(latitude) at its centre, so the US keeps its usual shape.
@@ -27,7 +27,7 @@ Run from anywhere, for example:
     python results/_graphics/station_map.py
     python results/_graphics/station_map.py data/exp_datasets/starlink_scheduling_slots_no_usa.csv
     python results/_graphics/station_map.py my/slots.csv --output my/figures/map.jpg
-    python results/_graphics/station_map.py --color-by slots --view world
+    python results/_graphics/station_map.py --color-by slots --view usa
 """
 
 from __future__ import annotations
@@ -225,7 +225,7 @@ def parse_args(argv: list[str] | None = None) -> argparse.Namespace:
     parser.add_argument("--title", default=None, help="figure title (default: built from the slot file name)")
     parser.add_argument("--dpi", type=int, default=200, help="resolution of raster formats (default: %(default)s)")
     parser.add_argument("--no-basemap", action="store_true", help="draw the stations without the world map")
-    parser.add_argument("--view", choices=list(VIEWS), default="usa",
+    parser.add_argument("--view", choices=list(VIEWS), default="world",
                         help="area to draw: the contiguous USA, the world, or the world with the USA "
                              "enlarged below (default: %(default)s)")
     parser.add_argument("--config", type=Path, default=DEFAULT_CONFIG_PATH,
