@@ -1,0 +1,3290 @@
+[
+  {
+    "terminal_id": "component_001_dnode_0005",
+    "original_component_id": "component_001",
+    "depth": 3,
+    "qubits": 55,
+    "couplers": 123,
+    "terminal_reason": "fits QPU limits",
+    "forced_selected": {
+      "STARLINK-36739": "SLOT_188573"
+    },
+    "forced_objective": 71.342,
+    "domains": {
+      "STARLINK-11366 [DTC]": [
+        "SLOT_133642",
+        "SLOT_373233"
+      ],
+      "STARLINK-30098": [
+        "SLOT_007649",
+        "SLOT_259033",
+        "SLOT_259900"
+      ],
+      "STARLINK-30198": [
+        "SLOT_233104",
+        "SLOT_389895"
+      ],
+      "STARLINK-30829": [
+        "SLOT_094639",
+        "SLOT_229892",
+        "SLOT_238642"
+      ],
+      "STARLINK-32195": [
+        "SLOT_613294",
+        "SLOT_642084",
+        "SLOT_858803"
+      ],
+      "STARLINK-32778": [
+        "SLOT_111654",
+        "SLOT_306706"
+      ],
+      "STARLINK-33776": [
+        "SLOT_335913",
+        "SLOT_596372"
+      ],
+      "STARLINK-34175": [
+        "SLOT_257103",
+        "SLOT_266732",
+        "SLOT_355915",
+        "SLOT_393124"
+      ],
+      "STARLINK-34586": [
+        "SLOT_241365",
+        "SLOT_241520",
+        "SLOT_249191",
+        "SLOT_873416"
+      ],
+      "STARLINK-34986": [
+        "SLOT_318953",
+        "SLOT_348409",
+        "SLOT_402801",
+        "SLOT_762057"
+      ],
+      "STARLINK-35254": [
+        "SLOT_218335",
+        "SLOT_349045"
+      ],
+      "STARLINK-35300": [
+        "SLOT_1304902",
+        "SLOT_236285",
+        "SLOT_236451"
+      ],
+      "STARLINK-35363": [
+        "SLOT_116787",
+        "SLOT_233817",
+        "SLOT_344010"
+      ],
+      "STARLINK-35820": [
+        "SLOT_086458",
+        "SLOT_311122"
+      ],
+      "STARLINK-35942": [
+        "SLOT_243985",
+        "SLOT_387362",
+        "SLOT_388874"
+      ],
+      "STARLINK-37180": [
+        "SLOT_217144",
+        "SLOT_221761",
+        "SLOT_318450"
+      ],
+      "STARLINK-3850": [
+        "SLOT_240068",
+        "SLOT_246500",
+        "SLOT_251519"
+      ],
+      "STARLINK-4130": [
+        "SLOT_631386",
+        "SLOT_847326"
+      ],
+      "STARLINK-5348": [
+        "SLOT_226244",
+        "SLOT_568834"
+      ],
+      "STARLINK-6259": [
+        "SLOT_010275",
+        "SLOT_243906",
+        "SLOT_629566"
+      ]
+    }
+  },
+  {
+    "terminal_id": "component_001_dnode_0007",
+    "original_component_id": "component_001",
+    "depth": 3,
+    "qubits": 57,
+    "couplers": 131,
+    "terminal_reason": "fits QPU limits",
+    "forced_selected": {
+      "STARLINK-36739": "SLOT_188573"
+    },
+    "forced_objective": 71.342,
+    "domains": {
+      "STARLINK-11366 [DTC]": [
+        "SLOT_133642",
+        "SLOT_373233",
+        "SLOT_3741141"
+      ],
+      "STARLINK-30098": [
+        "SLOT_007649",
+        "SLOT_259033",
+        "SLOT_259900"
+      ],
+      "STARLINK-30198": [
+        "SLOT_233104",
+        "SLOT_389895"
+      ],
+      "STARLINK-30829": [
+        "SLOT_094639",
+        "SLOT_229892",
+        "SLOT_238642"
+      ],
+      "STARLINK-32195": [
+        "SLOT_613294",
+        "SLOT_642084",
+        "SLOT_858803"
+      ],
+      "STARLINK-32778": [
+        "SLOT_111654",
+        "SLOT_306706"
+      ],
+      "STARLINK-33776": [
+        "SLOT_335913",
+        "SLOT_596372"
+      ],
+      "STARLINK-34175": [
+        "SLOT_257103",
+        "SLOT_266732",
+        "SLOT_355915",
+        "SLOT_393124"
+      ],
+      "STARLINK-34586": [
+        "SLOT_241365",
+        "SLOT_241520",
+        "SLOT_249191",
+        "SLOT_873416"
+      ],
+      "STARLINK-34986": [
+        "SLOT_318953",
+        "SLOT_348409",
+        "SLOT_402801",
+        "SLOT_762057"
+      ],
+      "STARLINK-35254": [
+        "SLOT_218335",
+        "SLOT_349045"
+      ],
+      "STARLINK-35300": [
+        "SLOT_1304902",
+        "SLOT_236285",
+        "SLOT_236451"
+      ],
+      "STARLINK-35363": [
+        "SLOT_116787",
+        "SLOT_233817",
+        "SLOT_344010"
+      ],
+      "STARLINK-35820": [
+        "SLOT_086458",
+        "SLOT_311122"
+      ],
+      "STARLINK-35942": [
+        "SLOT_243985",
+        "SLOT_387362",
+        "SLOT_388874"
+      ],
+      "STARLINK-37180": [
+        "SLOT_120685",
+        "SLOT_217144",
+        "SLOT_221761",
+        "SLOT_318450"
+      ],
+      "STARLINK-3850": [
+        "SLOT_240068",
+        "SLOT_246500",
+        "SLOT_251519"
+      ],
+      "STARLINK-4130": [
+        "SLOT_631386",
+        "SLOT_847326"
+      ],
+      "STARLINK-5348": [
+        "SLOT_226244",
+        "SLOT_568834"
+      ],
+      "STARLINK-6259": [
+        "SLOT_010275",
+        "SLOT_243906",
+        "SLOT_629566"
+      ]
+    }
+  },
+  {
+    "terminal_id": "component_001_dnode_0009",
+    "original_component_id": "component_001",
+    "depth": 3,
+    "qubits": 57,
+    "couplers": 128,
+    "terminal_reason": "fits QPU limits",
+    "forced_selected": {},
+    "forced_objective": 0,
+    "domains": {
+      "STARLINK-11366 [DTC]": [
+        "SLOT_133642",
+        "SLOT_373233"
+      ],
+      "STARLINK-30098": [
+        "SLOT_007649",
+        "SLOT_259033",
+        "SLOT_259900"
+      ],
+      "STARLINK-30198": [
+        "SLOT_233104",
+        "SLOT_389895"
+      ],
+      "STARLINK-30829": [
+        "SLOT_094639",
+        "SLOT_229892",
+        "SLOT_238642"
+      ],
+      "STARLINK-32195": [
+        "SLOT_613294",
+        "SLOT_642084",
+        "SLOT_858803"
+      ],
+      "STARLINK-32778": [
+        "SLOT_111654",
+        "SLOT_306706"
+      ],
+      "STARLINK-33776": [
+        "SLOT_335913",
+        "SLOT_596372"
+      ],
+      "STARLINK-34175": [
+        "SLOT_257103",
+        "SLOT_266732",
+        "SLOT_355915",
+        "SLOT_393124"
+      ],
+      "STARLINK-34586": [
+        "SLOT_241365",
+        "SLOT_241520",
+        "SLOT_249191",
+        "SLOT_873416"
+      ],
+      "STARLINK-34986": [
+        "SLOT_318953",
+        "SLOT_348409",
+        "SLOT_402801",
+        "SLOT_762057"
+      ],
+      "STARLINK-35254": [
+        "SLOT_218335",
+        "SLOT_349045"
+      ],
+      "STARLINK-35300": [
+        "SLOT_1304902",
+        "SLOT_236285",
+        "SLOT_236451"
+      ],
+      "STARLINK-35363": [
+        "SLOT_116787",
+        "SLOT_233817",
+        "SLOT_344010"
+      ],
+      "STARLINK-35820": [
+        "SLOT_086458",
+        "SLOT_311122"
+      ],
+      "STARLINK-35942": [
+        "SLOT_243985",
+        "SLOT_387362",
+        "SLOT_388874"
+      ],
+      "STARLINK-36739": [
+        "SLOT_1234460",
+        "SLOT_323468"
+      ],
+      "STARLINK-37180": [
+        "SLOT_217144",
+        "SLOT_221761",
+        "SLOT_318450"
+      ],
+      "STARLINK-3850": [
+        "SLOT_240068",
+        "SLOT_246500",
+        "SLOT_251519"
+      ],
+      "STARLINK-4130": [
+        "SLOT_631386",
+        "SLOT_847326"
+      ],
+      "STARLINK-5348": [
+        "SLOT_226244",
+        "SLOT_568834"
+      ],
+      "STARLINK-6259": [
+        "SLOT_010275",
+        "SLOT_243906",
+        "SLOT_629566"
+      ]
+    }
+  },
+  {
+    "terminal_id": "component_001_dnode_0011",
+    "original_component_id": "component_001",
+    "depth": 3,
+    "qubits": 59,
+    "couplers": 136,
+    "terminal_reason": "fits QPU limits",
+    "forced_selected": {},
+    "forced_objective": 0,
+    "domains": {
+      "STARLINK-11366 [DTC]": [
+        "SLOT_133642",
+        "SLOT_373233",
+        "SLOT_3741141"
+      ],
+      "STARLINK-30098": [
+        "SLOT_007649",
+        "SLOT_259033",
+        "SLOT_259900"
+      ],
+      "STARLINK-30198": [
+        "SLOT_233104",
+        "SLOT_389895"
+      ],
+      "STARLINK-30829": [
+        "SLOT_094639",
+        "SLOT_229892",
+        "SLOT_238642"
+      ],
+      "STARLINK-32195": [
+        "SLOT_613294",
+        "SLOT_642084",
+        "SLOT_858803"
+      ],
+      "STARLINK-32778": [
+        "SLOT_111654",
+        "SLOT_306706"
+      ],
+      "STARLINK-33776": [
+        "SLOT_335913",
+        "SLOT_596372"
+      ],
+      "STARLINK-34175": [
+        "SLOT_257103",
+        "SLOT_266732",
+        "SLOT_355915",
+        "SLOT_393124"
+      ],
+      "STARLINK-34586": [
+        "SLOT_241365",
+        "SLOT_241520",
+        "SLOT_249191",
+        "SLOT_873416"
+      ],
+      "STARLINK-34986": [
+        "SLOT_318953",
+        "SLOT_348409",
+        "SLOT_402801",
+        "SLOT_762057"
+      ],
+      "STARLINK-35254": [
+        "SLOT_218335",
+        "SLOT_349045"
+      ],
+      "STARLINK-35300": [
+        "SLOT_1304902",
+        "SLOT_236285",
+        "SLOT_236451"
+      ],
+      "STARLINK-35363": [
+        "SLOT_116787",
+        "SLOT_233817",
+        "SLOT_344010"
+      ],
+      "STARLINK-35820": [
+        "SLOT_086458",
+        "SLOT_311122"
+      ],
+      "STARLINK-35942": [
+        "SLOT_243985",
+        "SLOT_387362",
+        "SLOT_388874"
+      ],
+      "STARLINK-36739": [
+        "SLOT_1234460",
+        "SLOT_323468"
+      ],
+      "STARLINK-37180": [
+        "SLOT_120685",
+        "SLOT_217144",
+        "SLOT_221761",
+        "SLOT_318450"
+      ],
+      "STARLINK-3850": [
+        "SLOT_240068",
+        "SLOT_246500",
+        "SLOT_251519"
+      ],
+      "STARLINK-4130": [
+        "SLOT_631386",
+        "SLOT_847326"
+      ],
+      "STARLINK-5348": [
+        "SLOT_226244",
+        "SLOT_568834"
+      ],
+      "STARLINK-6259": [
+        "SLOT_010275",
+        "SLOT_243906",
+        "SLOT_629566"
+      ]
+    }
+  },
+  {
+    "terminal_id": "component_001_dnode_0012",
+    "original_component_id": "component_001",
+    "depth": 3,
+    "qubits": 52,
+    "couplers": 117,
+    "terminal_reason": "fits QPU limits",
+    "forced_selected": {},
+    "forced_objective": 0,
+    "domains": {
+      "STARLINK-11366 [DTC]": [
+        "SLOT_133642",
+        "SLOT_373233"
+      ],
+      "STARLINK-30098": [
+        "SLOT_007649",
+        "SLOT_259033",
+        "SLOT_259900"
+      ],
+      "STARLINK-30198": [
+        "SLOT_233104",
+        "SLOT_389895"
+      ],
+      "STARLINK-30829": [
+        "SLOT_094639",
+        "SLOT_229892",
+        "SLOT_238642"
+      ],
+      "STARLINK-32195": [
+        "SLOT_613294",
+        "SLOT_642084",
+        "SLOT_858803"
+      ],
+      "STARLINK-32778": [
+        "SLOT_111654",
+        "SLOT_306706"
+      ],
+      "STARLINK-33776": [
+        "SLOT_335913",
+        "SLOT_596372"
+      ],
+      "STARLINK-34175": [
+        "SLOT_257103",
+        "SLOT_266732",
+        "SLOT_355915",
+        "SLOT_393124"
+      ],
+      "STARLINK-34586": [
+        "SLOT_241365",
+        "SLOT_241520",
+        "SLOT_249191",
+        "SLOT_873416"
+      ],
+      "STARLINK-34986": [
+        "SLOT_318953",
+        "SLOT_348409",
+        "SLOT_402801",
+        "SLOT_762057"
+      ],
+      "STARLINK-35254": [
+        "SLOT_218335",
+        "SLOT_349045"
+      ],
+      "STARLINK-35300": [
+        "SLOT_1304902",
+        "SLOT_236285",
+        "SLOT_236451"
+      ],
+      "STARLINK-35363": [
+        "SLOT_116787",
+        "SLOT_233817",
+        "SLOT_344010"
+      ],
+      "STARLINK-35942": [
+        "SLOT_243985",
+        "SLOT_387362",
+        "SLOT_388874"
+      ],
+      "STARLINK-37180": [
+        "SLOT_217144",
+        "SLOT_221761"
+      ],
+      "STARLINK-3850": [
+        "SLOT_240068",
+        "SLOT_246500",
+        "SLOT_251519"
+      ],
+      "STARLINK-4130": [
+        "SLOT_631386",
+        "SLOT_847326"
+      ],
+      "STARLINK-5348": [
+        "SLOT_226244",
+        "SLOT_568834"
+      ],
+      "STARLINK-6259": [
+        "SLOT_010275",
+        "SLOT_243906",
+        "SLOT_629566"
+      ]
+    }
+  },
+  {
+    "terminal_id": "component_001_dnode_0015",
+    "original_component_id": "component_001",
+    "depth": 3,
+    "qubits": 54,
+    "couplers": 125,
+    "terminal_reason": "fits QPU limits",
+    "forced_selected": {},
+    "forced_objective": 0,
+    "domains": {
+      "STARLINK-11366 [DTC]": [
+        "SLOT_133642",
+        "SLOT_373233",
+        "SLOT_3741141"
+      ],
+      "STARLINK-30098": [
+        "SLOT_007649",
+        "SLOT_259033",
+        "SLOT_259900"
+      ],
+      "STARLINK-30198": [
+        "SLOT_233104",
+        "SLOT_389895"
+      ],
+      "STARLINK-30829": [
+        "SLOT_094639",
+        "SLOT_229892",
+        "SLOT_238642"
+      ],
+      "STARLINK-32195": [
+        "SLOT_613294",
+        "SLOT_642084",
+        "SLOT_858803"
+      ],
+      "STARLINK-32778": [
+        "SLOT_111654",
+        "SLOT_306706"
+      ],
+      "STARLINK-33776": [
+        "SLOT_335913",
+        "SLOT_596372"
+      ],
+      "STARLINK-34175": [
+        "SLOT_257103",
+        "SLOT_266732",
+        "SLOT_355915",
+        "SLOT_393124"
+      ],
+      "STARLINK-34586": [
+        "SLOT_241365",
+        "SLOT_241520",
+        "SLOT_249191",
+        "SLOT_873416"
+      ],
+      "STARLINK-34986": [
+        "SLOT_318953",
+        "SLOT_348409",
+        "SLOT_402801",
+        "SLOT_762057"
+      ],
+      "STARLINK-35254": [
+        "SLOT_218335",
+        "SLOT_349045"
+      ],
+      "STARLINK-35300": [
+        "SLOT_1304902",
+        "SLOT_236285",
+        "SLOT_236451"
+      ],
+      "STARLINK-35363": [
+        "SLOT_116787",
+        "SLOT_233817",
+        "SLOT_344010"
+      ],
+      "STARLINK-35942": [
+        "SLOT_243985",
+        "SLOT_387362",
+        "SLOT_388874"
+      ],
+      "STARLINK-37180": [
+        "SLOT_120685",
+        "SLOT_217144",
+        "SLOT_221761"
+      ],
+      "STARLINK-3850": [
+        "SLOT_240068",
+        "SLOT_246500",
+        "SLOT_251519"
+      ],
+      "STARLINK-4130": [
+        "SLOT_631386",
+        "SLOT_847326"
+      ],
+      "STARLINK-5348": [
+        "SLOT_226244",
+        "SLOT_568834"
+      ],
+      "STARLINK-6259": [
+        "SLOT_010275",
+        "SLOT_243906",
+        "SLOT_629566"
+      ]
+    }
+  },
+  {
+    "terminal_id": "component_001_dnode_0016",
+    "original_component_id": "component_001",
+    "depth": 2,
+    "qubits": 73,
+    "couplers": 155,
+    "terminal_reason": "fits QPU limits",
+    "forced_selected": {},
+    "forced_objective": 0,
+    "domains": {
+      "STARLINK-33676": [
+        "SLOT_000448",
+        "SLOT_000615",
+        "SLOT_004920"
+      ],
+      "STARLINK-33677": [
+        "SLOT_019177",
+        "SLOT_022773",
+        "SLOT_027839"
+      ],
+      "STARLINK-34046": [
+        "SLOT_196135",
+        "SLOT_196674",
+        "SLOT_197123"
+      ],
+      "STARLINK-34504": [
+        "SLOT_063424",
+        "SLOT_203840",
+        "SLOT_455063"
+      ],
+      "STARLINK-34686": [
+        "SLOT_226523",
+        "SLOT_999979"
+      ],
+      "STARLINK-35453": [
+        "SLOT_132388",
+        "SLOT_186519",
+        "SLOT_189126",
+        "SLOT_189246",
+        "SLOT_189646",
+        "SLOT_194611",
+        "SLOT_198992",
+        "SLOT_716990"
+      ],
+      "STARLINK-35469": [
+        "SLOT_158346",
+        "SLOT_208777",
+        "SLOT_224028"
+      ],
+      "STARLINK-35537": [
+        "SLOT_201543",
+        "SLOT_453238"
+      ],
+      "STARLINK-35541": [
+        "SLOT_111218",
+        "SLOT_162938",
+        "SLOT_165697",
+        "SLOT_174207",
+        "SLOT_176267",
+        "SLOT_417705"
+      ],
+      "STARLINK-36499": [
+        "SLOT_149959",
+        "SLOT_919169"
+      ],
+      "STARLINK-36947": [
+        "SLOT_209495",
+        "SLOT_829883"
+      ],
+      "STARLINK-37201": [
+        "SLOT_006450",
+        "SLOT_085935",
+        "SLOT_238854",
+        "SLOT_239781"
+      ],
+      "STARLINK-37263": [
+        "SLOT_305323",
+        "SLOT_447395"
+      ],
+      "STARLINK-37892": [
+        "SLOT_317480",
+        "SLOT_679128"
+      ],
+      "STARLINK-3874": [
+        "SLOT_002314",
+        "SLOT_389876"
+      ],
+      "STARLINK-3986": [
+        "SLOT_123969",
+        "SLOT_124597",
+        "SLOT_178777",
+        "SLOT_178919",
+        "SLOT_182109",
+        "SLOT_187147",
+        "SLOT_191553",
+        "SLOT_811074"
+      ],
+      "STARLINK-4033": [
+        "SLOT_165110",
+        "SLOT_406060"
+      ],
+      "STARLINK-5595": [
+        "SLOT_009513",
+        "SLOT_201406",
+        "SLOT_380056"
+      ],
+      "STARLINK-5639": [
+        "SLOT_001688",
+        "SLOT_1334145",
+        "SLOT_202113"
+      ],
+      "STARLINK-5836": [
+        "SLOT_1361041",
+        "SLOT_224021",
+        "SLOT_305183",
+        "SLOT_413748"
+      ],
+      "STARLINK-6258": [
+        "SLOT_004386",
+        "SLOT_010146",
+        "SLOT_011031",
+        "SLOT_163011",
+        "SLOT_244002",
+        "SLOT_245028"
+      ]
+    }
+  },
+  {
+    "terminal_id": "component_001_dnode_0017",
+    "original_component_id": "component_001",
+    "depth": 2,
+    "qubits": 41,
+    "couplers": 94,
+    "terminal_reason": "fits QPU limits",
+    "forced_selected": {},
+    "forced_objective": 0,
+    "domains": {
+      "STARLINK-35463": [
+        "SLOT_1088876",
+        "SLOT_1090281",
+        "SLOT_1096898",
+        "SLOT_1097053",
+        "SLOT_1199734",
+        "SLOT_1245525",
+        "SLOT_1251611",
+        "SLOT_1334179",
+        "SLOT_1336631",
+        "SLOT_1337692",
+        "SLOT_1445982",
+        "SLOT_1629766",
+        "SLOT_1693700",
+        "SLOT_2130338",
+        "SLOT_269561",
+        "SLOT_402251",
+        "SLOT_822172",
+        "SLOT_827104",
+        "SLOT_843488",
+        "SLOT_990049"
+      ],
+      "STARLINK-35655": [
+        "SLOT_1092923",
+        "SLOT_1094103",
+        "SLOT_1102190",
+        "SLOT_1102356",
+        "SLOT_1205065",
+        "SLOT_1250556",
+        "SLOT_1256825",
+        "SLOT_1339297",
+        "SLOT_1341870",
+        "SLOT_1342975",
+        "SLOT_1451108",
+        "SLOT_1635005",
+        "SLOT_1698732",
+        "SLOT_1881578",
+        "SLOT_274547",
+        "SLOT_407232",
+        "SLOT_827498",
+        "SLOT_832523",
+        "SLOT_848885"
+      ],
+      "STARLINK-4156": [
+        "SLOT_1342112",
+        "SLOT_979446"
+      ]
+    }
+  },
+  {
+    "terminal_id": "component_001_dnode_0018",
+    "original_component_id": "component_001",
+    "depth": 2,
+    "qubits": 6,
+    "couplers": 7,
+    "terminal_reason": "fits QPU limits",
+    "forced_selected": {},
+    "forced_objective": 0,
+    "domains": {
+      "STARLINK-11353 [DTC]": [
+        "SLOT_159987",
+        "SLOT_3526265"
+      ],
+      "STARLINK-2571": [
+        "SLOT_149552",
+        "SLOT_401305"
+      ],
+      "STARLINK-32736": [
+        "SLOT_140375",
+        "SLOT_141885"
+      ]
+    }
+  },
+  {
+    "terminal_id": "component_001_dnode_0019",
+    "original_component_id": "component_001",
+    "depth": 2,
+    "qubits": 4,
+    "couplers": 6,
+    "terminal_reason": "fits QPU limits",
+    "forced_selected": {},
+    "forced_objective": 0,
+    "domains": {
+      "STARLINK-3257": [
+        "SLOT_1132096",
+        "SLOT_449891"
+      ],
+      "STARLINK-36460": [
+        "SLOT_434805",
+        "SLOT_436644"
+      ]
+    }
+  },
+  {
+    "terminal_id": "component_001_dnode_0020",
+    "original_component_id": "component_001",
+    "depth": 1,
+    "qubits": 9,
+    "couplers": 10,
+    "terminal_reason": "fits QPU limits",
+    "forced_selected": {},
+    "forced_objective": 0,
+    "domains": {
+      "STARLINK-30977": [
+        "SLOT_174242",
+        "SLOT_707194"
+      ],
+      "STARLINK-34536": [
+        "SLOT_056773",
+        "SLOT_717424",
+        "SLOT_717787"
+      ],
+      "STARLINK-34562": [
+        "SLOT_040928",
+        "SLOT_041985"
+      ],
+      "STARLINK-4086": [
+        "SLOT_699211",
+        "SLOT_786958"
+      ]
+    }
+  },
+  {
+    "terminal_id": "component_001_dnode_0026",
+    "original_component_id": "component_001",
+    "depth": 2,
+    "qubits": 47,
+    "couplers": 104,
+    "terminal_reason": "fits QPU limits",
+    "forced_selected": {},
+    "forced_objective": 0,
+    "domains": {
+      "STARLINK-33676": [
+        "SLOT_000448",
+        "SLOT_000615",
+        "SLOT_004920"
+      ],
+      "STARLINK-33677": [
+        "SLOT_019177",
+        "SLOT_022773",
+        "SLOT_027839"
+      ],
+      "STARLINK-34046": [
+        "SLOT_196135",
+        "SLOT_196674",
+        "SLOT_197123"
+      ],
+      "STARLINK-35453": [
+        "SLOT_132388",
+        "SLOT_186519",
+        "SLOT_189126",
+        "SLOT_189246",
+        "SLOT_189646",
+        "SLOT_194611",
+        "SLOT_198992",
+        "SLOT_716990"
+      ],
+      "STARLINK-35537": [
+        "SLOT_201543",
+        "SLOT_453238"
+      ],
+      "STARLINK-35541": [
+        "SLOT_111218",
+        "SLOT_162938",
+        "SLOT_165697",
+        "SLOT_174207",
+        "SLOT_176267",
+        "SLOT_417705"
+      ],
+      "STARLINK-36499": [
+        "SLOT_149959",
+        "SLOT_919169"
+      ],
+      "STARLINK-37201": [
+        "SLOT_006450",
+        "SLOT_085935",
+        "SLOT_238854",
+        "SLOT_239781"
+      ],
+      "STARLINK-3874": [
+        "SLOT_002314",
+        "SLOT_389876"
+      ],
+      "STARLINK-3986": [
+        "SLOT_123969",
+        "SLOT_124597",
+        "SLOT_178777",
+        "SLOT_178919",
+        "SLOT_182109",
+        "SLOT_187147",
+        "SLOT_191553",
+        "SLOT_811074"
+      ],
+      "STARLINK-6258": [
+        "SLOT_004386",
+        "SLOT_010146",
+        "SLOT_011031",
+        "SLOT_163011",
+        "SLOT_244002",
+        "SLOT_245028"
+      ]
+    }
+  },
+  {
+    "terminal_id": "component_001_dnode_0027",
+    "original_component_id": "component_001",
+    "depth": 2,
+    "qubits": 12,
+    "couplers": 20,
+    "terminal_reason": "fits QPU limits",
+    "forced_selected": {},
+    "forced_objective": 0,
+    "domains": {
+      "STARLINK-34686": [
+        "SLOT_226523",
+        "SLOT_999979"
+      ],
+      "STARLINK-35469": [
+        "SLOT_158346",
+        "SLOT_224028"
+      ],
+      "STARLINK-37892": [
+        "SLOT_317480",
+        "SLOT_679128"
+      ],
+      "STARLINK-4033": [
+        "SLOT_165110",
+        "SLOT_406060"
+      ],
+      "STARLINK-5836": [
+        "SLOT_1361041",
+        "SLOT_224021",
+        "SLOT_305183",
+        "SLOT_413748"
+      ]
+    }
+  },
+  {
+    "terminal_id": "component_001_dnode_0028",
+    "original_component_id": "component_001",
+    "depth": 2,
+    "qubits": 7,
+    "couplers": 10,
+    "terminal_reason": "fits QPU limits",
+    "forced_selected": {},
+    "forced_objective": 0,
+    "domains": {
+      "STARLINK-36947": [
+        "SLOT_209495",
+        "SLOT_829883"
+      ],
+      "STARLINK-5595": [
+        "SLOT_009513",
+        "SLOT_380056"
+      ],
+      "STARLINK-5639": [
+        "SLOT_001688",
+        "SLOT_1334145",
+        "SLOT_202113"
+      ]
+    }
+  },
+  {
+    "terminal_id": "component_001_dnode_0029",
+    "original_component_id": "component_001",
+    "depth": 2,
+    "qubits": 4,
+    "couplers": 4,
+    "terminal_reason": "fits QPU limits",
+    "forced_selected": {},
+    "forced_objective": 0,
+    "domains": {
+      "STARLINK-34504": [
+        "SLOT_063424",
+        "SLOT_455063"
+      ],
+      "STARLINK-37263": [
+        "SLOT_305323",
+        "SLOT_447395"
+      ]
+    }
+  },
+  {
+    "terminal_id": "component_001_dnode_0038",
+    "original_component_id": "component_001",
+    "depth": 2,
+    "qubits": 67,
+    "couplers": 146,
+    "terminal_reason": "fits QPU limits",
+    "forced_selected": {},
+    "forced_objective": 0,
+    "domains": {
+      "STARLINK-33677": [
+        "SLOT_019177",
+        "SLOT_022773",
+        "SLOT_027839"
+      ],
+      "STARLINK-34046": [
+        "SLOT_196135",
+        "SLOT_196674",
+        "SLOT_197123"
+      ],
+      "STARLINK-34504": [
+        "SLOT_063424",
+        "SLOT_203840",
+        "SLOT_455063"
+      ],
+      "STARLINK-34686": [
+        "SLOT_226523",
+        "SLOT_999979"
+      ],
+      "STARLINK-35453": [
+        "SLOT_132388",
+        "SLOT_186519",
+        "SLOT_189126",
+        "SLOT_189246",
+        "SLOT_189646",
+        "SLOT_194611",
+        "SLOT_198992",
+        "SLOT_716990"
+      ],
+      "STARLINK-35469": [
+        "SLOT_158346",
+        "SLOT_208777",
+        "SLOT_224028"
+      ],
+      "STARLINK-35537": [
+        "SLOT_201543",
+        "SLOT_453238"
+      ],
+      "STARLINK-35541": [
+        "SLOT_111218",
+        "SLOT_162938",
+        "SLOT_165697",
+        "SLOT_174207",
+        "SLOT_176267",
+        "SLOT_417705"
+      ],
+      "STARLINK-36499": [
+        "SLOT_149959",
+        "SLOT_919169"
+      ],
+      "STARLINK-36947": [
+        "SLOT_209495",
+        "SLOT_829883"
+      ],
+      "STARLINK-37201": [
+        "SLOT_006450",
+        "SLOT_085935",
+        "SLOT_238854",
+        "SLOT_239781"
+      ],
+      "STARLINK-37263": [
+        "SLOT_305323",
+        "SLOT_447395"
+      ],
+      "STARLINK-37892": [
+        "SLOT_317480",
+        "SLOT_679128"
+      ],
+      "STARLINK-3986": [
+        "SLOT_123969",
+        "SLOT_124597",
+        "SLOT_178777",
+        "SLOT_178919",
+        "SLOT_182109",
+        "SLOT_187147",
+        "SLOT_191553",
+        "SLOT_811074"
+      ],
+      "STARLINK-4033": [
+        "SLOT_165110",
+        "SLOT_406060"
+      ],
+      "STARLINK-5595": [
+        "SLOT_009513",
+        "SLOT_201406",
+        "SLOT_380056"
+      ],
+      "STARLINK-5639": [
+        "SLOT_001688",
+        "SLOT_1334145",
+        "SLOT_202113"
+      ],
+      "STARLINK-5836": [
+        "SLOT_1361041",
+        "SLOT_224021",
+        "SLOT_305183",
+        "SLOT_413748"
+      ],
+      "STARLINK-6258": [
+        "SLOT_004386",
+        "SLOT_010146",
+        "SLOT_163011",
+        "SLOT_244002",
+        "SLOT_245028"
+      ]
+    }
+  },
+  {
+    "terminal_id": "component_001_dnode_0039",
+    "original_component_id": "component_001",
+    "depth": 2,
+    "qubits": 4,
+    "couplers": 3,
+    "terminal_reason": "fits QPU limits",
+    "forced_selected": {},
+    "forced_objective": 0,
+    "domains": {
+      "STARLINK-33676": [
+        "SLOT_000615",
+        "SLOT_004920"
+      ],
+      "STARLINK-3874": [
+        "SLOT_002314",
+        "SLOT_389876"
+      ]
+    }
+  },
+  {
+    "terminal_id": "component_001_dnode_0041",
+    "original_component_id": "component_001",
+    "depth": 2,
+    "qubits": 41,
+    "couplers": 95,
+    "terminal_reason": "fits QPU limits",
+    "forced_selected": {},
+    "forced_objective": 0,
+    "domains": {
+      "STARLINK-33677": [
+        "SLOT_019177",
+        "SLOT_022773",
+        "SLOT_027839"
+      ],
+      "STARLINK-34046": [
+        "SLOT_196135",
+        "SLOT_196674",
+        "SLOT_197123"
+      ],
+      "STARLINK-35453": [
+        "SLOT_132388",
+        "SLOT_186519",
+        "SLOT_189126",
+        "SLOT_189246",
+        "SLOT_189646",
+        "SLOT_194611",
+        "SLOT_198992",
+        "SLOT_716990"
+      ],
+      "STARLINK-35537": [
+        "SLOT_201543",
+        "SLOT_453238"
+      ],
+      "STARLINK-35541": [
+        "SLOT_111218",
+        "SLOT_162938",
+        "SLOT_165697",
+        "SLOT_174207",
+        "SLOT_176267",
+        "SLOT_417705"
+      ],
+      "STARLINK-36499": [
+        "SLOT_149959",
+        "SLOT_919169"
+      ],
+      "STARLINK-37201": [
+        "SLOT_006450",
+        "SLOT_085935",
+        "SLOT_238854",
+        "SLOT_239781"
+      ],
+      "STARLINK-3986": [
+        "SLOT_123969",
+        "SLOT_124597",
+        "SLOT_178777",
+        "SLOT_178919",
+        "SLOT_182109",
+        "SLOT_187147",
+        "SLOT_191553",
+        "SLOT_811074"
+      ],
+      "STARLINK-6258": [
+        "SLOT_004386",
+        "SLOT_010146",
+        "SLOT_163011",
+        "SLOT_244002",
+        "SLOT_245028"
+      ]
+    }
+  },
+  {
+    "terminal_id": "component_001_dnode_0155",
+    "original_component_id": "component_001",
+    "depth": 1,
+    "qubits": 4,
+    "couplers": 3,
+    "terminal_reason": "fits QPU limits",
+    "forced_selected": {},
+    "forced_objective": 0,
+    "domains": {
+      "STARLINK-34226": [
+        "SLOT_107374",
+        "SLOT_1168933"
+      ],
+      "STARLINK-5808": [
+        "SLOT_102263",
+        "SLOT_897828"
+      ]
+    }
+  },
+  {
+    "terminal_id": "component_001_dnode_0161",
+    "original_component_id": "component_001",
+    "depth": 1,
+    "qubits": 9,
+    "couplers": 12,
+    "terminal_reason": "fits QPU limits",
+    "forced_selected": {},
+    "forced_objective": 0,
+    "domains": {
+      "STARLINK-30977": [
+        "SLOT_174242",
+        "SLOT_707194"
+      ],
+      "STARLINK-33889": [
+        "SLOT_063450",
+        "SLOT_172494"
+      ],
+      "STARLINK-34536": [
+        "SLOT_055813",
+        "SLOT_717424",
+        "SLOT_717787"
+      ],
+      "STARLINK-4086": [
+        "SLOT_699211",
+        "SLOT_786958"
+      ]
+    }
+  },
+  {
+    "terminal_id": "component_001_dnode_0163",
+    "original_component_id": "component_001",
+    "depth": 1,
+    "qubits": 9,
+    "couplers": 12,
+    "terminal_reason": "fits QPU limits",
+    "forced_selected": {},
+    "forced_objective": 0,
+    "domains": {
+      "STARLINK-30977": [
+        "SLOT_174242",
+        "SLOT_707194"
+      ],
+      "STARLINK-33889": [
+        "SLOT_063450",
+        "SLOT_351551"
+      ],
+      "STARLINK-34536": [
+        "SLOT_055813",
+        "SLOT_717424",
+        "SLOT_717787"
+      ],
+      "STARLINK-4086": [
+        "SLOT_699211",
+        "SLOT_786958"
+      ]
+    }
+  },
+  {
+    "terminal_id": "component_001_dnode_0165",
+    "original_component_id": "component_001",
+    "depth": 2,
+    "qubits": 39,
+    "couplers": 88,
+    "terminal_reason": "fits QPU limits",
+    "forced_selected": {},
+    "forced_objective": 0,
+    "domains": {
+      "STARLINK-35463": [
+        "SLOT_1090281",
+        "SLOT_1096898",
+        "SLOT_1097053",
+        "SLOT_1199734",
+        "SLOT_1245525",
+        "SLOT_1251611",
+        "SLOT_1334179",
+        "SLOT_1336631",
+        "SLOT_1337692",
+        "SLOT_1445982",
+        "SLOT_1629766",
+        "SLOT_1693700",
+        "SLOT_2130338",
+        "SLOT_269561",
+        "SLOT_402251",
+        "SLOT_822172",
+        "SLOT_827104",
+        "SLOT_843488",
+        "SLOT_990049"
+      ],
+      "STARLINK-35655": [
+        "SLOT_1092923",
+        "SLOT_1102190",
+        "SLOT_1102356",
+        "SLOT_1205065",
+        "SLOT_1250556",
+        "SLOT_1256825",
+        "SLOT_1339297",
+        "SLOT_1341870",
+        "SLOT_1342975",
+        "SLOT_1451108",
+        "SLOT_1635005",
+        "SLOT_1698732",
+        "SLOT_1881578",
+        "SLOT_274547",
+        "SLOT_407232",
+        "SLOT_827498",
+        "SLOT_832523",
+        "SLOT_848885"
+      ],
+      "STARLINK-4156": [
+        "SLOT_1342112",
+        "SLOT_979446"
+      ]
+    }
+  },
+  {
+    "terminal_id": "component_001_dnode_0166",
+    "original_component_id": "component_001",
+    "depth": 1,
+    "qubits": 12,
+    "couplers": 16,
+    "terminal_reason": "fits QPU limits",
+    "forced_selected": {},
+    "forced_objective": 0,
+    "domains": {
+      "STARLINK-30977": [
+        "SLOT_174242",
+        "SLOT_707194"
+      ],
+      "STARLINK-33889": [
+        "SLOT_063450",
+        "SLOT_172494"
+      ],
+      "STARLINK-34536": [
+        "SLOT_055813",
+        "SLOT_056773",
+        "SLOT_717424",
+        "SLOT_717787"
+      ],
+      "STARLINK-34562": [
+        "SLOT_040928",
+        "SLOT_041985"
+      ],
+      "STARLINK-4086": [
+        "SLOT_699211",
+        "SLOT_786958"
+      ]
+    }
+  },
+  {
+    "terminal_id": "component_001_dnode_0167",
+    "original_component_id": "component_001",
+    "depth": 1,
+    "qubits": 12,
+    "couplers": 16,
+    "terminal_reason": "fits QPU limits",
+    "forced_selected": {},
+    "forced_objective": 0,
+    "domains": {
+      "STARLINK-30977": [
+        "SLOT_174242",
+        "SLOT_707194"
+      ],
+      "STARLINK-33889": [
+        "SLOT_063450",
+        "SLOT_351551"
+      ],
+      "STARLINK-34536": [
+        "SLOT_055813",
+        "SLOT_056773",
+        "SLOT_717424",
+        "SLOT_717787"
+      ],
+      "STARLINK-34562": [
+        "SLOT_040928",
+        "SLOT_041985"
+      ],
+      "STARLINK-4086": [
+        "SLOT_699211",
+        "SLOT_786958"
+      ]
+    }
+  },
+  {
+    "terminal_id": "component_001_dnode_0259",
+    "original_component_id": "component_001",
+    "depth": 2,
+    "qubits": 39,
+    "couplers": 89,
+    "terminal_reason": "fits QPU limits",
+    "forced_selected": {},
+    "forced_objective": 0,
+    "domains": {
+      "STARLINK-35463": [
+        "SLOT_1088876",
+        "SLOT_1090281",
+        "SLOT_1096898",
+        "SLOT_1097053",
+        "SLOT_1199734",
+        "SLOT_1245525",
+        "SLOT_1251611",
+        "SLOT_1334179",
+        "SLOT_1336631",
+        "SLOT_1445982",
+        "SLOT_1629766",
+        "SLOT_1693700",
+        "SLOT_2130338",
+        "SLOT_269561",
+        "SLOT_402251",
+        "SLOT_822172",
+        "SLOT_827104",
+        "SLOT_843488",
+        "SLOT_990049"
+      ],
+      "STARLINK-35655": [
+        "SLOT_1092923",
+        "SLOT_1094103",
+        "SLOT_1102190",
+        "SLOT_1102356",
+        "SLOT_1205065",
+        "SLOT_1250556",
+        "SLOT_1256825",
+        "SLOT_1339297",
+        "SLOT_1341870",
+        "SLOT_1451108",
+        "SLOT_1635005",
+        "SLOT_1698732",
+        "SLOT_1881578",
+        "SLOT_274547",
+        "SLOT_407232",
+        "SLOT_827498",
+        "SLOT_832523",
+        "SLOT_848885"
+      ],
+      "STARLINK-4156": [
+        "SLOT_1342112",
+        "SLOT_979446"
+      ]
+    }
+  },
+  {
+    "terminal_id": "component_001_dnode_0479",
+    "original_component_id": "component_001",
+    "depth": 2,
+    "qubits": 73,
+    "couplers": 158,
+    "terminal_reason": "fits QPU limits",
+    "forced_selected": {},
+    "forced_objective": 0,
+    "domains": {
+      "STARLINK-33676": [
+        "SLOT_000448",
+        "SLOT_000615",
+        "SLOT_004920"
+      ],
+      "STARLINK-33677": [
+        "SLOT_019177",
+        "SLOT_022773",
+        "SLOT_027839"
+      ],
+      "STARLINK-34046": [
+        "SLOT_196674",
+        "SLOT_197123",
+        "SLOT_326709"
+      ],
+      "STARLINK-34504": [
+        "SLOT_063424",
+        "SLOT_203840",
+        "SLOT_455063"
+      ],
+      "STARLINK-34686": [
+        "SLOT_226523",
+        "SLOT_999979"
+      ],
+      "STARLINK-35453": [
+        "SLOT_132388",
+        "SLOT_186519",
+        "SLOT_189126",
+        "SLOT_189246",
+        "SLOT_189646",
+        "SLOT_194611",
+        "SLOT_198992",
+        "SLOT_716990"
+      ],
+      "STARLINK-35469": [
+        "SLOT_158346",
+        "SLOT_208777",
+        "SLOT_224028"
+      ],
+      "STARLINK-35537": [
+        "SLOT_201543",
+        "SLOT_453238"
+      ],
+      "STARLINK-35541": [
+        "SLOT_111218",
+        "SLOT_162938",
+        "SLOT_165697",
+        "SLOT_174207",
+        "SLOT_176267",
+        "SLOT_417705"
+      ],
+      "STARLINK-36499": [
+        "SLOT_149959",
+        "SLOT_919169"
+      ],
+      "STARLINK-36947": [
+        "SLOT_209495",
+        "SLOT_829883"
+      ],
+      "STARLINK-37201": [
+        "SLOT_006450",
+        "SLOT_085935",
+        "SLOT_238854",
+        "SLOT_239781"
+      ],
+      "STARLINK-37263": [
+        "SLOT_305323",
+        "SLOT_447395"
+      ],
+      "STARLINK-37892": [
+        "SLOT_317480",
+        "SLOT_679128"
+      ],
+      "STARLINK-3874": [
+        "SLOT_002314",
+        "SLOT_389876"
+      ],
+      "STARLINK-3986": [
+        "SLOT_123969",
+        "SLOT_124597",
+        "SLOT_178777",
+        "SLOT_178919",
+        "SLOT_182109",
+        "SLOT_187147",
+        "SLOT_191553",
+        "SLOT_811074"
+      ],
+      "STARLINK-4033": [
+        "SLOT_165110",
+        "SLOT_406060"
+      ],
+      "STARLINK-5595": [
+        "SLOT_009513",
+        "SLOT_201406",
+        "SLOT_380056"
+      ],
+      "STARLINK-5639": [
+        "SLOT_001688",
+        "SLOT_1334145",
+        "SLOT_202113"
+      ],
+      "STARLINK-5836": [
+        "SLOT_1361041",
+        "SLOT_224021",
+        "SLOT_305183",
+        "SLOT_413748"
+      ],
+      "STARLINK-6258": [
+        "SLOT_004386",
+        "SLOT_010146",
+        "SLOT_011031",
+        "SLOT_163011",
+        "SLOT_244002",
+        "SLOT_245028"
+      ]
+    }
+  },
+  {
+    "terminal_id": "component_001_dnode_0481",
+    "original_component_id": "component_001",
+    "depth": 2,
+    "qubits": 47,
+    "couplers": 107,
+    "terminal_reason": "fits QPU limits",
+    "forced_selected": {},
+    "forced_objective": 0,
+    "domains": {
+      "STARLINK-33676": [
+        "SLOT_000448",
+        "SLOT_000615",
+        "SLOT_004920"
+      ],
+      "STARLINK-33677": [
+        "SLOT_019177",
+        "SLOT_022773",
+        "SLOT_027839"
+      ],
+      "STARLINK-34046": [
+        "SLOT_196674",
+        "SLOT_197123",
+        "SLOT_326709"
+      ],
+      "STARLINK-35453": [
+        "SLOT_132388",
+        "SLOT_186519",
+        "SLOT_189126",
+        "SLOT_189246",
+        "SLOT_189646",
+        "SLOT_194611",
+        "SLOT_198992",
+        "SLOT_716990"
+      ],
+      "STARLINK-35537": [
+        "SLOT_201543",
+        "SLOT_453238"
+      ],
+      "STARLINK-35541": [
+        "SLOT_111218",
+        "SLOT_162938",
+        "SLOT_165697",
+        "SLOT_174207",
+        "SLOT_176267",
+        "SLOT_417705"
+      ],
+      "STARLINK-36499": [
+        "SLOT_149959",
+        "SLOT_919169"
+      ],
+      "STARLINK-37201": [
+        "SLOT_006450",
+        "SLOT_085935",
+        "SLOT_238854",
+        "SLOT_239781"
+      ],
+      "STARLINK-3874": [
+        "SLOT_002314",
+        "SLOT_389876"
+      ],
+      "STARLINK-3986": [
+        "SLOT_123969",
+        "SLOT_124597",
+        "SLOT_178777",
+        "SLOT_178919",
+        "SLOT_182109",
+        "SLOT_187147",
+        "SLOT_191553",
+        "SLOT_811074"
+      ],
+      "STARLINK-6258": [
+        "SLOT_004386",
+        "SLOT_010146",
+        "SLOT_011031",
+        "SLOT_163011",
+        "SLOT_244002",
+        "SLOT_245028"
+      ]
+    }
+  },
+  {
+    "terminal_id": "component_001_dnode_0487",
+    "original_component_id": "component_001",
+    "depth": 2,
+    "qubits": 67,
+    "couplers": 149,
+    "terminal_reason": "fits QPU limits",
+    "forced_selected": {},
+    "forced_objective": 0,
+    "domains": {
+      "STARLINK-33677": [
+        "SLOT_019177",
+        "SLOT_022773",
+        "SLOT_027839"
+      ],
+      "STARLINK-34046": [
+        "SLOT_196674",
+        "SLOT_197123",
+        "SLOT_326709"
+      ],
+      "STARLINK-34504": [
+        "SLOT_063424",
+        "SLOT_203840",
+        "SLOT_455063"
+      ],
+      "STARLINK-34686": [
+        "SLOT_226523",
+        "SLOT_999979"
+      ],
+      "STARLINK-35453": [
+        "SLOT_132388",
+        "SLOT_186519",
+        "SLOT_189126",
+        "SLOT_189246",
+        "SLOT_189646",
+        "SLOT_194611",
+        "SLOT_198992",
+        "SLOT_716990"
+      ],
+      "STARLINK-35469": [
+        "SLOT_158346",
+        "SLOT_208777",
+        "SLOT_224028"
+      ],
+      "STARLINK-35537": [
+        "SLOT_201543",
+        "SLOT_453238"
+      ],
+      "STARLINK-35541": [
+        "SLOT_111218",
+        "SLOT_162938",
+        "SLOT_165697",
+        "SLOT_174207",
+        "SLOT_176267",
+        "SLOT_417705"
+      ],
+      "STARLINK-36499": [
+        "SLOT_149959",
+        "SLOT_919169"
+      ],
+      "STARLINK-36947": [
+        "SLOT_209495",
+        "SLOT_829883"
+      ],
+      "STARLINK-37201": [
+        "SLOT_006450",
+        "SLOT_085935",
+        "SLOT_238854",
+        "SLOT_239781"
+      ],
+      "STARLINK-37263": [
+        "SLOT_305323",
+        "SLOT_447395"
+      ],
+      "STARLINK-37892": [
+        "SLOT_317480",
+        "SLOT_679128"
+      ],
+      "STARLINK-3986": [
+        "SLOT_123969",
+        "SLOT_124597",
+        "SLOT_178777",
+        "SLOT_178919",
+        "SLOT_182109",
+        "SLOT_187147",
+        "SLOT_191553",
+        "SLOT_811074"
+      ],
+      "STARLINK-4033": [
+        "SLOT_165110",
+        "SLOT_406060"
+      ],
+      "STARLINK-5595": [
+        "SLOT_009513",
+        "SLOT_201406",
+        "SLOT_380056"
+      ],
+      "STARLINK-5639": [
+        "SLOT_001688",
+        "SLOT_1334145",
+        "SLOT_202113"
+      ],
+      "STARLINK-5836": [
+        "SLOT_1361041",
+        "SLOT_224021",
+        "SLOT_305183",
+        "SLOT_413748"
+      ],
+      "STARLINK-6258": [
+        "SLOT_004386",
+        "SLOT_010146",
+        "SLOT_163011",
+        "SLOT_244002",
+        "SLOT_245028"
+      ]
+    }
+  },
+  {
+    "terminal_id": "component_001_dnode_0489",
+    "original_component_id": "component_001",
+    "depth": 2,
+    "qubits": 41,
+    "couplers": 98,
+    "terminal_reason": "fits QPU limits",
+    "forced_selected": {},
+    "forced_objective": 0,
+    "domains": {
+      "STARLINK-33677": [
+        "SLOT_019177",
+        "SLOT_022773",
+        "SLOT_027839"
+      ],
+      "STARLINK-34046": [
+        "SLOT_196674",
+        "SLOT_197123",
+        "SLOT_326709"
+      ],
+      "STARLINK-35453": [
+        "SLOT_132388",
+        "SLOT_186519",
+        "SLOT_189126",
+        "SLOT_189246",
+        "SLOT_189646",
+        "SLOT_194611",
+        "SLOT_198992",
+        "SLOT_716990"
+      ],
+      "STARLINK-35537": [
+        "SLOT_201543",
+        "SLOT_453238"
+      ],
+      "STARLINK-35541": [
+        "SLOT_111218",
+        "SLOT_162938",
+        "SLOT_165697",
+        "SLOT_174207",
+        "SLOT_176267",
+        "SLOT_417705"
+      ],
+      "STARLINK-36499": [
+        "SLOT_149959",
+        "SLOT_919169"
+      ],
+      "STARLINK-37201": [
+        "SLOT_006450",
+        "SLOT_085935",
+        "SLOT_238854",
+        "SLOT_239781"
+      ],
+      "STARLINK-3986": [
+        "SLOT_123969",
+        "SLOT_124597",
+        "SLOT_178777",
+        "SLOT_178919",
+        "SLOT_182109",
+        "SLOT_187147",
+        "SLOT_191553",
+        "SLOT_811074"
+      ],
+      "STARLINK-6258": [
+        "SLOT_004386",
+        "SLOT_010146",
+        "SLOT_163011",
+        "SLOT_244002",
+        "SLOT_245028"
+      ]
+    }
+  },
+  {
+    "terminal_id": "component_001_dnode_0585",
+    "original_component_id": "component_001",
+    "depth": 2,
+    "qubits": 71,
+    "couplers": 149,
+    "terminal_reason": "fits QPU limits",
+    "forced_selected": {},
+    "forced_objective": 0,
+    "domains": {
+      "STARLINK-33676": [
+        "SLOT_000448",
+        "SLOT_000615",
+        "SLOT_004920"
+      ],
+      "STARLINK-33677": [
+        "SLOT_019177",
+        "SLOT_022773",
+        "SLOT_027839"
+      ],
+      "STARLINK-34046": [
+        "SLOT_196135",
+        "SLOT_197123"
+      ],
+      "STARLINK-34504": [
+        "SLOT_063424",
+        "SLOT_203840",
+        "SLOT_455063"
+      ],
+      "STARLINK-34686": [
+        "SLOT_226523",
+        "SLOT_999979"
+      ],
+      "STARLINK-35453": [
+        "SLOT_132388",
+        "SLOT_186519",
+        "SLOT_189126",
+        "SLOT_189246",
+        "SLOT_189646",
+        "SLOT_194611",
+        "SLOT_198992"
+      ],
+      "STARLINK-35469": [
+        "SLOT_158346",
+        "SLOT_208777",
+        "SLOT_224028"
+      ],
+      "STARLINK-35537": [
+        "SLOT_201543",
+        "SLOT_453238"
+      ],
+      "STARLINK-35541": [
+        "SLOT_111218",
+        "SLOT_162938",
+        "SLOT_165697",
+        "SLOT_174207",
+        "SLOT_176267",
+        "SLOT_417705"
+      ],
+      "STARLINK-36499": [
+        "SLOT_149959",
+        "SLOT_919169"
+      ],
+      "STARLINK-36947": [
+        "SLOT_209495",
+        "SLOT_829883"
+      ],
+      "STARLINK-37201": [
+        "SLOT_006450",
+        "SLOT_085935",
+        "SLOT_238854",
+        "SLOT_239781"
+      ],
+      "STARLINK-37263": [
+        "SLOT_305323",
+        "SLOT_447395"
+      ],
+      "STARLINK-37892": [
+        "SLOT_317480",
+        "SLOT_679128"
+      ],
+      "STARLINK-3874": [
+        "SLOT_002314",
+        "SLOT_389876"
+      ],
+      "STARLINK-3986": [
+        "SLOT_123969",
+        "SLOT_124597",
+        "SLOT_178777",
+        "SLOT_178919",
+        "SLOT_182109",
+        "SLOT_187147",
+        "SLOT_191553",
+        "SLOT_811074"
+      ],
+      "STARLINK-4033": [
+        "SLOT_165110",
+        "SLOT_406060"
+      ],
+      "STARLINK-5595": [
+        "SLOT_009513",
+        "SLOT_201406",
+        "SLOT_380056"
+      ],
+      "STARLINK-5639": [
+        "SLOT_001688",
+        "SLOT_1334145",
+        "SLOT_202113"
+      ],
+      "STARLINK-5836": [
+        "SLOT_1361041",
+        "SLOT_224021",
+        "SLOT_305183",
+        "SLOT_413748"
+      ],
+      "STARLINK-6258": [
+        "SLOT_004386",
+        "SLOT_010146",
+        "SLOT_011031",
+        "SLOT_163011",
+        "SLOT_244002",
+        "SLOT_245028"
+      ]
+    }
+  },
+  {
+    "terminal_id": "component_001_dnode_0587",
+    "original_component_id": "component_001",
+    "depth": 2,
+    "qubits": 45,
+    "couplers": 98,
+    "terminal_reason": "fits QPU limits",
+    "forced_selected": {},
+    "forced_objective": 0,
+    "domains": {
+      "STARLINK-33676": [
+        "SLOT_000448",
+        "SLOT_000615",
+        "SLOT_004920"
+      ],
+      "STARLINK-33677": [
+        "SLOT_019177",
+        "SLOT_022773",
+        "SLOT_027839"
+      ],
+      "STARLINK-34046": [
+        "SLOT_196135",
+        "SLOT_197123"
+      ],
+      "STARLINK-35453": [
+        "SLOT_132388",
+        "SLOT_186519",
+        "SLOT_189126",
+        "SLOT_189246",
+        "SLOT_189646",
+        "SLOT_194611",
+        "SLOT_198992"
+      ],
+      "STARLINK-35537": [
+        "SLOT_201543",
+        "SLOT_453238"
+      ],
+      "STARLINK-35541": [
+        "SLOT_111218",
+        "SLOT_162938",
+        "SLOT_165697",
+        "SLOT_174207",
+        "SLOT_176267",
+        "SLOT_417705"
+      ],
+      "STARLINK-36499": [
+        "SLOT_149959",
+        "SLOT_919169"
+      ],
+      "STARLINK-37201": [
+        "SLOT_006450",
+        "SLOT_085935",
+        "SLOT_238854",
+        "SLOT_239781"
+      ],
+      "STARLINK-3874": [
+        "SLOT_002314",
+        "SLOT_389876"
+      ],
+      "STARLINK-3986": [
+        "SLOT_123969",
+        "SLOT_124597",
+        "SLOT_178777",
+        "SLOT_178919",
+        "SLOT_182109",
+        "SLOT_187147",
+        "SLOT_191553",
+        "SLOT_811074"
+      ],
+      "STARLINK-6258": [
+        "SLOT_004386",
+        "SLOT_010146",
+        "SLOT_011031",
+        "SLOT_163011",
+        "SLOT_244002",
+        "SLOT_245028"
+      ]
+    }
+  },
+  {
+    "terminal_id": "component_001_dnode_0593",
+    "original_component_id": "component_001",
+    "depth": 2,
+    "qubits": 65,
+    "couplers": 140,
+    "terminal_reason": "fits QPU limits",
+    "forced_selected": {},
+    "forced_objective": 0,
+    "domains": {
+      "STARLINK-33677": [
+        "SLOT_019177",
+        "SLOT_022773",
+        "SLOT_027839"
+      ],
+      "STARLINK-34046": [
+        "SLOT_196135",
+        "SLOT_197123"
+      ],
+      "STARLINK-34504": [
+        "SLOT_063424",
+        "SLOT_203840",
+        "SLOT_455063"
+      ],
+      "STARLINK-34686": [
+        "SLOT_226523",
+        "SLOT_999979"
+      ],
+      "STARLINK-35453": [
+        "SLOT_132388",
+        "SLOT_186519",
+        "SLOT_189126",
+        "SLOT_189246",
+        "SLOT_189646",
+        "SLOT_194611",
+        "SLOT_198992"
+      ],
+      "STARLINK-35469": [
+        "SLOT_158346",
+        "SLOT_208777",
+        "SLOT_224028"
+      ],
+      "STARLINK-35537": [
+        "SLOT_201543",
+        "SLOT_453238"
+      ],
+      "STARLINK-35541": [
+        "SLOT_111218",
+        "SLOT_162938",
+        "SLOT_165697",
+        "SLOT_174207",
+        "SLOT_176267",
+        "SLOT_417705"
+      ],
+      "STARLINK-36499": [
+        "SLOT_149959",
+        "SLOT_919169"
+      ],
+      "STARLINK-36947": [
+        "SLOT_209495",
+        "SLOT_829883"
+      ],
+      "STARLINK-37201": [
+        "SLOT_006450",
+        "SLOT_085935",
+        "SLOT_238854",
+        "SLOT_239781"
+      ],
+      "STARLINK-37263": [
+        "SLOT_305323",
+        "SLOT_447395"
+      ],
+      "STARLINK-37892": [
+        "SLOT_317480",
+        "SLOT_679128"
+      ],
+      "STARLINK-3986": [
+        "SLOT_123969",
+        "SLOT_124597",
+        "SLOT_178777",
+        "SLOT_178919",
+        "SLOT_182109",
+        "SLOT_187147",
+        "SLOT_191553",
+        "SLOT_811074"
+      ],
+      "STARLINK-4033": [
+        "SLOT_165110",
+        "SLOT_406060"
+      ],
+      "STARLINK-5595": [
+        "SLOT_009513",
+        "SLOT_201406",
+        "SLOT_380056"
+      ],
+      "STARLINK-5639": [
+        "SLOT_001688",
+        "SLOT_1334145",
+        "SLOT_202113"
+      ],
+      "STARLINK-5836": [
+        "SLOT_1361041",
+        "SLOT_224021",
+        "SLOT_305183",
+        "SLOT_413748"
+      ],
+      "STARLINK-6258": [
+        "SLOT_004386",
+        "SLOT_010146",
+        "SLOT_163011",
+        "SLOT_244002",
+        "SLOT_245028"
+      ]
+    }
+  },
+  {
+    "terminal_id": "component_001_dnode_0595",
+    "original_component_id": "component_001",
+    "depth": 2,
+    "qubits": 39,
+    "couplers": 89,
+    "terminal_reason": "fits QPU limits",
+    "forced_selected": {},
+    "forced_objective": 0,
+    "domains": {
+      "STARLINK-33677": [
+        "SLOT_019177",
+        "SLOT_022773",
+        "SLOT_027839"
+      ],
+      "STARLINK-34046": [
+        "SLOT_196135",
+        "SLOT_197123"
+      ],
+      "STARLINK-35453": [
+        "SLOT_132388",
+        "SLOT_186519",
+        "SLOT_189126",
+        "SLOT_189246",
+        "SLOT_189646",
+        "SLOT_194611",
+        "SLOT_198992"
+      ],
+      "STARLINK-35537": [
+        "SLOT_201543",
+        "SLOT_453238"
+      ],
+      "STARLINK-35541": [
+        "SLOT_111218",
+        "SLOT_162938",
+        "SLOT_165697",
+        "SLOT_174207",
+        "SLOT_176267",
+        "SLOT_417705"
+      ],
+      "STARLINK-36499": [
+        "SLOT_149959",
+        "SLOT_919169"
+      ],
+      "STARLINK-37201": [
+        "SLOT_006450",
+        "SLOT_085935",
+        "SLOT_238854",
+        "SLOT_239781"
+      ],
+      "STARLINK-3986": [
+        "SLOT_123969",
+        "SLOT_124597",
+        "SLOT_178777",
+        "SLOT_178919",
+        "SLOT_182109",
+        "SLOT_187147",
+        "SLOT_191553",
+        "SLOT_811074"
+      ],
+      "STARLINK-6258": [
+        "SLOT_004386",
+        "SLOT_010146",
+        "SLOT_163011",
+        "SLOT_244002",
+        "SLOT_245028"
+      ]
+    }
+  },
+  {
+    "terminal_id": "component_001_dnode_0699",
+    "original_component_id": "component_001",
+    "depth": 2,
+    "qubits": 72,
+    "couplers": 149,
+    "terminal_reason": "fits QPU limits",
+    "forced_selected": {},
+    "forced_objective": 0,
+    "domains": {
+      "STARLINK-33676": [
+        "SLOT_000448",
+        "SLOT_000615",
+        "SLOT_004920"
+      ],
+      "STARLINK-33677": [
+        "SLOT_019177",
+        "SLOT_022773",
+        "SLOT_027839"
+      ],
+      "STARLINK-34046": [
+        "SLOT_196135",
+        "SLOT_196674"
+      ],
+      "STARLINK-34504": [
+        "SLOT_063424",
+        "SLOT_203840",
+        "SLOT_455063"
+      ],
+      "STARLINK-34686": [
+        "SLOT_226523",
+        "SLOT_999979"
+      ],
+      "STARLINK-35453": [
+        "SLOT_132388",
+        "SLOT_186519",
+        "SLOT_189126",
+        "SLOT_189246",
+        "SLOT_189646",
+        "SLOT_194611",
+        "SLOT_198992",
+        "SLOT_716990"
+      ],
+      "STARLINK-35469": [
+        "SLOT_158346",
+        "SLOT_208777",
+        "SLOT_224028"
+      ],
+      "STARLINK-35537": [
+        "SLOT_201543",
+        "SLOT_453238"
+      ],
+      "STARLINK-35541": [
+        "SLOT_111218",
+        "SLOT_162938",
+        "SLOT_165697",
+        "SLOT_174207",
+        "SLOT_176267",
+        "SLOT_417705"
+      ],
+      "STARLINK-36499": [
+        "SLOT_149959",
+        "SLOT_919169"
+      ],
+      "STARLINK-36947": [
+        "SLOT_209495",
+        "SLOT_829883"
+      ],
+      "STARLINK-37201": [
+        "SLOT_006450",
+        "SLOT_085935",
+        "SLOT_238854",
+        "SLOT_239781"
+      ],
+      "STARLINK-37263": [
+        "SLOT_305323",
+        "SLOT_447395"
+      ],
+      "STARLINK-37892": [
+        "SLOT_317480",
+        "SLOT_679128"
+      ],
+      "STARLINK-3874": [
+        "SLOT_002314",
+        "SLOT_389876"
+      ],
+      "STARLINK-3986": [
+        "SLOT_123969",
+        "SLOT_124597",
+        "SLOT_178777",
+        "SLOT_178919",
+        "SLOT_182109",
+        "SLOT_187147",
+        "SLOT_191553",
+        "SLOT_811074"
+      ],
+      "STARLINK-4033": [
+        "SLOT_165110",
+        "SLOT_406060"
+      ],
+      "STARLINK-5595": [
+        "SLOT_009513",
+        "SLOT_201406",
+        "SLOT_380056"
+      ],
+      "STARLINK-5639": [
+        "SLOT_001688",
+        "SLOT_1334145",
+        "SLOT_202113"
+      ],
+      "STARLINK-5836": [
+        "SLOT_1361041",
+        "SLOT_224021",
+        "SLOT_305183",
+        "SLOT_413748"
+      ],
+      "STARLINK-6258": [
+        "SLOT_004386",
+        "SLOT_010146",
+        "SLOT_011031",
+        "SLOT_163011",
+        "SLOT_244002",
+        "SLOT_245028"
+      ]
+    }
+  },
+  {
+    "terminal_id": "component_001_dnode_0701",
+    "original_component_id": "component_001",
+    "depth": 2,
+    "qubits": 46,
+    "couplers": 98,
+    "terminal_reason": "fits QPU limits",
+    "forced_selected": {},
+    "forced_objective": 0,
+    "domains": {
+      "STARLINK-33676": [
+        "SLOT_000448",
+        "SLOT_000615",
+        "SLOT_004920"
+      ],
+      "STARLINK-33677": [
+        "SLOT_019177",
+        "SLOT_022773",
+        "SLOT_027839"
+      ],
+      "STARLINK-34046": [
+        "SLOT_196135",
+        "SLOT_196674"
+      ],
+      "STARLINK-35453": [
+        "SLOT_132388",
+        "SLOT_186519",
+        "SLOT_189126",
+        "SLOT_189246",
+        "SLOT_189646",
+        "SLOT_194611",
+        "SLOT_198992",
+        "SLOT_716990"
+      ],
+      "STARLINK-35537": [
+        "SLOT_201543",
+        "SLOT_453238"
+      ],
+      "STARLINK-35541": [
+        "SLOT_111218",
+        "SLOT_162938",
+        "SLOT_165697",
+        "SLOT_174207",
+        "SLOT_176267",
+        "SLOT_417705"
+      ],
+      "STARLINK-36499": [
+        "SLOT_149959",
+        "SLOT_919169"
+      ],
+      "STARLINK-37201": [
+        "SLOT_006450",
+        "SLOT_085935",
+        "SLOT_238854",
+        "SLOT_239781"
+      ],
+      "STARLINK-3874": [
+        "SLOT_002314",
+        "SLOT_389876"
+      ],
+      "STARLINK-3986": [
+        "SLOT_123969",
+        "SLOT_124597",
+        "SLOT_178777",
+        "SLOT_178919",
+        "SLOT_182109",
+        "SLOT_187147",
+        "SLOT_191553",
+        "SLOT_811074"
+      ],
+      "STARLINK-6258": [
+        "SLOT_004386",
+        "SLOT_010146",
+        "SLOT_011031",
+        "SLOT_163011",
+        "SLOT_244002",
+        "SLOT_245028"
+      ]
+    }
+  },
+  {
+    "terminal_id": "component_001_dnode_0707",
+    "original_component_id": "component_001",
+    "depth": 2,
+    "qubits": 66,
+    "couplers": 140,
+    "terminal_reason": "fits QPU limits",
+    "forced_selected": {},
+    "forced_objective": 0,
+    "domains": {
+      "STARLINK-33677": [
+        "SLOT_019177",
+        "SLOT_022773",
+        "SLOT_027839"
+      ],
+      "STARLINK-34046": [
+        "SLOT_196135",
+        "SLOT_196674"
+      ],
+      "STARLINK-34504": [
+        "SLOT_063424",
+        "SLOT_203840",
+        "SLOT_455063"
+      ],
+      "STARLINK-34686": [
+        "SLOT_226523",
+        "SLOT_999979"
+      ],
+      "STARLINK-35453": [
+        "SLOT_132388",
+        "SLOT_186519",
+        "SLOT_189126",
+        "SLOT_189246",
+        "SLOT_189646",
+        "SLOT_194611",
+        "SLOT_198992",
+        "SLOT_716990"
+      ],
+      "STARLINK-35469": [
+        "SLOT_158346",
+        "SLOT_208777",
+        "SLOT_224028"
+      ],
+      "STARLINK-35537": [
+        "SLOT_201543",
+        "SLOT_453238"
+      ],
+      "STARLINK-35541": [
+        "SLOT_111218",
+        "SLOT_162938",
+        "SLOT_165697",
+        "SLOT_174207",
+        "SLOT_176267",
+        "SLOT_417705"
+      ],
+      "STARLINK-36499": [
+        "SLOT_149959",
+        "SLOT_919169"
+      ],
+      "STARLINK-36947": [
+        "SLOT_209495",
+        "SLOT_829883"
+      ],
+      "STARLINK-37201": [
+        "SLOT_006450",
+        "SLOT_085935",
+        "SLOT_238854",
+        "SLOT_239781"
+      ],
+      "STARLINK-37263": [
+        "SLOT_305323",
+        "SLOT_447395"
+      ],
+      "STARLINK-37892": [
+        "SLOT_317480",
+        "SLOT_679128"
+      ],
+      "STARLINK-3986": [
+        "SLOT_123969",
+        "SLOT_124597",
+        "SLOT_178777",
+        "SLOT_178919",
+        "SLOT_182109",
+        "SLOT_187147",
+        "SLOT_191553",
+        "SLOT_811074"
+      ],
+      "STARLINK-4033": [
+        "SLOT_165110",
+        "SLOT_406060"
+      ],
+      "STARLINK-5595": [
+        "SLOT_009513",
+        "SLOT_201406",
+        "SLOT_380056"
+      ],
+      "STARLINK-5639": [
+        "SLOT_001688",
+        "SLOT_1334145",
+        "SLOT_202113"
+      ],
+      "STARLINK-5836": [
+        "SLOT_1361041",
+        "SLOT_224021",
+        "SLOT_305183",
+        "SLOT_413748"
+      ],
+      "STARLINK-6258": [
+        "SLOT_004386",
+        "SLOT_010146",
+        "SLOT_163011",
+        "SLOT_244002",
+        "SLOT_245028"
+      ]
+    }
+  },
+  {
+    "terminal_id": "component_001_dnode_0709",
+    "original_component_id": "component_001",
+    "depth": 2,
+    "qubits": 40,
+    "couplers": 89,
+    "terminal_reason": "fits QPU limits",
+    "forced_selected": {},
+    "forced_objective": 0,
+    "domains": {
+      "STARLINK-33677": [
+        "SLOT_019177",
+        "SLOT_022773",
+        "SLOT_027839"
+      ],
+      "STARLINK-34046": [
+        "SLOT_196135",
+        "SLOT_196674"
+      ],
+      "STARLINK-35453": [
+        "SLOT_132388",
+        "SLOT_186519",
+        "SLOT_189126",
+        "SLOT_189246",
+        "SLOT_189646",
+        "SLOT_194611",
+        "SLOT_198992",
+        "SLOT_716990"
+      ],
+      "STARLINK-35537": [
+        "SLOT_201543",
+        "SLOT_453238"
+      ],
+      "STARLINK-35541": [
+        "SLOT_111218",
+        "SLOT_162938",
+        "SLOT_165697",
+        "SLOT_174207",
+        "SLOT_176267",
+        "SLOT_417705"
+      ],
+      "STARLINK-36499": [
+        "SLOT_149959",
+        "SLOT_919169"
+      ],
+      "STARLINK-37201": [
+        "SLOT_006450",
+        "SLOT_085935",
+        "SLOT_238854",
+        "SLOT_239781"
+      ],
+      "STARLINK-3986": [
+        "SLOT_123969",
+        "SLOT_124597",
+        "SLOT_178777",
+        "SLOT_178919",
+        "SLOT_182109",
+        "SLOT_187147",
+        "SLOT_191553",
+        "SLOT_811074"
+      ],
+      "STARLINK-6258": [
+        "SLOT_004386",
+        "SLOT_010146",
+        "SLOT_163011",
+        "SLOT_244002",
+        "SLOT_245028"
+      ]
+    }
+  },
+  {
+    "terminal_id": "component_001_dnode_0813",
+    "original_component_id": "component_001",
+    "depth": 2,
+    "qubits": 75,
+    "couplers": 157,
+    "terminal_reason": "fits QPU limits",
+    "forced_selected": {},
+    "forced_objective": 0,
+    "domains": {
+      "STARLINK-33676": [
+        "SLOT_000448",
+        "SLOT_000615",
+        "SLOT_004920"
+      ],
+      "STARLINK-33677": [
+        "SLOT_019177",
+        "SLOT_022773",
+        "SLOT_027839"
+      ],
+      "STARLINK-34046": [
+        "SLOT_196135",
+        "SLOT_196674",
+        "SLOT_197123"
+      ],
+      "STARLINK-34504": [
+        "SLOT_063424",
+        "SLOT_203840",
+        "SLOT_455063"
+      ],
+      "STARLINK-34686": [
+        "SLOT_226523",
+        "SLOT_999979"
+      ],
+      "STARLINK-35453": [
+        "SLOT_132388",
+        "SLOT_186519",
+        "SLOT_189126",
+        "SLOT_189246",
+        "SLOT_189646",
+        "SLOT_194611",
+        "SLOT_198992",
+        "SLOT_716990"
+      ],
+      "STARLINK-35469": [
+        "SLOT_158346",
+        "SLOT_208777",
+        "SLOT_224028"
+      ],
+      "STARLINK-35537": [
+        "SLOT_201543",
+        "SLOT_453238"
+      ],
+      "STARLINK-35541": [
+        "SLOT_111218",
+        "SLOT_162938",
+        "SLOT_165697",
+        "SLOT_174207",
+        "SLOT_176267",
+        "SLOT_417705"
+      ],
+      "STARLINK-36499": [
+        "SLOT_149959",
+        "SLOT_919169"
+      ],
+      "STARLINK-36947": [
+        "SLOT_209495",
+        "SLOT_829883"
+      ],
+      "STARLINK-37201": [
+        "SLOT_006450",
+        "SLOT_085935",
+        "SLOT_238854",
+        "SLOT_239781"
+      ],
+      "STARLINK-37263": [
+        "SLOT_305323",
+        "SLOT_447395"
+      ],
+      "STARLINK-37503": [
+        "SLOT_206952",
+        "SLOT_450245"
+      ],
+      "STARLINK-37892": [
+        "SLOT_317480",
+        "SLOT_679128"
+      ],
+      "STARLINK-3874": [
+        "SLOT_002314",
+        "SLOT_389876"
+      ],
+      "STARLINK-3986": [
+        "SLOT_123969",
+        "SLOT_124597",
+        "SLOT_178777",
+        "SLOT_178919",
+        "SLOT_182109",
+        "SLOT_187147",
+        "SLOT_191553",
+        "SLOT_811074"
+      ],
+      "STARLINK-4033": [
+        "SLOT_165110",
+        "SLOT_406060"
+      ],
+      "STARLINK-5595": [
+        "SLOT_009513",
+        "SLOT_201406",
+        "SLOT_380056"
+      ],
+      "STARLINK-5639": [
+        "SLOT_001688",
+        "SLOT_1334145",
+        "SLOT_202113"
+      ],
+      "STARLINK-5836": [
+        "SLOT_1361041",
+        "SLOT_224021",
+        "SLOT_305183",
+        "SLOT_413748"
+      ],
+      "STARLINK-6258": [
+        "SLOT_004386",
+        "SLOT_010146",
+        "SLOT_011031",
+        "SLOT_163011",
+        "SLOT_244002",
+        "SLOT_245028"
+      ]
+    }
+  },
+  {
+    "terminal_id": "component_001_dnode_0815",
+    "original_component_id": "component_001",
+    "depth": 2,
+    "qubits": 49,
+    "couplers": 106,
+    "terminal_reason": "fits QPU limits",
+    "forced_selected": {},
+    "forced_objective": 0,
+    "domains": {
+      "STARLINK-33676": [
+        "SLOT_000448",
+        "SLOT_000615",
+        "SLOT_004920"
+      ],
+      "STARLINK-33677": [
+        "SLOT_019177",
+        "SLOT_022773",
+        "SLOT_027839"
+      ],
+      "STARLINK-34046": [
+        "SLOT_196135",
+        "SLOT_196674",
+        "SLOT_197123"
+      ],
+      "STARLINK-35453": [
+        "SLOT_132388",
+        "SLOT_186519",
+        "SLOT_189126",
+        "SLOT_189246",
+        "SLOT_189646",
+        "SLOT_194611",
+        "SLOT_198992",
+        "SLOT_716990"
+      ],
+      "STARLINK-35537": [
+        "SLOT_201543",
+        "SLOT_453238"
+      ],
+      "STARLINK-35541": [
+        "SLOT_111218",
+        "SLOT_162938",
+        "SLOT_165697",
+        "SLOT_174207",
+        "SLOT_176267",
+        "SLOT_417705"
+      ],
+      "STARLINK-36499": [
+        "SLOT_149959",
+        "SLOT_919169"
+      ],
+      "STARLINK-37201": [
+        "SLOT_006450",
+        "SLOT_085935",
+        "SLOT_238854",
+        "SLOT_239781"
+      ],
+      "STARLINK-37503": [
+        "SLOT_206952",
+        "SLOT_450245"
+      ],
+      "STARLINK-3874": [
+        "SLOT_002314",
+        "SLOT_389876"
+      ],
+      "STARLINK-3986": [
+        "SLOT_123969",
+        "SLOT_124597",
+        "SLOT_178777",
+        "SLOT_178919",
+        "SLOT_182109",
+        "SLOT_187147",
+        "SLOT_191553",
+        "SLOT_811074"
+      ],
+      "STARLINK-6258": [
+        "SLOT_004386",
+        "SLOT_010146",
+        "SLOT_011031",
+        "SLOT_163011",
+        "SLOT_244002",
+        "SLOT_245028"
+      ]
+    }
+  },
+  {
+    "terminal_id": "component_001_dnode_0822",
+    "original_component_id": "component_001",
+    "depth": 2,
+    "qubits": 69,
+    "couplers": 148,
+    "terminal_reason": "fits QPU limits",
+    "forced_selected": {},
+    "forced_objective": 0,
+    "domains": {
+      "STARLINK-33677": [
+        "SLOT_019177",
+        "SLOT_022773",
+        "SLOT_027839"
+      ],
+      "STARLINK-34046": [
+        "SLOT_196135",
+        "SLOT_196674",
+        "SLOT_197123"
+      ],
+      "STARLINK-34504": [
+        "SLOT_063424",
+        "SLOT_203840",
+        "SLOT_455063"
+      ],
+      "STARLINK-34686": [
+        "SLOT_226523",
+        "SLOT_999979"
+      ],
+      "STARLINK-35453": [
+        "SLOT_132388",
+        "SLOT_186519",
+        "SLOT_189126",
+        "SLOT_189246",
+        "SLOT_189646",
+        "SLOT_194611",
+        "SLOT_198992",
+        "SLOT_716990"
+      ],
+      "STARLINK-35469": [
+        "SLOT_158346",
+        "SLOT_208777",
+        "SLOT_224028"
+      ],
+      "STARLINK-35537": [
+        "SLOT_201543",
+        "SLOT_453238"
+      ],
+      "STARLINK-35541": [
+        "SLOT_111218",
+        "SLOT_162938",
+        "SLOT_165697",
+        "SLOT_174207",
+        "SLOT_176267",
+        "SLOT_417705"
+      ],
+      "STARLINK-36499": [
+        "SLOT_149959",
+        "SLOT_919169"
+      ],
+      "STARLINK-36947": [
+        "SLOT_209495",
+        "SLOT_829883"
+      ],
+      "STARLINK-37201": [
+        "SLOT_006450",
+        "SLOT_085935",
+        "SLOT_238854",
+        "SLOT_239781"
+      ],
+      "STARLINK-37263": [
+        "SLOT_305323",
+        "SLOT_447395"
+      ],
+      "STARLINK-37503": [
+        "SLOT_206952",
+        "SLOT_450245"
+      ],
+      "STARLINK-37892": [
+        "SLOT_317480",
+        "SLOT_679128"
+      ],
+      "STARLINK-3986": [
+        "SLOT_123969",
+        "SLOT_124597",
+        "SLOT_178777",
+        "SLOT_178919",
+        "SLOT_182109",
+        "SLOT_187147",
+        "SLOT_191553",
+        "SLOT_811074"
+      ],
+      "STARLINK-4033": [
+        "SLOT_165110",
+        "SLOT_406060"
+      ],
+      "STARLINK-5595": [
+        "SLOT_009513",
+        "SLOT_201406",
+        "SLOT_380056"
+      ],
+      "STARLINK-5639": [
+        "SLOT_001688",
+        "SLOT_1334145",
+        "SLOT_202113"
+      ],
+      "STARLINK-5836": [
+        "SLOT_1361041",
+        "SLOT_224021",
+        "SLOT_305183",
+        "SLOT_413748"
+      ],
+      "STARLINK-6258": [
+        "SLOT_004386",
+        "SLOT_010146",
+        "SLOT_163011",
+        "SLOT_244002",
+        "SLOT_245028"
+      ]
+    }
+  },
+  {
+    "terminal_id": "component_001_dnode_0824",
+    "original_component_id": "component_001",
+    "depth": 2,
+    "qubits": 43,
+    "couplers": 97,
+    "terminal_reason": "fits QPU limits",
+    "forced_selected": {},
+    "forced_objective": 0,
+    "domains": {
+      "STARLINK-33677": [
+        "SLOT_019177",
+        "SLOT_022773",
+        "SLOT_027839"
+      ],
+      "STARLINK-34046": [
+        "SLOT_196135",
+        "SLOT_196674",
+        "SLOT_197123"
+      ],
+      "STARLINK-35453": [
+        "SLOT_132388",
+        "SLOT_186519",
+        "SLOT_189126",
+        "SLOT_189246",
+        "SLOT_189646",
+        "SLOT_194611",
+        "SLOT_198992",
+        "SLOT_716990"
+      ],
+      "STARLINK-35537": [
+        "SLOT_201543",
+        "SLOT_453238"
+      ],
+      "STARLINK-35541": [
+        "SLOT_111218",
+        "SLOT_162938",
+        "SLOT_165697",
+        "SLOT_174207",
+        "SLOT_176267",
+        "SLOT_417705"
+      ],
+      "STARLINK-36499": [
+        "SLOT_149959",
+        "SLOT_919169"
+      ],
+      "STARLINK-37201": [
+        "SLOT_006450",
+        "SLOT_085935",
+        "SLOT_238854",
+        "SLOT_239781"
+      ],
+      "STARLINK-37503": [
+        "SLOT_206952",
+        "SLOT_450245"
+      ],
+      "STARLINK-3986": [
+        "SLOT_123969",
+        "SLOT_124597",
+        "SLOT_178777",
+        "SLOT_178919",
+        "SLOT_182109",
+        "SLOT_187147",
+        "SLOT_191553",
+        "SLOT_811074"
+      ],
+      "STARLINK-6258": [
+        "SLOT_004386",
+        "SLOT_010146",
+        "SLOT_163011",
+        "SLOT_244002",
+        "SLOT_245028"
+      ]
+    }
+  },
+  {
+    "terminal_id": "component_002_dnode_0001",
+    "original_component_id": "component_002",
+    "depth": 0,
+    "qubits": 10,
+    "couplers": 23,
+    "terminal_reason": "fits QPU limits",
+    "forced_selected": {},
+    "forced_objective": 0,
+    "domains": {
+      "STARLINK-34029": [
+        "SLOT_1830682",
+        "SLOT_381894",
+        "SLOT_755432"
+      ],
+      "STARLINK-34048": [
+        "SLOT_371327",
+        "SLOT_744206",
+        "SLOT_748232"
+      ],
+      "STARLINK-36827": [
+        "SLOT_190763",
+        "SLOT_366132"
+      ],
+      "STARLINK-4651": [
+        "SLOT_112770",
+        "SLOT_358286"
+      ]
+    }
+  },
+  {
+    "terminal_id": "component_003_dnode_0001",
+    "original_component_id": "component_003",
+    "depth": 0,
+    "qubits": 8,
+    "couplers": 22,
+    "terminal_reason": "fits QPU limits",
+    "forced_selected": {},
+    "forced_objective": 0,
+    "domains": {
+      "STARLINK-2252": [
+        "SLOT_062277",
+        "SLOT_197265"
+      ],
+      "STARLINK-35916": [
+        "SLOT_1108981",
+        "SLOT_209616"
+      ],
+      "STARLINK-36498": [
+        "SLOT_202228",
+        "SLOT_834757"
+      ],
+      "STARLINK-37379": [
+        "SLOT_202229",
+        "SLOT_449451"
+      ]
+    }
+  },
+  {
+    "terminal_id": "component_004_dnode_0001",
+    "original_component_id": "component_004",
+    "depth": 0,
+    "qubits": 7,
+    "couplers": 12,
+    "terminal_reason": "fits QPU limits",
+    "forced_selected": {},
+    "forced_objective": 0,
+    "domains": {
+      "STARLINK-30754": [
+        "SLOT_328156",
+        "SLOT_331755"
+      ],
+      "STARLINK-34303": [
+        "SLOT_319815",
+        "SLOT_323175",
+        "SLOT_519699"
+      ],
+      "STARLINK-34916": [
+        "SLOT_099984",
+        "SLOT_324845"
+      ]
+    }
+  },
+  {
+    "terminal_id": "component_005_dnode_0001",
+    "original_component_id": "component_005",
+    "depth": 0,
+    "qubits": 4,
+    "couplers": 4,
+    "terminal_reason": "fits QPU limits",
+    "forced_selected": {},
+    "forced_objective": 0,
+    "domains": {
+      "STARLINK-32308": [
+        "SLOT_140413",
+        "SLOT_1407661"
+      ],
+      "STARLINK-5919": [
+        "SLOT_1409373",
+        "SLOT_153252"
+      ]
+    }
+  },
+  {
+    "terminal_id": "component_006_dnode_0001",
+    "original_component_id": "component_006",
+    "depth": 0,
+    "qubits": 4,
+    "couplers": 4,
+    "terminal_reason": "fits QPU limits",
+    "forced_selected": {},
+    "forced_objective": 0,
+    "domains": {
+      "STARLINK-3244": [
+        "SLOT_304000",
+        "SLOT_441035"
+      ],
+      "STARLINK-3892": [
+        "SLOT_1169828",
+        "SLOT_448505"
+      ]
+    }
+  },
+  {
+    "terminal_id": "component_007_dnode_0001",
+    "original_component_id": "component_007",
+    "depth": 0,
+    "qubits": 4,
+    "couplers": 4,
+    "terminal_reason": "fits QPU limits",
+    "forced_selected": {},
+    "forced_objective": 0,
+    "domains": {
+      "STARLINK-35599": [
+        "SLOT_1365214",
+        "SLOT_1367918"
+      ],
+      "STARLINK-3670": [
+        "SLOT_1022368",
+        "SLOT_1383563"
+      ]
+    }
+  },
+  {
+    "terminal_id": "component_008_dnode_0001",
+    "original_component_id": "component_008",
+    "depth": 0,
+    "qubits": 4,
+    "couplers": 4,
+    "terminal_reason": "fits QPU limits",
+    "forced_selected": {},
+    "forced_objective": 0,
+    "domains": {
+      "STARLINK-3708": [
+        "SLOT_229718",
+        "SLOT_933657"
+      ],
+      "STARLINK-3909": [
+        "SLOT_227139",
+        "SLOT_728023"
+      ]
+    }
+  }
+]

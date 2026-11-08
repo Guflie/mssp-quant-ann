@@ -1,0 +1,10 @@
+{"phase": "csp_build", "elapsed_seconds": 6.315, "variables": 500, "constraints": 13577}
+{"phase": "exact_reduction", "elapsed_seconds": 15.121, "dominated_slots": 27437, "components": 164}
+{"phase": "component_decomposition", "elapsed_seconds": 1253.872, "component_id": "component_001", "nodes": 1917, "status": "incomplete"}
+{"phase": "exact_decomposition", "elapsed_seconds": 1253.879, "components": 164}
+{"phase": "qubo_translation", "elapsed_seconds": 0.01, "terminals": 20}
+{"phase": "classical_evaluation", "elapsed_seconds": 0.216, "objective": 38041.478, "upper_bound": 38932.502}
+{"phase": "export", "elapsed_seconds": 1.458, "terminals": 20, "incomplete": 665}
+{"phase": "reconstruction_export", "elapsed_seconds": 0.353, "nodes": 2080}
+{"phase": "final_reporting_export", "elapsed_seconds": 0.001, "metrics": 22}
+{"phase": "pipeline_total_so_far", "elapsed_seconds": 1282.66, "run_name": "csp_test1/s500_g50"}

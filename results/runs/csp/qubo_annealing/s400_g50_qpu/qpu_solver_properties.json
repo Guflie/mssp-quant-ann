@@ -1,0 +1,126 @@
+{
+  "solver": "Advantage_system6",
+  "retrieved_at": "2026-11-06T10:07:58.552+00:00",
+  "working_qubits": 5612,
+  "working_couplers": 40088,
+  "omitted_properties": [
+    "anneal_offset_ranges",
+    "couplers",
+    "qubits"
+  ],
+  "properties": {
+    "num_qubits": 5760,
+    "h_range": [
+      -4.0,
+      4.0
+    ],
+    "j_range": [
+      -1.0,
+      1.0
+    ],
+    "supported_problem_types": [
+      "ising",
+      "qubo"
+    ],
+    "parameters": {
+      "anneal_offsets": "Anneal offsets for each working qubit, formatted as a list, with NaN specified for unused qubits.",
+      "anneal_schedule": "Annealing schedule formatted as a piecewise linear list of floating-point pairs of 't' and 's'.",
+      "annealing_time": "Quantum annealing duration, in microseconds, as a positive floating point number.",
+      "answer_mode": "Format of returned answers, as 'histogram' or 'raw' samples.",
+      "auto_scale": "Automatic rescaling of h and J values to their available range, as a boolean flag.",
+      "flux_biases": "Flux biases for each working qubit, in normalized offset units, formatted as a list for all qubits.",
+      "flux_drift_compensation": "Activation of flux drift compensation, as a boolean flag.",
+      "h_gain_schedule": "h-gain schedule formatted as a piecewise linear list of floating-point pairs of 't' and 'g'.",
+      "initial_state": "Initial states to use for a reverse-anneal request, as a list of qubit index and state.",
+      "num_reads": "Number of states to read (answers to return), as a positive integer.",
+      "programming_thermalization": "Time in microseconds to wait after programming the processor in order for it to cool back to base temperature, as a positive floating point number.",
+      "readout_thermalization": "Time in microseconds to wait after each state is read from the processor in order for it to cool back to base temperature, as a positive floating point number.",
+      "reduce_intersample_correlation": "Addition of pauses between samples, as a boolean flag.",
+      "reinitialize_state": "Reapplication of the initial_state for every read in reverse annealing, as a boolean flag.",
+      "fast_anneal": "Activation of the fast-anneal protocol, as a boolean flag."
+    },
+    "anneal_offset_step": -0.00013262264134306992,
+    "anneal_offset_step_phi0": 1.3147002275223246e-05,
+    "annealing_time_range": [
+      0.5,
+      2000.0
+    ],
+    "chip_id": "Advantage_system6",
+    "default_annealing_time": 20.0,
+    "default_programming_thermalization": 1000.0,
+    "default_readout_thermalization": 0.0,
+    "extended_j_range": [
+      -2.0,
+      1.0
+    ],
+    "fast_anneal_time_range": [
+      0.005,
+      2000.0
+    ],
+    "h_gain_schedule_range": [
+      -4.0,
+      4.0
+    ],
+    "max_anneal_schedule_points": 12,
+    "max_h_gain_schedule_points": 20,
+    "num_reads_range": [
+      1,
+      10000
+    ],
+    "per_qubit_coupling_range": [
+      -18.0,
+      15.0
+    ],
+    "problem_run_duration_range": [
+      0.0,
+      1000000.0
+    ],
+    "problem_timing_data": {
+      "version": "1.0.0",
+      "typical_programming_time": 14927.94,
+      "reverse_annealing_with_reinit_prog_time_delta": 0.0,
+      "reverse_annealing_without_reinit_prog_time_delta": 15.88,
+      "default_programming_thermalization": 1000.0,
+      "default_annealing_time": 20.0,
+      "readout_time_model": "pwl_log_log",
+      "readout_time_model_parameters": [
+        0.0,
+        0.5836913551352337,
+        2.568302572147504,
+        2.9920805445242937,
+        3.749117662356322,
+        1.3887838857227972,
+        1.69303068012243,
+        2.1967021699486464,
+        2.238790150597982,
+        2.2387985627139213
+      ],
+      "qpu_delay_time_per_sample": 20.58,
+      "reverse_annealing_with_reinit_delay_time_delta": -4.5,
+      "reverse_annealing_without_reinit_delay_time_delta": -1.5,
+      "default_readout_thermalization": 0.0,
+      "decorrelation_max_nominal_anneal_time": 2000.0,
+      "decorrelation_time_range": [
+        500.0,
+        10000.0
+      ]
+    },
+    "programming_thermalization_range": [
+      0.0,
+      10000.0
+    ],
+    "readout_thermalization_range": [
+      0.0,
+      10000.0
+    ],
+    "tags": [],
+    "topology": {
+      "type": "pegasus",
+      "shape": [
+        16
+      ]
+    },
+    "category": "qpu",
+    "quota_conversion_rate": 1
+  }
+}

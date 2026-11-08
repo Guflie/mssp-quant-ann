@@ -1,0 +1,23 @@
+metric,value,meaning
+Candidate slots,24361,Rows of the input dataset.
+Satellites (CSP variables),400,One variable per satellite.
+Constraints,8689,Satellite pairs with at least one conflicting slot pair.
+Slots removed by dominance,23169,Exact reduction (section 4).
+Slots after dominance,1192,QUBO variables of the reduced problem.
+Constraints after dominance,320,Satellite pairs still with a conflicting slot pair.
+Connected components,223,Independent sub-problems after dominance.
+Components decomposed exactly,222,No incomplete leaf in their tree.
+Terminal sub-problems,218,Non-empty leaves fitting the QPU limits (domain_wall).
+Largest terminal (qubits),194,QPU limit: 200.
+Incomplete leaves,13,Leaves left to the heuristic fallback (section 6).
+Largest incomplete leaf (qubits),312,Size the fallback has to handle.
+Largest terminal QUBO (couplers),583,QPU limit: 40000.
+Exact components objective sum,18734.665,Objective of the components certified optimal (section 8).
+Exact global objective,not certified,Available only when the global optimum is certified.
+Incomplete/heuristic components feasible sum,12272.499,Feasible objective of the components not certified optimal.
+Incomplete/heuristic components conservative upper bound,12323.185,Upper bound of the components not certified optimal.
+Total feasible objective / lower bound,31007.164,Objective of the baseline schedule.
+Total conservative upper bound,31057.85,Upper bound on the true optimum.
+Absolute optimality-gap bound,50.685999999997875,Upper bound minus feasible objective.
+Relative optimality-gap bound (%),0.16319867601909946,Gap as a percentage of the upper bound.
+Separator states,1999,Branches created (budget 2000 per component).

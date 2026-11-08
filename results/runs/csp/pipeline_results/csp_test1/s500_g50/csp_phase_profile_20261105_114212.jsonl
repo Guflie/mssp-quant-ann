@@ -1,0 +1,2 @@
+{"phase": "csp_build", "elapsed_seconds": 10.957, "variables": 500, "constraints": 13577}
+{"phase": "exact_reduction", "elapsed_seconds": 20.388, "dominated_slots": 27437, "components": 164}

@@ -1,0 +1,23 @@
+{
+  "producer": "csp_pipeline",
+  "producer_run": "s400_g50",
+  "slot_csv": "data/test/slots_s400_g50.csv",
+  "qubo_encoding": "domain_wall",
+  "terminal_qubos_file": "csp_terminal_qubos.json",
+  "max_qpu_terminal_nodes": 200,
+  "max_qpu_terminal_couplers": 40000,
+  "exact_enumeration_node_limit": 22,
+  "exact_clique_node_limit": 50,
+  "qubo_input_run": "runs/csp/pipeline_results/csp_test1/s400_g50",
+  "num_reads": 100,
+  "base_seed": 42,
+  "annealing_backend": "qpu",
+  "qpu_solver": "Advantage_system6",
+  "qpu_annealing_time_us": 20.0,
+  "qpu_chain_strength_prefactor": 1.414,
+  "qpu_time_budget_seconds": 7.5,
+  "milp_per_component_seconds": 5.0,
+  "milp_total_solver_seconds": 30.0,
+  "triangle_lp_per_component_seconds": 5.0,
+  "triangle_lp_total_solver_seconds": 30.0
+}

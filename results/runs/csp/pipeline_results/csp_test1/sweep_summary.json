@@ -1,0 +1,338 @@
+[
+  {
+    "run_name": "csp_test1/no-usa_s200_g50",
+    "dataset": "no-usa_s200_g50",
+    "slot_csv": "data/test/slots_no-usa_s200_g50.csv",
+    "status": "ok",
+    "kernel": "python3",
+    "runtime_seconds": 8.1,
+    "qubo split": {
+      "terminal subprobs": 14,
+      "incomplete leaves": 0,
+      "separator states": 0,
+      "subpros decomposed": 0,
+      "max decomposition depth": 0
+    },
+    "graph": {
+      "slots removed by dominance": 10343,
+      "num subgraphs": 161,
+      "num conflicts": 443
+    },
+    "objective": {
+      "obj from exact split": 16140.303,
+      "obj from heur split": 0,
+      "total objective": 16140.303
+    },
+    "optimality gap": {
+      "ub heur subprob": 0,
+      "ub tot obj": 16140.303,
+      "absolute optimality-gap bound": 0,
+      "relative optimality-gap bound (%)": 0
+    },
+    "other": {
+      "Candidate slots": 10671,
+      "Satellites (CSP variables)": 200,
+      "Constraints": 2551,
+      "Slots after dominance": 328,
+      "Constraints after dominance": 51,
+      "Components decomposed exactly": 161,
+      "Largest terminal (qubits)": 61,
+      "Largest incomplete leaf (qubits)": 0,
+      "Largest terminal QUBO (couplers)": 171
+    }
+  },
+  {
+    "run_name": "csp_test1/no-usa_s300_g50",
+    "dataset": "no-usa_s300_g50",
+    "slot_csv": "data/test/slots_no-usa_s300_g50.csv",
+    "status": "ok",
+    "kernel": "python3",
+    "runtime_seconds": 25.8,
+    "qubo split": {
+      "terminal subprobs": 56,
+      "incomplete leaves": 0,
+      "separator states": 1960,
+      "subpros decomposed": 1,
+      "max decomposition depth": 2
+    },
+    "graph": {
+      "slots removed by dominance": 15313,
+      "num subgraphs": 172,
+      "num conflicts": 1709
+    },
+    "objective": {
+      "obj from exact split": 24199.099000000002,
+      "obj from heur split": 0,
+      "total objective": 24199.099000000002
+    },
+    "optimality gap": {
+      "ub heur subprob": 0,
+      "ub tot obj": 24199.099000000002,
+      "absolute optimality-gap bound": 0,
+      "relative optimality-gap bound (%)": 0
+    },
+    "other": {
+      "Candidate slots": 16028,
+      "Satellites (CSP variables)": 300,
+      "Constraints": 5780,
+      "Slots after dominance": 715,
+      "Constraints after dominance": 207,
+      "Components decomposed exactly": 172,
+      "Largest terminal (qubits)": 195,
+      "Largest incomplete leaf (qubits)": 0,
+      "Largest terminal QUBO (couplers)": 610
+    }
+  },
+  {
+    "run_name": "csp_test1/no-usa_s400_g50",
+    "dataset": "no-usa_s400_g50",
+    "slot_csv": "data/test/slots_no-usa_s400_g50.csv",
+    "status": "ok",
+    "kernel": "python3",
+    "runtime_seconds": 125.1,
+    "qubo split": {
+      "terminal subprobs": 48,
+      "incomplete leaves": 253,
+      "separator states": 1999,
+      "subpros decomposed": 1,
+      "max decomposition depth": 3
+    },
+    "graph": {
+      "slots removed by dominance": 20118,
+      "num subgraphs": 185,
+      "num conflicts": 3943
+    },
+    "objective": {
+      "obj from exact split": 15371.887,
+      "obj from heur split": 16117.736,
+      "total objective": 31489.623
+    },
+    "optimality gap": {
+      "ub heur subprob": 16549.845,
+      "ub tot obj": 31921.732,
+      "absolute optimality-gap bound": 432.1090000000004,
+      "relative optimality-gap bound (%)": 1.3536514873315784
+    },
+    "other": {
+      "Candidate slots": 21298,
+      "Satellites (CSP variables)": 400,
+      "Constraints": 10458,
+      "Slots after dominance": 1180,
+      "Constraints after dominance": 413,
+      "Components decomposed exactly": 184,
+      "Largest terminal (qubits)": 75,
+      "Largest incomplete leaf (qubits)": 786,
+      "Largest terminal QUBO (couplers)": 158
+    }
+  },
+  {
+    "run_name": "csp_test1/no-usa_s500_g50",
+    "dataset": "no-usa_s500_g50",
+    "slot_csv": "data/test/slots_no-usa_s500_g50.csv",
+    "status": "ok",
+    "kernel": "python3",
+    "runtime_seconds": 2449.1,
+    "qubo split": {
+      "terminal subprobs": 7,
+      "incomplete leaves": 1808,
+      "separator states": 1998,
+      "subpros decomposed": 1,
+      "max decomposition depth": 3
+    },
+    "graph": {
+      "slots removed by dominance": 23300,
+      "num subgraphs": 123,
+      "num conflicts": 30317
+    },
+    "objective": {
+      "obj from exact split": 9679.017,
+      "obj from heur split": 28778.566,
+      "total objective": 38457.583
+    },
+    "optimality gap": {
+      "ub heur subprob": 30312.573,
+      "ub tot obj": 39991.590000000004,
+      "absolute optimality-gap bound": 1534.007000000005,
+      "relative optimality-gap bound (%)": 3.835823981992226
+    },
+    "other": {
+      "Candidate slots": 26493,
+      "Satellites (CSP variables)": 500,
+      "Constraints": 16134,
+      "Slots after dominance": 3193,
+      "Constraints after dominance": 1571,
+      "Components decomposed exactly": 122,
+      "Largest terminal (qubits)": 4,
+      "Largest incomplete leaf (qubits)": 2727,
+      "Largest terminal QUBO (couplers)": 6
+    }
+  },
+  {
+    "run_name": "csp_test1/s200_g50",
+    "dataset": "s200_g50",
+    "slot_csv": "data/test/slots_s200_g50.csv",
+    "status": "ok",
+    "kernel": "python3",
+    "runtime_seconds": 5.2,
+    "qubo split": {
+      "terminal subprobs": 12,
+      "incomplete leaves": 0,
+      "separator states": 0,
+      "subpros decomposed": 0,
+      "max decomposition depth": 0
+    },
+    "graph": {
+      "slots removed by dominance": 11744,
+      "num subgraphs": 176,
+      "num conflicts": 2523
+    },
+    "objective": {
+      "obj from exact split": 15607.025,
+      "obj from heur split": 0,
+      "total objective": 15607.025
+    },
+    "optimality gap": {
+      "ub heur subprob": 0,
+      "ub tot obj": 15607.025,
+      "absolute optimality-gap bound": 0,
+      "relative optimality-gap bound (%)": 0
+    },
+    "other": {
+      "Candidate slots": 12120,
+      "Satellites (CSP variables)": 200,
+      "Constraints": 2202,
+      "Slots after dominance": 376,
+      "Constraints after dominance": 29,
+      "Components decomposed exactly": 176,
+      "Largest terminal (qubits)": 95,
+      "Largest incomplete leaf (qubits)": 0,
+      "Largest terminal QUBO (couplers)": 239
+    }
+  },
+  {
+    "run_name": "csp_test1/s300_g50",
+    "dataset": "s300_g50",
+    "slot_csv": "data/test/slots_s300_g50.csv",
+    "status": "ok",
+    "kernel": "python3",
+    "runtime_seconds": 8.4,
+    "qubo split": {
+      "terminal subprobs": 21,
+      "incomplete leaves": 0,
+      "separator states": 0,
+      "subpros decomposed": 0,
+      "max decomposition depth": 0
+    },
+    "graph": {
+      "slots removed by dominance": 17548,
+      "num subgraphs": 209,
+      "num conflicts": 3587
+    },
+    "objective": {
+      "obj from exact split": 23131.146,
+      "obj from heur split": 0,
+      "total objective": 23131.146
+    },
+    "optimality gap": {
+      "ub heur subprob": 0,
+      "ub tot obj": 23131.146,
+      "absolute optimality-gap bound": 0,
+      "relative optimality-gap bound (%)": 0
+    },
+    "other": {
+      "Candidate slots": 18252,
+      "Satellites (CSP variables)": 300,
+      "Constraints": 4967,
+      "Slots after dominance": 704,
+      "Constraints after dominance": 124,
+      "Components decomposed exactly": 209,
+      "Largest terminal (qubits)": 127,
+      "Largest incomplete leaf (qubits)": 0,
+      "Largest terminal QUBO (couplers)": 334
+    }
+  },
+  {
+    "run_name": "csp_test1/s400_g50",
+    "dataset": "s400_g50",
+    "slot_csv": "data/test/slots_s400_g50.csv",
+    "status": "ok",
+    "kernel": "python3",
+    "runtime_seconds": 1796.1,
+    "qubo split": {
+      "terminal subprobs": 218,
+      "incomplete leaves": 13,
+      "separator states": 1999,
+      "subpros decomposed": 1,
+      "max decomposition depth": 4
+    },
+    "graph": {
+      "slots removed by dominance": 23169,
+      "num subgraphs": 223,
+      "num conflicts": 9107
+    },
+    "objective": {
+      "obj from exact split": 18734.665,
+      "obj from heur split": 12272.499,
+      "total objective": 31007.164
+    },
+    "optimality gap": {
+      "ub heur subprob": 12323.185,
+      "ub tot obj": 31057.85,
+      "absolute optimality-gap bound": 50.685999999997875,
+      "relative optimality-gap bound (%)": 0.16319867601909946
+    },
+    "other": {
+      "Candidate slots": 24361,
+      "Satellites (CSP variables)": 400,
+      "Constraints": 8689,
+      "Slots after dominance": 1192,
+      "Constraints after dominance": 320,
+      "Components decomposed exactly": 222,
+      "Largest terminal (qubits)": 194,
+      "Largest incomplete leaf (qubits)": 312,
+      "Largest terminal QUBO (couplers)": 583
+    }
+  },
+  {
+    "run_name": "csp_test1/s500_g50",
+    "dataset": "s500_g50",
+    "slot_csv": "data/test/slots_s500_g50.csv",
+    "status": "ok",
+    "kernel": "python3",
+    "runtime_seconds": 1285.5,
+    "qubo split": {
+      "terminal subprobs": 20,
+      "incomplete leaves": 665,
+      "separator states": 2000,
+      "subpros decomposed": 1,
+      "max decomposition depth": 11
+    },
+    "graph": {
+      "slots removed by dominance": 27437,
+      "num subgraphs": 164,
+      "num conflicts": 66067
+    },
+    "objective": {
+      "obj from exact split": 12710.923,
+      "obj from heur split": 25330.555,
+      "total objective": 38041.478
+    },
+    "optimality gap": {
+      "ub heur subprob": 26221.578999999994,
+      "ub tot obj": 38932.50199999999,
+      "absolute optimality-gap bound": 891.0239999999903,
+      "relative optimality-gap bound (%)": 2.2886379097854808
+    },
+    "other": {
+      "Candidate slots": 30825,
+      "Satellites (CSP variables)": 500,
+      "Constraints": 13577,
+      "Slots after dominance": 3388,
+      "Constraints after dominance": 1094,
+      "Components decomposed exactly": 163,
+      "Largest terminal (qubits)": 21,
+      "Largest incomplete leaf (qubits)": 2524,
+      "Largest terminal QUBO (couplers)": 50
+    }
+  }
+]

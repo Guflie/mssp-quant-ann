@@ -1,0 +1,4 @@
+{"phase": "csp_build", "elapsed_seconds": 8.365, "variables": 500, "constraints": 13577}
+{"phase": "exact_reduction", "elapsed_seconds": 16.391, "dominated_slots": 27437, "components": 164}
+{"phase": "component_decomposition", "elapsed_seconds": 45.901, "component_id": "component_001", "nodes": 113, "status": "incomplete"}
+{"phase": "exact_decomposition", "elapsed_seconds": 45.908, "components": 164}

@@ -1,0 +1,34 @@
+metric,value
+Producer,csp_pipeline
+Producer run,s400_g50
+Annealing backend,qpu
+Status,hybrid_exact
+Selected contacts,400
+Total feasible objective,31009.751
+Annealed terminal subgraphs available,218
+Annealed terminal subgraphs used,9
+Infeasible terminal annealing samples,0
+Fallback nodes/components used in selected schedule,0
+Selected-schedule fallback feasible objective,0.0
+Selected-schedule fallback upper bound,0.0
+Selected-schedule fallback gap bound,0.0
+Components with incomplete separator decomposition (all states),1
+Incomplete separator nodes (all states),13
+MWIS producer conservative objective upper bound,31057.85
+Hybrid conservative objective upper bound,31009.751
+Hybrid schedule absolute gap bound,0.0
+Hybrid schedule relative gap bound (%),0.0
+MILP incomplete components attempted,1
+MILP components proven optimal,1
+MILP components unresolved,0
+MILP solver time (seconds),1.5164277000003494
+Triangle-LP fallback solver time (seconds),0.0
+Original annealed schedule absolute gap bound,203.57400000000052
+Original annealed schedule relative gap bound (%),0.6554671363278545
+Exact global objective,31009.751
+Certification,hybrid schedule matches the summed component upper bounds
+QPU solver,Advantage_system6
+QPU access time (seconds),6.2266252799999995
+Mean chain break fraction,0.0013605850156618393
+Max physical qubits per terminal,347
+Max chain length,9
