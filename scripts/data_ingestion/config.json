@@ -30,8 +30,8 @@
   },
   "slots": {
     "slot_length_seconds": 120,
-    "step_size_seconds": 30,
-    "reconfiguration_time_seconds": 120,
+    "step_size_seconds": 60,
+    "reconfiguration_time_seconds": 180,
     "priority_random_seed": 20260531,
     "priority_weight": 0.45,
     "duration_weight": 0.25,
