@@ -10,8 +10,9 @@ Operational model (synthetic: gateway maintenance and reconfiguration logs are n
 
 Steps
     1. load the Layer C windows
-    2. cut every window into slots of `min_contact_duration_seconds` (from the "visibility"
-       section), starting every `step_size_seconds`, that fit entirely inside the window
+    2. cut every window into slots of `slot_length_seconds`, starting every `step_size_seconds`,
+       that fit entirely inside the window. Configs without `slot_length_seconds` (datasets v1
+       and v2) use `min_contact_duration_seconds` of the "visibility" section, as before
     3. give every window a priority, urgency and weight, inherited by all its slots:
          priority  1-5, a hash of (seed, NORAD id), +1 when max elevation >= 60 deg and
                    -1 when < 20 deg
@@ -91,13 +92,13 @@ def deterministic_integer(min_value: int, max_value: int, *parts: object) -> int
 
 # ---------------------------------------------------------------- E1: candidate slots
 
-def generate_candidate_slots(windows: pd.DataFrame, scenario_start: pd.Timestamp, contact_seconds: int,
+def generate_candidate_slots(windows: pd.DataFrame, scenario_start: pd.Timestamp, slot_seconds: int,
                              step_seconds: int, reconfiguration_seconds: float) -> pd.DataFrame:
-    """Cut every window into slots of `contact_seconds`, one every `step_seconds`, that fit inside it.
+    """Cut every window into slots of `slot_seconds`, one every `step_seconds`, that fit inside it.
 
     Slots are sorted by (start_time, station_id, norad_id, index in parent) and numbered SLOT_000001, ...
     """
-    contact = pd.Timedelta(seconds=contact_seconds)
+    contact = pd.Timedelta(seconds=slot_seconds)
     step = pd.Timedelta(seconds=step_seconds)
     records = []
     for window in windows.itertuples(index=False):
@@ -120,8 +121,8 @@ def generate_candidate_slots(windows: pd.DataFrame, scenario_start: pd.Timestamp
                 "end_time": current_end.isoformat(),
                 "start_time_hours": (current_start - scenario_start).total_seconds() / 3600,
                 "end_time_hours": (current_end - scenario_start).total_seconds() / 3600,
-                "duration_seconds": contact_seconds,
-                "duration_hours": contact_seconds / 3600,
+                "duration_seconds": slot_seconds,
+                "duration_hours": slot_seconds / 3600,
                 "parent_visibility_start": window.start_time.isoformat(),
                 "parent_visibility_end": window.end_time.isoformat(),
                 "parent_visibility_duration_seconds": window_duration_seconds,
@@ -135,7 +136,7 @@ def generate_candidate_slots(windows: pd.DataFrame, scenario_start: pd.Timestamp
             current_start += step
 
     if not records:
-        raise ValueError("No candidate slots were generated: no window is as long as the minimum contact.")
+        raise ValueError("No candidate slots were generated: no window is as long as the slot length.")
     slots = pd.DataFrame.from_records(records)
     slots = slots.sort_values(["start_time", "station_id", "norad_id", "candidate_index_in_parent"]).reset_index(drop=True)
     slots.insert(0, "slot_id", [f"SLOT_{index:06d}" for index in range(1, len(slots) + 1)])
@@ -188,7 +189,10 @@ def compute_window_metadata(windows: pd.DataFrame, scenario_start: pd.Timestamp,
 
 def add_slot_weights(slots: pd.DataFrame, metadata: pd.DataFrame, contact_seconds: int,
                      step_seconds: int) -> pd.DataFrame:
-    """Attach the parent-window metadata and the scenario labels to every slot."""
+    """Attach the parent-window metadata and the scenario labels to every slot.
+
+    `contact_seconds` is the Layer C minimum window length (`min_contact_duration_seconds`),
+    recorded as metadata; the slot length itself is in `duration_seconds`."""
     slots = slots.merge(metadata, on="parent_window_id", how="left")
     if slots["weight"].isna().any():
         raise ValueError("Some candidate slots could not inherit parent opportunity metadata.")
@@ -201,12 +205,15 @@ def add_slot_weights(slots: pd.DataFrame, metadata: pd.DataFrame, contact_second
 
 # ---------------------------------------------------------------- pipeline
 
-def validate_settings(config: dict, contact_seconds: int) -> None:
+def validate_settings(config: dict, slot_seconds: int, contact_seconds: int) -> None:
     step_seconds = config["step_size_seconds"]
-    if step_seconds <= 0 or contact_seconds <= 0:
-        raise ValueError("Contact duration and step size must be positive.")
-    if step_seconds > contact_seconds:
-        raise ValueError("step_size_seconds should be less than or equal to min_contact_duration_seconds.")
+    if step_seconds <= 0 or slot_seconds <= 0:
+        raise ValueError("Slot length and step size must be positive.")
+    if step_seconds > slot_seconds:
+        raise ValueError("step_size_seconds should be less than or equal to slot_length_seconds.")
+    if slot_seconds > contact_seconds:
+        log.warning("slot_length_seconds (%d) exceeds min_contact_duration_seconds (%d): windows shorter "
+                    "than the slot get no slots.", slot_seconds, contact_seconds)
     if config["reconfiguration_time_seconds"] < 0:
         raise ValueError("reconfiguration_time_seconds cannot be negative.")
     weights = [config[name] for name in ("priority_weight", "duration_weight", "urgency_weight", "elevation_weight")]
@@ -214,14 +221,15 @@ def validate_settings(config: dict, contact_seconds: int) -> None:
         raise ValueError("Weight coefficients cannot be negative.")
 
 
-def build_slot_table(config: dict, contact_seconds: int, windows_path: Path) -> pd.DataFrame:
-    """Run Layer E end to end and return the weighted slots."""
-    validate_settings(config, contact_seconds)
+def build_slot_table(config: dict, slot_seconds: int, contact_seconds: int, windows_path: Path) -> pd.DataFrame:
+    """Run Layer E end to end and return the weighted slots of `slot_seconds` each.
+    `contact_seconds` is the Layer C minimum window length, used for checks and metadata only."""
+    validate_settings(config, slot_seconds, contact_seconds)
     step_seconds = config["step_size_seconds"]
 
     windows = load_visibility_windows(windows_path)
     scenario_start, scenario_end = time_bounds(windows)
-    slots = generate_candidate_slots(windows, scenario_start, contact_seconds, step_seconds,
+    slots = generate_candidate_slots(windows, scenario_start, slot_seconds, step_seconds,
                                      config["reconfiguration_time_seconds"])
     check_slots_inside_parents(slots, windows)
     metadata = compute_window_metadata(windows, scenario_start, scenario_end, config)
@@ -252,9 +260,15 @@ def main(argv: list[str] | None = None) -> None:
     full_config = json.loads(args.config.read_text(encoding="utf-8"))
     config = full_config[CONFIG_SECTION]
     contact_seconds = full_config["visibility"]["min_contact_duration_seconds"]
+    # older configs (datasets v1, v2) have no slot_length_seconds: their slots were as long as
+    # the minimum contact, so fall back to it and they stay reproducible
+    slot_seconds = config.get("slot_length_seconds", contact_seconds)
+    log.info("Slot length %d s (%s), step %d s", slot_seconds,
+             "slot_length_seconds" if "slot_length_seconds" in config else "min_contact_duration_seconds",
+             config["step_size_seconds"])
     windows_path = args.windows or DEFAULT_IN_DIR / full_config["visibility"]["output_csv_name"]
 
-    slots = build_slot_table(config, contact_seconds, windows_path)
+    slots = build_slot_table(config, slot_seconds, contact_seconds, windows_path)
 
     args.out_dir.mkdir(parents=True, exist_ok=True)
     slots_path = args.out_dir / config["output_csv_name"]

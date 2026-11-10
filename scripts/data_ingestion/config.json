@@ -25,12 +25,13 @@
     "elevation_mask_deg": 25.0,
     "satellite_subset_size": 20000,
     "gateway_subset_size": 1000,
-    "min_contact_duration_seconds": 240,
+    "min_contact_duration_seconds": 120,
     "output_csv_name": "starlink_visibility_windows.csv"
   },
   "slots": {
-    "step_size_seconds": 120,
-    "reconfiguration_time_seconds": 180,
+    "slot_length_seconds": 120,
+    "step_size_seconds": 30,
+    "reconfiguration_time_seconds": 120,
     "priority_random_seed": 20260531,
     "priority_weight": 0.45,
     "duration_weight": 0.25,
