@@ -25,6 +25,9 @@ Steps
 The scenario horizon is the earliest start and latest end of the windows, rounded outwards to
 the minute; slot times are also given in hours from its start (`*_hours` columns).
 
+Every stage is logged, and the two long ones (cutting the windows into slots, writing the CSV)
+show a progress bar on stderr: redrawn in place on a terminal, one line per 10% in a log file.
+
 Run from anywhere, for example:
     python scripts/data_ingestion/slots.py
     python scripts/data_ingestion/slots.py --windows my/windows.csv --out-dir data/my_run
@@ -36,6 +39,8 @@ import argparse
 import hashlib
 import json
 import logging
+import sys
+import time
 from pathlib import Path
 
 import pandas as pd
@@ -51,8 +56,44 @@ WINDOW_COLUMNS = ("window_id", "satellite_name", "norad_id", "station_id", "stat
 METADATA_COLUMNS = ("priority", "urgency", "priority_norm", "duration_norm", "urgency_norm", "elevation_norm",
                     "weight")
 FULL_SCENARIO_TAG = "starlink_realistic_discretized_full"
+WRITE_CHUNK_ROWS = 200_000
 
 log = logging.getLogger("data_ingestion.slots")
+
+
+class Progress:
+    """Progress bar on stderr for `total` items. On a terminal the bar is redrawn in place (at
+    most a few times per second); when stderr is redirected one line is written per 10%."""
+
+    BAR_WIDTH = 30
+
+    def __init__(self, label: str, total: int, unit: str):
+        self.label, self.total, self.unit = label, max(total, 1), unit
+        self.start = self.last_draw = time.monotonic()
+        self.tty = sys.stderr.isatty()
+        self.last_decile = -1
+
+    def update(self, done_items: int, extra: str = "") -> None:
+        fraction = min(done_items / self.total, 1.0)
+        now = time.monotonic()
+        if self.tty:
+            if now - self.last_draw < 0.25 and fraction < 1:
+                return
+        else:
+            decile = int(fraction * 10)
+            if decile == self.last_decile:
+                return
+            self.last_decile = decile
+        self.last_draw = now
+        elapsed = now - self.start
+        eta = f", ~{elapsed / fraction - elapsed:.0f} s left" if 0 < fraction < 1 else ""
+        filled = int(fraction * self.BAR_WIDTH)
+        line = (f"{self.label} [{'#' * filled}{'.' * (self.BAR_WIDTH - filled)}] {fraction:4.0%} "
+                f"{done_items:,}/{self.total:,} {self.unit}{extra}, {elapsed:.0f} s{eta}")
+        if self.tty:
+            print("\r" + f"{line:<110}", end="\n" if fraction >= 1 else "", file=sys.stderr, flush=True)
+        else:
+            print(line, file=sys.stderr, flush=True)
 
 
 # ---------------------------------------------------------------- inputs
@@ -101,7 +142,10 @@ def generate_candidate_slots(windows: pd.DataFrame, scenario_start: pd.Timestamp
     contact = pd.Timedelta(seconds=slot_seconds)
     step = pd.Timedelta(seconds=step_seconds)
     records = []
-    for window in windows.itertuples(index=False):
+    progress = Progress("Cutting windows", len(windows), "windows")
+    for window_number, window in enumerate(windows.itertuples(index=False), start=1):
+        if window_number % 1000 == 0:
+            progress.update(window_number, f" -> {len(records):,} slots")
         window_duration_seconds = int((window.end_time - window.start_time).total_seconds())
         latest_start = window.end_time - contact
         current_start = window.start_time
@@ -134,10 +178,13 @@ def generate_candidate_slots(windows: pd.DataFrame, scenario_start: pd.Timestamp
             })
             local_index += 1
             current_start += step
+    progress.update(len(windows), f" -> {len(records):,} slots")
 
     if not records:
         raise ValueError("No candidate slots were generated: no window is as long as the slot length.")
+    log.info("Building the slot table and sorting %d slots ...", len(records))
     slots = pd.DataFrame.from_records(records)
+    del records
     slots = slots.sort_values(["start_time", "station_id", "norad_id", "candidate_index_in_parent"]).reset_index(drop=True)
     slots.insert(0, "slot_id", [f"SLOT_{index:06d}" for index in range(1, len(slots) + 1)])
     return slots
@@ -227,10 +274,13 @@ def build_slot_table(config: dict, slot_seconds: int, contact_seconds: int, wind
     validate_settings(config, slot_seconds, contact_seconds)
     step_seconds = config["step_size_seconds"]
 
+    log.info("Loading windows from %s ...", windows_path)
     windows = load_visibility_windows(windows_path)
     scenario_start, scenario_end = time_bounds(windows)
+    log.info("Loaded %d windows", len(windows))
     slots = generate_candidate_slots(windows, scenario_start, slot_seconds, step_seconds,
                                      config["reconfiguration_time_seconds"])
+    log.info("Checking slots against their windows and computing the weights ...")
     check_slots_inside_parents(slots, windows)
     metadata = compute_window_metadata(windows, scenario_start, scenario_end, config)
     slots = add_slot_weights(slots, metadata, contact_seconds, step_seconds)
@@ -240,6 +290,15 @@ def build_slot_table(config: dict, slot_seconds: int, contact_seconds: int, wind
              scenario_start.isoformat(), scenario_end.isoformat(), len(slots), parents_with_slots, len(windows),
              len(windows) - parents_with_slots, slots["norad_id"].nunique(), slots["station_id"].nunique())
     return slots
+
+
+def write_slots(slots: pd.DataFrame, path: Path) -> None:
+    """Write the slot table in chunks of WRITE_CHUNK_ROWS rows (same text as a single to_csv)."""
+    progress = Progress("Writing slots  ", len(slots), "slots")
+    for start in range(0, len(slots), WRITE_CHUNK_ROWS):
+        slots.iloc[start:start + WRITE_CHUNK_ROWS].to_csv(
+            path, index=False, mode="w" if start == 0 else "a", header=start == 0)
+        progress.update(min(start + WRITE_CHUNK_ROWS, len(slots)))
 
 
 def parse_args(argv: list[str] | None = None) -> argparse.Namespace:
@@ -272,7 +331,7 @@ def main(argv: list[str] | None = None) -> None:
 
     args.out_dir.mkdir(parents=True, exist_ok=True)
     slots_path = args.out_dir / config["output_csv_name"]
-    slots.to_csv(slots_path, index=False)
+    write_slots(slots, slots_path)
     log.info("Saved %d weighted slots to %s", len(slots), slots_path)
 
 
