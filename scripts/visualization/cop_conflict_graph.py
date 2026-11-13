@@ -22,8 +22,8 @@ the PNG, <stem>_cop_nodes.csv (per satellite: domain size, degree, component, be
 The input is the path to one slot CSV.
 
 Example:
-    .venv/Scripts/python.exe visualization/cop_conflict_graph.py data/test/slots_s500_g50.csv
-    .venv/Scripts/python.exe visualization/cop_conflict_graph.py data/test/slots_s500_g50.csv --store-csv
+    .venv/Scripts/python.exe scripts/visualization/cop_conflict_graph.py data/test/slots_s500_g50.csv
+    .venv/Scripts/python.exe scripts/visualization/cop_conflict_graph.py data/test/slots_s500_g50.csv --store-csv
 """
 
 from __future__ import annotations
@@ -42,12 +42,12 @@ import networkx as nx  # noqa: E402
 import numpy as np  # noqa: E402
 import pandas as pd  # noqa: E402
 
-PROJECT_ROOT = Path(__file__).resolve().parents[1]
+PROJECT_ROOT = Path(__file__).resolve().parents[2]
 sys.path.insert(0, str(PROJECT_ROOT / "src"))
 from CSP import CSP, CSP_Variable, Timeslot  # noqa: E402
 from CSP_decomposition import dominance_reduction  # noqa: E402
 
-DEFAULT_OUT_DIR = Path(__file__).resolve().parent / f"plot_{Path(__file__).stem}"  # visualization/plot_<script name>
+DEFAULT_OUT_DIR = Path(__file__).resolve().parent / f"plot_{Path(__file__).stem}"  # scripts/visualization/plot_<script name>
 COLUMNS = ["slot_id", "satellite_name", "antenna_id", "start_time_hours", "end_time_hours",
            "reconfiguration_time_hours", "weight"]
 TOP_COMPONENTS = 10  # components with their own colour in the reduced-graph panel
@@ -179,7 +179,7 @@ def main(argv: list[str] | None = None) -> None:
     parser = argparse.ArgumentParser(description=__doc__.splitlines()[0])
     parser.add_argument("slots", type=Path, help="path to the slot CSV")
     parser.add_argument("--out-dir", type=Path, default=DEFAULT_OUT_DIR,
-                        help="default: visualization/plot_cop_conflict_graph/")
+                        help="default: scripts/visualization/plot_cop_conflict_graph/")
     parser.add_argument("--dpi", type=int, default=150)
     parser.add_argument("--seed", type=int, default=0, help="seed of the spring layout")
     parser.add_argument("--store-csv", action="store_true",

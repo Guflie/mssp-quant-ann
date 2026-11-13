@@ -34,13 +34,13 @@ Inputs:
                    us-clusters variants the table of aggregated stations in data/test/intermediate/ is
                    picked from the slot file name
 --station takes station ids or parts of station names (default: every station of the slot CSV).
-Output: visualization/plot_station_overlaps/<slot file stem>/ (or --out-dir).
+Output: scripts/visualization/plot_station_overlaps/<slot file stem>/ (or --out-dir).
 
 The basemap and its colours come from results/_graphics/station_map.py.
 
 Example:
-    .venv/Scripts/python.exe visualization/station_overlaps.py data/test/starlink_scheduling_slots_s500_g50_deg60.csv --station Milwaukee
-    .venv/Scripts/python.exe visualization/station_overlaps.py data/test/starlink_scheduling_slots_s500_g50_deg60.csv --full-horizon
+    .venv/Scripts/python.exe scripts/visualization/station_overlaps.py data/test/starlink_scheduling_slots_s500_g50_deg60.csv --station Milwaukee
+    .venv/Scripts/python.exe scripts/visualization/station_overlaps.py data/test/starlink_scheduling_slots_s500_g50_deg60.csv --full-horizon
 """
 
 from __future__ import annotations
@@ -60,7 +60,7 @@ from matplotlib.collections import LineCollection, PolyCollection  # noqa: E402
 from matplotlib.lines import Line2D  # noqa: E402
 from skyfield.api import EarthSatellite, load, wgs84  # noqa: E402
 
-PROJECT_ROOT = Path(__file__).resolve().parents[1]
+PROJECT_ROOT = Path(__file__).resolve().parents[2]
 sys.path.insert(0, str(PROJECT_ROOT / "results" / "_graphics"))
 from station_map import BORDER_COLOR, LAND_COLOR, OCEAN_COLOR, load_country_outlines  # noqa: E402
 
@@ -73,7 +73,7 @@ VARIANT_GATEWAYS = {
     "us-clusters-intl": TEST_INTERMEDIATE / "starlink_scheduling_slots_us_clusters_intl_gateways.csv",
     "us-clusters": TEST_INTERMEDIATE / "starlink_scheduling_slots_us_clusters_gateways.csv",
 }
-DEFAULT_OUT_DIR = Path(__file__).resolve().parent / f"plot_{Path(__file__).stem}"  # visualization/plot_<script name>
+DEFAULT_OUT_DIR = Path(__file__).resolve().parent / f"plot_{Path(__file__).stem}"  # scripts/visualization/plot_<script name>
 SLOT_COLUMNS = ["slot_id", "parent_window_id", "satellite_name", "norad_id", "station_id", "start_time", "end_time",
                 "max_elevation_deg", "source_epoch"]
 COVERAGE, OVERLAP, PARTNER = "tab:blue", "tab:orange", "#9e0142"
@@ -422,7 +422,7 @@ def main(argv: list[str] | None = None) -> None:
     parser.add_argument("--gateways", type=Path, default=None,
                         help="station table with coordinates (default: picked from the slot file name)")
     parser.add_argument("--out-dir", type=Path, default=None,
-                        help="default: visualization/plot_station_overlaps/<slot file stem>/")
+                        help="default: scripts/visualization/plot_station_overlaps/<slot file stem>/")
     parser.add_argument("--pass", dest="pass_choice", choices=list(PASS_LABEL), default="overlap",
                         help="the pass each satellite's orbit is centred on: the one with the most overlapping slot "
                              "pairs (default), the highest max elevation, or the earliest")

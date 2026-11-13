@@ -17,13 +17,13 @@ One row per significant component:
     max_domain          largest domain
     qubo_variables      QUBO variables (one per slot in both encodings)
     couplers_<encoding> logical couplings: non-zero off-diagonal QUBO coefficients
-Written to <stem>_components_qubo.csv in --out-dir (default visualization/plot_cop_qubo_components/)
+Written to <stem>_components_qubo.csv in --out-dir (default scripts/visualization/plot_cop_qubo_components/)
 and printed.
 
 The input is the path to one slot CSV.
 
 Example:
-    .venv/Scripts/python.exe visualization/cop_qubo_components.py data/test/slots_s500_g50.csv
+    .venv/Scripts/python.exe scripts/visualization/cop_qubo_components.py data/test/slots_s500_g50.csv
 """
 
 from __future__ import annotations
@@ -36,7 +36,7 @@ from pathlib import Path
 import pandas as pd
 
 HERE = Path(__file__).resolve().parent
-PROJECT_ROOT = HERE.parent
+PROJECT_ROOT = HERE.parents[1]
 sys.path.insert(0, str(PROJECT_ROOT / "src"))
 sys.path.insert(0, str(HERE))
 from CSP import CSP  # noqa: E402
@@ -44,7 +44,7 @@ from CSP_decomposition import dominance_reduction, split_connected_components  #
 from CSP_to_QUBO import csp_to_qubo  # noqa: E402
 from cop_conflict_graph import COLUMNS, build_csp  # noqa: E402
 
-DEFAULT_OUT_DIR = HERE / f"plot_{Path(__file__).stem}"  # visualization/plot_<script name>
+DEFAULT_OUT_DIR = HERE / f"plot_{Path(__file__).stem}"  # scripts/visualization/plot_<script name>
 ENCODINGS = ("domain_wall", "one_hot")
 
 
@@ -105,7 +105,7 @@ def main(argv: list[str] | None = None) -> None:
     parser.add_argument("--min-satellites", type=int, default=2,
                         help="smallest component reported (smaller ones are trivial)")
     parser.add_argument("--out-dir", type=Path, default=DEFAULT_OUT_DIR,
-                        help="default: visualization/plot_cop_qubo_components/")
+                        help="default: scripts/visualization/plot_cop_qubo_components/")
     args = parser.parse_args(argv)
     if not args.slots.is_file():
         parser.error(f"slot CSV not found: {args.slots}")
