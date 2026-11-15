@@ -11,3 +11,4 @@ data/test/intermediate
 
 ### --- new dataset instances --- ###
 data/dataset/starlink/windows/*.csv
+data/exp_datasets/slots_g50_strat_seed65416843/*.csv
