@@ -1,0 +1,42 @@
+{
+  "satellites": {
+    "tle_url": "https://celestrak.org/NORAD/elements/gp.php?GROUP=starlink&FORMAT=tle",
+    "download_timeout_seconds": 300,
+    "subset_size": 200000,
+    "tle_cache_name": "starlink_celestrak_latest.tle",
+    "output_csv_name": "starlink_satellite_subset.csv"
+  },
+  "gateways": {
+    "rows_api_url": "https://datasets-server.huggingface.co/rows",
+    "dataset_id": "28hery/starlink-ground-stations",
+    "dataset_config": "gateways",
+    "dataset_split": "train",
+    "rows_per_request": 100,
+    "download_timeout_seconds": 300,
+    "raw_cache_name": "starlink_gateways_raw.json",
+    "output_csv_name": "starlink_gateways_clean.csv"
+  },
+  "visibility": {
+    "horizon_start_utc": "auto",
+    "horizon_start_offset_hours": 1,
+    "max_epoch_distance_days": 3,
+    "horizon_hours": 24,
+    "time_step_seconds": 20,
+    "elevation_mask_deg": 50.0,
+    "satellite_subset_size": 20000,
+    "gateway_subset_size": 1000,
+    "min_contact_duration_seconds": 60,
+    "output_csv_name": "starlink_visibility_windows.csv"
+  },
+  "slots": {
+    "slot_length_seconds": 60,
+    "step_size_seconds": 20,
+    "reconfiguration_time_seconds": 120,
+    "priority_random_seed": 20260531,
+    "priority_weight": 0.45,
+    "duration_weight": 0.25,
+    "urgency_weight": 0.20,
+    "elevation_weight": 0.10,
+    "output_csv_name": "starlink_scheduling_slots.csv"
+  }
+}

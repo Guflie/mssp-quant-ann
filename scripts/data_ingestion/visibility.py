@@ -19,9 +19,10 @@ first visible sample and ends at its first non-visible sample (at the last sampl
 still open at the end of the horizon).
 
 Minimum contact
-    A window shorter than `min_contact_duration_seconds` cannot host any scheduled contact, so it
-    is dropped here rather than carried through Layers D and E. The same setting is the length
-    of the candidate slots built from the windows in Layer E.
+    A window shorter than `min_contact_duration_seconds` is not worth scheduling, so it is
+    dropped here rather than carried through Layer E. The length of the candidate slots built
+    in Layer E is a separate setting, `slot_length_seconds` of the "slots" section (configs
+    without it use `min_contact_duration_seconds` as the slot length).
 
 Horizon start
     SGP4 positions are accurate only within a few days of the TLE epoch, so the horizon must lie
