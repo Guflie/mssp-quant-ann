@@ -1,0 +1,2 @@
+component_id,satellites,constraints,conflict_pairs,avg_domain,max_domain,qubo_variables,couplers_domain_wall,couplers_one_hot,qubo_seconds
+component_001,226,377,884,4.898230088495575,47,1107,2988,7502,0.06
