@@ -59,6 +59,16 @@ TEXT_PRIMARY = "#0b0b0b"
 TEXT_SECONDARY = "#52514e"
 NEUTRAL_EDGE = "#8f8e88"
 
+# figure size: inches per layout unit (0.022 between consecutive bits -> ~0.1 in on paper), clamped
+INCH_PER_UNIT = 4.5
+MIN_PANEL = (8.0, 7.5)      # inches, width x height of one panel at least
+MAX_PANEL = 60.0            # inches, longer side of one panel at most
+MAX_PIXELS = 30000          # longer side of the PNG at most (dpi lowered beyond it)
+TOP_MARGIN, BOTTOM_MARGIN = 1.3, 0.8     # inches for titles and legends
+AUTO_LABELS_ALL = 80        # name every satellite up to this many
+AUTO_LABELS_TOP = 40        # otherwise name only the largest domains
+NODE_FILL = 0.8             # COP node diameter, as a fraction of the satellite's ring of bits
+
 
 # ---------------------------------------------------------------- data
 def load_export(pkl_path: Path) -> dict[str, Any]:
@@ -198,8 +208,22 @@ def draw_edges(ax, segments, colours, widths, alpha=1.0, zorder=1) -> None:
                                          zorder=zorder, capstyle="round"))
 
 
+def figure_geometry(lo: np.ndarray, hi: np.ndarray, scale: float, dpi: int) -> dict[str, Any]:
+    """Panel size grown with the layout, so consecutive bits stay ~INCH_PER_UNIT * BIT_SPACING apart on
+    paper whatever the component size (clamped to MIN_PANEL / MAX_PANEL); dpi lowered if the image
+    would exceed MAX_PIXELS per side."""
+    extent = hi - lo
+    ipu = INCH_PER_UNIT * scale
+    ipu = min(ipu, MAX_PANEL / extent.max())                       # largest panels capped
+    ipu = max(ipu, min(MIN_PANEL[0] / extent[0], MIN_PANEL[1] / extent[1]))   # small components fill the panel
+    panel = extent * ipu
+    width, height = 2 * panel[0] + 1.2, panel[1] + TOP_MARGIN + BOTTOM_MARGIN
+    dpi = min(dpi, int(MAX_PIXELS / max(width, height)))
+    return {"inch_per_unit": ipu, "figsize": (width, height), "dpi": dpi}
+
+
 def plot_component(stem: str, component_id: str, component, qubo: dict, encoding: str,
-                   out_path: Path, seed: int, dpi: int, labels: bool) -> dict[str, Any]:
+                   out_path: Path, seed: int, dpi: int, labels: int, scale: float) -> dict[str, Any]:
     owner = bit_owner(component, qubo["index_map"])
     cop = cop_graph(component)
     qg = qubo_graph(qubo["Q"], owner)
@@ -211,17 +235,23 @@ def plot_component(stem: str, component_id: str, component, qubo: dict, encoding
     encoding_edges = [(i, j) for i, j, d in qg.edges(data=True) if d["kind"] == "encoding"]
     conflict_edges = [(i, j) for i, j, d in qg.edges(data=True) if d["kind"] == "conflict"]
 
-    fig, (ax_cop, ax_qubo) = plt.subplots(1, 2, figsize=(17, 8.8), facecolor=SURFACE)
+    # identical limits on both panels, so they overlay; the figure grows with the layout
+    every = np.array([*pos.values(), *bit_pos.values()])
+    pad = 0.06 * max(np.ptp(every[:, 0]), np.ptp(every[:, 1]), 1e-6)
+    lo, hi = every.min(axis=0) - pad, every.max(axis=0) + pad
+    geometry = figure_geometry(lo, hi, scale, dpi)
+    fig, (ax_cop, ax_qubo) = plt.subplots(1, 2, figsize=geometry["figsize"], facecolor=SURFACE)
 
-    # --- left: COP
+    # --- left: COP; each satellite as wide as NODE_FILL of its ring of bits on the right (the ring grows
+    # with the domain, and rings never overlap, so neither do the nodes)
     max_pairs = max((d["pairs"] for *_, d in cop.edges(data=True)), default=1)
     draw_edges(ax_cop, [(pos[a], pos[b]) for a, b in cop.edges],
                NEUTRAL_EDGE, [0.6 + 3.4 * d["pairs"] / max_pairs for *_, d in cop.edges(data=True)], alpha=0.55)
     names = list(cop)
-    max_domain = max(cop.nodes[n]["domain"] for n in names)
+    node_diameter = {n: 2 * NODE_FILL * radius[n] * geometry["inch_per_unit"] * 72 for n in names}   # points
     ax_cop.scatter([pos[n][0] for n in names], [pos[n][1] for n in names],
-                   s=[40 + 460 * cop.nodes[n]["domain"] / max_domain for n in names],
-                   c=[sat_colour[n] for n in names], edgecolors=SURFACE, linewidths=1.5, zorder=3)
+                   s=[node_diameter[n] ** 2 for n in names],
+                   c=[sat_colour[n] for n in names], edgecolors=SURFACE, linewidths=0.8, zorder=3)
 
     # --- right: QUBO
     draw_edges(ax_qubo, [(bit_pos[i], bit_pos[j]) for i, j in conflict_edges], NEUTRAL_EDGE, 0.5, alpha=0.35)
@@ -231,19 +261,18 @@ def plot_component(stem: str, component_id: str, component, qubo: dict, encoding
     ax_qubo.scatter([bit_pos[b][0] for b in bits], [bit_pos[b][1] for b in bits], s=22,
                     c=[sat_colour[owner[b]] for b in bits], edgecolors=SURFACE, linewidths=0.6, zorder=3)
 
-    # identical limits, so the two panels overlay
-    every = np.array([*pos.values(), *bit_pos.values()])
-    pad = 0.06 * max(np.ptp(every[:, 0]), np.ptp(every[:, 1]), 1e-6)
     for ax in (ax_cop, ax_qubo):
-        ax.set_xlim(every[:, 0].min() - pad, every[:, 0].max() + pad)
-        ax.set_ylim(every[:, 1].min() - pad, every[:, 1].max() + pad)
+        ax.set_xlim(lo[0], hi[0])
+        ax.set_ylim(lo[1], hi[1])
 
-    if labels:
-        for n in names:
-            for ax, offset in ((ax_cop, 0.035 + 0.03 * math.sqrt(cop.nodes[n]["domain"] / max_domain)),
-                               (ax_qubo, radius[n] + 0.03)):
-                ax.annotate(short_name(n), pos[n] + np.array([0, offset]), ha="center", va="bottom",
-                            fontsize=6.5, color=TEXT_SECONDARY, zorder=4)
+    # names: every satellite on small components, the largest domains only on large ones (-1 = auto)
+    n_labels = len(names) if labels < 0 and len(names) <= AUTO_LABELS_ALL else AUTO_LABELS_TOP if labels < 0 else labels
+    labelled = sorted(names, key=lambda n: (-cop.nodes[n]["domain"], n))[:n_labels]
+    point = 1 / (72 * geometry["inch_per_unit"])                    # one typographic point, in layout units
+    for n in labelled:
+        for ax, offset in ((ax_cop, node_diameter[n] / 2 * point + 2 * point), (ax_qubo, radius[n] + 4 * point)):
+            ax.annotate(short_name(n), pos[n] + np.array([0, offset]), ha="center", va="bottom",
+                        fontsize=6.5, color=TEXT_SECONDARY, zorder=4)
 
     style_axis(ax_cop, f"COP  ·  {cop.number_of_nodes()} satellites (variables), "
                        f"{cop.number_of_edges()} constraints, {len(bits)} slots in the domains")
@@ -252,7 +281,8 @@ def plot_component(stem: str, component_id: str, component, qubo: dict, encoding
 
     # one legend per panel, under it: only the symbols drawn in that panel
     legend_cop = [
-        Line2D([], [], marker="o", ls="", color=NEUTRAL_EDGE, markersize=9, label="satellite (COP variable), area ~ domain size"),
+        Line2D([], [], marker="o", ls="", color=NEUTRAL_EDGE, markersize=9,
+               label="satellite (COP variable), as wide as its ring of bits on the right (~ domain size)"),
         Line2D([], [], color=NEUTRAL_EDGE, lw=2.5, alpha=0.6, label="constraint, width ~ conflicting slot pairs"),
     ]
     legend_qubo = [
@@ -261,22 +291,27 @@ def plot_component(stem: str, component_id: str, component, qubo: dict, encoding
                label="encoding coupler, same satellite (" + ("domain-wall chain" if encoding == "domain_wall" else "one-hot pair") + ")"),
         Line2D([], [], color=NEUTRAL_EDGE, lw=0.8, alpha=0.6, label="conflict coupler, two satellites"),
     ]
-    fig.suptitle(f"{stem}  ·  {component_id}: COP → QUBO", fontsize=13, color=TEXT_PRIMARY, x=0.012, ha="left")
-    fig.text(0.012, 0.935, "colour = satellite: its bits on the right keep its colour and sit around its position "
-             "on the left (satellites that share a constraint or sit close never share a colour)",
-             fontsize=8.5, color=TEXT_SECONDARY, ha="left")
-    fig.tight_layout(rect=(0, 0.07, 1, 0.93))
+    # margins in inches, so titles and legends keep their size whatever the figure height
+    height = geometry["figsize"][1]
+    note = ("colour = satellite: its bits on the right keep its colour and sit around its position "
+            "on the left (satellites that share a constraint or sit close never share a colour)")
+    if n_labels < len(names):
+        note += f"  ·  names of the {n_labels} largest domains only"
+    fig.suptitle(f"{stem}  ·  {component_id}: COP → QUBO", fontsize=13, color=TEXT_PRIMARY, x=0.012, ha="left",
+                 y=1 - 0.25 / height)
+    fig.text(0.012, 1 - 0.62 / height, note, fontsize=8.5, color=TEXT_SECONDARY, ha="left")
+    fig.tight_layout(rect=(0, BOTTOM_MARGIN / height, 1, 1 - TOP_MARGIN / height))
     # legends on the same baseline, each centred under its own panel
     for ax, handles in ((ax_cop, legend_cop), (ax_qubo, legend_qubo)):
         box = ax.get_position()
         fig.legend(handles=handles, loc="lower center", bbox_to_anchor=((box.x0 + box.x1) / 2, 0.0), ncol=2,
                    frameon=False, fontsize=8.5, labelcolor=TEXT_SECONDARY)
     out_path.parent.mkdir(parents=True, exist_ok=True)
-    fig.savefig(out_path, dpi=dpi, facecolor=SURFACE, bbox_inches="tight")
+    fig.savefig(out_path, dpi=geometry["dpi"], facecolor=SURFACE, bbox_inches="tight")
     plt.close(fig)
     return {"component_id": component_id, "satellites": cop.number_of_nodes(), "constraints": cop.number_of_edges(),
             "bits": len(bits), "encoding_couplers": len(encoding_edges), "conflict_couplers": len(conflict_edges),
-            "colour_clashes": clashes}
+            "colour_clashes": clashes, "figsize": geometry["figsize"], "dpi": geometry["dpi"]}
 
 
 def main(argv: list[str] | None = None) -> None:
@@ -284,7 +319,12 @@ def main(argv: list[str] | None = None) -> None:
     parser.add_argument("pkl", type=Path, help="<stem>_components.pkl from scripts/cop_components_export.py")
     parser.add_argument("--components", nargs="+", help="component ids (default: every stored component)")
     parser.add_argument("--encoding", help="QUBO encoding to draw (default: the first one stored)")
-    parser.add_argument("--no-labels", action="store_true", help="do not write the satellite names")
+    parser.add_argument("--labels", type=int, default=-1, metavar="N",
+                        help=f"name the N largest satellites (default: all up to {AUTO_LABELS_ALL} satellites, "
+                             f"else the {AUTO_LABELS_TOP} largest; 0 = none)")
+    parser.add_argument("--no-labels", action="store_true", help="same as --labels 0")
+    parser.add_argument("--scale", type=float, default=1.0,
+                        help="multiply the figure size (default 1: grows with the component, see INCH_PER_UNIT)")
     parser.add_argument("--seed", type=int, default=0, help="seed of the spring layout")
     parser.add_argument("--dpi", type=int, default=200)
     parser.add_argument("--out-dir", type=Path, default=DEFAULT_OUT_DIR,
@@ -307,10 +347,12 @@ def main(argv: list[str] | None = None) -> None:
         out_path = args.out_dir / f"{stem}_{component_id}_{encoding}_cop_qubo.png"
         stats = plot_component(stem, component_id, data["components"][component_id],
                                data["qubos"][component_id][encoding], encoding, out_path,
-                               args.seed, args.dpi, not args.no_labels)
+                               args.seed, args.dpi, 0 if args.no_labels else args.labels, args.scale)
+        w, h = stats["figsize"]
         print(f"{component_id}: {stats['satellites']} satellites, {stats['constraints']} constraints -> "
               f"{stats['bits']} bits, {stats['encoding_couplers']} encoding + {stats['conflict_couplers']} "
-              f"conflict couplers; colour clashes {stats['colour_clashes']}; saved {out_path}")
+              f"conflict couplers; colour clashes {stats['colour_clashes']}; figure {w:.0f} x {h:.0f} in "
+              f"at {stats['dpi']} dpi; saved {out_path}")
 
 
 if __name__ == "__main__":
