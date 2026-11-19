@@ -80,12 +80,13 @@ TEXT_SECONDARY = "#52514e"
 NEUTRAL_EDGE = "#8f8e88"
 UNUSED = "#d6d5cf"
 MUTED = "#bdbcb6"       # logical variables / chains outside the --highlight satellites
-CHAIN_WIDTH = 1.6       # line width of the chain couplers (same logical variable) on the hardware
+CHAIN_WIDTH = 0.7       # line width of the chain couplers (same logical variable) on the hardware
 ZOOM_PAD = 0.04         # --zoom: margin around the used qubits, as a fraction of the box's longer side
 # marker sizes and line widths of the hardware panel: the whole chip has ~25x more qubits in the same space
-ZOOM_SIZES = {"qubit": 16, "qubit_ring": 0.5, "chain_edge": CHAIN_WIDTH, "logical_edge": 0.7,
+# chain couplers (coloured) are drawn as wide as the grey couplers between chains
+ZOOM_SIZES = {"qubit": 7, "qubit_ring": 0.3, "chain_edge": CHAIN_WIDTH, "logical_edge": CHAIN_WIDTH,
               "unused_qubit": 2.5, "unused_edge": 0.3}
-FULL_SIZES = {"qubit": 4, "qubit_ring": 0.0, "chain_edge": 1.0, "logical_edge": 0.35,
+FULL_SIZES = {"qubit": 2, "qubit_ring": 0.0, "chain_edge": 0.35, "logical_edge": 0.35,
               "unused_qubit": 0.6, "unused_edge": 0.15}
 
 TOPOLOGIES = {
@@ -398,7 +399,7 @@ def plot_component(stem: str, component_id: str, component, qubo: dict, encoding
     legend_hw = [
         Line2D([], [], marker="o", ls="", color=NEUTRAL_EDGE, markersize=6, label="physical qubit, colour of its logical variable"),
         Line2D([], [], color=TEXT_SECONDARY, lw=CHAIN_WIDTH, label="chain coupler (same logical variable)"),
-        Line2D([], [], color=NEUTRAL_EDGE, lw=0.8, alpha=0.7, label="coupler between chains, carries a QUBO coupler"),
+        Line2D([], [], color=NEUTRAL_EDGE, lw=CHAIN_WIDTH, alpha=0.7, label="coupler between chains, carries a QUBO coupler"),
         Line2D([], [], marker="o", ls="-", lw=0.4, color=UNUSED, markersize=3, label="unused qubit / coupler"),
     ]
     fig.suptitle(f"{stem}  ·  {component_id}: QUBO → minor embedding", fontsize=13, color=TEXT_PRIMARY,
