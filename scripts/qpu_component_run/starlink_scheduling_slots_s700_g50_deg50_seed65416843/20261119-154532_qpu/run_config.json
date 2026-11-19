@@ -1,0 +1,56 @@
+{
+  "created": "2026-11-19T15:45:32",
+  "mode": "qpu",
+  "source_pickle": "scripts\\cop_components_export\\starlink_scheduling_slots_s700_g50_deg50_seed65416843_components.pkl",
+  "export_metadata": {
+    "source_csv": "data/exp_datasets/slots_g50_strat_seed65416843/starlink_scheduling_slots_s700_g50_deg50_seed65416843.csv",
+    "created": "2026-11-19T15:35:02",
+    "git_commit": "779853fb31b20745a9210830381a5a87d8f55cfa",
+    "src_dirty": false,
+    "satellites": 700,
+    "input_slots": 90937,
+    "dominated_slots": 89114,
+    "components_total": 427,
+    "min_qubo_vars": 226,
+    "qubo_encodings": [
+      "domain_wall",
+      "one_hot"
+    ],
+    "qubo_parameters": {
+      "penalty_onehot": 10.0,
+      "penalty_conflict": 10.0,
+      "penalty_chain": null,
+      "assignment_gain": 5.0
+    },
+    "decomposed": false,
+    "decomposition_settings": null
+  },
+  "components": [
+    "component_001"
+  ],
+  "encoding": "domain_wall",
+  "solver": "Advantage2_system1",
+  "topology": {
+    "type": "zephyr",
+    "shape": [
+      12,
+      4
+    ]
+  },
+  "num_reads": 100,
+  "annealing_time_us": 20.0,
+  "chain_strength_prefactor": 0.3,
+  "qpu_params": {},
+  "budget_seconds": 5.0,
+  "seed": 0,
+  "embedding_tries": 20,
+  "embedding_timeout": 600.0,
+  "config_file": "D:\\Projects\\mmsp-quant-ann\\results\\_config.json",
+  "settings_from_config": {
+    "num_reads": 100,
+    "qpu_time_budget_seconds": 5.0
+  },
+  "git_commit": "779853fb31b20745a9210830381a5a87d8f55cfa",
+  "src_dirty": false,
+  "qpu_access_time_us": 52444.0
+}

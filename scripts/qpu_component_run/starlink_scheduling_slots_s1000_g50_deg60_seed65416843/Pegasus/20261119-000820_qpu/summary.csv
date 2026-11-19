@@ -1,0 +1,2 @@
+component_id,satellites,slots,qubo_variables,qubo_couplers,conflict_pairs,embedding_status
+component_001,312,1301,1301,3296,807,minorminer found no embedding (raise --timeout / --tries)
